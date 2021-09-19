@@ -1,0 +1,58 @@
+{
+
+    "@context": {
+        "Persona": "http://www.tarea2/Persona/",
+        "name": "http://www.tarea2/Persona/name",
+        "hometown": "http://www.tarea2/Persona/hometown",
+        "age": "http://www.tarea2/Persona/age",
+        "almaMater": "http://www.tarea2/Persona/almaMater",
+        "parent": "http://www.tarea2/Persona/parent",
+        "subject": "http://www.tarea2/Persona/subject"
+    },
+
+    "@id": "Guillermo",
+    "@type": "Persona",
+    "name": "Guillermo",
+    "hometown":"Madrid",
+    "age":"21",
+    "almaMater":"UPM",
+    "Padres": [
+        {
+        "@id": "Name:Carmen"
+        },
+        {
+        "@id": "Name:Fernando"
+        }
+    ],
+
+    "Subjects": [
+        {
+            "@id": "Name:WebSemantics",
+            "Description": "Se analizan las ciencias del Linked Data",
+            "Proffessor": "ocorcho"
+        },
+        {
+            "@id": "Name:RDF",
+            "Description": "Se analizan las ciencias del Reconocimiento de Formas",
+            "Proffessor": "Luis"
+        },
+        {
+            "@id": "Name:INGESOFT2",
+            "Description": "Se analizan las ciencias de la ingenieria del software",
+            "Proffessor": "Tomas San Feliu"
+        },
+        {
+            "@id": "Name:GPTI",
+            "Description": "Se analizan las ciencias de GPTI",
+            "Proffessor": "Edmundo Tovar"
+        },
+        {
+            "@id": "Name:SDP",
+            "Description": "Se analizan las ciencias de los sistemas de planificación",
+            "Proffessor": "Vicente"
+        }
+    ]
+
+}
+
+

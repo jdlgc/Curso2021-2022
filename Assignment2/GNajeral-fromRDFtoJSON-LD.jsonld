@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "c": "http://www.tarea2/class01",
+        "s": "http://www.tarea2/sensor029",
+        "pc": "http://www.tarea2/computer101",
+        "m": "http://www.tarea2/measurement8401",
+        "u": "http://www.tarea2/user10A",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    
+        "@id": "c:class01",
+        "@type" : "c",
+        "c:includes": [
+            {
+                "@id": "s:sensor029",
+                "@type": "s",
+                "s:hasMeasurement":
+                {
+                    "@id": "m:measurement8401",
+                    "@type": "m",
+                    "m:hasTemeperature":
+                    {
+                        "@id": "xsd:29",
+                        "@type": "xsd:integer"
+                    },
+                    "m:atDate":
+                    {
+                        "@id": "xsd:2010-06-12T12:00:12",
+                        "@type": "xsd:date"
+                    }
+                }
+            },
+            {
+                "@id": "pc:computer101",
+                "@type": "pc",
+                "pc:hasOwner":
+                {
+                    "@id": "u:user10A",
+                    "@type": "u",
+                    "u:hasName":
+                    {
+                        "@id": "pedro"
+                    }
+                }
+            }
+            
+        ]
+            
+}
