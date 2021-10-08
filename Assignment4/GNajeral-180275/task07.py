@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib 
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -35,6 +35,12 @@ q = prepareQuery('''
 for r in g.query(q):
   print(r.x)
 
+#RDFLIB
+print("\nRDFlib")
+
+for s, p, o in g.triples((None, RDFS.subClassOf, NS.Person)):
+  print(s)
+
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
 """
@@ -53,6 +59,15 @@ q = prepareQuery('''
 for r in g.query(q):
   print(r.x)
 
+#RDFLIB
+
+print("\nRDFlib")
+
+subclass = g.value(subject = None, predicate = RDF.type, object = NS.Researcher) 
+print(subclass)
+for s, p, o in g.triples((None, RDF.type, NS.Person)):
+  print(s)
+
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
 
 """
@@ -69,3 +84,16 @@ q = prepareQuery('''
  )
 for r in g.query(q):
   print(r.x, r.y)
+
+#RDFLIB
+
+print("\nRDFlib")
+
+subclass = g.value(None, RDFS.subClassOf, NS.Person)
+subperson = g.value(None, RDF.type, subclass)
+for s,p,o in g.triples((None, RDF.type, NS.Person)):
+  for a,b,c in g.triples((s, None, None)):
+    print(a,b)
+
+for s,p,o in g.triples((subperson, None, None)):
+  print(s,p)
