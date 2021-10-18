@@ -48,16 +48,17 @@ for s, p, o in g.triples((None, RDFS.subClassOf, NS.Person)):
 from rdflib.plugins.sparql import prepareQuery
 NS = Namespace("http://somewhere#")
 q = prepareQuery('''
-   SELECT ?x WHERE { 
-     {?x a ns:Person}
+   SELECT ?s WHERE { 
+     {?s rdf:type ns:Person}
      UNION
-     {?x a ns:Researcher}
+     {?x rdfs:subClassOf ns:Person.
+       ?s rdf:type ?x}
    }
    ''',
    initNs = { "ns": NS}
  )
 for r in g.query(q):
-  print(r.x)
+  print(r.s)
 
 #RDFLIB
 
@@ -75,15 +76,19 @@ for s, p, o in g.triples((None, RDF.type, NS.Person)):
 from rdflib.plugins.sparql import prepareQuery
 NS = Namespace("http://somewhere#")
 q = prepareQuery('''
-   SELECT ?x ?y WHERE { 
-     ?x a ns:Person.
-     ?x ?y ?z.
+   SELECT ?s ?p WHERE { 
+     {?s rdf:type ns:Person.
+       ?s ?p ?o} 
+     UNION 
+     {?s rdf:type ?x.
+       ?s ?p ?o.
+       ?x rdfs:subClassOf ns:p}
    }
    ''',
    initNs = { "ns": NS}
  )
 for r in g.query(q):
-  print(r.x, r.y)
+  print(r.s, r.p)
 
 #RDFLIB
 

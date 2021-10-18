@@ -1,21 +1,17 @@
 
 @base <http://www.tarea2/> .
-@prefix c: <http://www.tarea2/class01>.
-@prefix s: <http://www.tarea2/sensor029>.
-@prefix pc: <http://www.tarea2/computer101>.
-@prefix m: <http://www.tarea2/measurement8401>.
-@prefix u: <http://www.tarea2/user10A>.
+@prefix c: <http://www.tarea2/class01#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 c:class01 
-	c:includes s:sensor029;
-	c:includes pc:computer101.
-s:sensor029
-	s:hasMeasurement m:measurement8401.
-pc:computer101
-	pc:hasOwner u:user10A.
-m:measurement8401
-	m:hasTemperature "29"^^xsd:integer;
-	m:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
-u:user10A
-	u:hasName "Pedro".
+	c:includes c:sensor029;
+	c:includes c:computer101.
+c:sensor029
+	c:hasMeasurement c:measurement8401.
+c:computer101
+	c:hasOwner c:user10A.
+c:measurement8401
+	c:hasTemperature "29"^^xsd:integer;
+	c:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+c:user10A
+	c:hasName "Pedro".
