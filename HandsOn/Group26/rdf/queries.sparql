@@ -18,22 +18,22 @@ SELECT ?local
 WHERE{
         ?local rdf:type schema:LocalBusiness.
 	?local nsp:containedIn ?neighborhood.
-	?neighborhood nsp:locatedIn http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/SALAMANCA
+	?neighborhood nsp:locatedIn <http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/Salamanca>
 }
 
 
 #Devuelve el codigo postal del Local Cafeteria Parisiena.
-SELECT ?postalcode
+SELECT ?local ?postalcode
 WHERE{
-	?local dc:title "CAFETERIA PARISIENA".
-        ?local schema:address ?PoltalAdress.
-	?PoltalAdress schema:postalCode ?postalcode
+    ?local dc:title "BAR HOGAR".
+    ?local schema:adress ?adress.
+    ?adress schema:postalCode ?postalcode
 }
 
 #Devuelve el barrio en que se encuentra un local dado su ID.
 SELECT ?neighborhood
 WHERE{
-	?local nsp:hasID 170000836.
+	?local nsp:hasID "170000836"^^xsd:integer.
 	?local nsp:containedIn ?neighborhood
 }
 
