@@ -1,0 +1,903 @@
+[
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADAS",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 2,
+    "description": "Split column COORDENADAS by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADAS 1",
+    "newColumnName": "LATITUD",
+    "description": "Rename column COORDENADAS 1 to LATITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADAS 2",
+    "newColumnName": "LONGITUD",
+    "description": "Rename column COORDENADAS 2 to LONGITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CONCELLO",
+    "newColumnName": "AYUNTAMIENTO",
+    "description": "Rename column CONCELLO to AYUNTAMIENTO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CÓDIGO CONCELLO",
+    "newColumnName": "CÓDIGO AYUNTAMIENTO",
+    "description": "Rename column CÓDIGO CONCELLO to CÓDIGO AYUNTAMIENTO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PRAIA",
+    "newColumnName": "PLAYA",
+    "description": "Rename column PRAIA to PLAYA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LUGAR E PARROQUIA",
+    "newColumnName": "UBICACIÓN",
+    "description": "Rename column LUGAR E PARROQUIA to UBICACIÓN"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONXITUDE",
+    "newColumnName": "LONGITUD PLAYA",
+    "description": "Rename column LONXITUDE to LONGITUD PLAYA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO",
+    "newColumnName": "TIPO PLAYA",
+    "description": "Rename column TIPO to TIPO PLAYA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO DE AREA",
+    "newColumnName": "TIPO DE ARENA",
+    "description": "Rename column TIPO DE AREA to TIPO DE ARENA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MÁIS INFORMACIÓN EN TURGALICIA",
+    "newColumnName": "MÁS INFORMACIÓN",
+    "description": "Rename column MÁIS INFORMACIÓN EN TURGALICIA to MÁS INFORMACIÓN"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD PLAYA",
+    "expression": "grel:value.replace(\". \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD PLAYA using expression grel:value.replace(\". \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD PLAYA",
+    "expression": "grel:value.replace(\".\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD PLAYA using expression grel:value.replace(\".\", \"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CÓDIGO PROVINCIA",
+    "newColumnName": "CODIGO-PROVINCIA",
+    "description": "Rename column CÓDIGO PROVINCIA to CODIGO-PROVINCIA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CÓDIGO AYUNTAMIENTO",
+    "newColumnName": "CODIGO-AYUNTAMIENTO",
+    "description": "Rename column CÓDIGO AYUNTAMIENTO to CODIGO-AYUNTAMIENTO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "UBICACIÓN",
+    "newColumnName": "UBICACION",
+    "description": "Rename column UBICACIÓN to UBICACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONGITUD PLAYA",
+    "newColumnName": "LONGITUD-PLAYA",
+    "description": "Rename column LONGITUD PLAYA to LONGITUD-PLAYA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO PLAYA",
+    "newColumnName": "TIPO-PLAYA",
+    "description": "Rename column TIPO PLAYA to TIPO-PLAYA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO DE ARENA",
+    "newColumnName": "TIPO-DE-ARENA",
+    "description": "Rename column TIPO DE ARENA to TIPO-DE-ARENA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MÁS INFORMACIÓN",
+    "newColumnName": "MAS-INFORMACION",
+    "description": "Rename column MÁS INFORMACIÓN to MAS-INFORMACION"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "expression": "value.replace(\"ñ\",\"n\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PROVINCIA using expression value.replace(\"ñ\",\"n\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value.replace(\"ñ\",\"n\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AYUNTAMIENTO using expression value.replace(\"ñ\",\"n\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PLAYA",
+    "expression": "value.replace(\"ñ\",\"n\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PLAYA using expression value.replace(\"ñ\",\"n\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"ñ\",\"n\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"ñ\",\"n\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value.replace(\"á\",\"a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AYUNTAMIENTO using expression value.replace(\"á\",\"a\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value.replace(\"é\",\"e\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AYUNTAMIENTO using expression value.replace(\"é\",\"e\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value.replace(\"í\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AYUNTAMIENTO using expression value.replace(\"í\",\"i\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value.replace(\"ó\",\"o\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AYUNTAMIENTO using expression value.replace(\"ó\",\"o\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AYUNTAMIENTO using expression value.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PLAYA",
+    "expression": "value.replace(\"á\",\"a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PLAYA using expression value.replace(\"á\",\"a\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PLAYA",
+    "expression": "value.replace(\"é\",\"e\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PLAYA using expression value.replace(\"é\",\"e\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PLAYA",
+    "expression": "value.replace(\"É\",\"E\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PLAYA using expression value.replace(\"É\",\"E\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PLAYA",
+    "expression": "value.replace(\"í\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PLAYA using expression value.replace(\"í\",\"i\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PLAYA",
+    "expression": "value.replace(\"ó\",\"o\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PLAYA using expression value.replace(\"ó\",\"o\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PLAYA",
+    "expression": "value.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PLAYA using expression value.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"á\",\"a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"á\",\"a\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"é\",\"e\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"é\",\"e\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"É\",\"e\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"É\",\"e\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"í\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"í\",\"i\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"ó\",\"o\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"ó\",\"o\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value.replace(\"É\",\"E\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AYUNTAMIENTO using expression value.replace(\"É\",\"E\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO-PLAYA",
+    "expression": "grel:value.replace(\"Praia resgardada\", \"Playa resguardada\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO-PLAYA using expression grel:value.replace(\"Praia resgardada\", \"Playa resguardada\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO-PLAYA",
+    "expression": "grel:value.replace(\"Praia aberta\", \"Playa abierta\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO-PLAYA using expression grel:value.replace(\"Praia aberta\", \"Playa abierta\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO-DE-ARENA",
+    "expression": "grel:value.replace(\"Grosa\", \"Gruesa\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO-DE-ARENA using expression grel:value.replace(\"Grosa\", \"Gruesa\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\"–\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\"–\",\"-\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Coruna, A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Coruna"
+      }
+    ],
+    "description": "Mass edit cells in column PROVINCIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Coruna, A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Coruna"
+      }
+    ],
+    "description": "Mass edit cells in column AYUNTAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Guarda, A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Guarda"
+      }
+    ],
+    "description": "Mass edit cells in column AYUNTAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Illa de Arousa, A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Illa de Arousa"
+      }
+    ],
+    "description": "Mass edit cells in column AYUNTAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Laracha, A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Laracha"
+      }
+    ],
+    "description": "Mass edit cells in column AYUNTAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grove, O"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "O Grove"
+      }
+    ],
+    "description": "Mass edit cells in column AYUNTAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pobra do Caraminal, A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Pobra do Caraminal"
+      }
+    ],
+    "description": "Mass edit cells in column AYUNTAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pesqueira, A - Castro (Santa Maria)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Pesqueira - Castro (Santa Maria)"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Praia America, A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Praia America"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "expression": "value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PROVINCIA using expression value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AYUNTAMIENTO using expression value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PLAYA",
+    "expression": "value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PLAYA using expression value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UBICACION using expression value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO-PLAYA",
+    "expression": "value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO-PLAYA using expression value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Illa_de_Arousa,_A_(San_Xulian)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "(San_Xulian)_A_Illa_de_Arousa"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "(San_Xulian)_A_Illa_de_Arousa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A_Illa_de_Arousa_(San_Xulian)"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AYUNTAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vicedo,_O"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "O_Vicedo"
+      }
+    ],
+    "description": "Mass edit cells in column AYUNTAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO-DE-ARENA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cantos rodados"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cantos_rodados"
+      }
+    ],
+    "description": "Mass edit cells in column TIPO-DE-ARENA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vilaxoan_-__Sobran_(San_Martino)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vilaxoan_-_Sobran_(San_Martino)"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q162620",
+        "name": "province of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column PROVINCIA to type Q162620"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PROVINCIA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "PROVINCIA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "similarValue": "A_Coruna",
+    "judgment": "matched",
+    "match": {
+      "id": "Q82119",
+      "name": "A Coruña Province",
+      "types": [
+        "Q162620"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item A Coruña Province (Q82119) for cells containing \"A_Coruna\" in column PROVINCIA"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "SAME-AS-WIKIDATA-PROVINCE",
+    "columnInsertIndex": 1,
+    "description": "Create column SAME-AS-WIKIDATA-PROVINCE at index 1 based on column PROVINCIA using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  }
+]
