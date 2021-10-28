@@ -824,5 +824,80 @@
       }
     ],
     "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q162620",
+        "name": "province of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column PROVINCIA to type Q162620"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PROVINCIA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "PROVINCIA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "similarValue": "A_Coruna",
+    "judgment": "matched",
+    "match": {
+      "id": "Q82119",
+      "name": "A Coruña Province",
+      "types": [
+        "Q162620"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item A Coruña Province (Q82119) for cells containing \"A_Coruna\" in column PROVINCIA"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "SAME-AS-WIKIDATA-PROVINCE",
+    "columnInsertIndex": 1,
+    "description": "Create column SAME-AS-WIKIDATA-PROVINCE at index 1 based on column PROVINCIA using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
   }
 ]
