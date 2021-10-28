@@ -1,0 +1,25 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbr: <http://www.banderasazulesgalicia.com#>
+PREFIX res: <http://www.banderasazulesgalicia.com#>
+
+
+#Query1
+SELECT ?playa 
+WHERE {
+    ?playa rdf:type dbr:Tipo-de-Arena.
+    ?playa owl:sameAs <valor>
+}
+
+#Query2
+SELECT ?playa,?tipoPlaya
+WHERE{
+    ?playa,?tipoPlaya rdf:type dbr:Provincia.
+    ?playa,?tipoPlaya owl:sameAs <valor>
+}
+
+#Query3
+SELECT ?tipoArena 
+WHERE{
+    ?tipoArena  rdf:type dbr:Playa.
+    ?tipoArena  owl:sameAs <valor>
+}
