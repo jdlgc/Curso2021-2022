@@ -170,7 +170,7 @@
     rr:objectMap [
       rml:reference "PLAYA"
       ]
-
+	];
    rr:predicateObjectMap [
     rr:predicate vocab: latitud;
     rr:objectMap [
@@ -297,7 +297,7 @@
     rr:objectMap [
       rml:reference "PLAYA"
       ]
-	  
+	]; 
 	rr:predicateObjectMap [
     rr:predicate vocab:ubicadaEn;
     rr:objectMap [
