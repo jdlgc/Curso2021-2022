@@ -1,0 +1,145 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rc: <http://smartcity.smartbins.es/lcc/ontology/recycle#> .
+
+<#Bin> a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/papeleras_madrid_update-with-links.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    rr:subjectMap [
+        rr:template "http://smartcity.smartbins.es/lcc/resource/Bin/{id}";
+        rr:termType rr:IRI; rr:class rc:Bin
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:predicate rc:hasAlarm;
+            rr:termType rr:IRI
+        ];
+        rr:objectMap [
+            rml:reference "alarm"
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap[
+            rr:predicate rc:hasType;
+            rr:termType rr:IRI
+        ];
+        rr:objectMap [
+            rml:reference "Bin"
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap[
+            rr:predicate rc:hasDate;
+            rr:termType rr:IRI
+        ];
+        rr:objectMap [
+            rml:reference "date";
+            rr:datatype xsd:dateTime
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap[
+            rr:predicate rc:levelOfFullnes;
+            rr:termType rr:IRI
+        ];
+        rr:objectMap [
+            rml:reference "levelOfFullnes";
+            rr:datatype xsd:integer
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap[
+            rr:predicate rc:hasLon;
+            rr:termType rr:IRI
+        ] ;
+        rr:objectMap [
+            rml:reference "lon";
+            rr:datatype xsd:decimal
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap[
+            rr:template rc:hasLat;
+            rr:termType rr:IRI
+        ];
+        rr:objectMap [
+            rml:reference "lat";
+            rr:datatype xsd:decimal
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap[
+            rr:predicate rc:hasLocationName;
+            rr:termType rr:IRI
+        ];
+        rr:objectMap [
+            rml:reference "Place"
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:constant owl:sameAs;
+            rr:termType rr:IRI
+        ];
+        rr:objectMap [
+            rml:reference "same_as_wikidata_recycling";
+            rr:termType rr:IRI
+        ]
+    ]
+.
+
+<#Product> a rr:TriplesMap;
+ rml:logicalSource [
+        rml:source "data/products-with-links.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    rr:subjectMap [
+        rr:template "http://smartcity.smartbins.es/lcc/resource/Product/{id}";
+        rr:termType rr:IRI; rr:class rc:Product
+    ];
+    rr:predicateObjectMap [
+        rr:predicate rc:hasName;
+        rr:objectMap [
+            rml:reference "Product"
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap[
+            rr:predicate rc:hasType;
+            rr:termType rr:IRI    
+        ];
+        rr:objectMap [
+            rml:reference "WasteType"
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap[
+            rr:template rc:recycledIn;
+            rr:termType rr:IRI    
+        ];
+        rr:objectMap [
+            rr:parentTriplesMap <#Bin>;
+            rr:joinCondition [
+                rr:child "WasteType";
+                rr:parent "Bin";
+             ];
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:constant owl:sameAs;
+            rr:termType rr:IRI
+        ];
+        rr:objectMap [
+            rml:reference "same_as_wikidata_product";
+            rr:termType rr:IRI
+        ]
+    ]
+.

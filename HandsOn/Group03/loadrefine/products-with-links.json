@@ -975,5 +975,103 @@
         "op": "core/column-removal",
         "columnName": "same_as_wikidata_wastetype",
         "description": "Remove column same_as_wikidata_wastetype"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Pop tab",
+        "judgment": "matched",
+        "match": {
+            "id": "Q2488579",
+            "name": "lid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item lid (Q2488579) for cells containing \"Pop tab\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Other plastic wrapper",
+        "judgment": "matched",
+        "match": {
+            "id": "Q3360230",
+            "name": "packaging",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item packaging (Q3360230) for cells containing \"Other plastic wrapper\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Other plastic",
+        "judgment": "matched",
+        "match": {
+            "id": "Q11474",
+            "name": "plastic",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic (Q11474) for cells containing \"Other plastic\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Crisp packet",
+        "judgment": "matched",
+        "match": {
+            "id": "Q498439",
+            "name": "plastic bag",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic bag (Q498439) for cells containing \"Crisp packet\" in column Product"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "same_as_wikidata_product",
+        "description": "Remove column same_as_wikidata_product"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "Product",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_wikidata_product",
+        "columnInsertIndex": 2,
+        "description": "Create column same_as_wikidata_product at index 2 based on column Product using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
     }
 ]

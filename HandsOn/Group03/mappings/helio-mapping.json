@@ -1,0 +1,23 @@
+{
+    "datasources": [
+        {
+            "id": "RDF file",
+            "handler": {
+                "type": "RDFHandler",
+                "format": "NT"
+            },
+            "provider": {
+                "type": "FileProvider",
+                "file": "./recycle_triples-with-links.nt"
+            }
+        }
+    ],
+    "resource_rules": [
+        {
+            "id": "RDF file rules",
+            "datasource_ids": [
+                "RDF file"
+            ]
+        }
+    ]
+}
