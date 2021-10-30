@@ -1,0 +1,33 @@
+PREFIX bici: <http://www.biciwhere-madrid.es/bwm/ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?Subject ?o
+WHERE { 
+    ?Subject bici:hasDescription ?o . 
+  }
+
+SELECT ?Subject ?o
+WHERE {
+	?Subject owl:sameAs ?o
+}
+
+SELECT ?Subject ?z
+WHERE {
+	?Subject owl:sameAs ?o.
+	?Subject bici:hasDistrictCode ?z
+}
+
+SELECT ?Subject ?z ?y
+  WHERE { 
+    ?Subject owl:sameAs ?o .
+    ?Subject bici:hasLongitude ?z .
+    ?Subject bici:hasLatitude ?y .
+
+  }
+  ORDER BY ASC(?Subject)
+
+SELECT  ?o
+WHERE { 
+    bici2:234 owl:sameAs ?o .
+    
+  }
