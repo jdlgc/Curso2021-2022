@@ -1,0 +1,55 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  vocab: http://www.reciclamadrid.es/ontology#
+  
+mappings:
+  AddressMap:
+    source:
+      - [./RecyclePoint.csv~csv]
+    s: http://www.reciclamadrid.es/recycle/Address/$(NAME)
+    po:
+      - [a, vocab:Address]
+      - [vocab:ROAD_TYPE,$(ROAD_TYPE),xsd:string]
+      - [vocab:ROAD_NAME,$(ROAD_NAME),xsd:string]
+      - [vocab:NUM_TYPE,$(NUM_TYPE),xsd:string]
+      - [vocab:NUM,$(NUM),xsd:string]
+      - [vocab:DISTRICT_CODE,$(DISTRICT_CODE),xsd:string]
+      - [vocab:DISTRICT,$(DISTRICT),xsd:string]
+      
+  CoordinatesMap:
+    source:
+      - [./RecyclePoint.csv~csv]
+    s: http://www.reciclamadrid.es/recycle/Coordinates/$(NAME)
+    po:
+      - [a, vocab:Coordinates]
+      - [vocab:UTMX,$(UTMX),xsd:float]
+      - [vocab:UTMY,$(UTMY),xsd:float]
+
+  RecyclePointMap:
+    source:
+      - [./RecyclePoint.csv~csv]
+    s: http://www.reciclamadrid.es/recycle/RecyclePoint/$(NAME)
+    po:
+      - [a, vocab:RecyclePoint]
+      - [vocab:NAME,$(NAME),xsd:string]
+      - [vocab:DATA_TYPE,$(DATA_TYPE),xsd:string]
+      - [vocab:CENTER,$(CENTER),xsd:string]
+      - [vocab:SCHEDULE,$(SCHEDULE),xsd:string]
+      - [vocab:WASTE,$(WASTE),xsd:string]
+      - p: vocab:hasAddress
+        o:
+        - mapping: AddressMap
+          condition:
+            function: equal
+            parameters:
+              - [ str1, $(NAME) ]
+              - [ str2, $(NAME) ]
+
+      - p: vocab:hasCoordinates
+        o:
+        - mapping: CoordinatesMap
+          condition:
+            function: equal
+            parameters:
+              - [ str1, $(NAME) ]
+              - [ str2, $(NAME) ]
