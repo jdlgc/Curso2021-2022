@@ -49,6 +49,10 @@
 
 :postalAddress rdf:type owl:Class.
 
+:district rdf:type owl:Class.
+
+:neighborhood rdf:type owl:Class.
+
 :hasStreetName rdf:type owl:ObjectProperty;
         rdfs:domain :postalAddress;
         rdfs:range xsd:string.
@@ -63,10 +67,10 @@
                 rdfs:range xsd:integer.
 
 :hasNeighborhood rdf:type owl:ObjectProperty ;
-        rdfs:domain :postalAddress ;
+        rdfs:domain :neighborhood ;
         rdfs:range xsd:string .
 :hasDistrict rdf:type owl:ObjectProperty ;
-                         rdfs:domain :postalAddress ;
+                         rdfs:domain :district ;
                          rdfs:range xsd:string.
 
 
