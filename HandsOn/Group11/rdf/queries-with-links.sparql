@@ -1,0 +1,284 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+PREFIX acc: <http://safemadrid.linkeddata.es/ontology/accidentalidad#> .
+PREFIX owl: <http://www.w3.org/2002/07/owl#> .
+
+# Consultamos las Uris de todos los distritos de todos los accidentes con mujeres
+
+  SELECT ?Subject ?Name ?Uri WHERE { 
+    ?Subject rdf:type acc:accidente.
+    ?Subject acc:hasSEXO "Mujer".
+    ?Subject acc:hasDISTRITO ?Object.
+    ?Object owl:sameAs ?Uri.
+    ?Object acc:hasNAME ?Name.
+  }
+
+# http://safemadrid.linkeddata.es/Accidente/147 Usera https://wikidata.org/entity/Q953368
+# http://safemadrid.linkeddata.es/Accidente/126 San Blas https://wikidata.org/entity/Q2001937
+# http://safemadrid.linkeddata.es/Accidente/52 Carabanchel https://wikidata.org/entity/Q1001991
+# http://safemadrid.linkeddata.es/Accidente/18 Villaverde https://wikidata.org/entity/Q919536
+# http://safemadrid.linkeddata.es/Accidente/89 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/68 Usera https://wikidata.org/entity/Q953368
+# http://safemadrid.linkeddata.es/Accidente/26 Tetuán https://wikidata.org/entity/Q1773540
+# http://safemadrid.linkeddata.es/Accidente/4 Hortaleza https://wikidata.org/entity/Q1928529
+# http://safemadrid.linkeddata.es/Accidente/129 Villa de Vallecas https://wikidata.org/entity/Q1947988
+# http://safemadrid.linkeddata.es/Accidente/34 Barajas https://wikidata.org/entity/Q807230
+# http://safemadrid.linkeddata.es/Accidente/108 Fuencarral-El Pardo https://wikidata.org/entity/Q656196
+# http://safemadrid.linkeddata.es/Accidente/13 Arganzuela https://wikidata.org/entity/Q2000929
+# http://safemadrid.linkeddata.es/Accidente/21 Tetuán https://wikidata.org/entity/Q1773540
+# http://safemadrid.linkeddata.es/Accidente/92 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/124 San Blas https://wikidata.org/entity/Q2001937
+# http://safemadrid.linkeddata.es/Accidente/58 Moratalaz https://wikidata.org/entity/Q2076109
+# http://safemadrid.linkeddata.es/Accidente/111 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/37 Puente de Vallecas https://wikidata.org/entity/Q2003054
+# http://safemadrid.linkeddata.es/Accidente/45 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/24 Tetuán https://wikidata.org/entity/Q1773540
+# http://safemadrid.linkeddata.es/Accidente/127 Villa de Vallecas https://wikidata.org/entity/Q1947988
+# http://safemadrid.linkeddata.es/Accidente/19 Moncloa-Aravaca https://wikidata.org/entity/Q2017682
+# http://safemadrid.linkeddata.es/Accidente/90 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/101 Chamberí https://wikidata.org/entity/Q1763370
+# http://safemadrid.linkeddata.es/Accidente/14 Tetuán https://wikidata.org/entity/Q1773540
+# http://safemadrid.linkeddata.es/Accidente/93 Ciudad Lineal https://wikidata.org/entity/Q1763694
+# http://safemadrid.linkeddata.es/Accidente/133 Chamartín https://wikidata.org/entity/Q1766348
+# http://safemadrid.linkeddata.es/Accidente/54 Usera https://wikidata.org/entity/Q953368
+# http://safemadrid.linkeddata.es/Accidente/115 Arganzuela https://wikidata.org/entity/Q2000929
+# http://safemadrid.linkeddata.es/Accidente/123 Carabanchel https://wikidata.org/entity/Q1001991
+# http://safemadrid.linkeddata.es/Accidente/49 Puente de Vallecas https://wikidata.org/entity/Q2003054
+# http://safemadrid.linkeddata.es/Accidente/102 Fuencarral-El Pardo https://wikidata.org/entity/Q656196
+# http://safemadrid.linkeddata.es/Accidente/110 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/36 Puente de Vallecas https://wikidata.org/entity/Q2003054
+# http://safemadrid.linkeddata.es/Accidente/65 Centro https://wikidata.org/entity/Q1763376
+# http://safemadrid.linkeddata.es/Accidente/44 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/118 Hortaleza https://wikidata.org/entity/Q1928529
+
+
+# Consultamos las Uris de todos los barrios de todos los accidentes de tipo alcance
+
+  SELECT ?Name ?Uri WHERE { 
+    ?Subject rdf:type acc:accidente.
+    ?Subject acc:hasTIPO_ACCIDENTE "Alcance".
+    ?Subject acc:ocurreEN ?Object.
+    ?Object owl:sameAs ?Uri.
+    ?Object acc:hasBARRIO ?Name.
+  }
+
+# Pradolongo https://wikidata.org/entity/Q10352360
+# Orcasur https://wikidata.org/entity/Q10341270
+# El Zofío https://wikidata.org/entity/Q71751
+# Moscardó https://wikidata.org/entity/Q11937679
+# San Fermín (Madrid) https://wikidata.org/entity/Q71758
+# Orcasitas https://wikidata.org/entity/Q3773941
+# Almendrales https://wikidata.org/entity/Q9604761
+# Mirasierra https://wikidata.org/entity/Q31134
+# La Paz https://wikidata.org/entity/Q5869740
+# Peñagrande https://wikidata.org/entity/Q3319582
+# Fuentelarreina https://wikidata.org/entity/Q10286156
+# El Pardo https://wikidata.org/entity/Q3314337
+# El Pilar https://wikidata.org/entity/Q3773964
+# El Goloso https://wikidata.org/entity/Q10271137
+# Valverde https://wikidata.org/entity/Q31132
+# Vista Alegre https://wikidata.org/entity/Q3813741
+# Comillas https://wikidata.org/entity/Q955844
+# Abrantes https://wikidata.org/entity/Q3773949
+# Puerta Bonita https://wikidata.org/entity/Q3813762
+# Buenavista https://wikidata.org/entity/Q953929
+# San Isidro https://wikidata.org/entity/Q3813733
+# Opañel https://wikidata.org/entity/Q3813756
+# Palomeras Sureste https://wikidata.org/entity/Q10343901
+# Entrevías https://wikidata.org/entity/Q71756
+# San Diego https://wikidata.org/entity/Q11946851
+# Palomeras Bajas https://wikidata.org/entity/Q10343902
+# Numancia https://wikidata.org/entity/Q10338144
+# Portazgo https://wikidata.org/entity/Q18005921
+# Santa Eugenia https://wikidata.org/entity/Q390463
+# Ensanche de Vallecas https://wikidata.org/entity/Q3847485
+# Casco Histórico de Vallecas https://wikidata.org/entity/Q16544370
+# Cuatro Vientos https://wikidata.org/entity/Q5191881
+# Campamento https://wikidata.org/entity/Q31169
+# Lucero https://wikidata.org/entity/Q31162
+# Las Águilas https://wikidata.org/entity/Q5971372
+# Los Cármenes https://wikidata.org/entity/Q10319792
+# Barrio de Puerta del Ángel https://wikidata.org/entity/Q31142
+# Aluche https://wikidata.org/entity/Q31140
+# Bellas Vistas https://wikidata.org/entity/Q11908929
+# Almenara https://wikidata.org/entity/Q2265427
+# Valdeacederas https://wikidata.org/entity/Q10388711
+# Castillejos https://wikidata.org/entity/Q11913212
+# Berruguete https://wikidata.org/entity/Q11909208
+# Cuatro Caminos https://wikidata.org/entity/Q5824684
+# El Goloso https://wikidata.org/entity/Q10271137
+# Fuentelarreina https://wikidata.org/entity/Q10286156
+# Mirasierra https://wikidata.org/entity/Q31134
+# La Paz https://wikidata.org/entity/Q5869740
+# El Pardo https://wikidata.org/entity/Q3314337
+# El Pilar https://wikidata.org/entity/Q3773964
+# Peñagrande https://wikidata.org/entity/Q3319582
+# Valverde https://wikidata.org/entity/Q31132
+# Bellas Vistas https://wikidata.org/entity/Q11908929
+# Valdeacederas https://wikidata.org/entity/Q10388711
+# Berruguete https://wikidata.org/entity/Q11909208
+# Cuatro Caminos https://wikidata.org/entity/Q5824684
+# Almenara https://wikidata.org/entity/Q2265427
+# Castillejos https://wikidata.org/entity/Q11913212
+# Lucero https://wikidata.org/entity/Q31162
+# Las Águilas https://wikidata.org/entity/Q5971372
+# Cuatro Vientos https://wikidata.org/entity/Q5191881
+# Barrio de Puerta del Ángel https://wikidata.org/entity/Q31142
+# Aluche https://wikidata.org/entity/Q31140
+# Campamento https://wikidata.org/entity/Q31169
+# Los Cármenes https://wikidata.org/entity/Q10319792
+# Orcasitas https://wikidata.org/entity/Q3773941
+# Orcasur https://wikidata.org/entity/Q10341270
+# El Zofío https://wikidata.org/entity/Q71751
+# San Fermín (Madrid) https://wikidata.org/entity/Q71758
+# Moscardó https://wikidata.org/entity/Q11937679
+# Almendrales https://wikidata.org/entity/Q9604761
+# Pradolongo https://wikidata.org/entity/Q10352360
+# Valverde https://wikidata.org/entity/Q31132
+# Fuentelarreina https://wikidata.org/entity/Q10286156
+# La Paz https://wikidata.org/entity/Q5869740
+# El Pilar https://wikidata.org/entity/Q3773964
+# El Goloso https://wikidata.org/entity/Q10271137
+# Mirasierra https://wikidata.org/entity/Q31134
+# El Pardo https://wikidata.org/entity/Q3314337
+# Peñagrande https://wikidata.org/entity/Q3319582
+# Universidad https://wikidata.org/entity/Q10387767
+# Sol https://wikidata.org/entity/Q2465181
+# Palacio https://wikidata.org/entity/Q2136510
+# Embajadores https://wikidata.org/entity/Q2449844
+# Cortes https://wikidata.org/entity/Q2535637
+# Justicia https://wikidata.org/entity/Q1992319
+# Almenara https://wikidata.org/entity/Q2265427
+# Castillejos https://wikidata.org/entity/Q11913212
+# Berruguete https://wikidata.org/entity/Q11909208
+# Valdeacederas https://wikidata.org/entity/Q10388711
+# Cuatro Caminos https://wikidata.org/entity/Q5824684
+# Bellas Vistas https://wikidata.org/entity/Q11908929
+# Almendrales https://wikidata.org/entity/Q9604761
+# Moscardó https://wikidata.org/entity/Q11937679
+# Orcasur https://wikidata.org/entity/Q10341270
+# Pradolongo https://wikidata.org/entity/Q10352360
+# El Zofío https://wikidata.org/entity/Q71751
+# Orcasitas https://wikidata.org/entity/Q3773941
+# San Fermín (Madrid) https://wikidata.org/entity/Q71758
+# Orcasitas https://wikidata.org/entity/Q3773941
+# Almendrales https://wikidata.org/entity/Q9604761
+# Pradolongo https://wikidata.org/entity/Q10352360
+# Orcasur https://wikidata.org/entity/Q10341270
+# El Zofío https://wikidata.org/entity/Q71751
+# Moscardó https://wikidata.org/entity/Q11937679
+# San Fermín (Madrid) https://wikidata.org/entity/Q71758
+# El Pardo https://wikidata.org/entity/Q3314337
+# Fuentelarreina https://wikidata.org/entity/Q10286156
+# El Pilar https://wikidata.org/entity/Q3773964
+# El Goloso https://wikidata.org/entity/Q10271137
+# Valverde https://wikidata.org/entity/Q31132
+# Mirasierra https://wikidata.org/entity/Q31134
+# La Paz https://wikidata.org/entity/Q5869740
+# Peñagrande https://wikidata.org/entity/Q3319582
+# Comillas https://wikidata.org/entity/Q955844
+# Opañel https://wikidata.org/entity/Q3813756
+# Abrantes https://wikidata.org/entity/Q3773949
+# Vista Alegre https://wikidata.org/entity/Q3813741
+# Puerta Bonita https://wikidata.org/entity/Q3813762
+# Buenavista https://wikidata.org/entity/Q953929
+# San Isidro https://wikidata.org/entity/Q3813733
+# Ensanche de Vallecas https://wikidata.org/entity/Q3847485
+# Santa Eugenia https://wikidata.org/entity/Q390463
+# Casco Histórico de Vallecas https://wikidata.org/entity/Q16544370
+# Cuatro Vientos https://wikidata.org/entity/Q5191881
+# Aluche https://wikidata.org/entity/Q31140
+# Las Águilas https://wikidata.org/entity/Q5971372
+# Campamento https://wikidata.org/entity/Q31169
+# Los Cármenes https://wikidata.org/entity/Q10319792
+# Barrio de Puerta del Ángel https://wikidata.org/entity/Q31142
+# Lucero https://wikidata.org/entity/Q31162
+# El Pilar https://wikidata.org/entity/Q3773964
+# El Goloso https://wikidata.org/entity/Q10271137
+# El Pardo https://wikidata.org/entity/Q3314337
+# Peñagrande https://wikidata.org/entity/Q3319582
+# Mirasierra https://wikidata.org/entity/Q31134
+# La Paz https://wikidata.org/entity/Q5869740
+# Valverde https://wikidata.org/entity/Q31132
+# Fuentelarreina https://wikidata.org/entity/Q10286156
+# Castillejos https://wikidata.org/entity/Q11913212
+# Almenara https://wikidata.org/entity/Q2265427
+# Berruguete https://wikidata.org/entity/Q11909208
+# Valdeacederas https://wikidata.org/entity/Q10388711
+# Cuatro Caminos https://wikidata.org/entity/Q5824684
+# Bellas Vistas https://wikidata.org/entity/Q11908929
+# Almendrales https://wikidata.org/entity/Q9604761
+# Pradolongo https://wikidata.org/entity/Q10352360
+# Orcasitas https://wikidata.org/entity/Q3773941
+# Orcasur https://wikidata.org/entity/Q10341270
+# El Zofío https://wikidata.org/entity/Q71751
+# San Fermín (Madrid) https://wikidata.org/entity/Q71758
+# Moscardó https://wikidata.org/entity/Q11937679
+# El Pardo https://wikidata.org/entity/Q3314337
+# Valverde https://wikidata.org/entity/Q31132
+# Peñagrande https://wikidata.org/entity/Q3319582
+# El Pilar https://wikidata.org/entity/Q3773964
+# El Goloso https://wikidata.org/entity/Q10271137
+# Fuentelarreina https://wikidata.org/entity/Q10286156
+# La Paz https://wikidata.org/entity/Q5869740
+# Mirasierra https://wikidata.org/entity/Q31134
+# Palomeras Bajas https://wikidata.org/entity/Q10343902
+# Numancia https://wikidata.org/entity/Q10338144
+# Entrevías https://wikidata.org/entity/Q71756
+# Portazgo https://wikidata.org/entity/Q18005921
+# Palomeras Sureste https://wikidata.org/entity/Q10343901
+# San Diego https://wikidata.org/entity/Q11946851
+# Berruguete https://wikidata.org/entity/Q11909208
+# Castillejos https://wikidata.org/entity/Q11913212
+# Cuatro Caminos https://wikidata.org/entity/Q5824684
+# Bellas Vistas https://wikidata.org/entity/Q11908929
+# Valdeacederas https://wikidata.org/entity/Q10388711
+# Almenara https://wikidata.org/entity/Q2265427
+# Valdezarza https://wikidata.org/entity/Q10388728
+# Casa de Campo https://wikidata.org/entity/Q16302441
+# Ciudad Universitaria https://wikidata.org/entity/Q3319235
+# Valdemarín https://wikidata.org/entity/Q10388725
+# El Plantío https://wikidata.org/entity/Q3773742
+# Argüelles https://wikidata.org/entity/Q64874
+# Aravaca https://wikidata.org/entity/Q3314682
+# Mirasierra https://wikidata.org/entity/Q31134
+# Peñagrande https://wikidata.org/entity/Q3319582
+# Fuentelarreina https://wikidata.org/entity/Q10286156
+# El Pardo https://wikidata.org/entity/Q3314337
+# El Pilar https://wikidata.org/entity/Q3773964
+# Valverde https://wikidata.org/entity/Q31132
+# El Goloso https://wikidata.org/entity/Q10271137
+# La Paz https://wikidata.org/entity/Q5869740
+# Campamento https://wikidata.org/entity/Q31169
+# Cuatro Vientos https://wikidata.org/entity/Q5191881
+# Las Águilas https://wikidata.org/entity/Q5971372
+# Los Cármenes https://wikidata.org/entity/Q10319792
+# Aluche https://wikidata.org/entity/Q31140
+# Lucero https://wikidata.org/entity/Q31162
+# Barrio de Puerta del Ángel https://wikidata.org/entity/Q31142
+# El Pardo https://wikidata.org/entity/Q3314337
+# Fuentelarreina https://wikidata.org/entity/Q10286156
+# Mirasierra https://wikidata.org/entity/Q31134
+# Valverde https://wikidata.org/entity/Q31132
+# Peñagrande https://wikidata.org/entity/Q3319582
+# La Paz https://wikidata.org/entity/Q5869740
+# El Pilar https://wikidata.org/entity/Q3773964
+# El Goloso https://wikidata.org/entity/Q10271137
+# Palacio https://wikidata.org/entity/Q2136510
+# Cortes https://wikidata.org/entity/Q2535637
+# Sol https://wikidata.org/entity/Q2465181
+# Universidad https://wikidata.org/entity/Q10387767
+# Justicia https://wikidata.org/entity/Q1992319
+# Embajadores https://wikidata.org/entity/Q2449844
+# Berruguete https://wikidata.org/entity/Q11909208
+# Castillejos https://wikidata.org/entity/Q11913212
+# Cuatro Caminos https://wikidata.org/entity/Q5824684
+# Bellas Vistas https://wikidata.org/entity/Q11908929
+# Valdeacederas https://wikidata.org/entity/Q10388711
+# Almenara https://wikidata.org/entity/Q2265427
+# Moscardó https://wikidata.org/entity/Q11937679
+# Pradolongo https://wikidata.org/entity/Q10352360
+# El Zofío https://wikidata.org/entity/Q71751
+# Orcasitas https://wikidata.org/entity/Q3773941
+# Orcasur https://wikidata.org/entity/Q10341270
+# Almendrales https://wikidata.org/entity/Q9604761
+# San Fermín (Madrid) https://wikidata.org/entity/Q71758
