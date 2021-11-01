@@ -1,352 +1,352 @@
-TIPO_DATO,DIRECCION_COMPLETA,DIRECCION AUXILIAR,CLASE_VIAL,NOMBRE_VIAL,TIPO_NUMERO,NUMERO,COD_DISTRITO,DISTRITO,UTMX,UTMY,LATITUD,LONGITUD,Horario
-Punto Limpio Móvil,"CallePríncipedeVergara,110",,Calle,Príncipe de Vergara,número,110,05,CHAMARTIN,442421.33,4476741.68,40.4393301262956,-3.67890999372858,"LUNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleSanMarcelo,6",,Calle,San Marcelo,número,6,15,CIUDAD LINEAL,444161.68,4475366.47,40.42706013,-3.658269994,"LUNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaDoctorArce,1IntersecciónconPlazadelaRepúblicaArgentina",Intersección con Plaza de la República Argentina,Avenida,Doctor Arce,número,1,05,CHAMARTIN,441900.66,4477410.63,40.44532013,-3.685109994,"LUNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleSanturce,IntersecciónconCalleLuisRuiz",Intersección con Calle Luis Ruiz,Calle,Santurce,,,15,CIUDAD LINEAL,446077.17,4475366.87,40.42719013,-3.635689994,"LUNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CallePradillo,22",,Calle,Pradillo,número,22,05,CHAMARTIN,442881.26,4477772.74,40.44865013,-3.673579994,"LUNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleGómezdeAvellaneda,14",,Calle,Gómez de Avellaneda,número,14,15,CIUDAD LINEAL,445480.21,4476101.61,40.43377013,-3.642789994,"LUNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"PaseodelaDirección,328",,Paseo,de la Dirección,número,328,06,TETUAN,440313.76,4480160.56,40.46998013,-3.704079993,"LUNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CallePadreClaret,17",,Calle,Padre Claret,número,17,05,CHAMARTIN,443640.94,4477637.11,40.44748013,-3.664609994,"LUNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleHierbabuena,13",,Calle,Hierbabuena,número,13,06,TETUAN,440494.07,4479060.15,40.46008013,-3.701849994,"LUNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleJulioDánvila,1Frentealcolegio",Frente al colegio,Calle,Julio Dánvila,número,1,15,CIUDAD LINEAL,443458.44,4480309.3,40.47154013,-3.666999994,"LUNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleSaliente,Frentealnúmero10",Frente al número 10,Calle,Saliente,,,03,RETIRO,443446.55,4474466.02,40.41890013,-3.666619994,"LUNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CallePedroTeixeira,10IntersecciónconCallePoetaJoanMaragall",Intersección con Calle Poeta Joan Maragall,Calle,Pedro Teixeira,número,10,06,TETUAN,441286.56,4478482.2,40.45493013,-3.692449994,"LUNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleJuanDuque,IntersecciónconCalleFósforo",Intersección con Calle Fósforo,Calle,Juan Duque,,,02,ARGANZUELA,438941.39,4473524.5,40.41010013,-3.719629993,"MARTES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleFernandoelCatólico,73",,Calle,Fernando el Católico,número,73,07,CHAMBERI,439239.86,4476218.44,40.43439013,-3.716369993,"MARTES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"PaseoEsperanza,21",,Paseo,Esperanza,número,21,02,ARGANZUELA,440234.97,4472511.69,40.40107013,-3.704289993,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleJoaquínMaríaLópez,54",,Calle,Joaquín María López,número,54,07,CHAMBERI,439312.53,4476603.04,40.43786013,-3.715549993,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleDiligencia,22IntersecciónconCallelaVioletera,frentealViverodeEmpresas","Intersección con Calle la Violetera, frente al Vivero de Empresas",Calle,Diligencia,número,22,13,PUENTE VALLECAS,444302.77,4470488.95,40.38313013,-3.656179994,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleFernandoPoo,Frenteelnúmero36,esquinaDivinoVallés","Frente el número 36, esquina Divino Vallés",Calle,Fernando Poo,,,02,ARGANZUELA,440606.99,4472014.76,40.39662013,-3.699859994,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleArrieta,15",,Calle,Arrieta,número,15,01,CENTRO,439675.8,4474526.5,40.41918013,-3.711069993,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CallePonzano,2",,Calle,Ponzano,número,2,07,CHAMBERI,440684.85,4476491.04,40.43695013,-3.699359994,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidaSanDiego,78IntersecciónconCalleManuelMaroto",Intersección con Calle Manuel Maroto,Avenida,San Diego,número,78,13,PUENTE VALLECAS,443184.53,4471012.4,40.38777013,-3.669399994,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"PaseoDelicias,68",,Paseo,Delicias,número,68,02,ARGANZUELA,441080.38,4472315.18,40.39936013,-3.694309994,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleFranciscodeRojas,11",,Calle,Francisco de Rojas,número,11,07,CHAMBERI,440624.47,4475722.24,40.43002013,-3.699999994,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleEnriqueGarcíaÁlvarez,Frentealnúmero10",Frente al número 10,Calle,Enrique García Álvarez,,,18,VILLA DE VALLECAS,447815.84,4470316.07,40.38180013,-3.614779994,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleFrayLuisdeLeón,IntersecciónconCalleJuanSebastianElcano,17","Intersección con Calle Juan Sebastian Elcano, 17",Calle,Fray Luis de León,,,02,ARGANZUELA,440713.46,4472921.95,40.40480013,-3.698689994,"MARTES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleGarcíadeParedes,82",,Calle,García de Paredes,número,82,07,CHAMBERI,441208.65,4476442.5,40.43655013,-3.693179994,"MARTES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"AvenidaCelioVillalba,IntersecciónconCalleManizales",Intersección con Calle Manizales,Avenida,Celio Villalba,,,16,HORTALEZA,446022.61,4480624.5,40.47455013,-3.636779994,"MARTES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleMarismas,24",,Calle,Marismas,número,24,13,PUENTE VALLECAS,444538.49,4472519.71,40.40144013,-3.653579994,"MARTES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleFuentespina,10",,Calle,Fuentespina,número,10,18,VILLA DE VALLECAS,448482.94,4470052.83,40.37947013,-3.606899994,"MARTES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleArganda,2Frentealnúmero2",Frente al número 2,Calle,Arganda,número,2,02,ARGANZUELA,439813.61,4472287.38,40.399104,-3.709351,"MARTES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"PlazaSanJuandelaCruz,3IntersecciónconCalleFernándezdelaHoz",Intersección con Calle Fernández de la Hoz,Plaza,San Juan de la Cruz,número,3,07,CHAMBERI,441112.59,4476955,40.44116013,-3.694359994,"MARTES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleAlcalá,287IntersecciónconCalleBuenGobernador",Intersección con Calle Buen Gobernador,Calle,Alcalá,número,287,15,CIUDAD LINEAL,444506.16,4475947.8,40.43232013,-3.654259994,"MARTES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleDoloresBarranco,50",,Calle,Dolores Barranco,número,50,12,USERA,440003.69,4470544.29,40.38333013,-3.706829993,"MARTES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleCobre,Frentealnúmero5",Frente al número 5,Calle,Cobre,,,02,ARGANZUELA,441506.6,4471686.88,40.39373013,-3.689229994,"MARTES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleSegovia,20",,Calle,Segovia,número,20,01,CENTRO,439571.88,4473948.99,40.41397013,-3.712239993,"MARTES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleVallehermoso,Frentealnúmero50",Frente al número 50,Calle,Vallehermoso,,,07,CHAMBERI,439898.35,4476357.44,40.43569013,-3.708619993,"MARTES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleHermanosMachado,IntersecciónconCalleLosCollados",Intersección con Calle Los Collados,Calle,Hermanos Machado,,,15,CIUDAD LINEAL,444949.64,4475812.43,40.43113013,-3.649019994,"MARTES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CarreteradeCanillas,39IntersecciónconCalleAndrésObispo",Intersección con Calle Andrés Obispo,Carretera,de Canillas,número,39,16,HORTALEZA,445060.54,4479364.92,40.46314013,-3.648019994,"MARTES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleRafaelFernándezHijicos,32",,Calle,Rafael Fernández Hijicos,número,32,13,PUENTE VALLECAS,446071.56,4471283.04,40.39040013,-3.635409994,"MARTES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleEmbajadores,274",,Calle,Embajadores,número,274,02,ARGANZUELA,441501.17,4470772.24,40.38549013,-3.689209994,"MARTES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"AvenidaIslasFilipinas,32",,Avenida,Islas Filipinas,número,32,07,CHAMBERI,439926.37,4476890.05,40.44049013,-3.708339993,"MARTES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"AvenidaMadroños,61",,Avenida,Madroños,número,61,16,HORTALEZA,446340.39,4478598.57,40.45632013,-3.632859994,"MARTES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleFresnedillas,9frente",frente,Calle,Fresnedillas,número,9,08,FUENCARRAL,437078.57,4481062.92,40.47787013,-3.742329993,"MIÉRCOLES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidadeAsturias,6Enlavíadeservicio",En la vía de servicio,Avenida,de Asturias,número,6,06,TETUAN,441261.48,4479932.15,40.46799013,-3.692879994,"MIÉRCOLES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleRibadavia,27Lateralfrenteasupermercado",Lateral frente a supermercado,Calle,Ribadavia,número,27,08,FUENCARRAL,439928.95,4480487.78,40.47290013,-3.708649993,"MIÉRCOLES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleSorÁngeladelaCruz,12",,Calle,Sor Ángela de la Cruz,número,12,06,TETUAN,441204.79,4478974.6,40.45936013,-3.693459994,"MIÉRCOLES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CaminoGanapanes,IntersecciónconCalleLaBañeza",Intersección con Calle La Bañeza,Camino,Ganapanes,,,08,FUENCARRAL,439312.67,4480804.68,40.47571013,-3.715949993,"MIÉRCOLES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidaComplutense,s/nFrenteServiciodeInformática",Frente Servicio de Informática,Avenida,Complutense,número,s/n,09,MONCLOA-ARAVACA,438300.24,4478098.82,40.45126013,-3.727629993,"MIÉRCOLES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidaHellin,17",,Avenida,Hellin,número,17,20,SAN BLAS-CANILLEJAS,447762.06,4475755.67,40.43080013,-3.615859994,"MIÉRCOLES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleSangenjo,12",,Calle,Sangenjo,número,12,08,FUENCARRAL,440461.07,4481732.36,40.48415013,-3.702489994,"MIÉRCOLES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleCarpintería,IntersecciónconCalleAmposta",Intersección con Calle Amposta,Calle,Carpintería,,,20,SAN BLAS-CANILLEJAS,447187.13,4475180.25,40.42558013,-3.622589994,"MIÉRCOLES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleMarquésdeViana,70",,Calle,Marqués de Viana,número,70,06,TETUAN,440293.07,4479480.24,40.46385013,-3.704259993,"MIÉRCOLES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleCapitánBlancoArgibay,134",,Calle,Capitán Blanco Argibay,número,134,06,TETUAN,440294.35,4479853.22,40.46721013,-3.704279993,"MIÉRCOLES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"PlazadeCoimbra,Juntoalsemáforo",Junto al semáforo,Plaza,de Coimbra,,,11,CARABANCHEL,438568.9,4470537.06,40.38316051,-3.723731631,"MIÉRCOLES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleSanRestituto,24",,Calle,San Restituto,número,24,09,MONCLOA-ARAVACA,439653.21,4479618.59,40.46505013,-3.711819993,"MIÉRCOLES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"AvenidaPabloIglesias,36",,Avenida,Pablo Iglesias,número,36,06,TETUAN,439881.6,4477758.48,40.44831013,-3.708949993,"MIÉRCOLES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleSantaMaríaMagdalena,18",,Calle,Santa María Magdalena,número,18,05,CHAMARTIN,443152.84,4479362.51,40.46299013,-3.670519994,"JUEVES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaSanLuis,27",,Avenida,San Luis,número,27,16,HORTALEZA,444307.38,4480241.88,40.47099013,-3.656979994,"JUEVES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleMarquésdeLozoya,Frentealnúmero26",Frente al número 26,Calle,Marqués de Lozoya,,,03,RETIRO,443735.01,4474353.96,40.41791013,-3.663209994,"JUEVES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleMinerva,IntersecciónconCalleCampodelaTorre,19","Intersección con Calle Campo de la Torre, 19",Calle,Minerva,,,19,VICALVARO,448630.35,4471993.27,40.39696013,-3.605319994,"JUEVES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaPíoXII,46",,Avenida,Pío XII,número,46,05,CHAMARTIN,442890.96,4479932.86,40.46811013,-3.673659994,"JUEVES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleEstíbaliz,28IntersecciónconCallePabloSerano",Intersección con Calle Pablo Serano,Calle,Estíbaliz,número,28,16,HORTALEZA,445059.54,4480153.07,40.47024013,-3.648099994,"JUEVES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleIbiza,60",,Calle,Ibiza,número,60,03,RETIRO,443060.56,4474360.16,40.41792013,-3.671159994,"JUEVES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleGeneralLópezPozas,16",,Calle,General López Pozas,número,16,05,CHAMARTIN,441894.15,4479631.93,40.46533013,-3.685389994,"JUEVES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleAmadoNervo,Frentealnúmero12",Frente al número 12,Calle,Amado Nervo,,,03,RETIRO,442788.5,4473396.48,40.40922013,-3.674279994,"JUEVES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CallePríncipedeVergara,248",,Calle,Príncipe de Vergara,número,248,05,CHAMARTIN,442572.62,4478331.25,40.45366013,-3.677269994,"JUEVES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleValderribas,25C",,Calle,Valderribas,número,25 C,03,RETIRO,443125.43,4472621.32,40.40226013,-3.670239994,"JUEVES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"AvenidaManuelFragaIribarne,35",,Avenida,Manuel Fraga Iribarne,número,35,21,BARAJAS,448402.34,4482129.6,40.48826013,-3.608829994,"JUEVES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"PaseoReinaCristina,Frentealnúmero5,intersecciónalaCalleJuliánGayarre","Frente al número 5, intersección a la Calle Julián Gayarre",Paseo,Reina Cristina,,,03,RETIRO,442007.41,4473121.63,40.40669013,-3.683459994,"JUEVES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleTéllez,26IntersecciónconCalleLeónGilPalacio",Intersección con Calle León Gil Palacio,Calle,Téllez,número,26,03,RETIRO,442345.67,4472637.26,40.40235013,-3.679429994,"JUEVES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleSofía,IntersecciónconCalleBélgica,205","Intersección con Calle Bélgica, 205",Calle,Sofía,,,20,SAN BLAS-CANILLEJAS,448969.61,4475577.51,40.42927013,-3.601609994,"JUEVES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleSanModesto,IntersecciónconCalleIsidroFernández",Intersección con Calle Isidro Fernández,Calle,San Modesto,,,08,FUENCARRAL,441903.66,4481728.79,40.48422013,-3.685469994,"VIERNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaAbrantes,40FrenteCalleFaro",Frente Calle Faro,Avenida,Abrantes,número,40,11,CARABANCHEL,438286.77,4470380.6,40.38173013,-3.727039993,"VIERNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleCaballerodelaBlancaLuna,1",,Calle,Caballero de la Blanca Luna,número,1,08,FUENCARRAL,441762.46,4484058.83,40.50520013,-3.687349994,"VIERNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"AvenidaPadrePiquer,13JuntoaCorreos",Junto a Correos,Avenida,Padre Piquer,número,13,10,LATINA,434848.14,4471779.49,40.39407013,-3.767689993,"VIERNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidaRosales,IntersecciónconCalleTántalo",Intersección con Calle Tántalo,Avenida,Rosales,,,17,VILLAVERDE,442294.55,4467199.5,40.35336013,-3.679539994,"VIERNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CallePicoMilano,9",,Calle,Pico Milano,número,9,08,FUENCARRAL,439592.55,4481975.77,40.48628013,-3.712759993,"VIERNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleYébenes,110Frentealnúmero217",Frente al número 217,Calle,Yébenes,número,110,10,LATINA,436214.39,4471552.4,40.39213013,-3.751569993,"VIERNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleArroyodelaBulera,Frentealnúmero11",Frente al número 11,Calle,Arroyo de la Bulera,,,17,VILLAVERDE,442204.91,4465591.73,40.33887013,-3.680449994,"VIERNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleMariblanca,18-20Entrelosnúmero18y20",Entre los número 18 y 20,Calle,Mariblanca,número,18-20,12,USERA,440065.32,4471458.49,40.39157013,-3.706189993,"VIERNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleAlférezJuanUsera,36",,Calle,Alférez Juan Usera,número,36,11,CARABANCHEL,437947.11,4471907.52,40.39546013,-3.731189993,"VIERNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleElfo,55-57",,Calle,Elfo,número,55-57,15,CIUDAD LINEAL,444683.8,4476110.77,40.43380013,-3.652179994,"VIERNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleJoaquínLorenzo,106",,Calle,Joaquín Lorenzo,número,106,08,FUENCARRAL,437626.69,4480819.66,40.47572013,-3.735839993,"VIERNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"AvenidaApóstoles,13IntersecciónconPaseodelosOlivos",Intersección con Paseo de los Olivos,Avenida,Apóstoles,número,13,10,LATINA,437234.38,4473046.83,40.40567013,-3.739699993,"VIERNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleVirgendelasCruces,2-4",,Calle,Virgen de las Cruces,número,2-4,12,USERA,441219.87,4469970.76,40.37825013,-3.692449994,"VIERNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"PlazadelaParroquia,16",,Plaza,de la Parroquia,número,16,11,CARABANCHEL,437027.97,4470191.24,40.37993013,-3.741849993,"VIERNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CallePabloCasals,Frentealnúmero10",Frente al número 10,Calle,Pablo Casals,,,10,LATINA,438510.46,4473539.12,40.41020013,-3.724709993,"VIERNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CallePicodeArtilleros,55",,Calle,Pico de Artilleros,número,55,14,MORATALAZ,445592.6,4472886.08,40.40481013,-3.641189994,"VIERNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CallelaCancióndelOlvido,47",,Calle,la Canción del Olvido,número,47,17,VILLAVERDE,440576.44,4467618.06,40.35701013,-3.699809994,"VIERNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleBarquillo,4",,Calle,Barquillo,número,4,01,CENTRO,440994.61,4474572.62,40.41969013,-3.695529994,"SABADO,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleLopedeVega,Frentealnúmero36",Frente al número 36,Calle,Lope de Vega,,,01,CENTRO,440827.07,4473984.49,40.41438013,-3.697449994,"SABADO,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleJoseOrtegayGasset,8",,Calle,Jose Ortega y Gasset,número,8,04,SALAMANCA,441807.06,4475732.94,40.43020013,-3.686059994,"SABADO,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"AvenidaPabloIglesias,55",,Avenida,Pablo Iglesias,número,55,09,MONCLOA-ARAVACA,439724.21,4478011.73,40.45058013,-3.710829993,"SABADO,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleJuanBravo,35-37IntersecciónconCalleGeneralPardiñas",Intersección con Calle General Pardiñas,Calle,Juan Bravo,número,35-37,04,SALAMANCA,442486.06,4476004.1,40.43269013,-3.678079994,"SABADO,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleNicolasaGómez,Frentealnúmero80",Frente al número 80,Calle,Nicolasa Gómez,,,20,SAN BLAS-CANILLEJAS,448113.18,4476603.52,40.43846013,-3.611789994,"SABADO,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"PlazaTirsodeMolina,16Zonadecargaydescarga",Zona de carga y descarga,Plaza,Tirso de Molina,número,16,01,CENTRO,440221.41,4473790.59,40.41259013,-3.704569993,"SABADO,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleRiberadeManzanares,125IntersecciónconCalleAcantilado",Intersección con Calle Acantilado,Calle,Ribera de Manzanares,número,125,09,MONCLOA-ARAVACA,437794.24,4475679.7,40.42943013,-3.733359993,"SABADO,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalledelPilardeZaragoza,57ItersecciónconCalleJoséPicón",Itersección con Calle José Picón,Calle,del Pilar de Zaragoza,número,57,04,SALAMANCA,443058.63,4476339.41,40.43575013,-3.671359994,"SABADO,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleArriaza,Frentealnúmero10.IntersecciónconCalleIlustración",Frente al número 10. Intersección con Calle Ilustración,Calle,Arriaza,,,09,MONCLOA-ARAVACA,439250.09,4474759.72,40.42125013,-3.716109993,"SABADO,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleBerlín,3",,Calle,Berlín,número,3,04,SALAMANCA,443741.93,4476969.2,40.44147013,-3.663359994,"SABADO,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleEspírituSanto,26Entrolosnúmeros26y28.Zonadecargaydescarga",Entro los números 26 y 28. Zona de carga y descarga,Calle,Espíritu Santo,número,26,01,CENTRO,440311.69,4475218.53,40.42546013,-3.703639993,"SABADO,TARDE,15:45,17:15"
-Punto Limpio Móvil,"PlazaLavapiés,8Zonadecargaydescarga",Zona de carga y descarga,Plaza,Lavapiés,número,8,01,CENTRO,440499.65,4473354.35,40.40868013,-3.701249994,"SABADO,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleLuisMoyaBlanco,27",,Calle,Luis Moya Blanco,número,27,16,HORTALEZA,447765.99,4482999.86,40.49606013,-3.616409994,"SABADO,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleDoctorEsquerdo,47",,Calle,Doctor Esquerdo,número,47,04,SALAMANCA,443283,4474940.14,40.42316013,-3.668589994,"SABADO,TARDE,15:45,17:15"
-Punto Limpio Móvil,"GlorietaEmbajadores,10esquinacalleEmbajadores",esquina calle Embajadores,Glorieta,Embajadores,número,10,01,CENTRO,440360.07,4472982.46,40.40532,-3.70286,"SABADO,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleSilva,25",,Calle,Silva,número,25,01,CENTRO,440134.5,4474823.78,40.4218911,-3.705691,"SABADO,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleGeneralDíazPorlier,41",,Calle,General Díaz Porlier,número,41,04,SALAMANCA,442571.45,4475523.9,40.42837013,-3.677029994,"SABADO,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleVillanueva,20IntersecciónconCalleClaudioCoello",Intersección con Calle Claudio Coello,Calle,Villanueva,número,20,04,SALAMANCA,441714.67,4474870.03,40.42242013,-3.687069994,"SABADO,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleEstrellaPolar,22",,Calle,Estrella Polar,número,22,03,RETIRO,443476.57,4473573.2,40.41085914,-3.666186786,"LUNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleJerónimaLlorente,65",,Calle,Jerónima Llorente,número,65,06,TETUAN,439955.62,4478314.84,40.45332738,-3.708129826,"LUNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CallePinardeSanJosé,13",,Calle,Pinar de San José,número,13,11,CARABANCHEL,435295.3,4468443.89,40.36405652,-3.76208289,"LUNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"PaseoLanceros,2",,Paseo,Lanceros,número,2,10,LATINA,432694.46,4470136.92,40.37910205,-3.79289123,"LUNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"PlazaElPardo,1IntersecciónconCalleCarboneros",Intersección con Calle Carboneros,Plaza,El Pardo,número,1,08,FUENCARRAL,434134.78,4485795.22,40.52027135,-3.777549085,"LUNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaMenéndezPelayo,Frentealnúmero29,enlaaceradeElRetiro","Frente al número 29, en la acera de El Retiro",Avenida,Menéndez Pelayo,,,03,RETIRO,442393.46,4474445.91,40.41864668,-3.679030573,"LUNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleCerrodeMinguete,9",,Calle,Cerro de Minguete,número,9,08,FUENCARRAL,439019.02,4482030.84,40.48673425,-3.719531943,"LUNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleFrancosRodríguez,57",,Calle,Francos Rodríguez,número,57,06,TETUAN,439862.49,4478702,40.45680834,-3.709264743,"LUNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"AvenidaNuestraSeñoradeFátima,15",,Avenida,Nuestra Señora de Fátima,número,15,11,CARABANCHEL,436817.76,4470851.96,40.38586625,-3.744391677,"LUNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleVillasandino,35",,Calle,Villasandino,número,35,10,LATINA,436111.45,4473060.11,40.40570434,-3.752934046,"LUNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"AvenidaCardenalHerreraOria,259",,Avenida,Cardenal Herrera Oria,número,259,08,FUENCARRAL,438776.03,4481302.62,40.48015632,-3.722328509,"LUNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidaMenéndezPelayo,95",,Avenida,Menéndez Pelayo,número,95,03,RETIRO,442376.92,4473120.55,40.40670603,-3.679105448,"LUNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleAntonioLeyva,77FrentealInstitutoCarderóndelaBarca",Frente al Instituto Carderón de la Barca,Calle,Antonio Leyva,número,77,11,CARABANCHEL,439173.82,4471034.73,40.387688,-3.716653,"LUNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"PaseodelosJesuitas,42",,Paseo,de los Jesuitas,número,42,10,LATINA,437639.27,4473379.86,40.40870061,-3.734961308,"LUNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleCándidoMateos,17",,Calle,Cándido Mateos,número,17,08,FUENCARRAL,439092.72,4480602.99,40.4738771,-3.718525244,"LUNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleCarlosDaban,Frentealnúmero28",Frente al número 28,Calle,Carlos Daban,,,11,CARABANCHEL,437905,4472135.59,40.39751151,-3.731708393,"LUNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleDoctorEsquerdo,152",,Calle,Doctor Esquerdo,número,152,03,RETIRO,442898.22,4472780.66,40.40368003,-3.672931679,"LUNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleVirgendeÁfrica,14",,Calle,Virgen de África,número,14,15,CIUDAD LINEAL,444534.76,4476616.93,40.43834992,-3.653981217,"LUNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"GlorietadelosCármenes,EntrelassalidasdeCalleGalluryCalleAlhambra",Entre las salidas de Calle Gallur y Calle Alhambra,Glorieta,de los Cármenes,,,10,LATINA,436910.15,4471942.57,40.39569796,-3.743411287,"LUNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"PlazadelaRemonta,3",,Plaza,de la Remonta,número,3,06,TETUAN,440857.18,4479555.85,40.46457158,-3.697613671,"LUNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"AvenidaAlfonsoXIII,65",,Avenida,Alfonso XIII,número,65,05,CHAMARTIN,443422.2,4478377.68,40.45413668,-3.667255232,"LUNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"AvenidadeAsturias,44",,Avenida,de Asturias,número,44,06,TETUAN,440918.17,4480247.98,40.47081088,-3.696958818,"LUNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleAgastia,42Frentealnúmero42",Frente al número 42,Calle,Agastia,número,42,15,CIUDAD LINEAL,444793.35,4477415.59,40.44556187,-3.65100177,"LUNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleLaguna,121",,Calle,Laguna,número,121,11,CARABANCHEL,437042.39,4471122.03,40.38831619,-3.741772099,"LUNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleOcaña,149",,Calle,Ocaña,número,149,10,LATINA,436073.76,4470917.76,40.38640227,-3.753163133,"LUNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleSeco,2",,Calle,Seco,número,2,03,RETIRO,442978.33,4472290.07,40.39926602,-3.671943717,"LUNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleFermínCaballero,49-51",,Calle,Fermín Caballero,número,49-51,08,FUENCARRAL,440114.52,4481748.34,40.48426912,-3.706580057,"LUNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"AvenidaOporto,33",,Avenida,Oporto,número,33,11,CARABANCHEL,438505.01,4470788.9,40.38542445,-3.724508546,"LUNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleCamarena,235Frentealnúmero296",Frente al número 296,Calle,Camarena,número,235,10,LATINA,435731.09,4470910.54,40.38631089,-3.757199396,"LUNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleCañas,Frentealnúmero13",Frente al número 13,Calle,Cañas,,,15,CIUDAD LINEAL,444088,4478794.51,40.45793674,-3.659440281,"LUNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleDoctorEsquerdo,94EsquinaAvenidadeNazaret,frentealnúmero125","Esquina Avenida de Nazaret, frente al número 125",Calle,Doctor Esquerdo,número,94,03,RETIRO,443159.45,4473673.17,40.41173813,-3.669933119,"LUNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleJulioPalacios,10",,Calle,Julio Palacios,número,10,08,FUENCARRAL,443159.45,4473673.17,40.41173813,-3.669933119,"LUNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"PlazadelPerú,IntersecciónconAvenidaPíoXII",Intersección con Avenida Pío XII,Plaza,del Perú,,,05,CHAMARTIN,442655.01,4479090.61,40.46050652,-3.676366952,"LUNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"AvenidaAlbertoAlcocer,28",,Avenida,Alberto Alcocer,número,28,05,CHAMARTIN,442019.6,4478870.53,40.45847985,-3.683840815,"LUNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleArturoSoria,242",,Calle,Arturo Soria,número,242,15,CIUDAD LINEAL,443589.38,4479647.5,40.46558716,-3.66539655,"LUNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleClaraCampoamor,Frentealnúmero75",Frente al número 75,Calle,Clara Campoamor,,,11,CARABANCHEL,437794.87,4470145.39,40.37957467,-3.732811665,"LUNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleFuentedelTiro,17",,Calle,Fuente del Tiro,número,17,10,LATINA,433744.17,4470628.25,40.38361228,-3.780577319,"LUNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleNarváez,82",,Calle,Narváez,número,82,03,RETIRO,442600.3,4474216.15,40.41659121,-3.676571862,"LUNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleNuestraSeñoradeValverde,17",,Calle,Nuestra Señora de Valverde,número,17,08,FUENCARRAL,441802.95,4482622.73,40.49226604,-3.686740229,"LUNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CallePoetaJoanMaragall,45Frentealnúmero54,intersecciónconCalledeRosarioPino","Frente al número 54, intersección con Calle de Rosario Pino",Calle,Poeta Joan Maragall,número,45,06,TETUAN,441349.29,4479300.46,40.46230582,-3.691785867,"LUNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleAfuerasaValverde,23",,Calle,Afueras a Valverde,número,23,08,FUENCARRAL,441617.57,4483190.34,40.49736629,-3.688979853,"LUNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleEnriqueLarreta,14",,Calle,Enrique Larreta,número,14,05,CHAMARTIN,441795.16,4480002.77,40.46866386,-3.68659163,"LUNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleMazarambroz,4IntersecciónconCalleCazalegasyCalleCarranque",Intersección con Calle Cazalegas y Calle Carranque,Calle,Mazarambroz,número,4,11,CARABANCHEL,438203.57,4469646.48,40.37511067,-3.727948897,"LUNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleOlivadePlasencia,1",,Calle,Oliva de Plasencia,número,1,10,LATINA,433836.4,4470064.42,40.37854039,-3.779432297,"LUNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleCondeDuque,30",,Calle,Conde Duque,número,30,01,CENTRO,439762.85,4475482.28,40.42779649,-3.710134496,"MARTES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleCooperativaEléctrica,18",,Calle,Cooperativa Eléctrica,número,18,13,PUENTE VALLECAS,443927.89,4469543.93,40.37459162,-3.660513091,"MARTES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleGuetaria,47IntersecciónconCalleVillabona",Intersección con Calle Villabona,Calle,Guetaria,número,47,12,USERA,439253.3,4468975.92,40.36914712,-3.715520337,"MARTES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CallePeñarandadeBracamonte,53",,Calle,Peñaranda de Bracamonte,número,53,18,VILLA DE VALLECAS,448130.3,4468637.39,40.366697,-3.61093895,"MARTES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CallePradoluengo,243",,Calle,Pradoluengo,número,243,21,BARAJAS,450648.62,4478009.91,40.45128409,-3.582005708,"MARTES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaVilladeVallecas,13",,Avenida,Villa de Vallecas,número,13,18,VILLA DE VALLECAS,447453.54,4468963.83,40.36959542,-3.618936523,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleSimca,4IntersecciónconCalleDodge",Intersección con Calle Dodge,Calle,Simca,número,4,12,USERA,439712.1,4468664.29,40.36637303,-3.710087199,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"PlazaNavío,1",,Plaza,Navío,número,1,21,BARAJAS,450116.69,4478506.26,40.45572379,-3.588317484,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"GlorietaRuízJiménez,8",,Glorieta,Ruíz Jiménez,número,8,01,CENTRO,440138.36,4475639.72,40.42924193,-3.705722844,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"AvenidaOrcasur,44IntersecciónconCalleArenasdelRey,juntoalCentrodeSalud","Intersección con Calle Arenas del Rey, junto al Centro de Salud",Avenida,Orcasur,número,44,12,USERA,440506.5,4468567.22,40.36555568,-3.700722153,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"BulevarNaturaleza,13",,Bulevar,Naturaleza,número,13,18,VILLA DE VALLECAS,446534.33,4469272.76,40.37232002,-3.629789046,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleRioja,27",,Calle,Rioja,número,27,21,BARAJAS,450374.7,4478971.54,40.45993074,-3.585311084,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleAndaluces,9",,Calle,Andaluces,número,9,13,PUENTE VALLECAS,445969.39,4471231.37,40.38992802,-3.636609339,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CallePeriana,6",,Calle,Periana,número,6,12,USERA,441543.92,4468873.4,40.36838731,-3.688532197,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleSantaIsabel,47",,Calle,Santa Isabel,número,47,01,CENTRO,440935.1,4473450.87,40.40958069,-3.696127206,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"PlazaMayordeBarajas,19",,Plaza,Mayor de Barajas,número,19,21,BARAJAS,451060.24,4480473.35,40.47350059,-3.57734166,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalledelSantuario,IntersecciónconCalleHijasdeJesúsyCalleSanAntoniodePadua",Intersección con Calle Hijas de Jesús y Calle San Antonio de Padua,Calle,del Santuario,,,12,USERA,440572.26,4470721.15,40.38496415,-3.700148519,"MARTES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"PlazaSantaBárbara,5",,Plaza,Santa Bárbara,número,5,01,CENTRO,440928.63,4475438.21,40.42748313,-3.696388041,"MARTES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleHumanes,27",,Calle,Humanes,número,27,13,PUENTE VALLECAS,445210.15,4471826.88,40.39524315,-3.645605693,"MARTES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleMontearagón,11",,Calle,Montearagón,número,11,16,HORTALEZA,444177.72,4479401.51,40.46341089,-3.658435542,"MARTES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CallePríncipe,18",,Calle,Príncipe,número,18,01,CENTRO,440580.55,4474086.94,40.41528547,-3.700364984,"MARTES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"AvenidaRafaelaYbarra,20",,Avenida,Rafaela Ybarra,número,20,12,USERA,439616.8,4470396.11,40.38196732,-3.711373636,"MARTES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"AvenidadeBuenosAires,25",,Avenida,de Buenos Aires,número,25,13,PUENTE VALLECAS,444594.75,4470982.35,40.3875944,-3.652783229,"MARTES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleEzequielSolana,73",,Calle,Ezequiel Solana,número,73,15,CIUDAD LINEAL,445454.96,4475511.91,40.42845615,-3.643037113,"MARTES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleRiberadeCurtidores,37-(A,B,C)",,Calle,Ribera de Curtidores,número,"37- (A, B, C)",01,CENTRO,439996.74,4473123.76,40.40656682,-3.707154966,"MARTES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleManuelNoya,15",,Calle,Manuel Noya,número,15,12,USERA,439532.69,4470930.76,40.38677762,-3.712415205,"MARTES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"AvenidaVictoria,77",,Avenida,Victoria,número,77,09,MONCLOA-ARAVACA,429298.03,4480698.94,40.47396543,-3.834073426,"MIÉRCOLES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleTrompas,15",,Calle,Trompas,número,15,10,LATINA,435002.22,4469264.49,40.37142604,-3.7656181,"MIÉRCOLES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaInstituciónLibredeEnseñanza,1",,Avenida,Institución Libre de Enseñanza,número,1,20,SAN BLAS-CANILLEJAS,445922.76,4476537.04,40.43772165,-3.637609719,"MIÉRCOLES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleJoaquínTurina,62",,Calle,Joaquín Turina,número,62,11,CARABANCHEL,435614.07,4469349.07,40.37223546,-3.758420175,"MIÉRCOLES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"PaseoAlbertoPalacios,1IntersecciónconPlazaÁgata",Intersección con Plaza Ágata,Paseo,Alberto Palacios,número,1,17,VILLAVERDE,439756.38,4466455.18,40.34647541,-3.709357091,"MIÉRCOLES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaValdemarín,71AIntersecciónconCalleCisne",Intersección con Calle Cisne,Avenida,Valdemarín,número,71 A,09,MONCLOA-ARAVACA,434014.29,4480227.88,40.47011006,-3.778391577,"MIÉRCOLES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleCastillodeUclés,IntersecciónconCalleCastillodeSimancasyfrenteaCalleYuncos,1","Intersección con Calle Castillo de Simancas y frente a Calle Yuncos, 1",Calle,Castillo de Uclés,,,20,SAN BLAS-CANILLEJAS,447136.02,4475688.59,40.43015635,-3.623234722,"MIÉRCOLES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleGuareña,AlladoAuditorioPacodeLucia",Al lado Auditorio Paco de Lucia,Calle,Guareña,,,10,LATINA,435085.62,4470795.23,40.38522206,-3.764791741,"MIÉRCOLES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"PlazadelosNavarros,EntreCalleAlbaresdelaRiberayCalleAlbercadeZancara",Entre Calle Albares de la Ribera y Calle Alberca de Zancara,Plaza,de los Navarros,,,11,CARABANCHEL,436998.09,4469561.33,40.37425336,-3.742139687,"MIÉRCOLES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"PaseoAlbertoPalacios,76",,Paseo,Alberto Palacios,número,76,17,VILLAVERDE,439229.76,4466149.51,40.34368355,-3.715528398,"MIÉRCOLES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleGodella,Detrásdelnúmero100,enlaplazafrenteal116","Detrás del número 100, en la plaza frente al 116",Calle,Godella,,,17,VILLAVERDE,441525.68,4465807.01,40.340762,-3.688466,"MIÉRCOLES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleIllescas,117",,Calle,Illescas,número,117,10,LATINA,435391.82,4471712.37,40.39350783,-3.761277537,"MIÉRCOLES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleLopedeHaro,36",,Calle,Lope de Haro,número,36,06,TETUAN,440251.84,4478691.42,40.45674114,-3.704672112,"MIÉRCOLES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleToboso,134",,Calle,Toboso,número,134,11,CARABANCHEL,437480.77,4471691.97,40.39348348,-3.736663419,"MIÉRCOLES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleAntonioLópez,88",,Calle,Antonio López,número,88,11,CARABANCHEL,439936.82,4471709.68,40.39382375,-3.707727615,"MIÉRCOLES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleBerrocal,14",,Calle,Berrocal,número,14,17,VILLAVERDE,442442.55,4466535.77,40.34739104,-3.677737378,"MIÉRCOLES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleCardaño,8EnlaPlazaPatricioMartínez",En la Plaza Patricio Martínez,Calle,Cardaño,número,8,10,LATINA,434616.7,4472057.03,40.39655217,-3.770445426,"MIÉRCOLES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleMarquésdeUrquijo,2",,Calle,Marqués de Urquijo,número,2,09,MONCLOA-ARAVACA,439212.03,4475798.68,40.43060674,-3.716657855,"MIÉRCOLES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleCasalarreina,3IntersecciónconPlazadelaVicalvarada",Intersección con Plaza de la Vicalvarada,Calle,Casalarreina,número,3,19,VICALVARO,448194.6,4473379.15,40.409418,-3.610567255,"MIÉRCOLES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleCiudadania,6",,Calle,Ciudadania,número,6,17,VILLAVERDE,441214.79,4467553.92,40.35647756,-3.692286994,"MIÉRCOLES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleFrancosRodríguez,102",,Calle,Francos Rodríguez,número,102,09,MONCLOA-ARAVACA,439565.13,4478826.55,40.45790876,-3.712783422,"MIÉRCOLES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleNuria,59EnfrentedelCentroComercial",En frente del Centro Comercial,Calle,Nuria,número,59,08,FUENCARRAL,440009.17,4482762.54,40.49339779,-3.707919056,"MIÉRCOLES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleSanBraulio,EnlaaceradelMercadoMunicipaldeSanIsidro,frentealnúmero3","En la acera del Mercado Municipal de San Isidro, frente al número 3",Calle,San Braulio,,,11,CARABANCHEL,438469.3,4471471.06,40.39156704,-3.724995152,"MIÉRCOLES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleTembleque,64",,Calle,Tembleque,número,64,10,LATINA,435476.34,4471898.29,40.39518922,-3.760300561,"MIÉRCOLES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleAlhambra,Aceradeenfrentealnúmero30",Acera de enfrente al número 30,Calle,Alhambra,,,10,LATINA,436815.31,4472519.63,40.40088914,-3.744586083,"MIÉRCOLES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"AvenidaMonasteriodeSilos,85",,Avenida,Monasterio de Silos,número,85,08,FUENCARRAL,441374.21,4484571.09,40.50978743,-3.691979444,"MIÉRCOLES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleTertulia,IntersecciónconCalleCírculo",Intersección con Calle Círculo,Calle,Tertulia,,,17,VILLAVERDE,441157.83,4468197.15,40.36226806,-3.693017119,"MIÉRCOLES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleVillardondiego,39-41",,Calle,Villardondiego,número,39-41,19,VICALVARO,448405.2,4472827.04,40.40445729,-3.60804054,"MIÉRCOLES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleAviadorZorita,42",,Calle,Aviador Zorita,número,42,06,TETUAN,440810.54,4478065.39,40.45114155,-3.69802484,"MIÉRCOLES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleEstella,21",,Calle,Estella,número,21,08,FUENCARRAL,442850.98,4483154.23,40.49712684,-3.674421941,"MIÉRCOLES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleEugeniadeMontijo,76",,Calle,Eugenia de Montijo,número,76,11,CARABANCHEL,436561.38,4470107.22,40.37913785,-3.747337904,"MIÉRCOLES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleHigueras,45",,Calle,Higueras,número,45,10,LATINA,436775.56,4473012.46,40.40532577,-3.745103375,"MIÉRCOLES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleLadelManojodeRosas,14",,Calle,La del Manojo de Rosas,número,14,17,VILLAVERDE,440769.53,4467935.53,40.35988379,-3.697565708,"MIÉRCOLES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleGolondrina,FrenteaAvenidadelTalgo,234","Frente a Avenida del Talgo, 234",Calle,Golondrina,,,09,MONCLOA-ARAVACA,433424.52,4477724.42,40.44751121,-3.785085494,"MIÉRCOLES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleMinerva,7",,Calle,Minerva,número,7,19,VICALVARO,449254.82,4472752.19,40.40383525,-3.598022415,"MIÉRCOLES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"AvenidaSantoDomingodelaCalzada,27",,Avenida,Santo Domingo de la Calzada,número,27,08,FUENCARRAL,443304.7,4484255.94,40.50708261,-3.669166507,"MIÉRCOLES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleAbadJuanCatalán,52-56",,Calle,Abad Juan Catalán,número,52-56,19,VICALVARO,449729.34,4473042.68,40.40648092,-3.592453479,"MIÉRCOLES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleCaramuel,6Entrelosnúmeros6y8",Entre los números 6 y 8,Calle,Caramuel,número,6,10,LATINA,438307.81,4473864.88,40.41311972,-3.727129825,"MIÉRCOLES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleMutual,2IntersecciónconAvenidadelaPeseta",Intersección con Avenida de la Peseta,Calle,Mutual,número,2,11,CARABANCHEL,436543.24,4468367.68,40.36346589,-3.747378466,"MIÉRCOLES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleLadelManojodeRosas,95",,Calle,La del Manojo de Rosas,número,95,17,VILLAVERDE,440687.52,4467186.95,40.35313432,-3.698461892,"MIÉRCOLES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleOrense,9",,Calle,Orense,número,9,06,TETUAN,441017.2,4477688.81,40.44776383,-3.69555288,"MIÉRCOLES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleVirgendelosRosales,Aceradeenfrentealnúmero88",Acera de enfrente al número 88,Calle,Virgen de los Rosales,,,09,MONCLOA-ARAVACA,433943.46,4478393.51,40.45358,-3.779036127,"MIÉRCOLES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"AvenidaGranVíadelSuereste,55",,Avenida,Gran Vía del Suereste,número,55,18,VILLA DE VALLECAS,449631.14,4467582.44,40.35728524,-3.59317915,"JUEVES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleSantaMarta,15",,Calle,Santa Marta,número,15,13,PUENTE VALLECAS,443822.93,4472671.33,40.40275803,-3.662025225,"JUEVES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"PaseoMarquésdeZafra,32",,Paseo,Marqués de Zafra,número,32,04,SALAMANCA,443646.54,4475219.93,40.42570533,-3.664329592,"JUEVES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaGranVíadelSuereste,11",,Avenida,Gran Vía del Suereste,número,11,18,VILLA DE VALLECAS,450106.99,4468329.42,40.36404321,-3.587633913,"JUEVES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleGoya,107",,Calle,Goya,número,107,04,SALAMANCA,442907.8,4475125.97,40.42480849,-3.673029266,"JUEVES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CallePergamino,Frentealnúmero30",Frente al número 30,Calle,Pergamino,,,19,VICALVARO,447068.35,4471749.02,40.39466194,-3.623704718,"JUEVES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CaminoValderribas,99",,Camino,Valderribas,número,99,13,PUENTE VALLECAS,443298.92,4472633.08,40.40237793,-3.668196679,"JUEVES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"AvenidaLasSuertes,Frentealnúmero67",Frente al número 67,Avenida,Las Suertes,,,18,VILLA DE VALLECAS,449614.83,4468373.88,40.36441415,-3.593433734,"JUEVES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleCordeldePavones,46",,Calle,Cordel de Pavones,número,46,19,VICALVARO,447409.97,4472099.07,40.39783703,-3.619708485,"JUEVES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleMoscatelar,35",,Calle,Moscatelar,número,35,16,HORTALEZA,445183.23,4478714.89,40.45729245,-3.646516762,"JUEVES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleNarváez,44",,Calle,Narváez,número,44,04,SALAMANCA,442625.56,4474589.96,40.41996042,-3.676307861,"JUEVES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleRamírezTomé,38",,Calle,Ramírez Tomé,número,38,13,PUENTE VALLECAS,445128.9,4471110.68,40.38878583,-3.646501324,"JUEVES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidadeBuenosAires,99",,Avenida,de Buenos Aires,número,99,13,PUENTE VALLECAS,444592,4470080.53,40.37947003,-3.65273719,"JUEVES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"BulevarIndalecioPrieto,9",,Bulevar,Indalecio Prieto,número,9,19,VICALVARO,447398.27,4472699.83,40.40324833,-3.619895988,"JUEVES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleEmbalsedeNavacerrada,Frentealnúmero50",Frente al número 50,Calle,Embalse de Navacerrada,,,18,VILLA DE VALLECAS,448920.51,4468158.4,40.36243065,-3.601593679,"JUEVES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleSilvano,97Frentealnúmero97,intersecciónconAvenidaMachupichu","Frente al número 97, intersección con Avenida Machupichu",Calle,Silvano,número,97,16,HORTALEZA,446183.56,4479298.34,40.46261384,-3.634768951,"JUEVES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleVelázquez,48",,Calle,Velázquez,número,48,04,SALAMANCA,441987.53,4475362.83,40.42687862,-3.68389872,"JUEVES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"AvenidaGuadalajara,IntersecciónconCalleSanRomándelValle",Intersección con Calle San Román del Valle,Avenida,Guadalajara,,,20,SAN BLAS-CANILLEJAS,447314.62,4474482.15,40.41929933,-3.621029333,"JUEVES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleMonleón,2",,Calle,Monleón,número,2,13,PUENTE VALLECAS,444390.17,4471517.84,40.39240479,-3.655240189,"JUEVES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleSantaHortensia,2IntersecciónconLópezdeHoyos",Intersección con López de Hoyos,Calle,Santa Hortensia,número,2,05,CHAMARTIN,443127.33,4477472.14,40.44595901,-3.670651482,"JUEVES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleSierraVieja,1",,Calle,Sierra Vieja,número,1,18,VILLA DE VALLECAS,446556.28,4469822.16,40.37727079,-3.629576569,"JUEVES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleVelázquez,89",,Calle,Velázquez,número,89,04,SALAMANCA,442019.84,4476160.84,40.4340697,-3.683590638,"JUEVES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleAlbericia,IntersecciónconCalleArcosdelJalón",Intersección con Calle Arcos del Jalón,Calle,Albericia,,,20,SAN BLAS-CANILLEJAS,447785.8,4475053.34,40.42447465,-3.615522535,"JUEVES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleClaradelRey,21",,Calle,Clara del Rey,número,21,05,CHAMARTIN,443000.35,4476931.78,40.4410825,-3.672100324,"JUEVES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleFranciscoSilvela,IntersecciónconCalleFlorestónAguilarjuntoalParqueEvaDuarte",Intersección con Calle Florestón Aguilar junto al Parque Eva Duarte,Calle,Francisco Silvela,,,04,SALAMANCA,443134.13,4475731.17,40.4302759,-3.670415455,"JUEVES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleArroyodelOlivar,IntersecciónconCalleMartínezdelaRiva,18","Intersección con Calle Martínez de la Riva, 18",Calle,Arroyo del Olivar,,,13,PUENTE VALLECAS,443463.25,4471710.98,40.39408233,-3.666178413,"JUEVES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CallePlayadeZarauz,1",,Calle,Playa de Zarauz,número,1,21,BARAJAS,449780.61,4480454.48,40.47325425,-3.592435163,"JUEVES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"PaseoFedericoGarcíaLorca,3",,Paseo,Federico García Lorca,número,3,18,VILLA DE VALLECAS,447286.42,4470053.98,40.37940569,-3.620995046,"JUEVES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"AvenidaDoctorGarcíaTapia,135",,Avenida,Doctor García Tapia,número,135,14,MORATALAZ,445941.63,4473366.16,40.40915774,-3.63711767,"JUEVES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"AvenidaGavia,14",,Avenida,Gavia,número,14,18,VILLA DE VALLECAS,448175.45,4469566.88,40.37507331,-3.610482743,"JUEVES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"AvenidaNiza,25Eneltramodevíaentrelosnúmeros13y25",En el tramo de vía entre los números 13 y 25,Avenida,Niza,número,25,20,SAN BLAS-CANILLEJAS,448518.74,4475431.44,40.42792648,-3.606913356,"JUEVES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleAlcalá,237JuntoaPlazadeTorosdelasVentas",Junto a Plaza de Toros de las Ventas,Calle,Alcalá,número,237,04,SALAMANCA,443683.25,4475825.97,40.43116732,-3.663950523,"JUEVES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleBahiadeCádiz,32",,Calle,Bahia de Cádiz,número,32,21,BARAJAS,449612.88,4479406.74,40.46380544,-3.594330551,"JUEVES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleJavierdeMiguel,40",,Calle,Javier de Miguel,número,40,13,PUENTE VALLECAS,443928.66,4470983.48,40.38756002,-3.660630692,"JUEVES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CallePríncipedeVergara,142",,Calle,Príncipe de Vergara,número,142,05,CHAMARTIN,442484.79,4477330.64,40.44464014,-3.678215136,"JUEVES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleBabilonia,33",,Calle,Babilonia,número,33,21,BARAJAS,450420.08,4479808.83,40.46747627,-3.584841288,"JUEVES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleBrescia,2IntersecciónconCalleBiarritz",Intersección con Calle Biarritz,Calle,Brescia,número,2,04,SALAMANCA,443651.03,4476418,40.43649844,-3.664382838,"JUEVES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleSantoDomingodeSilos,7IntersecciónAvConchaEspina",Intersección Av Concha Espina,Calle,Santo Domingo de Silos,número,7,05,CHAMARTIN,441753.11,4478129.02,40.45178134,-3.686915621,"JUEVES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleFuenteCarrantona,41",,Calle,Fuente Carrantona,número,41,14,MORATALAZ,446443.54,4473270.54,40.40832878,-3.631194585,"JUEVES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CallePuentelarrá,13",,Calle,Puentelarrá,número,13,18,VILLA DE VALLECAS,448281.15,4470386.89,40.38246707,-3.609304279,"JUEVES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleRuidera,26",,Calle,Ruidera,número,26,13,PUENTE VALLECAS,442665.31,4470184.77,40.38027879,-3.675442596,"JUEVES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"AvenidaFerminaSevillano,26",,Avenida,Fermina Sevillano,número,26,20,SAN BLAS-CANILLEJAS,451740.97,4477286.9,40.44483484,-3.56906922,"VIERNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleEugeniadeMontijo,99",,Calle,Eugenia de Montijo,número,99,11,CARABANCHEL,436250.91,4469582.53,40.37438754,-3.750942663,"VIERNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleGranAvenida,31",,Calle,Gran Avenida,número,31,12,USERA,440045.72,4469024.45,40.36964168,-3.706191846,"VIERNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleHaciendadePavones,220",,Calle,Hacienda de Pavones,número,220,14,MORATALAZ,445687.07,4472498.22,40.40132224,-3.640043602,"VIERNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleRafaelFinat,103",,Calle,Rafael Finat,número,103,10,LATINA,434421.94,4469758.87,40.37583416,-3.772503573,"VIERNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleValdebernardo,45",,Calle,Valdebernardo,número,45,14,MORATALAZ,446384.26,4472738.44,40.40353147,-3.631848368,"VIERNES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaSegunda,Frentealnúmero5aproximadamente",Frente al número 5 aproximadamente,Avenida,Segunda,,,20,SAN BLAS-CANILLEJAS,449598.47,4477580.64,40.44735399,-3.594355582,"VIERNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleGeneralMillanAstray,20",,Calle,General Millan Astray,número,20,10,LATINA,434871.22,4470041.9,40.37841904,-3.767240468,"VIERNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleHaciendadePavones,72",,Calle,Hacienda de Pavones,número,72,14,MORATALAZ,445169.27,4472738.84,40.40345595,-3.646165909,"VIERNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleParquedelaPaloma,32",,Calle,Parque de la Paloma,número,32,12,USERA,439336.43,4470025.17,40.37860534,-3.714641117,"VIERNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleEncomiendadePalacios,360",,Calle,Encomienda de Palacios,número,360,14,MORATALAZ,446155.78,4472002.79,40.39688953,-3.634478572,"VIERNES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"AvenidaMonasteriodeSilos,Aceradelospares,frentealnúmero23","Acera de los pares, frente al número 23",Avenida,Monasterio de Silos,,,08,FUENCARRAL,440150.58,4483879.66,40.5034714,-3.706355909,"VIERNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidaPlazadeToros,3",,Avenida,Plaza de Toros,número,3,11,CARABANCHEL,437399.58,4470811.58,40.38554646,-3.73753348,"VIERNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleAntonioLópez,246-248",,Calle,Antonio López,número,246-248,12,USERA,440926.94,4470378.91,40.38190628,-3.695938392,"VIERNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleArturoSoria,320",,Calle,Arturo Soria,número,320,15,CIUDAD LINEAL,443357.17,4481056.31,40.47826258,-3.668261241,"VIERNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleCaminodeVinateros,108",,Calle,Camino de Vinateros,número,108,14,MORATALAZ,445107.48,4473267.68,40.40821598,-3.646939656,"VIERNES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleAmparoUsera,47",,Calle,Amparo Usera,número,47,12,USERA,440008.82,4470937.71,40.38687465,-3.706806586,"VIERNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"AvenidaOporto,96",,Avenida,Oporto,número,96,11,CARABANCHEL,438078.26,4470987.84,40.38718499,-3.729555278,"VIERNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleTorrelaguna,66",,Calle,Torrelaguna,número,66,15,CIUDAD LINEAL,444284.28,4477775.95,40.44877423,-3.657036057,"VIERNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleCaminodeVinateros,63",,Calle,Camino de Vinateros,número,63,14,MORATALAZ,444685.42,4473515.98,40.41042488,-3.651935154,"VIERNES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleAntonioLópez,9",,Calle,Antonio López,número,9,11,CARABANCHEL,439397.79,4472075.3,40.39707843,-3.714113341,"VIERNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleBerrocal,72",,Calle,Berrocal,número,72,17,VILLAVERDE,442647.27,4465842.89,40.34116319,-3.675264764,"VIERNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleCaminodelosVinateros,10-12",,Calle,Camino de los Vinateros,número,10-12,14,MORATALAZ,443962.2,4473544.21,40.41063083,-3.660460934,"VIERNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleDuquesadeParcent,96",,Calle,Duquesa de Parcent,número,96,10,LATINA,436326.92,4471971.48,40.39591401,-3.750286074,"VIERNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleJosédelHierro,37IntersecciónconCalleRosalíaTrujillo",Intersección con Calle Rosalía Trujillo,Calle,José del Hierro,número,37,15,CIUDAD LINEAL,445310.31,4476784.75,40.43991309,-3.64485179,"VIERNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleLeopoldoAlasClarín,Aceradelospares,frentealnúmero41","Acera de los pares, frente al número 41",Calle,Leopoldo Alas Clarín,,,08,FUENCARRAL,437856.75,4481403.31,40.48099503,-3.733183387,"VIERNES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"AvenidaMoratalaz,39",,Avenida,Moratalaz,número,39,14,MORATALAZ,444112.81,4473200.76,40.40754695,-3.658655805,"VIERNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleCarmendeBurgos,4",,Calle,Carmen de Burgos,número,4,17,VILLAVERDE,441841.64,4467654.27,40.35742549,-3.684914537,"VIERNES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleEstafeta,20Frentealnúmero7",Frente al número 7,Calle,Estafeta,número,20,12,USERA,441213.67,4469426.02,40.37334237,-3.692472821,"VIERNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleMaríaTeresaSáenzdeHeredia,44",,Calle,María Teresa Sáenz de Heredia,número,44,15,CIUDAD LINEAL,444790.08,4475198.42,40.4255882,-3.650847751,"VIERNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleMonfortedeLemos,38",,Calle,Monforte de Lemos,número,38,08,FUENCARRAL,439866.37,4481101.21,40.47842163,-3.709446437,"VIERNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CalleSantaPetronila,IntersecciónconCalleJosédelPino",Intersección con Calle José del Pino,Calle,Santa Petronila,,,17,VILLAVERDE,441210.83,4466913.96,40.35071212,-3.692274736,"VIERNES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"AvenidaElFerrol,6",,Avenida,El Ferrol,número,6,08,FUENCARRAL,440330.32,4480667.53,40.47454833,-3.703932363,"VIERNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleConíferas,10",,Calle,Coníferas,número,10,12,USERA,441027.29,4468717.44,40.36694595,-3.694602542,"VIERNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleLagunaRodrigo,7",,Calle,Laguna Rodrigo,número,7,17,VILLAVERDE,440014.09,4467024.04,40.35161857,-3.7063763,"VIERNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleTacona,1IntersecciónconArroyoFontarrón",Intersección con Arroyo Fontarrón,Calle,Tacona,número,1,14,MORATALAZ,445589.72,4471957.48,40.3964446,-3.641144577,"VIERNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"AvenidaInstituciónLibredeEnseñanza,158",,Avenida,Institución Libre de Enseñanza,número,158,15,CIUDAD LINEAL,446637.11,4475121.56,40.42501632,-3.629068666,"VIERNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"PaseoErmitadelSanto,39",,Paseo,Ermita del Santo,número,39,10,LATINA,438534.79,4473134.22,40.40655438,-3.724384145,"VIERNES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"AvenidaOsaMayor,23",,Avenida,Osa Mayor,número,23,09,MONCLOA-ARAVACA,433960.1,4479063.34,40.4596153,-3.778909594,"SABADO,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"CalleTampico,79",,Calle,Tampico,número,79,20,SAN BLAS-CANILLEJAS,446094.48,4477316.37,40.44475344,-3.635651261,"SABADO,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"PlazaChamberí,4",,Plaza,Chamberí,número,4,07,CHAMBERI,440871.32,4476057.92,40.43306165,-3.697121262,"SABADO,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"AvenidaPrunos,44IntersecciónconAvenidaArroyodelSanto",Intersección con Avenida Arroyo del Santo,Avenida,Prunos,número,44,16,HORTALEZA,447250.82,4478174.33,40.45255663,-3.622087825,"SABADO,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleAntonioMachado,12IDMCiudaddelosPoetas",IDM Ciudad de los Poetas,Calle,Antonio Machado,número,12,09,MONCLOA-ARAVACA,439027.38,4479726.98,40.46598087,-3.71921181,"SABADO,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleBoltaña,20",,Calle,Boltaña,número,20,20,SAN BLAS-CANILLEJAS,447977.19,4477307.56,40.44479404,-3.613450944,"SABADO,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleSantaEngracia,126",,Calle,Santa Engracia,número,126,07,CHAMBERI,440516.66,4477005.22,40.44157,-3.701391,"SABADO,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"PlazaLegazpi,5IntersecciónconPaseodelMolino",Intersección con Paseo del Molino,Plaza,Legazpi,número,5,02,ARGANZUELA,441030.6,4471362.47,40.3907741,-3.694808258,"SABADO,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleBravoMurillo,41",,Calle,Bravo Murillo,número,41,07,CHAMBERI,440186.51,4476585.12,40.43776198,-3.705244148,"SABADO,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"CalleCuevasdelaAlmanzora,18",,Calle,Cuevas de la Almanzora,número,18,16,HORTALEZA,444128.94,4480874.57,40.47667771,-3.659140563,"SABADO,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"PaseoSantaMaríadelaCabeza,64",,Paseo,Santa María de la Cabeza,número,64,02,ARGANZUELA,440610.31,4472447.21,40.40051605,-3.699861192,"SABADO,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"PlazaMayor,29-30SalidaCalleCiudadRodrigo",Salida Calle Ciudad Rodrigo,Plaza,Mayor,número,29-30,01,CENTRO,440026.35,4474142.61,40.41574723,-3.706902053,"SABADO,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidaFranciscoPiyMargall,72",,Avenida,Francisco Pi y Margall,número,72,16,HORTALEZA,444145.15,4482435.53,40.49074059,-3.659086913,"SABADO,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"AvenidaSanDiego,111",,Avenida,San Diego,número,111,13,PUENTE VALLECAS,443629.46,4470440.95,40.38265243,-3.664107653,"SABADO,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"PaseoDelicias,24",,Paseo,Delicias,número,24,02,ARGANZUELA,441144.57,4472990.16,40.4054452,-3.693616009,"SABADO,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"PaseoSanFranciscodeSales,36",,Paseo,San Francisco de Sales,número,36,07,CHAMBERI,439515.93,4477071.54,40.44209537,-3.713196475,"SABADO,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"CalleBravoMurillo,92",,Calle,Bravo Murillo,número,92,07,CHAMBERI,440317.12,4477482.65,40.4458567,-3.703788592,"SABADO,TARDE,14:00,15:30"
-Punto Limpio Móvil,"CalleLaMancha,2",,Calle,La Mancha,número,2,13,PUENTE VALLECAS,443184.26,4470315.25,40.38148977,-3.669341034,"SABADO,TARDE,14:00,15:30"
-Punto Limpio Móvil,"AvenidaNicetoAlcaláZamora,78IntersecciónconVicenteBlascoIbañez",Intersección con Vicente Blasco Ibañez,Avenida,Niceto Alcalá Zamora,número,78,16,HORTALEZA,444716.97,4483076.55,40.4965535,-3.652395738,"SABADO,TARDE,14:00,15:30"
-Punto Limpio Móvil,"PaseoDelicias,122",,Paseo,Delicias,número,122,02,ARGANZUELA,441031.38,4471817.71,40.39487516,-3.694841268,"SABADO,TARDE,14:00,15:30"
-Punto Limpio Móvil,"PlazaCebada,5-7",,Plaza,Cebada,número,5-7,01,CENTRO,439790.02,4473664.08,40.41132,-3.70927,"SABADO,TARDE,14:00,15:30"
-Punto Limpio Móvil,"AvenidaPabloNeruda,89",,Avenida,Pablo Neruda,número,89,13,PUENTE VALLECAS,443966.93,4470271.88,40.38115207,-3.660117241,"SABADO,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleBravoMurillo,8",,Calle,Bravo Murillo,número,8,07,CHAMBERI,440268.33,4476210.98,40.43439746,-3.704244286,"SABADO,TARDE,15:45,17:15"
-Punto Limpio Móvil,"PaseoChopera,12",,Paseo,Chopera,número,12,02,ARGANZUELA,440756.12,4471631.64,40.39317945,-3.698067172,"SABADO,TARDE,15:45,17:15"
-Punto Limpio Móvil,"CalleArapiles,21IntersecciónconCalleVallehermoso",Intersección con Calle Vallehermoso,Calle,Arapiles,número,21,07,CHAMBERI,439904.28,4476035.91,40.43279411,-3.708519655,"SABADO,TARDE,17:30,19:00"
-Punto Limpio Móvil,"AvenidaRafaelAlberti,34",,Avenida,Rafael Alberti,número,34,13,PUENTE VALLECAS,445452.36,4470656.43,40.3847149,-3.642651544,"SABADO,TARDE,17:30,19:00"
-Punto Limpio Móvil,"CaminoViejodeBurgos,24",,Camino,Viejo de Burgos,número,24,16,HORTALEZA,446488.7,4481435.19,40.48188344,-3.63135024,"SABADO,TARDE,17:30,19:00"
-Punto Limpio Móvil,"PaseoJuanAntonioVallejo-NájeraBotas,IntersecciónconPlazaOrtegayMunilla,detrásdelaentradaalaestacióndeCercaníasdePirámides","Intersección con Plaza Ortega y Munilla, detrás de la entrada a la estación de Cercanías de Pirámides",Paseo,Juan Antonio Vallejo-Nájera Botas,número,,02,ARGANZUELA,439635.23,4472715.18,40.40285996,-3.711376364,"SABADO,TARDE,17:30,19:00"
-Punto Limpio Móvil,"AvenidaVirgendelCarmen,Aceraimpares,frentealnúmero84","Acera impares, frente al número 84",Avenida,Virgen del Carmen,número,,16,HORTALEZA,445107.14,4480737.23,40.47550565,-3.647589094,"SABADO,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleFernándezdelosRíos,62",,Calle,Fernández de los Ríos,número,62,07,CHAMBERI,439625.55,4476321.63,40.43534781,-3.711832755,"SABADO,TARDE,19:15,20:45"
-Punto Limpio Móvil,"PlazaFranciscoMorano,3EnlarotondaentrelassalidasdePaseoImperialyPaseodelosPontones",En la rotonda entre las salidas de Paseo Imperial y Paseo de los Pontones,Plaza,Francisco Morano,número,3,02,ARGANZUELA,439221.37,4472922.62,40.4046986,-3.716273022,"SABADO,TARDE,19:15,20:45"
-Punto Limpio Móvil,"CalleFedericoMompou,4EdificioTelecinco",Edificio Telecinco,Calle,Federico Mompou,número,4,08,FUENCARRAL,442484.39,4484676.35,40.5108133512341,-3.67888605764082,"MARTES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"RondaRondadelaComunicación,2EdificioTelefonica",Edificio Telefonica,Ronda,Ronda de la Comunicación,número,2,08,FUENCARRAL,443723.05,4485009.33,40.5138979304183,-3.66429606720972,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"CalleAbetal,3-5EdificioBBVA",Edificio BBVA,Calle,Abetal,número,3-5,08,FUENCARRAL,443856.16,4483545.97,40.5007244095852,-3.66259517914358,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"AvenidaAvda.MonfortedeLemos,1CuatroTorres",Cuatro Torres,Avenida,Avda. Monforte de Lemos,número,1,08,FUENCARRAL,441706.39,4480710.18,40.4750302638568,-3.68770369754848,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"calleMauricioLegendre,5",,calle,Mauricio Legendre,número,5,05,CHAMARTIN,441764.3,4480066.56,40.4692363293796,-3.68696147683308,"MARTES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"calleOrense,2Azca",Azca,calle,Orense,número,2,06,TETUAN,441035.06,4477589.81,40.4468732750801,-3.52989542448213,"MARTES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"calleAgustíndeBetancourt,1Ministerio",Ministerio,calle,Agustín de Betancourt,número,1,07,CHAMBERI,441053.61,4477057,40.4420748012669,-3.6950649134365,"MARTES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"calleMontalbán,7-9EdificioAyuntamientodeMadrid",Edificio Ayuntamiento de Madrid,calle,Montalbán,número,7-9,03,RETIRO,441449.91,4474405.04,40.4182126836302,-3.69014800469709,"MARTES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"calleMéndezÁlvaro,1PuertadeAtocha",Puerta de Atocha,calle,Méndez Álvaro,número,1,02,ARGANZUELA,441255.97,4473136.22,40.4067688513445,-3.69231672404241,"MARTES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"calleCerrodelaPlata,3EMT",EMT,calle,Cerro de la Plata,número,3,02,RETIRO,442752.58,4472399.1,40.4002327303121,-3.6746135863849,"MARTES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"calleMéndezÁlvaro,44edficioRepsol",edficio Repsol,calle,Méndez Álvaro,número,44,02,ARGANZUELA,441966.39,4472215.35,40.3985229910894,-3.68386081508759,"JUEVES,MAÑANA,7:00,8:30"
-Punto Limpio Móvil,"calleBustamante,16EdificioAyuntamientodeMadrid",Edificio Ayuntamiento de Madrid,calle,Bustamante,número,16,02,ARGANZUELA,441594.58,4472433.27,40.4004601355331,-3.68826187102883,"JUEVES,MAÑANA,8:45,10:15"
-Punto Limpio Móvil,"calleAlcaldeSainzdeBaranda,92frente.(FachadaParqueFuentedelBerro).",frente. (Fachada Parque Fuente del Berro).,calle,Alcalde Sainz de Baranda,número,92,04,SALAMANCA,443788.85,4474709.95,40.4211207544295,-3.66260692996813,"JUEVES,MAÑANA,10:30,12:00"
-Punto Limpio Móvil,"calleAlbarracín,,35EdificioAyuntamientodeMadrid",Edificio Ayuntamiento de Madrid,calle,"Albarracín,",número,35,20,SAN BLAS-CANILLEJAS,446527.99,4475878.75,40.4318305270171,-3.63041864358532,"JUEVES,MAÑANA,12:15,13:45"
-Punto Limpio Móvil,"calleRiberadelSena,21esquinaconEstrasburgoEdificioAyuntamientodeMadrid",esquina con Estrasburgo Edificio Ayuntamiento de Madrid,calle,Ribera del Sena,número,21,21,BARAJAS,447632.56,4479217.25,40.4619759490284,-3.61767209392875,"JUEVES,TARDE,14:00,15:30"
-Punto Limpio Móvil,"calleAbelias,1esquinaAvda.Arces",esquina Avda. Arces,calle,Abelias,número,1,16,HORTALEZA,447020.91,4478148.67,40.4523108158298,-3.62479689737055,"JUEVES,TARDE,15:45,17:15"
-Punto Limpio Móvil,"PaseoAlamedadeOsuna,,50",,Paseo,"Alameda de Osuna,",número,50,21,BARAJAS,449316.5,4478388.17,40.4546115269435,-3.59774492487677,"JUEVES,TARDE,17:30,19:00"
-Punto Limpio Móvil,"AvenidaLogroño,160-162EntradaResidencialElCapricho",Entrada Residencial El Capricho,Avenida,Logroño,número,160-162,21,BARAJAS,450664.16,4480634.97,40.4749331667577,-3.58202653065271,"JUEVES,TARDE,19:15,20:45"
-Punto Limpio Móvil,"PaseoFlorida,12(farola13)",(farola 13),Paseo,Florida,número,12,09,MONCLOA-ARAVACA,438687.94,4474941.28,40.4228444553487,-3.72275349491946,"SÁBADO,TARDE,19:15,20:45"
-Punto Limpio Móvil,"AvenidaPrincipal,4-6AccesoPabellónCubodelaPipa-CasadeCampo",Acceso Pabellón Cubo de la Pipa- Casa de Campo,Avenida,Principal,número,4-6,09,MONCLOA-ARAVACA,437292.7,4473802.24,40.4124795455108,-3.7390871636404,"LUNES,TARDE,12:15,13:45"
-Punto Limpio Móvil,"AvenidaBlasdeLezo,22",,Avenida,Blas de Lezo,número,22,19,VICALVARO,453115.63,4473036.7,40.40662463632171,-3.552546560961443,"VIERNES,MAÑANA,12:15,13:30"
+DIRECCION_COMPLETA,CLASE_VIAL,NOMBRE_VIAL,NUMERO,DISTRITO,UTMX,UTMY,Horario
+CallePríncipedeVergara_110,Calle,Príncipe de Vergara,110,CHAMARTIN,442421.33,4476741.68,LUNES_MAÑANA_7:00_8:30
+CalleSanMarcelo_6,Calle,San Marcelo,6,CIUDAD LINEAL,444161.68,4475366.47,LUNES_MAÑANA_7:00_8:30
+AvenidaDoctorArce_1IntersecciónconPlazadelaRepúblicaArgentina,Avenida,Doctor Arce,1,CHAMARTIN,441900.66,4477410.63,LUNES_MAÑANA_8:45_10:15
+CalleSanturce_IntersecciónconCalleLuisRuiz,Calle,Santurce,,CIUDAD LINEAL,446077.17,4475366.87,LUNES_MAÑANA_8:45_10:15
+CallePradillo_22,Calle,Pradillo,22,CHAMARTIN,442881.26,4477772.74,LUNES_MAÑANA_10:30_12:00
+CalleGómezdeAvellaneda_14,Calle,Gómez de Avellaneda,14,CIUDAD LINEAL,445480.21,4476101.61,LUNES_MAÑANA_10:30_12:00
+PaseodelaDirección_328,Paseo,de la Dirección,328,TETUAN,440313.76,4480160.56,LUNES_MAÑANA_10:30_12:00
+CallePadreClaret_17,Calle,Padre Claret,17,CHAMARTIN,443640.94,4477637.11,LUNES_MAÑANA_12:15_13:45
+CalleHierbabuena_13,Calle,Hierbabuena,13,TETUAN,440494.07,4479060.15,LUNES_TARDE_15:45_17:15
+CalleJulioDánvila_1Frentealcolegio,Calle,Julio Dánvila,1,CIUDAD LINEAL,443458.44,4480309.3,LUNES_TARDE_19:15_20:45
+CalleSaliente_Frentealnúmero10,Calle,Saliente,,RETIRO,443446.55,4474466.02,LUNES_TARDE_19:15_20:45
+CallePedroTeixeira_10IntersecciónconCallePoetaJoanMaragall,Calle,Pedro Teixeira,10,TETUAN,441286.56,4478482.2,LUNES_TARDE_19:15_20:45
+CalleJuanDuque_IntersecciónconCalleFósforo,Calle,Juan Duque,,ARGANZUELA,438941.39,4473524.5,MARTES_MAÑANA_7:00_8:30
+CalleFernandoelCatólico_73,Calle,Fernando el Católico,73,CHAMBERI,439239.86,4476218.44,MARTES_MAÑANA_7:00_8:30
+PaseoEsperanza_21,Paseo,Esperanza,21,ARGANZUELA,440234.97,4472511.69,MARTES_MAÑANA_8:45_10:15
+CalleJoaquínMaríaLópez_54,Calle,Joaquín María López,54,CHAMBERI,439312.53,4476603.04,MARTES_MAÑANA_8:45_10:15
+CalleDiligencia_22IntersecciónconCallelaVioletera_frentealViverodeEmpresas,Calle,Diligencia,22,PUENTE VALLECAS,444302.77,4470488.95,MARTES_MAÑANA_8:45_10:15
+CalleFernandoPoo_Frenteelnúmero36_esquinaDivinoVallés,Calle,Fernando Poo,,ARGANZUELA,440606.99,4472014.76,MARTES_MAÑANA_10:30_12:00
+CalleArrieta_15,Calle,Arrieta,15,CENTRO,439675.8,4474526.5,MARTES_MAÑANA_10:30_12:00
+CallePonzano_2,Calle,Ponzano,2,CHAMBERI,440684.85,4476491.04,MARTES_MAÑANA_10:30_12:00
+AvenidaSanDiego_78IntersecciónconCalleManuelMaroto,Avenida,San Diego,78,PUENTE VALLECAS,443184.53,4471012.4,MARTES_MAÑANA_10:30_12:00
+PaseoDelicias_68,Paseo,Delicias,68,ARGANZUELA,441080.38,4472315.18,MARTES_MAÑANA_12:15_13:45
+CalleFranciscodeRojas_11,Calle,Francisco de Rojas,11,CHAMBERI,440624.47,4475722.24,MARTES_MAÑANA_12:15_13:45
+CalleEnriqueGarcíaÁlvarez_Frentealnúmero10,Calle,Enrique García Álvarez,,VILLA DE VALLECAS,447815.84,4470316.07,MARTES_MAÑANA_12:15_13:45
+CalleFrayLuisdeLeón_IntersecciónconCalleJuanSebastianElcano_17,Calle,Fray Luis de León,,ARGANZUELA,440713.46,4472921.95,MARTES_TARDE_14:00_15:30
+CalleGarcíadeParedes_82,Calle,García de Paredes,82,CHAMBERI,441208.65,4476442.5,MARTES_TARDE_14:00_15:30
+AvenidaCelioVillalba_IntersecciónconCalleManizales,Avenida,Celio Villalba,,HORTALEZA,446022.61,4480624.5,MARTES_TARDE_14:00_15:30
+CalleMarismas_24,Calle,Marismas,24,PUENTE VALLECAS,444538.49,4472519.71,MARTES_TARDE_14:00_15:30
+CalleFuentespina_10,Calle,Fuentespina,10,VILLA DE VALLECAS,448482.94,4470052.83,MARTES_TARDE_14:00_15:30
+CalleArganda_2Frentealnúmero2,Calle,Arganda,2,ARGANZUELA,439813.61,4472287.38,MARTES_TARDE_15:45_17:15
+PlazaSanJuandelaCruz_3IntersecciónconCalleFernándezdelaHoz,Plaza,San Juan de la Cruz,3,CHAMBERI,441112.59,4476955,MARTES_TARDE_15:45_17:15
+CalleAlcalá_287IntersecciónconCalleBuenGobernador,Calle,Alcalá,287,CIUDAD LINEAL,444506.16,4475947.8,MARTES_TARDE_15:45_17:15
+CalleDoloresBarranco_50,Calle,Dolores Barranco,50,USERA,440003.69,4470544.29,MARTES_TARDE_15:45_17:15
+CalleCobre_Frentealnúmero5,Calle,Cobre,,ARGANZUELA,441506.6,4471686.88,MARTES_TARDE_17:30_19:00
+CalleSegovia_20,Calle,Segovia,20,CENTRO,439571.88,4473948.99,MARTES_TARDE_17:30_19:00
+CalleVallehermoso_Frentealnúmero50,Calle,Vallehermoso,,CHAMBERI,439898.35,4476357.44,MARTES_TARDE_17:30_19:00
+CalleHermanosMachado_IntersecciónconCalleLosCollados,Calle,Hermanos Machado,,CIUDAD LINEAL,444949.64,4475812.43,MARTES_TARDE_17:30_19:00
+CarreteradeCanillas_39IntersecciónconCalleAndrésObispo,Carretera,de Canillas,39,HORTALEZA,445060.54,4479364.92,MARTES_TARDE_17:30_19:00
+CalleRafaelFernándezHijicos_32,Calle,Rafael Fernández Hijicos,32,PUENTE VALLECAS,446071.56,4471283.04,MARTES_TARDE_17:30_19:00
+CalleEmbajadores_274,Calle,Embajadores,274,ARGANZUELA,441501.17,4470772.24,MARTES_TARDE_19:15_20:45
+AvenidaIslasFilipinas_32,Avenida,Islas Filipinas,32,CHAMBERI,439926.37,4476890.05,MARTES_TARDE_19:15_20:45
+AvenidaMadroños_61,Avenida,Madroños,61,HORTALEZA,446340.39,4478598.57,MARTES_TARDE_19:15_20:45
+CalleFresnedillas_9frente,Calle,Fresnedillas,9,FUENCARRAL,437078.57,4481062.92,MIÉRCOLES_MAÑANA_7:00_8:30
+AvenidadeAsturias_6Enlavíadeservicio,Avenida,de Asturias,6,TETUAN,441261.48,4479932.15,MIÉRCOLES_MAÑANA_7:00_8:30
+CalleRibadavia_27Lateralfrenteasupermercado,Calle,Ribadavia,27,FUENCARRAL,439928.95,4480487.78,MIÉRCOLES_MAÑANA_8:45_10:15
+CalleSorÁngeladelaCruz_12,Calle,Sor Ángela de la Cruz,12,TETUAN,441204.79,4478974.6,MIÉRCOLES_MAÑANA_8:45_10:15
+CaminoGanapanes_IntersecciónconCalleLaBañeza,Camino,Ganapanes,,FUENCARRAL,439312.67,4480804.68,MIÉRCOLES_MAÑANA_10:30_12:00
+AvenidaComplutense_s/nFrenteServiciodeInformática,Avenida,Complutense,s/n,MONCLOA-ARAVACA,438300.24,4478098.82,MIÉRCOLES_MAÑANA_10:30_12:00
+AvenidaHellin_17,Avenida,Hellin,17,SAN BLAS-CANILLEJAS,447762.06,4475755.67,MIÉRCOLES_MAÑANA_10:30_12:00
+CalleSangenjo_12,Calle,Sangenjo,12,FUENCARRAL,440461.07,4481732.36,MIÉRCOLES_MAÑANA_12:15_13:45
+CalleCarpintería_IntersecciónconCalleAmposta,Calle,Carpintería,,SAN BLAS-CANILLEJAS,447187.13,4475180.25,MIÉRCOLES_MAÑANA_12:15_13:45
+CalleMarquésdeViana_70,Calle,Marqués de Viana,70,TETUAN,440293.07,4479480.24,MIÉRCOLES_MAÑANA_12:15_13:45
+CalleCapitánBlancoArgibay_134,Calle,Capitán Blanco Argibay,134,TETUAN,440294.35,4479853.22,MIÉRCOLES_TARDE_14:00_15:30
+PlazadeCoimbra_Juntoalsemáforo,Plaza,de Coimbra,,CARABANCHEL,438568.9,4470537.06,MIÉRCOLES_TARDE_15:45_17:15
+CalleSanRestituto_24,Calle,San Restituto,24,MONCLOA-ARAVACA,439653.21,4479618.59,MIÉRCOLES_TARDE_15:45_17:15
+AvenidaPabloIglesias_36,Avenida,Pablo Iglesias,36,TETUAN,439881.6,4477758.48,MIÉRCOLES_TARDE_15:45_17:15
+CalleSantaMaríaMagdalena_18,Calle,Santa María Magdalena,18,CHAMARTIN,443152.84,4479362.51,JUEVES_MAÑANA_7:00_8:30
+AvenidaSanLuis_27,Avenida,San Luis,27,HORTALEZA,444307.38,4480241.88,JUEVES_MAÑANA_7:00_8:30
+CalleMarquésdeLozoya_Frentealnúmero26,Calle,Marqués de Lozoya,,RETIRO,443735.01,4474353.96,JUEVES_MAÑANA_7:00_8:30
+CalleMinerva_IntersecciónconCalleCampodelaTorre_19,Calle,Minerva,,VICALVARO,448630.35,4471993.27,JUEVES_MAÑANA_7:00_8:30
+AvenidaPíoXII_46,Avenida,Pío XII,46,CHAMARTIN,442890.96,4479932.86,JUEVES_MAÑANA_8:45_10:15
+CalleEstíbaliz_28IntersecciónconCallePabloSerano,Calle,Estíbaliz,28,HORTALEZA,445059.54,4480153.07,JUEVES_MAÑANA_8:45_10:15
+CalleIbiza_60,Calle,Ibiza,60,RETIRO,443060.56,4474360.16,JUEVES_MAÑANA_8:45_10:15
+CalleGeneralLópezPozas_16,Calle,General López Pozas,16,CHAMARTIN,441894.15,4479631.93,JUEVES_MAÑANA_10:30_12:00
+CalleAmadoNervo_Frentealnúmero12,Calle,Amado Nervo,,RETIRO,442788.5,4473396.48,JUEVES_MAÑANA_10:30_12:00
+CallePríncipedeVergara_248,Calle,Príncipe de Vergara,248,CHAMARTIN,442572.62,4478331.25,JUEVES_MAÑANA_12:15_13:45
+CalleValderribas_25C,Calle,Valderribas,25 C,RETIRO,443125.43,4472621.32,JUEVES_MAÑANA_12:15_13:45
+AvenidaManuelFragaIribarne_35,Avenida,Manuel Fraga Iribarne,35,BARAJAS,448402.34,4482129.6,JUEVES_TARDE_14:00_15:30
+PaseoReinaCristina_Frentealnúmero5_intersecciónalaCalleJuliánGayarre,Paseo,Reina Cristina,,RETIRO,442007.41,4473121.63,JUEVES_TARDE_14:00_15:30
+CalleTéllez_26IntersecciónconCalleLeónGilPalacio,Calle,Téllez,26,RETIRO,442345.67,4472637.26,JUEVES_TARDE_15:45_17:15
+CalleSofía_IntersecciónconCalleBélgica_205,Calle,Sofía,,SAN BLAS-CANILLEJAS,448969.61,4475577.51,JUEVES_TARDE_19:15_20:45
+CalleSanModesto_IntersecciónconCalleIsidroFernández,Calle,San Modesto,,FUENCARRAL,441903.66,4481728.79,VIERNES_MAÑANA_7:00_8:30
+AvenidaAbrantes_40FrenteCalleFaro,Avenida,Abrantes,40,CARABANCHEL,438286.77,4470380.6,VIERNES_MAÑANA_8:45_10:15
+CalleCaballerodelaBlancaLuna_1,Calle,Caballero de la Blanca Luna,1,FUENCARRAL,441762.46,4484058.83,VIERNES_MAÑANA_8:45_10:15
+AvenidaPadrePiquer_13JuntoaCorreos,Avenida,Padre Piquer,13,LATINA,434848.14,4471779.49,VIERNES_MAÑANA_10:30_12:00
+AvenidaRosales_IntersecciónconCalleTántalo,Avenida,Rosales,,VILLAVERDE,442294.55,4467199.5,VIERNES_MAÑANA_10:30_12:00
+CallePicoMilano_9,Calle,Pico Milano,9,FUENCARRAL,439592.55,4481975.77,VIERNES_MAÑANA_12:15_13:45
+CalleYébenes_110Frentealnúmero217,Calle,Yébenes,110,LATINA,436214.39,4471552.4,VIERNES_MAÑANA_12:15_13:45
+CalleArroyodelaBulera_Frentealnúmero11,Calle,Arroyo de la Bulera,,VILLAVERDE,442204.91,4465591.73,VIERNES_MAÑANA_12:15_13:45
+CalleMariblanca_18-20Entrelosnúmero18y20,Calle,Mariblanca,18-20,USERA,440065.32,4471458.49,VIERNES_TARDE_14:00_15:30
+CalleAlférezJuanUsera_36,Calle,Alférez Juan Usera,36,CARABANCHEL,437947.11,4471907.52,VIERNES_TARDE_15:45_17:15
+CalleElfo_55-57,Calle,Elfo,55-57,CIUDAD LINEAL,444683.8,4476110.77,VIERNES_TARDE_15:45_17:15
+CalleJoaquínLorenzo_106,Calle,Joaquín Lorenzo,106,FUENCARRAL,437626.69,4480819.66,VIERNES_TARDE_15:45_17:15
+AvenidaApóstoles_13IntersecciónconPaseodelosOlivos,Avenida,Apóstoles,13,LATINA,437234.38,4473046.83,VIERNES_TARDE_15:45_17:15
+CalleVirgendelasCruces_2-4,Calle,Virgen de las Cruces,2-4,USERA,441219.87,4469970.76,VIERNES_TARDE_15:45_17:15
+PlazadelaParroquia_16,Plaza,de la Parroquia,16,CARABANCHEL,437027.97,4470191.24,VIERNES_TARDE_17:30_19:00
+CallePabloCasals_Frentealnúmero10,Calle,Pablo Casals,,LATINA,438510.46,4473539.12,VIERNES_TARDE_17:30_19:00
+CallePicodeArtilleros_55,Calle,Pico de Artilleros,55,MORATALAZ,445592.6,4472886.08,VIERNES_TARDE_17:30_19:00
+CallelaCancióndelOlvido_47,Calle,la Canción del Olvido,47,VILLAVERDE,440576.44,4467618.06,VIERNES_TARDE_19:15_20:45
+CalleBarquillo_4,Calle,Barquillo,4,CENTRO,440994.61,4474572.62,SABADO_MAÑANA_7:00_8:30
+CalleLopedeVega_Frentealnúmero36,Calle,Lope de Vega,,CENTRO,440827.07,4473984.49,SABADO_MAÑANA_8:45_10:15
+CalleJoseOrtegayGasset_8,Calle,Jose Ortega y Gasset,8,SALAMANCA,441807.06,4475732.94,SABADO_MAÑANA_8:45_10:15
+AvenidaPabloIglesias_55,Avenida,Pablo Iglesias,55,MONCLOA-ARAVACA,439724.21,4478011.73,SABADO_MAÑANA_10:30_12:00
+CalleJuanBravo_35-37IntersecciónconCalleGeneralPardiñas,Calle,Juan Bravo,35-37,SALAMANCA,442486.06,4476004.1,SABADO_MAÑANA_10:30_12:00
+CalleNicolasaGómez_Frentealnúmero80,Calle,Nicolasa Gómez,,SAN BLAS-CANILLEJAS,448113.18,4476603.52,SABADO_MAÑANA_10:30_12:00
+PlazaTirsodeMolina_16Zonadecargaydescarga,Plaza,Tirso de Molina,16,CENTRO,440221.41,4473790.59,SABADO_MAÑANA_12:15_13:45
+CalleRiberadeManzanares_125IntersecciónconCalleAcantilado,Calle,Ribera de Manzanares,125,MONCLOA-ARAVACA,437794.24,4475679.7,SABADO_MAÑANA_12:15_13:45
+CalledelPilardeZaragoza_57ItersecciónconCalleJoséPicón,Calle,del Pilar de Zaragoza,57,SALAMANCA,443058.63,4476339.41,SABADO_MAÑANA_12:15_13:45
+CalleArriaza_Frentealnúmero10.IntersecciónconCalleIlustración,Calle,Arriaza,,MONCLOA-ARAVACA,439250.09,4474759.72,SABADO_TARDE_14:00_15:30
+CalleBerlín_3,Calle,Berlín,3,SALAMANCA,443741.93,4476969.2,SABADO_TARDE_14:00_15:30
+CalleEspírituSanto_26Entrolosnúmeros26y28.Zonadecargaydescarga,Calle,Espíritu Santo,26,CENTRO,440311.69,4475218.53,SABADO_TARDE_15:45_17:15
+PlazaLavapiés_8Zonadecargaydescarga,Plaza,Lavapiés,8,CENTRO,440499.65,4473354.35,SABADO_TARDE_15:45_17:15
+CalleLuisMoyaBlanco_27,Calle,Luis Moya Blanco,27,HORTALEZA,447765.99,4482999.86,SABADO_TARDE_15:45_17:15
+CalleDoctorEsquerdo_47,Calle,Doctor Esquerdo,47,SALAMANCA,443283,4474940.14,SABADO_TARDE_15:45_17:15
+GlorietaEmbajadores_10esquinacalleEmbajadores,Glorieta,Embajadores,10,CENTRO,440360.07,4472982.46,SABADO_TARDE_17:30_19:00
+CalleSilva_25,Calle,Silva,25,CENTRO,440134.5,4474823.78,SABADO_TARDE_17:30_19:00
+CalleGeneralDíazPorlier_41,Calle,General Díaz Porlier,41,SALAMANCA,442571.45,4475523.9,SABADO_TARDE_17:30_19:00
+CalleVillanueva_20IntersecciónconCalleClaudioCoello,Calle,Villanueva,20,SALAMANCA,441714.67,4474870.03,SABADO_TARDE_19:15_20:45
+CalleEstrellaPolar_22,Calle,Estrella Polar,22,RETIRO,443476.57,4473573.2,LUNES_MAÑANA_7:00_8:30
+CalleJerónimaLlorente_65,Calle,Jerónima Llorente,65,TETUAN,439955.62,4478314.84,LUNES_MAÑANA_7:00_8:30
+CallePinardeSanJosé_13,Calle,Pinar de San José,13,CARABANCHEL,435295.3,4468443.89,LUNES_MAÑANA_7:00_8:30
+PaseoLanceros_2,Paseo,Lanceros,2,LATINA,432694.46,4470136.92,LUNES_MAÑANA_7:00_8:30
+PlazaElPardo_1IntersecciónconCalleCarboneros,Plaza,El Pardo,1,FUENCARRAL,434134.78,4485795.22,LUNES_MAÑANA_7:00_8:30
+AvenidaMenéndezPelayo_Frentealnúmero29_enlaaceradeElRetiro,Avenida,Menéndez Pelayo,,RETIRO,442393.46,4474445.91,LUNES_MAÑANA_8:45_10:15
+CalleCerrodeMinguete_9,Calle,Cerro de Minguete,9,FUENCARRAL,439019.02,4482030.84,LUNES_MAÑANA_8:45_10:15
+CalleFrancosRodríguez_57,Calle,Francos Rodríguez,57,TETUAN,439862.49,4478702,LUNES_MAÑANA_8:45_10:15
+AvenidaNuestraSeñoradeFátima_15,Avenida,Nuestra Señora de Fátima,15,CARABANCHEL,436817.76,4470851.96,LUNES_MAÑANA_8:45_10:15
+CalleVillasandino_35,Calle,Villasandino,35,LATINA,436111.45,4473060.11,LUNES_MAÑANA_8:45_10:15
+AvenidaCardenalHerreraOria_259,Avenida,Cardenal Herrera Oria,259,FUENCARRAL,438776.03,4481302.62,LUNES_MAÑANA_10:30_12:00
+AvenidaMenéndezPelayo_95,Avenida,Menéndez Pelayo,95,RETIRO,442376.92,4473120.55,LUNES_MAÑANA_10:30_12:00
+CalleAntonioLeyva_77FrentealInstitutoCarderóndelaBarca,Calle,Antonio Leyva,77,CARABANCHEL,439173.82,4471034.73,LUNES_MAÑANA_10:30_12:00
+PaseodelosJesuitas_42,Paseo,de los Jesuitas,42,LATINA,437639.27,4473379.86,LUNES_MAÑANA_10:30_12:00
+CalleCándidoMateos_17,Calle,Cándido Mateos,17,FUENCARRAL,439092.72,4480602.99,LUNES_MAÑANA_12:15_13:45
+CalleCarlosDaban_Frentealnúmero28,Calle,Carlos Daban,,CARABANCHEL,437905,4472135.59,LUNES_MAÑANA_12:15_13:45
+CalleDoctorEsquerdo_152,Calle,Doctor Esquerdo,152,RETIRO,442898.22,4472780.66,LUNES_MAÑANA_12:15_13:45
+CalleVirgendeÁfrica_14,Calle,Virgen de África,14,CIUDAD LINEAL,444534.76,4476616.93,LUNES_MAÑANA_12:15_13:45
+GlorietadelosCármenes_EntrelassalidasdeCalleGalluryCalleAlhambra,Glorieta,de los Cármenes,,LATINA,436910.15,4471942.57,LUNES_MAÑANA_12:15_13:45
+PlazadelaRemonta_3,Plaza,de la Remonta,3,TETUAN,440857.18,4479555.85,LUNES_MAÑANA_12:15_13:45
+AvenidaAlfonsoXIII_65,Avenida,Alfonso XIII,65,CHAMARTIN,443422.2,4478377.68,LUNES_TARDE_14:00_15:30
+AvenidadeAsturias_44,Avenida,de Asturias,44,TETUAN,440918.17,4480247.98,LUNES_TARDE_14:00_15:30
+CalleAgastia_42Frentealnúmero42,Calle,Agastia,42,CIUDAD LINEAL,444793.35,4477415.59,LUNES_TARDE_14:00_15:30
+CalleLaguna_121,Calle,Laguna,121,CARABANCHEL,437042.39,4471122.03,LUNES_TARDE_14:00_15:30
+CalleOcaña_149,Calle,Ocaña,149,LATINA,436073.76,4470917.76,LUNES_TARDE_14:00_15:30
+CalleSeco_2,Calle,Seco,2,RETIRO,442978.33,4472290.07,LUNES_TARDE_14:00_15:30
+CalleFermínCaballero_49-51,Calle,Fermín Caballero,49-51,FUENCARRAL,440114.52,4481748.34,LUNES_TARDE_14:00_15:30
+AvenidaOporto_33,Avenida,Oporto,33,CARABANCHEL,438505.01,4470788.9,LUNES_TARDE_15:45_17:15
+CalleCamarena_235Frentealnúmero296,Calle,Camarena,235,LATINA,435731.09,4470910.54,LUNES_TARDE_15:45_17:15
+CalleCañas_Frentealnúmero13,Calle,Cañas,,CIUDAD LINEAL,444088,4478794.51,LUNES_TARDE_15:45_17:15
+CalleDoctorEsquerdo_94EsquinaAvenidadeNazaret_frentealnúmero125,Calle,Doctor Esquerdo,94,RETIRO,443159.45,4473673.17,LUNES_TARDE_15:45_17:15
+CalleJulioPalacios_10,Calle,Julio Palacios,10,FUENCARRAL,443159.45,4473673.17,LUNES_TARDE_15:45_17:15
+PlazadelPerú_IntersecciónconAvenidaPíoXII,Plaza,del Perú,,CHAMARTIN,442655.01,4479090.61,LUNES_TARDE_15:45_17:15
+AvenidaAlbertoAlcocer_28,Avenida,Alberto Alcocer,28,CHAMARTIN,442019.6,4478870.53,LUNES_TARDE_17:30_19:00
+CalleArturoSoria_242,Calle,Arturo Soria,242,CIUDAD LINEAL,443589.38,4479647.5,LUNES_TARDE_17:30_19:00
+CalleClaraCampoamor_Frentealnúmero75,Calle,Clara Campoamor,,CARABANCHEL,437794.87,4470145.39,LUNES_TARDE_17:30_19:00
+CalleFuentedelTiro_17,Calle,Fuente del Tiro,17,LATINA,433744.17,4470628.25,LUNES_TARDE_17:30_19:00
+CalleNarváez_82,Calle,Narváez,82,RETIRO,442600.3,4474216.15,LUNES_TARDE_17:30_19:00
+CalleNuestraSeñoradeValverde_17,Calle,Nuestra Señora de Valverde,17,FUENCARRAL,441802.95,4482622.73,LUNES_TARDE_17:30_19:00
+CallePoetaJoanMaragall_45Frentealnúmero54_intersecciónconCalledeRosarioPino,Calle,Poeta Joan Maragall,45,TETUAN,441349.29,4479300.46,LUNES_TARDE_17:30_19:00
+CalleAfuerasaValverde_23,Calle,Afueras a Valverde,23,FUENCARRAL,441617.57,4483190.34,LUNES_TARDE_19:15_20:45
+CalleEnriqueLarreta_14,Calle,Enrique Larreta,14,CHAMARTIN,441795.16,4480002.77,LUNES_TARDE_19:15_20:45
+CalleMazarambroz_4IntersecciónconCalleCazalegasyCalleCarranque,Calle,Mazarambroz,4,CARABANCHEL,438203.57,4469646.48,LUNES_TARDE_19:15_20:45
+CalleOlivadePlasencia_1,Calle,Oliva de Plasencia,1,LATINA,433836.4,4470064.42,LUNES_TARDE_19:15_20:45
+CalleCondeDuque_30,Calle,Conde Duque,30,CENTRO,439762.85,4475482.28,MARTES_MAÑANA_7:00_8:30
+CalleCooperativaEléctrica_18,Calle,Cooperativa Eléctrica,18,PUENTE VALLECAS,443927.89,4469543.93,MARTES_MAÑANA_7:00_8:30
+CalleGuetaria_47IntersecciónconCalleVillabona,Calle,Guetaria,47,USERA,439253.3,4468975.92,MARTES_MAÑANA_7:00_8:30
+CallePeñarandadeBracamonte_53,Calle,Peñaranda de Bracamonte,53,VILLA DE VALLECAS,448130.3,4468637.39,MARTES_MAÑANA_7:00_8:30
+CallePradoluengo_243,Calle,Pradoluengo,243,BARAJAS,450648.62,4478009.91,MARTES_MAÑANA_7:00_8:30
+AvenidaVilladeVallecas_13,Avenida,Villa de Vallecas,13,VILLA DE VALLECAS,447453.54,4468963.83,MARTES_MAÑANA_8:45_10:15
+CalleSimca_4IntersecciónconCalleDodge,Calle,Simca,4,USERA,439712.1,4468664.29,MARTES_MAÑANA_8:45_10:15
+PlazaNavío_1,Plaza,Navío,1,BARAJAS,450116.69,4478506.26,MARTES_MAÑANA_8:45_10:15
+GlorietaRuízJiménez_8,Glorieta,Ruíz Jiménez,8,CENTRO,440138.36,4475639.72,MARTES_MAÑANA_8:45_10:15
+AvenidaOrcasur_44IntersecciónconCalleArenasdelRey_juntoalCentrodeSalud,Avenida,Orcasur,44,USERA,440506.5,4468567.22,MARTES_MAÑANA_10:30_12:00
+BulevarNaturaleza_13,Bulevar,Naturaleza,13,VILLA DE VALLECAS,446534.33,4469272.76,MARTES_MAÑANA_10:30_12:00
+CalleRioja_27,Calle,Rioja,27,BARAJAS,450374.7,4478971.54,MARTES_MAÑANA_10:30_12:00
+CalleAndaluces_9,Calle,Andaluces,9,PUENTE VALLECAS,445969.39,4471231.37,MARTES_MAÑANA_12:15_13:45
+CallePeriana_6,Calle,Periana,6,USERA,441543.92,4468873.4,MARTES_MAÑANA_12:15_13:45
+CalleSantaIsabel_47,Calle,Santa Isabel,47,CENTRO,440935.1,4473450.87,MARTES_MAÑANA_12:15_13:45
+PlazaMayordeBarajas_19,Plaza,Mayor de Barajas,19,BARAJAS,451060.24,4480473.35,MARTES_MAÑANA_12:15_13:45
+CalledelSantuario_IntersecciónconCalleHijasdeJesúsyCalleSanAntoniodePadua,Calle,del Santuario,,USERA,440572.26,4470721.15,MARTES_TARDE_14:00_15:30
+PlazaSantaBárbara_5,Plaza,Santa Bárbara,5,CENTRO,440928.63,4475438.21,MARTES_TARDE_14:00_15:30
+CalleHumanes_27,Calle,Humanes,27,PUENTE VALLECAS,445210.15,4471826.88,MARTES_TARDE_15:45_17:15
+CalleMontearagón_11,Calle,Montearagón,11,HORTALEZA,444177.72,4479401.51,MARTES_TARDE_15:45_17:15
+CallePríncipe_18,Calle,Príncipe,18,CENTRO,440580.55,4474086.94,MARTES_TARDE_15:45_17:15
+AvenidaRafaelaYbarra_20,Avenida,Rafaela Ybarra,20,USERA,439616.8,4470396.11,MARTES_TARDE_17:30_19:00
+AvenidadeBuenosAires_25,Avenida,de Buenos Aires,25,PUENTE VALLECAS,444594.75,4470982.35,MARTES_TARDE_19:15_20:45
+CalleEzequielSolana_73,Calle,Ezequiel Solana,73,CIUDAD LINEAL,445454.96,4475511.91,MARTES_TARDE_19:15_20:45
+CalleRiberadeCurtidores_37-(A_B_C),Calle,Ribera de Curtidores,"37- (A, B, C)",CENTRO,439996.74,4473123.76,MARTES_TARDE_19:15_20:45
+CalleManuelNoya_15,Calle,Manuel Noya,15,USERA,439532.69,4470930.76,MARTES_TARDE_19:15_20:45
+AvenidaVictoria_77,Avenida,Victoria,77,MONCLOA-ARAVACA,429298.03,4480698.94,MIÉRCOLES_MAÑANA_7:00_8:30
+CalleTrompas_15,Calle,Trompas,15,LATINA,435002.22,4469264.49,MIÉRCOLES_MAÑANA_7:00_8:30
+AvenidaInstituciónLibredeEnseñanza_1,Avenida,Institución Libre de Enseñanza,1,SAN BLAS-CANILLEJAS,445922.76,4476537.04,MIÉRCOLES_MAÑANA_7:00_8:30
+CalleJoaquínTurina_62,Calle,Joaquín Turina,62,CARABANCHEL,435614.07,4469349.07,MIÉRCOLES_MAÑANA_7:00_8:30
+PaseoAlbertoPalacios_1IntersecciónconPlazaÁgata,Paseo,Alberto Palacios,1,VILLAVERDE,439756.38,4466455.18,MIÉRCOLES_MAÑANA_7:00_8:30
+AvenidaValdemarín_71AIntersecciónconCalleCisne,Avenida,Valdemarín,71 A,MONCLOA-ARAVACA,434014.29,4480227.88,MIÉRCOLES_MAÑANA_8:45_10:15
+CalleCastillodeUclés_IntersecciónconCalleCastillodeSimancasyfrenteaCalleYuncos_1,Calle,Castillo de Uclés,,SAN BLAS-CANILLEJAS,447136.02,4475688.59,MIÉRCOLES_MAÑANA_8:45_10:15
+CalleGuareña_AlladoAuditorioPacodeLucia,Calle,Guareña,,LATINA,435085.62,4470795.23,MIÉRCOLES_MAÑANA_8:45_10:15
+PlazadelosNavarros_EntreCalleAlbaresdelaRiberayCalleAlbercadeZancara,Plaza,de los Navarros,,CARABANCHEL,436998.09,4469561.33,MIÉRCOLES_MAÑANA_8:45_10:15
+PaseoAlbertoPalacios_76,Paseo,Alberto Palacios,76,VILLAVERDE,439229.76,4466149.51,MIÉRCOLES_MAÑANA_8:45_10:15
+CalleGodella_Detrásdelnúmero100_enlaplazafrenteal116,Calle,Godella,,VILLAVERDE,441525.68,4465807.01,MIÉRCOLES_MAÑANA_10:30_12:00
+CalleIllescas_117,Calle,Illescas,117,LATINA,435391.82,4471712.37,MIÉRCOLES_MAÑANA_10:30_12:00
+CalleLopedeHaro_36,Calle,Lope de Haro,36,TETUAN,440251.84,4478691.42,MIÉRCOLES_MAÑANA_10:30_12:00
+CalleToboso_134,Calle,Toboso,134,CARABANCHEL,437480.77,4471691.97,MIÉRCOLES_MAÑANA_10:30_12:00
+CalleAntonioLópez_88,Calle,Antonio López,88,CARABANCHEL,439936.82,4471709.68,MIÉRCOLES_MAÑANA_12:15_13:45
+CalleBerrocal_14,Calle,Berrocal,14,VILLAVERDE,442442.55,4466535.77,MIÉRCOLES_MAÑANA_12:15_13:45
+CalleCardaño_8EnlaPlazaPatricioMartínez,Calle,Cardaño,8,LATINA,434616.7,4472057.03,MIÉRCOLES_MAÑANA_12:15_13:45
+CalleMarquésdeUrquijo_2,Calle,Marqués de Urquijo,2,MONCLOA-ARAVACA,439212.03,4475798.68,MIÉRCOLES_MAÑANA_12:15_13:45
+CalleCasalarreina_3IntersecciónconPlazadelaVicalvarada,Calle,Casalarreina,3,VICALVARO,448194.6,4473379.15,MIÉRCOLES_TARDE_14:00_15:30
+CalleCiudadania_6,Calle,Ciudadania,6,VILLAVERDE,441214.79,4467553.92,MIÉRCOLES_TARDE_14:00_15:30
+CalleFrancosRodríguez_102,Calle,Francos Rodríguez,102,MONCLOA-ARAVACA,439565.13,4478826.55,MIÉRCOLES_TARDE_14:00_15:30
+CalleNuria_59EnfrentedelCentroComercial,Calle,Nuria,59,FUENCARRAL,440009.17,4482762.54,MIÉRCOLES_TARDE_14:00_15:30
+CalleSanBraulio_EnlaaceradelMercadoMunicipaldeSanIsidro_frentealnúmero3,Calle,San Braulio,,CARABANCHEL,438469.3,4471471.06,MIÉRCOLES_TARDE_14:00_15:30
+CalleTembleque_64,Calle,Tembleque,64,LATINA,435476.34,4471898.29,MIÉRCOLES_TARDE_14:00_15:30
+CalleAlhambra_Aceradeenfrentealnúmero30,Calle,Alhambra,,LATINA,436815.31,4472519.63,MIÉRCOLES_TARDE_15:45_17:15
+AvenidaMonasteriodeSilos_85,Avenida,Monasterio de Silos,85,FUENCARRAL,441374.21,4484571.09,MIÉRCOLES_TARDE_15:45_17:15
+CalleTertulia_IntersecciónconCalleCírculo,Calle,Tertulia,,VILLAVERDE,441157.83,4468197.15,MIÉRCOLES_TARDE_15:45_17:15
+CalleVillardondiego_39-41,Calle,Villardondiego,39-41,VICALVARO,448405.2,4472827.04,MIÉRCOLES_TARDE_15:45_17:15
+CalleAviadorZorita_42,Calle,Aviador Zorita,42,TETUAN,440810.54,4478065.39,MIÉRCOLES_TARDE_17:30_19:00
+CalleEstella_21,Calle,Estella,21,FUENCARRAL,442850.98,4483154.23,MIÉRCOLES_TARDE_17:30_19:00
+CalleEugeniadeMontijo_76,Calle,Eugenia de Montijo,76,CARABANCHEL,436561.38,4470107.22,MIÉRCOLES_TARDE_17:30_19:00
+CalleHigueras_45,Calle,Higueras,45,LATINA,436775.56,4473012.46,MIÉRCOLES_TARDE_17:30_19:00
+CalleLadelManojodeRosas_14,Calle,La del Manojo de Rosas,14,VILLAVERDE,440769.53,4467935.53,MIÉRCOLES_TARDE_17:30_19:00
+CalleGolondrina_FrenteaAvenidadelTalgo_234,Calle,Golondrina,,MONCLOA-ARAVACA,433424.52,4477724.42,MIÉRCOLES_TARDE_17:30_19:00
+CalleMinerva_7,Calle,Minerva,7,VICALVARO,449254.82,4472752.19,MIÉRCOLES_TARDE_17:30_19:00
+AvenidaSantoDomingodelaCalzada_27,Avenida,Santo Domingo de la Calzada,27,FUENCARRAL,443304.7,4484255.94,MIÉRCOLES_TARDE_19:15_20:45
+CalleAbadJuanCatalán_52-56,Calle,Abad Juan Catalán,52-56,VICALVARO,449729.34,4473042.68,MIÉRCOLES_TARDE_19:15_20:45
+CalleCaramuel_6Entrelosnúmeros6y8,Calle,Caramuel,6,LATINA,438307.81,4473864.88,MIÉRCOLES_TARDE_19:15_20:45
+CalleMutual_2IntersecciónconAvenidadelaPeseta,Calle,Mutual,2,CARABANCHEL,436543.24,4468367.68,MIÉRCOLES_TARDE_19:15_20:45
+CalleLadelManojodeRosas_95,Calle,La del Manojo de Rosas,95,VILLAVERDE,440687.52,4467186.95,MIÉRCOLES_TARDE_19:15_20:45
+CalleOrense_9,Calle,Orense,9,TETUAN,441017.2,4477688.81,MIÉRCOLES_TARDE_19:15_20:45
+CalleVirgendelosRosales_Aceradeenfrentealnúmero88,Calle,Virgen de los Rosales,,MONCLOA-ARAVACA,433943.46,4478393.51,MIÉRCOLES_TARDE_19:15_20:45
+AvenidaGranVíadelSuereste_55,Avenida,Gran Vía del Suereste,55,VILLA DE VALLECAS,449631.14,4467582.44,JUEVES_MAÑANA_7:00_8:30
+CalleSantaMarta_15,Calle,Santa Marta,15,PUENTE VALLECAS,443822.93,4472671.33,JUEVES_MAÑANA_7:00_8:30
+PaseoMarquésdeZafra_32,Paseo,Marqués de Zafra,32,SALAMANCA,443646.54,4475219.93,JUEVES_MAÑANA_7:00_8:30
+AvenidaGranVíadelSuereste_11,Avenida,Gran Vía del Suereste,11,VILLA DE VALLECAS,450106.99,4468329.42,JUEVES_MAÑANA_8:45_10:15
+CalleGoya_107,Calle,Goya,107,SALAMANCA,442907.8,4475125.97,JUEVES_MAÑANA_8:45_10:15
+CallePergamino_Frentealnúmero30,Calle,Pergamino,,VICALVARO,447068.35,4471749.02,JUEVES_MAÑANA_8:45_10:15
+CaminoValderribas_99,Camino,Valderribas,99,PUENTE VALLECAS,443298.92,4472633.08,JUEVES_MAÑANA_8:45_10:15
+AvenidaLasSuertes_Frentealnúmero67,Avenida,Las Suertes,,VILLA DE VALLECAS,449614.83,4468373.88,JUEVES_MAÑANA_10:30_12:00
+CalleCordeldePavones_46,Calle,Cordel de Pavones,46,VICALVARO,447409.97,4472099.07,JUEVES_MAÑANA_10:30_12:00
+CalleMoscatelar_35,Calle,Moscatelar,35,HORTALEZA,445183.23,4478714.89,JUEVES_MAÑANA_10:30_12:00
+CalleNarváez_44,Calle,Narváez,44,SALAMANCA,442625.56,4474589.96,JUEVES_MAÑANA_10:30_12:00
+CalleRamírezTomé_38,Calle,Ramírez Tomé,38,PUENTE VALLECAS,445128.9,4471110.68,JUEVES_MAÑANA_10:30_12:00
+AvenidadeBuenosAires_99,Avenida,de Buenos Aires,99,PUENTE VALLECAS,444592,4470080.53,JUEVES_MAÑANA_12:15_13:45
+BulevarIndalecioPrieto_9,Bulevar,Indalecio Prieto,9,VICALVARO,447398.27,4472699.83,JUEVES_MAÑANA_12:15_13:45
+CalleEmbalsedeNavacerrada_Frentealnúmero50,Calle,Embalse de Navacerrada,,VILLA DE VALLECAS,448920.51,4468158.4,JUEVES_MAÑANA_12:15_13:45
+CalleSilvano_97Frentealnúmero97_intersecciónconAvenidaMachupichu,Calle,Silvano,97,HORTALEZA,446183.56,4479298.34,JUEVES_MAÑANA_12:15_13:45
+CalleVelázquez_48,Calle,Velázquez,48,SALAMANCA,441987.53,4475362.83,JUEVES_MAÑANA_12:15_13:45
+AvenidaGuadalajara_IntersecciónconCalleSanRomándelValle,Avenida,Guadalajara,,SAN BLAS-CANILLEJAS,447314.62,4474482.15,JUEVES_TARDE_14:00_15:30
+CalleMonleón_2,Calle,Monleón,2,PUENTE VALLECAS,444390.17,4471517.84,JUEVES_TARDE_14:00_15:30
+CalleSantaHortensia_2IntersecciónconLópezdeHoyos,Calle,Santa Hortensia,2,CHAMARTIN,443127.33,4477472.14,JUEVES_TARDE_14:00_15:30
+CalleSierraVieja_1,Calle,Sierra Vieja,1,VILLA DE VALLECAS,446556.28,4469822.16,JUEVES_TARDE_14:00_15:30
+CalleVelázquez_89,Calle,Velázquez,89,SALAMANCA,442019.84,4476160.84,JUEVES_TARDE_14:00_15:30
+CalleAlbericia_IntersecciónconCalleArcosdelJalón,Calle,Albericia,,SAN BLAS-CANILLEJAS,447785.8,4475053.34,JUEVES_TARDE_15:45_17:15
+CalleClaradelRey_21,Calle,Clara del Rey,21,CHAMARTIN,443000.35,4476931.78,JUEVES_TARDE_15:45_17:15
+CalleFranciscoSilvela_IntersecciónconCalleFlorestónAguilarjuntoalParqueEvaDuarte,Calle,Francisco Silvela,,SALAMANCA,443134.13,4475731.17,JUEVES_TARDE_15:45_17:15
+CalleArroyodelOlivar_IntersecciónconCalleMartínezdelaRiva_18,Calle,Arroyo del Olivar,,PUENTE VALLECAS,443463.25,4471710.98,JUEVES_TARDE_15:45_17:15
+CallePlayadeZarauz_1,Calle,Playa de Zarauz,1,BARAJAS,449780.61,4480454.48,JUEVES_TARDE_15:45_17:15
+PaseoFedericoGarcíaLorca_3,Paseo,Federico García Lorca,3,VILLA DE VALLECAS,447286.42,4470053.98,JUEVES_TARDE_15:45_17:15
+AvenidaDoctorGarcíaTapia_135,Avenida,Doctor García Tapia,135,MORATALAZ,445941.63,4473366.16,JUEVES_TARDE_17:30_19:00
+AvenidaGavia_14,Avenida,Gavia,14,VILLA DE VALLECAS,448175.45,4469566.88,JUEVES_TARDE_17:30_19:00
+AvenidaNiza_25Eneltramodevíaentrelosnúmeros13y25,Avenida,Niza,25,SAN BLAS-CANILLEJAS,448518.74,4475431.44,JUEVES_TARDE_17:30_19:00
+CalleAlcalá_237JuntoaPlazadeTorosdelasVentas,Calle,Alcalá,237,SALAMANCA,443683.25,4475825.97,JUEVES_TARDE_17:30_19:00
+CalleBahiadeCádiz_32,Calle,Bahia de Cádiz,32,BARAJAS,449612.88,4479406.74,JUEVES_TARDE_17:30_19:00
+CalleJavierdeMiguel_40,Calle,Javier de Miguel,40,PUENTE VALLECAS,443928.66,4470983.48,JUEVES_TARDE_17:30_19:00
+CallePríncipedeVergara_142,Calle,Príncipe de Vergara,142,CHAMARTIN,442484.79,4477330.64,JUEVES_TARDE_17:30_19:00
+CalleBabilonia_33,Calle,Babilonia,33,BARAJAS,450420.08,4479808.83,JUEVES_TARDE_19:15_20:45
+CalleBrescia_2IntersecciónconCalleBiarritz,Calle,Brescia,2,SALAMANCA,443651.03,4476418,JUEVES_TARDE_19:15_20:45
+CalleSantoDomingodeSilos_7IntersecciónAvConchaEspina,Calle,Santo Domingo de Silos,7,CHAMARTIN,441753.11,4478129.02,JUEVES_TARDE_19:15_20:45
+CalleFuenteCarrantona_41,Calle,Fuente Carrantona,41,MORATALAZ,446443.54,4473270.54,JUEVES_TARDE_19:15_20:45
+CallePuentelarrá_13,Calle,Puentelarrá,13,VILLA DE VALLECAS,448281.15,4470386.89,JUEVES_TARDE_19:15_20:45
+CalleRuidera_26,Calle,Ruidera,26,PUENTE VALLECAS,442665.31,4470184.77,JUEVES_TARDE_19:15_20:45
+AvenidaFerminaSevillano_26,Avenida,Fermina Sevillano,26,SAN BLAS-CANILLEJAS,451740.97,4477286.9,VIERNES_MAÑANA_7:00_8:30
+CalleEugeniadeMontijo_99,Calle,Eugenia de Montijo,99,CARABANCHEL,436250.91,4469582.53,VIERNES_MAÑANA_7:00_8:30
+CalleGranAvenida_31,Calle,Gran Avenida,31,USERA,440045.72,4469024.45,VIERNES_MAÑANA_7:00_8:30
+CalleHaciendadePavones_220,Calle,Hacienda de Pavones,220,MORATALAZ,445687.07,4472498.22,VIERNES_MAÑANA_7:00_8:30
+CalleRafaelFinat_103,Calle,Rafael Finat,103,LATINA,434421.94,4469758.87,VIERNES_MAÑANA_7:00_8:30
+CalleValdebernardo_45,Calle,Valdebernardo,45,MORATALAZ,446384.26,4472738.44,VIERNES_MAÑANA_7:00_8:30
+AvenidaSegunda_Frentealnúmero5aproximadamente,Avenida,Segunda,,SAN BLAS-CANILLEJAS,449598.47,4477580.64,VIERNES_MAÑANA_8:45_10:15
+CalleGeneralMillanAstray_20,Calle,General Millan Astray,20,LATINA,434871.22,4470041.9,VIERNES_MAÑANA_8:45_10:15
+CalleHaciendadePavones_72,Calle,Hacienda de Pavones,72,MORATALAZ,445169.27,4472738.84,VIERNES_MAÑANA_8:45_10:15
+CalleParquedelaPaloma_32,Calle,Parque de la Paloma,32,USERA,439336.43,4470025.17,VIERNES_MAÑANA_8:45_10:15
+CalleEncomiendadePalacios_360,Calle,Encomienda de Palacios,360,MORATALAZ,446155.78,4472002.79,VIERNES_MAÑANA_8:45_10:15
+AvenidaMonasteriodeSilos_Aceradelospares_frentealnúmero23,Avenida,Monasterio de Silos,,FUENCARRAL,440150.58,4483879.66,VIERNES_MAÑANA_10:30_12:00
+AvenidaPlazadeToros_3,Avenida,Plaza de Toros,3,CARABANCHEL,437399.58,4470811.58,VIERNES_MAÑANA_10:30_12:00
+CalleAntonioLópez_246-248,Calle,Antonio López,246-248,USERA,440926.94,4470378.91,VIERNES_MAÑANA_10:30_12:00
+CalleArturoSoria_320,Calle,Arturo Soria,320,CIUDAD LINEAL,443357.17,4481056.31,VIERNES_MAÑANA_10:30_12:00
+CalleCaminodeVinateros_108,Calle,Camino de Vinateros,108,MORATALAZ,445107.48,4473267.68,VIERNES_MAÑANA_10:30_12:00
+CalleAmparoUsera_47,Calle,Amparo Usera,47,USERA,440008.82,4470937.71,VIERNES_MAÑANA_12:15_13:45
+AvenidaOporto_96,Avenida,Oporto,96,CARABANCHEL,438078.26,4470987.84,VIERNES_MAÑANA_12:15_13:45
+CalleTorrelaguna_66,Calle,Torrelaguna,66,CIUDAD LINEAL,444284.28,4477775.95,VIERNES_MAÑANA_12:15_13:45
+CalleCaminodeVinateros_63,Calle,Camino de Vinateros,63,MORATALAZ,444685.42,4473515.98,VIERNES_MAÑANA_12:15_13:45
+CalleAntonioLópez_9,Calle,Antonio López,9,CARABANCHEL,439397.79,4472075.3,VIERNES_TARDE_14:00_15:30
+CalleBerrocal_72,Calle,Berrocal,72,VILLAVERDE,442647.27,4465842.89,VIERNES_TARDE_14:00_15:30
+CalleCaminodelosVinateros_10-12,Calle,Camino de los Vinateros,10-12,MORATALAZ,443962.2,4473544.21,VIERNES_TARDE_14:00_15:30
+CalleDuquesadeParcent_96,Calle,Duquesa de Parcent,96,LATINA,436326.92,4471971.48,VIERNES_TARDE_14:00_15:30
+CalleJosédelHierro_37IntersecciónconCalleRosalíaTrujillo,Calle,José del Hierro,37,CIUDAD LINEAL,445310.31,4476784.75,VIERNES_TARDE_14:00_15:30
+CalleLeopoldoAlasClarín_Aceradelospares_frentealnúmero41,Calle,Leopoldo Alas Clarín,,FUENCARRAL,437856.75,4481403.31,VIERNES_TARDE_14:00_15:30
+AvenidaMoratalaz_39,Avenida,Moratalaz,39,MORATALAZ,444112.81,4473200.76,VIERNES_TARDE_15:45_17:15
+CalleCarmendeBurgos_4,Calle,Carmen de Burgos,4,VILLAVERDE,441841.64,4467654.27,VIERNES_TARDE_15:45_17:15
+CalleEstafeta_20Frentealnúmero7,Calle,Estafeta,20,USERA,441213.67,4469426.02,VIERNES_TARDE_17:30_19:00
+CalleMaríaTeresaSáenzdeHeredia_44,Calle,María Teresa Sáenz de Heredia,44,CIUDAD LINEAL,444790.08,4475198.42,VIERNES_TARDE_17:30_19:00
+CalleMonfortedeLemos_38,Calle,Monforte de Lemos,38,FUENCARRAL,439866.37,4481101.21,VIERNES_TARDE_17:30_19:00
+CalleSantaPetronila_IntersecciónconCalleJosédelPino,Calle,Santa Petronila,,VILLAVERDE,441210.83,4466913.96,VIERNES_TARDE_17:30_19:00
+AvenidaElFerrol_6,Avenida,El Ferrol,6,FUENCARRAL,440330.32,4480667.53,VIERNES_TARDE_19:15_20:45
+CalleConíferas_10,Calle,Coníferas,10,USERA,441027.29,4468717.44,VIERNES_TARDE_19:15_20:45
+CalleLagunaRodrigo_7,Calle,Laguna Rodrigo,7,VILLAVERDE,440014.09,4467024.04,VIERNES_TARDE_19:15_20:45
+CalleTacona_1IntersecciónconArroyoFontarrón,Calle,Tacona,1,MORATALAZ,445589.72,4471957.48,VIERNES_TARDE_19:15_20:45
+AvenidaInstituciónLibredeEnseñanza_158,Avenida,Institución Libre de Enseñanza,158,CIUDAD LINEAL,446637.11,4475121.56,VIERNES_TARDE_19:15_20:45
+PaseoErmitadelSanto_39,Paseo,Ermita del Santo,39,LATINA,438534.79,4473134.22,VIERNES_TARDE_19:15_20:45
+AvenidaOsaMayor_23,Avenida,Osa Mayor,23,MONCLOA-ARAVACA,433960.1,4479063.34,SABADO_MAÑANA_7:00_8:30
+CalleTampico_79,Calle,Tampico,79,SAN BLAS-CANILLEJAS,446094.48,4477316.37,SABADO_MAÑANA_7:00_8:30
+PlazaChamberí_4,Plaza,Chamberí,4,CHAMBERI,440871.32,4476057.92,SABADO_MAÑANA_7:00_8:30
+AvenidaPrunos_44IntersecciónconAvenidaArroyodelSanto,Avenida,Prunos,44,HORTALEZA,447250.82,4478174.33,SABADO_MAÑANA_8:45_10:15
+CalleAntonioMachado_12IDMCiudaddelosPoetas,Calle,Antonio Machado,12,MONCLOA-ARAVACA,439027.38,4479726.98,SABADO_MAÑANA_8:45_10:15
+CalleBoltaña_20,Calle,Boltaña,20,SAN BLAS-CANILLEJAS,447977.19,4477307.56,SABADO_MAÑANA_8:45_10:15
+CalleSantaEngracia_126,Calle,Santa Engracia,126,CHAMBERI,440516.66,4477005.22,SABADO_MAÑANA_8:45_10:15
+PlazaLegazpi_5IntersecciónconPaseodelMolino,Plaza,Legazpi,5,ARGANZUELA,441030.6,4471362.47,SABADO_MAÑANA_8:45_10:15
+CalleBravoMurillo_41,Calle,Bravo Murillo,41,CHAMBERI,440186.51,4476585.12,SABADO_MAÑANA_10:30_12:00
+CalleCuevasdelaAlmanzora_18,Calle,Cuevas de la Almanzora,18,HORTALEZA,444128.94,4480874.57,SABADO_MAÑANA_10:30_12:00
+PaseoSantaMaríadelaCabeza_64,Paseo,Santa María de la Cabeza,64,ARGANZUELA,440610.31,4472447.21,SABADO_MAÑANA_10:30_12:00
+PlazaMayor_29-30SalidaCalleCiudadRodrigo,Plaza,Mayor,29-30,CENTRO,440026.35,4474142.61,SABADO_MAÑANA_10:30_12:00
+AvenidaFranciscoPiyMargall_72,Avenida,Francisco Pi y Margall,72,HORTALEZA,444145.15,4482435.53,SABADO_MAÑANA_12:15_13:45
+AvenidaSanDiego_111,Avenida,San Diego,111,PUENTE VALLECAS,443629.46,4470440.95,SABADO_MAÑANA_12:15_13:45
+PaseoDelicias_24,Paseo,Delicias,24,ARGANZUELA,441144.57,4472990.16,SABADO_MAÑANA_12:15_13:45
+PaseoSanFranciscodeSales_36,Paseo,San Francisco de Sales,36,CHAMBERI,439515.93,4477071.54,SABADO_MAÑANA_12:15_13:45
+CalleBravoMurillo_92,Calle,Bravo Murillo,92,CHAMBERI,440317.12,4477482.65,SABADO_TARDE_14:00_15:30
+CalleLaMancha_2,Calle,La Mancha,2,PUENTE VALLECAS,443184.26,4470315.25,SABADO_TARDE_14:00_15:30
+AvenidaNicetoAlcaláZamora_78IntersecciónconVicenteBlascoIbañez,Avenida,Niceto Alcalá Zamora,78,HORTALEZA,444716.97,4483076.55,SABADO_TARDE_14:00_15:30
+PaseoDelicias_122,Paseo,Delicias,122,ARGANZUELA,441031.38,4471817.71,SABADO_TARDE_14:00_15:30
+PlazaCebada_5-7,Plaza,Cebada,5-7,CENTRO,439790.02,4473664.08,SABADO_TARDE_14:00_15:30
+AvenidaPabloNeruda_89,Avenida,Pablo Neruda,89,PUENTE VALLECAS,443966.93,4470271.88,SABADO_TARDE_15:45_17:15
+CalleBravoMurillo_8,Calle,Bravo Murillo,8,CHAMBERI,440268.33,4476210.98,SABADO_TARDE_15:45_17:15
+PaseoChopera_12,Paseo,Chopera,12,ARGANZUELA,440756.12,4471631.64,SABADO_TARDE_15:45_17:15
+CalleArapiles_21IntersecciónconCalleVallehermoso,Calle,Arapiles,21,CHAMBERI,439904.28,4476035.91,SABADO_TARDE_17:30_19:00
+AvenidaRafaelAlberti_34,Avenida,Rafael Alberti,34,PUENTE VALLECAS,445452.36,4470656.43,SABADO_TARDE_17:30_19:00
+CaminoViejodeBurgos_24,Camino,Viejo de Burgos,24,HORTALEZA,446488.7,4481435.19,SABADO_TARDE_17:30_19:00
+PaseoJuanAntonioVallejo-NájeraBotas_IntersecciónconPlazaOrtegayMunilla_detrásdelaentradaalaestacióndeCercaníasdePirámides,Paseo,Juan Antonio Vallejo-Nájera Botas,,ARGANZUELA,439635.23,4472715.18,SABADO_TARDE_17:30_19:00
+AvenidaVirgendelCarmen_Aceraimpares_frentealnúmero84,Avenida,Virgen del Carmen,,HORTALEZA,445107.14,4480737.23,SABADO_TARDE_19:15_20:45
+CalleFernándezdelosRíos_62,Calle,Fernández de los Ríos,62,CHAMBERI,439625.55,4476321.63,SABADO_TARDE_19:15_20:45
+PlazaFranciscoMorano_3EnlarotondaentrelassalidasdePaseoImperialyPaseodelosPontones,Plaza,Francisco Morano,3,ARGANZUELA,439221.37,4472922.62,SABADO_TARDE_19:15_20:45
+CalleFedericoMompou_4EdificioTelecinco,Calle,Federico Mompou,4,FUENCARRAL,442484.39,4484676.35,MARTES_MAÑANA_7:00_8:30
+RondaRondadelaComunicación_2EdificioTelefonica,Ronda,Ronda de la Comunicación,2,FUENCARRAL,443723.05,4485009.33,MARTES_MAÑANA_8:45_10:15
+CalleAbetal_3-5EdificioBBVA,Calle,Abetal,3-5,FUENCARRAL,443856.16,4483545.97,MARTES_MAÑANA_10:30_12:00
+AvenidaAvda.MonfortedeLemos_1CuatroTorres,Avenida,Avda. Monforte de Lemos,1,FUENCARRAL,441706.39,4480710.18,MARTES_MAÑANA_12:15_13:45
+calleMauricioLegendre_5,calle,Mauricio Legendre,5,CHAMARTIN,441764.3,4480066.56,MARTES_TARDE_14:00_15:30
+calleOrense_2Azca,calle,Orense,2,TETUAN,441035.06,4477589.81,MARTES_TARDE_15:45_17:15
+calleAgustíndeBetancourt_1Ministerio,calle,Agustín de Betancourt,1,CHAMBERI,441053.61,4477057,MARTES_TARDE_17:30_19:00
+calleMontalbán_7-9EdificioAyuntamientodeMadrid,calle,Montalbán,7-9,RETIRO,441449.91,4474405.04,MARTES_MAÑANA_8:45_10:15
+calleMéndezÁlvaro_1PuertadeAtocha,calle,Méndez Álvaro,1,ARGANZUELA,441255.97,4473136.22,MARTES_MAÑANA_10:30_12:00
+calleCerrodelaPlata_3EMT,calle,Cerro de la Plata,3,RETIRO,442752.58,4472399.1,MARTES_MAÑANA_12:15_13:45
+calleMéndezÁlvaro_44edficioRepsol,calle,Méndez Álvaro,44,ARGANZUELA,441966.39,4472215.35,JUEVES_MAÑANA_7:00_8:30
+calleBustamante_16EdificioAyuntamientodeMadrid,calle,Bustamante,16,ARGANZUELA,441594.58,4472433.27,JUEVES_MAÑANA_8:45_10:15
+calleAlcaldeSainzdeBaranda_92frente.(FachadaParqueFuentedelBerro).,calle,Alcalde Sainz de Baranda,92,SALAMANCA,443788.85,4474709.95,JUEVES_MAÑANA_10:30_12:00
+calleAlbarracín__35EdificioAyuntamientodeMadrid,calle,"Albarracín,",35,SAN BLAS-CANILLEJAS,446527.99,4475878.75,JUEVES_MAÑANA_12:15_13:45
+calleRiberadelSena_21esquinaconEstrasburgoEdificioAyuntamientodeMadrid,calle,Ribera del Sena,21,BARAJAS,447632.56,4479217.25,JUEVES_TARDE_14:00_15:30
+calleAbelias_1esquinaAvda.Arces,calle,Abelias,1,HORTALEZA,447020.91,4478148.67,JUEVES_TARDE_15:45_17:15
+PaseoAlamedadeOsuna__50,Paseo,"Alameda de Osuna,",50,BARAJAS,449316.5,4478388.17,JUEVES_TARDE_17:30_19:00
+AvenidaLogroño_160-162EntradaResidencialElCapricho,Avenida,Logroño,160-162,BARAJAS,450664.16,4480634.97,JUEVES_TARDE_19:15_20:45
+PaseoFlorida_12(farola13),Paseo,Florida,12,MONCLOA-ARAVACA,438687.94,4474941.28,SÁBADO_TARDE_19:15_20:45
+AvenidaPrincipal_4-6AccesoPabellónCubodelaPipa-CasadeCampo,Avenida,Principal,4-6,MONCLOA-ARAVACA,437292.7,4473802.24,LUNES_TARDE_12:15_13:45
+AvenidaBlasdeLezo_22,Avenida,Blas de Lezo,22,VICALVARO,453115.63,4473036.7,VIERNES_MAÑANA_12:15_13:30

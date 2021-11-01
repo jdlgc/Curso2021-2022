@@ -114,6 +114,10 @@ owl:topDataProperty rdfs:domain :Contenedor ,
 #    Classes
 #################################################################
 
+###  http://www.reciclajemadrid.com#Barrio
+cls:Barrio rdf:type owl:Class .
+
+
 ###  http://www.reciclajemadrid.com#Contenedor
 cls:Contenedor rdf:type owl:Class ;
             rdfs:subClassOf :RecogidaResiduos .

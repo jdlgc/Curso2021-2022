@@ -90,5 +90,61 @@
     "oldColumnName": "TIPO_NÚMERO",
     "newColumnName": "TIPO_NUMERO",
     "description": "Rename column TIPO_NÚMERO to TIPO_NUMERO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION AUXILIAR",
+    "description": "Remove column DIRECCION AUXILIAR"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO_DATO",
+    "description": "Remove column TIPO_DATO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO_NUMERO",
+    "description": "Remove column TIPO_NUMERO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_DISTRITO",
+    "description": "Remove column COD_DISTRITO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD",
+    "description": "Remove column LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD",
+    "description": "Remove column LONGITUD"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA",
+    "expression": "grel:replace(value,\",\",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION_COMPLETA using expression grel:replace(value,\",\",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Horario",
+    "expression": "grel:replace(value,\",\",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Horario using expression grel:replace(value,\",\",\"_\")"
   }
 ]
