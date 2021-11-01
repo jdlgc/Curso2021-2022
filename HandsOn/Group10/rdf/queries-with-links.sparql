@@ -1,0 +1,49 @@
+PREFIX  xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX  vocab: <http://www.reciclamadrid.es/ontology#>
+PREFIX xml:<http://www.w3.org/2001/XMLSchema#>
+
+    SELECT ?roadType ?roadName ?num ?center ?schedule
+    WHERE{
+        ?elemento rdf:type vocab:RecyclePoint;
+            vocab:CENTER ?center;
+            vocab:SCHEDULE ?schedule;
+            vocab:hasAddress ?address;
+            vocab:hasDistrict ?district;
+            vocab:DATA_TYPE ?tipo
+                FILTER (?tipo="Contenedor de Aceite").
+        ?address vocab:ROAD_TYPE ?roadType;
+            vocab:ROAD_NAME ?roadName;
+            vocab:NUM ?num.
+        ?district vocab:DISTRICT ?name
+                FILTER (?name="Arganzuela").
+    }
+
+    SELECT ?waste (SAMPLE(?tipo) as ?type) (COUNT(?elemento) as ?count)
+    WHERE{
+        ?elemento rdf:type vocab:RecyclePoint;
+            vocab:WASTE ?waste;
+            vocab:hasDistrict ?district;
+            vocab:DATA_TYPE ?tipo.
+        ?district vocab:DISTRICT ?name
+                FILTER (?name="Carabanchel").
+    } GROUP BY ?tipo
+
+    SELECT ?coordX ?coordY
+    WHERE{
+        ?elemento rdf:type vocab:RecyclePoint;
+            vocab:hasCoordinates ?coords;
+            vocab:NAME ?name
+                FILTER (?name="CR-Antonio-Arias-2").
+        ?coords vocab:UTMX ?coordX;
+            vocab:UTMY ?coordY.
+    }
+
+    SELECT ?id ?name ?url
+    WHERE{
+        ?elemento rdf:type vocab:RecyclePoint;
+            vocab:hasDistrict ?district.
+        ?district vocab:DISTRICT_CODE ?id;
+            owl:sameAs ?url;
+            vocab:DISTRICT ?name
+                FILTER (?name="Moratalaz").
+    }
