@@ -121,7 +121,7 @@
 
 :hasUrl rdf:type owl:DatatypeProperty ;
     rdfs:domain :PublicParking ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:anyURI  .
 :isPublic rdf:type owl:DatatypeProperty ;
           rdfs:domain :PublicParking ;
           rdfs:range xsd:boolean .
