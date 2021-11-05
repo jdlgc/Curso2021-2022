@@ -15,13 +15,13 @@
             rdfs:domain :PublicParking ;
             rdfs:range :location.
 
-:location rdf:type owl:Class.
+:Location rdf:type owl:Class.
 
 :hasCoordinates rdf:type owl:ObjectProperty ;
                 rdfs:domain :location;
                 rdfs:range :coordinates.
 
-:coordinates rdf:type owl:Class.
+:Coordinates rdf:type owl:Class.
 
 :hasCoorX rdf:type owl:ObjectProperty ;
                 rdfs:domain :coordinates;
@@ -34,7 +34,7 @@
                              rdfs:domain :location ;
                              rdfs:range :geographiccoord.
 
-:geographiccoord    rdf:type    owl:Class.
+:Geographiccoord    rdf:type    owl:Class.
 
 :hasLongitude    rdf:type owl:ObjectProperty ;
                  rdfs:domain :geographiccoord ;
@@ -47,11 +47,11 @@
         rdfs:domain :location;
         rdfs:range :postalAddress.
 
-:postalAddress rdf:type owl:Class.
+:PostalAddress rdf:type owl:Class.
 
-:district rdf:type owl:Class.
+:District rdf:type owl:Class.
 
-:neighborhood rdf:type owl:Class.
+:Neighborhood rdf:type owl:Class.
 
 :hasStreetName rdf:type owl:ObjectProperty;
         rdfs:domain :postalAddress;
