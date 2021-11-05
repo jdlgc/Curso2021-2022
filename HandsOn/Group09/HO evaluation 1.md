@@ -5,8 +5,8 @@
 
     ### Ontology
 - [ ] Some of the properties defined with numbers as ranges are not numbers.
-- [ ] In OWL, there are object properties (where value of the property is a resource) and datatype properties (where the value of the property is a string literal, usually             typed). 
+- [x] In OWL, there are object properties (where value of the property is a resource) and datatype properties (where the value of the property is a string literal, usually             typed). 
 - [x] Check that all class names start with capital letter.
    ### RDF generated
- - [ ] URIs are encoded as strings.
+ - [x] URIs are encoded as strings.
  - [ ] It is not clear which resources will be used for linking.
