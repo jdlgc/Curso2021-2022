@@ -269,9 +269,9 @@ rr:predicateObjectMap [
                                       rml:referenceFormulation ql:CSV
                                   ];
                 rr:subjectMap [
-                                      rr:template "https://publicparkingmad.com/resource/{PK}/location/PostalAddress/District";
+                                      rr:template "https://publicparkingmad.com/resource/{PK}/location/District/District";
 
-                                      rr:class vocab:postalAddress
+                                      rr:class vocab:district
                                   ];
 
                 rr:predicateObjectMap [
@@ -295,9 +295,9 @@ rr:predicateObjectMap [
                   rml:referenceFormulation ql:CSV
               ];
             rr:subjectMap [
-                  rr:template "https://publicparkingmad.com/resource/{PK}/location/PostalAddress/Neighborhood";
+                  rr:template "https://publicparkingmad.com/resource/{PK}/location/Neighborhood/Neighborhood";
 
-                  rr:class vocab:postalAddress
+                  rr:class vocab:neighborhood
               ];
 
             rr:predicateObjectMap [
