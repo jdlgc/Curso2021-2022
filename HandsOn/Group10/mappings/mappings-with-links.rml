@@ -110,39 +110,39 @@ map:om_020 a rr:ObjectMap;
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_001 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#ROAD_TYPE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#road_type>.
 map:pm_002 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#ROAD_NAME>.
+    rr:constant <http://www.reciclamadrid.es/ontology#road_name>.
 map:pm_003 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#NUM_TYPE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#num_type>.
 map:pm_004 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#NUM>.
+    rr:constant <http://www.reciclamadrid.es/ontology#num>.
 map:pm_005 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_006 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#DISTRICT_CODE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#district_code>.
 map:pm_007 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#DISTRICT>.
+    rr:constant <http://www.reciclamadrid.es/ontology#district>.
 map:pm_008 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_009 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_010 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#UTMX>.
+    rr:constant <http://www.reciclamadrid.es/ontology#utmX>.
 map:pm_011 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#UTMY>.
+    rr:constant <http://www.reciclamadrid.es/ontology#utmY>.
 map:pm_012 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_013 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#NAME>.
+    rr:constant <http://www.reciclamadrid.es/ontology#name>.
 map:pm_014 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#DATA_TYPE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#data_type>.
 map:pm_015 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#CENTER>.
+    rr:constant <http://www.reciclamadrid.es/ontology#center>.
 map:pm_016 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#SCHEDULE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#schedule>.
 map:pm_017 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#WASTE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#waste>.
 map:pm_018 a rr:PredicateMap;
     rr:constant <http://www.reciclamadrid.es/ontology#hasAddress>.
 map:pm_019 a rr:PredicateMap;
