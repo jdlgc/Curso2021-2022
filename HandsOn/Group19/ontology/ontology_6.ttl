@@ -1,55 +1,81 @@
- @prefix aq: <http://spainaq.linkeddata.com#> .
+@base <http://spainaq.linkeddata.com/> .
+@prefix : <http://spainaq.linkeddata.com/aq/ontologies/> .
+@prefix res: <http://spainaq.linkeddata.com/aq/resources/> . 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aq: a owl:Ontology ;
-    dc:creator "Group 19" ;
-    dc:description "Ontology code created by Chowlk" ;
-    dc:title "Air Quality Ontology" ;
-    owl:versionInfo "0.0.1" .
+#Classes
+:Magnitud a owl:Class ;
+    rdfs:label "Magnitud" .
 
-aq:Date a owl:Class ;
-    rdfs:label "Date" .
-
-aq:Emisiones a owl:Class ;
+:Emisiones a owl:Class ;
     rdfs:label "Emisiones" .
 
-aq:Estación a owl:Class ;
-    rdfs:label "Estación" .
+:Estacion a owl:Class ;
+    rdfs:label "Estacion" .
 
-aq:Municipio a owl:Class ;
+:Municipio a owl:Class ;
     rdfs:label "Municipio" .
 
-aq:Provincia a owl:Class ;
+:Provincia a owl:Class ;
     rdfs:label "Provincia" .
 
-aq:hasDate a owl:ObjectProperty ;
-    rdfs:label "has date" .
+#Object Properties
 
-aq:hasEmisiones a owl:ObjectProperty ;
-    rdfs:label "has emisiones" .
+:hasMunicipio rdf:type owl:ObjectProperty ;
+            rdfs:domain class:Provincia ;
+            rdfs:range class:Municipio . 
 
-aq:hasEstacion a owl:ObjectProperty ;
-    rdfs:label "has estacion" .
+:hasEstacion rdf:type owl:ObjectProperty ;
+            rdfs:domain class:Municipio ;
+            rdfs:range class:Estacion . 
 
-aq:hasFecha a owl:DatatypeProperty ;
-    rdfs:label "has fecha" ;
-    rdfs:range xsd:date .
+:hasEstacion rdf:type owl:ObjectProperty ;
+            rdfs:domain class:Municipio ;
+            rdfs:range class:Estacion . 
 
-aq:hasMagnitud a owl:DatatypeProperty ;
-    rdfs:label "has magnitud" ;
-    rdfs:range xsd:integer .
+:hasMagnitud rdf:type owl:ObjectProperty ;
+            rdfs:domain class:Estacion ;
+            rdfs:range class:Magnitud . 
 
-aq:hasMedida a owl:DatatypeProperty ;
-    rdfs:label "has medida" ;
-    rdfs:range xsd:integer .
+:mideEmisiones rdf:type owl:ObjectProperty ;
+            rdfs:domain class:Estacion ;
+            rdfs:range class:Emisiones . 
 
-aq:hasName a owl:DatatypeProperty ;
-    rdfs:label "has name" ;
-    rdfs:range xsd:string .
+#Data Properties
 
-aq:hasProvincia a owl:ObjectProperty ;
-    rdfs:label "has provincia" .
+:provinciaID rdf:type owl:DataTypeProperty;
+        rdfs:domain :Provincia;
+        rdfs:range xsd:string.
+
+:provinciaName rdf:type owl:DataTypeProperty;
+        rdfs:domain :Provincia;
+        rdfs:range xsd:string.
+
+:municipioID rdf:type owl:DataTypeProperty;
+        rdfs:domain :Municipio;
+        rdfs:range xsd:string.
+
+:municipioName rdf:type owl:DataTypeProperty;
+        rdfs:domain :Provincia;
+        rdfs:range xsd:string.
+
+:estacionID rdf:type owl:DataTypeProperty;
+        rdfs:domain :Estacion;
+        rdfs:range xsd:string.
+
+:hasDate rdf:type owl:DataTypeProperty;
+        rdfs:domain :Emisiones;
+        rdfs:range xsd:date.
+
+:hasValor rdf:type owl:DataTypeProperty;
+        rdfs:domain :Emisiones;
+        rdfs:range xsd:string.
+
+:hasValidez rdf:type owl:DataTypeProperty;
+        rdfs:domain :Emisiones;
+        rdfs:range xsd:string.
+
 

@@ -1,0 +1,23 @@
+prefixes:
+  ont: http://spainaq.linkeddata.com/aq/ontologies/Estacion#
+  rsc: http://spainaq.linkeddata.com/aq/resources/Estacion#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  dbo: http://dbpedia.org/ontology#
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+  CalidadAireMapping:
+    sources:
+      - [./CSV/data-with-links.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/$(PROVINCIA)_$(MUNICIPIO)_$(ESTACION)_$(DATE)
+    po:
+      - [a, dbo:Station]
+      - [ont:hasProvincia, $(id_provincia), xsd:integer]
+      - [owl:sameAs, $(same_as_wikidata_provincia)~iri]
+      - [ont:hasMunicipio, $(id_municipio), xsd:integer]
+      - [owl:sameAs, $(same_as_wikidata_municipio)~iri]
+      - [ont:hasEstacion, $(ESTACION), xsd:integer]
+      - [rsc:hasMedida, $(D01), xsd:integer]
+      - [rsc:hasMagnitud, $(MAGNITUD), xsd:integer]
+      - [rsc:hasDate, $(DATE), xsd:date]
+      - [rsc:hasValided, $(V01), rr:Literal]

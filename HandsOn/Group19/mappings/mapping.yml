@@ -1,0 +1,62 @@
+prefixes:
+  ont: http://spainaq.linkeddata.com/aq/ontologies/Estacion#
+  rsc: http://spainaq.linkeddata.com/aq/resources/Estacion#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  dbo: http://dbpedia.org/ontology#
+
+mappings:
+  CalidadAireMapping2018:
+    sources:
+      - [./CSV/data2018-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/$(PROVINCIA)_$(MUNICIPIO)_$(ESTACION)_$(DATE)
+    po:
+      - [a, dbo:Station]
+      - [ont:hasProvincia, $(PROVINCIA), xsd:integer]
+      - [ont:hasMunicipio, $(MUNICIPIO), xsd:integer]
+      - [ont:hasEstacion, $(ESTACION), xsd:integer]
+      - [rsc:hasMedida, $(D01), xsd:integer]
+      - [rsc:hasMagnitud, $(MAGNITUD), xsd:integer]
+      - [rsc:hasDate, $(DATE), xsd:date]
+      - [rsc:hasValided, $(V01), rr:Literal]
+  
+  CalidadAireMapping2019:
+    sources:
+      - [./CSV/data2019-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/$(PROVINCIA)_$(MUNICIPIO)_$(ESTACION)_$(DATE)
+    po:
+      - [a, dbo:Station]
+      - [ont:hasProvincia, $(PROVINCIA), xsd:integer]
+      - [ont:hasMunicipio, $(MUNICIPIO), xsd:integer]
+      - [ont:hasEstacion, $(ESTACION), xsd:integer]
+      - [rsc:hasMedida, $(D01), xsd:integer]
+      - [rsc:hasMagnitud, $(MAGNITUD), xsd:integer]
+      - [rsc:hasDate, $(DATE), xsd:date]
+      - [rsc:hasValided, $(V01), rr:Literal]
+
+  CalidadAireMapping2020:
+    sources:
+      - [./CSV/data2020-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/$(PROVINCIA)_$(MUNICIPIO)_$(ESTACION)_$(DATE)
+    po:
+      - [a, dbo:Station]
+      - [ont:hasProvincia, $(PROVINCIA), xsd:integer]
+      - [ont:hasMunicipio, $(MUNICIPIO), xsd:integer]
+      - [ont:hasEstacion, $(ESTACION), xsd:integer]
+      - [rsc:hasMedida, $(D01), xsd:integer]
+      - [rsc:hasMagnitud, $(MAGNITUD), xsd:integer]
+      - [rsc:hasDate, $(DATE), xsd:date]
+      - [rsc:hasValided, $(V01), rr:Literal]
+
+  CalidadAireMapping2021:
+    sources:
+      - [./CSV/datos202108-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/$(PROVINCIA)_$(MUNICIPIO)_$(ESTACION)_$(DATE)
+    po:
+      - [a, dbo:Station]
+      - [ont:hasProvincia, $(PROVINCIA), xsd:integer]
+      - [ont:hasMunicipio, $(MUNICIPIO), xsd:integer]
+      - [ont:hasEstacion, $(ESTACION), xsd:integer]
+      - [rsc:hasMedida, $(D01), xsd:integer]
+      - [rsc:hasMagnitud, $(MAGNITUD), xsd:integer]
+      - [rsc:hasDate, $(DATE), xsd:date]
+      - [rsc:hasValided, $(V01), rr:Literal]

@@ -5,43 +5,128 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Analisis</title>
+
+  <style>
+    body {
+      background-color: white;
+      color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 18px;
+    }
+    h2 {
+      text-decoration: underline;
+    }
+    .li-title {
+      font-weight: bold;
+      font-style: italic;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    a {
+      color: dodgerblue;
+    }
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    </style>
 </head>
 <body>
+
+	<h2>License</h2>
+	<p>La licencia sobre este dataset pertenece al ámbito público del ayuntamiento de Madrid y, por tanto, se permite la reutilización 
+	   de los documentos y datos siempre que sea con fines no lucrativos. Más información en
+	   <a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=aecb88a7e2b73410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default"> este enlace</a> .
+	</p>
+
+	<h2>Dataset Analysis</h2>
+	<p>Se analizarán los datasets "data2018.csv", "data2019.csv", "data2020.csv" y "datos202108.csv"</p>
+	<table>
+		<tr>
+			<th>Campo</th>
+			<th>Tipo</th>
+			<th>Long</th>
+			<th>Descripcion</th>
+		</tr>
+
+		<tr>
+			<th>Provincia</th>
+			<th>String</th>
+			<th>2</th>
+			<th>Identificador numérico de la provincia</th>
+		</tr>
+
+		<tr>
+			<th>Municipio</th>
+			<th>String</th>
+			<th>3</th>
+			<th>Identificador numérico del municipio</th>
+		</tr>
+
+		<tr>
+			<th>Estación</th>
+			<th>String</th>
+			<th>3</th>
+			<th>Identificador numérico de la estación donde se toman medidas de las emisiones</th>
+		</tr>
+
+		<tr>
+			<th>Magnitud</th>
+			<th>String</th>
+			<th>2</th>
+			<th>Identificador numérico del tipo de gas medido así como las unidades de la medición </th>
+		</tr>
+
+		<tr>
+			<th>Punto_Muestreo</th>
+			<th>String</th>
+			<th>10</th>
+			<th>Identificador numérico del punto de muestreo, es la unión de los identificadores de provincia, municipio, estación y magnitud </th>
+		</tr>
+
+		<tr>
+			<th>Ano</th>
+			<th>String</th>
+			<th>4</th>
+			<th>Año en el que se realizó la medición.</th>
+		</tr>
+
+		<tr>
+			<th>Mes</th>
+			<th>String</th>
+			<th>2</th>
+			<th>Mes en el que se realizó la medición</th>
+		</tr>
+
+		<tr>
+			<th>Dx</th>
+			<th>String</th>
+			<th>2</th>
+			<th>Valor obtenido en la medición el día x</th>
+		</tr>
+
+		<tr>
+			<th>Vx</th>
+			<th>String</th>
+			<th>1</th>
+			<th>Validación del valor obtenido el día x</th>
+		</tr>
+
+	</table>
+	
 	<div>
-		<h1>Potential license</h1>
-		<p>The license that we intend to use is <a href = "https://creativecommons.org/licenses/by/4.0/legalcode.es">creative commons</a> </p>
-	</div>
-	<div>
-		<h1>Naming strategy</h1>
-		<div>
-			<p>http://spainaq.linkeddata.com/[province]/</p>
-			<p>Province is a resource that pretends to represent the provinces of Spain</p>
-		</div>
-		<div>
-			<p>http://spainaq.linkeddata.com/[province]/[municipio]/[estation]#[date]</p>
-			<p>Date is a resource that pretends to represent the diferent tipe of gases that are in a particular province in a particular date.</p>
-		</div>
-		<div>
-			<p>http://spainaq.linkeddata.com/[province]/[municipio]/[estation]#[gas]</p>
-			<p>Gas is a resource that pretends to represent the average of a particular gas since the first measurement.</p>
-		</div>
-		<div>
-			<p>http://spainaq.linkeddata.com/[province]/[municipio]/[estation]#[medida]</p>
-			<p>La medida del CO2.</p>
-		</div>
-		<div>
-			<p>http://spainaq.linkeddata.com/[province]/[municipio]/[estation]#[magnitud]</p>
-			<p>Te dice como es la medida en CO2.</p>
-		</div>
-		<div>
-			<p>http://spainaq.linkeddata.com/[province]/[municipio]/[estation]</p>
-			<p>Estation is a resource that pretends to represent all the gases measured in one particular estation.</p>
-			<p>Can be filtered by date, tipe of gases. -> </p>
-		</div>
-		<div>
-			<p>http://spainaq.linkeddata.com/[province]/[municipio]</p>
-			<p>District is a resource that pretends to represent all the districts where the gases has been measured.</p>
-		</div>
+		<h2>Naming strategy</h2>
+		<li><span class="li-title">Domain:</span> http://spainaq.linkeddata.com/</li>
+		<li><span class="li-title">Path:</span> http://spainaq.linkeddata.com/aq/</li>
+		<li><span class="li-title">Ontologies:</span> http://spainaq.linkeddata.com/aq/ontologies/</li>
+		<li><span class="li-title">Classes:</span> http://spainaq.linkeddata.com/aq/ontologies/[ontologyName]#[className]</li>
+		<li><span class="li-title">Properties:</span> http://spainaq.linkeddata.com/aq/ontologies/[ontologyName]#[propertyName]</li>
+		<li><span class="li-title">Resources:</span> http://spainaq.linkeddata.com/aq/resources/</li>
+		<li><span class="li-title">Individual:</span> http://spainaq.linkeddata.com/aq/resources/[className]#[id]</li>
 	</div>
 </body>
 </html>
