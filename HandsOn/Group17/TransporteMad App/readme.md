@@ -44,7 +44,7 @@ Cercanias station:
 - To create the graphical interface we have also used JavaScript.
 
 
-### How to use the aplication:
+### How to use the application:
 
 - At first, when you run the application, you will have 2 boxes and 1 button.
 - The first box is used to select which type of transport you want to see the information about.
