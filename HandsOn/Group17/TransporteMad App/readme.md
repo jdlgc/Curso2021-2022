@@ -5,34 +5,34 @@ This application will be used to search for information about the taxi stands, C
 Beginning with a CSV file, we have created an RDF from where the data is extracted. Once this RDF was built, we linked it to Wikidata, so we could obtain additional information about the different districts.
 You can filter the information through:
 BiciMad station:
-    - Neighborhood
-    - Urban estate
-    - Type of reservation
-    - Number of seats
-    - Coordinates
-    - Address
-    - Release date
-    - District
+    - Neighborhood.
+    - Urban estate.
+    - Type of reservation.
+    - Number of seats.
+    - Coordinates.
+    - Address.
+    - Release date.
+    - District.
 
 Taxi stand:
-    - Coordinates
-    - Release date
-    - District
-    - Neighborhood
-    - Urban estate
-    - Type of reservation
-    - Way of parking (park at an angle or park on the sidewalk)
-    - Number of seats
-    - Address
+    - Coordinates.
+    - Release date.
+    - District.
+    - Neighborhood.
+    - Urban estate.
+    - Type of reservation.
+    - Way of parking (park at an angle or park on the sidewalk).
+    - Number of seats.
+    - Address.
 
 Cercanias station:
-    - Settlement
-    - Province
-    - File card
-    - Description
-    - Coordinates
-    - Address
-    - Zip code
+    - Settlement.
+    - Province.
+    - File card.
+    - Description.
+    - Coordinates.
+    - Address.
+    - Zip code. 
 
 
 ### Tools:
