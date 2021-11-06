@@ -5,47 +5,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 
+# Classses:
+
 :PublicParking rdf:type  owl:Class.
-
-
-:hasPK rdf:type owl:DatatypeProperty ;
-        rdfs:domain :PublicParking;
-        rdfs:range xsd:integer.
-:hasLocation rdf:type owl:ObjectProperty ;
-            rdfs:domain :PublicParking ;
-            rdfs:range :location.
 
 :Location rdf:type owl:Class.
 
-:hasCoordinates rdf:type owl:ObjectProperty ;
-                rdfs:domain :location;
-                rdfs:range :coordinates.
-
-:Coordinates rdf:type owl:Class.
-
-:hasCoorX rdf:type owl:DatatypeProperty ;
-                rdfs:domain :coordinates;
-                rdfs:range xsd:float.
-:hasCoorY rdf:type owl:DatatypeProperty ;
-          rdfs:domain :coordinates;
-          rdfs:range xsd:float.
-
-:hasGeographicCoordinates    rdf:type owl:ObjectProperty ;
-                             rdfs:domain :location ;
-                             rdfs:range :geographiccoord.
-
 :Geographiccoord    rdf:type    owl:Class.
 
-:hasLongitude    rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :geographiccoord ;
-                 rdfs:range  xsd:float .
-
-:hasLatitude    rdf:type owl:DatatypeProperty ;
-                rdfs:domain :geographiccoord ;
-                rdfs:range  xsd:float .
-:hasPostalAddress rdf:type owl:ObjectProperty;
-        rdfs:domain :location;
-        rdfs:range :postalAddress.
+:Coordinates rdf:type owl:Class.
 
 :PostalAddress rdf:type owl:Class.
 
@@ -53,25 +21,18 @@
 
 :Neighborhood rdf:type owl:Class.
 
-:hasStreetName rdf:type owl:DatatypeProperty;
-        rdfs:domain :postalAddress;
-        rdfs:range xsd:string.
-:hasStreetNumber rdf:type owl:DatatypeProperty;
-               rdfs:domain :postalAddress;
-               rdfs:range xsd:integer .
-:hasStreetType rdf:type owl:DatatypeProperty;
-                 rdfs:domain :postalAddress;
-                 rdfs:range xsd:string.
-:hasPostalCode rdf:type owl:DatatypeProperty ;
-                rdfs:domain :postalAddress ;
-                rdfs:range xsd:integer.
+# Properties
 
-:hasNeighborhood rdf:type owl:DatatypeProperty ;
-        rdfs:domain :neighborhood ;
-        rdfs:range xsd:string .
-:hasDistrict rdf:type owl:DatatypeProperty ;
-                rdfs:domain :district ;
-                rdfs:range xsd:string.
+## Domain of Public Parking
+
+:hasPK rdf:type owl:DatatypeProperty ;
+        rdfs:domain :PublicParking;
+        rdfs:range xsd:integer.
+
+:hasLocation rdf:type owl:ObjectProperty ;
+            rdfs:domain :PublicParking ;
+            rdfs:range :Location.
+
 
 
 :hasAccesibility    rdf:type owl:DatatypeProperty ;
@@ -113,11 +74,10 @@
 :hasCercaniasNear rdf:type owl:DatatypeProperty ;
                rdfs:domain :PublicParking ;
             rdfs:range xsd:string.
+
 :hasTranviaNear rdf:type owl:DatatypeProperty ;
                rdfs:domain :PublicParking ;
             rdfs:range xsd:string.
-
-
 
 :hasUrl rdf:type owl:DatatypeProperty ;
     rdfs:domain :PublicParking ;
@@ -125,6 +85,70 @@
 :isPublic rdf:type owl:DatatypeProperty ;
           rdfs:domain :PublicParking ;
           rdfs:range xsd:boolean .
+
+
+## Location properties
+
+:hasCoordinates rdf:type owl:ObjectProperty ;
+                rdfs:domain :Location;
+                rdfs:range :Coordinates.
+
+
+:hasGeographicCoordinates    rdf:type owl:ObjectProperty ;
+                             rdfs:domain :Location ;
+                             rdfs:range :Geographiccoord.
+
+:hasPostalAddress rdf:type owl:ObjectProperty;
+        rdfs:domain :Location;
+        rdfs:range :PostalAddress.
+
+## Coordinates properties
+
+:hasCoorX rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Coordinates;
+                rdfs:range xsd:float.
+
+:hasCoorY rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Coordinates;
+          rdfs:range xsd:float.
+
+
+## Geographical Coordinates properties
+
+:hasLongitude    rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Geographiccoord ;
+                 rdfs:range  xsd:float .
+
+:hasLatitude    rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Geographiccoord ;
+                rdfs:range  xsd:float .
+
+
+## Postal Address properties
+
+:hasStreetName rdf:type owl:DatatypeProperty;
+        rdfs:domain :PostalAddress;
+        rdfs:range xsd:string.
+
+:hasStreetNumber rdf:type owl:DatatypeProperty;
+               rdfs:domain :PostalAddress;
+               rdfs:range xsd:int .
+
+:hasStreetType rdf:type owl:DatatypeProperty;
+                 rdfs:domain :PostalAddress;
+                 rdfs:range xsd:string.
+
+:hasPostalCode rdf:type owl:DatatypeProperty ;
+                rdfs:domain :PostalAddress ;
+                rdfs:range xsd:int .
+
+:hasNeighborhood rdf:type owl:DatatypeProperty ;
+        rdfs:domain :PostalAddress ;
+        rdfs:range :Neighborhood .
+
+:hasDistrict rdf:type owl:DatatypeProperty ;
+                rdfs:domain :PostalAddress ;
+                rdfs:range :District.
 
 
 

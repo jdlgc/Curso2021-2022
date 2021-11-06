@@ -1,7 +1,7 @@
 9
    ### General Analysis
-- [ ] The resource naming strategy should use different paths for ontology resources and individuals.
-- [ ] Property URIs should not be related to class URIs. The reason for this is that properties are independent of the class and could be used in other classes.
+- [x] The resource naming strategy should use different paths for ontology resources and individuals.
+- [x] Property URIs should not be related to class URIs. The reason for this is that properties are independent of the class and could be used in other classes.
 
     ### Ontology
 - [ ] Some of the properties defined with numbers as ranges are not numbers.
