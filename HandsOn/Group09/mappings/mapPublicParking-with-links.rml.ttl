@@ -33,7 +33,7 @@ rr:predicateObjectMap [
     rr:predicate vocab:hasPK  ;
     rr:objectMap [
       rml:reference "PK";
-        rr:datatype xsd:integer;
+        rr:datatype xsd:int;
       ]
   ];
 rr:predicateObjectMap [
@@ -111,7 +111,7 @@ rr:predicateObjectMap [
     rr:predicate vocab:hasUrl;
     rr:objectMap [
       rml:reference "Url";
-        rr:datatype xsd:string  ;
+        rr:datatype xsd:anyURI  ;
         rr:termType rr:IRI
 ]
 ].
@@ -224,7 +224,7 @@ rr:predicateObjectMap [
     rr:predicateObjectMap [
         rr:predicate vocab:hasStreetNumber;
         rr:objectMap [
-            rr:datatype xsd:integer;
+            rr:datatype xsd:int;
             rml:reference "StreetNumber"
         ]
     ];
@@ -238,7 +238,7 @@ rr:predicateObjectMap [
     rr:predicateObjectMap [
         rr:predicate vocab:hasPostalCode;
         rr:objectMap [
-            rr:datatype xsd:integer;
+            rr:datatype xsd:int;
             rml:reference "PostalCode"
         ]
     ];
