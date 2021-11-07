@@ -40,7 +40,7 @@
             rdfs:domain class:Estacion ;
             rdfs:range class:Magnitud . 
 
-:mideEmisiones rdf:type owl:ObjectProperty ;
+:hasEmisiones rdf:type owl:ObjectProperty ;
             rdfs:domain class:Estacion ;
             rdfs:range class:Emisiones . 
 
@@ -78,4 +78,7 @@
         rdfs:domain :Emisiones;
         rdfs:range xsd:string.
 
+:magnitudID rdf:type owl:DataTypeProperty;
+        rdfs:domain :Magnitud;
+        rdfs:range xsd:string.
 
