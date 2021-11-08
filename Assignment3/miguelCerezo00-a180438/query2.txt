@@ -1,0 +1,8 @@
+PREFIX ont: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?properties
+WHERE 
+{
+ ?x rdf:type ont:Politician.
+ ?x ?properties ?y.
+ FILTER (?properties != rdf:type)
+}
