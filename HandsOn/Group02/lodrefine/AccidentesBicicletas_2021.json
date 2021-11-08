@@ -408,5 +408,45 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column CALLE using expression grel:replaceChars(value,\"0123456789\",\"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LESIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Desconocido"
+      }
+    ],
+    "description": "Mass edit cells in column LESIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIEMPO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Se desconoce"
+      }
+    ],
+    "description": "Mass edit cells in column TIEMPO"
   }
 ]
