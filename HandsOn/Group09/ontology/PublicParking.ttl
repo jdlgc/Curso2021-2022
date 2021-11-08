@@ -132,7 +132,7 @@
 
 :hasStreetNumber rdf:type owl:DatatypeProperty;
                rdfs:domain :PostalAddress;
-               rdfs:range xsd:int .
+               rdfs:range xsd:string .
 
 :hasStreetType rdf:type owl:DatatypeProperty;
                  rdfs:domain :PostalAddress;
@@ -140,7 +140,7 @@
 
 :hasPostalCode rdf:type owl:DatatypeProperty ;
                 rdfs:domain :PostalAddress ;
-                rdfs:range xsd:int .
+                rdfs:range xsd:string .
 
 :hasNeighborhood rdf:type owl:DatatypeProperty ;
         rdfs:domain :PostalAddress ;
