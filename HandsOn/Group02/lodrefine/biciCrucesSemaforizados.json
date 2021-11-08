@@ -30,5 +30,26 @@
     "op": "core/column-removal",
     "columnName": "utm_y",
     "description": "Remove column utm_y"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "fecha_inst",
+          "expression": "value",
+          "columnName": "fecha_inst",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
   }
 ]
