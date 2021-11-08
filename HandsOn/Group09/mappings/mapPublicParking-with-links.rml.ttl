@@ -224,7 +224,7 @@ rr:predicateObjectMap [
     rr:predicateObjectMap [
         rr:predicate vocab:hasStreetNumber;
         rr:objectMap [
-            rr:datatype xsd:int;
+            rr:datatype xsd:string;
             rml:reference "StreetNumber"
         ]
     ];
@@ -238,7 +238,7 @@ rr:predicateObjectMap [
     rr:predicateObjectMap [
         rr:predicate vocab:hasPostalCode;
         rr:objectMap [
-            rr:datatype xsd:int;
+            rr:datatype xsd:string;
             rml:reference "PostalCode"
         ]
     ];
