@@ -1,0 +1,19 @@
+{
+  "name": "publicparkingmad",
+  "version": "1.0.0",
+  "description": "a basic app to use linked data",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gonzalinux",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^15.3.0",
+    "jquery": "^3.6.0",
+    "ol": "^6.9.0",
+    "opn": "^6.0.0",
+    "rdflib": "^2.2.9"
+  }
+}
