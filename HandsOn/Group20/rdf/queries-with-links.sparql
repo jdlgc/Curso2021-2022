@@ -1,0 +1,41 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX local: <http://localizalocales.es/lcc/ontology/locales#>
+PREFIX local2: <http://localizalocales.es/lcc/resource/>
+
+#Nombre de los barrios y su direccion de wikidata
+SELECT distinct ?bar ?wbar WHERE {
+  ?dis local:barrio ?bar .
+  ?dis local:sameAsBarrio ?wbar
+} LIMIT 4
+
+#Resultado: 	(rdflib.term.Literal('TimÃ³n', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q10382570', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('Los Ã�ngeles', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q390462', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('MoscardÃ³', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q11937679', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('Ensanche de Vallecas', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q3847485', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+
+#Las terrazas que tienen 10 sillas o menos y su direccion de wikidata.
+SELECT ?bar ?wbar
+WHERE { 
+    ?bar local:sillas ?sillas
+    FILTER(?sillas<=10).
+    ?bar local:sameAsSillas ?wbar
+} 
+
+#Resultado:	(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Terraza/181'), rdflib.term.Literal('https://wikidata.org/entity/Q23488', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Terraza/69'), rdflib.term.Literal('https://wikidata.org/entity/Q23488', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Terraza/7'), rdflib.term.Literal('https://wikidata.org/entity/Q23806', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Terraza/36'), rdflib.term.Literal('https://wikidata.org/entity/Q23806', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Terraza/52'), rdflib.term.Literal('https://wikidata.org/entity/Q19108', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+
+#Los tipos de via y sus direcciones de wikidata
+SELECT distinct ?tvia ?wtvia 
+WHERE {
+ ?dis local:tipoVia ?tvia .
+  ?dis local:sameAsTipoVia ?wtvia
+}
+
+#Resultado: 	(rdflib.term.Literal('Calle', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q85750166', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('Avenida', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q12383963', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('plaza', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q2997369', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('colonia', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q756780', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('promenade', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('https://wikidata.org/entity/Q787113', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))

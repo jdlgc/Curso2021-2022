@@ -1,0 +1,346 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Distrito to type Q3032114"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Barrio to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CASCO H.VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10296",
+      "name": "Vallecas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vallecas (Q10296) for cells containing \"CASCO H.VALLECAS\" in column Barrio"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Distrito",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "sameAsWikidataDistrito",
+    "columnInsertIndex": 4,
+    "description": "Create column sameAsWikidataDistrito at index 4 based on column Distrito using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Barrio",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "sameAsWikidataBarrio",
+    "columnInsertIndex": 6,
+    "description": "Create column sameAsWikidataBarrio at index 6 based on column Barrio using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NombreCalle: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "NombreCalle",
+          "from": 17,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TipoVia",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1640962",
+        "name": "street or road name"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column TipoVia to type Q1640962"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NombreCalle: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "NombreCalle",
+          "from": 17,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TipoVia",
+    "similarValue": "CALLE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85750166",
+      "name": "Calle",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calle (Q85750166) for cells containing \"CALLE\" in column TipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NombreCalle: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "NombreCalle",
+          "from": 17,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TipoVia",
+    "similarValue": "AVENIDA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12383963",
+      "name": "Avenida",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Avenida (Q12383963) for cells containing \"AVENIDA\" in column TipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NombreCalle: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "NombreCalle",
+          "from": 17,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TipoVia",
+    "similarValue": "PLAZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2997369",
+      "name": "plaza",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza (Q2997369) for cells containing \"PLAZA\" in column TipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NombreCalle: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "NombreCalle",
+          "from": 17,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TipoVia",
+    "similarValue": "COLONIA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q756780",
+      "name": "colonia",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item colonia (Q756780) for cells containing \"COLONIA\" in column TipoVia"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NombreCalle: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "NombreCalle",
+          "from": 17,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "TipoVia",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "sameAsWikidataTipoVia",
+    "columnInsertIndex": 8,
+    "description": "Create column sameAsWikidataTipoVia at index 8 based on column TipoVia using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NombreCalle: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "NombreCalle",
+          "from": 17,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Sillas",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q21199",
+        "name": "natural number"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Sillas to type Q21199"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NombreCalle: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "NombreCalle",
+          "from": 17,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Sillas",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "sameAsWikidataSillas",
+    "columnInsertIndex": 14,
+    "description": "Create column sameAsWikidataSillas at index 14 based on column Sillas using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  }
+]

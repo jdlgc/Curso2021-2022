@@ -1,0 +1,56 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX local: <http://localizalocales.es/lcc/ontology/locales#>
+PREFIX local2: <http://localizalocales.es/lcc/resource/>
+
+#Número de terrazas con más de 20 sillas.
+SELECT (count(?Terraza) as ?o) 
+WHERE { 
+    ?Terraza local:sillas ?sillas
+    FILTER(?sillas>=20).
+}
+
+#Resultado: (rdflib.term.Literal('82', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+
+#Los 5 primeros distritos donde el tipo de via es una Avenida
+SELECT (?Distrito as ?o)
+WHERE {
+	?Distrito local:tipoVia ?via
+  FILTER(?via="AVENIDA").
+} LIMIT 5
+
+#Resultado:	(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Distrito/18,280060978'),)
+#		(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Distrito/12,270534735'),)
+#		(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Distrito/4,270403150'),)
+#		(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Distrito/17,270379680'),)
+#		(rdflib.term.URIRef('http://localizalocales.es/lcc/resource/Distrito/12,285021312'),) 
+
+#Los nombres de los bares que se encuentran en el barrio Salamanca
+SELECT distinct?obj ?ndir WHERE {
+  ?loc local:rotulo ?obj .
+  ?loc local:perteneceADistrito ?dist .
+  ?dist local:distrito ?ndir
+  filter(?ndir = "SALAMANCA")
+}
+
+#Resultado:	(rdflib.term.Literal('CAFETERIA PARISIENA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('HOTEL ABBA MADRID', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('THE JAMES JOYCE IRISH PUB', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('SAGAR', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('BAR MARISQUERIA LUIS', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('HONTANARES', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('EL NUEVO RINCÃ“N DE JAÃ‰N', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('WAGABOO', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('EL ARBOL Y LA TOSTA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('VIENA CAPELLANES', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+
+#Los nombres de los bares y sus distritos
+SELECT distinct?obj ?ndir WHERE {
+  ?loc local:rotulo ?obj .
+  ?loc local:perteneceADistrito ?dist .
+  ?dist local:distrito ?ndir
+} LIMIT 4
+
+#Resultado:	(rdflib.term.Literal('CERVECERIA LA TORRE', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('VILLA DE VALLECAS', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('BAR RENATO', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('VILLAVERDE', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal("LA SEDE D'ANDRUBEN", datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SAN BLAS-CANILLEJAS', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('EL PILAR', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('VILLAVERDE', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')) 
