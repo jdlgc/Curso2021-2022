@@ -1,0 +1,69 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#
+  
+mappings:
+
+  triplesmap1:
+    sources:
+      - [AccidentesBicicletas_2021-with-links.csv~csv]
+    s: http://www.preventbicyleaccidents-app.es/group02/resources/Accident/$(EXPEDIENTE)
+    po:
+      - [a, vocab:Accident]
+      - [vocab:hasIdAccident,$(EXPEDIENTE),xsd:string]
+      - [vocab:hasPlace, http://www.preventbicyleaccidents-app.es/group02/resources/Address/$(CALLE)~iri]
+      - [vocab:hasVictim, http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)~iri]
+      - [vocab:hasDate,$(DATETIME),xsd:dateTime]
+      - [vocab:hasWeather,$(TIEMPO),xsd:string]
+      - [vocab:typeBicycle,$(TIPOVEHICULO),xsd:string]
+      - [vocab:causedBy,$(TIPOACCIDENTE),xsd:string]
+
+  triplesmap2:
+    sources:
+      - [AccidentesBicicletas_2021-with-links.csv~csv]
+    s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)
+    po:
+      - [a, vocab:Address]
+      - [vocab:hasAddressName,$(CALLE),xsd:string]
+      - [vocab:hasNumber,$(NUMERO),xsd:int]
+      - [owl:sameAs, $(CALLEWIKIDATA)~iri]
+      - p: vocab:belongsTo
+        o:
+          mapping: triplesmap4
+          condition:
+            function: equal
+            parameters:
+            - [str1, $(DISTRITO)]
+            - [str2, $(NOMBRE)]
+
+  triplesmap3:
+    sources:
+      - [AccidentesBicicletas_2021-with-links.csv~csv]
+    s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)
+    po:
+      - [a, vocab:Person]
+      - [vocab:hasIdVictim,$(VICTIMA),xsd:string]
+      - [vocab:hasGender,$(SEXO),xsd:string]
+      - [vocab:hasRangeAge,$(RANGOEDAD),xsd:string]
+      - [vocab:hasRole,$(TIPOPERSONA),xsd:string]
+      - [vocab:gradeOfInjury,$(LESIVIDAD),xsd:int]
+      
+  triplesmap4:
+    sources:
+      - [distritos-with-links.csv~csv]
+    s: http://www.preventbicyleaccidents-app.es/group02/resources/District/$(NOMBRE)
+    po:
+      - [a, vocab:District]
+      - [vocab:hasCode,$(ID_DISTRICT),xsd:int]
+      - [vocab:hasDistrictName,$(NOMBRE),xsd:string] 
+      - [owl:sameAs, $(DISTRITOWIKIDATA)~iri]
+      

@@ -15,53 +15,53 @@ mappings:
 
   triplesmap1:
     sources:
-      - [AccidentesBicicletas_2021-updated.csv~csv]
+      - [ AccidentesBicicletas_2021-updated.csv~csv ]
     s: http://www.preventbicyleaccidents-app.es/group02/resources/Accident/$(EXPEDIENTE)
     po:
-      - [a, vocab:Accident]
-      - [vocab:hasIdAccident,$(EXPEDIENTE)]
-      - [vocab:hasPlace, http://www.preventbicyleaccidents-app.es/group02/resources/Address/$(CALLE)~iri]
-      - [vocab:hasVictim, http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)~iri]
-      - [vocab:hasDate,$(DATETIME),xsd:dateTime]
-      - [vocab:hasWeather,$(TIEMPO)]
-      - [vocab:typeBicycle,$(TIPOVEHICULO)]
-      - [vocab:causedBy,$(TIPOACCIDENTE)]
+      - [ a, vocab:Accident ]
+      - [ vocab:hasIdAccident,$(EXPEDIENTE),xsd:string ]
+      - [ vocab:hasPlace, http://www.preventbicyleaccidents-app.es/group02/resources/Address/$(CALLE)~iri ]
+      - [ vocab:hasVictim, http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)~iri ]
+      - [ vocab:hasDate,$(DATETIME),xsd:dateTime ]
+      - [ vocab:hasWeather,$(TIEMPO),xsd:string ]
+      - [ vocab:typeBicycle,$(TIPOVEHICULO),xsd:string ]
+      - [ vocab:causedBy,$(TIPOACCIDENTE),xsd:string ]
 
   triplesmap2:
     sources:
-      - [AccidentesBicicletas_2021-updated.csv~csv]
+      - [ AccidentesBicicletas_2021-updated.csv~csv ]
     s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)
     po:
-      - [a, vocab:Address]
-      - [vocab:hasAddressName,$(CALLE)]
-      - [vocab:hasNumber,$(NUMERO)]
+      - [ a, vocab:Address ]
+      - [ vocab:hasAddressName,$(CALLE),xsd:string ]
+      - [ vocab:hasNumber,$(NUMERO),xsd:int ]
       - p: vocab:belongsTo
         o:
           mapping: triplesmap4
           condition:
             function: equal
             parameters:
-            - [str1, $(DISTRITO)]
-            - [str2, $(NOMBRE)]
+            - [ str1, $(DISTRITO) ]
+            - [ str2, $(NOMBRE) ]
 
   triplesmap3:
     sources:
-      - [AccidentesBicicletas_2021-updated.csv~csv]
+      - [ AccidentesBicicletas_2021-updated.csv~csv ]
     s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)
     po:
-      - [a, vocab:Person]
-      - [vocab:hasIdVictim,$(VICTIMA)]
-      - [vocab:hasGender,$(SEXO)]
-      - [vocab:hasRangeAge,$(RANGOEDAD)]
-      - [vocab:hasRole,$(TIPOPERSONA)]
-      - [vocab:gradeOfInjury,$(LESIVIDAD)]
+      - [ a, vocab:Person ]
+      - [ vocab:hasIdVictim,$(VICTIMA),xsd:string ]
+      - [ vocab:hasGender,$(SEXO),xsd:string ]
+      - [ vocab:hasRangeAge,$(RANGOEDAD),xsd:string ]
+      - [ vocab:hasRole,$(TIPOPERSONA),xsd:string ]
+      - [ vocab:gradeOfInjury,$(LESIVIDAD),xsd:int ]
       
   triplesmap4:
     sources:
-      - [distritos-updated.csv~csv]
+      - [ distritos-updated.csv~csv ]
     s: http://www.preventbicyleaccidents-app.es/group02/resources/District/$(NOMBRE)
     po:
-      - [a, vocab:District]
-      - [vocab:hasCode,$(ID_DISTRICT)]
-      - [vocab:hasDistrictName,$(NOMBRE)] 
+      - [ a, vocab:District ]
+      - [ vocab:hasCode,$(ID_DISTRICT),xsd:int ]
+      - [ vocab:hasDistrictName,$(NOMBRE),xsd:string ] 
       

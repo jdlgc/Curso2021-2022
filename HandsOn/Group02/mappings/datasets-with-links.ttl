@@ -10,7 +10,7 @@
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -83,7 +83,7 @@
 
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -118,13 +118,20 @@
         rr:child "DISTRITO"; rr:parent "NOMBRE";
       ]
     ]
+  ];
+  
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs; rr:termType rr:IRI;
+    rr:objectMap [
+      rr:template "CALLEWIKIDATA";
+      rr:termType rr:IRI ]
   ].
   
   
   
 <#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -181,7 +188,7 @@
 
 <#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/distritos-updated.csv" ;
+    rml:source "./data/distritos-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -206,12 +213,19 @@
 	  rr:termtype rr:Literal;
 	  rr:datatype xsd:string
     ]
+  ];
+  
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs; rr:termType rr:IRI;
+    rr:objectMap [
+      rr:template "DISTRITOWIKIDATA";
+      rr:termType rr:IRI ]
   ].
 
 
 <#TriplesMap5> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/distritos-updated.csv" ;
+    rml:source "./data/distritos-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -236,6 +250,13 @@
 	  rr:termtype rr:Literal;
 	  rr:datatype xsd:string
     ]
+  ];
+  
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs; rr:termType rr:IRI;
+    rr:objectMap [
+      rr:template "DISTRITOWIKIDATA";
+      rr:termType rr:IRI ]
   ]. 
 
 
@@ -356,7 +377,7 @@
   
 <#TriplesMap9> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/calles_tranquilas-updated.csv" ;
+    rml:source "./data/calles_tranquilas-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -381,4 +402,11 @@
       rr:termType rr:Literal;
 	  rr:datatype xsd:string
     ]
+  ];
+  
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs; rr:termType rr:IRI;
+    rr:objectMap [
+      rr:template "CALLEWIKIDATA";
+      rr:termType rr:IRI ]
   ].

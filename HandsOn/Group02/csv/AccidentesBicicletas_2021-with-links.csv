@@ -1,471 +1,471 @@
-EXPEDIENTE,DATETIME,CALLE,CALLE WIKIDATA,NUMERO,DISTRITO,DISTRITO WIKIDATA,TIPOACCIDENTE,TIEMPO,TIPOVEHICULO,VICTIMA,TIPOPERSONA,RANGOEDAD,SEXO,LESIVIDAD
-2021S000047,2021-01-01T11:38:00Z,CALLE JOSE BERGAMIN,,62,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Despejado,Bicicleta,10001,Conductor,De 45 a 49 años,Hombre,2
-2021S000142,2021-04-01T11:30:00Z,WANDA METROPOLITANO,,1,San Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,Bicicleta,10002,Conductor,De 15 a 17 años,Hombre,14
-2021S000142,2021-04-01T11:30:00Z,WANDA METROPOLITANO,,1,San Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,Bicicleta,10003,Conductor,De 18 a 20 años,Hombre,14
-2021S000142,2021-04-01T11:30:00Z,WANDA METROPOLITANO,,1,San Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,Bicicleta,10004,Conductor,De 21 a 24 años,Hombre,14
-2021S000142,2021-04-01T11:30:00Z,WANDA METROPOLITANO,,1,San Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,Bicicleta,10005,Conductor,De 50 a 54 años,Hombre,6
-2021S000204,2021-05-01T16:35:00Z,Plaza del Emperador Carlos V,https://wikidata.org/entity/Q7203711,11,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,Bicicleta,10006,Conductor,De 18 a 20 años,Hombre,
-2021S000225,2021-04-01T10:40:00Z,Paseo del Prado,https://wikidata.org/entity/Q2079615,11,Retiro,https://wikidata.org/entity/Q2002296,Alcance,Despejado,Bicicleta,10007,Conductor,De 40 a 44 años,Hombre,7
-2021S000511,2021-01-16T18:50:00Z,"Avenida de la Ciudad de Barcelona, Madrid",https://wikidata.org/entity/Q5714227,144,Retiro,https://wikidata.org/entity/Q2002296,Alcance,Despejado,Bicicleta,10008,Conductor,De 21 a 24 años,Hombre,3
-2021S000675,2021-01-18T22:42:00Z,Ronda de Valencia,https://wikidata.org/entity/Q16626200,5,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,Bicicleta,10009,Conductor,De 25 a 29 años,Hombre,1
-2021S000806,2021-01-22T23:25:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,97,Chamberí,https://wikidata.org/entity/Q1763370,Caída,,Bicicleta,10010,Conductor,De 25 a 29 años,Hombre,
-2021S000898,2021-01-24T15:35:00Z,"Calle del Almirante, Madrid",https://wikidata.org/entity/Q28937422,32,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,,Bicicleta,10011,Conductor,De 30 a 34 años,Hombre,
-2021S000931,2021-01-24T01:30:00Z,plaza de Cánovas del Castillo,https://wikidata.org/entity/Q16620193,5,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,Bicicleta,10012,Conductor,De 35 a 39 años,Hombre,14
-2021S000931,2021-01-24T01:30:00Z,plaza de Cánovas del Castillo,https://wikidata.org/entity/Q16620193,5,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,Bicicleta,10013,Peatón,De 60 a 64 años,Mujer,7
-2021S000933,2021-01-23T11:40:00Z,"Paseo de las Yeserías, Madrid",https://wikidata.org/entity/Q16616818,15A,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión lateral,Despejado,Bicicleta,10014,Conductor,De 45 a 49 años,Hombre,7
-2021S001043,2021-01-26T07:25:00Z,GLORIETA SANTA MARIA DE LA CABEZA,,7,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Lluvia débil,Bicicleta,10015,Conductor,De 30 a 34 años,Mujer,6
-2021S001084,2021-01-26T23:10:00Z,Gran Vía,https://wikidata.org/entity/Q1324163,66,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10016,Conductor,Desconocido,Desconocido,
-2021S001109,2021-01-28T17:40:00Z,"Calle de Juan de Urbieta, Madrid",https://wikidata.org/entity/Q29051496,3,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,Bicicleta,10017,Conductor,De 35 a 39 años,Hombre,1
-2021S001122,2021-01-27T22:10:00Z,"Calle de Orense, Madrid",https://wikidata.org/entity/Q26761687,69,Tetuán,https://wikidata.org/entity/Q1773540,Alcance,Despejado,Bicicleta,10018,Conductor,De 30 a 34 años,Hombre,2
-2021S001147,2021-01-29T16:00:00Z,Plaza de Lavapies,https://wikidata.org/entity/Q6080017,1,Centro,https://wikidata.org/entity/Q1763376,Caída,Nublado,Bicicleta,10019,Conductor,De 40 a 44 años,Mujer,1
-2021S001184,2021-01-29T23:45:00Z,"Calle de Villanueva, Madrid",https://wikidata.org/entity/Q28921542,34,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10020,Conductor,De 40 a 44 años,Hombre,2
-2021S001209,2021-01-29T14:55:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,163,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,,Bicicleta,10021,Conductor,Desconocido,Desconocido,
-2021S001213,2021-01-29T18:30:00Z,calle del Príncipe de Vergara,https://wikidata.org/entity/Q5741020,24,Salamanca,https://wikidata.org/entity/Q1773521,Colisión frontal,Despejado,Bicicleta,10022,Conductor,De 40 a 44 años,Hombre,
-2021S001219,2021-01-30T15:00:00Z,"Calle de Almagro, Madrid",https://wikidata.org/entity/Q26844339,7,Chamberí,https://wikidata.org/entity/Q1763370,Alcance,Despejado,Bicicleta,10023,Conductor,De 25 a 29 años,Mujer,
-2021S001289,2021-01-31T13:50:00Z,plaza de Cibeles,https://wikidata.org/entity/Q1537446,1,Retiro,https://wikidata.org/entity/Q2002296,Colisión lateral,Despejado,Bicicleta,10024,Conductor,De 35 a 39 años,Hombre,
-2021S001294,2021-01-30T19:30:00Z,CALLE CONCEJAL FRANCISCO JOSE JIMENEZ MARTIN,,16,Latina,https://wikidata.org/entity/Q794954,Choque contra obstáculo fijo,Despejado,Bicicleta,10025,Conductor,De 18 a 20 años,Hombre,2
-2021S001304,2021-01-31T20:25:00Z,Serrano Street,https://wikidata.org/entity/Q5740879,102,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10026,Conductor,De 21 a 24 años,Hombre,6
-2021S001326,2021-01-02T13:05:00Z,CALLE ANDALUCES DEL POZO,,9,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,Bicicleta,10027,Conductor,De 6  a  9 años,Hombre,7
-2021S001330,2021-01-31T15:40:00Z,CALLE ARROYO FONTARRON,,24,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Lluvia débil,Bicicleta,10028,Conductor,De 25 a 29 años,Hombre,7
-2021S001366,2021-01-02T09:40:00Z,Madrid Ring Road,https://wikidata.org/entity/Q2606591,+00650I,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10029,Conductor,De 21 a 24 años,Mujer,1
-2021S001370,2021-02-02T09:05:00Z,Paseo de la Ermita del Santo,https://wikidata.org/entity/Q28137105,68,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Nublado,Bicicleta,10030,Conductor,De 25 a 29 años,Hombre,2
-2021S001423,2021-01-31T09:00:00Z,CALLE VILLAMANIN,,35,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,,Bicicleta,10031,Conductor,De 55 a 59 años,Hombre,
-2021S001449,2021-01-31T15:55:00Z,"Avenida de Monforte de Lemos, Madrid",https://wikidata.org/entity/Q52683954,32,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Alcance,Despejado,Bicicleta,10032,Conductor,De 35 a 39 años,Hombre,7
-2021S001532,2021-03-02T18:43:00Z,CALLE PLANETA TIERRA,,6,Arganzuela,https://wikidata.org/entity/Q2000929,Choque contra obstáculo fijo,Lluvia débil,Bicicleta,10033,Conductor,De 55 a 59 años,Hombre,7
-2021S001645,2021-06-02T14:45:00Z,Serrano Street,https://wikidata.org/entity/Q5740879,45,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10034,Conductor,De 18 a 20 años,Mujer,5
-2021S001691,2021-07-02T11:05:00Z,CALLE DIAMANTE,,1,Villaverde,https://wikidata.org/entity/Q919536,Colisión fronto-lateral,Despejado,Bicicleta,10035,Conductor,De 40 a 44 años,Hombre,1
-2021S001696,2021-07-02T12:10:00Z,GLORIETA CARLOS LLAMAS,,0,San Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,Bicicleta,10036,Conductor,De 40 a 44 años,Hombre,2
-2021S001696,2021-07-02T12:10:00Z,GLORIETA CARLOS LLAMAS,,0,San Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,Bicicleta,10037,Conductor,De 60 a 64 años,Hombre,14
-2021S001709,2021-07-02T15:00:00Z,AVENIDA LUIS ARAGONES,,4,San Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,Bicicleta,10038,Conductor,De 10 a 14 años,Hombre,7
-2021S001742,2021-07-02T10:51:00Z,AVENIDA FRANCISCO JAVIER SAENZ DE OIZA,,4,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,Bicicleta,10039,Conductor,De 25 a 29 años,Hombre,7
-2021S001804,2021-08-02T10:50:00Z,Avenida de la Memoria,https://wikidata.org/entity/Q29794262,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Lluvia débil,Bicicleta,10040,Conductor,De 25 a 29 años,Mujer,2
-2021S001868,2021-10-02T15:45:00Z,AVENIDA LOS ROSALES,,131,Villaverde,https://wikidata.org/entity/Q919536,Alcance,Despejado,Bicicleta,10041,Conductor,De 55 a 59 años,Hombre,
-2021S001909,2021-06-02T12:42:00Z,GLORIETA ANTONIO BONET,,0,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión fronto-lateral,Despejado,Bicicleta,10042,Conductor,De 55 a 59 años,Hombre,1
-2021S001947,2021-11-02T20:30:00Z,"Calle del General Ricardos, Madrid",https://wikidata.org/entity/Q5740542,95,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Lluvia débil,Bicicleta,10043,Conductor,De 25 a 29 años,Mujer,7
-2021S001998,2021-12-02T20:30:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,67,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,Bicicleta,10044,Conductor,De 25 a 29 años,Mujer,6
-2021S002047,2021-02-13T15:00:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,243,Tetuán,https://wikidata.org/entity/Q1773540,Caída,Despejado,Bicicleta,10045,Conductor,De 40 a 44 años,Hombre,7
-2021S002050,2021-02-13T16:20:00Z,CALLE ANICETO MARINAS,,74,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10046,Conductor,De 25 a 29 años,Hombre,7
-2021S002050,2021-02-13T16:20:00Z,CALLE ANICETO MARINAS,,74,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10047,Peatón,Desconocido,Mujer,14
-2021S002054,2021-02-13T17:15:00Z,AVENIDA MIGUEL HERNANDEZ,,116,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Alcance,Despejado,Bicicleta,10048,Conductor,De 35 a 39 años,Hombre,1
-2021S002054,2021-02-13T17:15:00Z,AVENIDA MIGUEL HERNANDEZ,,116,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Alcance,Despejado,Bicicleta,10049,Conductor,De 35 a 39 años,Hombre,14
-2021S002207,2021-02-15T08:30:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,274,Chamartín,https://wikidata.org/entity/Q1766348,Colisión lateral,Despejado,Bicicleta,10050,Conductor,De 45 a 49 años,Hombre,14
-2021S002235,2021-02-16T14:20:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,2,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,Bicicleta,10051,Conductor,De 35 a 39 años,Hombre,
-2021S002241,2021-11-02T17:50:00Z,CALLE VALCARLOS,,24,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10052,Conductor,De 45 a 49 años,Hombre,7
-2021S002248,2021-02-16T21:00:00Z,CALLE BEJAR,,15,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,Bicicleta,10053,Conductor,De 25 a 29 años,Hombre,2
-2021S002327,2021-02-18T15:25:00Z,"Calle de Gutiérrez Solana, Madrid",https://wikidata.org/entity/Q28531457,4,Chamartín,https://wikidata.org/entity/Q1766348,Colisión fronto-lateral,Despejado,Bicicleta,10054,Conductor,De 50 a 54 años,Hombre,3
-2021S002349,2021-02-17T19:15:00Z,Avenida del Planetario,https://wikidata.org/entity/Q17622122,12,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,Bicicleta,10055,Conductor,De 40 a 44 años,Hombre,7
-2021S002354,2021-02-18T18:30:00Z,CALLE SEDANO,,24,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,Bicicleta,10056,Conductor,De 10 a 14 años,Hombre,7
-2021S002359,2021-02-18T20:25:00Z,"Avenida de la Institución Libre de Enseñanza, Madrid",https://wikidata.org/entity/Q5740959,41,San Blas,https://wikidata.org/entity/Q2001937,Colisión lateral,Despejado,Bicicleta,10057,Conductor,De 25 a 29 años,Hombre,
-2021S002383,2021-02-19T12:10:00Z,avenida de los Poblados,https://wikidata.org/entity/Q26795575,106,Carabanchel,https://wikidata.org/entity/Q1001991,Choque contra obstáculo fijo,Despejado,Bicicleta,10058,Conductor,De 70 a 74 años,Hombre,2
-2021S002401,2021-02-19T18:28:00Z,Capitán Blanco Argibay Street,https://wikidata.org/entity/Q27038685,210,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,Bicicleta,10059,Conductor,De 50 a 54 años,Hombre,7
-2021S002498,2021-02-18T19:40:00Z,GLORIETA ANTONIO PERPIÑA,,0,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,Bicicleta,10060,Conductor,De 35 a 39 años,Hombre,7
-2021S002541,2021-02-20T13:15:00Z,PLAZA EMPERADOR CARLOS V,,8,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10061,Conductor,De 35 a 39 años,Mujer,7
-2021S002548,2021-02-20T13:15:00Z,CALLE SANCHIDRIAN,,13A,Latina,https://wikidata.org/entity/Q794954,Colisión lateral,Despejado,Bicicleta,10062,Conductor,De 45 a 49 años,Hombre,7
-2021S002558,2021-02-20T18:10:00Z,"Calle de Embajadores, Madrid",https://wikidata.org/entity/Q5740826,69,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10063,Conductor,De 25 a 29 años,Hombre,2
-2021S002603,2021-02-21T13:30:00Z,CALLE ARROYO FONTARRON,,24,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Lluvia débil,Bicicleta,10064,Conductor,De 45 a 49 años,Hombre,2
-2021S002629,2021-02-22T17:00:00Z,PLAZA EMPERADOR CARLOS V,,1,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10065,Conductor,De 21 a 24 años,Mujer,6
-2021S002631,2021-02-16T18:00:00Z,CALLE VALLE DE PINARES LLANOS,,27,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10066,Conductor,De 35 a 39 años,Mujer,7
-2021S002645,2021-02-22T20:40:00Z,San Bernardo street,https://wikidata.org/entity/Q5740864,55,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,Bicicleta,10067,Conductor,De 35 a 39 años,Hombre,14
-2021S002645,2021-02-22T20:40:00Z,San Bernardo street,https://wikidata.org/entity/Q5740864,55,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,Bicicleta,10068,Peatón,De 70 a 74 años,Hombre,5
-2021S002714,2021-02-24T15:05:00Z,"Calle de José Ortega y Gasset, Madrid",https://wikidata.org/entity/Q16540548,26,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,Bicicleta,10069,Conductor,De 25 a 29 años,Hombre,
-2021S002721,2021-02-24T17:55:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,175,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,Bicicleta,10070,Conductor,De 21 a 24 años,Mujer,
-2021S002806,2021-02-19T14:30:00Z,CALLE MORALZARZAL,,61,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10071,Conductor,De 10 a 14 años,Hombre,2
-2021S002807,2021-02-26T14:15:00Z,AVENIDA ENTREVIAS,,2,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión lateral,Despejado,Bicicleta,10072,Conductor,De 21 a 24 años,Hombre,7
-2021S002810,2021-02-19T18:10:00Z,CALLE SANDALIA NAVAS,,17,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10073,Conductor,De 15 a 17 años,Hombre,2
-2021S002812,2021-02-26T14:45:00Z,Calle de la Ribera de Curtidores,https://wikidata.org/entity/Q5740938,25,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10074,Conductor,De 30 a 34 años,Hombre,6
-2021S002817,2021-02-26T19:29:00Z,calle de Hortaleza,https://wikidata.org/entity/Q5740911,100,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Se desconoce,Bicicleta,10075,Conductor,De 30 a 34 años,Hombre,7
-2021S002855,2021-02-26T06:25:00Z,"Calle del General Ricardos, Madrid",https://wikidata.org/entity/Q5740542,2,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,Bicicleta,10076,Conductor,De 35 a 39 años,Mujer,5
-2021S002879,2021-02-27T11:55:00Z,calle de Segovia,https://wikidata.org/entity/Q8255505,8,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10077,Conductor,De 60 a 64 años,Hombre,1
-2021S002908,2021-02-27T19:15:00Z,PASEO EMBARCADERO,,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10078,Conductor,De 30 a 34 años,Hombre,6
-2021S002961,2021-02-28T11:30:00Z,Alcalá Street,https://wikidata.org/entity/Q2424746,29,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10079,Conductor,De 70 a 74 años,Hombre,7
-2021S003008,2021-02-28T17:15:00Z,Paseo del Prado,https://wikidata.org/entity/Q2079615,9,Retiro,https://wikidata.org/entity/Q2002296,Colisión lateral,Despejado,Bicicleta,10080,Conductor,De 30 a 34 años,Hombre,7
-2021S003050,2021-02-27T21:20:00Z,CALLE EDUARDO BARREIROS,,21,Usera,https://wikidata.org/entity/Q953368,Choque contra obstáculo fijo,Despejado,Bicicleta,10081,Conductor,De 35 a 39 años,Mujer,7
-2021S003057,2021-02-19T20:20:00Z,"Calle de Nuestra Señora de Valverde, Madrid",https://wikidata.org/entity/Q56256719,138,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10082,Conductor,De 35 a 39 años,Hombre,14
-2021S003061,2021-02-26T19:50:00Z,"Paseo de las Acacias, Madrid",https://wikidata.org/entity/Q55947263,20,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10083,Conductor,De 40 a 44 años,Hombre,7
-2021S003197,2021-04-03T11:30:00Z,AVENIDA MARTIRES MARISTAS,,2E,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10084,Conductor,Más de 74 años,Hombre,3
-2021S003207,2021-04-03T15:30:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,145,Tetuán,https://wikidata.org/entity/Q1773540,Colisión múltiple,Despejado,Bicicleta,10085,Conductor,De 25 a 29 años,Hombre,2
-2021S003209,2021-04-03T15:35:00Z,CALLE FLORENCIO CANO CRISTOBAL,,14,Moratalaz,https://wikidata.org/entity/Q2076109,Colisión fronto-lateral,Despejado,Bicicleta,10086,Conductor,De 15 a 17 años,Hombre,14
-2021S003217,2021-03-03T17:09:00Z,CALLE BRUJAS,,3A,Moratalaz,https://wikidata.org/entity/Q2076109,Atropello a persona,Despejado,Bicicleta,10087,Conductor,De 50 a 54 años,Hombre,14
-2021S003217,2021-03-03T17:09:00Z,CALLE BRUJAS,,3A,Moratalaz,https://wikidata.org/entity/Q2076109,Atropello a persona,Despejado,Bicicleta,10088,Peatón,Menor de 5 años,Hombre,6
-2021S003345,2021-06-03T13:35:00Z,Avenida Buenos Aires,https://wikidata.org/entity/Q9639613,101,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10089,Conductor,De 50 a 54 años,Mujer,6
-2021S003348,2021-05-03T21:51:00Z,calle del Torpedero Tucumán,https://wikidata.org/entity/Q29397139,24,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,Bicicleta,10090,Conductor,De 18 a 20 años,Hombre,1
-2021S003383,2021-06-03T01:12:00Z,Calle de Toledo,https://wikidata.org/entity/Q5740883,50,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Lluvia débil,Bicicleta,10091,Conductor,De 25 a 29 años,Hombre,1
-2021S003420,2021-07-03T14:20:00Z,Gran Vía,https://wikidata.org/entity/Q1324163,56,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,Bicicleta,10092,Conductor,De 25 a 29 años,Hombre,
-2021S003426,2021-06-03T16:40:00Z,"Calle de Juan Bravo, Madrid",https://wikidata.org/entity/Q28054647,15,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,Bicicleta,10093,Conductor,De 35 a 39 años,Hombre,7
-2021S003456,2021-07-03T12:10:00Z,CALLE VALLE DE MENA,,14,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10094,Conductor,De 25 a 29 años,Mujer,7
-2021S003470,2021-07-03T12:44:00Z,CAMINO ARROYO DE VALDEBEBAS,,9,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,Bicicleta,10095,Conductor,De 35 a 39 años,Hombre,7
-2021S003470,2021-07-03T12:44:00Z,CAMINO ARROYO DE VALDEBEBAS,,9,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,Bicicleta,10096,Conductor,De 40 a 44 años,Hombre,7
-2021S003486,2021-08-03T17:03:00Z,"Paseo de la Reina Cristina, Madrid",https://wikidata.org/entity/Q29051319,15,Retiro,https://wikidata.org/entity/Q2002296,Alcance,Lluvia débil,Bicicleta,10097,Conductor,De 40 a 44 años,Hombre,2
-2021S003555,2021-09-03T18:30:00Z,avenida del Mediterráneo,https://wikidata.org/entity/Q57739480,136,Villa de Vallecas,https://wikidata.org/entity/Q1947988,Caída,Despejado,Bicicleta,10098,Conductor,De 40 a 44 años,Hombre,3
-2021S003556,2021-04-03T15:58:00Z,PLAZA BEATA MARIA ANA DE JESUS,,1,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión lateral,Despejado,Bicicleta,10099,Conductor,De 50 a 54 años,Hombre,1
-2021S003640,2021-10-03T07:54:00Z,"Calle de Mateo Inurria, Madrid",https://wikidata.org/entity/Q26821557,58,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,Bicicleta,10100,Conductor,De 55 a 59 años,Hombre,7
-2021S003640,2021-10-03T07:54:00Z,"Calle de Mateo Inurria, Madrid",https://wikidata.org/entity/Q26821557,58,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,Bicicleta,10101,Peatón,De 40 a 44 años,Mujer,14
-2021S003661,2021-10-03T17:22:00Z,calle de Pradillo,https://wikidata.org/entity/Q55868790,34,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,Bicicleta,10102,Conductor,De 21 a 24 años,Hombre,14
-2021S003666,2021-10-03T14:40:00Z,"Paseo de La Habana, Madrid",https://wikidata.org/entity/Q28059068,72,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,Bicicleta,10103,Conductor,De 50 a 54 años,Hombre,7
-2021S003668,2021-11-03T15:10:00Z,"Calle de Trafalgar, Madrid",https://wikidata.org/entity/Q28024216,25,Chamberí,https://wikidata.org/entity/Q1763370,Caída,Despejado,Bicicleta,10104,Conductor,Más de 74 años,Hombre,5
-2021S003918,2021-03-13T11:10:00Z,"Parque Juan Carlos I de Pinto, Madrid",https://wikidata.org/entity/Q109187261,1,Barajas,https://wikidata.org/entity/Q807230,Atropello a persona,Despejado,Bicicleta,10105,Conductor,De 50 a 54 años,Hombre,2
-2021S003918,2021-03-13T11:10:00Z,"Parque Juan Carlos I de Pinto, Madrid",https://wikidata.org/entity/Q109187261,1,Barajas,https://wikidata.org/entity/Q807230,Atropello a persona,Despejado,Bicicleta,10106,Peatón,De 35 a 39 años,Mujer,2
-2021S003930,2021-03-13T22:18:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,309,Tetuán,https://wikidata.org/entity/Q1773540,Alcance,,Bicicleta,10107,Conductor,De 25 a 29 años,Hombre,
-2021S003969,2021-03-14T11:00:00Z,CALLE ARROYOFRESNO,,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10108,Conductor,De 65 a 69 años,Hombre,7
-2021S003998,2021-03-14T15:45:00Z,"Avenida del Doctor García Tapia, Madrid",https://wikidata.org/entity/Q28935864,53,Moratalaz,https://wikidata.org/entity/Q2076109,Colisión fronto-lateral,Despejado,Bicicleta,10109,Conductor,De 18 a 20 años,Hombre,
-2021S004021,2021-03-15T15:30:00Z,calle de Galileo,https://wikidata.org/entity/Q27031392,86,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,Bicicleta,10110,Conductor,De 15 a 17 años,Mujer,7
-2021S004021,2021-03-15T15:30:00Z,calle de Galileo,https://wikidata.org/entity/Q27031392,86,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,Bicicleta,10111,Conductor,De 18 a 20 años,Hombre,14
-2021S004032,2021-03-14T13:00:00Z,PASEO TORRECILLA,,4,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10112,Conductor,De 40 a 44 años,Hombre,7
-2021S004032,2021-03-14T13:00:00Z,PASEO TORRECILLA,,4,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10113,Conductor,De 50 a 54 años,Hombre,14
-2021S004063,2021-03-16T14:20:00Z,Gran Vía,https://wikidata.org/entity/Q1324163,70,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,Bicicleta,10114,Conductor,De 35 a 39 años,Hombre,7
-2021S004066,2021-03-16T16:40:00Z,PASEO EMBARCADERO,,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10115,Conductor,De 50 a 54 años,Hombre,6
-2021S004147,2021-03-17T16:05:00Z,Paseo del Prado,https://wikidata.org/entity/Q2079615,11,Retiro,https://wikidata.org/entity/Q2002296,Alcance,Despejado,Bicicleta,10116,Conductor,De 55 a 59 años,Hombre,7
-2021S004190,2021-03-17T22:15:00Z,"Paseo de la Esperanza, Madrid",https://wikidata.org/entity/Q55947011,11,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10117,Conductor,De 21 a 24 años,Hombre,1
-2021S004219,2021-03-18T15:00:00Z,Claudio Coello Street,https://wikidata.org/entity/Q28059043,90,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,Bicicleta,10118,Conductor,De 25 a 29 años,Mujer,7
-2021S004294,2021-03-19T16:20:00Z,CALLE VIA DE DUBLIN,,3,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,Bicicleta,10119,Conductor,De 50 a 54 años,Hombre,7
-2021S004316,2021-03-19T22:00:00Z,"Calle del Doctor Esquerdo, Madrid",https://wikidata.org/entity/Q5741005,96,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,Bicicleta,10120,Conductor,De 25 a 29 años,Hombre,2
-2021S004356,2021-03-14T12:38:00Z,PASEO EMBARCADERO,,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10121,Conductor,Desconocido,Desconocido,
-2021S004356,2021-03-14T12:38:00Z,PASEO EMBARCADERO,,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10122,Conductor,De 45 a 49 años,Hombre,1
-2021S004358,2021-03-18T10:30:00Z,CALLE JOSE DE CADALSO,,130,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,Bicicleta,10123,Conductor,De 40 a 44 años,Mujer,1
-2021S004358,2021-03-18T10:30:00Z,CALLE JOSE DE CADALSO,,130,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,Bicicleta,10124,Peatón,De 18 a 20 años,Hombre,14
-2021S004370,2021-03-20T12:10:00Z,AVENIDA LA GAVIA,,42,Villa de Vallecas,https://wikidata.org/entity/Q1947988,Atropello a persona,Despejado,Bicicleta,10125,Conductor,De 6  a  9 años,Hombre,14
-2021S004370,2021-03-20T12:10:00Z,AVENIDA LA GAVIA,,42,Villa de Vallecas,https://wikidata.org/entity/Q1947988,Atropello a persona,Despejado,Bicicleta,10126,Peatón,De 70 a 74 años,Mujer,7
-2021S004374,2021-03-20T13:10:00Z,"Avenida de Guadalajara, Madrid",https://wikidata.org/entity/Q52063521,69,San Blas,https://wikidata.org/entity/Q2001937,Colisión lateral,Despejado,Bicicleta,10127,Conductor,De 40 a 44 años,Hombre,1
-2021S004392,2021-03-17T18:35:00Z,CARRETERA SOMONTES AL PALACIO DE LA REAL QUINTA,,1,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10128,Conductor,De 35 a 39 años,Hombre,6
-2021S004468,2021-03-21T18:25:00Z,"Calle del Clavel, Madrid",https://wikidata.org/entity/Q28051075,5,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10129,Conductor,De 25 a 29 años,Hombre,7
-2021S004469,2021-03-21T19:30:00Z,Avenida de la Albufera,https://wikidata.org/entity/Q5714221,23,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10130,Conductor,De 21 a 24 años,Hombre,1
-2021S004507,2021-03-21T18:10:00Z,"Paseo de las Yeserías, Madrid",https://wikidata.org/entity/Q16616818,43,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10131,Conductor,De 15 a 17 años,Hombre,1
-2021S004513,2021-03-22T18:10:00Z,"Calle de Huesca, Madrid",https://wikidata.org/entity/Q29168261,20,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,Bicicleta,10132,Conductor,De 40 a 44 años,Mujer,
-2021S004521,2021-03-18T14:40:00Z,CALLE EVANGELIOS,,1,Usera,https://wikidata.org/entity/Q953368,Colisión frontal,Despejado,Bicicleta,10133,Conductor,De 25 a 29 años,Hombre,6
-2021S004548,2021-03-22T11:16:00Z,AVENIDA CARONDELET,,37,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,Bicicleta,10134,Conductor,De 10 a 14 años,Hombre,7
-2021S004559,2021-03-20T10:30:00Z,CARRETERA M-500,,0,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10135,Conductor,De 50 a 54 años,Hombre,2
-2021S004604,2021-03-23T16:50:00Z,"Avenida de Niceto Alcalá Zamora, Madrid",https://wikidata.org/entity/Q62107332,5,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,Bicicleta,10136,Conductor,De 45 a 49 años,Hombre,7
-2021S004655,2021-03-23T19:00:00Z,CALLE PUERTO RICO,,15,Chamartín,https://wikidata.org/entity/Q1766348,Choque contra obstáculo fijo,Despejado,Bicicleta,10137,Conductor,De 21 a 24 años,Hombre,7
-2021S004692,2021-03-24T09:50:00Z,La Campana,https://wikidata.org/entity/Q5742554,1,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Se desconoce,Bicicleta,10138,Conductor,De 30 a 34 años,Hombre,7
-2021S004736,2021-03-23T19:00:00Z,CALLE PALAS DE REY,,4,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10139,Conductor,De 30 a 34 años,Mujer,2
-2021S004736,2021-03-23T19:00:00Z,CALLE PALAS DE REY,,4,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10140,Peatón,De 6  a  9 años,Hombre,14
-2021S004752,2021-03-25T19:00:00Z,Manzanares Linear Park,https://wikidata.org/entity/Q6062319,0,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10141,Conductor,De 18 a 20 años,Hombre,1
-2021S004775,2021-03-25T14:05:00Z,AVENIDA CERRO MILANO,,631,Villa de Vallecas,https://wikidata.org/entity/Q1947988,Colisión fronto-lateral,Despejado,Bicicleta,10142,Conductor,De 50 a 54 años,Hombre,7
-2021S004777,2021-03-25T08:18:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,156,Chamartín,https://wikidata.org/entity/Q1766348,Colisión fronto-lateral,Despejado,Bicicleta,10143,Conductor,De 55 a 59 años,Hombre,7
-2021S004837,2021-03-26T21:00:00Z,Capitán Blanco Argibay Street,https://wikidata.org/entity/Q27038685,192,Tetuán,https://wikidata.org/entity/Q1773540,Caída,Despejado,Bicicleta,10144,Conductor,De 25 a 29 años,Hombre,1
-2021S004858,2021-03-26T23:00:00Z,avenida de los Poblados,https://wikidata.org/entity/Q26795575,0,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,Bicicleta,10145,Conductor,De 30 a 34 años,Hombre,7
-2021S004896,2021-03-27T10:40:00Z,Calle de Alfonso XII,https://wikidata.org/entity/Q5659170,66,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,Bicicleta,10146,Conductor,De 21 a 24 años,Hombre,
-2021S005003,2021-03-28T15:20:00Z,LUGAR CAÑADA REAL,,0,Villa de Vallecas,https://wikidata.org/entity/Q1947988,Caída,Despejado,Bicicleta,10147,Conductor,De 10 a 14 años,Hombre,6
-2021S005034,2021-03-29T08:30:00Z,AVENIDA ENTREVIAS,,34,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10148,Conductor,De 55 a 59 años,Mujer,6
-2021S005038,2021-03-28T10:45:00Z,Ronda de Atocha,https://wikidata.org/entity/Q26831149,27,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión lateral,Despejado,Bicicleta,10149,Conductor,De 35 a 39 años,Hombre,7
-2021S005113,2021-03-30T20:30:00Z,CALLE COMUNEROS DE CASTILLA,,4,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión frontal,,Bicicleta,10150,Conductor,De 50 a 54 años,Hombre,
-2021S005122,2021-03-30T22:38:00Z,"Paseo de Eduardo Dato, Madrid",https://wikidata.org/entity/Q20890584,17,Chamberí,https://wikidata.org/entity/Q1763370,Alcance,Despejado,Bicicleta,10151,Conductor,De 30 a 34 años,Hombre,6
-2021S005131,2021-03-25T08:35:00Z,Serrano Street,https://wikidata.org/entity/Q5740879,74,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10152,Conductor,De 40 a 44 años,Mujer,2
-2021S005170,2021-03-30T22:45:00Z,CALLE ANTEQUERA,,23,Usera,https://wikidata.org/entity/Q953368,Caída,Despejado,Bicicleta,10153,Conductor,De 50 a 54 años,Hombre,1
-2021S005174,2021-03-31T17:45:00Z,"Calle de Irún, Madrid",https://wikidata.org/entity/Q29920881,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10154,Conductor,De 30 a 34 años,Mujer,1
-2021S005174,2021-03-31T17:45:00Z,"Calle de Irún, Madrid",https://wikidata.org/entity/Q29920881,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10155,Conductor,De 50 a 54 años,Hombre,7
-2021S005189,2021-03-31T19:20:00Z,CAÑADA REAL DE MERINAS,,64,Vicálvaro,https://wikidata.org/entity/Q589403,Colisión fronto-lateral,,Bicicleta,10156,Conductor,Desconocido,Desconocido,
-2021S005224,2021-03-28T12:47:00Z,CALLE ALBERTO DE PALACIO,,0,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,Bicicleta,10157,Conductor,De 35 a 39 años,Hombre,
-2021S005246,2021-03-31T19:05:00Z,"Calle de Sevilla, Madrid",https://wikidata.org/entity/Q20908843,4,Centro,https://wikidata.org/entity/Q1763376,Choque contra obstáculo fijo,Despejado,Bicicleta,10158,Conductor,De 18 a 20 años,Hombre,7
-2021S005266,2021-03-31T17:00:00Z,calle de Segovia,https://wikidata.org/entity/Q8255505,49,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10159,Conductor,De 55 a 59 años,Mujer,1
-2021S005274,2021-01-04T22:20:00Z,Alcalá Street,https://wikidata.org/entity/Q2424746,251,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Colisión fronto-lateral,Despejado,Bicicleta,10160,Conductor,De 18 a 20 años,Mujer,
-2021S005303,2021-03-27T13:25:00Z,CALLE FRANCISCO Y JACINTO ALCANTARA,,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10161,Conductor,De 18 a 20 años,Hombre,7
-2021S005399,2021-03-04T16:20:00Z,Gran Vía,https://wikidata.org/entity/Q1324163,80,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,Bicicleta,10162,Conductor,De 30 a 34 años,Hombre,1
-2021S005406,2021-03-04T19:55:00Z,Paseo de la Ermita del Santo,https://wikidata.org/entity/Q28137105,16,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,Bicicleta,10163,Conductor,De 35 a 39 años,Hombre,3
-2021S005460,2021-03-04T18:35:00Z,CALLE CASALARREINA,,29,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Despejado,Bicicleta,10164,Conductor,De 55 a 59 años,Hombre,2
-2021S005488,2021-04-04T13:25:00Z,Calle de Atocha,https://wikidata.org/entity/Q5492657,36,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10165,Conductor,De 50 a 54 años,Mujer,7
-2021S005489,2021-04-04T14:00:00Z,calle de Arturo Soria,https://wikidata.org/entity/Q8255504,348,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Caída,Despejado,Bicicleta,10166,Conductor,De 50 a 54 años,Hombre,1
-2021S005496,2021-03-04T12:10:00Z,GLORIETA SIETE HERMANAS,,0,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Atropello a animal,Despejado,Bicicleta,10167,Conductor,De 40 a 44 años,Hombre,2
-2021S005556,2021-03-04T16:45:00Z,CALLE SAN ANTONIO DE PADUA,,36,Usera,https://wikidata.org/entity/Q953368,Colisión frontal,Despejado,Bicicleta,10168,Conductor,De 35 a 39 años,Hombre,7
-2021S005574,2021-06-04T15:20:00Z,CALLE PUERTO DE REINOSA,,15,Villa de Vallecas,https://wikidata.org/entity/Q1947988,Colisión fronto-lateral,Despejado,Bicicleta,10169,Conductor,De 10 a 14 años,Hombre,7
-2021S005629,2021-06-04T14:25:00Z,"Avenida de las Fuerzas Armadas, Madrid",https://wikidata.org/entity/Q29353164,402,Barajas,https://wikidata.org/entity/Q807230,Caída,Despejado,Bicicleta,10170,Conductor,De 45 a 49 años,Hombre,7
-2021S005632,2021-06-04T14:50:00Z,CALLE ARGANDA,,50,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10171,Conductor,De 30 a 34 años,Hombre,1
-2021S005659,2021-06-04T16:35:00Z,Avenida del Planetario,https://wikidata.org/entity/Q17622122,15,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10172,Conductor,De 50 a 54 años,Mujer,5
-2021S005675,2021-06-04T17:11:00Z,"Avenida de Burgos, Madrid",https://wikidata.org/entity/Q29902431,109,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10173,Conductor,De 50 a 54 años,Hombre,2
-2021S005729,2021-08-04T17:00:00Z,"Calle de Santa Engracia, Madrid",https://wikidata.org/entity/Q26728109,71,Chamberí,https://wikidata.org/entity/Q1763370,Atropello a persona,Despejado,Bicicleta,10174,Conductor,De 25 a 29 años,Mujer,6
-2021S005729,2021-08-04T17:00:00Z,"Calle de Santa Engracia, Madrid",https://wikidata.org/entity/Q26728109,71,Chamberí,https://wikidata.org/entity/Q1763370,Atropello a persona,Despejado,Bicicleta,10175,Peatón,De 21 a 24 años,Hombre,14
-2021S005738,2021-08-04T20:00:00Z,"Avenida de Niceto Alcalá Zamora, Madrid",https://wikidata.org/entity/Q62107332,6,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión lateral,Despejado,Bicicleta,10176,Conductor,De 55 a 59 años,Hombre,6
-2021S005746,2021-09-04T06:45:00Z,"Avenida de Ramón y Cajal, Madrid",https://wikidata.org/entity/Q30467128,1,Chamartín,https://wikidata.org/entity/Q1766348,Colisión fronto-lateral,Nublado,Bicicleta,10177,Conductor,De 30 a 34 años,Hombre,3
-2021S005791,2021-08-04T20:15:00Z,"Calle del Duque de Fernán Núñez, Madrid",https://wikidata.org/entity/Q29051517,19,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,Bicicleta,10178,Conductor,De 18 a 20 años,Mujer,7
-2021S005852,2021-03-20T12:55:00Z,CAMINO DE LA CAÑADA,,0,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10179,Conductor,De 10 a 14 años,Mujer,7
-2021S005852,2021-03-20T12:55:00Z,CAMINO DE LA CAÑADA,,0,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10180,Conductor,De 30 a 34 años,Hombre,6
-2021S005943,2021-10-04T12:30:00Z,AVENIDA MIGUEL DELIBES,,30,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Nublado,Bicicleta,10181,Conductor,De 50 a 54 años,Hombre,1
-2021S005954,2021-10-04T22:15:00Z,CARRETERA GARABITAS,,0,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,LLuvia intensa,Bicicleta,10182,Conductor,Desconocido,Desconocido,
-2021S005961,2021-08-04T16:15:00Z,Avenida del Cardenal Herrera Oria,https://wikidata.org/entity/Q27556319,76B,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10183,Conductor,De 50 a 54 años,Hombre,2
-2021S006007,2021-12-04T07:37:00Z,"Avenida de la Ciudad de Barcelona, Madrid",https://wikidata.org/entity/Q5714227,93,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Despejado,Bicicleta,10184,Conductor,De 15 a 17 años,Hombre,14
-2021S006007,2021-12-04T07:37:00Z,"Avenida de la Ciudad de Barcelona, Madrid",https://wikidata.org/entity/Q5714227,93,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Despejado,Bicicleta,10185,Peatón,De 45 a 49 años,Mujer,1
-2021S006010,2021-11-04T17:00:00Z,calle del Príncipe de Vergara,https://wikidata.org/entity/Q5741020,262,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,Bicicleta,10186,Conductor,De 35 a 39 años,Hombre,14
-2021S006039,2021-12-04T18:35:00Z,Carrer Jacint Verdaguer,https://wikidata.org/entity/Q5740564,8,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión frontal,Despejado,Bicicleta,10187,Conductor,De 30 a 34 años,Hombre,2
-2021S006064,2021-12-04T10:25:00Z,CALLE PADRE LLANOS,,24,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,Bicicleta,10188,Conductor,De 40 a 44 años,Hombre,7
-2021S006070,2021-04-13T10:25:00Z,Gran Vía,https://wikidata.org/entity/Q1324163,56,Centro,https://wikidata.org/entity/Q1763376,Caída,Lluvia débil,Bicicleta,10189,Conductor,De 35 a 39 años,Mujer,
-2021S006107,2021-04-13T20:20:00Z,"Calle de Guzmán el Bueno, Madrid",https://wikidata.org/entity/Q27031398,59,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,Bicicleta,10190,Conductor,De 25 a 29 años,Hombre,1
-2021S006140,2021-04-14T16:45:00Z,CALLE CONVENIO,,41,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Alcance,Despejado,Bicicleta,10191,Conductor,De 40 a 44 años,Hombre,7
-2021S006181,2021-12-04T10:40:00Z,AVENIDA LOS ROSALES,,408,Villaverde,https://wikidata.org/entity/Q919536,Caída,Despejado,Bicicleta,10192,Conductor,De 65 a 69 años,Hombre,2
-2021S006181,2021-12-04T10:40:00Z,AVENIDA LOS ROSALES,,408,Villaverde,https://wikidata.org/entity/Q919536,Caída,Despejado,Bicicleta,10193,Peatón,De 50 a 54 años,Mujer,14
-2021S006240,2021-04-15T12:30:00Z,CALLE FINISTERRE,,29,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Alcance,Se desconoce,Bicicleta,10194,Conductor,De 21 a 24 años,Hombre,1
-2021S006259,2021-04-15T20:30:00Z,PLAZA DUQUE DE PASTRANA,,3,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Lluvia débil,Bicicleta,10195,Conductor,De 35 a 39 años,Mujer,1
-2021S006574,2021-04-21T12:00:00Z,Madrid Ring Road,https://wikidata.org/entity/Q2606591,+00200E,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10196,Conductor,De 55 a 59 años,Hombre,1
-2021S006603,2021-04-21T18:40:00Z,"Avenida de la Ciudad de Barcelona, Madrid",https://wikidata.org/entity/Q5714227,202,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Nublado,Bicicleta,10197,Conductor,De 55 a 59 años,Hombre,14
-2021S006603,2021-04-21T18:40:00Z,"Avenida de la Ciudad de Barcelona, Madrid",https://wikidata.org/entity/Q5714227,202,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Nublado,Bicicleta,10198,Peatón,De 65 a 69 años,Mujer,7
-2021S006667,2021-04-22T19:50:00Z,Paseo de la Ermita del Santo,https://wikidata.org/entity/Q28137105,40,Latina,https://wikidata.org/entity/Q794954,Caída,Lluvia débil,Bicicleta,10199,Conductor,De 21 a 24 años,Mujer,7
-2021S006709,2021-04-23T13:30:00Z,calle de Gaztambide,https://wikidata.org/entity/Q27243265,23,Chamberí,https://wikidata.org/entity/Q1763370,Caída,Despejado,Bicicleta,10200,Conductor,De 21 a 24 años,Hombre,2
-2021S006724,2021-04-23T17:20:00Z,"Calle de Francisco Largo Caballero, Madrid",https://wikidata.org/entity/Q62107131,15,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Colisión fronto-lateral,Despejado,Bicicleta,10201,Conductor,De 50 a 54 años,Hombre,3
-2021S006803,2021-04-24T17:40:00Z,CALLE JOSE PAULETE,,5,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10202,Conductor,De 25 a 29 años,Mujer,2
-2021S006807,2021-04-22T17:12:00Z,Madrid Ring Road,https://wikidata.org/entity/Q2606591,+00500E,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Lluvia débil,Bicicleta,10203,Conductor,De 25 a 29 años,Hombre,
-2021S006807,2021-04-22T17:12:00Z,Madrid Ring Road,https://wikidata.org/entity/Q2606591,+00500E,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,Lluvia débil,Bicicleta,10204,Conductor,De 35 a 39 años,Mujer,
-2021S006837,2021-04-24T23:30:00Z,Serrano Street,https://wikidata.org/entity/Q5740879,44,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,Bicicleta,10205,Conductor,De 18 a 20 años,Hombre,7
-2021S006873,2021-04-24T22:47:00Z,"Paseo de las Acacias, Madrid",https://wikidata.org/entity/Q55947263,41,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión múltiple,LLuvia intensa,Bicicleta,10206,Conductor,De 25 a 29 años,Hombre,7
-2021S006876,2021-04-24T11:15:00Z,RONDA DE LA COMUNICACION,,0,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10207,Conductor,De 45 a 49 años,Mujer,14
-2021S006876,2021-04-24T11:15:00Z,RONDA DE LA COMUNICACION,,0,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10208,Conductor,De 50 a 54 años,Mujer,6
-2021S006894,2021-04-25T12:35:00Z,CALLE TINTOREROS,,4,Centro,https://wikidata.org/entity/Q1763376,Alcance,Lluvia débil,Bicicleta,10209,Conductor,De 40 a 44 años,Hombre,1
-2021S006899,2021-04-24T22:00:00Z,paseo de Marcelino Camacho,https://wikidata.org/entity/Q53414018,1,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,,Bicicleta,10210,Conductor,De 10 a 14 años,Hombre,
-2021S006899,2021-04-24T22:00:00Z,paseo de Marcelino Camacho,https://wikidata.org/entity/Q53414018,1,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,,Bicicleta,10211,Pasajero,De 10 a 14 años,Hombre,
-2021S007017,2021-04-26T18:30:00Z,CALLE PLAYA DE LA CALETA,,6,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,Bicicleta,10212,Conductor,De 10 a 14 años,Hombre,7
-2021S007050,2021-04-27T15:05:00Z,CALLE CERILLERAS,,4,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,Bicicleta,10213,Conductor,De 50 a 54 años,Hombre,7
-2021S007058,2021-04-27T15:30:00Z,avenida de los Poblados,https://wikidata.org/entity/Q26795575,94,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión lateral,Despejado,Bicicleta,10214,Conductor,De 15 a 17 años,Hombre,2
-2021S007119,2021-04-27T23:00:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,137,Tetuán,https://wikidata.org/entity/Q1773540,Alcance,LLuvia intensa,Bicicleta,10215,Conductor,De 25 a 29 años,Mujer,7
-2021S007136,2021-04-28T19:10:00Z,CALLE CARLOS MARTIN ALVAREZ,,2,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10216,Conductor,De 25 a 29 años,Mujer,7
-2021S007177,2021-04-29T11:00:00Z,calle de Arturo Soria,https://wikidata.org/entity/Q8255504,251,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Atropello a persona,Nublado,Bicicleta,10217,Conductor,De 35 a 39 años,Hombre,14
-2021S007177,2021-04-29T11:00:00Z,calle de Arturo Soria,https://wikidata.org/entity/Q8255504,251,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Atropello a persona,Nublado,Bicicleta,10218,Peatón,De 65 a 69 años,Hombre,3
-2021S007182,2021-04-28T20:15:00Z,CAMINO VIEJO DE VICALVARO,,7,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Nublado,Bicicleta,10219,Conductor,De 55 a 59 años,Hombre,2
-2021S007197,2021-04-29T17:20:00Z,CALLE CHIQUINQUIRA,,60,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,Bicicleta,10220,Conductor,De 35 a 39 años,Hombre,1
-2021S007285,2021-04-30T18:35:00Z,CALLE CONDESA DE VENADITO,,7,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Colisión fronto-lateral,Despejado,Bicicleta,10221,Conductor,De 40 a 44 años,Mujer,3
-2021S007365,2021-01-05T18:50:00Z,AVENIDA VALDEMARIN,,100E,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10222,Conductor,De 55 a 59 años,Hombre,6
-2021S007427,2021-02-05T10:40:00Z,Madrid Ring Road,https://wikidata.org/entity/Q2606591,+00500I,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10223,Conductor,De 55 a 59 años,Hombre,2
-2021S007427,2021-02-05T10:40:00Z,Madrid Ring Road,https://wikidata.org/entity/Q2606591,+00500I,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10224,Peatón,De 18 a 20 años,Mujer,14
-2021S007454,2021-02-05T22:10:00Z,"Calle del Doctor Esquerdo, Madrid",https://wikidata.org/entity/Q5741005,47,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10225,Conductor,De 15 a 17 años,Hombre,1
-2021S007478,2021-02-05T11:00:00Z,CALLE AFUERAS A VALVERDE,,1,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10226,Conductor,De 30 a 34 años,Hombre,7
-2021S007563,2021-03-05T17:30:00Z,PISTA CRISTO DE EL PARDO,,17,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10227,Conductor,De 45 a 49 años,Hombre,2
-2021S007566,2021-04-05T20:40:00Z,calle de las Azucenas,https://wikidata.org/entity/Q27150352,2,Tetuán,https://wikidata.org/entity/Q1773540,Alcance,Despejado,Bicicleta,10228,Conductor,De 30 a 34 años,Mujer,
-2021S007583,2021-04-05T13:20:00Z,CALLE LOS YEBENES,,6,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,Bicicleta,10229,Conductor,De 45 a 49 años,Hombre,7
-2021S007593,2021-05-05T12:20:00Z,CALLE ALHAMBRA,,2,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,Bicicleta,10230,Conductor,De 55 a 59 años,Hombre,3
-2021S007611,2021-05-05T16:40:00Z,CALLE VICENTE BLASCO IBAÑEZ,,82,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión fronto-lateral,Despejado,Bicicleta,10231,Conductor,De 15 a 17 años,Hombre,3
-2021S007645,2021-05-05T13:15:00Z,CALLE MANUEL AGUILAR MUÑOZ,,15,Barajas,https://wikidata.org/entity/Q807230,Colisión frontal,Despejado,Bicicleta,10232,Conductor,De 60 a 64 años,Hombre,7
-2021S007727,2021-07-05T15:55:00Z,PLAZA SAN JUAN DE LA CRUZ,,2,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,Bicicleta,10233,Conductor,De 50 a 54 años,Hombre,3
-2021S007918,2021-09-05T11:00:00Z,AVENIDA MIGUEL HERNANDEZ,,11,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Nublado,Bicicleta,10234,Conductor,De 60 a 64 años,Hombre,2
-2021S007930,2021-09-05T15:55:00Z,AVENIDA CAMILO JOSE CELA,,29,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,Bicicleta,10235,Conductor,De 30 a 34 años,Mujer,7
-2021S007953,2021-09-05T20:15:00Z,Alcalá Street,https://wikidata.org/entity/Q2424746,211,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,Bicicleta,10236,Conductor,De 21 a 24 años,Hombre,7
-2021S007960,2021-09-05T22:52:00Z,"Calle de Santa Engracia, Madrid",https://wikidata.org/entity/Q26728109,80,Chamberí,https://wikidata.org/entity/Q1763370,Alcance,Despejado,Bicicleta,10237,Conductor,De 35 a 39 años,Hombre,7
-2021S007983,2021-09-05T13:05:00Z,CALLE MAYORAZGO DE DUARTE,,40,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Despejado,Bicicleta,10238,Conductor,De 10 a 14 años,Hombre,2
-2021S007989,2021-04-05T23:29:00Z,CALLE JOSE ANTONIO NOVAIS,,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10239,Conductor,De 21 a 24 años,Mujer,14
-2021S007989,2021-04-05T23:29:00Z,CALLE JOSE ANTONIO NOVAIS,,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10240,Conductor,De 21 a 24 años,Mujer,3
-2021S008016,2021-10-05T18:10:00Z,PLAZA MANUEL BECERRA,,6,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10241,Conductor,De 18 a 20 años,Hombre,2
-2021S008025,2021-08-05T12:05:00Z,AVENIDA LOS ROSALES,,19,Usera,https://wikidata.org/entity/Q953368,Alcance,Despejado,Bicicleta,10242,Conductor,De 30 a 34 años,Hombre,2
-2021S008075,2021-08-05T21:50:00Z,"Calle de Marcelo Usera, Madrid",https://wikidata.org/entity/Q5740848,131,Usera,https://wikidata.org/entity/Q953368,Alcance,Despejado,Bicicleta,10243,Conductor,De 30 a 34 años,Hombre,7
-2021S008088,2021-11-05T14:30:00Z,GLORIETA QUEVEDO,,2,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,Bicicleta,10244,Conductor,De 70 a 74 años,Hombre,2
-2021S008110,2021-07-05T12:50:00Z,CAMINO PRINCIPE,,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10245,Conductor,De 21 a 24 años,Mujer,2
-2021S008139,2021-11-05T21:10:00Z,CALLE GOLONDRINA,,52,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10246,Conductor,De 10 a 14 años,Hombre,6
-2021S008192,2021-12-05T13:50:00Z,"Calle de Almagro, Madrid",https://wikidata.org/entity/Q26844339,21,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,Bicicleta,10247,Conductor,De 50 a 54 años,Hombre,1
-2021S008264,2021-05-14T10:21:00Z,AVENIDA MANUEL FRAGA IRIBARNE,,35,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,Bicicleta,10248,Conductor,De 40 a 44 años,Hombre,2
-2021S008288,2021-05-14T15:10:00Z,CALLE MORALZARZAL,,80,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10249,Conductor,De 45 a 49 años,Hombre,3
-2021S008364,2021-05-15T10:35:00Z,calle de Cea Bermúdez,https://wikidata.org/entity/Q26791743,52,Chamberí,https://wikidata.org/entity/Q1763370,Colisión lateral,Despejado,Bicicleta,10250,Conductor,De 40 a 44 años,Hombre,7
-2021S008384,2021-05-14T20:20:00Z,Paseo de los Pontones,https://wikidata.org/entity/Q26737156,28,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,,Bicicleta,10251,Conductor,De 40 a 44 años,Hombre,14
-2021S008396,2021-05-15T20:45:00Z,CALLE SAN HILARIO,,5,San Blas,https://wikidata.org/entity/Q2001937,Caída,Despejado,Bicicleta,10252,Conductor,De 15 a 17 años,Hombre,7
-2021S008408,2021-05-15T23:35:00Z,San Bernardo street,https://wikidata.org/entity/Q5740864,61,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,Bicicleta,10253,Conductor,De 30 a 34 años,Hombre,
-2021S008458,2021-05-16T15:40:00Z,"Avenida de las Fuerzas Armadas, Madrid",https://wikidata.org/entity/Q29353164,1,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,Bicicleta,10254,Conductor,De 10 a 14 años,Mujer,6
-2021S008466,2021-05-16T18:45:00Z,calle de Velázquez,https://wikidata.org/entity/Q20031523,33,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,Bicicleta,10255,Conductor,De 30 a 34 años,Hombre,14
-2021S008496,2021-05-16T08:50:00Z,"Avenida del Doctor García Tapia, Madrid",https://wikidata.org/entity/Q28935864,232,Moratalaz,https://wikidata.org/entity/Q2076109,Colisión fronto-lateral,Despejado,Bicicleta,10256,Conductor,De 40 a 44 años,Hombre,7
-2021S008501,2021-04-30T11:06:00Z,Conde de Peñalver Street,https://wikidata.org/entity/Q28054244,51,Salamanca,https://wikidata.org/entity/Q1773521,Colisión lateral,Despejado,Bicicleta,10257,Conductor,De 15 a 17 años,Hombre,
-2021S008525,2021-05-17T19:33:00Z,PLAZA MANUEL BECERRA,,2,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,Bicicleta,10258,Conductor,De 40 a 44 años,Hombre,5
-2021S008532,2021-05-16T22:28:00Z,CALLE SEPULVEDA,,1,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,Bicicleta,10259,Conductor,De 40 a 44 años,Hombre,7
-2021S008569,2021-05-18T16:40:00Z,CALLE CERRO DE LA PLATA,,6,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,Bicicleta,10260,Conductor,De 50 a 54 años,Hombre,
-2021S008583,2021-05-18T20:25:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,227,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,Bicicleta,10261,Conductor,De 30 a 34 años,Mujer,3
-2021S008604,2021-05-15T09:25:00Z,calle de Antonio López,https://wikidata.org/entity/Q42238475,195E,Usera,https://wikidata.org/entity/Q953368,Colisión lateral,,Bicicleta,10262,Conductor,De 50 a 54 años,Hombre,
-2021S008660,2021-05-19T19:50:00Z,CARRETERA ALCOBENDAS A BARAJAS,,30,Barajas,https://wikidata.org/entity/Q807230,Colisión lateral,Despejado,Bicicleta,10263,Conductor,De 15 a 17 años,Hombre,1
-2021S008670,2021-05-19T23:40:00Z,avenida de los Poblados,https://wikidata.org/entity/Q26795575,70,Latina,https://wikidata.org/entity/Q794954,Colisión lateral,Despejado,Bicicleta,10264,Conductor,De 50 a 54 años,Hombre,7
-2021S008766,2021-05-20T10:45:00Z,GLORIETA OLGA RAMOS,,0,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Se desconoce,Bicicleta,10265,Conductor,De 65 a 69 años,Hombre,1
-2021S008803,2021-05-20T20:15:00Z,CAMINO VIEJO DE VICALVARO,,9,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Despejado,Bicicleta,10266,Conductor,De 55 a 59 años,Hombre,7
-2021S008811,2021-05-21T19:05:00Z,CARRETERA ESTACION DE HORTALEZA,,56,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,Bicicleta,10267,Conductor,De 55 a 59 años,Hombre,14
-2021S008866,2021-05-22T08:40:00Z,Alcalá Street,https://wikidata.org/entity/Q2424746,253,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Alcance,Despejado,Bicicleta,10268,Conductor,De 35 a 39 años,Hombre,6
-2021S008881,2021-05-21T20:15:00Z,CARRETERA RODAJOS,,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10269,Conductor,De 45 a 49 años,Hombre,2
-2021S008907,2021-05-22T21:40:00Z,Calle de Toledo,https://wikidata.org/entity/Q5740883,52,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,Bicicleta,10270,Conductor,De 18 a 20 años,Hombre,
-2021S008970,2021-05-23T14:55:00Z,CALLE MINERVA,,3,Vicálvaro,https://wikidata.org/entity/Q589403,Alcance,Nublado,Bicicleta,10271,Conductor,De 40 a 44 años,Hombre,
-2021S008974,2021-05-23T16:45:00Z,CALLE PUERTO ALTO,,3,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Nublado,Bicicleta,10272,Conductor,De 35 a 39 años,Hombre,
-2021S008998,2021-05-20T13:27:00Z,CARRETERA CASTILLA,,+00300S,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10273,Conductor,De 15 a 17 años,Hombre,7
-2021S009051,2021-05-25T04:45:00Z,calle de Mesón de Paredes,https://wikidata.org/entity/Q5686332,30,Centro,https://wikidata.org/entity/Q1763376,Colisión múltiple,Despejado,Bicicleta,10274,Conductor,De 30 a 34 años,Hombre,7
-2021S009054,2021-05-24T13:20:00Z,AVENIDA ENTREVIAS,,140,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10275,Conductor,De 55 a 59 años,Hombre,5
-2021S009087,2021-05-25T17:15:00Z,"Avenida de Arcentales, Madrid",https://wikidata.org/entity/Q56155322,7,San Blas,https://wikidata.org/entity/Q2001937,Colisión lateral,Despejado,Bicicleta,10276,Conductor,De 25 a 29 años,Mujer,
-2021S009096,2021-05-25T19:40:00Z,CALLE VIRGEN DE LOS ROSALES,,106,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10277,Conductor,De 55 a 59 años,Hombre,6
-2021S009101,2021-05-25T20:00:00Z,"Calle de Mateo Inurria, Madrid",https://wikidata.org/entity/Q26821557,5,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,Bicicleta,10278,Conductor,De 25 a 29 años,Hombre,7
-2021S009116,2021-05-25T14:50:00Z,"Paseo de la Chopera, Madrid",https://wikidata.org/entity/Q27044458,10,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10279,Conductor,De 40 a 44 años,Hombre,7
-2021S009147,2021-05-26T17:40:00Z,AVENIDA MONASTERIO DE SILOS,,7B,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10280,Conductor,Desconocido,Desconocido,
-2021S009147,2021-05-26T17:40:00Z,AVENIDA MONASTERIO DE SILOS,,7B,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10281,Conductor,De 45 a 49 años,Mujer,3
-2021S009154,2021-05-26T20:00:00Z,Avenida de los Andes,https://wikidata.org/entity/Q28997223,52,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,Bicicleta,10282,Conductor,De 30 a 34 años,Hombre,6
-2021S009168,2021-05-26T22:20:00Z,PASEO MELANCOLICOS,,4,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10283,Conductor,De 30 a 34 años,Hombre,3
-2021S009224,2021-05-27T19:30:00Z,"Calle de Antonio Machado, Madrid",https://wikidata.org/entity/Q28793893,24,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión lateral,Despejado,Bicicleta,10284,Conductor,De 25 a 29 años,Hombre,6
-2021S009241,2021-05-27T23:45:00Z,"Calle de Santa Engracia, Madrid",https://wikidata.org/entity/Q26728109,140,Chamberí,https://wikidata.org/entity/Q1763370,Choque contra obstáculo fijo,Despejado,Bicicleta,10285,Conductor,De 30 a 34 años,Hombre,1
-2021S009258,2021-05-28T03:40:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,180,Chamartín,https://wikidata.org/entity/Q1766348,Choque contra obstáculo fijo,Despejado,Bicicleta,10286,Conductor,De 30 a 34 años,Mujer,1
-2021S009261,2021-05-27T14:05:00Z,CAMINO POZO DEL TIO RAIMUNDO,,37,Villa de Vallecas,https://wikidata.org/entity/Q1947988,Colisión lateral,Despejado,Bicicleta,10287,Conductor,De 30 a 34 años,Hombre,1
-2021S009357,2021-05-29T12:30:00Z,calle de Segovia,https://wikidata.org/entity/Q8255505,21,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10288,Conductor,De 50 a 54 años,Hombre,6
-2021S009421,2021-05-29T10:00:00Z,Avenida del Cardenal Herrera Oria,https://wikidata.org/entity/Q27556319,2,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10289,Conductor,De 50 a 54 años,Hombre,7
-2021S009421,2021-05-29T10:00:00Z,Avenida del Cardenal Herrera Oria,https://wikidata.org/entity/Q27556319,2,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10290,Conductor,De 60 a 64 años,Hombre,6
-2021S009423,2021-05-30T11:45:00Z,"Calle de Embajadores, Madrid",https://wikidata.org/entity/Q5740826,286,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,Despejado,Bicicleta,10291,Conductor,De 45 a 49 años,Mujer,2
-2021S009484,2021-05-29T11:15:00Z,PASEO PIÑONEROS,,4,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10292,Conductor,De 35 a 39 años,Hombre,2
-2021S009484,2021-05-29T11:15:00Z,PASEO PIÑONEROS,,4,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10293,Conductor,De 45 a 49 años,Hombre,7
-2021S009492,2021-05-28T07:40:00Z,"Calle de Embajadores, Madrid",https://wikidata.org/entity/Q5740826,300,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10294,Conductor,De 35 a 39 años,Mujer,7
-2021S009511,2021-05-30T15:10:00Z,"Calle de Pedro Rico, Madrid",https://wikidata.org/entity/Q56427389,19,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10295,Conductor,De 60 a 64 años,Hombre,2
-2021S009532,2021-05-31T20:35:00Z,CALLE VIA CARPETANA,,57,Carabanchel,https://wikidata.org/entity/Q1001991,Caída,,Bicicleta,10296,Conductor,Desconocido,Desconocido,
-2021S009537,2021-05-31T22:15:00Z,Paseo de Recoletos,https://wikidata.org/entity/Q2550870,20,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,Bicicleta,10297,Conductor,De 40 a 44 años,Hombre,5
-2021S009606,2021-01-06T19:30:00Z,calle de Bailén,https://wikidata.org/entity/Q5740811,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10298,Conductor,De 25 a 29 años,Mujer,6
-2021S009635,2021-01-06T11:05:00Z,"Calle de Embajadores, Madrid",https://wikidata.org/entity/Q5740826,1,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,Bicicleta,10299,Conductor,Desconocido,Desconocido,
-2021S009635,2021-01-06T11:05:00Z,"Calle de Embajadores, Madrid",https://wikidata.org/entity/Q5740826,1,Centro,https://wikidata.org/entity/Q1763376,Atropello a persona,Despejado,Bicicleta,10300,Peatón,De 30 a 34 años,Hombre,5
-2021S009665,2021-01-06T15:34:00Z,Ronda de Valencia,https://wikidata.org/entity/Q16626200,9,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,Bicicleta,10301,Conductor,De 35 a 39 años,Hombre,1
-2021S009673,2021-02-06T16:40:00Z,"Calle del Alcalde Sáinz de Baranda, Madrid",https://wikidata.org/entity/Q28070977,80,Retiro,https://wikidata.org/entity/Q2002296,Colisión frontal,Despejado,Bicicleta,10302,Conductor,De 50 a 54 años,Hombre,14
-2021S009686,2021-01-06T21:35:00Z,AVENIDA BRASILIA,,27,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Despejado,Bicicleta,10303,Conductor,De 55 a 59 años,Hombre,7
-2021S009724,2021-02-06T13:10:00Z,CALLE ALEJANDRO SANCHEZ,,72,Carabanchel,https://wikidata.org/entity/Q1001991,Choque contra obstáculo fijo,Despejado,Bicicleta,10304,Conductor,De 30 a 34 años,Hombre,7
-2021S009732,2021-02-06T12:30:00Z,"Avenida de Menéndez Pelayo, Madrid",https://wikidata.org/entity/Q28936960,21,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,Bicicleta,10305,Conductor,De 55 a 59 años,Hombre,
-2021S009753,2021-02-06T14:55:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,216,Chamartín,https://wikidata.org/entity/Q1766348,Colisión lateral,Despejado,Bicicleta,10306,Conductor,De 40 a 44 años,Hombre,7
-2021S009776,2021-03-06T19:45:00Z,GLORIETA MARQUES DE VADILLO,,1,Carabanchel,https://wikidata.org/entity/Q1001991,Alcance,Despejado,Bicicleta,10307,Conductor,De 60 a 64 años,Hombre,7
-2021S009839,2021-04-06T19:05:00Z,calle de Fuencarral,https://wikidata.org/entity/Q5740840,134,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,Bicicleta,10308,Conductor,De 40 a 44 años,Hombre,3
-2021S009902,2021-05-06T05:30:00Z,PLAZA LEGAZPI,,9,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10309,Conductor,De 30 a 34 años,Hombre,6
-2021S009947,2021-05-06T23:00:00Z,Alcalá Street,https://wikidata.org/entity/Q2424746,217,Salamanca,https://wikidata.org/entity/Q1773521,Colisión lateral,Despejado,Bicicleta,10310,Conductor,De 30 a 34 años,Hombre,3
-2021S010047,2021-06-06T11:30:00Z,"Avenida de las Fuerzas Armadas, Madrid",https://wikidata.org/entity/Q29353164,136,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,Bicicleta,10311,Conductor,De 40 a 44 años,Mujer,1
-2021S010076,2021-07-06T15:00:00Z,PLAZA CORTES,,2,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Despejado,Bicicleta,10312,Conductor,De 25 a 29 años,Mujer,7
-2021S010099,2021-07-06T19:45:00Z,PLAZA ALSACIA,,1,San Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,Bicicleta,10313,Conductor,De 21 a 24 años,Hombre,
-2021S010125,2021-06-06T13:35:00Z,AVENIDA MONASTERIO DE SILOS,,96,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión frontal,Despejado,Bicicleta,10314,Conductor,De 50 a 54 años,Hombre,6
-2021S010125,2021-06-06T13:35:00Z,AVENIDA MONASTERIO DE SILOS,,96,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión frontal,Despejado,Bicicleta,10315,Conductor,De 55 a 59 años,Hombre,7
-2021S010131,2021-08-06T08:50:00Z,plaza de Cibeles,https://wikidata.org/entity/Q1537446,1,Retiro,https://wikidata.org/entity/Q2002296,Colisión lateral,Despejado,Bicicleta,10316,Conductor,De 50 a 54 años,Mujer,3
-2021S010149,2021-06-06T11:35:00Z,CALLE ISABEL COLBRAND,,1,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10317,Conductor,De 10 a 14 años,Mujer,5
-2021S010188,2021-07-06T06:47:00Z,Avenida de Portugal,https://wikidata.org/entity/Q26736141,157,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,Bicicleta,10318,Conductor,De 50 a 54 años,Hombre,1
-2021S010245,2021-09-06T19:15:00Z,"Calle de Pinos Alta, Madrid",https://wikidata.org/entity/Q54562684,5,Tetuán,https://wikidata.org/entity/Q1773540,Atropello a persona,Despejado,Bicicleta,10319,Conductor,De 21 a 24 años,Hombre,14
-2021S010245,2021-09-06T19:15:00Z,"Calle de Pinos Alta, Madrid",https://wikidata.org/entity/Q54562684,5,Tetuán,https://wikidata.org/entity/Q1773540,Atropello a persona,Despejado,Bicicleta,10320,Peatón,De 40 a 44 años,Mujer,2
-2021S010276,2021-10-06T12:39:00Z,CALLE SAN DALMACIO,,19,Villaverde,https://wikidata.org/entity/Q919536,Colisión lateral,Despejado,Bicicleta,10321,Conductor,De 25 a 29 años,Hombre,
-2021S010414,2021-10-06T16:05:00Z,CALLE PLANETA TIERRA,,1,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10322,Conductor,De 40 a 44 años,Hombre,1
-2021S010419,2021-10-06T14:20:00Z,Paseo de Santa María de la Cabeza,https://wikidata.org/entity/Q6065630,18,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10323,Conductor,De 18 a 20 años,Hombre,1
-2021S010483,2021-12-06T10:15:00Z,CALLE ALEGRIA DE ORIA,,5,San Blas,https://wikidata.org/entity/Q2001937,Colisión lateral,Despejado,Bicicleta,10324,Conductor,De 55 a 59 años,Hombre,7
-2021S010514,2021-12-06T21:30:00Z,calle de Génova,https://wikidata.org/entity/Q24294474,24,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10325,Conductor,De 30 a 34 años,Hombre,2
-2021S010564,2021-06-13T11:50:00Z,REAL DE ARGANDA,,74,Villa de Vallecas,https://wikidata.org/entity/Q1947988,Colisión fronto-lateral,Despejado,Bicicleta,10326,Conductor,De 65 a 69 años,Hombre,
-2021S010567,2021-12-06T09:45:00Z,CALLE SAMARIA,,14,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,Bicicleta,10327,Conductor,De 50 a 54 años,Hombre,1
-2021S010572,2021-11-06T19:25:00Z,CALLE MONASTERIO DE LAS HUELGAS,,5,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10328,Conductor,De 15 a 17 años,Hombre,7
-2021S010587,2021-06-13T21:20:00Z,calle de Génova,https://wikidata.org/entity/Q24294474,16,Centro,https://wikidata.org/entity/Q1763376,Colisión fronto-lateral,Nublado,Bicicleta,10329,Conductor,De 25 a 29 años,Hombre,2
-2021S010594,2021-06-13T05:05:00Z,Princesa,https://wikidata.org/entity/Q5740935,31,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Alcance,Despejado,Bicicleta,10330,Conductor,De 25 a 29 años,Hombre,2
-2021S010682,2021-06-15T08:55:00Z,CALLE LOMBIA,,1,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,,Bicicleta,10331,Conductor,De 40 a 44 años,Hombre,14
-2021S010698,2021-06-15T15:00:00Z,Paseo de la Ermita del Santo,https://wikidata.org/entity/Q28137105,16,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,Bicicleta,10332,Conductor,De 25 a 29 años,Hombre,14
-2021S010698,2021-06-15T15:00:00Z,Paseo de la Ermita del Santo,https://wikidata.org/entity/Q28137105,16,Latina,https://wikidata.org/entity/Q794954,Colisión fronto-lateral,Despejado,Bicicleta,10333,Conductor,De 55 a 59 años,Hombre,7
-2021S010709,2021-06-14T21:41:00Z,CALLE MONASTERIO DE EL PAULAR,,2,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10334,Conductor,De 50 a 54 años,Hombre,7
-2021S010725,2021-06-15T23:02:00Z,"Avenida del Marqués de Corbera, Madrid",https://wikidata.org/entity/Q29168364,22,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Colisión lateral,Despejado,Bicicleta,10335,Conductor,De 25 a 29 años,Hombre,1
-2021S010739,2021-06-15T11:30:00Z,paseo de Ruperto Chapí,https://wikidata.org/entity/Q42250337,2,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10336,Conductor,De 40 a 44 años,Hombre,1
-2021S010803,2021-06-17T08:25:00Z,calle de Velázquez,https://wikidata.org/entity/Q20031523,6,Salamanca,https://wikidata.org/entity/Q1773521,Alcance,Lluvia débil,Bicicleta,10337,Conductor,De 35 a 39 años,Mujer,2
-2021S010810,2021-09-06T07:00:00Z,Paseo del Prado,https://wikidata.org/entity/Q2079615,1,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,Bicicleta,10338,Conductor,De 30 a 34 años,Hombre,1
-2021S010831,2021-06-15T10:20:00Z,Avenida de Francisco Pi y Margall,https://wikidata.org/entity/Q27268566,98,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión frontal,Despejado,Bicicleta,10339,Conductor,De 35 a 39 años,Hombre,
-2021S010916,2021-06-16T20:00:00Z,CALLE RICARDO BELTRAN Y ROZPIDE,,1,Usera,https://wikidata.org/entity/Q953368,Alcance,Despejado,Bicicleta,10340,Conductor,De 10 a 14 años,Hombre,7
-2021S010978,2021-06-19T01:40:00Z,"Calle de Juan Bravo, Madrid",https://wikidata.org/entity/Q28054647,32,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10341,Conductor,De 25 a 29 años,Hombre,6
-2021S011089,2021-06-19T21:35:00Z,GLORIETA EDIMBURGO,,1,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,Bicicleta,10342,Conductor,De 45 a 49 años,Hombre,14
-2021S011097,2021-06-20T18:10:00Z,Calle de Toledo,https://wikidata.org/entity/Q5740883,74,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10343,Conductor,De 25 a 29 años,Mujer,1
-2021S011098,2021-06-20T18:55:00Z,CALLE LUIS DE HOYOS SAINZ,,162,Moratalaz,https://wikidata.org/entity/Q2076109,Alcance,Despejado,Bicicleta,10344,Conductor,De 15 a 17 años,Hombre,3
-2021S011192,2021-06-21T07:50:00Z,CALLE BIGASTRO,,6,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,Bicicleta,10345,Conductor,De 45 a 49 años,Hombre,7
-2021S011221,2021-06-21T20:39:00Z,"Avenida del Doctor García Tapia, Madrid",https://wikidata.org/entity/Q28935864,232,Moratalaz,https://wikidata.org/entity/Q2076109,Choque contra obstáculo fijo,Despejado,Bicicleta,10346,Conductor,De 10 a 14 años,Hombre,7
-2021S011227,2021-06-19T21:05:00Z,calle de Blas Cabrera,https://wikidata.org/entity/Q29405139,125,Latina,https://wikidata.org/entity/Q794954,Choque contra obstáculo fijo,,Bicicleta,10347,Conductor,De 50 a 54 años,Hombre,14
-2021S011286,2021-06-23T18:20:00Z,Calle de Toledo,https://wikidata.org/entity/Q5740883,107,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10348,Conductor,De 30 a 34 años,Mujer,1
-2021S011347,2021-06-24T17:05:00Z,"Calle de O'Donnell, Madrid",https://wikidata.org/entity/Q5740859,44,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,Bicicleta,10349,Conductor,De 30 a 34 años,Hombre,6
-2021S011380,2021-06-25T01:10:00Z,CALLE BALTASAR SANTOS,,2,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10350,Conductor,De 40 a 44 años,Mujer,7
-2021S011439,2021-06-24T22:15:00Z,Avenida del Planetario,https://wikidata.org/entity/Q17622122,18,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10351,Conductor,De 25 a 29 años,Hombre,1
-2021S011442,2021-06-24T21:50:00Z,PASEO OLMOS,,14,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10352,Conductor,De 25 a 29 años,Hombre,7
-2021S011478,2021-06-25T23:25:00Z,calle del Príncipe de Vergara,https://wikidata.org/entity/Q5741020,69,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10353,Conductor,De 30 a 34 años,Mujer,7
-2021S011535,2021-06-26T13:52:00Z,calle de Hortaleza,https://wikidata.org/entity/Q5740911,73,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10354,Conductor,De 30 a 34 años,Hombre,
-2021S011544,2021-06-26T18:00:00Z,"Calle de la Cruz, Madrid",https://wikidata.org/entity/Q16659214,33,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10355,Conductor,De 35 a 39 años,Hombre,
-2021S011553,2021-06-26T21:00:00Z,"Avenida de la Institución Libre de Enseñanza, Madrid",https://wikidata.org/entity/Q5740959,79,San Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,Bicicleta,10356,Conductor,De 6  a  9 años,Hombre,
-2021S011563,2021-06-27T00:00:00Z,Calle de Jorge Juan,https://wikidata.org/entity/Q28070822,38,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,Bicicleta,10357,Conductor,De 21 a 24 años,Mujer,6
-2021S011606,2021-06-26T11:12:00Z,CALLE FERMIN CABALLERO,,89,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,Despejado,Bicicleta,10358,Conductor,De 35 a 39 años,Hombre,7
-2021S011675,2021-06-27T23:35:00Z,calle del Príncipe de Vergara,https://wikidata.org/entity/Q5741020,209A,Chamartín,https://wikidata.org/entity/Q1766348,Caída,Despejado,Bicicleta,10359,Conductor,De 25 a 29 años,Mujer,2
-2021S011676,2021-06-27T10:30:00Z,CALLE LA TABERNERA DEL PUERTO,,2,Villaverde,https://wikidata.org/entity/Q919536,Colisión fronto-lateral,Despejado,Bicicleta,10360,Conductor,De 60 a 64 años,Hombre,6
-2021S011682,2021-06-27T10:30:00Z,CALLE ENCOMIENDA DE PALACIOS,,1,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Despejado,Bicicleta,10361,Conductor,De 18 a 20 años,Hombre,7
-2021S011690,2021-06-27T13:05:00Z,CALLE LA ALBERCA,,7,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10362,Conductor,De 25 a 29 años,Hombre,6
-2021S011716,2021-06-28T17:55:00Z,PASEO EMBARCADERO,,6,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10363,Conductor,De 10 a 14 años,Hombre,6
-2021S011762,2021-06-25T20:04:00Z,CAMINO PERALES,,98,Usera,https://wikidata.org/entity/Q953368,Caída,Despejado,Bicicleta,10364,Conductor,De 30 a 34 años,Hombre,7
-2021S011845,2021-06-29T19:00:00Z,CALLE SAN EPIFANIO,,5,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,,Bicicleta,10365,Conductor,De 30 a 34 años,Hombre,14
-2021S011847,2021-06-30T16:45:00Z,Paseo de Recoletos,https://wikidata.org/entity/Q2550870,22,Salamanca,https://wikidata.org/entity/Q1773521,Colisión lateral,Despejado,Bicicleta,10366,Conductor,De 30 a 34 años,Hombre,14
-2021S011873,2021-01-07T01:30:00Z,AVENIDA MIGUEL HERNANDEZ,,48,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10367,Conductor,De 55 a 59 años,Hombre,2
-2021S011906,2021-01-07T16:21:00Z,AVENIDA LOS ROSALES,,42,Villaverde,https://wikidata.org/entity/Q919536,Caída,Despejado,Bicicleta,10368,Conductor,De 65 a 69 años,Hombre,2
-2021S011983,2021-02-07T12:10:00Z,AVENIDA LOS ROSALES,,42,Villaverde,https://wikidata.org/entity/Q919536,Caída,Despejado,Bicicleta,10369,Conductor,De 60 a 64 años,Hombre,3
-2021S012045,2021-03-07T12:30:00Z,avenida de los Poblados,https://wikidata.org/entity/Q26795575,110,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,Bicicleta,10370,Conductor,De 21 a 24 años,Mujer,7
-2021S012099,2021-03-07T11:45:00Z,CALLE JULIO CANO LASSO,,4,Barajas,https://wikidata.org/entity/Q807230,Colisión fronto-lateral,Despejado,Bicicleta,10371,Conductor,De 55 a 59 años,Hombre,14
-2021S012109,2021-03-07T21:30:00Z,CALLE COSTA BRAVA,,16,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Caída,Despejado,Bicicleta,10372,Conductor,De 55 a 59 años,Mujer,2
-2021S012134,2021-04-07T02:05:00Z,Calle de la Ribera de Curtidores,https://wikidata.org/entity/Q5740938,28,Arganzuela,https://wikidata.org/entity/Q2000929,Caída,Despejado,Bicicleta,10373,Conductor,De 40 a 44 años,Hombre,2
-2021S012177,2021-05-07T15:45:00Z,GLORIETA HAMBURGO,,1,Barajas,https://wikidata.org/entity/Q807230,Choque contra obstáculo fijo,Despejado,Bicicleta,10374,Conductor,De 10 a 14 años,Mujer,2
-2021S012177,2021-05-07T15:45:00Z,GLORIETA HAMBURGO,,1,Barajas,https://wikidata.org/entity/Q807230,Choque contra obstáculo fijo,Despejado,Bicicleta,10375,Conductor,De 25 a 29 años,Mujer,2
-2021S012191,2021-05-07T20:50:00Z,"Calle de Embajadores, Madrid",https://wikidata.org/entity/Q5740826,70,Centro,https://wikidata.org/entity/Q1763376,Otro,Despejado,Bicicleta,10376,Conductor,De 25 a 29 años,Mujer,2
-2021S012197,2021-05-07T22:30:00Z,calle de Vallehermoso,https://wikidata.org/entity/Q27243374,70,Chamberí,https://wikidata.org/entity/Q1763370,Alcance,Despejado,Bicicleta,10377,Conductor,De 30 a 34 años,Mujer,2
-2021S012202,2021-04-07T09:30:00Z,CARRETERA ZARZON,,6,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Atropello a animal,Despejado,Bicicleta,10378,Conductor,De 50 a 54 años,Hombre,7
-2021S012216,2021-06-07T12:45:00Z,Calle de Goya,https://wikidata.org/entity/Q28015873,70,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,Bicicleta,10379,Conductor,De 15 a 17 años,Hombre,7
-2021S012216,2021-06-07T12:45:00Z,Calle de Goya,https://wikidata.org/entity/Q28015873,70,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Lluvia débil,Bicicleta,10380,Conductor,De 55 a 59 años,Mujer,7
-2021S012242,2021-06-07T16:45:00Z,"Calle del Arroyo del Olivar, Madrid",https://wikidata.org/entity/Q29561517,70,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Nublado,Bicicleta,10381,Conductor,De 45 a 49 años,Hombre,1
-2021S012261,2021-06-07T20:15:00Z,Madrid Ring Road,https://wikidata.org/entity/Q2606591,+00460E,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,Bicicleta,10382,Conductor,De 55 a 59 años,Hombre,14
-2021S012268,2021-07-07T01:15:00Z,"Avenida de América, Madrid",https://wikidata.org/entity/Q5686040,1,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,Bicicleta,10383,Conductor,De 45 a 49 años,Mujer,2
-2021S012276,2021-06-07T10:20:00Z,CALLE SEPULVEDA,,9,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,Bicicleta,10384,Conductor,De 25 a 29 años,Hombre,2
-2021S012280,2021-06-07T12:50:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,63,Chamberí,https://wikidata.org/entity/Q1763370,Caída,Lluvia débil,Bicicleta,10385,Conductor,De 40 a 44 años,Hombre,7
-2021S012287,2021-06-07T13:00:00Z,"Calle de Antonio Maura, Madrid",https://wikidata.org/entity/Q29566726,5,Retiro,https://wikidata.org/entity/Q2002296,Caída,Lluvia débil,Bicicleta,10386,Conductor,De 45 a 49 años,Hombre,7
-2021S012316,2021-06-07T16:25:00Z,Avenida de Córdoba,https://wikidata.org/entity/Q63247230,2,Usera,https://wikidata.org/entity/Q953368,Caída,Lluvia débil,Bicicleta,10387,Conductor,De 40 a 44 años,Hombre,7
-2021S012329,2021-07-07T20:15:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,102,Tetuán,https://wikidata.org/entity/Q1773540,Alcance,Despejado,Bicicleta,10388,Conductor,De 40 a 44 años,Hombre,
-2021S012441,2021-09-07T16:15:00Z,"Calle de las Hileras, Madrid",https://wikidata.org/entity/Q28051025,12,Centro,https://wikidata.org/entity/Q1763376,Alcance,Despejado,Bicicleta,10389,Conductor,De 18 a 20 años,Hombre,7
-2021S012454,2021-09-07T20:50:00Z,Castilla Street,https://wikidata.org/entity/Q28966738,3,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,Bicicleta,10390,Conductor,De 25 a 29 años,Hombre,14
-2021S012454,2021-09-07T20:50:00Z,Castilla Street,https://wikidata.org/entity/Q28966738,3,Tetuán,https://wikidata.org/entity/Q1773540,Colisión fronto-lateral,Despejado,Bicicleta,10391,Pasajero,De 21 a 24 años,Hombre,14
-2021S012530,2021-11-07T07:00:00Z,AVENIDA CARABANCHEL ALTO,,100,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,Bicicleta,10392,Conductor,De 45 a 49 años,Hombre,2
-2021S012574,2021-12-07T00:32:00Z,calle de Arturo Soria,https://wikidata.org/entity/Q8255504,197,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Caída,Despejado,Bicicleta,10393,Conductor,De 45 a 49 años,Hombre,2
-2021S012589,2021-11-07T11:40:00Z,CARRETERA ESTACION DE HORTALEZA,,8,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,Bicicleta,10394,Conductor,De 50 a 54 años,Hombre,14
-2021S012589,2021-11-07T11:40:00Z,CARRETERA ESTACION DE HORTALEZA,,8,Hortaleza,https://wikidata.org/entity/Q1928529,Caída,Despejado,Bicicleta,10395,Conductor,De 70 a 74 años,Hombre,6
-2021S012596,2021-12-07T11:30:00Z,CALLE SAN SEVERO,,22,Barajas,https://wikidata.org/entity/Q807230,Caída,Despejado,Bicicleta,10396,Conductor,De 15 a 17 años,Hombre,7
-2021S012603,2021-09-07T21:10:00Z,CALLE MORALZARZAL,,4,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Colisión fronto-lateral,,Bicicleta,10397,Conductor,De 30 a 34 años,Hombre,
-2021S012617,2021-12-07T17:22:00Z,CAMINO VALDERRIBAS,,99,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,Bicicleta,10398,Conductor,De 35 a 39 años,Hombre,6
-2021S012628,2021-12-07T17:55:00Z,CALLE AVELINO FERNANDEZ DE LA POZA,,2,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,Bicicleta,10399,Conductor,De 10 a 14 años,Hombre,7
-2021S012642,2021-12-07T22:45:00Z,CALLE HIJAS DE JESUS,,1,Usera,https://wikidata.org/entity/Q953368,Colisión lateral,Despejado,Bicicleta,10400,Conductor,De 35 a 39 años,Mujer,7
-2021S012666,2021-12-07T19:00:00Z,CALLE ENRIQUE VELASCO,,25,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10401,Conductor,De 45 a 49 años,Hombre,14
-2021S012749,2021-07-14T19:35:00Z,AVENIDA MANZANARES,,48,Latina,https://wikidata.org/entity/Q794954,Atropello a persona,Despejado,Bicicleta,10402,Conductor,De 50 a 54 años,Hombre,7
-2021S012749,2021-07-14T19:35:00Z,AVENIDA MANZANARES,,48,Latina,https://wikidata.org/entity/Q794954,Atropello a persona,Despejado,Bicicleta,10403,Peatón,Menor de 5 años,Mujer,7
-2021S012818,2021-07-15T20:40:00Z,Avenida de Portugal,https://wikidata.org/entity/Q26736141,1,Latina,https://wikidata.org/entity/Q794954,Caída,Despejado,Bicicleta,10404,Conductor,De 55 a 59 años,Mujer,6
-2021S012885,2021-07-16T19:57:00Z,calle del Príncipe de Vergara,https://wikidata.org/entity/Q5741020,197,Chamartín,https://wikidata.org/entity/Q1766348,Alcance,Despejado,Bicicleta,10405,Conductor,De 30 a 34 años,Hombre,2
-2021S012981,2021-07-18T20:45:00Z,CARRETERA PARQUE DE ATRACCIONES,,1,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Choque contra obstáculo fijo,Despejado,Bicicleta,10406,Conductor,De 40 a 44 años,Hombre,7
-2021S013003,2021-07-19T13:00:00Z,GLORIETA JAIME CAMPMANY,,0,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,Bicicleta,10407,Conductor,De 25 a 29 años,Hombre,14
-2021S013025,2021-07-19T18:29:00Z,CALLE ARGOS,,21,San Blas,https://wikidata.org/entity/Q2001937,Atropello a persona,Despejado,Bicicleta,10408,Conductor,De 10 a 14 años,Hombre,14
-2021S013025,2021-07-19T18:29:00Z,CALLE ARGOS,,21,San Blas,https://wikidata.org/entity/Q2001937,Atropello a persona,Despejado,Bicicleta,10409,Peatón,De 50 a 54 años,Mujer,7
-2021S013065,2021-07-15T18:15:00Z,CALLE AMOR HERMOSO,,10,Usera,https://wikidata.org/entity/Q953368,Colisión fronto-lateral,Despejado,Bicicleta,10410,Conductor,De 50 a 54 años,Hombre,7
-2021S013083,2021-07-20T18:27:00Z,"Avenida de Niceto Alcalá Zamora, Madrid",https://wikidata.org/entity/Q62107332,20,Hortaleza,https://wikidata.org/entity/Q1928529,Otro,Despejado,Bicicleta,10411,Conductor,De 45 a 49 años,Hombre,5
-2021S013112,2021-07-21T09:15:00Z,calle de Mejía Lequerica,https://wikidata.org/entity/Q24560004,8,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10412,Conductor,De 55 a 59 años,Hombre,7
-2021S013150,2021-07-21T20:30:00Z,"Avenida de las Fuerzas Armadas, Madrid",https://wikidata.org/entity/Q29353164,10,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión fronto-lateral,Despejado,Bicicleta,10413,Conductor,De 30 a 34 años,Hombre,2
-2021S013169,2021-07-21T22:55:00Z,"Calle del Alcalde Sáinz de Baranda, Madrid",https://wikidata.org/entity/Q28070977,101,Retiro,https://wikidata.org/entity/Q2002296,Otro,Despejado,Bicicleta,10414,Conductor,De 35 a 39 años,Hombre,1
-2021S013299,2021-07-22T16:40:00Z,CALLE CIGARRERAS,,8,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,Despejado,Bicicleta,10415,Conductor,De 45 a 49 años,Hombre,7
-2021S013310,2021-07-25T20:10:00Z,"Calle de las Infantas, Madrid",https://wikidata.org/entity/Q21004010,40,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10416,Conductor,De 45 a 49 años,Hombre,1
-2021S013386,2021-07-21T21:15:00Z,PLAZA ALONSO MARTINEZ,,1,Chamberí,https://wikidata.org/entity/Q1763370,Colisión fronto-lateral,Despejado,Bicicleta,10417,Conductor,De 50 a 54 años,Hombre,
-2021S013394,2021-07-26T21:00:00Z,CALLE MONSEÑOR OSCAR ROMERO,,54,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,Bicicleta,10418,Conductor,De 35 a 39 años,Hombre,6
-2021S013403,2021-07-27T08:10:00Z,CALLE PIO BAROJA,,10,Retiro,https://wikidata.org/entity/Q2002296,Colisión fronto-lateral,Despejado,Bicicleta,10419,Conductor,De 40 a 44 años,Hombre,2
-2021S013434,2021-07-26T15:50:00Z,Paseo de Santa María de la Cabeza,https://wikidata.org/entity/Q6065630,1,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,Bicicleta,10420,Conductor,De 30 a 34 años,Hombre,14
-2021S013471,2021-07-27T12:50:00Z,CALLE ANCORA,,15,Arganzuela,https://wikidata.org/entity/Q2000929,Otro,Despejado,Bicicleta,10421,Conductor,De 40 a 44 años,Hombre,7
-2021S013604,2021-07-25T00:07:00Z,Paseo del Prado,https://wikidata.org/entity/Q2079615,8,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10422,Conductor,De 21 a 24 años,Mujer,1
-2021S013686,2021-07-31T11:15:00Z,CALLE PADRE LLANOS,,24,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión frontal,Lluvia débil,Bicicleta,10423,Conductor,De 40 a 44 años,Hombre,7
-2021S013696,2021-07-31T16:15:00Z,CALLE EL TOBOSO,,49,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión fronto-lateral,Despejado,Bicicleta,10424,Conductor,De 15 a 17 años,Hombre,7
-2021S013744,2021-01-08T15:00:00Z,PARQUE RETIRO,,0,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Despejado,Bicicleta,10425,Conductor,De 10 a 14 años,Mujer,14
-2021S013744,2021-01-08T15:00:00Z,PARQUE RETIRO,,0,Retiro,https://wikidata.org/entity/Q2002296,Atropello a persona,Despejado,Bicicleta,10426,Peatón,De 65 a 69 años,Hombre,14
-2021S013755,2021-01-08T19:45:00Z,CALLE MISTERIOS,,97,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Choque contra obstáculo fijo,Despejado,Bicicleta,10427,Conductor,De 35 a 39 años,Hombre,2
-2021S013834,2021-02-08T10:00:00Z,CARRETERA BOADILLA DEL MONTE,,34,Latina,https://wikidata.org/entity/Q794954,Colisión frontal,Despejado,Bicicleta,10428,Conductor,De 40 a 44 años,Hombre,14
-2021S013834,2021-02-08T10:00:00Z,CARRETERA BOADILLA DEL MONTE,,34,Latina,https://wikidata.org/entity/Q794954,Colisión frontal,Despejado,Bicicleta,10429,Conductor,De 55 a 59 años,Hombre,2
-2021S013839,2021-03-08T12:00:00Z,"Calle de Ayala, Madrid",https://wikidata.org/entity/Q28052812,72,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10430,Conductor,De 25 a 29 años,Mujer,1
-2021S013842,2021-07-25T01:00:00Z,Avenida de Asturias,https://wikidata.org/entity/Q30300905,62,Tetuán,https://wikidata.org/entity/Q1773540,Caída,Despejado,Bicicleta,10431,Conductor,De 25 a 29 años,Mujer,
-2021S013863,2021-03-08T20:35:00Z,calle del Párroco Don Emilio Franco,https://wikidata.org/entity/Q36335795,10,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,Bicicleta,10432,Conductor,De 50 a 54 años,Hombre,7
-2021S013873,2021-07-31T00:45:00Z,Calle Mayor,https://wikidata.org/entity/Q1149052,25,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10433,Conductor,De 21 a 24 años,Mujer,7
-2021S013891,2021-03-08T22:38:00Z,AVENIDA DEMOCRACIA,,19,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,Bicicleta,10434,Conductor,De 45 a 49 años,Hombre,6
-2021S013972,2021-04-08T19:55:00Z,"Avenida de América, Madrid",https://wikidata.org/entity/Q5686040,38,Salamanca,https://wikidata.org/entity/Q1773521,Caída,Despejado,Bicicleta,10435,Conductor,De 35 a 39 años,Hombre,7
-2021S013974,2021-05-08T19:50:00Z,PASEO MELANCOLICOS,,47,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,Despejado,Bicicleta,10436,Conductor,De 21 a 24 años,Mujer,2
-2021S013975,2021-05-08T20:12:00Z,Avenida de la Albufera,https://wikidata.org/entity/Q5714221,323,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Caída,Despejado,Bicicleta,10437,Conductor,De 60 a 64 años,Hombre,7
-2021S013982,2021-06-08T00:15:00Z,AVENIDA HELLIN,,21,San Blas,https://wikidata.org/entity/Q2001937,Colisión fronto-lateral,Despejado,Bicicleta,10438,Conductor,De 21 a 24 años,Hombre,
-2021S014018,2021-05-08T21:55:00Z,Calle de la Ribera de Curtidores,https://wikidata.org/entity/Q5740938,47,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,Despejado,Bicicleta,10439,Conductor,De 30 a 34 años,Mujer,7
-2021S014084,2021-07-08T19:20:00Z,Paseo de la Castellana,https://wikidata.org/entity/Q1473674,81,Tetuán,https://wikidata.org/entity/Q1773540,Choque contra obstáculo fijo,Despejado,Bicicleta,10440,Conductor,De 40 a 44 años,Hombre,3
-2021S014116,2021-08-08T13:50:00Z,"Calle de las Infantas, Madrid",https://wikidata.org/entity/Q21004010,3,Centro,https://wikidata.org/entity/Q1763376,Caída,Despejado,Bicicleta,10441,Conductor,De 25 a 29 años,Hombre,7
-2021S014130,2021-08-08T17:30:00Z,PASEO FERNAN NUÑEZ,,26,Retiro,https://wikidata.org/entity/Q2002296,Otro,Despejado,Bicicleta,10442,Conductor,De 6  a  9 años,Hombre,7
-2021S014146,2021-04-08T12:00:00Z,PARQUE CASA DE CAMPO,,0,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Solo salida de la vía,Despejado,Bicicleta,10443,Conductor,De 55 a 59 años,Hombre,1
-2021S014147,2021-08-08T08:40:00Z,"Paseo de las Yeserías, Madrid",https://wikidata.org/entity/Q16616818,33,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión lateral,Despejado,Bicicleta,10444,Conductor,De 70 a 74 años,Hombre,14
-2021S014148,2021-08-08T10:20:00Z,CALLE NURIA,,1,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Atropello a persona,Despejado,Bicicleta,10445,Conductor,Desconocido,Desconocido,
-2021S014148,2021-08-08T10:20:00Z,CALLE NURIA,,1,Fuencarral-El Pardo,https://wikidata.org/entity/Q656196,Atropello a persona,Despejado,Bicicleta,10446,Peatón,De 40 a 44 años,Mujer,1
-2021S014174,2021-09-08T20:02:00Z,CALLE MINERVA,,58,Vicálvaro,https://wikidata.org/entity/Q589403,Colisión lateral,Despejado,Bicicleta,10447,Conductor,De 10 a 14 años,Hombre,2
-2021S014182,2021-09-08T23:34:00Z,avenida de Pablo Iglesias,https://wikidata.org/entity/Q28045035,40,Tetuán,https://wikidata.org/entity/Q1773540,Colisión lateral,,Bicicleta,10448,Conductor,De 30 a 34 años,Hombre,
-2021S014189,2021-09-08T10:45:00Z,"Carretera de Canillas, Madrid",https://wikidata.org/entity/Q28973490,122,Hortaleza,https://wikidata.org/entity/Q1928529,Colisión fronto-lateral,Despejado,Bicicleta,10449,Conductor,De 50 a 54 años,Hombre,14
-2021S014240,2021-10-08T16:50:00Z,PLAZA BEATA MARIA ANA DE JESUS,,14,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión lateral,Despejado,Bicicleta,10450,Conductor,De 40 a 44 años,Hombre,7
-2021S014406,2021-08-14T02:30:00Z,Calle de Bravo Murillo,https://wikidata.org/entity/Q5740815,211,Tetuán,https://wikidata.org/entity/Q1773540,Caída,Despejado,Bicicleta,10451,Conductor,De 25 a 29 años,Hombre,7
-2021S014441,2021-08-14T16:00:00Z,"Ronda de Toledo, Madrid",https://wikidata.org/entity/Q6111946,14,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,Bicicleta,10452,Conductor,De 18 a 20 años,Mujer,7
-2021S014441,2021-08-14T16:00:00Z,"Ronda de Toledo, Madrid",https://wikidata.org/entity/Q6111946,14,Arganzuela,https://wikidata.org/entity/Q2000929,Alcance,Despejado,Bicicleta,10453,Conductor,De 21 a 24 años,Mujer,14
-2021S014570,2021-08-19T01:30:00Z,AVENIDA OPORTO,,8,Carabanchel,https://wikidata.org/entity/Q1001991,Colisión lateral,Despejado,Bicicleta,10454,Conductor,De 35 a 39 años,Hombre,7
-2021S014602,2021-08-19T20:00:00Z,CALLE NUMANCIA,,2,Tetuán,https://wikidata.org/entity/Q1773540,Caída,Despejado,Bicicleta,10455,Conductor,De 50 a 54 años,Mujer,6
-2021S014625,2021-08-19T11:30:00Z,calle de Arturo Soria,https://wikidata.org/entity/Q8255504,71,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Caída,Despejado,Bicicleta,10456,Conductor,De 50 a 54 años,Hombre,
-2021S014828,2021-08-24T22:10:00Z,"Avenida Complutense, Madrid",https://wikidata.org/entity/Q63954356,40,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Caída,Despejado,Bicicleta,10457,Conductor,De 60 a 64 años,Hombre,2
-2021S014841,2021-08-25T11:55:00Z,AVENIDA BLAS DE LEZO,,26,Vicálvaro,https://wikidata.org/entity/Q589403,Caída,Despejado,Bicicleta,10458,Conductor,De 70 a 74 años,Hombre,1
-2021S014844,2021-08-25T14:50:00Z,Serrano Street,https://wikidata.org/entity/Q5740879,240,Chamartín,https://wikidata.org/entity/Q1766348,Colisión lateral,Despejado,Bicicleta,10459,Conductor,De 30 a 34 años,Mujer,6
-2021S014868,2021-08-25T05:50:00Z,"Calle Arroyo de la Media Legua, Madrid",https://wikidata.org/entity/Q28935853,72,Moratalaz,https://wikidata.org/entity/Q2076109,Caída,Despejado,Bicicleta,10460,Conductor,De 40 a 44 años,Hombre,2
-2021S014870,2021-08-26T08:20:00Z,avenida Real de Pinto,https://wikidata.org/entity/Q5714023,32,Villaverde,https://wikidata.org/entity/Q919536,Caída,Despejado,Bicicleta,10461,Conductor,De 60 a 64 años,Hombre,2
-2021S014934,2021-08-27T10:40:00Z,Alcalá Street,https://wikidata.org/entity/Q2424746,81,Salamanca,https://wikidata.org/entity/Q1773521,Caída,,Bicicleta,10462,Conductor,De 30 a 34 años,Hombre,
-2021S014984,2021-08-28T10:20:00Z,CALLE SAN DALMACIO,,43,Villaverde,https://wikidata.org/entity/Q919536,Caída,Despejado,Bicicleta,10463,Conductor,De 60 a 64 años,Hombre,7
-2021S015034,2021-08-29T19:26:00Z,Alcalá Street,https://wikidata.org/entity/Q2424746,249,Ciudad Lineal,https://wikidata.org/entity/Q1763694,Colisión fronto-lateral,Despejado,Bicicleta,10464,Conductor,De 10 a 14 años,Hombre,1
-2021S015036,2021-08-29T19:20:00Z,CALLE AZCONA,,27,Salamanca,https://wikidata.org/entity/Q1773521,Colisión fronto-lateral,Despejado,Bicicleta,10465,Conductor,De 25 a 29 años,Hombre,6
-2021S015057,2021-08-30T08:25:00Z,"Calle de Embajadores, Madrid",https://wikidata.org/entity/Q5740826,320,Puente de Vallecas,https://wikidata.org/entity/Q2003054,Colisión fronto-lateral,Despejado,Bicicleta,10466,Conductor,De 45 a 49 años,Hombre,1
-2021S015139,2021-08-31T16:15:00Z,PASEO MARQUES DE MONISTROL,,140,Moncloa-Aravaca,https://wikidata.org/entity/Q2017682,Colisión fronto-lateral,Despejado,Bicicleta,10467,Conductor,De 60 a 64 años,Hombre,5
-2021S015141,2021-08-30T21:38:00Z,Paseo de Recoletos,https://wikidata.org/entity/Q2550870,15,Centro,https://wikidata.org/entity/Q1763376,Colisión lateral,Despejado,Bicicleta,10468,Conductor,De 55 a 59 años,Hombre,7
-2021S015143,2021-08-31T17:35:00Z,PASEO VENEZUELA,,1,Retiro,https://wikidata.org/entity/Q2002296,Caída,Despejado,Bicicleta,10469,Conductor,De 10 a 14 años,Mujer,7
-2021S015169,2021-08-31T08:00:00Z,"Paseo de las Delicias, Madrid",https://wikidata.org/entity/Q6065662,1,Arganzuela,https://wikidata.org/entity/Q2000929,Colisión fronto-lateral,Despejado,Bicicleta,10470,Conductor,De 30 a 34 años,Hombre,7
+EXPEDIENTE,DATETIME,CALLE,CALLEWIKIDATA,NUMERO,DISTRITO,TIPOACCIDENTE,TIEMPO,TIPOVEHICULO,VICTIMA,TIPOPERSONA,RANGOEDAD,SEXO,LESIVIDAD
+2021S000047,2021-01-01T11:38:00ZZ,CALLE_JOSE_BERGAMIN,,62,Moratalaz,Caída,Despejado,Bicicleta,10001,Conductor,De 45 a 49 años,Hombre,2
+2021S000142,2021-04-01T11:30:00ZZ,WANDA_METROPOLITANO,,1,San_Blas,Caída,Despejado,Bicicleta,10002,Conductor,De 15 a 17 años,Hombre,14
+2021S000142,2021-04-01T11:30:00ZZ,WANDA_METROPOLITANO,,1,San_Blas,Caída,Despejado,Bicicleta,10003,Conductor,De 18 a 20 años,Hombre,14
+2021S000142,2021-04-01T11:30:00ZZ,WANDA_METROPOLITANO,,1,San_Blas,Caída,Despejado,Bicicleta,10004,Conductor,De 21 a 24 años,Hombre,14
+2021S000142,2021-04-01T11:30:00ZZ,WANDA_METROPOLITANO,,1,San_Blas,Caída,Despejado,Bicicleta,10005,Conductor,De 50 a 54 años,Hombre,6
+2021S000204,2021-05-01T16:35:00ZZ,Plaza_del_Emperador_Carlos_V,https://wikidata.org/entity/Q7203711,11,Centro,Colisión fronto-lateral,Despejado,Bicicleta,10006,Conductor,De 18 a 20 años,Hombre,
+2021S000225,2021-04-01T10:40:00ZZ,Paseo_del_Prado,https://wikidata.org/entity/Q2079615,11,Retiro,Alcance,Despejado,Bicicleta,10007,Conductor,De 40 a 44 años,Hombre,7
+2021S000511,2021-01-16T18:50:00ZZ,Avenida_de_la_Ciudad_de_Barcelona_Madrid,https://wikidata.org/entity/Q5714227,144,Retiro,Alcance,Despejado,Bicicleta,10008,Conductor,De 21 a 24 años,Hombre,3
+2021S000675,2021-01-18T22:42:00ZZ,Ronda_de_Valencia,https://wikidata.org/entity/Q16626200,5,Arganzuela,Alcance,Despejado,Bicicleta,10009,Conductor,De 25 a 29 años,Hombre,1
+2021S000806,2021-01-22T23:25:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,97,Chamberi,Caída,,Bicicleta,10010,Conductor,De 25 a 29 años,Hombre,
+2021S000898,2021-01-24T15:35:00ZZ,Calle_del_Almirante_Madrid,https://wikidata.org/entity/Q28937422,32,Centro,Colisión fronto-lateral,,Bicicleta,10011,Conductor,De 30 a 34 años,Hombre,
+2021S000931,2021-01-24T01:30:00ZZ,plaza_de_Canovas_del_Castillo,https://wikidata.org/entity/Q16620193,5,Centro,Atropello a persona,Despejado,Bicicleta,10012,Conductor,De 35 a 39 años,Hombre,14
+2021S000931,2021-01-24T01:30:00ZZ,plaza_de_Canovas_del_Castillo,https://wikidata.org/entity/Q16620193,5,Centro,Atropello a persona,Despejado,Bicicleta,10013,Peatón,De 60 a 64 años,Mujer,7
+2021S000933,2021-01-23T11:40:00ZZ,Paseo_de_las_Yeserias_Madrid,https://wikidata.org/entity/Q16616818,15A,Arganzuela,Colisión lateral,Despejado,Bicicleta,10014,Conductor,De 45 a 49 años,Hombre,7
+2021S001043,2021-01-26T07:25:00ZZ,GLORIETA_SANTA_MARIA_DE_LA_CABEZA,,7,Arganzuela,Caída,Lluvia débil,Bicicleta,10015,Conductor,De 30 a 34 años,Mujer,6
+2021S001084,2021-01-26T23:10:00ZZ,Gran_Via,https://wikidata.org/entity/Q1324163,66,Centro,Colisión lateral,Despejado,Bicicleta,10016,Conductor,Desconocido,Desconocido,
+2021S001109,2021-01-28T17:40:00ZZ,Calle_de_Juan_de_Urbieta_Madrid,https://wikidata.org/entity/Q29051496,3,Retiro,Caída,Despejado,Bicicleta,10017,Conductor,De 35 a 39 años,Hombre,1
+2021S001122,2021-01-27T22:10:00ZZ,Calle_de_Orense_Madrid,https://wikidata.org/entity/Q26761687,69,Tetuan,Alcance,Despejado,Bicicleta,10018,Conductor,De 30 a 34 años,Hombre,2
+2021S001147,2021-01-29T16:00:00ZZ,Plaza_de_Lavapies,https://wikidata.org/entity/Q6080017,1,Centro,Caída,Nublado,Bicicleta,10019,Conductor,De 40 a 44 años,Mujer,1
+2021S001184,2021-01-29T23:45:00ZZ,Calle_de_Villanueva_Madrid,https://wikidata.org/entity/Q28921542,34,Salamanca,Caída,Despejado,Bicicleta,10020,Conductor,De 40 a 44 años,Hombre,2
+2021S001209,2021-01-29T14:55:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,163,Tetuan,Colisión fronto-lateral,,Bicicleta,10021,Conductor,Desconocido,Desconocido,
+2021S001213,2021-01-29T18:30:00ZZ,calle_del_Principe_de_Vergara,https://wikidata.org/entity/Q5741020,24,Salamanca,Colisión frontal,Despejado,Bicicleta,10022,Conductor,De 40 a 44 años,Hombre,
+2021S001219,2021-01-30T15:00:00ZZ,Calle_de_Almagro_Madrid,https://wikidata.org/entity/Q26844339,7,Chamberi,Alcance,Despejado,Bicicleta,10023,Conductor,De 25 a 29 años,Mujer,
+2021S001289,2021-01-31T13:50:00ZZ,plaza_de_Cibeles,https://wikidata.org/entity/Q1537446,1,Retiro,Colisión lateral,Despejado,Bicicleta,10024,Conductor,De 35 a 39 años,Hombre,
+2021S001294,2021-01-30T19:30:00ZZ,CALLE_CONCEJAL_FRANCISCO_JOSE_JIMENEZ_MARTIN,,16,Latina,Choque contra obstáculo fijo,Despejado,Bicicleta,10025,Conductor,De 18 a 20 años,Hombre,2
+2021S001304,2021-01-31T20:25:00ZZ,Serrano_Street,https://wikidata.org/entity/Q5740879,102,Salamanca,Caída,Despejado,Bicicleta,10026,Conductor,De 21 a 24 años,Hombre,6
+2021S001326,2021-01-02T13:05:00ZZ,CALLE_ANDALUCES_DEL_POZO,,9,Puente_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10027,Conductor,De 6  a  9 años,Hombre,7
+2021S001330,2021-01-31T15:40:00ZZ,CALLE_ARROYO_FONTARRON,,24,Moratalaz,Caída,Lluvia débil,Bicicleta,10028,Conductor,De 25 a 29 años,Hombre,7
+2021S001366,2021-01-02T09:40:00ZZ,Madrid_Ring_Road,https://wikidata.org/entity/Q2606591,+00650I,Arganzuela,Caída,Despejado,Bicicleta,10029,Conductor,De 21 a 24 años,Mujer,1
+2021S001370,2021-02-02T09:05:00ZZ,Paseo_de_la_Ermita_del_Santo,https://wikidata.org/entity/Q28137105,68,Carabanchel,Caída,Nublado,Bicicleta,10030,Conductor,De 25 a 29 años,Hombre,2
+2021S001423,2021-01-31T09:00:00ZZ,CALLE_VILLAMANIN,,35,Latina,Colisión fronto-lateral,,Bicicleta,10031,Conductor,De 55 a 59 años,Hombre,
+2021S001449,2021-01-31T15:55:00ZZ,Avenida_de_Monforte_de_Lemos_Madrid,https://wikidata.org/entity/Q52683954,32,Fuencarral-El_Pardo,Alcance,Despejado,Bicicleta,10032,Conductor,De 35 a 39 años,Hombre,7
+2021S001532,2021-03-02T18:43:00ZZ,CALLE_PLANETA_TIERRA,,6,Arganzuela,Choque contra obstáculo fijo,Lluvia débil,Bicicleta,10033,Conductor,De 55 a 59 años,Hombre,7
+2021S001645,2021-06-02T14:45:00ZZ,Serrano_Street,https://wikidata.org/entity/Q5740879,45,Salamanca,Caída,Despejado,Bicicleta,10034,Conductor,De 18 a 20 años,Mujer,5
+2021S001691,2021-07-02T11:05:00ZZ,CALLE_DIAMANTE,,1,Villaverde,Colisión fronto-lateral,Despejado,Bicicleta,10035,Conductor,De 40 a 44 años,Hombre,1
+2021S001696,2021-07-02T12:10:00ZZ,GLORIETA_CARLOS_LLAMAS,,0,San_Blas,Colisión fronto-lateral,Despejado,Bicicleta,10036,Conductor,De 40 a 44 años,Hombre,2
+2021S001696,2021-07-02T12:10:00ZZ,GLORIETA_CARLOS_LLAMAS,,0,San_Blas,Colisión fronto-lateral,Despejado,Bicicleta,10037,Conductor,De 60 a 64 años,Hombre,14
+2021S001709,2021-07-02T15:00:00ZZ,AVENIDA_LUIS_ARAGONES,,4,San_Blas,Caída,Despejado,Bicicleta,10038,Conductor,De 10 a 14 años,Hombre,7
+2021S001742,2021-07-02T10:51:00ZZ,AVENIDA_FRANCISCO_JAVIER_SAENZ_DE_OIZA,,4,Hortaleza,Colisión lateral,Despejado,Bicicleta,10039,Conductor,De 25 a 29 años,Hombre,7
+2021S001804,2021-08-02T10:50:00ZZ,Avenida_de_la_Memoria,https://wikidata.org/entity/Q29794262,2,Moncloa-Aravaca,Caída,Lluvia débil,Bicicleta,10040,Conductor,De 25 a 29 años,Mujer,2
+2021S001868,2021-10-02T15:45:00ZZ,AVENIDA_LOS_ROSALES,,131,Villaverde,Alcance,Despejado,Bicicleta,10041,Conductor,De 55 a 59 años,Hombre,
+2021S001909,2021-06-02T12:42:00ZZ,GLORIETA_ANTONIO_BONET,,0,Hortaleza,Colisión fronto-lateral,Despejado,Bicicleta,10042,Conductor,De 55 a 59 años,Hombre,1
+2021S001947,2021-11-02T20:30:00ZZ,Calle_del_General_Ricardos_Madrid,https://wikidata.org/entity/Q5740542,95,Carabanchel,Caída,Lluvia débil,Bicicleta,10043,Conductor,De 25 a 29 años,Mujer,7
+2021S001998,2021-12-02T20:30:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,67,Chamberi,Colisión fronto-lateral,Despejado,Bicicleta,10044,Conductor,De 25 a 29 años,Mujer,6
+2021S002047,2021-02-13T15:00:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,243,Tetuan,Caída,Despejado,Bicicleta,10045,Conductor,De 40 a 44 años,Hombre,7
+2021S002050,2021-02-13T16:20:00ZZ,CALLE_ANICETO_MARINAS,,74,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10046,Conductor,De 25 a 29 años,Hombre,7
+2021S002050,2021-02-13T16:20:00ZZ,CALLE_ANICETO_MARINAS,,74,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10047,Peatón,Desconocido,Mujer,14
+2021S002054,2021-02-13T17:15:00ZZ,AVENIDA_MIGUEL_HERNANDEZ,,116,Puente_de_Vallecas,Alcance,Despejado,Bicicleta,10048,Conductor,De 35 a 39 años,Hombre,1
+2021S002054,2021-02-13T17:15:00ZZ,AVENIDA_MIGUEL_HERNANDEZ,,116,Puente_de_Vallecas,Alcance,Despejado,Bicicleta,10049,Conductor,De 35 a 39 años,Hombre,14
+2021S002207,2021-02-15T08:30:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,274,Chamartin,Colisión lateral,Despejado,Bicicleta,10050,Conductor,De 45 a 49 años,Hombre,14
+2021S002235,2021-02-16T14:20:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,2,Salamanca,Alcance,Despejado,Bicicleta,10051,Conductor,De 35 a 39 años,Hombre,
+2021S002241,2021-11-02T17:50:00ZZ,CALLE_VALCARLOS,,24,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10052,Conductor,De 45 a 49 años,Hombre,7
+2021S002248,2021-02-16T21:00:00ZZ,CALLE_BEJAR,,15,Salamanca,Colisión fronto-lateral,Despejado,Bicicleta,10053,Conductor,De 25 a 29 años,Hombre,2
+2021S002327,2021-02-18T15:25:00ZZ,Calle_de_Gutierrez_Solana_Madrid,https://wikidata.org/entity/Q28531457,4,Chamartin,Colisión fronto-lateral,Despejado,Bicicleta,10054,Conductor,De 50 a 54 años,Hombre,3
+2021S002349,2021-02-17T19:15:00ZZ,Avenida_del_Planetario,https://wikidata.org/entity/Q17622122,12,Arganzuela,Alcance,Despejado,Bicicleta,10055,Conductor,De 40 a 44 años,Hombre,7
+2021S002354,2021-02-18T18:30:00ZZ,CALLE_SEDANO,,24,Latina,Colisión fronto-lateral,Despejado,Bicicleta,10056,Conductor,De 10 a 14 años,Hombre,7
+2021S002359,2021-02-18T20:25:00ZZ,Avenida_de_la_Institucion_Libre_de_Enseñanza_Madrid,https://wikidata.org/entity/Q5740959,41,San_Blas,Colisión lateral,Despejado,Bicicleta,10057,Conductor,De 25 a 29 años,Hombre,
+2021S002383,2021-02-19T12:10:00ZZ,avenida_de_los_Poblados,https://wikidata.org/entity/Q26795575,106,Carabanchel,Choque contra obstáculo fijo,Despejado,Bicicleta,10058,Conductor,De 70 a 74 años,Hombre,2
+2021S002401,2021-02-19T18:28:00ZZ,Capitan_Blanco_Argibay_Street,https://wikidata.org/entity/Q27038685,210,Tetuan,Colisión fronto-lateral,Despejado,Bicicleta,10059,Conductor,De 50 a 54 años,Hombre,7
+2021S002498,2021-02-18T19:40:00ZZ,GLORIETA_ANTONIO_PERPIÑA,,0,Hortaleza,Colisión lateral,Despejado,Bicicleta,10060,Conductor,De 35 a 39 años,Hombre,7
+2021S002541,2021-02-20T13:15:00ZZ,PLAZA_EMPERADOR_CARLOS_V,,8,Centro,Colisión lateral,Despejado,Bicicleta,10061,Conductor,De 35 a 39 años,Mujer,7
+2021S002548,2021-02-20T13:15:00ZZ,CALLE_SANCHIDRIAN,,13A,Latina,Colisión lateral,Despejado,Bicicleta,10062,Conductor,De 45 a 49 años,Hombre,7
+2021S002558,2021-02-20T18:10:00ZZ,Calle_de_Embajadores_Madrid,https://wikidata.org/entity/Q5740826,69,Arganzuela,Caída,Despejado,Bicicleta,10063,Conductor,De 25 a 29 años,Hombre,2
+2021S002603,2021-02-21T13:30:00ZZ,CALLE_ARROYO_FONTARRON,,24,Moratalaz,Caída,Lluvia débil,Bicicleta,10064,Conductor,De 45 a 49 años,Hombre,2
+2021S002629,2021-02-22T17:00:00ZZ,PLAZA_EMPERADOR_CARLOS_V,,1,Centro,Colisión lateral,Despejado,Bicicleta,10065,Conductor,De 21 a 24 años,Mujer,6
+2021S002631,2021-02-16T18:00:00ZZ,CALLE_VALLE_DE_PINARES_LLANOS,,27,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10066,Conductor,De 35 a 39 años,Mujer,7
+2021S002645,2021-02-22T20:40:00ZZ,San_Bernardo_street,https://wikidata.org/entity/Q5740864,55,Centro,Atropello a persona,Despejado,Bicicleta,10067,Conductor,De 35 a 39 años,Hombre,14
+2021S002645,2021-02-22T20:40:00ZZ,San_Bernardo_street,https://wikidata.org/entity/Q5740864,55,Centro,Atropello a persona,Despejado,Bicicleta,10068,Peatón,De 70 a 74 años,Hombre,5
+2021S002714,2021-02-24T15:05:00ZZ,Calle_de_Jose_Ortega_y_Gasset_Madrid,https://wikidata.org/entity/Q16540548,26,Salamanca,Alcance,Despejado,Bicicleta,10069,Conductor,De 25 a 29 años,Hombre,
+2021S002721,2021-02-24T17:55:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,175,Tetuan,Colisión fronto-lateral,Despejado,Bicicleta,10070,Conductor,De 21 a 24 años,Mujer,
+2021S002806,2021-02-19T14:30:00ZZ,CALLE_MORALZARZAL,,61,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10071,Conductor,De 10 a 14 años,Hombre,2
+2021S002807,2021-02-26T14:15:00ZZ,AVENIDA_ENTREVIAS,,2,Puente_de_Vallecas,Colisión lateral,Despejado,Bicicleta,10072,Conductor,De 21 a 24 años,Hombre,7
+2021S002810,2021-02-19T18:10:00ZZ,CALLE_SANDALIA_NAVAS,,17,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10073,Conductor,De 15 a 17 años,Hombre,2
+2021S002812,2021-02-26T14:45:00ZZ,Calle_de_la_Ribera_de_Curtidores,https://wikidata.org/entity/Q5740938,25,Centro,Caída,Despejado,Bicicleta,10074,Conductor,De 30 a 34 años,Hombre,6
+2021S002817,2021-02-26T19:29:00ZZ,calle_de_Hortaleza,https://wikidata.org/entity/Q5740911,100,Centro,Colisión lateral,Se desconoce,Bicicleta,10075,Conductor,De 30 a 34 años,Hombre,7
+2021S002855,2021-02-26T06:25:00ZZ,Calle_del_General_Ricardos_Madrid,https://wikidata.org/entity/Q5740542,2,Carabanchel,Colisión fronto-lateral,Despejado,Bicicleta,10076,Conductor,De 35 a 39 años,Mujer,5
+2021S002879,2021-02-27T11:55:00ZZ,calle_de_Segovia,https://wikidata.org/entity/Q8255505,8,Centro,Caída,Despejado,Bicicleta,10077,Conductor,De 60 a 64 años,Hombre,1
+2021S002908,2021-02-27T19:15:00ZZ,PASEO_EMBARCADERO,,1,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10078,Conductor,De 30 a 34 años,Hombre,6
+2021S002961,2021-02-28T11:30:00ZZ,Alcala_Street,https://wikidata.org/entity/Q2424746,29,Centro,Colisión lateral,Despejado,Bicicleta,10079,Conductor,De 70 a 74 años,Hombre,7
+2021S003008,2021-02-28T17:15:00ZZ,Paseo_del_Prado,https://wikidata.org/entity/Q2079615,9,Retiro,Colisión lateral,Despejado,Bicicleta,10080,Conductor,De 30 a 34 años,Hombre,7
+2021S003050,2021-02-27T21:20:00ZZ,CALLE_EDUARDO_BARREIROS,,21,Usera,Choque contra obstáculo fijo,Despejado,Bicicleta,10081,Conductor,De 35 a 39 años,Mujer,7
+2021S003057,2021-02-19T20:20:00ZZ,Calle_de_Nuestra_Señora_de_Valverde_Madrid,https://wikidata.org/entity/Q56256719,138,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10082,Conductor,De 35 a 39 años,Hombre,14
+2021S003061,2021-02-26T19:50:00ZZ,Paseo_de_las_Acacias_Madrid,https://wikidata.org/entity/Q55947263,20,Arganzuela,Caída,Despejado,Bicicleta,10083,Conductor,De 40 a 44 años,Hombre,7
+2021S003197,2021-04-03T11:30:00ZZ,AVENIDA_MARTIRES_MARISTAS,,2E,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10084,Conductor,Más de 74 años,Hombre,3
+2021S003207,2021-04-03T15:30:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,145,Tetuan,Colisión múltiple,Despejado,Bicicleta,10085,Conductor,De 25 a 29 años,Hombre,2
+2021S003209,2021-04-03T15:35:00ZZ,CALLE_FLORENCIO_CANO_CRISTOBAL,,14,Moratalaz,Colisión fronto-lateral,Despejado,Bicicleta,10086,Conductor,De 15 a 17 años,Hombre,14
+2021S003217,2021-03-03T17:09:00ZZ,CALLE_BRUJAS,,3A,Moratalaz,Atropello a persona,Despejado,Bicicleta,10087,Conductor,De 50 a 54 años,Hombre,14
+2021S003217,2021-03-03T17:09:00ZZ,CALLE_BRUJAS,,3A,Moratalaz,Atropello a persona,Despejado,Bicicleta,10088,Peatón,Menor de 5 años,Hombre,6
+2021S003345,2021-06-03T13:35:00ZZ,Avenida_Buenos_Aires,https://wikidata.org/entity/Q9639613,101,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10089,Conductor,De 50 a 54 años,Mujer,6
+2021S003348,2021-05-03T21:51:00ZZ,calle_del_Torpedero_Tucuman,https://wikidata.org/entity/Q29397139,24,Chamartin,Caída,Despejado,Bicicleta,10090,Conductor,De 18 a 20 años,Hombre,1
+2021S003383,2021-06-03T01:12:00ZZ,Calle_de_Toledo,https://wikidata.org/entity/Q5740883,50,Centro,Colisión fronto-lateral,Lluvia débil,Bicicleta,10091,Conductor,De 25 a 29 años,Hombre,1
+2021S003420,2021-07-03T14:20:00ZZ,Gran_Via,https://wikidata.org/entity/Q1324163,56,Centro,Alcance,Despejado,Bicicleta,10092,Conductor,De 25 a 29 años,Hombre,
+2021S003426,2021-06-03T16:40:00ZZ,Calle_de_Juan_Bravo_Madrid,https://wikidata.org/entity/Q28054647,15,Salamanca,Colisión fronto-lateral,Despejado,Bicicleta,10093,Conductor,De 35 a 39 años,Hombre,7
+2021S003456,2021-07-03T12:10:00ZZ,CALLE_VALLE_DE_MENA,,14,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10094,Conductor,De 25 a 29 años,Mujer,7
+2021S003470,2021-07-03T12:44:00ZZ,CAMINO_ARROYO_DE_VALDEBEBAS,,9,Hortaleza,Colisión frontal,Despejado,Bicicleta,10095,Conductor,De 35 a 39 años,Hombre,7
+2021S003470,2021-07-03T12:44:00ZZ,CAMINO_ARROYO_DE_VALDEBEBAS,,9,Hortaleza,Colisión frontal,Despejado,Bicicleta,10096,Conductor,De 40 a 44 años,Hombre,7
+2021S003486,2021-08-03T17:03:00ZZ,Paseo_de_la_Reina_Cristina_Madrid,https://wikidata.org/entity/Q29051319,15,Retiro,Alcance,Lluvia débil,Bicicleta,10097,Conductor,De 40 a 44 años,Hombre,2
+2021S003555,2021-09-03T18:30:00ZZ,avenida_del_Mediterraneo,https://wikidata.org/entity/Q57739480,136,Villa_de_Vallecas,Caída,Despejado,Bicicleta,10098,Conductor,De 40 a 44 años,Hombre,3
+2021S003556,2021-04-03T15:58:00ZZ,PLAZA_BEATA_MARIA_ANA_DE_JESUS,,1,Arganzuela,Colisión lateral,Despejado,Bicicleta,10099,Conductor,De 50 a 54 años,Hombre,1
+2021S003640,2021-10-03T07:54:00ZZ,Calle_de_Mateo_Inurria_Madrid,https://wikidata.org/entity/Q26821557,58,Chamartin,Caída,Despejado,Bicicleta,10100,Conductor,De 55 a 59 años,Hombre,7
+2021S003640,2021-10-03T07:54:00ZZ,Calle_de_Mateo_Inurria_Madrid,https://wikidata.org/entity/Q26821557,58,Chamartin,Caída,Despejado,Bicicleta,10101,Peatón,De 40 a 44 años,Mujer,14
+2021S003661,2021-10-03T17:22:00ZZ,calle_de_Pradillo,https://wikidata.org/entity/Q55868790,34,Chamartin,Alcance,Despejado,Bicicleta,10102,Conductor,De 21 a 24 años,Hombre,14
+2021S003666,2021-10-03T14:40:00ZZ,Paseo_de_La_Habana_Madrid,https://wikidata.org/entity/Q28059068,72,Chamartin,Caída,Despejado,Bicicleta,10103,Conductor,De 50 a 54 años,Hombre,7
+2021S003668,2021-11-03T15:10:00ZZ,Calle_de_Trafalgar_Madrid,https://wikidata.org/entity/Q28024216,25,Chamberi,Caída,Despejado,Bicicleta,10104,Conductor,Más de 74 años,Hombre,5
+2021S003918,2021-03-13T11:10:00ZZ,Parque_Juan_Carlos_I_de_Pinto_Madrid,https://wikidata.org/entity/Q109187261,1,Barajas,Atropello a persona,Despejado,Bicicleta,10105,Conductor,De 50 a 54 años,Hombre,2
+2021S003918,2021-03-13T11:10:00ZZ,Parque_Juan_Carlos_I_de_Pinto_Madrid,https://wikidata.org/entity/Q109187261,1,Barajas,Atropello a persona,Despejado,Bicicleta,10106,Peatón,De 35 a 39 años,Mujer,2
+2021S003930,2021-03-13T22:18:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,309,Tetuan,Alcance,,Bicicleta,10107,Conductor,De 25 a 29 años,Hombre,
+2021S003969,2021-03-14T11:00:00ZZ,CALLE_ARROYOFRESNO,,1,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10108,Conductor,De 65 a 69 años,Hombre,7
+2021S003998,2021-03-14T15:45:00ZZ,Avenida_del_Doctor_Garcia_Tapia_Madrid,https://wikidata.org/entity/Q28935864,53,Moratalaz,Colisión fronto-lateral,Despejado,Bicicleta,10109,Conductor,De 18 a 20 años,Hombre,
+2021S004021,2021-03-15T15:30:00ZZ,calle_de_Galileo,https://wikidata.org/entity/Q27031392,86,Chamberi,Colisión lateral,Despejado,Bicicleta,10110,Conductor,De 15 a 17 años,Mujer,7
+2021S004021,2021-03-15T15:30:00ZZ,calle_de_Galileo,https://wikidata.org/entity/Q27031392,86,Chamberi,Colisión lateral,Despejado,Bicicleta,10111,Conductor,De 18 a 20 años,Hombre,14
+2021S004032,2021-03-14T13:00:00ZZ,PASEO_TORRECILLA,,4,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10112,Conductor,De 40 a 44 años,Hombre,7
+2021S004032,2021-03-14T13:00:00ZZ,PASEO_TORRECILLA,,4,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10113,Conductor,De 50 a 54 años,Hombre,14
+2021S004063,2021-03-16T14:20:00ZZ,Gran_Via,https://wikidata.org/entity/Q1324163,70,Centro,Colisión fronto-lateral,Despejado,Bicicleta,10114,Conductor,De 35 a 39 años,Hombre,7
+2021S004066,2021-03-16T16:40:00ZZ,PASEO_EMBARCADERO,,1,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10115,Conductor,De 50 a 54 años,Hombre,6
+2021S004147,2021-03-17T16:05:00ZZ,Paseo_del_Prado,https://wikidata.org/entity/Q2079615,11,Retiro,Alcance,Despejado,Bicicleta,10116,Conductor,De 55 a 59 años,Hombre,7
+2021S004190,2021-03-17T22:15:00ZZ,Paseo_de_la_Esperanza_Madrid,https://wikidata.org/entity/Q55947011,11,Arganzuela,Caída,Despejado,Bicicleta,10117,Conductor,De 21 a 24 años,Hombre,1
+2021S004219,2021-03-18T15:00:00ZZ,Claudio_Coello_Street,https://wikidata.org/entity/Q28059043,90,Salamanca,Colisión fronto-lateral,Despejado,Bicicleta,10118,Conductor,De 25 a 29 años,Mujer,7
+2021S004294,2021-03-19T16:20:00ZZ,CALLE_VIA_DE_DUBLIN,,3,Barajas,Colisión fronto-lateral,Despejado,Bicicleta,10119,Conductor,De 50 a 54 años,Hombre,7
+2021S004316,2021-03-19T22:00:00ZZ,Calle_del_Doctor_Esquerdo_Madrid,https://wikidata.org/entity/Q5741005,96,Retiro,Colisión fronto-lateral,Despejado,Bicicleta,10120,Conductor,De 25 a 29 años,Hombre,2
+2021S004356,2021-03-14T12:38:00ZZ,PASEO_EMBARCADERO,,2,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10121,Conductor,Desconocido,Desconocido,
+2021S004356,2021-03-14T12:38:00ZZ,PASEO_EMBARCADERO,,2,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10122,Conductor,De 45 a 49 años,Hombre,1
+2021S004358,2021-03-18T10:30:00ZZ,CALLE_JOSE_DE_CADALSO,,130,Latina,Colisión fronto-lateral,Despejado,Bicicleta,10123,Conductor,De 40 a 44 años,Mujer,1
+2021S004358,2021-03-18T10:30:00ZZ,CALLE_JOSE_DE_CADALSO,,130,Latina,Colisión fronto-lateral,Despejado,Bicicleta,10124,Peatón,De 18 a 20 años,Hombre,14
+2021S004370,2021-03-20T12:10:00ZZ,AVENIDA_LA_GAVIA,,42,Villa_de_Vallecas,Atropello a persona,Despejado,Bicicleta,10125,Conductor,De 6  a  9 años,Hombre,14
+2021S004370,2021-03-20T12:10:00ZZ,AVENIDA_LA_GAVIA,,42,Villa_de_Vallecas,Atropello a persona,Despejado,Bicicleta,10126,Peatón,De 70 a 74 años,Mujer,7
+2021S004374,2021-03-20T13:10:00ZZ,Avenida_de_Guadalajara_Madrid,https://wikidata.org/entity/Q52063521,69,San_Blas,Colisión lateral,Despejado,Bicicleta,10127,Conductor,De 40 a 44 años,Hombre,1
+2021S004392,2021-03-17T18:35:00ZZ,CARRETERA_SOMONTES_AL_PALACIO_DE_LA_REAL_QUINTA,,1,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10128,Conductor,De 35 a 39 años,Hombre,6
+2021S004468,2021-03-21T18:25:00ZZ,Calle_del_Clavel_Madrid,https://wikidata.org/entity/Q28051075,5,Centro,Colisión lateral,Despejado,Bicicleta,10129,Conductor,De 25 a 29 años,Hombre,7
+2021S004469,2021-03-21T19:30:00ZZ,Avenida_de_la_Albufera,https://wikidata.org/entity/Q5714221,23,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10130,Conductor,De 21 a 24 años,Hombre,1
+2021S004507,2021-03-21T18:10:00ZZ,Paseo_de_las_Yeserias_Madrid,https://wikidata.org/entity/Q16616818,43,Arganzuela,Caída,Despejado,Bicicleta,10131,Conductor,De 15 a 17 años,Hombre,1
+2021S004513,2021-03-22T18:10:00ZZ,Calle_de_Huesca_Madrid,https://wikidata.org/entity/Q29168261,20,Tetuan,Colisión fronto-lateral,Despejado,Bicicleta,10132,Conductor,De 40 a 44 años,Mujer,
+2021S004521,2021-03-18T14:40:00ZZ,CALLE_EVANGELIOS,,1,Usera,Colisión frontal,Despejado,Bicicleta,10133,Conductor,De 25 a 29 años,Hombre,6
+2021S004548,2021-03-22T11:16:00ZZ,AVENIDA_CARONDELET,,37,Hortaleza,Caída,Despejado,Bicicleta,10134,Conductor,De 10 a 14 años,Hombre,7
+2021S004559,2021-03-20T10:30:00ZZ,CARRETERA_M-,,0,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10135,Conductor,De 50 a 54 años,Hombre,2
+2021S004604,2021-03-23T16:50:00ZZ,Avenida_de_Niceto_Alcala_Zamora_Madrid,https://wikidata.org/entity/Q62107332,5,Hortaleza,Colisión lateral,Despejado,Bicicleta,10136,Conductor,De 45 a 49 años,Hombre,7
+2021S004655,2021-03-23T19:00:00ZZ,CALLE_PUERTO_RICO,,15,Chamartin,Choque contra obstáculo fijo,Despejado,Bicicleta,10137,Conductor,De 21 a 24 años,Hombre,7
+2021S004692,2021-03-24T09:50:00ZZ,La_Campana,https://wikidata.org/entity/Q5742554,1,Fuencarral-El_Pardo,Colisión fronto-lateral,Se desconoce,Bicicleta,10138,Conductor,De 30 a 34 años,Hombre,7
+2021S004736,2021-03-23T19:00:00ZZ,CALLE_PALAS_DE_REY,,4,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10139,Conductor,De 30 a 34 años,Mujer,2
+2021S004736,2021-03-23T19:00:00ZZ,CALLE_PALAS_DE_REY,,4,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10140,Peatón,De 6  a  9 años,Hombre,14
+2021S004752,2021-03-25T19:00:00ZZ,Manzanares_Linear_Park,https://wikidata.org/entity/Q6062319,0,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10141,Conductor,De 18 a 20 años,Hombre,1
+2021S004775,2021-03-25T14:05:00ZZ,AVENIDA_CERRO_MILANO,,631,Villa_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10142,Conductor,De 50 a 54 años,Hombre,7
+2021S004777,2021-03-25T08:18:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,156,Chamartin,Colisión fronto-lateral,Despejado,Bicicleta,10143,Conductor,De 55 a 59 años,Hombre,7
+2021S004837,2021-03-26T21:00:00ZZ,Capitan_Blanco_Argibay_Street,https://wikidata.org/entity/Q27038685,192,Tetuan,Caída,Despejado,Bicicleta,10144,Conductor,De 25 a 29 años,Hombre,1
+2021S004858,2021-03-26T23:00:00ZZ,avenida_de_los_Poblados,https://wikidata.org/entity/Q26795575,0,Latina,Caída,Despejado,Bicicleta,10145,Conductor,De 30 a 34 años,Hombre,7
+2021S004896,2021-03-27T10:40:00ZZ,Calle_de_Alfonso_XII,https://wikidata.org/entity/Q5659170,66,Retiro,Colisión fronto-lateral,Despejado,Bicicleta,10146,Conductor,De 21 a 24 años,Hombre,
+2021S005003,2021-03-28T15:20:00ZZ,LUGAR_CAÑADA_REAL,,0,Villa_de_Vallecas,Caída,Despejado,Bicicleta,10147,Conductor,De 10 a 14 años,Hombre,6
+2021S005034,2021-03-29T08:30:00ZZ,AVENIDA_ENTREVIAS,,34,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10148,Conductor,De 55 a 59 años,Mujer,6
+2021S005038,2021-03-28T10:45:00ZZ,Ronda_de_Atocha,https://wikidata.org/entity/Q26831149,27,Arganzuela,Colisión lateral,Despejado,Bicicleta,10149,Conductor,De 35 a 39 años,Hombre,7
+2021S005113,2021-03-30T20:30:00ZZ,CALLE_COMUNEROS_DE_CASTILLA,,4,Carabanchel,Colisión frontal,,Bicicleta,10150,Conductor,De 50 a 54 años,Hombre,
+2021S005122,2021-03-30T22:38:00ZZ,Paseo_de_Eduardo_Dato_Madrid,https://wikidata.org/entity/Q20890584,17,Chamberi,Alcance,Despejado,Bicicleta,10151,Conductor,De 30 a 34 años,Hombre,6
+2021S005131,2021-03-25T08:35:00ZZ,Serrano_Street,https://wikidata.org/entity/Q5740879,74,Salamanca,Caída,Despejado,Bicicleta,10152,Conductor,De 40 a 44 años,Mujer,2
+2021S005170,2021-03-30T22:45:00ZZ,CALLE_ANTEQUERA,,23,Usera,Caída,Despejado,Bicicleta,10153,Conductor,De 50 a 54 años,Hombre,1
+2021S005174,2021-03-31T17:45:00ZZ,Calle_de_Irun_Madrid,https://wikidata.org/entity/Q29920881,1,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10154,Conductor,De 30 a 34 años,Mujer,1
+2021S005174,2021-03-31T17:45:00ZZ,Calle_de_Irun_Madrid,https://wikidata.org/entity/Q29920881,1,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10155,Conductor,De 50 a 54 años,Hombre,7
+2021S005189,2021-03-31T19:20:00ZZ,CAÑADA_REAL_DE_MERINAS,,64,Vicalvaro,Colisión fronto-lateral,,Bicicleta,10156,Conductor,Desconocido,Desconocido,
+2021S005224,2021-03-28T12:47:00ZZ,CALLE_ALBERTO_DE_PALACIO,,0,Hortaleza,Colisión lateral,Despejado,Bicicleta,10157,Conductor,De 35 a 39 años,Hombre,
+2021S005246,2021-03-31T19:05:00ZZ,Calle_de_Sevilla_Madrid,https://wikidata.org/entity/Q20908843,4,Centro,Choque contra obstáculo fijo,Despejado,Bicicleta,10158,Conductor,De 18 a 20 años,Hombre,7
+2021S005266,2021-03-31T17:00:00ZZ,calle_de_Segovia,https://wikidata.org/entity/Q8255505,49,Arganzuela,Caída,Despejado,Bicicleta,10159,Conductor,De 55 a 59 años,Mujer,1
+2021S005274,2021-01-04T22:20:00ZZ,Alcala_Street,https://wikidata.org/entity/Q2424746,251,Ciudad_Lineal,Colisión fronto-lateral,Despejado,Bicicleta,10160,Conductor,De 18 a 20 años,Mujer,
+2021S005303,2021-03-27T13:25:00ZZ,CALLE_FRANCISCO_Y_JACINTO_ALCANTARA,,1,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10161,Conductor,De 18 a 20 años,Hombre,7
+2021S005399,2021-03-04T16:20:00ZZ,Gran_Via,https://wikidata.org/entity/Q1324163,80,Centro,Colisión fronto-lateral,Despejado,Bicicleta,10162,Conductor,De 30 a 34 años,Hombre,1
+2021S005406,2021-03-04T19:55:00ZZ,Paseo_de_la_Ermita_del_Santo,https://wikidata.org/entity/Q28137105,16,Latina,Caída,Despejado,Bicicleta,10163,Conductor,De 35 a 39 años,Hombre,3
+2021S005460,2021-03-04T18:35:00ZZ,CALLE_CASALARREINA,,29,Vicalvaro,Caída,Despejado,Bicicleta,10164,Conductor,De 55 a 59 años,Hombre,2
+2021S005488,2021-04-04T13:25:00ZZ,Calle_de_Atocha,https://wikidata.org/entity/Q5492657,36,Centro,Colisión lateral,Despejado,Bicicleta,10165,Conductor,De 50 a 54 años,Mujer,7
+2021S005489,2021-04-04T14:00:00ZZ,calle_de_Arturo_Soria,https://wikidata.org/entity/Q8255504,348,Ciudad_Lineal,Caída,Despejado,Bicicleta,10166,Conductor,De 50 a 54 años,Hombre,1
+2021S005496,2021-03-04T12:10:00ZZ,GLORIETA_SIETE_HERMANAS,,0,Moncloa-Aravaca,Atropello a animal,Despejado,Bicicleta,10167,Conductor,De 40 a 44 años,Hombre,2
+2021S005556,2021-03-04T16:45:00ZZ,CALLE_SAN_ANTONIO_DE_PADUA,,36,Usera,Colisión frontal,Despejado,Bicicleta,10168,Conductor,De 35 a 39 años,Hombre,7
+2021S005574,2021-06-04T15:20:00ZZ,CALLE_PUERTO_DE_REINOSA,,15,Villa_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10169,Conductor,De 10 a 14 años,Hombre,7
+2021S005629,2021-06-04T14:25:00ZZ,Avenida_de_las_Fuerzas_Armadas_Madrid,https://wikidata.org/entity/Q29353164,402,Barajas,Caída,Despejado,Bicicleta,10170,Conductor,De 45 a 49 años,Hombre,7
+2021S005632,2021-06-04T14:50:00ZZ,CALLE_ARGANDA,,50,Arganzuela,Caída,Despejado,Bicicleta,10171,Conductor,De 30 a 34 años,Hombre,1
+2021S005659,2021-06-04T16:35:00ZZ,Avenida_del_Planetario,https://wikidata.org/entity/Q17622122,15,Arganzuela,Caída,Despejado,Bicicleta,10172,Conductor,De 50 a 54 años,Mujer,5
+2021S005675,2021-06-04T17:11:00ZZ,Avenida_de_Burgos_Madrid,https://wikidata.org/entity/Q29902431,109,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10173,Conductor,De 50 a 54 años,Hombre,2
+2021S005729,2021-08-04T17:00:00ZZ,Calle_de_Santa_Engracia_Madrid,https://wikidata.org/entity/Q26728109,71,Chamberi,Atropello a persona,Despejado,Bicicleta,10174,Conductor,De 25 a 29 años,Mujer,6
+2021S005729,2021-08-04T17:00:00ZZ,Calle_de_Santa_Engracia_Madrid,https://wikidata.org/entity/Q26728109,71,Chamberi,Atropello a persona,Despejado,Bicicleta,10175,Peatón,De 21 a 24 años,Hombre,14
+2021S005738,2021-08-04T20:00:00ZZ,Avenida_de_Niceto_Alcala_Zamora_Madrid,https://wikidata.org/entity/Q62107332,6,Hortaleza,Colisión lateral,Despejado,Bicicleta,10176,Conductor,De 55 a 59 años,Hombre,6
+2021S005746,2021-09-04T06:45:00ZZ,Avenida_de_Ramon_y_Cajal_Madrid,https://wikidata.org/entity/Q30467128,1,Chamartin,Colisión fronto-lateral,Nublado,Bicicleta,10177,Conductor,De 30 a 34 años,Hombre,3
+2021S005791,2021-08-04T20:15:00ZZ,Calle_del_Duque_de_Fernan_Nuñez_Madrid,https://wikidata.org/entity/Q29051517,19,Chamartin,Caída,Despejado,Bicicleta,10178,Conductor,De 18 a 20 años,Mujer,7
+2021S005852,2021-03-20T12:55:00ZZ,CAMINO_DE_LA_CAÑADA,,0,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10179,Conductor,De 10 a 14 años,Mujer,7
+2021S005852,2021-03-20T12:55:00ZZ,CAMINO_DE_LA_CAÑADA,,0,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10180,Conductor,De 30 a 34 años,Hombre,6
+2021S005943,2021-10-04T12:30:00ZZ,AVENIDA_MIGUEL_DELIBES,,30,Vicalvaro,Caída,Nublado,Bicicleta,10181,Conductor,De 50 a 54 años,Hombre,1
+2021S005954,2021-10-04T22:15:00ZZ,CARRETERA_GARABITAS,,0,Moncloa-Aravaca,Caída,LLuvia intensa,Bicicleta,10182,Conductor,Desconocido,Desconocido,
+2021S005961,2021-08-04T16:15:00ZZ,Avenida_del_Cardenal_Herrera_Oria,https://wikidata.org/entity/Q27556319,76B,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10183,Conductor,De 50 a 54 años,Hombre,2
+2021S006007,2021-12-04T07:37:00ZZ,Avenida_de_la_Ciudad_de_Barcelona_Madrid,https://wikidata.org/entity/Q5714227,93,Retiro,Atropello a persona,Despejado,Bicicleta,10184,Conductor,De 15 a 17 años,Hombre,14
+2021S006007,2021-12-04T07:37:00ZZ,Avenida_de_la_Ciudad_de_Barcelona_Madrid,https://wikidata.org/entity/Q5714227,93,Retiro,Atropello a persona,Despejado,Bicicleta,10185,Peatón,De 45 a 49 años,Mujer,1
+2021S006010,2021-11-04T17:00:00ZZ,calle_del_Principe_de_Vergara,https://wikidata.org/entity/Q5741020,262,Chamartin,Alcance,Despejado,Bicicleta,10186,Conductor,De 35 a 39 años,Hombre,14
+2021S006039,2021-12-04T18:35:00ZZ,Carrer_Jacint_Verdaguer,https://wikidata.org/entity/Q5740564,8,Carabanchel,Colisión frontal,Despejado,Bicicleta,10187,Conductor,De 30 a 34 años,Hombre,2
+2021S006064,2021-12-04T10:25:00ZZ,CALLE_PADRE_LLANOS,,24,Puente_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10188,Conductor,De 40 a 44 años,Hombre,7
+2021S006070,2021-04-13T10:25:00ZZ,Gran_Via,https://wikidata.org/entity/Q1324163,56,Centro,Caída,Lluvia débil,Bicicleta,10189,Conductor,De 35 a 39 años,Mujer,
+2021S006107,2021-04-13T20:20:00ZZ,Calle_de_Guzman_el_Bueno_Madrid,https://wikidata.org/entity/Q27031398,59,Chamberi,Colisión lateral,Despejado,Bicicleta,10190,Conductor,De 25 a 29 años,Hombre,1
+2021S006140,2021-04-14T16:45:00ZZ,CALLE_CONVENIO,,41,Puente_de_Vallecas,Alcance,Despejado,Bicicleta,10191,Conductor,De 40 a 44 años,Hombre,7
+2021S006181,2021-12-04T10:40:00ZZ,AVENIDA_LOS_ROSALES,,408,Villaverde,Caída,Despejado,Bicicleta,10192,Conductor,De 65 a 69 años,Hombre,2
+2021S006181,2021-12-04T10:40:00ZZ,AVENIDA_LOS_ROSALES,,408,Villaverde,Caída,Despejado,Bicicleta,10193,Peatón,De 50 a 54 años,Mujer,14
+2021S006240,2021-04-15T12:30:00ZZ,CALLE_FINISTERRE,,29,Fuencarral-El_Pardo,Alcance,Se desconoce,Bicicleta,10194,Conductor,De 21 a 24 años,Hombre,1
+2021S006259,2021-04-15T20:30:00ZZ,PLAZA_DUQUE_DE_PASTRANA,,3,Chamartin,Caída,Lluvia débil,Bicicleta,10195,Conductor,De 35 a 39 años,Mujer,1
+2021S006574,2021-04-21T12:00:00ZZ,Madrid_Ring_Road,https://wikidata.org/entity/Q2606591,+00200E,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10196,Conductor,De 55 a 59 años,Hombre,1
+2021S006603,2021-04-21T18:40:00ZZ,Avenida_de_la_Ciudad_de_Barcelona_Madrid,https://wikidata.org/entity/Q5714227,202,Retiro,Atropello a persona,Nublado,Bicicleta,10197,Conductor,De 55 a 59 años,Hombre,14
+2021S006603,2021-04-21T18:40:00ZZ,Avenida_de_la_Ciudad_de_Barcelona_Madrid,https://wikidata.org/entity/Q5714227,202,Retiro,Atropello a persona,Nublado,Bicicleta,10198,Peatón,De 65 a 69 años,Mujer,7
+2021S006667,2021-04-22T19:50:00ZZ,Paseo_de_la_Ermita_del_Santo,https://wikidata.org/entity/Q28137105,40,Latina,Caída,Lluvia débil,Bicicleta,10199,Conductor,De 21 a 24 años,Mujer,7
+2021S006709,2021-04-23T13:30:00ZZ,calle_de_Gaztambide,https://wikidata.org/entity/Q27243265,23,Chamberi,Caída,Despejado,Bicicleta,10200,Conductor,De 21 a 24 años,Hombre,2
+2021S006724,2021-04-23T17:20:00ZZ,Calle_de_Francisco_Largo_Caballero_Madrid,https://wikidata.org/entity/Q62107131,15,Ciudad_Lineal,Colisión fronto-lateral,Despejado,Bicicleta,10201,Conductor,De 50 a 54 años,Hombre,3
+2021S006803,2021-04-24T17:40:00ZZ,CALLE_JOSE_PAULETE,,5,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10202,Conductor,De 25 a 29 años,Mujer,2
+2021S006807,2021-04-22T17:12:00ZZ,Madrid_Ring_Road,https://wikidata.org/entity/Q2606591,+00500E,Carabanchel,Caída,Lluvia débil,Bicicleta,10203,Conductor,De 25 a 29 años,Hombre,
+2021S006807,2021-04-22T17:12:00ZZ,Madrid_Ring_Road,https://wikidata.org/entity/Q2606591,+00500E,Carabanchel,Caída,Lluvia débil,Bicicleta,10204,Conductor,De 35 a 39 años,Mujer,
+2021S006837,2021-04-24T23:30:00ZZ,Serrano_Street,https://wikidata.org/entity/Q5740879,44,Salamanca,Caída,Lluvia débil,Bicicleta,10205,Conductor,De 18 a 20 años,Hombre,7
+2021S006873,2021-04-24T22:47:00ZZ,Paseo_de_las_Acacias_Madrid,https://wikidata.org/entity/Q55947263,41,Arganzuela,Colisión múltiple,LLuvia intensa,Bicicleta,10206,Conductor,De 25 a 29 años,Hombre,7
+2021S006876,2021-04-24T11:15:00ZZ,RONDA_DE_LA_COMUNICACION,,0,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10207,Conductor,De 45 a 49 años,Mujer,14
+2021S006876,2021-04-24T11:15:00ZZ,RONDA_DE_LA_COMUNICACION,,0,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10208,Conductor,De 50 a 54 años,Mujer,6
+2021S006894,2021-04-25T12:35:00ZZ,CALLE_TINTOREROS,,4,Centro,Alcance,Lluvia débil,Bicicleta,10209,Conductor,De 40 a 44 años,Hombre,1
+2021S006899,2021-04-24T22:00:00ZZ,paseo_de_Marcelino_Camacho,https://wikidata.org/entity/Q53414018,1,Carabanchel,Colisión fronto-lateral,,Bicicleta,10210,Conductor,De 10 a 14 años,Hombre,
+2021S006899,2021-04-24T22:00:00ZZ,paseo_de_Marcelino_Camacho,https://wikidata.org/entity/Q53414018,1,Carabanchel,Colisión fronto-lateral,,Bicicleta,10211,Pasajero,De 10 a 14 años,Hombre,
+2021S007017,2021-04-26T18:30:00ZZ,CALLE_PLAYA_DE_LA_CALETA,,6,Barajas,Colisión fronto-lateral,Despejado,Bicicleta,10212,Conductor,De 10 a 14 años,Hombre,7
+2021S007050,2021-04-27T15:05:00ZZ,CALLE_CERILLERAS,,4,Carabanchel,Colisión fronto-lateral,Despejado,Bicicleta,10213,Conductor,De 50 a 54 años,Hombre,7
+2021S007058,2021-04-27T15:30:00ZZ,avenida_de_los_Poblados,https://wikidata.org/entity/Q26795575,94,Carabanchel,Colisión lateral,Despejado,Bicicleta,10214,Conductor,De 15 a 17 años,Hombre,2
+2021S007119,2021-04-27T23:00:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,137,Tetuan,Alcance,LLuvia intensa,Bicicleta,10215,Conductor,De 25 a 29 años,Mujer,7
+2021S007136,2021-04-28T19:10:00ZZ,CALLE_CARLOS_MARTIN_ALVAREZ,,2,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10216,Conductor,De 25 a 29 años,Mujer,7
+2021S007177,2021-04-29T11:00:00ZZ,calle_de_Arturo_Soria,https://wikidata.org/entity/Q8255504,251,Ciudad_Lineal,Atropello a persona,Nublado,Bicicleta,10217,Conductor,De 35 a 39 años,Hombre,14
+2021S007177,2021-04-29T11:00:00ZZ,calle_de_Arturo_Soria,https://wikidata.org/entity/Q8255504,251,Ciudad_Lineal,Atropello a persona,Nublado,Bicicleta,10218,Peatón,De 65 a 69 años,Hombre,3
+2021S007182,2021-04-28T20:15:00ZZ,CAMINO_VIEJO_DE_VICALVARO,,7,Vicalvaro,Caída,Nublado,Bicicleta,10219,Conductor,De 55 a 59 años,Hombre,2
+2021S007197,2021-04-29T17:20:00ZZ,CALLE_CHIQUINQUIRA,,60,Hortaleza,Caída,Despejado,Bicicleta,10220,Conductor,De 35 a 39 años,Hombre,1
+2021S007285,2021-04-30T18:35:00ZZ,CALLE_CONDESA_DE_VENADITO,,7,Ciudad_Lineal,Colisión fronto-lateral,Despejado,Bicicleta,10221,Conductor,De 40 a 44 años,Mujer,3
+2021S007365,2021-01-05T18:50:00ZZ,AVENIDA_VALDEMARIN,,100E,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10222,Conductor,De 55 a 59 años,Hombre,6
+2021S007427,2021-02-05T10:40:00ZZ,Madrid_Ring_Road,https://wikidata.org/entity/Q2606591,+00500I,Arganzuela,Caída,Despejado,Bicicleta,10223,Conductor,De 55 a 59 años,Hombre,2
+2021S007427,2021-02-05T10:40:00ZZ,Madrid_Ring_Road,https://wikidata.org/entity/Q2606591,+00500I,Arganzuela,Caída,Despejado,Bicicleta,10224,Peatón,De 18 a 20 años,Mujer,14
+2021S007454,2021-02-05T22:10:00ZZ,Calle_del_Doctor_Esquerdo_Madrid,https://wikidata.org/entity/Q5741005,47,Salamanca,Caída,Despejado,Bicicleta,10225,Conductor,De 15 a 17 años,Hombre,1
+2021S007478,2021-02-05T11:00:00ZZ,CALLE_AFUERAS_A_VALVERDE,,1,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10226,Conductor,De 30 a 34 años,Hombre,7
+2021S007563,2021-03-05T17:30:00ZZ,PISTA_CRISTO_DE_EL_PARDO,,17,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10227,Conductor,De 45 a 49 años,Hombre,2
+2021S007566,2021-04-05T20:40:00ZZ,calle_de_las_Azucenas,https://wikidata.org/entity/Q27150352,2,Tetuan,Alcance,Despejado,Bicicleta,10228,Conductor,De 30 a 34 años,Mujer,
+2021S007583,2021-04-05T13:20:00ZZ,CALLE_LOS_YEBENES,,6,Latina,Colisión fronto-lateral,Despejado,Bicicleta,10229,Conductor,De 45 a 49 años,Hombre,7
+2021S007593,2021-05-05T12:20:00ZZ,CALLE_ALHAMBRA,,2,Latina,Colisión fronto-lateral,Despejado,Bicicleta,10230,Conductor,De 55 a 59 años,Hombre,3
+2021S007611,2021-05-05T16:40:00ZZ,CALLE_VICENTE_BLASCO_IBAÑEZ,,82,Hortaleza,Colisión fronto-lateral,Despejado,Bicicleta,10231,Conductor,De 15 a 17 años,Hombre,3
+2021S007645,2021-05-05T13:15:00ZZ,CALLE_MANUEL_AGUILAR_MUÑOZ,,15,Barajas,Colisión frontal,Despejado,Bicicleta,10232,Conductor,De 60 a 64 años,Hombre,7
+2021S007727,2021-07-05T15:55:00ZZ,PLAZA_SAN_JUAN_DE_LA_CRUZ,,2,Chamberi,Colisión fronto-lateral,Despejado,Bicicleta,10233,Conductor,De 50 a 54 años,Hombre,3
+2021S007918,2021-09-05T11:00:00ZZ,AVENIDA_MIGUEL_HERNANDEZ,,11,Puente_de_Vallecas,Caída,Nublado,Bicicleta,10234,Conductor,De 60 a 64 años,Hombre,2
+2021S007930,2021-09-05T15:55:00ZZ,AVENIDA_CAMILO_JOSE_CELA,,29,Salamanca,Caída,Lluvia débil,Bicicleta,10235,Conductor,De 30 a 34 años,Mujer,7
+2021S007953,2021-09-05T20:15:00ZZ,Alcala_Street,https://wikidata.org/entity/Q2424746,211,Salamanca,Alcance,Despejado,Bicicleta,10236,Conductor,De 21 a 24 años,Hombre,7
+2021S007960,2021-09-05T22:52:00ZZ,Calle_de_Santa_Engracia_Madrid,https://wikidata.org/entity/Q26728109,80,Chamberi,Alcance,Despejado,Bicicleta,10237,Conductor,De 35 a 39 años,Hombre,7
+2021S007983,2021-09-05T13:05:00ZZ,CALLE_MAYORAZGO_DE_DUARTE,,40,Vicalvaro,Caída,Despejado,Bicicleta,10238,Conductor,De 10 a 14 años,Hombre,2
+2021S007989,2021-04-05T23:29:00ZZ,CALLE_JOSE_ANTONIO_NOVAIS,,1,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10239,Conductor,De 21 a 24 años,Mujer,14
+2021S007989,2021-04-05T23:29:00ZZ,CALLE_JOSE_ANTONIO_NOVAIS,,1,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10240,Conductor,De 21 a 24 años,Mujer,3
+2021S008016,2021-10-05T18:10:00ZZ,PLAZA_MANUEL_BECERRA,,6,Salamanca,Caída,Despejado,Bicicleta,10241,Conductor,De 18 a 20 años,Hombre,2
+2021S008025,2021-08-05T12:05:00ZZ,AVENIDA_LOS_ROSALES,,19,Usera,Alcance,Despejado,Bicicleta,10242,Conductor,De 30 a 34 años,Hombre,2
+2021S008075,2021-08-05T21:50:00ZZ,Calle_de_Marcelo_Usera_Madrid,https://wikidata.org/entity/Q5740848,131,Usera,Alcance,Despejado,Bicicleta,10243,Conductor,De 30 a 34 años,Hombre,7
+2021S008088,2021-11-05T14:30:00ZZ,GLORIETA_QUEVEDO,,2,Chamberi,Colisión fronto-lateral,Despejado,Bicicleta,10244,Conductor,De 70 a 74 años,Hombre,2
+2021S008110,2021-07-05T12:50:00ZZ,CAMINO_PRINCIPE,,2,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10245,Conductor,De 21 a 24 años,Mujer,2
+2021S008139,2021-11-05T21:10:00ZZ,CALLE_GOLONDRINA,,52,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10246,Conductor,De 10 a 14 años,Hombre,6
+2021S008192,2021-12-05T13:50:00ZZ,Calle_de_Almagro_Madrid,https://wikidata.org/entity/Q26844339,21,Chamberi,Colisión lateral,Despejado,Bicicleta,10247,Conductor,De 50 a 54 años,Hombre,1
+2021S008264,2021-05-14T10:21:00ZZ,AVENIDA_MANUEL_FRAGA_IRIBARNE,,35,Barajas,Colisión fronto-lateral,Despejado,Bicicleta,10248,Conductor,De 40 a 44 años,Hombre,2
+2021S008288,2021-05-14T15:10:00ZZ,CALLE_MORALZARZAL,,80,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10249,Conductor,De 45 a 49 años,Hombre,3
+2021S008364,2021-05-15T10:35:00ZZ,calle_de_Cea_Bermudez,https://wikidata.org/entity/Q26791743,52,Chamberi,Colisión lateral,Despejado,Bicicleta,10250,Conductor,De 40 a 44 años,Hombre,7
+2021S008384,2021-05-14T20:20:00ZZ,Paseo_de_los_Pontones,https://wikidata.org/entity/Q26737156,28,Arganzuela,Colisión fronto-lateral,,Bicicleta,10251,Conductor,De 40 a 44 años,Hombre,14
+2021S008396,2021-05-15T20:45:00ZZ,CALLE_SAN_HILARIO,,5,San_Blas,Caída,Despejado,Bicicleta,10252,Conductor,De 15 a 17 años,Hombre,7
+2021S008408,2021-05-15T23:35:00ZZ,San_Bernardo_street,https://wikidata.org/entity/Q5740864,61,Centro,Alcance,Despejado,Bicicleta,10253,Conductor,De 30 a 34 años,Hombre,
+2021S008458,2021-05-16T15:40:00ZZ,Avenida_de_las_Fuerzas_Armadas_Madrid,https://wikidata.org/entity/Q29353164,1,Hortaleza,Caída,Despejado,Bicicleta,10254,Conductor,De 10 a 14 años,Mujer,6
+2021S008466,2021-05-16T18:45:00ZZ,calle_de_Velazquez,https://wikidata.org/entity/Q20031523,33,Salamanca,Colisión fronto-lateral,Despejado,Bicicleta,10255,Conductor,De 30 a 34 años,Hombre,14
+2021S008496,2021-05-16T08:50:00ZZ,Avenida_del_Doctor_Garcia_Tapia_Madrid,https://wikidata.org/entity/Q28935864,232,Moratalaz,Colisión fronto-lateral,Despejado,Bicicleta,10256,Conductor,De 40 a 44 años,Hombre,7
+2021S008501,2021-04-30T11:06:00ZZ,Conde_de_Peñalver_Street,https://wikidata.org/entity/Q28054244,51,Salamanca,Colisión lateral,Despejado,Bicicleta,10257,Conductor,De 15 a 17 años,Hombre,
+2021S008525,2021-05-17T19:33:00ZZ,PLAZA_MANUEL_BECERRA,,2,Salamanca,Alcance,Despejado,Bicicleta,10258,Conductor,De 40 a 44 años,Hombre,5
+2021S008532,2021-05-16T22:28:00ZZ,CALLE_SEPULVEDA,,1,Latina,Caída,Despejado,Bicicleta,10259,Conductor,De 40 a 44 años,Hombre,7
+2021S008569,2021-05-18T16:40:00ZZ,CALLE_CERRO_DE_LA_PLATA,,6,Retiro,Caída,Despejado,Bicicleta,10260,Conductor,De 50 a 54 años,Hombre,
+2021S008583,2021-05-18T20:25:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,227,Tetuan,Colisión fronto-lateral,Despejado,Bicicleta,10261,Conductor,De 30 a 34 años,Mujer,3
+2021S008604,2021-05-15T09:25:00ZZ,calle_de_Antonio_Lopez,https://wikidata.org/entity/Q42238475,195E,Usera,Colisión lateral,,Bicicleta,10262,Conductor,De 50 a 54 años,Hombre,
+2021S008660,2021-05-19T19:50:00ZZ,CARRETERA_ALCOBENDAS_A_BARAJAS,,30,Barajas,Colisión lateral,Despejado,Bicicleta,10263,Conductor,De 15 a 17 años,Hombre,1
+2021S008670,2021-05-19T23:40:00ZZ,avenida_de_los_Poblados,https://wikidata.org/entity/Q26795575,70,Latina,Colisión lateral,Despejado,Bicicleta,10264,Conductor,De 50 a 54 años,Hombre,7
+2021S008766,2021-05-20T10:45:00ZZ,GLORIETA_OLGA_RAMOS,,0,Fuencarral-El_Pardo,Colisión fronto-lateral,Se desconoce,Bicicleta,10265,Conductor,De 65 a 69 años,Hombre,1
+2021S008803,2021-05-20T20:15:00ZZ,CAMINO_VIEJO_DE_VICALVARO,,9,Vicalvaro,Caída,Despejado,Bicicleta,10266,Conductor,De 55 a 59 años,Hombre,7
+2021S008811,2021-05-21T19:05:00ZZ,CARRETERA_ESTACION_DE_HORTALEZA,,56,Hortaleza,Colisión frontal,Despejado,Bicicleta,10267,Conductor,De 55 a 59 años,Hombre,14
+2021S008866,2021-05-22T08:40:00ZZ,Alcala_Street,https://wikidata.org/entity/Q2424746,253,Ciudad_Lineal,Alcance,Despejado,Bicicleta,10268,Conductor,De 35 a 39 años,Hombre,6
+2021S008881,2021-05-21T20:15:00ZZ,CARRETERA_RODAJOS,,2,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10269,Conductor,De 45 a 49 años,Hombre,2
+2021S008907,2021-05-22T21:40:00ZZ,Calle_de_Toledo,https://wikidata.org/entity/Q5740883,52,Centro,Alcance,Despejado,Bicicleta,10270,Conductor,De 18 a 20 años,Hombre,
+2021S008970,2021-05-23T14:55:00ZZ,CALLE_MINERVA,,3,Vicalvaro,Alcance,Nublado,Bicicleta,10271,Conductor,De 40 a 44 años,Hombre,
+2021S008974,2021-05-23T16:45:00ZZ,CALLE_PUERTO_ALTO,,3,Puente_de_Vallecas,Colisión fronto-lateral,Nublado,Bicicleta,10272,Conductor,De 35 a 39 años,Hombre,
+2021S008998,2021-05-20T13:27:00ZZ,CARRETERA_CASTILLA,,+00300S,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10273,Conductor,De 15 a 17 años,Hombre,7
+2021S009051,2021-05-25T04:45:00ZZ,calle_de_Meson_de_Paredes,https://wikidata.org/entity/Q5686332,30,Centro,Colisión múltiple,Despejado,Bicicleta,10274,Conductor,De 30 a 34 años,Hombre,7
+2021S009054,2021-05-24T13:20:00ZZ,AVENIDA_ENTREVIAS,,140,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10275,Conductor,De 55 a 59 años,Hombre,5
+2021S009087,2021-05-25T17:15:00ZZ,Avenida_de_Arcentales_Madrid,https://wikidata.org/entity/Q56155322,7,San_Blas,Colisión lateral,Despejado,Bicicleta,10276,Conductor,De 25 a 29 años,Mujer,
+2021S009096,2021-05-25T19:40:00ZZ,CALLE_VIRGEN_DE_LOS_ROSALES,,106,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10277,Conductor,De 55 a 59 años,Hombre,6
+2021S009101,2021-05-25T20:00:00ZZ,Calle_de_Mateo_Inurria_Madrid,https://wikidata.org/entity/Q26821557,5,Chamartin,Alcance,Despejado,Bicicleta,10278,Conductor,De 25 a 29 años,Hombre,7
+2021S009116,2021-05-25T14:50:00ZZ,Paseo_de_la_Chopera_Madrid,https://wikidata.org/entity/Q27044458,10,Arganzuela,Caída,Despejado,Bicicleta,10279,Conductor,De 40 a 44 años,Hombre,7
+2021S009147,2021-05-26T17:40:00ZZ,AVENIDA_MONASTERIO_DE_SILOS,,7B,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10280,Conductor,Desconocido,Desconocido,
+2021S009147,2021-05-26T17:40:00ZZ,AVENIDA_MONASTERIO_DE_SILOS,,7B,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10281,Conductor,De 45 a 49 años,Mujer,3
+2021S009154,2021-05-26T20:00:00ZZ,Avenida_de_los_Andes,https://wikidata.org/entity/Q28997223,52,Hortaleza,Caída,Despejado,Bicicleta,10282,Conductor,De 30 a 34 años,Hombre,6
+2021S009168,2021-05-26T22:20:00ZZ,PASEO_MELANCOLICOS,,4,Arganzuela,Caída,Despejado,Bicicleta,10283,Conductor,De 30 a 34 años,Hombre,3
+2021S009224,2021-05-27T19:30:00ZZ,Calle_de_Antonio_Machado_Madrid,https://wikidata.org/entity/Q28793893,24,Moncloa-Aravaca,Colisión lateral,Despejado,Bicicleta,10284,Conductor,De 25 a 29 años,Hombre,6
+2021S009241,2021-05-27T23:45:00ZZ,Calle_de_Santa_Engracia_Madrid,https://wikidata.org/entity/Q26728109,140,Chamberi,Choque contra obstáculo fijo,Despejado,Bicicleta,10285,Conductor,De 30 a 34 años,Hombre,1
+2021S009258,2021-05-28T03:40:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,180,Chamartin,Choque contra obstáculo fijo,Despejado,Bicicleta,10286,Conductor,De 30 a 34 años,Mujer,1
+2021S009261,2021-05-27T14:05:00ZZ,CAMINO_POZO_DEL_TIO_RAIMUNDO,,37,Villa_de_Vallecas,Colisión lateral,Despejado,Bicicleta,10287,Conductor,De 30 a 34 años,Hombre,1
+2021S009357,2021-05-29T12:30:00ZZ,calle_de_Segovia,https://wikidata.org/entity/Q8255505,21,Centro,Caída,Despejado,Bicicleta,10288,Conductor,De 50 a 54 años,Hombre,6
+2021S009421,2021-05-29T10:00:00ZZ,Avenida_del_Cardenal_Herrera_Oria,https://wikidata.org/entity/Q27556319,2,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10289,Conductor,De 50 a 54 años,Hombre,7
+2021S009421,2021-05-29T10:00:00ZZ,Avenida_del_Cardenal_Herrera_Oria,https://wikidata.org/entity/Q27556319,2,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10290,Conductor,De 60 a 64 años,Hombre,6
+2021S009423,2021-05-30T11:45:00ZZ,Calle_de_Embajadores_Madrid,https://wikidata.org/entity/Q5740826,286,Arganzuela,Colisión fronto-lateral,Despejado,Bicicleta,10291,Conductor,De 45 a 49 años,Mujer,2
+2021S009484,2021-05-29T11:15:00ZZ,PASEO_PIÑONEROS,,4,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10292,Conductor,De 35 a 39 años,Hombre,2
+2021S009484,2021-05-29T11:15:00ZZ,PASEO_PIÑONEROS,,4,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10293,Conductor,De 45 a 49 años,Hombre,7
+2021S009492,2021-05-28T07:40:00ZZ,Calle_de_Embajadores_Madrid,https://wikidata.org/entity/Q5740826,300,Arganzuela,Caída,Despejado,Bicicleta,10294,Conductor,De 35 a 39 años,Mujer,7
+2021S009511,2021-05-30T15:10:00ZZ,Calle_de_Pedro_Rico_Madrid,https://wikidata.org/entity/Q56427389,19,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10295,Conductor,De 60 a 64 años,Hombre,2
+2021S009532,2021-05-31T20:35:00ZZ,CALLE_VIA_CARPETANA,,57,Carabanchel,Caída,,Bicicleta,10296,Conductor,Desconocido,Desconocido,
+2021S009537,2021-05-31T22:15:00ZZ,Paseo_de_Recoletos,https://wikidata.org/entity/Q2550870,20,Salamanca,Caída,Lluvia débil,Bicicleta,10297,Conductor,De 40 a 44 años,Hombre,5
+2021S009606,2021-01-06T19:30:00ZZ,calle_de_Bailen,https://wikidata.org/entity/Q5740811,2,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10298,Conductor,De 25 a 29 años,Mujer,6
+2021S009635,2021-01-06T11:05:00ZZ,Calle_de_Embajadores_Madrid,https://wikidata.org/entity/Q5740826,1,Centro,Atropello a persona,Despejado,Bicicleta,10299,Conductor,Desconocido,Desconocido,
+2021S009635,2021-01-06T11:05:00ZZ,Calle_de_Embajadores_Madrid,https://wikidata.org/entity/Q5740826,1,Centro,Atropello a persona,Despejado,Bicicleta,10300,Peatón,De 30 a 34 años,Hombre,5
+2021S009665,2021-01-06T15:34:00ZZ,Ronda_de_Valencia,https://wikidata.org/entity/Q16626200,9,Arganzuela,Alcance,Despejado,Bicicleta,10301,Conductor,De 35 a 39 años,Hombre,1
+2021S009673,2021-02-06T16:40:00ZZ,Calle_del_Alcalde_Sainz_de_Baranda_Madrid,https://wikidata.org/entity/Q28070977,80,Retiro,Colisión frontal,Despejado,Bicicleta,10302,Conductor,De 50 a 54 años,Hombre,14
+2021S009686,2021-01-06T21:35:00ZZ,AVENIDA_BRASILIA,,27,Salamanca,Alcance,Despejado,Bicicleta,10303,Conductor,De 55 a 59 años,Hombre,7
+2021S009724,2021-02-06T13:10:00ZZ,CALLE_ALEJANDRO_SANCHEZ,,72,Carabanchel,Choque contra obstáculo fijo,Despejado,Bicicleta,10304,Conductor,De 30 a 34 años,Hombre,7
+2021S009732,2021-02-06T12:30:00ZZ,Avenida_de_Menendez_Pelayo_Madrid,https://wikidata.org/entity/Q28936960,21,Retiro,Colisión fronto-lateral,Despejado,Bicicleta,10305,Conductor,De 55 a 59 años,Hombre,
+2021S009753,2021-02-06T14:55:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,216,Chamartin,Colisión lateral,Despejado,Bicicleta,10306,Conductor,De 40 a 44 años,Hombre,7
+2021S009776,2021-03-06T19:45:00ZZ,GLORIETA_MARQUES_DE_VADILLO,,1,Carabanchel,Alcance,Despejado,Bicicleta,10307,Conductor,De 60 a 64 años,Hombre,7
+2021S009839,2021-04-06T19:05:00ZZ,calle_de_Fuencarral,https://wikidata.org/entity/Q5740840,134,Chamberi,Colisión fronto-lateral,Despejado,Bicicleta,10308,Conductor,De 40 a 44 años,Hombre,3
+2021S009902,2021-05-06T05:30:00ZZ,PLAZA_LEGAZPI,,9,Arganzuela,Caída,Despejado,Bicicleta,10309,Conductor,De 30 a 34 años,Hombre,6
+2021S009947,2021-05-06T23:00:00ZZ,Alcala_Street,https://wikidata.org/entity/Q2424746,217,Salamanca,Colisión lateral,Despejado,Bicicleta,10310,Conductor,De 30 a 34 años,Hombre,3
+2021S010047,2021-06-06T11:30:00ZZ,Avenida_de_las_Fuerzas_Armadas_Madrid,https://wikidata.org/entity/Q29353164,136,Hortaleza,Caída,Despejado,Bicicleta,10311,Conductor,De 40 a 44 años,Mujer,1
+2021S010076,2021-07-06T15:00:00ZZ,PLAZA_CORTES,,2,Centro,Colisión fronto-lateral,Despejado,Bicicleta,10312,Conductor,De 25 a 29 años,Mujer,7
+2021S010099,2021-07-06T19:45:00ZZ,PLAZA_ALSACIA,,1,San_Blas,Colisión fronto-lateral,Despejado,Bicicleta,10313,Conductor,De 21 a 24 años,Hombre,
+2021S010125,2021-06-06T13:35:00ZZ,AVENIDA_MONASTERIO_DE_SILOS,,96,Fuencarral-El_Pardo,Colisión frontal,Despejado,Bicicleta,10314,Conductor,De 50 a 54 años,Hombre,6
+2021S010125,2021-06-06T13:35:00ZZ,AVENIDA_MONASTERIO_DE_SILOS,,96,Fuencarral-El_Pardo,Colisión frontal,Despejado,Bicicleta,10315,Conductor,De 55 a 59 años,Hombre,7
+2021S010131,2021-08-06T08:50:00ZZ,plaza_de_Cibeles,https://wikidata.org/entity/Q1537446,1,Retiro,Colisión lateral,Despejado,Bicicleta,10316,Conductor,De 50 a 54 años,Mujer,3
+2021S010149,2021-06-06T11:35:00ZZ,CALLE_ISABEL_COLBRAND,,1,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10317,Conductor,De 10 a 14 años,Mujer,5
+2021S010188,2021-07-06T06:47:00ZZ,Avenida_de_Portugal,https://wikidata.org/entity/Q26736141,157,Latina,Colisión fronto-lateral,Despejado,Bicicleta,10318,Conductor,De 50 a 54 años,Hombre,1
+2021S010245,2021-09-06T19:15:00ZZ,Calle_de_Pinos_Alta_Madrid,https://wikidata.org/entity/Q54562684,5,Tetuan,Atropello a persona,Despejado,Bicicleta,10319,Conductor,De 21 a 24 años,Hombre,14
+2021S010245,2021-09-06T19:15:00ZZ,Calle_de_Pinos_Alta_Madrid,https://wikidata.org/entity/Q54562684,5,Tetuan,Atropello a persona,Despejado,Bicicleta,10320,Peatón,De 40 a 44 años,Mujer,2
+2021S010276,2021-10-06T12:39:00ZZ,CALLE_SAN_DALMACIO,,19,Villaverde,Colisión lateral,Despejado,Bicicleta,10321,Conductor,De 25 a 29 años,Hombre,
+2021S010414,2021-10-06T16:05:00ZZ,CALLE_PLANETA_TIERRA,,1,Arganzuela,Caída,Despejado,Bicicleta,10322,Conductor,De 40 a 44 años,Hombre,1
+2021S010419,2021-10-06T14:20:00ZZ,Paseo_de_Santa_Maria_de_la_Cabeza,https://wikidata.org/entity/Q6065630,18,Arganzuela,Caída,Despejado,Bicicleta,10323,Conductor,De 18 a 20 años,Hombre,1
+2021S010483,2021-12-06T10:15:00ZZ,CALLE_ALEGRIA_DE_ORIA,,5,San_Blas,Colisión lateral,Despejado,Bicicleta,10324,Conductor,De 55 a 59 años,Hombre,7
+2021S010514,2021-12-06T21:30:00ZZ,calle_de_Genova,https://wikidata.org/entity/Q24294474,24,Centro,Caída,Despejado,Bicicleta,10325,Conductor,De 30 a 34 años,Hombre,2
+2021S010564,2021-06-13T11:50:00ZZ,REAL_DE_ARGANDA,,74,Villa_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10326,Conductor,De 65 a 69 años,Hombre,
+2021S010567,2021-12-06T09:45:00ZZ,CALLE_SAMARIA,,14,Retiro,Caída,Despejado,Bicicleta,10327,Conductor,De 50 a 54 años,Hombre,1
+2021S010572,2021-11-06T19:25:00ZZ,CALLE_MONASTERIO_DE_LAS_HUELGAS,,5,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10328,Conductor,De 15 a 17 años,Hombre,7
+2021S010587,2021-06-13T21:20:00ZZ,calle_de_Genova,https://wikidata.org/entity/Q24294474,16,Centro,Colisión fronto-lateral,Nublado,Bicicleta,10329,Conductor,De 25 a 29 años,Hombre,2
+2021S010594,2021-06-13T05:05:00ZZ,Princesa,https://wikidata.org/entity/Q5740935,31,Moncloa-Aravaca,Alcance,Despejado,Bicicleta,10330,Conductor,De 25 a 29 años,Hombre,2
+2021S010682,2021-06-15T08:55:00ZZ,CALLE_LOMBIA,,1,Salamanca,Colisión fronto-lateral,,Bicicleta,10331,Conductor,De 40 a 44 años,Hombre,14
+2021S010698,2021-06-15T15:00:00ZZ,Paseo_de_la_Ermita_del_Santo,https://wikidata.org/entity/Q28137105,16,Latina,Colisión fronto-lateral,Despejado,Bicicleta,10332,Conductor,De 25 a 29 años,Hombre,14
+2021S010698,2021-06-15T15:00:00ZZ,Paseo_de_la_Ermita_del_Santo,https://wikidata.org/entity/Q28137105,16,Latina,Colisión fronto-lateral,Despejado,Bicicleta,10333,Conductor,De 55 a 59 años,Hombre,7
+2021S010709,2021-06-14T21:41:00ZZ,CALLE_MONASTERIO_DE_EL_PAULAR,,2,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10334,Conductor,De 50 a 54 años,Hombre,7
+2021S010725,2021-06-15T23:02:00ZZ,Avenida_del_Marques_de_Corbera_Madrid,https://wikidata.org/entity/Q29168364,22,Ciudad_Lineal,Colisión lateral,Despejado,Bicicleta,10335,Conductor,De 25 a 29 años,Hombre,1
+2021S010739,2021-06-15T11:30:00ZZ,paseo_de_Ruperto_Chapi,https://wikidata.org/entity/Q42250337,2,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10336,Conductor,De 40 a 44 años,Hombre,1
+2021S010803,2021-06-17T08:25:00ZZ,calle_de_Velazquez,https://wikidata.org/entity/Q20031523,6,Salamanca,Alcance,Lluvia débil,Bicicleta,10337,Conductor,De 35 a 39 años,Mujer,2
+2021S010810,2021-09-06T07:00:00ZZ,Paseo_del_Prado,https://wikidata.org/entity/Q2079615,1,Retiro,Caída,Despejado,Bicicleta,10338,Conductor,De 30 a 34 años,Hombre,1
+2021S010831,2021-06-15T10:20:00ZZ,Avenida_de_Francisco_Pi_y_Margall,https://wikidata.org/entity/Q27268566,98,Hortaleza,Colisión frontal,Despejado,Bicicleta,10339,Conductor,De 35 a 39 años,Hombre,
+2021S010916,2021-06-16T20:00:00ZZ,CALLE_RICARDO_BELTRAN_Y_ROZPIDE,,1,Usera,Alcance,Despejado,Bicicleta,10340,Conductor,De 10 a 14 años,Hombre,7
+2021S010978,2021-06-19T01:40:00ZZ,Calle_de_Juan_Bravo_Madrid,https://wikidata.org/entity/Q28054647,32,Salamanca,Caída,Despejado,Bicicleta,10341,Conductor,De 25 a 29 años,Hombre,6
+2021S011089,2021-06-19T21:35:00ZZ,GLORIETA_EDIMBURGO,,1,Barajas,Colisión fronto-lateral,Despejado,Bicicleta,10342,Conductor,De 45 a 49 años,Hombre,14
+2021S011097,2021-06-20T18:10:00ZZ,Calle_de_Toledo,https://wikidata.org/entity/Q5740883,74,Centro,Caída,Despejado,Bicicleta,10343,Conductor,De 25 a 29 años,Mujer,1
+2021S011098,2021-06-20T18:55:00ZZ,CALLE_LUIS_DE_HOYOS_SAINZ,,162,Moratalaz,Alcance,Despejado,Bicicleta,10344,Conductor,De 15 a 17 años,Hombre,3
+2021S011192,2021-06-21T07:50:00ZZ,CALLE_BIGASTRO,,6,Latina,Caída,Despejado,Bicicleta,10345,Conductor,De 45 a 49 años,Hombre,7
+2021S011221,2021-06-21T20:39:00ZZ,Avenida_del_Doctor_Garcia_Tapia_Madrid,https://wikidata.org/entity/Q28935864,232,Moratalaz,Choque contra obstáculo fijo,Despejado,Bicicleta,10346,Conductor,De 10 a 14 años,Hombre,7
+2021S011227,2021-06-19T21:05:00ZZ,calle_de_Blas_Cabrera,https://wikidata.org/entity/Q29405139,125,Latina,Choque contra obstáculo fijo,,Bicicleta,10347,Conductor,De 50 a 54 años,Hombre,14
+2021S011286,2021-06-23T18:20:00ZZ,Calle_de_Toledo,https://wikidata.org/entity/Q5740883,107,Centro,Caída,Despejado,Bicicleta,10348,Conductor,De 30 a 34 años,Mujer,1
+2021S011347,2021-06-24T17:05:00ZZ,Calle_de_O'Donnell_Madrid,https://wikidata.org/entity/Q5740859,44,Retiro,Colisión fronto-lateral,Despejado,Bicicleta,10349,Conductor,De 30 a 34 años,Hombre,6
+2021S011380,2021-06-25T01:10:00ZZ,CALLE_BALTASAR_SANTOS,,2,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10350,Conductor,De 40 a 44 años,Mujer,7
+2021S011439,2021-06-24T22:15:00ZZ,Avenida_del_Planetario,https://wikidata.org/entity/Q17622122,18,Arganzuela,Caída,Despejado,Bicicleta,10351,Conductor,De 25 a 29 años,Hombre,1
+2021S011442,2021-06-24T21:50:00ZZ,PASEO_OLMOS,,14,Arganzuela,Caída,Despejado,Bicicleta,10352,Conductor,De 25 a 29 años,Hombre,7
+2021S011478,2021-06-25T23:25:00ZZ,calle_del_Principe_de_Vergara,https://wikidata.org/entity/Q5741020,69,Salamanca,Caída,Despejado,Bicicleta,10353,Conductor,De 30 a 34 años,Mujer,7
+2021S011535,2021-06-26T13:52:00ZZ,calle_de_Hortaleza,https://wikidata.org/entity/Q5740911,73,Centro,Colisión lateral,Despejado,Bicicleta,10354,Conductor,De 30 a 34 años,Hombre,
+2021S011544,2021-06-26T18:00:00ZZ,Calle_de_la_Cruz_Madrid,https://wikidata.org/entity/Q16659214,33,Centro,Colisión lateral,Despejado,Bicicleta,10355,Conductor,De 35 a 39 años,Hombre,
+2021S011553,2021-06-26T21:00:00ZZ,Avenida_de_la_Institucion_Libre_de_Enseñanza_Madrid,https://wikidata.org/entity/Q5740959,79,San_Blas,Colisión fronto-lateral,Despejado,Bicicleta,10356,Conductor,De 6  a  9 años,Hombre,
+2021S011563,2021-06-27T00:00:00ZZ,Calle_de_Jorge_Juan,https://wikidata.org/entity/Q28070822,38,Salamanca,Colisión fronto-lateral,Despejado,Bicicleta,10357,Conductor,De 21 a 24 años,Mujer,6
+2021S011606,2021-06-26T11:12:00ZZ,CALLE_FERMIN_CABALLERO,,89,Fuencarral-El_Pardo,Colisión fronto-lateral,Despejado,Bicicleta,10358,Conductor,De 35 a 39 años,Hombre,7
+2021S011675,2021-06-27T23:35:00ZZ,calle_del_Principe_de_Vergara,https://wikidata.org/entity/Q5741020,209A,Chamartin,Caída,Despejado,Bicicleta,10359,Conductor,De 25 a 29 años,Mujer,2
+2021S011676,2021-06-27T10:30:00ZZ,CALLE_LA_TABERNERA_DEL_PUERTO,,2,Villaverde,Colisión fronto-lateral,Despejado,Bicicleta,10360,Conductor,De 60 a 64 años,Hombre,6
+2021S011682,2021-06-27T10:30:00ZZ,CALLE_ENCOMIENDA_DE_PALACIOS,,1,Moratalaz,Caída,Despejado,Bicicleta,10361,Conductor,De 18 a 20 años,Hombre,7
+2021S011690,2021-06-27T13:05:00ZZ,CALLE_LA_ALBERCA,,7,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10362,Conductor,De 25 a 29 años,Hombre,6
+2021S011716,2021-06-28T17:55:00ZZ,PASEO_EMBARCADERO,,6,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10363,Conductor,De 10 a 14 años,Hombre,6
+2021S011762,2021-06-25T20:04:00ZZ,CAMINO_PERALES,,98,Usera,Caída,Despejado,Bicicleta,10364,Conductor,De 30 a 34 años,Hombre,7
+2021S011845,2021-06-29T19:00:00ZZ,CALLE_SAN_EPIFANIO,,5,Arganzuela,Colisión fronto-lateral,,Bicicleta,10365,Conductor,De 30 a 34 años,Hombre,14
+2021S011847,2021-06-30T16:45:00ZZ,Paseo_de_Recoletos,https://wikidata.org/entity/Q2550870,22,Salamanca,Colisión lateral,Despejado,Bicicleta,10366,Conductor,De 30 a 34 años,Hombre,14
+2021S011873,2021-01-07T01:30:00ZZ,AVENIDA_MIGUEL_HERNANDEZ,,48,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10367,Conductor,De 55 a 59 años,Hombre,2
+2021S011906,2021-01-07T16:21:00ZZ,AVENIDA_LOS_ROSALES,,42,Villaverde,Caída,Despejado,Bicicleta,10368,Conductor,De 65 a 69 años,Hombre,2
+2021S011983,2021-02-07T12:10:00ZZ,AVENIDA_LOS_ROSALES,,42,Villaverde,Caída,Despejado,Bicicleta,10369,Conductor,De 60 a 64 años,Hombre,3
+2021S012045,2021-03-07T12:30:00ZZ,avenida_de_los_Poblados,https://wikidata.org/entity/Q26795575,110,Carabanchel,Colisión fronto-lateral,Despejado,Bicicleta,10370,Conductor,De 21 a 24 años,Mujer,7
+2021S012099,2021-03-07T11:45:00ZZ,CALLE_JULIO_CANO_LASSO,,4,Barajas,Colisión fronto-lateral,Despejado,Bicicleta,10371,Conductor,De 55 a 59 años,Hombre,14
+2021S012109,2021-03-07T21:30:00ZZ,CALLE_COSTA_BRAVA,,16,Fuencarral-El_Pardo,Caída,Despejado,Bicicleta,10372,Conductor,De 55 a 59 años,Mujer,2
+2021S012134,2021-04-07T02:05:00ZZ,Calle_de_la_Ribera_de_Curtidores,https://wikidata.org/entity/Q5740938,28,Arganzuela,Caída,Despejado,Bicicleta,10373,Conductor,De 40 a 44 años,Hombre,2
+2021S012177,2021-05-07T15:45:00ZZ,GLORIETA_HAMBURGO,,1,Barajas,Choque contra obstáculo fijo,Despejado,Bicicleta,10374,Conductor,De 10 a 14 años,Mujer,2
+2021S012177,2021-05-07T15:45:00ZZ,GLORIETA_HAMBURGO,,1,Barajas,Choque contra obstáculo fijo,Despejado,Bicicleta,10375,Conductor,De 25 a 29 años,Mujer,2
+2021S012191,2021-05-07T20:50:00ZZ,Calle_de_Embajadores_Madrid,https://wikidata.org/entity/Q5740826,70,Centro,Otro,Despejado,Bicicleta,10376,Conductor,De 25 a 29 años,Mujer,2
+2021S012197,2021-05-07T22:30:00ZZ,calle_de_Vallehermoso,https://wikidata.org/entity/Q27243374,70,Chamberi,Alcance,Despejado,Bicicleta,10377,Conductor,De 30 a 34 años,Mujer,2
+2021S012202,2021-04-07T09:30:00ZZ,CARRETERA_ZARZON,,6,Moncloa-Aravaca,Atropello a animal,Despejado,Bicicleta,10378,Conductor,De 50 a 54 años,Hombre,7
+2021S012216,2021-06-07T12:45:00ZZ,Calle_de_Goya,https://wikidata.org/entity/Q28015873,70,Salamanca,Caída,Lluvia débil,Bicicleta,10379,Conductor,De 15 a 17 años,Hombre,7
+2021S012216,2021-06-07T12:45:00ZZ,Calle_de_Goya,https://wikidata.org/entity/Q28015873,70,Salamanca,Caída,Lluvia débil,Bicicleta,10380,Conductor,De 55 a 59 años,Mujer,7
+2021S012242,2021-06-07T16:45:00ZZ,Calle_del_Arroyo_del_Olivar_Madrid,https://wikidata.org/entity/Q29561517,70,Puente_de_Vallecas,Caída,Nublado,Bicicleta,10381,Conductor,De 45 a 49 años,Hombre,1
+2021S012261,2021-06-07T20:15:00ZZ,Madrid_Ring_Road,https://wikidata.org/entity/Q2606591,+00460E,Carabanchel,Colisión fronto-lateral,Despejado,Bicicleta,10382,Conductor,De 55 a 59 años,Hombre,14
+2021S012268,2021-07-07T01:15:00ZZ,Avenida_de_America_Madrid,https://wikidata.org/entity/Q5686040,1,Chamartin,Alcance,Despejado,Bicicleta,10383,Conductor,De 45 a 49 años,Mujer,2
+2021S012276,2021-06-07T10:20:00ZZ,CALLE_SEPULVEDA,,9,Latina,Caída,Despejado,Bicicleta,10384,Conductor,De 25 a 29 años,Hombre,2
+2021S012280,2021-06-07T12:50:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,63,Chamberi,Caída,Lluvia débil,Bicicleta,10385,Conductor,De 40 a 44 años,Hombre,7
+2021S012287,2021-06-07T13:00:00ZZ,Calle_de_Antonio_Maura_Madrid,https://wikidata.org/entity/Q29566726,5,Retiro,Caída,Lluvia débil,Bicicleta,10386,Conductor,De 45 a 49 años,Hombre,7
+2021S012316,2021-06-07T16:25:00ZZ,Avenida_de_Cordoba,https://wikidata.org/entity/Q63247230,2,Usera,Caída,Lluvia débil,Bicicleta,10387,Conductor,De 40 a 44 años,Hombre,7
+2021S012329,2021-07-07T20:15:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,102,Tetuan,Alcance,Despejado,Bicicleta,10388,Conductor,De 40 a 44 años,Hombre,
+2021S012441,2021-09-07T16:15:00ZZ,Calle_de_las_Hileras_Madrid,https://wikidata.org/entity/Q28051025,12,Centro,Alcance,Despejado,Bicicleta,10389,Conductor,De 18 a 20 años,Hombre,7
+2021S012454,2021-09-07T20:50:00ZZ,Castilla_Street,https://wikidata.org/entity/Q28966738,3,Tetuan,Colisión fronto-lateral,Despejado,Bicicleta,10390,Conductor,De 25 a 29 años,Hombre,14
+2021S012454,2021-09-07T20:50:00ZZ,Castilla_Street,https://wikidata.org/entity/Q28966738,3,Tetuan,Colisión fronto-lateral,Despejado,Bicicleta,10391,Pasajero,De 21 a 24 años,Hombre,14
+2021S012530,2021-11-07T07:00:00ZZ,AVENIDA_CARABANCHEL_ALTO,,100,Carabanchel,Colisión fronto-lateral,Despejado,Bicicleta,10392,Conductor,De 45 a 49 años,Hombre,2
+2021S012574,2021-12-07T00:32:00ZZ,calle_de_Arturo_Soria,https://wikidata.org/entity/Q8255504,197,Ciudad_Lineal,Caída,Despejado,Bicicleta,10393,Conductor,De 45 a 49 años,Hombre,2
+2021S012589,2021-11-07T11:40:00ZZ,CARRETERA_ESTACION_DE_HORTALEZA,,8,Hortaleza,Caída,Despejado,Bicicleta,10394,Conductor,De 50 a 54 años,Hombre,14
+2021S012589,2021-11-07T11:40:00ZZ,CARRETERA_ESTACION_DE_HORTALEZA,,8,Hortaleza,Caída,Despejado,Bicicleta,10395,Conductor,De 70 a 74 años,Hombre,6
+2021S012596,2021-12-07T11:30:00ZZ,CALLE_SAN_SEVERO,,22,Barajas,Caída,Despejado,Bicicleta,10396,Conductor,De 15 a 17 años,Hombre,7
+2021S012603,2021-09-07T21:10:00ZZ,CALLE_MORALZARZAL,,4,Fuencarral-El_Pardo,Colisión fronto-lateral,,Bicicleta,10397,Conductor,De 30 a 34 años,Hombre,
+2021S012617,2021-12-07T17:22:00ZZ,CAMINO_VALDERRIBAS,,99,Puente_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10398,Conductor,De 35 a 39 años,Hombre,6
+2021S012628,2021-12-07T17:55:00ZZ,CALLE_AVELINO_FERNANDEZ_DE_LA_POZA,,2,Puente_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10399,Conductor,De 10 a 14 años,Hombre,7
+2021S012642,2021-12-07T22:45:00ZZ,CALLE_HIJAS_DE_JESUS,,1,Usera,Colisión lateral,Despejado,Bicicleta,10400,Conductor,De 35 a 39 años,Mujer,7
+2021S012666,2021-12-07T19:00:00ZZ,CALLE_ENRIQUE_VELASCO,,25,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10401,Conductor,De 45 a 49 años,Hombre,14
+2021S012749,2021-07-14T19:35:00ZZ,AVENIDA_MANZANARES,,48,Latina,Atropello a persona,Despejado,Bicicleta,10402,Conductor,De 50 a 54 años,Hombre,7
+2021S012749,2021-07-14T19:35:00ZZ,AVENIDA_MANZANARES,,48,Latina,Atropello a persona,Despejado,Bicicleta,10403,Peatón,Menor de 5 años,Mujer,7
+2021S012818,2021-07-15T20:40:00ZZ,Avenida_de_Portugal,https://wikidata.org/entity/Q26736141,1,Latina,Caída,Despejado,Bicicleta,10404,Conductor,De 55 a 59 años,Mujer,6
+2021S012885,2021-07-16T19:57:00ZZ,calle_del_Principe_de_Vergara,https://wikidata.org/entity/Q5741020,197,Chamartin,Alcance,Despejado,Bicicleta,10405,Conductor,De 30 a 34 años,Hombre,2
+2021S012981,2021-07-18T20:45:00ZZ,CARRETERA_PARQUE_DE_ATRACCIONES,,1,Moncloa-Aravaca,Choque contra obstáculo fijo,Despejado,Bicicleta,10406,Conductor,De 40 a 44 años,Hombre,7
+2021S013003,2021-07-19T13:00:00ZZ,GLORIETA_JAIME_CAMPMANY,,0,Salamanca,Colisión fronto-lateral,Despejado,Bicicleta,10407,Conductor,De 25 a 29 años,Hombre,14
+2021S013025,2021-07-19T18:29:00ZZ,CALLE_ARGOS,,21,San_Blas,Atropello a persona,Despejado,Bicicleta,10408,Conductor,De 10 a 14 años,Hombre,14
+2021S013025,2021-07-19T18:29:00ZZ,CALLE_ARGOS,,21,San_Blas,Atropello a persona,Despejado,Bicicleta,10409,Peatón,De 50 a 54 años,Mujer,7
+2021S013065,2021-07-15T18:15:00ZZ,CALLE_AMOR_HERMOSO,,10,Usera,Colisión fronto-lateral,Despejado,Bicicleta,10410,Conductor,De 50 a 54 años,Hombre,7
+2021S013083,2021-07-20T18:27:00ZZ,Avenida_de_Niceto_Alcala_Zamora_Madrid,https://wikidata.org/entity/Q62107332,20,Hortaleza,Otro,Despejado,Bicicleta,10411,Conductor,De 45 a 49 años,Hombre,5
+2021S013112,2021-07-21T09:15:00ZZ,calle_de_Mejia_Lequerica,https://wikidata.org/entity/Q24560004,8,Centro,Caída,Despejado,Bicicleta,10412,Conductor,De 55 a 59 años,Hombre,7
+2021S013150,2021-07-21T20:30:00ZZ,Avenida_de_las_Fuerzas_Armadas_Madrid,https://wikidata.org/entity/Q29353164,10,Hortaleza,Colisión fronto-lateral,Despejado,Bicicleta,10413,Conductor,De 30 a 34 años,Hombre,2
+2021S013169,2021-07-21T22:55:00ZZ,Calle_del_Alcalde_Sainz_de_Baranda_Madrid,https://wikidata.org/entity/Q28070977,101,Retiro,Otro,Despejado,Bicicleta,10414,Conductor,De 35 a 39 años,Hombre,1
+2021S013299,2021-07-22T16:40:00ZZ,CALLE_CIGARRERAS,,8,Arganzuela,Colisión fronto-lateral,Despejado,Bicicleta,10415,Conductor,De 45 a 49 años,Hombre,7
+2021S013310,2021-07-25T20:10:00ZZ,Calle_de_las_Infantas_Madrid,https://wikidata.org/entity/Q21004010,40,Centro,Caída,Despejado,Bicicleta,10416,Conductor,De 45 a 49 años,Hombre,1
+2021S013386,2021-07-21T21:15:00ZZ,PLAZA_ALONSO_MARTINEZ,,1,Chamberi,Colisión fronto-lateral,Despejado,Bicicleta,10417,Conductor,De 50 a 54 años,Hombre,
+2021S013394,2021-07-26T21:00:00ZZ,CALLE_MONSEÑOR_OSCAR_ROMERO,,54,Carabanchel,Colisión fronto-lateral,Despejado,Bicicleta,10418,Conductor,De 35 a 39 años,Hombre,6
+2021S013403,2021-07-27T08:10:00ZZ,CALLE_PIO_BAROJA,,10,Retiro,Colisión fronto-lateral,Despejado,Bicicleta,10419,Conductor,De 40 a 44 años,Hombre,2
+2021S013434,2021-07-26T15:50:00ZZ,Paseo_de_Santa_Maria_de_la_Cabeza,https://wikidata.org/entity/Q6065630,1,Arganzuela,Alcance,Despejado,Bicicleta,10420,Conductor,De 30 a 34 años,Hombre,14
+2021S013471,2021-07-27T12:50:00ZZ,CALLE_ANCORA,,15,Arganzuela,Otro,Despejado,Bicicleta,10421,Conductor,De 40 a 44 años,Hombre,7
+2021S013604,2021-07-25T00:07:00ZZ,Paseo_del_Prado,https://wikidata.org/entity/Q2079615,8,Centro,Caída,Despejado,Bicicleta,10422,Conductor,De 21 a 24 años,Mujer,1
+2021S013686,2021-07-31T11:15:00ZZ,CALLE_PADRE_LLANOS,,24,Puente_de_Vallecas,Colisión frontal,Lluvia débil,Bicicleta,10423,Conductor,De 40 a 44 años,Hombre,7
+2021S013696,2021-07-31T16:15:00ZZ,CALLE_EL_TOBOSO,,49,Carabanchel,Colisión fronto-lateral,Despejado,Bicicleta,10424,Conductor,De 15 a 17 años,Hombre,7
+2021S013744,2021-01-08T15:00:00ZZ,PARQUE_RETIRO,,0,Retiro,Atropello a persona,Despejado,Bicicleta,10425,Conductor,De 10 a 14 años,Mujer,14
+2021S013744,2021-01-08T15:00:00ZZ,PARQUE_RETIRO,,0,Retiro,Atropello a persona,Despejado,Bicicleta,10426,Peatón,De 65 a 69 años,Hombre,14
+2021S013755,2021-01-08T19:45:00ZZ,CALLE_MISTERIOS,,97,Ciudad_Lineal,Choque contra obstáculo fijo,Despejado,Bicicleta,10427,Conductor,De 35 a 39 años,Hombre,2
+2021S013834,2021-02-08T10:00:00ZZ,CARRETERA_BOADILLA_DEL_MONTE,,34,Latina,Colisión frontal,Despejado,Bicicleta,10428,Conductor,De 40 a 44 años,Hombre,14
+2021S013834,2021-02-08T10:00:00ZZ,CARRETERA_BOADILLA_DEL_MONTE,,34,Latina,Colisión frontal,Despejado,Bicicleta,10429,Conductor,De 55 a 59 años,Hombre,2
+2021S013839,2021-03-08T12:00:00ZZ,Calle_de_Ayala_Madrid,https://wikidata.org/entity/Q28052812,72,Salamanca,Caída,Despejado,Bicicleta,10430,Conductor,De 25 a 29 años,Mujer,1
+2021S013842,2021-07-25T01:00:00ZZ,Avenida_de_Asturias,https://wikidata.org/entity/Q30300905,62,Tetuan,Caída,Despejado,Bicicleta,10431,Conductor,De 25 a 29 años,Mujer,
+2021S013863,2021-03-08T20:35:00ZZ,calle_del_Parroco_Don_Emilio_Franco,https://wikidata.org/entity/Q36335795,10,Puente_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10432,Conductor,De 50 a 54 años,Hombre,7
+2021S013873,2021-07-31T00:45:00ZZ,Calle_Mayor,https://wikidata.org/entity/Q1149052,25,Centro,Colisión lateral,Despejado,Bicicleta,10433,Conductor,De 21 a 24 años,Mujer,7
+2021S013891,2021-03-08T22:38:00ZZ,AVENIDA_DEMOCRACIA,,19,Puente_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10434,Conductor,De 45 a 49 años,Hombre,6
+2021S013972,2021-04-08T19:55:00ZZ,Avenida_de_America_Madrid,https://wikidata.org/entity/Q5686040,38,Salamanca,Caída,Despejado,Bicicleta,10435,Conductor,De 35 a 39 años,Hombre,7
+2021S013974,2021-05-08T19:50:00ZZ,PASEO_MELANCOLICOS,,47,Arganzuela,Colisión fronto-lateral,Despejado,Bicicleta,10436,Conductor,De 21 a 24 años,Mujer,2
+2021S013975,2021-05-08T20:12:00ZZ,Avenida_de_la_Albufera,https://wikidata.org/entity/Q5714221,323,Puente_de_Vallecas,Caída,Despejado,Bicicleta,10437,Conductor,De 60 a 64 años,Hombre,7
+2021S013982,2021-06-08T00:15:00ZZ,AVENIDA_HELLIN,,21,San_Blas,Colisión fronto-lateral,Despejado,Bicicleta,10438,Conductor,De 21 a 24 años,Hombre,
+2021S014018,2021-05-08T21:55:00ZZ,Calle_de_la_Ribera_de_Curtidores,https://wikidata.org/entity/Q5740938,47,Arganzuela,Colisión fronto-lateral,Despejado,Bicicleta,10439,Conductor,De 30 a 34 años,Mujer,7
+2021S014084,2021-07-08T19:20:00ZZ,Paseo_de_la_Castellana,https://wikidata.org/entity/Q1473674,81,Tetuan,Choque contra obstáculo fijo,Despejado,Bicicleta,10440,Conductor,De 40 a 44 años,Hombre,3
+2021S014116,2021-08-08T13:50:00ZZ,Calle_de_las_Infantas_Madrid,https://wikidata.org/entity/Q21004010,3,Centro,Caída,Despejado,Bicicleta,10441,Conductor,De 25 a 29 años,Hombre,7
+2021S014130,2021-08-08T17:30:00ZZ,PASEO_FERNAN_NUÑEZ,,26,Retiro,Otro,Despejado,Bicicleta,10442,Conductor,De 6  a  9 años,Hombre,7
+2021S014146,2021-04-08T12:00:00ZZ,PARQUE_CASA_DE_CAMPO,,0,Moncloa-Aravaca,Solo salida de la vía,Despejado,Bicicleta,10443,Conductor,De 55 a 59 años,Hombre,1
+2021S014147,2021-08-08T08:40:00ZZ,Paseo_de_las_Yeserias_Madrid,https://wikidata.org/entity/Q16616818,33,Arganzuela,Colisión lateral,Despejado,Bicicleta,10444,Conductor,De 70 a 74 años,Hombre,14
+2021S014148,2021-08-08T10:20:00ZZ,CALLE_NURIA,,1,Fuencarral-El_Pardo,Atropello a persona,Despejado,Bicicleta,10445,Conductor,Desconocido,Desconocido,
+2021S014148,2021-08-08T10:20:00ZZ,CALLE_NURIA,,1,Fuencarral-El_Pardo,Atropello a persona,Despejado,Bicicleta,10446,Peatón,De 40 a 44 años,Mujer,1
+2021S014174,2021-09-08T20:02:00ZZ,CALLE_MINERVA,,58,Vicalvaro,Colisión lateral,Despejado,Bicicleta,10447,Conductor,De 10 a 14 años,Hombre,2
+2021S014182,2021-09-08T23:34:00ZZ,avenida_de_Pablo_Iglesias,https://wikidata.org/entity/Q28045035,40,Tetuan,Colisión lateral,,Bicicleta,10448,Conductor,De 30 a 34 años,Hombre,
+2021S014189,2021-09-08T10:45:00ZZ,Carretera_de_Canillas_Madrid,https://wikidata.org/entity/Q28973490,122,Hortaleza,Colisión fronto-lateral,Despejado,Bicicleta,10449,Conductor,De 50 a 54 años,Hombre,14
+2021S014240,2021-10-08T16:50:00ZZ,PLAZA_BEATA_MARIA_ANA_DE_JESUS,,14,Arganzuela,Colisión lateral,Despejado,Bicicleta,10450,Conductor,De 40 a 44 años,Hombre,7
+2021S014406,2021-08-14T02:30:00ZZ,Calle_de_Bravo_Murillo,https://wikidata.org/entity/Q5740815,211,Tetuan,Caída,Despejado,Bicicleta,10451,Conductor,De 25 a 29 años,Hombre,7
+2021S014441,2021-08-14T16:00:00ZZ,Ronda_de_Toledo_Madrid,https://wikidata.org/entity/Q6111946,14,Arganzuela,Alcance,Despejado,Bicicleta,10452,Conductor,De 18 a 20 años,Mujer,7
+2021S014441,2021-08-14T16:00:00ZZ,Ronda_de_Toledo_Madrid,https://wikidata.org/entity/Q6111946,14,Arganzuela,Alcance,Despejado,Bicicleta,10453,Conductor,De 21 a 24 años,Mujer,14
+2021S014570,2021-08-19T01:30:00ZZ,AVENIDA_OPORTO,,8,Carabanchel,Colisión lateral,Despejado,Bicicleta,10454,Conductor,De 35 a 39 años,Hombre,7
+2021S014602,2021-08-19T20:00:00ZZ,CALLE_NUMANCIA,,2,Tetuan,Caída,Despejado,Bicicleta,10455,Conductor,De 50 a 54 años,Mujer,6
+2021S014625,2021-08-19T11:30:00ZZ,calle_de_Arturo_Soria,https://wikidata.org/entity/Q8255504,71,Ciudad_Lineal,Caída,Despejado,Bicicleta,10456,Conductor,De 50 a 54 años,Hombre,
+2021S014828,2021-08-24T22:10:00ZZ,Avenida_Complutense_Madrid,https://wikidata.org/entity/Q63954356,40,Moncloa-Aravaca,Caída,Despejado,Bicicleta,10457,Conductor,De 60 a 64 años,Hombre,2
+2021S014841,2021-08-25T11:55:00ZZ,AVENIDA_BLAS_DE_LEZO,,26,Vicalvaro,Caída,Despejado,Bicicleta,10458,Conductor,De 70 a 74 años,Hombre,1
+2021S014844,2021-08-25T14:50:00ZZ,Serrano_Street,https://wikidata.org/entity/Q5740879,240,Chamartin,Colisión lateral,Despejado,Bicicleta,10459,Conductor,De 30 a 34 años,Mujer,6
+2021S014868,2021-08-25T05:50:00ZZ,Calle_Arroyo_de_la_Media_Legua_Madrid,https://wikidata.org/entity/Q28935853,72,Moratalaz,Caída,Despejado,Bicicleta,10460,Conductor,De 40 a 44 años,Hombre,2
+2021S014870,2021-08-26T08:20:00ZZ,avenida_Real_de_Pinto,https://wikidata.org/entity/Q5714023,32,Villaverde,Caída,Despejado,Bicicleta,10461,Conductor,De 60 a 64 años,Hombre,2
+2021S014934,2021-08-27T10:40:00ZZ,Alcala_Street,https://wikidata.org/entity/Q2424746,81,Salamanca,Caída,,Bicicleta,10462,Conductor,De 30 a 34 años,Hombre,
+2021S014984,2021-08-28T10:20:00ZZ,CALLE_SAN_DALMACIO,,43,Villaverde,Caída,Despejado,Bicicleta,10463,Conductor,De 60 a 64 años,Hombre,7
+2021S015034,2021-08-29T19:26:00ZZ,Alcala_Street,https://wikidata.org/entity/Q2424746,249,Ciudad_Lineal,Colisión fronto-lateral,Despejado,Bicicleta,10464,Conductor,De 10 a 14 años,Hombre,1
+2021S015036,2021-08-29T19:20:00ZZ,CALLE_AZCONA,,27,Salamanca,Colisión fronto-lateral,Despejado,Bicicleta,10465,Conductor,De 25 a 29 años,Hombre,6
+2021S015057,2021-08-30T08:25:00ZZ,Calle_de_Embajadores_Madrid,https://wikidata.org/entity/Q5740826,320,Puente_de_Vallecas,Colisión fronto-lateral,Despejado,Bicicleta,10466,Conductor,De 45 a 49 años,Hombre,1
+2021S015139,2021-08-31T16:15:00ZZ,PASEO_MARQUES_DE_MONISTROL,,140,Moncloa-Aravaca,Colisión fronto-lateral,Despejado,Bicicleta,10467,Conductor,De 60 a 64 años,Hombre,5
+2021S015141,2021-08-30T21:38:00ZZ,Paseo_de_Recoletos,https://wikidata.org/entity/Q2550870,15,Centro,Colisión lateral,Despejado,Bicicleta,10468,Conductor,De 55 a 59 años,Hombre,7
+2021S015143,2021-08-31T17:35:00ZZ,PASEO_VENEZUELA,,1,Retiro,Caída,Despejado,Bicicleta,10469,Conductor,De 10 a 14 años,Mujer,7
+2021S015169,2021-08-31T08:00:00ZZ,Paseo_de_las_Delicias_Madrid,https://wikidata.org/entity/Q6065662,1,Arganzuela,Colisión fronto-lateral,Despejado,Bicicleta,10470,Conductor,De 30 a 34 años,Hombre,7

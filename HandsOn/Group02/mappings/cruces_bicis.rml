@@ -32,7 +32,8 @@ map:om_000 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_001 a rr:ObjectMap;
     rml:reference "id_cruce";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#int>.
 map:om_002 a rr:ObjectMap;
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/TrafficLight/{id}";
     rr:termType rr:IRI.
@@ -44,13 +45,16 @@ map:om_004 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_005 a rr:ObjectMap;
     rml:reference "id";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#int>.
 map:om_006 a rr:ObjectMap;
     rml:reference "fecha_inst";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime>.
 map:om_007 a rr:ObjectMap;
     rml:reference "tipo_elem";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_008 a rr:ObjectMap;
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight{id}";
     rr:termType rr:IRI.
@@ -59,19 +63,23 @@ map:om_009 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_010 a rr:ObjectMap;
     rml:reference "latitud";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
 map:om_011 a rr:ObjectMap;
     rml:reference "longitud";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
 map:om_012 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#District";
     rr:termType rr:IRI.
 map:om_013 a rr:ObjectMap;
     rml:reference "ID_DISTRICT";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#int>.
 map:om_014 a rr:ObjectMap;
     rml:reference "NOMBRE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_001 a rr:PredicateMap;
@@ -150,11 +158,11 @@ map:pom_014 a rr:PredicateObjectMap;
 map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
     <http://rdfs.org/ns/void#exampleResource> map:map_triplesmap1_000, map:map_triplesmap2_000, map:map_triplesmap3_000, map:map_triplesmap4_000.
 map:s_000 a rr:SubjectMap;
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/{id_cruce}~iri]".
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/{id_cruce}~iri ]".
 map:s_001 a rr:SubjectMap;
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/{id_cruce}~iri]".
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/{id_cruce}~iri ]".
 map:s_002 a rr:SubjectMap;
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight{id}~iri]".
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight{id}~iri ]".
 map:s_003 a rr:SubjectMap;
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District/{ID_DISTRICT}".
 map:source_000 a rml:LogicalSource;

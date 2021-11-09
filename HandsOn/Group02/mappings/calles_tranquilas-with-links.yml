@@ -15,10 +15,11 @@ mappings:
 
   triplesmap1:
     sources:
-      - [ calles_tranquilas-updated.csv~csv ]
-    s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)~iri ]
+      - [calles_tranquilas-with-links.csv~csv]
+    s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)~iri]
     po:
-      - [ a, vocab:Address ]
-      - [ vocab:hasAddressName,$(CALLE),xsd:string ]
-      - [ vocab:typeAddress,$(TIPOCALLE),xsd:string ]
+      - [a, vocab:Address]
+      - [vocab:hasAddressName,$(CALLE),xsd:string]
+      - [vocab:typeAddress,$(TIPOCALLE),xsd:string]
+      - [owl:sameAs, $(CALLEWIKIDATA)~iri]
       

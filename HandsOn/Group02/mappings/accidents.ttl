@@ -24,6 +24,7 @@
     rr:objectMap [
       rml:reference "EXPEDIENTE";
       rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
 
@@ -56,7 +57,8 @@
     rr:predicate vocab:hasWeather; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIEMPO";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -64,7 +66,8 @@
     rr:predicate vocab:typeBicycle; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIPOVEHICULO";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -72,7 +75,8 @@
     rr:predicate vocab:causedBy; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIPOACCIDENTE";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ].
 
@@ -92,7 +96,8 @@
     rr:predicate vocab:hasAddressName; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "CALLE";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -100,7 +105,8 @@
     rr:predicate vocab:hasNumber; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "NUMERO";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
   
@@ -132,6 +138,7 @@
     rr:objectMap [
       rml:reference "VICTIMA";
       rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -139,7 +146,8 @@
     rr:predicate vocab:hasGender; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "SEXO";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -147,7 +155,8 @@
     rr:predicate vocab:hasRangeAge; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "RANGOEDAD";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -155,7 +164,8 @@
     rr:predicate vocab:hasRole; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIPOPERSONA";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -163,6 +173,7 @@
     rr:predicate vocab:gradeOfInjury; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "LESIVIDAD";
+	  rr:termType rr:Literal;
       rr:dataType xsd:int
     ]
   ].
@@ -182,14 +193,18 @@
   rr:predicateObjectMap [
     rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
-      rml:reference "ID_DISTRICT"; rr:termtype rr:Literal
+      rml:reference "ID_DISTRICT"; 
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
 
   rr:predicateObjectMap [
     rr:predicate vocab:hasDistrictName; rr:termType rr:IRI;
     rr:objectMap [
-      rml:reference "NOMBRE"; rr:termtype rr:Literal
+      rml:reference "NOMBRE"; 
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:string
     ]
   ].
 
