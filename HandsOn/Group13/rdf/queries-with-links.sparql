@@ -18,7 +18,7 @@ WHERE{
 
 SELECT DISTINCT ?Tlight_id 
 WHERE{
-    ?Tlight_id rdf:type dbo:TrafficLight.
+    ?Tlight_id rdf:type dbo:Trafficlight.
     ?Tlight_id dbo:DISTRITO "1". 
 }
 
