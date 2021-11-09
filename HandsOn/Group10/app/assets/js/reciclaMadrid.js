@@ -26,7 +26,7 @@ function showInfo() {
   http.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       aRes = JSON.parse(this.responseText)["results"]["bindings"];
-      if(aRes.length === 0) {
+      if (aRes.length === 0) {
         alert("No hay información para esta búsqueda.");
         return;
       }
@@ -103,14 +103,6 @@ function showImg(wikiUrl) {
 }
 
 function navDetails(index, id) {
-  // Borro info si ya se hizo una búsqueda anterior
-  var detailsSection = document.getElementById("idDetailsSection");
-  if (document.getElementById("idContainerDetails")) {
-    while (detailsSection.hasChildNodes()) {
-      detailsSection.lastChild.remove();
-    }
-  }
-
   location.href = '#idDetailsSection'
   var sRecycleType = document.getElementById("idRecycleType" + index).textContent;
   var sAddress = document.getElementById("idAddress" + index).textContent;
@@ -202,20 +194,26 @@ function navBackDetails(index) {
   }
 }
 
-function resetView(){
-    var listDiv = document.getElementById("idListDiv");
-    if (document.getElementById("idDivInfo0")) {
-      listDiv.removeAttribute("class");
-      while (listDiv.hasChildNodes()) {
-        listDiv.lastChild.remove();
-      }
+function resetView() {
+  var listDiv = document.getElementById("idListDiv");
+  if (document.getElementById("idDivInfo0")) {
+    listDiv.removeAttribute("class");
+    while (listDiv.hasChildNodes()) {
+      listDiv.lastChild.remove();
     }
-    var imgDiv = document.getElementById("idImgDiv");
-    if (document.getElementById("idDistrictImg")) {
-      imgDiv.removeAttribute("class");
-      while (imgDiv.hasChildNodes()) {
-        imgDiv.lastChild.remove();
-      }
+  }
+  var imgDiv = document.getElementById("idImgDiv");
+  if (document.getElementById("idDistrictImg")) {
+    imgDiv.removeAttribute("class");
+    while (imgDiv.hasChildNodes()) {
+      imgDiv.lastChild.remove();
     }
-    
+  }
+  var detailsSection = document.getElementById("idDetailsSection");
+  if (document.getElementById("idContainerDetails")) {
+    while (detailsSection.hasChildNodes()) {
+      detailsSection.lastChild.remove();
+    }
+  }
+
 }
