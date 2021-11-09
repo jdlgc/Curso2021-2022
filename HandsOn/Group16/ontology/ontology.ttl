@@ -10,30 +10,6 @@
 <http://www.reciclajemadrid.com> rdf:type owl:Ontology .
 
 #################################################################
-#    Object Properties
-#################################################################
-
-###  http://www.reciclajemadrid.com/resources/tieneCoordenadas
-vocab:tieneCoordenadas rdf:type owl:ObjectProperty ;
-                       rdfs:domain :RecogidaResiduos .
-
-
-###  http://www.reciclajemadrid.com/resources/tieneDireccion
-vocab:tieneDireccion rdf:type owl:ObjectProperty ;
-                     rdfs:domain :RecogidaResiduos .
-
-
-###  http://www.reciclajemadrid.com/resources/tieneHorario
-vocab:tieneHorario rdf:type owl:ObjectProperty ;
-                   rdfs:domain :PuntoLimpio .
-
-
-###  http://www.reciclajemadrid.com/resources/tipoResiduo
-vocab:tipoResiduo rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Contenedor .
-
-
-#################################################################
 #    Data properties
 #################################################################
 
