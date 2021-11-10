@@ -4,10 +4,22 @@
 @prefix transit: <http://vocab.org/transit/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
-@prefix vocab: <http://www.calidadAire.com#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
-@base <http://example.com/ns#>.
+@prefix vocab: <http://www.calidadAire.com/refProvincia#> .
+@prefix vocabtm: <http://www.calidadAire.com/refProvincia/provincia#> .
+@prefix vocabm: <http://www.calidadAire.com/refMunicipio#> .
+@prefix vocabte: <http://www.calidadAire.com/refMunicipio/municipio#> .
+@prefix vocabe: <http://www.calidadAire.com/refEstacion#> .
+@prefix vocabtpm: <http://www.calidadAire.com/refEstacion/estacion/tienePuntoMuestreo#> .
+@prefix vocabmi: <http://www.calidadAire.com/refEstacion/estacion/mide#> .
+@prefix vocabpm: <http://www.calidadAire.com/refPuntoMuestreo#> .
+@prefix vocabtme: <http://www.calidadAire.com/refPuntoMuestreo/punto_muestreo/tieneMedicion#> .
+@prefix vocabma: <http://www.calidadAire.com/refMagnitud#> .
+@prefix vocabme: <http://www.calidadAire.com/fechaMedicion#> .
+@prefix vocabup: <http://www.calidadAire.com/urip#> .
+@prefix vocabum: <http://www.calidadAire.com/urim#> .
+@base <http://www.calidadAire.com#>.
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
@@ -21,7 +33,7 @@
   ];
 
   rr:predicateObjectMap [
-	rr:predicate vocab:tieneURIProvi; rr:termType rr:IRI;
+	rr:predicate vocabup:tieneURIProvi; rr:termType rr:IRI;
     rr:objectMap [
       rr:template "{URI_provincia}";
 	  rr:datatype <http://www.w3.org/2001/XMLSchema#string>;
@@ -30,9 +42,9 @@
   ];
 
   rr:predicateObjectMap [
-	rr:predicate vocab:tieneMunicipio; rr:termType rr:IRI;
+	rr:predicate vocabtm:tieneMunicipio; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.calidadAire.com/refProvincia/{provincia}/tieneMunicipio/{municipio}";
+      rr:template "{municipio}";
       rr:datatype <http://www.w3.org/2001/XMLSchema#string>;
       rr:termType rr:Literal 
 	]
@@ -46,11 +58,11 @@
   rr:subjectMap [
     rr:template "http://www.calidadAire.com/refMunicipio/{municipio}";
     rr:termType rr:IRI;
-  rr:class vocab:Municipio
+  rr:class vocabm:Municipio
   ];
   
   rr:predicateObjectMap [
-	rr:predicate vocab:tieneURIMuni; rr:termType rr:IRI;
+	rr:predicate vocabum:tieneURIMuni; rr:termType rr:IRI;
     rr:objectMap [
       rr:template "{URI_municipio}";
 	  rr:datatype <http://www.w3.org/2001/XMLSchema#string>;
@@ -59,9 +71,9 @@
   ];
   
   rr:predicateObjectMap [
-	rr:predicate vocab:tieneEstacion; rr:termType rr:IRI;
+	rr:predicate vocabte:tieneEstacion; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.calidadAire.com/refMunicipio/{municipio}/tieneEstacion/{estacion}";
+      rr:template "{estacion}";
       rr:datatype <http://www.w3.org/2001/XMLSchema#integer>;
       rr:termType rr:Literal 
 	]
@@ -75,22 +87,22 @@
   rr:subjectMap [
     rr:template "http://www.calidadAire.com/refEstacion/{estacion}";
     rr:termType rr:IRI;
-  rr:class vocab:Estacion
+  rr:class vocabe:Estacion
   ];
   
   rr:predicateObjectMap [
-	rr:predicate vocab:tienePuntoMuestreo; rr:termType rr:IRI;
+	rr:predicate vocabtpm:tienePuntoMuestreo; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.calidadAire.com/refEstacion/{estacion}/tienePuntoMuestreo/{punto_muestreo}";
+      rr:template "{punto_muestreo}";
       rr:datatype <http://www.w3.org/2001/XMLSchema#string>;
       rr:termType rr:Literal 
 	]
   ];
   
   rr:predicateObjectMap [
-	rr:predicate vocab:mide; rr:termType rr:IRI;
+	rr:predicate vocabmi:mide; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.calidadAire.com/refEstacion/{estacion}/mide/{magnitud}";
+      rr:template "{magnitud}";
       rr:datatype <http://www.w3.org/2001/XMLSchema#string>;
       rr:termType rr:Literal 
 	]
@@ -106,13 +118,13 @@
     rr:subjectMap [
     rr:template "http://www.calidadAire.com/refPuntoMuestreo/{punto_muestreo}";
     rr:termType rr:IRI;
-  rr:class vocab:PuntoMuestreo
+  rr:class vocabpm:PuntoMuestreo
   ];
   
   rr:predicateObjectMap [
-    rr:predicate vocab:tieneMedicion; rr:termType rr:IRI;
+    rr:predicate vocabtme:tieneMedicion; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.calidadAire.com/refPuntoMuestreo/{punto_muestreo}/tieneMedicion/{ano}-{mes}-{dia}";
+      rr:template "{ano}-{mes}-{dia}";
 	  rr:datatype <http://www.w3.org/2001/XMLSchema#date>;
       rr:termType rr:Literal 
     ]
@@ -127,7 +139,7 @@
     rr:subjectMap [
     rr:template "http://www.calidadAire.com/refMagnitud/{magnitud}";
     rr:termType rr:IRI;
-  rr:class vocab:Magnitud
+  rr:class vocabma:Magnitud
   ].
 
 <#TriplesMap6> a rr:TriplesMap;
@@ -139,7 +151,7 @@
     rr:subjectMap [
     rr:template "http://www.calidadAire.com/fechaMedicion/{ano}-{mes}-{dia}";
     rr:termType rr:IRI;
-  rr:class vocab:Medicion
+  rr:class vocabme:Medicion
   ].
   
 <#TriplesMap7> a rr:TriplesMap;
@@ -151,7 +163,7 @@
     rr:subjectMap [
     rr:template "{URI_provincia}";
     rr:termType rr:IRI;
-  rr:class vocab:URI_provincia
+  rr:class vocabup:URI_provincia
   ].
 
 <#TriplesMap8> a rr:TriplesMap;
@@ -163,5 +175,5 @@
     rr:subjectMap [
     rr:template "{URI_municipio}";
     rr:termType rr:IRI;
-  rr:class vocab:URI_municipio
+  rr:class vocabum:URI_municipio
   ].

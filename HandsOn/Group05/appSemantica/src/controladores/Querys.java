@@ -26,11 +26,20 @@ public class Querys {
 	}
 	
 	public ArrayList<String> getTieneMunicipio() {
+		Model model = ModelFactory.createDefaultModel();
+		model.read("output-with-links.nt");
+		
+		Query query = QueryFactory.create("SELECT DISTINCT ?municipio\r\n"
+				+ "WHERE{\r\n"
+				+ "    ?provincia <http://www.calidadAire.com/refProvincia/provincia#tieneMunicipio> ?municipio .\r\n"
+				+ " }");
+		QueryExecution qe = QueryExecutionFactory.create(query, model);
+		/**
 		QueryExecution qe = QueryExecutionFactory.sparqlService(
 				"http://localhost:3030/sparql", "SELECT DISTINCT ?municipio\r\n"
 						+ "WHERE{\r\n"
-						+ "    ?provincia <http://www.calidadAire.com#tieneMunicipio> ?municipio.\r\n"
-						+ " }");
+						+ "    ?provincia <http://www.calidadAire.com/refProvincia/provincia#tieneMunicipio> ?municipio .\r\n"
+						+ " }");*/
 		ResultSet distrito = qe.execSelect();
 		ArrayList<String> tieneMunicipio = toList(distrito,"municipio");
 		
@@ -41,11 +50,21 @@ public class Querys {
 	
 	public ArrayList<String> getMunicipio_TieneEstacion(String municipio) {
 		municipio = nombreMunicipio(municipio);
+		Model model = ModelFactory.createDefaultModel();
+		model.read("output-with-links.nt");
+		
+		Query query = QueryFactory.create("SELECT DISTINCT ?estacion\r\n"
+				+ "WHERE{\r\n"
+				+ "    <http://www.calidadAire.com/refMunicipio/"+municipio+"> <http://www.calidadAire.com/refMunicipio/municipio#tieneEstacion> ?estacion.\r\n"
+				+ " }");
+		QueryExecution qe = QueryExecutionFactory.create(query, model);
+		/**
 		QueryExecution qe = QueryExecutionFactory.sparqlService(
 				"http://localhost:3030/sparql", "SELECT DISTINCT ?estacion\r\n"
 						+ "WHERE{\r\n"
-						+ "    <http://www.calidadAire.com/refMunicipio/"+municipio+"> <http://www.calidadAire.com#tieneEstacion> ?estacion.\r\n"
+						+ "    <http://www.calidadAire.com/refMunicipio/"+municipio+"> <http://www.calidadAire.com/refMunicipio/municipio#tieneEstacion> ?estacion.\r\n"
 						+ " }");
+		*/
 		ResultSet distrito = qe.execSelect();
 		ArrayList<String> tieneEstacion = toList(distrito,"estacion");
 		
@@ -60,8 +79,8 @@ public class Querys {
 		
 		Query query = QueryFactory.create("SELECT DISTINCT ?puntoMuestreo ?magnitud\r\n"
 				+ "WHERE{\r\n"
-				+ "    <http://www.calidadAire.com/refEstacion/"+estacion+"> <http://www.calidadAire.com#tienePuntoMuestreo> ?puntoMuestreo.\r\n"
-				+ "    <http://www.calidadAire.com/refEstacion/"+estacion+"> <http://www.calidadAire.com#mide> ?magnitud.\r\n"
+				+ "    <http://www.calidadAire.com/refEstacion/"+estacion+"> <http://www.calidadAire.com/refEstacion/estacion/tienePuntoMuestreo#tienePuntoMuestreo> ?puntoMuestreo.\r\n"
+				+ "    <http://www.calidadAire.com/refEstacion/"+estacion+"> <http://www.calidadAire.com/refEstacion/estacion/mide#mide> ?magnitud.\r\n"
 				+ " }");
 		QueryExecution qe = QueryExecutionFactory.create(query, model);
 		
@@ -91,7 +110,7 @@ public class Querys {
 		
 		Query query = QueryFactory.create("SELECT DISTINCT ?uri\r\n"
 				+ "WHERE{\r\n"
-				+ "    <http://www.calidadAire.com/refMunicipio/"+municipio+"> <http://www.calidadAire.com#tieneURIMuni> ?uri.\r\n"
+				+ "    <http://www.calidadAire.com/refMunicipio/"+municipio+"> <http://www.calidadAire.com/urim#tieneURIMuni> ?uri.\r\n"
 				+ " }");
 		QueryExecution qe = QueryExecutionFactory.create(query, model);
 		/**
@@ -124,7 +143,7 @@ public class Querys {
 		
 		do {
 			QuerySolution set = result.next();
-			aux.add(set.get(column1).toString() + " " + set.get(column2).toString());
+			aux.add("Punto de muestreo: " + set.get(column1).toString() + "       Medicion: " + set.get(column2).toString());
 		}while(result.hasNext());
 		
 		return aux;
