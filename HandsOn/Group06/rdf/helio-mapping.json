@@ -2,8 +2,8 @@
   "datasources" : [
       {
         "id" : "RDF file",
-        "handler" : {"type" : "RDFHandler", "format" : "N-TRIPLES"},
-        "provider"  : { "type" : "FileProvider", "file" : "./rdf/Ntriples.nt"}
+        "handler" : {"type" : "RDFHandler", "format" : "n-triples"},
+        "provider"  : { "type" : "FileProvider", "file" : "./rdf/Ntriples-with-links.nt"}
       }
   ],
   "resource_rules" : [

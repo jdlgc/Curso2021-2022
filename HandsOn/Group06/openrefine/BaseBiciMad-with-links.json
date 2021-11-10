@@ -1,5 +1,217 @@
 [
   {
+    "op": "core/column-rename",
+    "oldColumnName": "﻿Número",
+    "newColumnName": "IdBiciMad",
+    "description": "Rename column ﻿Número to IdBiciMad"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IdBiciMad",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column IdBiciMad using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IdBiciMad",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column IdBiciMad using expression value.toString()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número de Plazas",
+    "newColumnName": "numPlaces",
+    "description": "Rename column Número de Plazas to numPlaces"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "numPlaces",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numPlaces using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Longitud",
+    "newColumnName": "longitude",
+    "description": "Rename column Longitud to longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Latitud",
+    "newColumnName": "latitude",
+    "description": "Rename column Latitud to latitude"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "longitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column longitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "latitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column latitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.substring(value.indexOf(\",\")+2,value.lastIndexOf(\",\")) +\" \"+ value.substring(0,value.indexOf(\",\"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.substring(value.indexOf(\",\")+2,value.lastIndexOf(\",\")) +\" \"+ value.substring(0,value.indexOf(\",\"))"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.substring(0,value.indexOf(\",\")) + value.substring(value.indexOf(\",\")+4,1000)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.substring(0,value.indexOf(\",\")) + value.substring(value.indexOf(\",\")+4,1000)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"AVENIDAL\",\"AVENIDA\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"AVENIDAL\",\"AVENIDA\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"CALLEL\",\"CALLE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"CALLEL\",\"CALLE\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"GLORIETAL\",\"GLORIETA\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"GLORIETAL\",\"GLORIETA\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"PASEOL\",\"PASEO\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"PASEOL\",\"PASEO\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:value.replace(\"PLAZAL\",\"PLAZA\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:value.replace(\"PLAZAL\",\"PLAZA\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Direccion",
+    "newColumnName": "PostalAddress",
+    "description": "Rename column Direccion to PostalAddress"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PostalAddress",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PostalAddress using expression value.toString()"
+  },
+  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [
@@ -1048,5 +1260,260 @@
     "newColumnName": "same_as_wikidata_PostalAddress",
     "columnInsertIndex": 5,
     "description": "Create column same_as_wikidata_PostalAddress at index 5 based on column PostalAddress using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "same_as_wikidata_PostalAddress",
+    "index": 6,
+    "description": "Move column same_as_wikidata_PostalAddress to position 6"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "same_as_wikidata_PostalAddress",
+    "index": 13,
+    "description": "Move column same_as_wikidata_PostalAddress to position 13"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_X",
+    "description": "Remove column Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_Y",
+    "description": "Remove column Gis_Y"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IdBiciMad",
+    "expression": "grel:value.replace(\" \",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column IdBiciMad using expression grel:value.replace(\" \",\"_\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha de Alta",
+    "description": "Remove column Fecha de Alta"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Distrito",
+    "newColumnName": "District",
+    "description": "Rename column Distrito to District"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "expression": "grel:value.substring(3)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column District using expression grel:value.substring(3)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "expression": "grel:value.substring(1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column District using expression grel:value.substring(1)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Calle",
+    "description": "Remove column Calle"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Nº Finca",
+    "description": "Remove column Nº Finca"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tipo de Reserva",
+    "description": "Remove column Tipo de Reserva"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "expression": "grel:value.substring(6)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Barrio using expression grel:value.substring(6)"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column District to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_District",
+    "columnInsertIndex": 2,
+    "description": "Create column same_as_wikidata_District at index 2 based on column District using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Barrio to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Barrio: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Barrio",
+          "from": 80,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CÁRMENES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10319792",
+      "name": "Los Cármenes",
+      "types": [
+        "Q10267336"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Los Cármenes (Q10319792) for cells containing \"CÁRMENES\" in column Barrio"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Barrio: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Barrio",
+          "from": 80,
+          "to": 100,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "COMILLA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q955844",
+      "name": "Comillas",
+      "types": [
+        "Q10267336"
+      ],
+      "score": 93
+    },
+    "shareNewTopics": false,
+    "description": "Match item Comillas (Q955844) for cells containing \"COMILLA\" in column Barrio"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Barrio",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_Neighborhood",
+    "columnInsertIndex": 4,
+    "description": "Create column same_as_wikidata_Neighborhood at index 4 based on column Barrio using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Barrio",
+    "newColumnName": "Neighborhood",
+    "description": "Rename column Barrio to Neighborhood"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IdBiciMad",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column IdBiciMad using expression value.toString()"
   }
 ]
