@@ -9,22 +9,26 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment4"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
 
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS
+from rdflib.plugins.sparql import prepareQuery
+
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
+
 g.parse(github_storage+"/resources/example6.rdf", format="xml")
+#g.parse("../course_materials/rdf/example6.rdf", format="xml")
 
 ns = Namespace("http://somewhere#")
 
 """**TASK 7.1: List all subclasses of "Person" with RDFLib and SPARQL**"""
-
+print("TASK 7.1")
 print("RDFLib")
 for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
   print(s, p, o)
@@ -39,7 +43,7 @@ for r in g.query(q1):
   print(r)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**"""
-
+print("TASK 7.2")
 print("RDFLib")
 for s, p, o in g.triples((None, RDF.type, ns.Person)):
     print(s)
@@ -50,32 +54,35 @@ for x, y, z in g.triples((None, RDFS.subClassOf, ns.Person)):
 
 print("SPARQL")
 q2 = prepareQuery('''
-    SELECT ?Subject WHERE{
-        ?Subject rdf:type ns:Person.
-        ?Sc rdfs:subClassOf ns:Person.
-        ?Subject rdf:type ?Sc.
+    SELECT DISTINCT ?p WHERE{
+        {?p rdf:type ns:Person.}
+        UNION
+        {?aux rdfs:subClassOf ns:Person.
+         ?p rdf:type ?aux.}
     }''',
     initNs={"ns": ns}
     )
 for i in g.query(q2):
-    print(i.Subject)
+    print(i.p)
 
 
 
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**"""
-
+print("TASK 7.3")
 print("RDFLib")
-for x, y, z in g.triples((None, RDF.type, ns.Person)):
-    for s, p, o in g.triples((None, RDF.type, x)):
+for pers, prop, z in g.triples((None, RDF.type, ns.Person)):
+    for s, p, o in g.triples((None, RDF.type, pers)):
         for s2, p2, o2 in g.triples((x, None,None)):
             print(x, p2)
 print("SPARQL")
 q3 = prepareQuery('''
-    SELECT ?Subject ?Predicate ?Object WHERE{
-        ?Subject rdf:type ns:Person.
-        ?Sc rdfs:subClassOf ns:Person.
-        ?Subject rdf:type ?Sc.
-        ?Subject ?Predicate ?Object.
+    SELECT ?pers ?prop WHERE{
+        {?pers ?prop ns:Person.
+        ?pers rdf:type ns:Person.}
+        UNION{
+        ?aux rdfs:subClassOf ns:Person.
+        ?pers rdf:type ?aux.
+        ?pers ?prop ?aux1.}
     }''',
     initNs={"ns": ns}
     )

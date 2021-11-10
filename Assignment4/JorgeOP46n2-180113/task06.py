@@ -9,7 +9,7 @@ Original file is located at
 **Task 06: Modifying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment4"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -20,7 +20,7 @@ g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/resources/example5.rdf", format="xml")
-
+#g.parse("../course_materials/rdf/example5.rdf", format="xml")
 """Create a new class named Researcher"""
 
 ns = Namespace("http://somewhere#")
@@ -30,34 +30,40 @@ for s, p, o in g:
 
 """**TASK 6.1: Create a new class named "University"**"""
 
-ns = Namespace("http://somewhere#")
+print("TASK 6.1")
 g.add((ns.University, RDF.type, RDFS.Class))
 for s, p, o in g:
   print(s,p,o)
 
 """**TASK 6.2: Add "Researcher" as a subclass of "Person"**"""
 
-g.add((ns.University, RDF.subClassOf, ns.Person))
+print("TASK 6.2")
+g.add((ns.Researcher, RDFS.subClassOf, ns.Person))
 for s, p, o in g:
   print(s,p,o)
 
 """**TASK 6.3: Create a new individual of Researcher named "Jane Smith"**"""
 
+print("TASK 6.3")
 g.add((ns.JaneSmith,RDF.type,ns.Researcher))
 for s, p, o in g:
   print(s,p,o)
 
 """**TASK 6.4: Add to the individual JaneSmith the fullName, given and family names**"""
 
+print("TASK 6.4")
 vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 g.add((ns.JaneSmith, vcard.FN, Literal("JaneSmith")))
 g.add((ns.JaneSmith, vcard.Given, Literal("Jane")))
 g.add((ns.JaneSmith, vcard.Family, Literal("Smith")))
 
+for s, p, o in g:
+  print(s, p, o)
+
 
 """**TASK 6.5: Add UPM as the university where John Smith works**"""
-
-g.add((ns.UPM, RDF.type, ns.Univerity)
+print("TASK 6.5")
+g.add((ns.UPM, RDF.type, ns.Univerity))
 g.add((ns.JohnSmith,vcard.Work,ns.UPM))
 # Visualize the results
 for s, p, o in g:
