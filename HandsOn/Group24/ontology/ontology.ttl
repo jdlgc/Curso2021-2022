@@ -1,4 +1,4 @@
- @prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#> .
+@prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#> .
 @prefix base: <http://semWeb.org/TerrazasMadrid#> .
 @prefix dc: <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#> .
 @prefix ns: <http://smartcity.linkeddata.es/onotlogy/TerrazasMadrid/#> .
