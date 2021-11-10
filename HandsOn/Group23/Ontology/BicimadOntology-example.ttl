@@ -11,6 +11,7 @@ bici:Bicimad_Station
 bici:Location
 	bici:hasCoordinates "Coordenadas1";
 	bici:hasGIS "Gis1".
+	bici:hasAddress "Address1"
 	
 bici:GIS
 	bici:hasValue_X "440134,83"^^xsd:double ;
