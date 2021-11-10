@@ -13,7 +13,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{PROVINCIA}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Provincia#{PROVINCIA}";
     rr:termType rr:IRI;
   rr:class vocab:Provincia
   ];
@@ -21,7 +21,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasMunicipio; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MUNICIPIO}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Provincia#{MUNICIPIO}";
       rr:termType rr:Literal 
 	]
   ].
@@ -32,7 +32,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MUNICIPIO}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Municipio#{MUNICIPIO}";
     rr:termType rr:IRI;
   rr:class vocab:Municipio
   ];
@@ -40,7 +40,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasEstacion; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{ESTACION}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Municipio#{ESTACION}";
       rr:termType rr:Literal 
 	]
   ].
@@ -51,7 +51,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{ESTACION}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Estacion#{ESTACION}";
     rr:termType rr:IRI;
   rr:class vocab:Estacion
   ];
@@ -59,7 +59,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasMagnitud; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MAGNITUD}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Estacion#{MAGNITUD}";
       rr:termType rr:Literal 
 	]
   ].
@@ -70,7 +70,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MAGNITUD}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Magnitud#{MAGNITUD}";
     rr:termType rr:IRI;
   rr:class vocab:Magnitud
   ];
@@ -78,7 +78,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasEmisiones; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Magnitud#{D01}";
       rr:termType rr:Literal 
 	]
   ].
@@ -89,7 +89,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{D01}";
     rr:termType rr:IRI;
   rr:class vocab:Emisiones
   ];
@@ -97,7 +97,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasValidez; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{V01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/ Emisiones#{V01}";
       rr:termType rr:Literal 
 	]
   ];
@@ -105,7 +105,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasDate; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{DATE}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{DATE}";
       rr:termType xsd:date 
 	]
   ];
@@ -113,7 +113,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasValor; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{D01}";
       rr:termType rr:Literal 
 	]
   ].
@@ -124,7 +124,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{PROVINCIA}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Provincia#{PROVINCIA}";
     rr:termType rr:IRI;
   rr:class vocab:Provincia
   ];
@@ -132,7 +132,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasMunicipio; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MUNICIPIO}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Provincia#{MUNICIPIO}";
       rr:termType rr:Literal 
 	]
   ].
@@ -143,7 +143,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MUNICIPIO}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Municipio#{MUNICIPIO}";
     rr:termType rr:IRI;
   rr:class vocab:Municipio
   ];
@@ -151,7 +151,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasEstacion; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{ESTACION}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Municipio#{ESTACION}";
       rr:termType rr:Literal 
 	]
   ].
@@ -162,7 +162,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{ESTACION}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Estacion#{ESTACION}";
     rr:termType rr:IRI;
   rr:class vocab:Estacion
   ];
@@ -170,7 +170,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasMagnitud; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MAGNITUD}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Estacion#{MAGNITUD}";
       rr:termType rr:Literal 
 	]
   ].
@@ -181,7 +181,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MAGNITUD}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Magnitud#{MAGNITUD}";
     rr:termType rr:IRI;
   rr:class vocab:Magnitud
   ];
@@ -189,7 +189,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasEmisiones; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Magnitud#{D01}";
       rr:termType rr:Literal 
 	]
   ].
@@ -200,7 +200,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{D01}";
     rr:termType rr:IRI;
   rr:class vocab:Emisiones
   ];
@@ -208,7 +208,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasValidez; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{V01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{V01}";
       rr:termType rr:Literal 
 	]
   ];
@@ -216,7 +216,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasDate; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{DATE}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{DATE}";
       rr:termType xsd:date 
 	]
   ];
@@ -224,7 +224,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasValor; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{D01}";
       rr:termType rr:Literal 
 	]
   ].
@@ -235,7 +235,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{PROVINCIA}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Provincia#{PROVINCIA}";
     rr:termType rr:IRI;
   rr:class vocab:Provincia
   ];
@@ -243,7 +243,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasMunicipio; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MUNICIPIO}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Provincia#{MUNICIPIO}";
       rr:termType rr:Literal 
 	]
   ].
@@ -254,7 +254,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MUNICIPIO}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Municipio#{MUNICIPIO}";
     rr:termType rr:IRI;
   rr:class vocab:Municipio
   ];
@@ -262,7 +262,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasEstacion; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{ESTACION}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Municipio#{ESTACION}";
       rr:termType rr:Literal 
 	]
   ].
@@ -273,7 +273,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{ESTACION}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Estacion#{ESTACION}";
     rr:termType rr:IRI;
   rr:class vocab:Estacion
   ];
@@ -281,7 +281,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasMagnitud; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MAGNITUD}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Estacion#{MAGNITUD}";
       rr:termType rr:Literal 
 	]
   ].
@@ -292,7 +292,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MAGNITUD}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Magnitud#{MAGNITUD}";
     rr:termType rr:IRI;
   rr:class vocab:Magnitud
   ];
@@ -300,7 +300,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasEmisiones; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Magnitud#{D01}";
       rr:termType rr:Literal 
 	]
   ].
@@ -311,7 +311,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{D01}";
     rr:termType rr:IRI;
   rr:class vocab:Emisiones
   ];
@@ -319,7 +319,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasValidez; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{V01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{V01}";
       rr:termType rr:Literal 
 	]
   ];
@@ -327,7 +327,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasDate; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{DATE}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{DATE}";
       rr:termType xsd:date 
 	]
   ];
@@ -335,7 +335,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasValor; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{D01}";
       rr:termType rr:Literal 
 	]
   ].
@@ -346,7 +346,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{PROVINCIA}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Provincia#{PROVINCIA}";
     rr:termType rr:IRI;
   rr:class vocab:Provincia
   ];
@@ -354,7 +354,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasMunicipio; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MUNICIPIO}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Provincia#{MUNICIPIO}";
       rr:termType rr:Literal 
 	]
   ].
@@ -365,7 +365,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MUNICIPIO}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Municipio#{MUNICIPIO}";
     rr:termType rr:IRI;
   rr:class vocab:Municipio
   ];
@@ -373,7 +373,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasEstacion; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{ESTACION}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Municipio#{ESTACION}";
       rr:termType rr:Literal 
 	]
   ].
@@ -384,7 +384,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{ESTACION}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Estacion#{ESTACION}";
     rr:termType rr:IRI;
   rr:class vocab:Estacion
   ];
@@ -392,7 +392,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasMagnitud; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MAGNITUD}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Estacion#{MAGNITUD}";
       rr:termType rr:Literal 
 	]
   ].
@@ -403,7 +403,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{MAGNITUD}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Magnitud#{MAGNITUD}";
     rr:termType rr:IRI;
   rr:class vocab:Magnitud
   ];
@@ -411,7 +411,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasEmisiones; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Magnitud#{D01}";
       rr:termType rr:Literal 
 	]
   ].
@@ -422,7 +422,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+    rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{D01}";
     rr:termType rr:IRI;
   rr:class vocab:Emisiones
   ];
@@ -430,7 +430,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasValidez; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{V01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{V01}";
       rr:termType rr:Literal 
 	]
   ];
@@ -438,7 +438,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasDate; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{DATE}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{DATE}";
       rr:termType xsd:date 
 	]
   ];
@@ -446,7 +446,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasValor; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/{D01}";
+      rr:template "http://www.spainaq.linkeddata.com/aq/ontology/Emisiones#{D01}";
       rr:termType rr:Literal 
 	]
   ].
