@@ -27,7 +27,7 @@ npm start
 ```
 4. A tab on Google Chrome will open were you can start doing the queries you want
 
-### Installing and running Blazgraph:
+### Installing and running Blazegraph:
 
 1. Download the blazegraph.jar file
 2. Run it by : 
