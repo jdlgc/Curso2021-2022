@@ -1,0 +1,61 @@
+{
+    "@context": {
+        "base": "http://example.org/assignment2b#",
+        "subject": "http://example.org/assignment2b/subject#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "http://example.org/assignment2b/JessicaGP",
+    "@type": "base:Person",
+    "base:name": "Jessica García Pérez",
+    "base:hometown": "Madrid",
+    "base:age": {
+        "@type": "xsd:Integer",
+        "@value": "24"
+    },
+    "base:almaMater": "Universidad Politécnica de Madrid",
+    "base:parents": [
+        {
+            "@id": "http://example.org/assignment2b/LibiaPF",
+            "@type": "base:Person",
+            "base:name": "Libia Pérez Feltrero"
+        },
+        {
+            "@id": "http://example.org/assignment2b/MiguelAngelGM",
+            "@type": "base:Person",
+            "base:name": "Miguel Ángel García Monedero"
+        }
+    ],
+    "base:subjects": [
+        {
+            "@id": "http://example.org/assignment2b/subject/SemanticWeb",
+            "@type": "base:Subject",
+            "subject:name": "Semantic Web, Linked Data and Knowledge Graphs",
+            "subject:teachers": [
+                {
+                    "@id": "http://example.org/assignment2b/OscarC",
+                    "@type": "base:Person",
+                    "name": "Oscar Corcho"
+                },
+                {
+                    "@id": "http://example.org/assignment2b/RaulG",
+                    "@type": "base:Person",
+                    "base:name": "Raul Garcia"
+                }
+            ],
+            "subject:description": "Linked Data"
+        },
+        {
+            "@id": "http://example.org/assignment2b/subject/EcuacionesDiferenciales",
+            "@type": "base:Subject",
+            "subject:name": "Ecuaciones Diferenciales",
+            "subject:teachers": [
+                {
+                    "@id": "http://example.org/assignment2b/MiguelR",
+                    "@type": "base:Person",
+                    "base:name": "Miguel Reyes"
+                }
+            ],
+            "subject:description": "Maths"
+        }
+    ]
+}
