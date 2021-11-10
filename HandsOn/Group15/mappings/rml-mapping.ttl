@@ -5,26 +5,25 @@
 @prefix transit: <http://vocab.org/transit/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix ex: <http://example.org#> .
-@prefix prop: <http://parquimetrosdemadrid.com/Properties#>.
-@prefix class: <http://parquimetrosdemadrid.com/Classes#>.
+@prefix vocab: <http://parquimetrosdemadrid.com/ontology/parquimetros#>.
 
 
 
 <#ParkingMeterMap1> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "./data/parquimetros-update2.csv" ;
+        rml:source "./data/parquimetros-update3.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
 
     rr:subjectMap [
         rr:template "http://parquimetrosdemadrid.com/ParkingMeter#{matricula}";
         rr:termType rr:IRI;
-        rr:class class:ParkingMeter
+        rr:class vocab:ParkingMeter
     ];
 
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:constant prop:locatedDistrict;
+            rr:constant vocab:hasLocatedDistrict;
             rr:termType rr:IRI
         ];
         rr:objectMap [
@@ -37,7 +36,7 @@
 
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:constant prop:locatedNeighborhood;
+            rr:constant vocab:hasLocatedNeighborhood;
             rr:termType rr:IRI
         ];
         rr:objectMap [
@@ -50,7 +49,7 @@
 
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:constant prop:locatedVia;
+            rr:constant vocab:hasLocatedVia;
             rr:termType rr:IRI
         ];
         rr:objectMap [
@@ -62,10 +61,8 @@
             ];
 
 
-
-
     rr:predicateObjectMap [
-       rr:predicate prop:gis_X;
+       rr:predicate vocab:gis_X;
         rr:objectMap [
             rml:reference "gis_x"; 
             rr:datatype xsd:float;
@@ -73,7 +70,7 @@
     ];
 
     rr:predicateObjectMap [
-       rr:predicate prop:gis_Y;
+       rr:predicate vocab:gis_Y;
         rr:objectMap [
             rml:reference "gis_y"; 
             rr:datatype xsd:float;
@@ -82,7 +79,7 @@
 
 
     rr:predicateObjectMap [
-       rr:predicate prop:releaseData;
+       rr:predicate vocab:releaseData;
         rr:objectMap [
             rml:reference "fecha_alta"; 
              rr:datatype xsd:date;
@@ -90,7 +87,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate prop:licensePlate; 
+        rr:predicate vocab:licensePlate; 
         rr:objectMap [
             rml:reference "matricula"; 
             rr:datatype xsd:string;
@@ -101,17 +98,17 @@
 
 <#ParkingMeterMap2> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "./data/parquimetros-update2.csv" ;
+        rml:source "./data/parquimetros-update3.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
     rr:subjectMap [
         rr:template "http://parquimetrosdemadrid.com/District#{distrito}";
         rr:termType rr:IRI;
-        rr:class class:District
+        rr:class vocab:District
     ];
 
     rr:predicateObjectMap [
-       rr:predicate prop:locatedDistrict ;
+       rr:predicate vocab:districtName ;
         rr:objectMap [
             rml:reference "distrito"; 
             rr:datatype xsd:string;
@@ -120,17 +117,17 @@
 
 <#ParkingMeterMap3> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "./data/parquimetros-update2.csv" ;
+        rml:source "./data/parquimetros-update3.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
     rr:subjectMap [
         rr:template "http://parquimetrosdemadrid.com/Neighborhood#{barrio}";
         rr:termType rr:IRI;
-        rr:class class:Neighborhood
+        rr:class vocab:Neighborhood
     ];
 
     rr:predicateObjectMap [
-        rr:predicate prop:neighborhoodName; 
+        rr:predicate vocab:neighborhoodName; 
         rr:objectMap [
             rml:reference "barrio"; 
             rr:datatype xsd:string;
@@ -139,17 +136,17 @@
 
 <#ParkingMeterMap4> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "./data/parquimetros-update2.csv" ;
+        rml:source "./data/parquimetros-update3.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
     rr:subjectMap [
         rr:template "http://parquimetrosdemadrid.com/Via#{via}";
         rr:termType rr:IRI;
-        rr:class class:Via
+        rr:class vocab:Via
     ];
 
     rr:predicateObjectMap [
-        rr:predicate prop:viaName;
+        rr:predicate vocab:viaName;
         rr:objectMap [
             rml:reference "via"; 
             rr:datatype xsd:string;
@@ -157,7 +154,7 @@
     ];
 
 rr:predicateObjectMap [
-        rr:predicate prop:viaNumber; 
+        rr:predicate vocab:viaNumber; 
         rr:objectMap [
             rml:reference "num_finca"; 
             rr:datatype xsd:string;
