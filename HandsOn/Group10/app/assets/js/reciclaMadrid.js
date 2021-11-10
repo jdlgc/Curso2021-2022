@@ -103,6 +103,12 @@ function showImg(wikiUrl) {
 }
 
 function navDetails(index, id) {
+  var detailsSection = document.getElementById("idDetailsSection");
+  if (document.getElementById("idContainerDetails")) {
+    while (detailsSection.hasChildNodes()) {
+      detailsSection.lastChild.remove();
+    }
+  }
   location.href = '#idDetailsSection'
   var sRecycleType = document.getElementById("idRecycleType" + index).textContent;
   var sAddress = document.getElementById("idAddress" + index).textContent;
