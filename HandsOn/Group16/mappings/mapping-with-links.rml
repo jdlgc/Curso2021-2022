@@ -63,6 +63,12 @@
     rr:objectMap [
       rml:reference "Tipo Contenedor"
     ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:direccion;
+    rr:objectMap [
+      rml:reference "DIRECCION"
+    ]
   ].
 
 
@@ -119,6 +125,12 @@
     ]
   ];
   rr:predicateObjectMap [
+    rr:predicate vocab:direccion;
+    rr:objectMap [
+      rml:reference "DIRECCION"
+    ]
+  ];
+  rr:predicateObjectMap [
     rr:predicate vocab:horario;
     rr:objectMap [
       rml:reference "HORARIO"
@@ -171,6 +183,12 @@ rr:termType rr:IRI ]
     rr:predicate vocab:coordY;
     rr:objectMap [
       rml:reference "UTMY"
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:direccion;
+    rr:objectMap [
+      rml:reference "Direccion"
     ]
   ];
   rr:predicateObjectMap [

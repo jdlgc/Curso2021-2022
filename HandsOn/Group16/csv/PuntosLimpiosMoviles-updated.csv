@@ -1,352 +1,352 @@
-DIRECCION_COMPLETA,CLASE_VIAL,NOMBRE_VIAL,NUMERO,DISTRITO,UTMX,UTMY,Horario
-CallePrincipedeVergara_110,Calle,Príncipe de Vergara,110,CHAMARTIN,442421.33,4476741.68,LUNES_MAÑANA_7:00_8:30
-CalleSanMarcelo_6,Calle,San Marcelo,6,CIUDAD LINEAL,444161.68,4475366.47,LUNES_MAÑANA_7:00_8:30
-AvenidaDoctorArce_1InterseccionconPlazadelaRepublicaArgentina,Avenida,Doctor Arce,1,CHAMARTIN,441900.66,4477410.63,LUNES_MAÑANA_8:45_10:15
-CalleSanturce_InterseccionconCalleLuisRuiz,Calle,Santurce,,CIUDAD LINEAL,446077.17,4475366.87,LUNES_MAÑANA_8:45_10:15
-CallePradillo_22,Calle,Pradillo,22,CHAMARTIN,442881.26,4477772.74,LUNES_MAÑANA_10:30_12:00
-CalleGomezdeAvellaneda_14,Calle,Gómez de Avellaneda,14,CIUDAD LINEAL,445480.21,4476101.61,LUNES_MAÑANA_10:30_12:00
-PaseodelaDireccion_328,Paseo,de la Dirección,328,TETUAN,440313.76,4480160.56,LUNES_MAÑANA_10:30_12:00
-CallePadreClaret_17,Calle,Padre Claret,17,CHAMARTIN,443640.94,4477637.11,LUNES_MAÑANA_12:15_13:45
-CalleHierbabuena_13,Calle,Hierbabuena,13,TETUAN,440494.07,4479060.15,LUNES_TARDE_15:45_17:15
-CalleJulioDanvila_1Frentealcolegio,Calle,Julio Dánvila,1,CIUDAD LINEAL,443458.44,4480309.3,LUNES_TARDE_19:15_20:45
-CalleSaliente_Frentealnumero10,Calle,Saliente,,RETIRO,443446.55,4474466.02,LUNES_TARDE_19:15_20:45
-CallePedroTeixeira_10InterseccionconCallePoetaJoanMaragall,Calle,Pedro Teixeira,10,TETUAN,441286.56,4478482.2,LUNES_TARDE_19:15_20:45
-CalleJuanDuque_InterseccionconCalleFosforo,Calle,Juan Duque,,ARGANZUELA,438941.39,4473524.5,MARTES_MAÑANA_7:00_8:30
-CalleFernandoelCatolico_73,Calle,Fernando el Católico,73,CHAMBERI,439239.86,4476218.44,MARTES_MAÑANA_7:00_8:30
-PaseoEsperanza_21,Paseo,Esperanza,21,ARGANZUELA,440234.97,4472511.69,MARTES_MAÑANA_8:45_10:15
-CalleJoaquinMariaLopez_54,Calle,Joaquín María López,54,CHAMBERI,439312.53,4476603.04,MARTES_MAÑANA_8:45_10:15
-CalleDiligencia_22InterseccionconCallelaVioletera_frentealViverodeEmpresas,Calle,Diligencia,22,PUENTE VALLECAS,444302.77,4470488.95,MARTES_MAÑANA_8:45_10:15
-CalleFernandoPoo_Frenteelnumero36_esquinaDivinoValles,Calle,Fernando Poo,,ARGANZUELA,440606.99,4472014.76,MARTES_MAÑANA_10:30_12:00
-CalleArrieta_15,Calle,Arrieta,15,CENTRO,439675.8,4474526.5,MARTES_MAÑANA_10:30_12:00
-CallePonzano_2,Calle,Ponzano,2,CHAMBERI,440684.85,4476491.04,MARTES_MAÑANA_10:30_12:00
-AvenidaSanDiego_78InterseccionconCalleManuelMaroto,Avenida,San Diego,78,PUENTE VALLECAS,443184.53,4471012.4,MARTES_MAÑANA_10:30_12:00
-PaseoDelicias_68,Paseo,Delicias,68,ARGANZUELA,441080.38,4472315.18,MARTES_MAÑANA_12:15_13:45
-CalleFranciscodeRojas_11,Calle,Francisco de Rojas,11,CHAMBERI,440624.47,4475722.24,MARTES_MAÑANA_12:15_13:45
-CalleEnriqueGarciaAlvarez_Frentealnumero10,Calle,Enrique García Álvarez,,VILLA DE VALLECAS,447815.84,4470316.07,MARTES_MAÑANA_12:15_13:45
-CalleFrayLuisdeLeon_InterseccionconCalleJuanSebastianElcano_17,Calle,Fray Luis de León,,ARGANZUELA,440713.46,4472921.95,MARTES_TARDE_14:00_15:30
-CalleGarciadeParedes_82,Calle,García de Paredes,82,CHAMBERI,441208.65,4476442.5,MARTES_TARDE_14:00_15:30
-AvenidaCelioVillalba_InterseccionconCalleManizales,Avenida,Celio Villalba,,HORTALEZA,446022.61,4480624.5,MARTES_TARDE_14:00_15:30
-CalleMarismas_24,Calle,Marismas,24,PUENTE VALLECAS,444538.49,4472519.71,MARTES_TARDE_14:00_15:30
-CalleFuentespina_10,Calle,Fuentespina,10,VILLA DE VALLECAS,448482.94,4470052.83,MARTES_TARDE_14:00_15:30
-CalleArganda_2Frentealnumero2,Calle,Arganda,2,ARGANZUELA,439813.61,4472287.38,MARTES_TARDE_15:45_17:15
-PlazaSanJuandelaCruz_3InterseccionconCalleFernandezdelaHoz,Plaza,San Juan de la Cruz,3,CHAMBERI,441112.59,4476955,MARTES_TARDE_15:45_17:15
-CalleAlcala_287InterseccionconCalleBuenGobernador,Calle,Alcalá,287,CIUDAD LINEAL,444506.16,4475947.8,MARTES_TARDE_15:45_17:15
-CalleDoloresBarranco_50,Calle,Dolores Barranco,50,USERA,440003.69,4470544.29,MARTES_TARDE_15:45_17:15
-CalleCobre_Frentealnumero5,Calle,Cobre,,ARGANZUELA,441506.6,4471686.88,MARTES_TARDE_17:30_19:00
-CalleSegovia_20,Calle,Segovia,20,CENTRO,439571.88,4473948.99,MARTES_TARDE_17:30_19:00
-CalleVallehermoso_Frentealnumero50,Calle,Vallehermoso,,CHAMBERI,439898.35,4476357.44,MARTES_TARDE_17:30_19:00
-CalleHermanosMachado_InterseccionconCalleLosCollados,Calle,Hermanos Machado,,CIUDAD LINEAL,444949.64,4475812.43,MARTES_TARDE_17:30_19:00
-CarreteradeCanillas_39InterseccionconCalleAndresObispo,Carretera,de Canillas,39,HORTALEZA,445060.54,4479364.92,MARTES_TARDE_17:30_19:00
-CalleRafaelFernandezHijicos_32,Calle,Rafael Fernández Hijicos,32,PUENTE VALLECAS,446071.56,4471283.04,MARTES_TARDE_17:30_19:00
-CalleEmbajadores_274,Calle,Embajadores,274,ARGANZUELA,441501.17,4470772.24,MARTES_TARDE_19:15_20:45
-AvenidaIslasFilipinas_32,Avenida,Islas Filipinas,32,CHAMBERI,439926.37,4476890.05,MARTES_TARDE_19:15_20:45
-AvenidaMadronios_61,Avenida,Madroños,61,HORTALEZA,446340.39,4478598.57,MARTES_TARDE_19:15_20:45
-CalleFresnedillas_9frente,Calle,Fresnedillas,9,FUENCARRAL,437078.57,4481062.92,MIÉRCOLES_MAÑANA_7:00_8:30
-AvenidadeAsturias_6Enlaviadeservicio,Avenida,de Asturias,6,TETUAN,441261.48,4479932.15,MIÉRCOLES_MAÑANA_7:00_8:30
-CalleRibadavia_27Lateralfrenteasupermercado,Calle,Ribadavia,27,FUENCARRAL,439928.95,4480487.78,MIÉRCOLES_MAÑANA_8:45_10:15
-CalleSorAngeladelaCruz_12,Calle,Sor Ángela de la Cruz,12,TETUAN,441204.79,4478974.6,MIÉRCOLES_MAÑANA_8:45_10:15
-CaminoGanapanes_InterseccionconCalleLaBanieza,Camino,Ganapanes,,FUENCARRAL,439312.67,4480804.68,MIÉRCOLES_MAÑANA_10:30_12:00
-AvenidaComplutense_s/nFrenteServiciodeInformatica,Avenida,Complutense,s/n,MONCLOA-ARAVACA,438300.24,4478098.82,MIÉRCOLES_MAÑANA_10:30_12:00
-AvenidaHellin_17,Avenida,Hellin,17,SAN BLAS-CANILLEJAS,447762.06,4475755.67,MIÉRCOLES_MAÑANA_10:30_12:00
-CalleSangenjo_12,Calle,Sangenjo,12,FUENCARRAL,440461.07,4481732.36,MIÉRCOLES_MAÑANA_12:15_13:45
-CalleCarpinteria_InterseccionconCalleAmposta,Calle,Carpintería,,SAN BLAS-CANILLEJAS,447187.13,4475180.25,MIÉRCOLES_MAÑANA_12:15_13:45
-CalleMarquesdeViana_70,Calle,Marqués de Viana,70,TETUAN,440293.07,4479480.24,MIÉRCOLES_MAÑANA_12:15_13:45
-CalleCapitanBlancoArgibay_134,Calle,Capitán Blanco Argibay,134,TETUAN,440294.35,4479853.22,MIÉRCOLES_TARDE_14:00_15:30
-PlazadeCoimbra_Juntoalsemaforo,Plaza,de Coimbra,,CARABANCHEL,438568.9,4470537.06,MIÉRCOLES_TARDE_15:45_17:15
-CalleSanRestituto_24,Calle,San Restituto,24,MONCLOA-ARAVACA,439653.21,4479618.59,MIÉRCOLES_TARDE_15:45_17:15
-AvenidaPabloIglesias_36,Avenida,Pablo Iglesias,36,TETUAN,439881.6,4477758.48,MIÉRCOLES_TARDE_15:45_17:15
-CalleSantaMariaMagdalena_18,Calle,Santa María Magdalena,18,CHAMARTIN,443152.84,4479362.51,JUEVES_MAÑANA_7:00_8:30
-AvenidaSanLuis_27,Avenida,San Luis,27,HORTALEZA,444307.38,4480241.88,JUEVES_MAÑANA_7:00_8:30
-CalleMarquesdeLozoya_Frentealnumero26,Calle,Marqués de Lozoya,,RETIRO,443735.01,4474353.96,JUEVES_MAÑANA_7:00_8:30
-CalleMinerva_InterseccionconCalleCampodelaTorre_19,Calle,Minerva,,VICALVARO,448630.35,4471993.27,JUEVES_MAÑANA_7:00_8:30
-AvenidaPioXII_46,Avenida,Pío XII,46,CHAMARTIN,442890.96,4479932.86,JUEVES_MAÑANA_8:45_10:15
-CalleEstibaliz_28InterseccionconCallePabloSerano,Calle,Estíbaliz,28,HORTALEZA,445059.54,4480153.07,JUEVES_MAÑANA_8:45_10:15
-CalleIbiza_60,Calle,Ibiza,60,RETIRO,443060.56,4474360.16,JUEVES_MAÑANA_8:45_10:15
-CalleGeneralLopezPozas_16,Calle,General López Pozas,16,CHAMARTIN,441894.15,4479631.93,JUEVES_MAÑANA_10:30_12:00
-CalleAmadoNervo_Frentealnumero12,Calle,Amado Nervo,,RETIRO,442788.5,4473396.48,JUEVES_MAÑANA_10:30_12:00
-CallePrincipedeVergara_248,Calle,Príncipe de Vergara,248,CHAMARTIN,442572.62,4478331.25,JUEVES_MAÑANA_12:15_13:45
-CalleValderribas_25C,Calle,Valderribas,25 C,RETIRO,443125.43,4472621.32,JUEVES_MAÑANA_12:15_13:45
-AvenidaManuelFragaIribarne_35,Avenida,Manuel Fraga Iribarne,35,BARAJAS,448402.34,4482129.6,JUEVES_TARDE_14:00_15:30
-PaseoReinaCristina_Frentealnumero5_interseccionalaCalleJulianGayarre,Paseo,Reina Cristina,,RETIRO,442007.41,4473121.63,JUEVES_TARDE_14:00_15:30
-CalleTellez_26InterseccionconCalleLeonGilPalacio,Calle,Téllez,26,RETIRO,442345.67,4472637.26,JUEVES_TARDE_15:45_17:15
-CalleSofia_InterseccionconCalleBelgica_205,Calle,Sofía,,SAN BLAS-CANILLEJAS,448969.61,4475577.51,JUEVES_TARDE_19:15_20:45
-CalleSanModesto_InterseccionconCalleIsidroFernandez,Calle,San Modesto,,FUENCARRAL,441903.66,4481728.79,VIERNES_MAÑANA_7:00_8:30
-AvenidaAbrantes_40FrenteCalleFaro,Avenida,Abrantes,40,CARABANCHEL,438286.77,4470380.6,VIERNES_MAÑANA_8:45_10:15
-CalleCaballerodelaBlancaLuna_1,Calle,Caballero de la Blanca Luna,1,FUENCARRAL,441762.46,4484058.83,VIERNES_MAÑANA_8:45_10:15
-AvenidaPadrePiquer_13JuntoaCorreos,Avenida,Padre Piquer,13,LATINA,434848.14,4471779.49,VIERNES_MAÑANA_10:30_12:00
-AvenidaRosales_InterseccionconCalleTantalo,Avenida,Rosales,,VILLAVERDE,442294.55,4467199.5,VIERNES_MAÑANA_10:30_12:00
-CallePicoMilano_9,Calle,Pico Milano,9,FUENCARRAL,439592.55,4481975.77,VIERNES_MAÑANA_12:15_13:45
-CalleYebenes_110Frentealnumero217,Calle,Yébenes,110,LATINA,436214.39,4471552.4,VIERNES_MAÑANA_12:15_13:45
-CalleArroyodelaBulera_Frentealnumero11,Calle,Arroyo de la Bulera,,VILLAVERDE,442204.91,4465591.73,VIERNES_MAÑANA_12:15_13:45
-CalleMariblanca_18-20Entrelosnumero18y20,Calle,Mariblanca,18-20,USERA,440065.32,4471458.49,VIERNES_TARDE_14:00_15:30
-CalleAlferezJuanUsera_36,Calle,Alférez Juan Usera,36,CARABANCHEL,437947.11,4471907.52,VIERNES_TARDE_15:45_17:15
-CalleElfo_55-57,Calle,Elfo,55-57,CIUDAD LINEAL,444683.8,4476110.77,VIERNES_TARDE_15:45_17:15
-CalleJoaquinLorenzo_106,Calle,Joaquín Lorenzo,106,FUENCARRAL,437626.69,4480819.66,VIERNES_TARDE_15:45_17:15
-AvenidaApostoles_13InterseccionconPaseodelosOlivos,Avenida,Apóstoles,13,LATINA,437234.38,4473046.83,VIERNES_TARDE_15:45_17:15
-CalleVirgendelasCruces_2-4,Calle,Virgen de las Cruces,2-4,USERA,441219.87,4469970.76,VIERNES_TARDE_15:45_17:15
-PlazadelaParroquia_16,Plaza,de la Parroquia,16,CARABANCHEL,437027.97,4470191.24,VIERNES_TARDE_17:30_19:00
-CallePabloCasals_Frentealnumero10,Calle,Pablo Casals,,LATINA,438510.46,4473539.12,VIERNES_TARDE_17:30_19:00
-CallePicodeArtilleros_55,Calle,Pico de Artilleros,55,MORATALAZ,445592.6,4472886.08,VIERNES_TARDE_17:30_19:00
-CallelaCanciondelOlvido_47,Calle,la Canción del Olvido,47,VILLAVERDE,440576.44,4467618.06,VIERNES_TARDE_19:15_20:45
-CalleBarquillo_4,Calle,Barquillo,4,CENTRO,440994.61,4474572.62,SABADO_MAÑANA_7:00_8:30
-CalleLopedeVega_Frentealnumero36,Calle,Lope de Vega,,CENTRO,440827.07,4473984.49,SABADO_MAÑANA_8:45_10:15
-CalleJoseOrtegayGasset_8,Calle,Jose Ortega y Gasset,8,SALAMANCA,441807.06,4475732.94,SABADO_MAÑANA_8:45_10:15
-AvenidaPabloIglesias_55,Avenida,Pablo Iglesias,55,MONCLOA-ARAVACA,439724.21,4478011.73,SABADO_MAÑANA_10:30_12:00
-CalleJuanBravo_35-37InterseccionconCalleGeneralPardinias,Calle,Juan Bravo,35-37,SALAMANCA,442486.06,4476004.1,SABADO_MAÑANA_10:30_12:00
-CalleNicolasaGomez_Frentealnumero80,Calle,Nicolasa Gómez,,SAN BLAS-CANILLEJAS,448113.18,4476603.52,SABADO_MAÑANA_10:30_12:00
-PlazaTirsodeMolina_16Zonadecargaydescarga,Plaza,Tirso de Molina,16,CENTRO,440221.41,4473790.59,SABADO_MAÑANA_12:15_13:45
-CalleRiberadeManzanares_125InterseccionconCalleAcantilado,Calle,Ribera de Manzanares,125,MONCLOA-ARAVACA,437794.24,4475679.7,SABADO_MAÑANA_12:15_13:45
-CalledelPilardeZaragoza_57IterseccionconCalleJosePicon,Calle,del Pilar de Zaragoza,57,SALAMANCA,443058.63,4476339.41,SABADO_MAÑANA_12:15_13:45
-CalleArriaza_Frentealnumero10.InterseccionconCalleIlustracion,Calle,Arriaza,,MONCLOA-ARAVACA,439250.09,4474759.72,SABADO_TARDE_14:00_15:30
-CalleBerlin_3,Calle,Berlín,3,SALAMANCA,443741.93,4476969.2,SABADO_TARDE_14:00_15:30
-CalleEspirituSanto_26Entrolosnumeros26y28.Zonadecargaydescarga,Calle,Espíritu Santo,26,CENTRO,440311.69,4475218.53,SABADO_TARDE_15:45_17:15
-PlazaLavapies_8Zonadecargaydescarga,Plaza,Lavapiés,8,CENTRO,440499.65,4473354.35,SABADO_TARDE_15:45_17:15
-CalleLuisMoyaBlanco_27,Calle,Luis Moya Blanco,27,HORTALEZA,447765.99,4482999.86,SABADO_TARDE_15:45_17:15
-CalleDoctorEsquerdo_47,Calle,Doctor Esquerdo,47,SALAMANCA,443283,4474940.14,SABADO_TARDE_15:45_17:15
-GlorietaEmbajadores_10esquinacalleEmbajadores,Glorieta,Embajadores,10,CENTRO,440360.07,4472982.46,SABADO_TARDE_17:30_19:00
-CalleSilva_25,Calle,Silva,25,CENTRO,440134.5,4474823.78,SABADO_TARDE_17:30_19:00
-CalleGeneralDiazPorlier_41,Calle,General Díaz Porlier,41,SALAMANCA,442571.45,4475523.9,SABADO_TARDE_17:30_19:00
-CalleVillanueva_20InterseccionconCalleClaudioCoello,Calle,Villanueva,20,SALAMANCA,441714.67,4474870.03,SABADO_TARDE_19:15_20:45
-CalleEstrellaPolar_22,Calle,Estrella Polar,22,RETIRO,443476.57,4473573.2,LUNES_MAÑANA_7:00_8:30
-CalleJeronimaLlorente_65,Calle,Jerónima Llorente,65,TETUAN,439955.62,4478314.84,LUNES_MAÑANA_7:00_8:30
-CallePinardeSanJose_13,Calle,Pinar de San José,13,CARABANCHEL,435295.3,4468443.89,LUNES_MAÑANA_7:00_8:30
-PaseoLanceros_2,Paseo,Lanceros,2,LATINA,432694.46,4470136.92,LUNES_MAÑANA_7:00_8:30
-PlazaElPardo_1InterseccionconCalleCarboneros,Plaza,El Pardo,1,FUENCARRAL,434134.78,4485795.22,LUNES_MAÑANA_7:00_8:30
-AvenidaMenendezPelayo_Frentealnumero29_enlaaceradeElRetiro,Avenida,Menéndez Pelayo,,RETIRO,442393.46,4474445.91,LUNES_MAÑANA_8:45_10:15
-CalleCerrodeMinguete_9,Calle,Cerro de Minguete,9,FUENCARRAL,439019.02,4482030.84,LUNES_MAÑANA_8:45_10:15
-CalleFrancosRodriguez_57,Calle,Francos Rodríguez,57,TETUAN,439862.49,4478702,LUNES_MAÑANA_8:45_10:15
-AvenidaNuestraSenioradeFatima_15,Avenida,Nuestra Señora de Fátima,15,CARABANCHEL,436817.76,4470851.96,LUNES_MAÑANA_8:45_10:15
-CalleVillasandino_35,Calle,Villasandino,35,LATINA,436111.45,4473060.11,LUNES_MAÑANA_8:45_10:15
-AvenidaCardenalHerreraOria_259,Avenida,Cardenal Herrera Oria,259,FUENCARRAL,438776.03,4481302.62,LUNES_MAÑANA_10:30_12:00
-AvenidaMenendezPelayo_95,Avenida,Menéndez Pelayo,95,RETIRO,442376.92,4473120.55,LUNES_MAÑANA_10:30_12:00
-CalleAntonioLeyva_77FrentealInstitutoCarderondelaBarca,Calle,Antonio Leyva,77,CARABANCHEL,439173.82,4471034.73,LUNES_MAÑANA_10:30_12:00
-PaseodelosJesuitas_42,Paseo,de los Jesuitas,42,LATINA,437639.27,4473379.86,LUNES_MAÑANA_10:30_12:00
-CalleCandidoMateos_17,Calle,Cándido Mateos,17,FUENCARRAL,439092.72,4480602.99,LUNES_MAÑANA_12:15_13:45
-CalleCarlosDaban_Frentealnumero28,Calle,Carlos Daban,,CARABANCHEL,437905,4472135.59,LUNES_MAÑANA_12:15_13:45
-CalleDoctorEsquerdo_152,Calle,Doctor Esquerdo,152,RETIRO,442898.22,4472780.66,LUNES_MAÑANA_12:15_13:45
-CalleVirgendeAfrica_14,Calle,Virgen de África,14,CIUDAD LINEAL,444534.76,4476616.93,LUNES_MAÑANA_12:15_13:45
-GlorietadelosCarmenes_EntrelassalidasdeCalleGalluryCalleAlhambra,Glorieta,de los Cármenes,,LATINA,436910.15,4471942.57,LUNES_MAÑANA_12:15_13:45
-PlazadelaRemonta_3,Plaza,de la Remonta,3,TETUAN,440857.18,4479555.85,LUNES_MAÑANA_12:15_13:45
-AvenidaAlfonsoXIII_65,Avenida,Alfonso XIII,65,CHAMARTIN,443422.2,4478377.68,LUNES_TARDE_14:00_15:30
-AvenidadeAsturias_44,Avenida,de Asturias,44,TETUAN,440918.17,4480247.98,LUNES_TARDE_14:00_15:30
-CalleAgastia_42Frentealnumero42,Calle,Agastia,42,CIUDAD LINEAL,444793.35,4477415.59,LUNES_TARDE_14:00_15:30
-CalleLaguna_121,Calle,Laguna,121,CARABANCHEL,437042.39,4471122.03,LUNES_TARDE_14:00_15:30
-CalleOcania_149,Calle,Ocaña,149,LATINA,436073.76,4470917.76,LUNES_TARDE_14:00_15:30
-CalleSeco_2,Calle,Seco,2,RETIRO,442978.33,4472290.07,LUNES_TARDE_14:00_15:30
-CalleFerminCaballero_49-51,Calle,Fermín Caballero,49-51,FUENCARRAL,440114.52,4481748.34,LUNES_TARDE_14:00_15:30
-AvenidaOporto_33,Avenida,Oporto,33,CARABANCHEL,438505.01,4470788.9,LUNES_TARDE_15:45_17:15
-CalleCamarena_235Frentealnumero296,Calle,Camarena,235,LATINA,435731.09,4470910.54,LUNES_TARDE_15:45_17:15
-CalleCanias_Frentealnumero13,Calle,Cañas,,CIUDAD LINEAL,444088,4478794.51,LUNES_TARDE_15:45_17:15
-CalleDoctorEsquerdo_94EsquinaAvenidadeNazaret_frentealnumero125,Calle,Doctor Esquerdo,94,RETIRO,443159.45,4473673.17,LUNES_TARDE_15:45_17:15
-CalleJulioPalacios_10,Calle,Julio Palacios,10,FUENCARRAL,443159.45,4473673.17,LUNES_TARDE_15:45_17:15
-PlazadelPeru_InterseccionconAvenidaPioXII,Plaza,del Perú,,CHAMARTIN,442655.01,4479090.61,LUNES_TARDE_15:45_17:15
-AvenidaAlbertoAlcocer_28,Avenida,Alberto Alcocer,28,CHAMARTIN,442019.6,4478870.53,LUNES_TARDE_17:30_19:00
-CalleArturoSoria_242,Calle,Arturo Soria,242,CIUDAD LINEAL,443589.38,4479647.5,LUNES_TARDE_17:30_19:00
-CalleClaraCampoamor_Frentealnumero75,Calle,Clara Campoamor,,CARABANCHEL,437794.87,4470145.39,LUNES_TARDE_17:30_19:00
-CalleFuentedelTiro_17,Calle,Fuente del Tiro,17,LATINA,433744.17,4470628.25,LUNES_TARDE_17:30_19:00
-CalleNarvaez_82,Calle,Narváez,82,RETIRO,442600.3,4474216.15,LUNES_TARDE_17:30_19:00
-CalleNuestraSenioradeValverde_17,Calle,Nuestra Señora de Valverde,17,FUENCARRAL,441802.95,4482622.73,LUNES_TARDE_17:30_19:00
-CallePoetaJoanMaragall_45Frentealnumero54_interseccionconCalledeRosarioPino,Calle,Poeta Joan Maragall,45,TETUAN,441349.29,4479300.46,LUNES_TARDE_17:30_19:00
-CalleAfuerasaValverde_23,Calle,Afueras a Valverde,23,FUENCARRAL,441617.57,4483190.34,LUNES_TARDE_19:15_20:45
-CalleEnriqueLarreta_14,Calle,Enrique Larreta,14,CHAMARTIN,441795.16,4480002.77,LUNES_TARDE_19:15_20:45
-CalleMazarambroz_4InterseccionconCalleCazalegasyCalleCarranque,Calle,Mazarambroz,4,CARABANCHEL,438203.57,4469646.48,LUNES_TARDE_19:15_20:45
-CalleOlivadePlasencia_1,Calle,Oliva de Plasencia,1,LATINA,433836.4,4470064.42,LUNES_TARDE_19:15_20:45
-CalleCondeDuque_30,Calle,Conde Duque,30,CENTRO,439762.85,4475482.28,MARTES_MAÑANA_7:00_8:30
-CalleCooperativaElectrica_18,Calle,Cooperativa Eléctrica,18,PUENTE VALLECAS,443927.89,4469543.93,MARTES_MAÑANA_7:00_8:30
-CalleGuetaria_47InterseccionconCalleVillabona,Calle,Guetaria,47,USERA,439253.3,4468975.92,MARTES_MAÑANA_7:00_8:30
-CallePeniarandadeBracamonte_53,Calle,Peñaranda de Bracamonte,53,VILLA DE VALLECAS,448130.3,4468637.39,MARTES_MAÑANA_7:00_8:30
-CallePradoluengo_243,Calle,Pradoluengo,243,BARAJAS,450648.62,4478009.91,MARTES_MAÑANA_7:00_8:30
-AvenidaVilladeVallecas_13,Avenida,Villa de Vallecas,13,VILLA DE VALLECAS,447453.54,4468963.83,MARTES_MAÑANA_8:45_10:15
-CalleSimca_4InterseccionconCalleDodge,Calle,Simca,4,USERA,439712.1,4468664.29,MARTES_MAÑANA_8:45_10:15
-PlazaNavio_1,Plaza,Navío,1,BARAJAS,450116.69,4478506.26,MARTES_MAÑANA_8:45_10:15
-GlorietaRuizJimenez_8,Glorieta,Ruíz Jiménez,8,CENTRO,440138.36,4475639.72,MARTES_MAÑANA_8:45_10:15
-AvenidaOrcasur_44InterseccionconCalleArenasdelRey_juntoalCentrodeSalud,Avenida,Orcasur,44,USERA,440506.5,4468567.22,MARTES_MAÑANA_10:30_12:00
-BulevarNaturaleza_13,Bulevar,Naturaleza,13,VILLA DE VALLECAS,446534.33,4469272.76,MARTES_MAÑANA_10:30_12:00
-CalleRioja_27,Calle,Rioja,27,BARAJAS,450374.7,4478971.54,MARTES_MAÑANA_10:30_12:00
-CalleAndaluces_9,Calle,Andaluces,9,PUENTE VALLECAS,445969.39,4471231.37,MARTES_MAÑANA_12:15_13:45
-CallePeriana_6,Calle,Periana,6,USERA,441543.92,4468873.4,MARTES_MAÑANA_12:15_13:45
-CalleSantaIsabel_47,Calle,Santa Isabel,47,CENTRO,440935.1,4473450.87,MARTES_MAÑANA_12:15_13:45
-PlazaMayordeBarajas_19,Plaza,Mayor de Barajas,19,BARAJAS,451060.24,4480473.35,MARTES_MAÑANA_12:15_13:45
-CalledelSantuario_InterseccionconCalleHijasdeJesusyCalleSanAntoniodePadua,Calle,del Santuario,,USERA,440572.26,4470721.15,MARTES_TARDE_14:00_15:30
-PlazaSantaBarbara_5,Plaza,Santa Bárbara,5,CENTRO,440928.63,4475438.21,MARTES_TARDE_14:00_15:30
-CalleHumanes_27,Calle,Humanes,27,PUENTE VALLECAS,445210.15,4471826.88,MARTES_TARDE_15:45_17:15
-CalleMontearagon_11,Calle,Montearagón,11,HORTALEZA,444177.72,4479401.51,MARTES_TARDE_15:45_17:15
-CallePrincipe_18,Calle,Príncipe,18,CENTRO,440580.55,4474086.94,MARTES_TARDE_15:45_17:15
-AvenidaRafaelaYbarra_20,Avenida,Rafaela Ybarra,20,USERA,439616.8,4470396.11,MARTES_TARDE_17:30_19:00
-AvenidadeBuenosAires_25,Avenida,de Buenos Aires,25,PUENTE VALLECAS,444594.75,4470982.35,MARTES_TARDE_19:15_20:45
-CalleEzequielSolana_73,Calle,Ezequiel Solana,73,CIUDAD LINEAL,445454.96,4475511.91,MARTES_TARDE_19:15_20:45
-CalleRiberadeCurtidores_37-(A_B_C),Calle,Ribera de Curtidores,"37- (A, B, C)",CENTRO,439996.74,4473123.76,MARTES_TARDE_19:15_20:45
-CalleManuelNoya_15,Calle,Manuel Noya,15,USERA,439532.69,4470930.76,MARTES_TARDE_19:15_20:45
-AvenidaVictoria_77,Avenida,Victoria,77,MONCLOA-ARAVACA,429298.03,4480698.94,MIÉRCOLES_MAÑANA_7:00_8:30
-CalleTrompas_15,Calle,Trompas,15,LATINA,435002.22,4469264.49,MIÉRCOLES_MAÑANA_7:00_8:30
-AvenidaInstitucionLibredeEnsenianza_1,Avenida,Institución Libre de Enseñanza,1,SAN BLAS-CANILLEJAS,445922.76,4476537.04,MIÉRCOLES_MAÑANA_7:00_8:30
-CalleJoaquinTurina_62,Calle,Joaquín Turina,62,CARABANCHEL,435614.07,4469349.07,MIÉRCOLES_MAÑANA_7:00_8:30
-PaseoAlbertoPalacios_1InterseccionconPlazaAgata,Paseo,Alberto Palacios,1,VILLAVERDE,439756.38,4466455.18,MIÉRCOLES_MAÑANA_7:00_8:30
-AvenidaValdemarin_71AInterseccionconCalleCisne,Avenida,Valdemarín,71 A,MONCLOA-ARAVACA,434014.29,4480227.88,MIÉRCOLES_MAÑANA_8:45_10:15
-CalleCastillodeUcles_InterseccionconCalleCastillodeSimancasyfrenteaCalleYuncos_1,Calle,Castillo de Uclés,,SAN BLAS-CANILLEJAS,447136.02,4475688.59,MIÉRCOLES_MAÑANA_8:45_10:15
-CalleGuarenia_AlladoAuditorioPacodeLucia,Calle,Guareña,,LATINA,435085.62,4470795.23,MIÉRCOLES_MAÑANA_8:45_10:15
-PlazadelosNavarros_EntreCalleAlbaresdelaRiberayCalleAlbercadeZancara,Plaza,de los Navarros,,CARABANCHEL,436998.09,4469561.33,MIÉRCOLES_MAÑANA_8:45_10:15
-PaseoAlbertoPalacios_76,Paseo,Alberto Palacios,76,VILLAVERDE,439229.76,4466149.51,MIÉRCOLES_MAÑANA_8:45_10:15
-CalleGodella_Detrasdelnumero100_enlaplazafrenteal116,Calle,Godella,,VILLAVERDE,441525.68,4465807.01,MIÉRCOLES_MAÑANA_10:30_12:00
-CalleIllescas_117,Calle,Illescas,117,LATINA,435391.82,4471712.37,MIÉRCOLES_MAÑANA_10:30_12:00
-CalleLopedeHaro_36,Calle,Lope de Haro,36,TETUAN,440251.84,4478691.42,MIÉRCOLES_MAÑANA_10:30_12:00
-CalleToboso_134,Calle,Toboso,134,CARABANCHEL,437480.77,4471691.97,MIÉRCOLES_MAÑANA_10:30_12:00
-CalleAntonioLopez_88,Calle,Antonio López,88,CARABANCHEL,439936.82,4471709.68,MIÉRCOLES_MAÑANA_12:15_13:45
-CalleBerrocal_14,Calle,Berrocal,14,VILLAVERDE,442442.55,4466535.77,MIÉRCOLES_MAÑANA_12:15_13:45
-CalleCardanio_8EnlaPlazaPatricioMartinez,Calle,Cardaño,8,LATINA,434616.7,4472057.03,MIÉRCOLES_MAÑANA_12:15_13:45
-CalleMarquesdeUrquijo_2,Calle,Marqués de Urquijo,2,MONCLOA-ARAVACA,439212.03,4475798.68,MIÉRCOLES_MAÑANA_12:15_13:45
-CalleCasalarreina_3InterseccionconPlazadelaVicalvarada,Calle,Casalarreina,3,VICALVARO,448194.6,4473379.15,MIÉRCOLES_TARDE_14:00_15:30
-CalleCiudadania_6,Calle,Ciudadania,6,VILLAVERDE,441214.79,4467553.92,MIÉRCOLES_TARDE_14:00_15:30
-CalleFrancosRodriguez_102,Calle,Francos Rodríguez,102,MONCLOA-ARAVACA,439565.13,4478826.55,MIÉRCOLES_TARDE_14:00_15:30
-CalleNuria_59EnfrentedelCentroComercial,Calle,Nuria,59,FUENCARRAL,440009.17,4482762.54,MIÉRCOLES_TARDE_14:00_15:30
-CalleSanBraulio_EnlaaceradelMercadoMunicipaldeSanIsidro_frentealnumero3,Calle,San Braulio,,CARABANCHEL,438469.3,4471471.06,MIÉRCOLES_TARDE_14:00_15:30
-CalleTembleque_64,Calle,Tembleque,64,LATINA,435476.34,4471898.29,MIÉRCOLES_TARDE_14:00_15:30
-CalleAlhambra_Aceradeenfrentealnumero30,Calle,Alhambra,,LATINA,436815.31,4472519.63,MIÉRCOLES_TARDE_15:45_17:15
-AvenidaMonasteriodeSilos_85,Avenida,Monasterio de Silos,85,FUENCARRAL,441374.21,4484571.09,MIÉRCOLES_TARDE_15:45_17:15
-CalleTertulia_InterseccionconCalleCirculo,Calle,Tertulia,,VILLAVERDE,441157.83,4468197.15,MIÉRCOLES_TARDE_15:45_17:15
-CalleVillardondiego_39-41,Calle,Villardondiego,39-41,VICALVARO,448405.2,4472827.04,MIÉRCOLES_TARDE_15:45_17:15
-CalleAviadorZorita_42,Calle,Aviador Zorita,42,TETUAN,440810.54,4478065.39,MIÉRCOLES_TARDE_17:30_19:00
-CalleEstella_21,Calle,Estella,21,FUENCARRAL,442850.98,4483154.23,MIÉRCOLES_TARDE_17:30_19:00
-CalleEugeniadeMontijo_76,Calle,Eugenia de Montijo,76,CARABANCHEL,436561.38,4470107.22,MIÉRCOLES_TARDE_17:30_19:00
-CalleHigueras_45,Calle,Higueras,45,LATINA,436775.56,4473012.46,MIÉRCOLES_TARDE_17:30_19:00
-CalleLadelManojodeRosas_14,Calle,La del Manojo de Rosas,14,VILLAVERDE,440769.53,4467935.53,MIÉRCOLES_TARDE_17:30_19:00
-CalleGolondrina_FrenteaAvenidadelTalgo_234,Calle,Golondrina,,MONCLOA-ARAVACA,433424.52,4477724.42,MIÉRCOLES_TARDE_17:30_19:00
-CalleMinerva_7,Calle,Minerva,7,VICALVARO,449254.82,4472752.19,MIÉRCOLES_TARDE_17:30_19:00
-AvenidaSantoDomingodelaCalzada_27,Avenida,Santo Domingo de la Calzada,27,FUENCARRAL,443304.7,4484255.94,MIÉRCOLES_TARDE_19:15_20:45
-CalleAbadJuanCatalan_52-56,Calle,Abad Juan Catalán,52-56,VICALVARO,449729.34,4473042.68,MIÉRCOLES_TARDE_19:15_20:45
-CalleCaramuel_6Entrelosnumeros6y8,Calle,Caramuel,6,LATINA,438307.81,4473864.88,MIÉRCOLES_TARDE_19:15_20:45
-CalleMutual_2InterseccionconAvenidadelaPeseta,Calle,Mutual,2,CARABANCHEL,436543.24,4468367.68,MIÉRCOLES_TARDE_19:15_20:45
-CalleLadelManojodeRosas_95,Calle,La del Manojo de Rosas,95,VILLAVERDE,440687.52,4467186.95,MIÉRCOLES_TARDE_19:15_20:45
-CalleOrense_9,Calle,Orense,9,TETUAN,441017.2,4477688.81,MIÉRCOLES_TARDE_19:15_20:45
-CalleVirgendelosRosales_Aceradeenfrentealnumero88,Calle,Virgen de los Rosales,,MONCLOA-ARAVACA,433943.46,4478393.51,MIÉRCOLES_TARDE_19:15_20:45
-AvenidaGranViadelSuereste_55,Avenida,Gran Vía del Suereste,55,VILLA DE VALLECAS,449631.14,4467582.44,JUEVES_MAÑANA_7:00_8:30
-CalleSantaMarta_15,Calle,Santa Marta,15,PUENTE VALLECAS,443822.93,4472671.33,JUEVES_MAÑANA_7:00_8:30
-PaseoMarquesdeZafra_32,Paseo,Marqués de Zafra,32,SALAMANCA,443646.54,4475219.93,JUEVES_MAÑANA_7:00_8:30
-AvenidaGranViadelSuereste_11,Avenida,Gran Vía del Suereste,11,VILLA DE VALLECAS,450106.99,4468329.42,JUEVES_MAÑANA_8:45_10:15
-CalleGoya_107,Calle,Goya,107,SALAMANCA,442907.8,4475125.97,JUEVES_MAÑANA_8:45_10:15
-CallePergamino_Frentealnumero30,Calle,Pergamino,,VICALVARO,447068.35,4471749.02,JUEVES_MAÑANA_8:45_10:15
-CaminoValderribas_99,Camino,Valderribas,99,PUENTE VALLECAS,443298.92,4472633.08,JUEVES_MAÑANA_8:45_10:15
-AvenidaLasSuertes_Frentealnumero67,Avenida,Las Suertes,,VILLA DE VALLECAS,449614.83,4468373.88,JUEVES_MAÑANA_10:30_12:00
-CalleCordeldePavones_46,Calle,Cordel de Pavones,46,VICALVARO,447409.97,4472099.07,JUEVES_MAÑANA_10:30_12:00
-CalleMoscatelar_35,Calle,Moscatelar,35,HORTALEZA,445183.23,4478714.89,JUEVES_MAÑANA_10:30_12:00
-CalleNarvaez_44,Calle,Narváez,44,SALAMANCA,442625.56,4474589.96,JUEVES_MAÑANA_10:30_12:00
-CalleRamirezTome_38,Calle,Ramírez Tomé,38,PUENTE VALLECAS,445128.9,4471110.68,JUEVES_MAÑANA_10:30_12:00
-AvenidadeBuenosAires_99,Avenida,de Buenos Aires,99,PUENTE VALLECAS,444592,4470080.53,JUEVES_MAÑANA_12:15_13:45
-BulevarIndalecioPrieto_9,Bulevar,Indalecio Prieto,9,VICALVARO,447398.27,4472699.83,JUEVES_MAÑANA_12:15_13:45
-CalleEmbalsedeNavacerrada_Frentealnumero50,Calle,Embalse de Navacerrada,,VILLA DE VALLECAS,448920.51,4468158.4,JUEVES_MAÑANA_12:15_13:45
-CalleSilvano_97Frentealnumero97_interseccionconAvenidaMachupichu,Calle,Silvano,97,HORTALEZA,446183.56,4479298.34,JUEVES_MAÑANA_12:15_13:45
-CalleVelazquez_48,Calle,Velázquez,48,SALAMANCA,441987.53,4475362.83,JUEVES_MAÑANA_12:15_13:45
-AvenidaGuadalajara_InterseccionconCalleSanRomandelValle,Avenida,Guadalajara,,SAN BLAS-CANILLEJAS,447314.62,4474482.15,JUEVES_TARDE_14:00_15:30
-CalleMonleon_2,Calle,Monleón,2,PUENTE VALLECAS,444390.17,4471517.84,JUEVES_TARDE_14:00_15:30
-CalleSantaHortensia_2InterseccionconLopezdeHoyos,Calle,Santa Hortensia,2,CHAMARTIN,443127.33,4477472.14,JUEVES_TARDE_14:00_15:30
-CalleSierraVieja_1,Calle,Sierra Vieja,1,VILLA DE VALLECAS,446556.28,4469822.16,JUEVES_TARDE_14:00_15:30
-CalleVelazquez_89,Calle,Velázquez,89,SALAMANCA,442019.84,4476160.84,JUEVES_TARDE_14:00_15:30
-CalleAlbericia_InterseccionconCalleArcosdelJalon,Calle,Albericia,,SAN BLAS-CANILLEJAS,447785.8,4475053.34,JUEVES_TARDE_15:45_17:15
-CalleClaradelRey_21,Calle,Clara del Rey,21,CHAMARTIN,443000.35,4476931.78,JUEVES_TARDE_15:45_17:15
-CalleFranciscoSilvela_InterseccionconCalleFlorestonAguilarjuntoalParqueEvaDuarte,Calle,Francisco Silvela,,SALAMANCA,443134.13,4475731.17,JUEVES_TARDE_15:45_17:15
-CalleArroyodelOlivar_InterseccionconCalleMartinezdelaRiva_18,Calle,Arroyo del Olivar,,PUENTE VALLECAS,443463.25,4471710.98,JUEVES_TARDE_15:45_17:15
-CallePlayadeZarauz_1,Calle,Playa de Zarauz,1,BARAJAS,449780.61,4480454.48,JUEVES_TARDE_15:45_17:15
-PaseoFedericoGarciaLorca_3,Paseo,Federico García Lorca,3,VILLA DE VALLECAS,447286.42,4470053.98,JUEVES_TARDE_15:45_17:15
-AvenidaDoctorGarciaTapia_135,Avenida,Doctor García Tapia,135,MORATALAZ,445941.63,4473366.16,JUEVES_TARDE_17:30_19:00
-AvenidaGavia_14,Avenida,Gavia,14,VILLA DE VALLECAS,448175.45,4469566.88,JUEVES_TARDE_17:30_19:00
-AvenidaNiza_25Eneltramodeviaentrelosnumeros13y25,Avenida,Niza,25,SAN BLAS-CANILLEJAS,448518.74,4475431.44,JUEVES_TARDE_17:30_19:00
-CalleAlcala_237JuntoaPlazadeTorosdelasVentas,Calle,Alcalá,237,SALAMANCA,443683.25,4475825.97,JUEVES_TARDE_17:30_19:00
-CalleBahiadeCadiz_32,Calle,Bahia de Cádiz,32,BARAJAS,449612.88,4479406.74,JUEVES_TARDE_17:30_19:00
-CalleJavierdeMiguel_40,Calle,Javier de Miguel,40,PUENTE VALLECAS,443928.66,4470983.48,JUEVES_TARDE_17:30_19:00
-CallePrincipedeVergara_142,Calle,Príncipe de Vergara,142,CHAMARTIN,442484.79,4477330.64,JUEVES_TARDE_17:30_19:00
-CalleBabilonia_33,Calle,Babilonia,33,BARAJAS,450420.08,4479808.83,JUEVES_TARDE_19:15_20:45
-CalleBrescia_2InterseccionconCalleBiarritz,Calle,Brescia,2,SALAMANCA,443651.03,4476418,JUEVES_TARDE_19:15_20:45
-CalleSantoDomingodeSilos_7InterseccionAvConchaEspina,Calle,Santo Domingo de Silos,7,CHAMARTIN,441753.11,4478129.02,JUEVES_TARDE_19:15_20:45
-CalleFuenteCarrantona_41,Calle,Fuente Carrantona,41,MORATALAZ,446443.54,4473270.54,JUEVES_TARDE_19:15_20:45
-CallePuentelarra_13,Calle,Puentelarrá,13,VILLA DE VALLECAS,448281.15,4470386.89,JUEVES_TARDE_19:15_20:45
-CalleRuidera_26,Calle,Ruidera,26,PUENTE VALLECAS,442665.31,4470184.77,JUEVES_TARDE_19:15_20:45
-AvenidaFerminaSevillano_26,Avenida,Fermina Sevillano,26,SAN BLAS-CANILLEJAS,451740.97,4477286.9,VIERNES_MAÑANA_7:00_8:30
-CalleEugeniadeMontijo_99,Calle,Eugenia de Montijo,99,CARABANCHEL,436250.91,4469582.53,VIERNES_MAÑANA_7:00_8:30
-CalleGranAvenida_31,Calle,Gran Avenida,31,USERA,440045.72,4469024.45,VIERNES_MAÑANA_7:00_8:30
-CalleHaciendadePavones_220,Calle,Hacienda de Pavones,220,MORATALAZ,445687.07,4472498.22,VIERNES_MAÑANA_7:00_8:30
-CalleRafaelFinat_103,Calle,Rafael Finat,103,LATINA,434421.94,4469758.87,VIERNES_MAÑANA_7:00_8:30
-CalleValdebernardo_45,Calle,Valdebernardo,45,MORATALAZ,446384.26,4472738.44,VIERNES_MAÑANA_7:00_8:30
-AvenidaSegunda_Frentealnumero5aproximadamente,Avenida,Segunda,,SAN BLAS-CANILLEJAS,449598.47,4477580.64,VIERNES_MAÑANA_8:45_10:15
-CalleGeneralMillanAstray_20,Calle,General Millan Astray,20,LATINA,434871.22,4470041.9,VIERNES_MAÑANA_8:45_10:15
-CalleHaciendadePavones_72,Calle,Hacienda de Pavones,72,MORATALAZ,445169.27,4472738.84,VIERNES_MAÑANA_8:45_10:15
-CalleParquedelaPaloma_32,Calle,Parque de la Paloma,32,USERA,439336.43,4470025.17,VIERNES_MAÑANA_8:45_10:15
-CalleEncomiendadePalacios_360,Calle,Encomienda de Palacios,360,MORATALAZ,446155.78,4472002.79,VIERNES_MAÑANA_8:45_10:15
-AvenidaMonasteriodeSilos_Aceradelospares_frentealnumero23,Avenida,Monasterio de Silos,,FUENCARRAL,440150.58,4483879.66,VIERNES_MAÑANA_10:30_12:00
-AvenidaPlazadeToros_3,Avenida,Plaza de Toros,3,CARABANCHEL,437399.58,4470811.58,VIERNES_MAÑANA_10:30_12:00
-CalleAntonioLopez_246-248,Calle,Antonio López,246-248,USERA,440926.94,4470378.91,VIERNES_MAÑANA_10:30_12:00
-CalleArturoSoria_320,Calle,Arturo Soria,320,CIUDAD LINEAL,443357.17,4481056.31,VIERNES_MAÑANA_10:30_12:00
-CalleCaminodeVinateros_108,Calle,Camino de Vinateros,108,MORATALAZ,445107.48,4473267.68,VIERNES_MAÑANA_10:30_12:00
-CalleAmparoUsera_47,Calle,Amparo Usera,47,USERA,440008.82,4470937.71,VIERNES_MAÑANA_12:15_13:45
-AvenidaOporto_96,Avenida,Oporto,96,CARABANCHEL,438078.26,4470987.84,VIERNES_MAÑANA_12:15_13:45
-CalleTorrelaguna_66,Calle,Torrelaguna,66,CIUDAD LINEAL,444284.28,4477775.95,VIERNES_MAÑANA_12:15_13:45
-CalleCaminodeVinateros_63,Calle,Camino de Vinateros,63,MORATALAZ,444685.42,4473515.98,VIERNES_MAÑANA_12:15_13:45
-CalleAntonioLopez_9,Calle,Antonio López,9,CARABANCHEL,439397.79,4472075.3,VIERNES_TARDE_14:00_15:30
-CalleBerrocal_72,Calle,Berrocal,72,VILLAVERDE,442647.27,4465842.89,VIERNES_TARDE_14:00_15:30
-CalleCaminodelosVinateros_10-12,Calle,Camino de los Vinateros,10-12,MORATALAZ,443962.2,4473544.21,VIERNES_TARDE_14:00_15:30
-CalleDuquesadeParcent_96,Calle,Duquesa de Parcent,96,LATINA,436326.92,4471971.48,VIERNES_TARDE_14:00_15:30
-CalleJosedelHierro_37InterseccionconCalleRosaliaTrujillo,Calle,José del Hierro,37,CIUDAD LINEAL,445310.31,4476784.75,VIERNES_TARDE_14:00_15:30
-CalleLeopoldoAlasClarin_Aceradelospares_frentealnumero41,Calle,Leopoldo Alas Clarín,,FUENCARRAL,437856.75,4481403.31,VIERNES_TARDE_14:00_15:30
-AvenidaMoratalaz_39,Avenida,Moratalaz,39,MORATALAZ,444112.81,4473200.76,VIERNES_TARDE_15:45_17:15
-CalleCarmendeBurgos_4,Calle,Carmen de Burgos,4,VILLAVERDE,441841.64,4467654.27,VIERNES_TARDE_15:45_17:15
-CalleEstafeta_20Frentealnumero7,Calle,Estafeta,20,USERA,441213.67,4469426.02,VIERNES_TARDE_17:30_19:00
-CalleMariaTeresaSaenzdeHeredia_44,Calle,María Teresa Sáenz de Heredia,44,CIUDAD LINEAL,444790.08,4475198.42,VIERNES_TARDE_17:30_19:00
-CalleMonfortedeLemos_38,Calle,Monforte de Lemos,38,FUENCARRAL,439866.37,4481101.21,VIERNES_TARDE_17:30_19:00
-CalleSantaPetronila_InterseccionconCalleJosedelPino,Calle,Santa Petronila,,VILLAVERDE,441210.83,4466913.96,VIERNES_TARDE_17:30_19:00
-AvenidaElFerrol_6,Avenida,El Ferrol,6,FUENCARRAL,440330.32,4480667.53,VIERNES_TARDE_19:15_20:45
-CalleConiferas_10,Calle,Coníferas,10,USERA,441027.29,4468717.44,VIERNES_TARDE_19:15_20:45
-CalleLagunaRodrigo_7,Calle,Laguna Rodrigo,7,VILLAVERDE,440014.09,4467024.04,VIERNES_TARDE_19:15_20:45
-CalleTacona_1InterseccionconArroyoFontarron,Calle,Tacona,1,MORATALAZ,445589.72,4471957.48,VIERNES_TARDE_19:15_20:45
-AvenidaInstitucionLibredeEnsenianza_158,Avenida,Institución Libre de Enseñanza,158,CIUDAD LINEAL,446637.11,4475121.56,VIERNES_TARDE_19:15_20:45
-PaseoErmitadelSanto_39,Paseo,Ermita del Santo,39,LATINA,438534.79,4473134.22,VIERNES_TARDE_19:15_20:45
-AvenidaOsaMayor_23,Avenida,Osa Mayor,23,MONCLOA-ARAVACA,433960.1,4479063.34,SABADO_MAÑANA_7:00_8:30
-CalleTampico_79,Calle,Tampico,79,SAN BLAS-CANILLEJAS,446094.48,4477316.37,SABADO_MAÑANA_7:00_8:30
-PlazaChamberi_4,Plaza,Chamberí,4,CHAMBERI,440871.32,4476057.92,SABADO_MAÑANA_7:00_8:30
-AvenidaPrunos_44InterseccionconAvenidaArroyodelSanto,Avenida,Prunos,44,HORTALEZA,447250.82,4478174.33,SABADO_MAÑANA_8:45_10:15
-CalleAntonioMachado_12IDMCiudaddelosPoetas,Calle,Antonio Machado,12,MONCLOA-ARAVACA,439027.38,4479726.98,SABADO_MAÑANA_8:45_10:15
-CalleBoltania_20,Calle,Boltaña,20,SAN BLAS-CANILLEJAS,447977.19,4477307.56,SABADO_MAÑANA_8:45_10:15
-CalleSantaEngracia_126,Calle,Santa Engracia,126,CHAMBERI,440516.66,4477005.22,SABADO_MAÑANA_8:45_10:15
-PlazaLegazpi_5InterseccionconPaseodelMolino,Plaza,Legazpi,5,ARGANZUELA,441030.6,4471362.47,SABADO_MAÑANA_8:45_10:15
-CalleBravoMurillo_41,Calle,Bravo Murillo,41,CHAMBERI,440186.51,4476585.12,SABADO_MAÑANA_10:30_12:00
-CalleCuevasdelaAlmanzora_18,Calle,Cuevas de la Almanzora,18,HORTALEZA,444128.94,4480874.57,SABADO_MAÑANA_10:30_12:00
-PaseoSantaMariadelaCabeza_64,Paseo,Santa María de la Cabeza,64,ARGANZUELA,440610.31,4472447.21,SABADO_MAÑANA_10:30_12:00
-PlazaMayor_29-30SalidaCalleCiudadRodrigo,Plaza,Mayor,29-30,CENTRO,440026.35,4474142.61,SABADO_MAÑANA_10:30_12:00
-AvenidaFranciscoPiyMargall_72,Avenida,Francisco Pi y Margall,72,HORTALEZA,444145.15,4482435.53,SABADO_MAÑANA_12:15_13:45
-AvenidaSanDiego_111,Avenida,San Diego,111,PUENTE VALLECAS,443629.46,4470440.95,SABADO_MAÑANA_12:15_13:45
-PaseoDelicias_24,Paseo,Delicias,24,ARGANZUELA,441144.57,4472990.16,SABADO_MAÑANA_12:15_13:45
-PaseoSanFranciscodeSales_36,Paseo,San Francisco de Sales,36,CHAMBERI,439515.93,4477071.54,SABADO_MAÑANA_12:15_13:45
-CalleBravoMurillo_92,Calle,Bravo Murillo,92,CHAMBERI,440317.12,4477482.65,SABADO_TARDE_14:00_15:30
-CalleLaMancha_2,Calle,La Mancha,2,PUENTE VALLECAS,443184.26,4470315.25,SABADO_TARDE_14:00_15:30
-AvenidaNicetoAlcalaZamora_78InterseccionconVicenteBlascoIbaniez,Avenida,Niceto Alcalá Zamora,78,HORTALEZA,444716.97,4483076.55,SABADO_TARDE_14:00_15:30
-PaseoDelicias_122,Paseo,Delicias,122,ARGANZUELA,441031.38,4471817.71,SABADO_TARDE_14:00_15:30
-PlazaCebada_5-7,Plaza,Cebada,5-7,CENTRO,439790.02,4473664.08,SABADO_TARDE_14:00_15:30
-AvenidaPabloNeruda_89,Avenida,Pablo Neruda,89,PUENTE VALLECAS,443966.93,4470271.88,SABADO_TARDE_15:45_17:15
-CalleBravoMurillo_8,Calle,Bravo Murillo,8,CHAMBERI,440268.33,4476210.98,SABADO_TARDE_15:45_17:15
-PaseoChopera_12,Paseo,Chopera,12,ARGANZUELA,440756.12,4471631.64,SABADO_TARDE_15:45_17:15
-CalleArapiles_21InterseccionconCalleVallehermoso,Calle,Arapiles,21,CHAMBERI,439904.28,4476035.91,SABADO_TARDE_17:30_19:00
-AvenidaRafaelAlberti_34,Avenida,Rafael Alberti,34,PUENTE VALLECAS,445452.36,4470656.43,SABADO_TARDE_17:30_19:00
-CaminoViejodeBurgos_24,Camino,Viejo de Burgos,24,HORTALEZA,446488.7,4481435.19,SABADO_TARDE_17:30_19:00
-PaseoJuanAntonioVallejo-NajeraBotas_InterseccionconPlazaOrtegayMunilla_detrasdelaentradaalaestaciondeCercaniasdePiramides,Paseo,Juan Antonio Vallejo-Nájera Botas,,ARGANZUELA,439635.23,4472715.18,SABADO_TARDE_17:30_19:00
-AvenidaVirgendelCarmen_Aceraimpares_frentealnumero84,Avenida,Virgen del Carmen,,HORTALEZA,445107.14,4480737.23,SABADO_TARDE_19:15_20:45
-CalleFernandezdelosRios_62,Calle,Fernández de los Ríos,62,CHAMBERI,439625.55,4476321.63,SABADO_TARDE_19:15_20:45
-PlazaFranciscoMorano_3EnlarotondaentrelassalidasdePaseoImperialyPaseodelosPontones,Plaza,Francisco Morano,3,ARGANZUELA,439221.37,4472922.62,SABADO_TARDE_19:15_20:45
-CalleFedericoMompou_4EdificioTelecinco,Calle,Federico Mompou,4,FUENCARRAL,442484.39,4484676.35,MARTES_MAÑANA_7:00_8:30
-RondaRondadelaComunicacion_2EdificioTelefonica,Ronda,Ronda de la Comunicación,2,FUENCARRAL,443723.05,4485009.33,MARTES_MAÑANA_8:45_10:15
-CalleAbetal_3-5EdificioBBVA,Calle,Abetal,3-5,FUENCARRAL,443856.16,4483545.97,MARTES_MAÑANA_10:30_12:00
-AvenidaAvda.MonfortedeLemos_1CuatroTorres,Avenida,Avda. Monforte de Lemos,1,FUENCARRAL,441706.39,4480710.18,MARTES_MAÑANA_12:15_13:45
-calleMauricioLegendre_5,calle,Mauricio Legendre,5,CHAMARTIN,441764.3,4480066.56,MARTES_TARDE_14:00_15:30
-calleOrense_2Azca,calle,Orense,2,TETUAN,441035.06,4477589.81,MARTES_TARDE_15:45_17:15
-calleAgustindeBetancourt_1Ministerio,calle,Agustín de Betancourt,1,CHAMBERI,441053.61,4477057,MARTES_TARDE_17:30_19:00
-calleMontalban_7-9EdificioAyuntamientodeMadrid,calle,Montalbán,7-9,RETIRO,441449.91,4474405.04,MARTES_MAÑANA_8:45_10:15
-calleMendezAlvaro_1PuertadeAtocha,calle,Méndez Álvaro,1,ARGANZUELA,441255.97,4473136.22,MARTES_MAÑANA_10:30_12:00
-calleCerrodelaPlata_3EMT,calle,Cerro de la Plata,3,RETIRO,442752.58,4472399.1,MARTES_MAÑANA_12:15_13:45
-calleMendezAlvaro_44edficioRepsol,calle,Méndez Álvaro,44,ARGANZUELA,441966.39,4472215.35,JUEVES_MAÑANA_7:00_8:30
-calleBustamante_16EdificioAyuntamientodeMadrid,calle,Bustamante,16,ARGANZUELA,441594.58,4472433.27,JUEVES_MAÑANA_8:45_10:15
-calleAlcaldeSainzdeBaranda_92frente.(FachadaParqueFuentedelBerro).,calle,Alcalde Sainz de Baranda,92,SALAMANCA,443788.85,4474709.95,JUEVES_MAÑANA_10:30_12:00
-calleAlbarracin__35EdificioAyuntamientodeMadrid,calle,"Albarracín,",35,SAN BLAS-CANILLEJAS,446527.99,4475878.75,JUEVES_MAÑANA_12:15_13:45
-calleRiberadelSena_21esquinaconEstrasburgoEdificioAyuntamientodeMadrid,calle,Ribera del Sena,21,BARAJAS,447632.56,4479217.25,JUEVES_TARDE_14:00_15:30
-calleAbelias_1esquinaAvda.Arces,calle,Abelias,1,HORTALEZA,447020.91,4478148.67,JUEVES_TARDE_15:45_17:15
-PaseoAlamedadeOsuna__50,Paseo,"Alameda de Osuna,",50,BARAJAS,449316.5,4478388.17,JUEVES_TARDE_17:30_19:00
-AvenidaLogronio_160-162EntradaResidencialElCapricho,Avenida,Logroño,160-162,BARAJAS,450664.16,4480634.97,JUEVES_TARDE_19:15_20:45
-PaseoFlorida_12(farola13),Paseo,Florida,12,MONCLOA-ARAVACA,438687.94,4474941.28,SÁBADO_TARDE_19:15_20:45
-AvenidaPrincipal_4-6AccesoPabellonCubodelaPipa-CasadeCampo,Avenida,Principal,4-6,MONCLOA-ARAVACA,437292.7,4473802.24,LUNES_TARDE_12:15_13:45
-AvenidaBlasdeLezo_22,Avenida,Blas de Lezo,22,VICALVARO,453115.63,4473036.7,VIERNES_MAÑANA_12:15_13:30
+DIRECCION_COMPLETA,CLASE_VIAL,NOMBRE_VIAL,NUMERO,DISTRITO,UTMX,UTMY,Horario,Direccion
+CallePrincipedeVergara_110,Calle,Príncipe de Vergara,110,CHAMARTIN,442421.33,4476741.68,LUNES_MAÑANA_7:00_8:30,"Calle Príncipe de Vergara, 110"
+CalleSanMarcelo_6,Calle,San Marcelo,6,CIUDAD LINEAL,444161.68,4475366.47,LUNES_MAÑANA_7:00_8:30,"Calle San Marcelo, 6"
+AvenidaDoctorArce_1InterseccionconPlazadelaRepublicaArgentina,Avenida,Doctor Arce,1,CHAMARTIN,441900.66,4477410.63,LUNES_MAÑANA_8:45_10:15,"Avenida Doctor Arce, 1"
+CalleSanturce_InterseccionconCalleLuisRuiz,Calle,Santurce,,CIUDAD LINEAL,446077.17,4475366.87,LUNES_MAÑANA_8:45_10:15,"Calle Santurce, "
+CallePradillo_22,Calle,Pradillo,22,CHAMARTIN,442881.26,4477772.74,LUNES_MAÑANA_10:30_12:00,"Calle Pradillo, 22"
+CalleGomezdeAvellaneda_14,Calle,Gómez de Avellaneda,14,CIUDAD LINEAL,445480.21,4476101.61,LUNES_MAÑANA_10:30_12:00,"Calle Gómez de Avellaneda, 14"
+PaseodelaDireccion_328,Paseo,de la Dirección,328,TETUAN,440313.76,4480160.56,LUNES_MAÑANA_10:30_12:00,"Paseo de la Dirección, 328"
+CallePadreClaret_17,Calle,Padre Claret,17,CHAMARTIN,443640.94,4477637.11,LUNES_MAÑANA_12:15_13:45,"Calle Padre Claret, 17"
+CalleHierbabuena_13,Calle,Hierbabuena,13,TETUAN,440494.07,4479060.15,LUNES_TARDE_15:45_17:15,"Calle Hierbabuena, 13"
+CalleJulioDanvila_1Frentealcolegio,Calle,Julio Dánvila,1,CIUDAD LINEAL,443458.44,4480309.3,LUNES_TARDE_19:15_20:45,"Calle Julio Dánvila, 1"
+CalleSaliente_Frentealnumero10,Calle,Saliente,,RETIRO,443446.55,4474466.02,LUNES_TARDE_19:15_20:45,"Calle Saliente, "
+CallePedroTeixeira_10InterseccionconCallePoetaJoanMaragall,Calle,Pedro Teixeira,10,TETUAN,441286.56,4478482.2,LUNES_TARDE_19:15_20:45,"Calle Pedro Teixeira, 10"
+CalleJuanDuque_InterseccionconCalleFosforo,Calle,Juan Duque,,ARGANZUELA,438941.39,4473524.5,MARTES_MAÑANA_7:00_8:30,"Calle Juan Duque, "
+CalleFernandoelCatolico_73,Calle,Fernando el Católico,73,CHAMBERI,439239.86,4476218.44,MARTES_MAÑANA_7:00_8:30,"Calle Fernando el Católico, 73"
+PaseoEsperanza_21,Paseo,Esperanza,21,ARGANZUELA,440234.97,4472511.69,MARTES_MAÑANA_8:45_10:15,"Paseo Esperanza, 21"
+CalleJoaquinMariaLopez_54,Calle,Joaquín María López,54,CHAMBERI,439312.53,4476603.04,MARTES_MAÑANA_8:45_10:15,"Calle Joaquín María López, 54"
+CalleDiligencia_22InterseccionconCallelaVioletera_frentealViverodeEmpresas,Calle,Diligencia,22,PUENTE VALLECAS,444302.77,4470488.95,MARTES_MAÑANA_8:45_10:15,"Calle Diligencia, 22"
+CalleFernandoPoo_Frenteelnumero36_esquinaDivinoValles,Calle,Fernando Poo,,ARGANZUELA,440606.99,4472014.76,MARTES_MAÑANA_10:30_12:00,"Calle Fernando Poo, "
+CalleArrieta_15,Calle,Arrieta,15,CENTRO,439675.8,4474526.5,MARTES_MAÑANA_10:30_12:00,"Calle Arrieta, 15"
+CallePonzano_2,Calle,Ponzano,2,CHAMBERI,440684.85,4476491.04,MARTES_MAÑANA_10:30_12:00,"Calle Ponzano, 2"
+AvenidaSanDiego_78InterseccionconCalleManuelMaroto,Avenida,San Diego,78,PUENTE VALLECAS,443184.53,4471012.4,MARTES_MAÑANA_10:30_12:00,"Avenida San Diego, 78"
+PaseoDelicias_68,Paseo,Delicias,68,ARGANZUELA,441080.38,4472315.18,MARTES_MAÑANA_12:15_13:45,"Paseo Delicias, 68"
+CalleFranciscodeRojas_11,Calle,Francisco de Rojas,11,CHAMBERI,440624.47,4475722.24,MARTES_MAÑANA_12:15_13:45,"Calle Francisco de Rojas, 11"
+CalleEnriqueGarciaAlvarez_Frentealnumero10,Calle,Enrique García Álvarez,,VILLA DE VALLECAS,447815.84,4470316.07,MARTES_MAÑANA_12:15_13:45,"Calle Enrique García Álvarez, "
+CalleFrayLuisdeLeon_InterseccionconCalleJuanSebastianElcano_17,Calle,Fray Luis de León,,ARGANZUELA,440713.46,4472921.95,MARTES_TARDE_14:00_15:30,"Calle Fray Luis de León, "
+CalleGarciadeParedes_82,Calle,García de Paredes,82,CHAMBERI,441208.65,4476442.5,MARTES_TARDE_14:00_15:30,"Calle García de Paredes, 82"
+AvenidaCelioVillalba_InterseccionconCalleManizales,Avenida,Celio Villalba,,HORTALEZA,446022.61,4480624.5,MARTES_TARDE_14:00_15:30,"Avenida Celio Villalba, "
+CalleMarismas_24,Calle,Marismas,24,PUENTE VALLECAS,444538.49,4472519.71,MARTES_TARDE_14:00_15:30,"Calle Marismas, 24"
+CalleFuentespina_10,Calle,Fuentespina,10,VILLA DE VALLECAS,448482.94,4470052.83,MARTES_TARDE_14:00_15:30,"Calle Fuentespina, 10"
+CalleArganda_2Frentealnumero2,Calle,Arganda,2,ARGANZUELA,439813.61,4472287.38,MARTES_TARDE_15:45_17:15,"Calle Arganda, 2"
+PlazaSanJuandelaCruz_3InterseccionconCalleFernandezdelaHoz,Plaza,San Juan de la Cruz,3,CHAMBERI,441112.59,4476955,MARTES_TARDE_15:45_17:15,"Plaza San Juan de la Cruz, 3"
+CalleAlcala_287InterseccionconCalleBuenGobernador,Calle,Alcalá,287,CIUDAD LINEAL,444506.16,4475947.8,MARTES_TARDE_15:45_17:15,"Calle Alcalá, 287"
+CalleDoloresBarranco_50,Calle,Dolores Barranco,50,USERA,440003.69,4470544.29,MARTES_TARDE_15:45_17:15,"Calle Dolores Barranco, 50"
+CalleCobre_Frentealnumero5,Calle,Cobre,,ARGANZUELA,441506.6,4471686.88,MARTES_TARDE_17:30_19:00,"Calle Cobre, "
+CalleSegovia_20,Calle,Segovia,20,CENTRO,439571.88,4473948.99,MARTES_TARDE_17:30_19:00,"Calle Segovia, 20"
+CalleVallehermoso_Frentealnumero50,Calle,Vallehermoso,,CHAMBERI,439898.35,4476357.44,MARTES_TARDE_17:30_19:00,"Calle Vallehermoso, "
+CalleHermanosMachado_InterseccionconCalleLosCollados,Calle,Hermanos Machado,,CIUDAD LINEAL,444949.64,4475812.43,MARTES_TARDE_17:30_19:00,"Calle Hermanos Machado, "
+CarreteradeCanillas_39InterseccionconCalleAndresObispo,Carretera,de Canillas,39,HORTALEZA,445060.54,4479364.92,MARTES_TARDE_17:30_19:00,"Carretera de Canillas, 39"
+CalleRafaelFernandezHijicos_32,Calle,Rafael Fernández Hijicos,32,PUENTE VALLECAS,446071.56,4471283.04,MARTES_TARDE_17:30_19:00,"Calle Rafael Fernández Hijicos, 32"
+CalleEmbajadores_274,Calle,Embajadores,274,ARGANZUELA,441501.17,4470772.24,MARTES_TARDE_19:15_20:45,"Calle Embajadores, 274"
+AvenidaIslasFilipinas_32,Avenida,Islas Filipinas,32,CHAMBERI,439926.37,4476890.05,MARTES_TARDE_19:15_20:45,"Avenida Islas Filipinas, 32"
+AvenidaMadronios_61,Avenida,Madroños,61,HORTALEZA,446340.39,4478598.57,MARTES_TARDE_19:15_20:45,"Avenida Madroños, 61"
+CalleFresnedillas_9frente,Calle,Fresnedillas,9,FUENCARRAL,437078.57,4481062.92,MIÉRCOLES_MAÑANA_7:00_8:30,"Calle Fresnedillas, 9"
+AvenidadeAsturias_6Enlaviadeservicio,Avenida,de Asturias,6,TETUAN,441261.48,4479932.15,MIÉRCOLES_MAÑANA_7:00_8:30,"Avenida de Asturias, 6"
+CalleRibadavia_27Lateralfrenteasupermercado,Calle,Ribadavia,27,FUENCARRAL,439928.95,4480487.78,MIÉRCOLES_MAÑANA_8:45_10:15,"Calle Ribadavia, 27"
+CalleSorAngeladelaCruz_12,Calle,Sor Ángela de la Cruz,12,TETUAN,441204.79,4478974.6,MIÉRCOLES_MAÑANA_8:45_10:15,"Calle Sor Ángela de la Cruz, 12"
+CaminoGanapanes_InterseccionconCalleLaBanieza,Camino,Ganapanes,,FUENCARRAL,439312.67,4480804.68,MIÉRCOLES_MAÑANA_10:30_12:00,"Camino Ganapanes, "
+AvenidaComplutense_s/nFrenteServiciodeInformatica,Avenida,Complutense,s/n,MONCLOA-ARAVACA,438300.24,4478098.82,MIÉRCOLES_MAÑANA_10:30_12:00,"Avenida Complutense, s/n"
+AvenidaHellin_17,Avenida,Hellin,17,SAN BLAS-CANILLEJAS,447762.06,4475755.67,MIÉRCOLES_MAÑANA_10:30_12:00,"Avenida Hellin, 17"
+CalleSangenjo_12,Calle,Sangenjo,12,FUENCARRAL,440461.07,4481732.36,MIÉRCOLES_MAÑANA_12:15_13:45,"Calle Sangenjo, 12"
+CalleCarpinteria_InterseccionconCalleAmposta,Calle,Carpintería,,SAN BLAS-CANILLEJAS,447187.13,4475180.25,MIÉRCOLES_MAÑANA_12:15_13:45,"Calle Carpintería, "
+CalleMarquesdeViana_70,Calle,Marqués de Viana,70,TETUAN,440293.07,4479480.24,MIÉRCOLES_MAÑANA_12:15_13:45,"Calle Marqués de Viana, 70"
+CalleCapitanBlancoArgibay_134,Calle,Capitán Blanco Argibay,134,TETUAN,440294.35,4479853.22,MIÉRCOLES_TARDE_14:00_15:30,"Calle Capitán Blanco Argibay, 134"
+PlazadeCoimbra_Juntoalsemaforo,Plaza,de Coimbra,,CARABANCHEL,438568.9,4470537.06,MIÉRCOLES_TARDE_15:45_17:15,"Plaza de Coimbra, "
+CalleSanRestituto_24,Calle,San Restituto,24,MONCLOA-ARAVACA,439653.21,4479618.59,MIÉRCOLES_TARDE_15:45_17:15,"Calle San Restituto, 24"
+AvenidaPabloIglesias_36,Avenida,Pablo Iglesias,36,TETUAN,439881.6,4477758.48,MIÉRCOLES_TARDE_15:45_17:15,"Avenida Pablo Iglesias, 36"
+CalleSantaMariaMagdalena_18,Calle,Santa María Magdalena,18,CHAMARTIN,443152.84,4479362.51,JUEVES_MAÑANA_7:00_8:30,"Calle Santa María Magdalena, 18"
+AvenidaSanLuis_27,Avenida,San Luis,27,HORTALEZA,444307.38,4480241.88,JUEVES_MAÑANA_7:00_8:30,"Avenida San Luis, 27"
+CalleMarquesdeLozoya_Frentealnumero26,Calle,Marqués de Lozoya,,RETIRO,443735.01,4474353.96,JUEVES_MAÑANA_7:00_8:30,"Calle Marqués de Lozoya, "
+CalleMinerva_InterseccionconCalleCampodelaTorre_19,Calle,Minerva,,VICALVARO,448630.35,4471993.27,JUEVES_MAÑANA_7:00_8:30,"Calle Minerva, "
+AvenidaPioXII_46,Avenida,Pío XII,46,CHAMARTIN,442890.96,4479932.86,JUEVES_MAÑANA_8:45_10:15,"Avenida Pío XII, 46"
+CalleEstibaliz_28InterseccionconCallePabloSerano,Calle,Estíbaliz,28,HORTALEZA,445059.54,4480153.07,JUEVES_MAÑANA_8:45_10:15,"Calle Estíbaliz, 28"
+CalleIbiza_60,Calle,Ibiza,60,RETIRO,443060.56,4474360.16,JUEVES_MAÑANA_8:45_10:15,"Calle Ibiza, 60"
+CalleGeneralLopezPozas_16,Calle,General López Pozas,16,CHAMARTIN,441894.15,4479631.93,JUEVES_MAÑANA_10:30_12:00,"Calle General López Pozas, 16"
+CalleAmadoNervo_Frentealnumero12,Calle,Amado Nervo,,RETIRO,442788.5,4473396.48,JUEVES_MAÑANA_10:30_12:00,"Calle Amado Nervo, "
+CallePrincipedeVergara_248,Calle,Príncipe de Vergara,248,CHAMARTIN,442572.62,4478331.25,JUEVES_MAÑANA_12:15_13:45,"Calle Príncipe de Vergara, 248"
+CalleValderribas_25C,Calle,Valderribas,25 C,RETIRO,443125.43,4472621.32,JUEVES_MAÑANA_12:15_13:45,"Calle Valderribas, 25 C"
+AvenidaManuelFragaIribarne_35,Avenida,Manuel Fraga Iribarne,35,BARAJAS,448402.34,4482129.6,JUEVES_TARDE_14:00_15:30,"Avenida Manuel Fraga Iribarne, 35"
+PaseoReinaCristina_Frentealnumero5_interseccionalaCalleJulianGayarre,Paseo,Reina Cristina,,RETIRO,442007.41,4473121.63,JUEVES_TARDE_14:00_15:30,"Paseo Reina Cristina, "
+CalleTellez_26InterseccionconCalleLeonGilPalacio,Calle,Téllez,26,RETIRO,442345.67,4472637.26,JUEVES_TARDE_15:45_17:15,"Calle Téllez, 26"
+CalleSofia_InterseccionconCalleBelgica_205,Calle,Sofía,,SAN BLAS-CANILLEJAS,448969.61,4475577.51,JUEVES_TARDE_19:15_20:45,"Calle Sofía, "
+CalleSanModesto_InterseccionconCalleIsidroFernandez,Calle,San Modesto,,FUENCARRAL,441903.66,4481728.79,VIERNES_MAÑANA_7:00_8:30,"Calle San Modesto, "
+AvenidaAbrantes_40FrenteCalleFaro,Avenida,Abrantes,40,CARABANCHEL,438286.77,4470380.6,VIERNES_MAÑANA_8:45_10:15,"Avenida Abrantes, 40"
+CalleCaballerodelaBlancaLuna_1,Calle,Caballero de la Blanca Luna,1,FUENCARRAL,441762.46,4484058.83,VIERNES_MAÑANA_8:45_10:15,"Calle Caballero de la Blanca Luna, 1"
+AvenidaPadrePiquer_13JuntoaCorreos,Avenida,Padre Piquer,13,LATINA,434848.14,4471779.49,VIERNES_MAÑANA_10:30_12:00,"Avenida Padre Piquer, 13"
+AvenidaRosales_InterseccionconCalleTantalo,Avenida,Rosales,,VILLAVERDE,442294.55,4467199.5,VIERNES_MAÑANA_10:30_12:00,"Avenida Rosales, "
+CallePicoMilano_9,Calle,Pico Milano,9,FUENCARRAL,439592.55,4481975.77,VIERNES_MAÑANA_12:15_13:45,"Calle Pico Milano, 9"
+CalleYebenes_110Frentealnumero217,Calle,Yébenes,110,LATINA,436214.39,4471552.4,VIERNES_MAÑANA_12:15_13:45,"Calle Yébenes, 110"
+CalleArroyodelaBulera_Frentealnumero11,Calle,Arroyo de la Bulera,,VILLAVERDE,442204.91,4465591.73,VIERNES_MAÑANA_12:15_13:45,"Calle Arroyo de la Bulera, "
+CalleMariblanca_18-20Entrelosnumero18y20,Calle,Mariblanca,18-20,USERA,440065.32,4471458.49,VIERNES_TARDE_14:00_15:30,"Calle Mariblanca, 18-20"
+CalleAlferezJuanUsera_36,Calle,Alférez Juan Usera,36,CARABANCHEL,437947.11,4471907.52,VIERNES_TARDE_15:45_17:15,"Calle Alférez Juan Usera, 36"
+CalleElfo_55-57,Calle,Elfo,55-57,CIUDAD LINEAL,444683.8,4476110.77,VIERNES_TARDE_15:45_17:15,"Calle Elfo, 55-57"
+CalleJoaquinLorenzo_106,Calle,Joaquín Lorenzo,106,FUENCARRAL,437626.69,4480819.66,VIERNES_TARDE_15:45_17:15,"Calle Joaquín Lorenzo, 106"
+AvenidaApostoles_13InterseccionconPaseodelosOlivos,Avenida,Apóstoles,13,LATINA,437234.38,4473046.83,VIERNES_TARDE_15:45_17:15,"Avenida Apóstoles, 13"
+CalleVirgendelasCruces_2-4,Calle,Virgen de las Cruces,2-4,USERA,441219.87,4469970.76,VIERNES_TARDE_15:45_17:15,"Calle Virgen de las Cruces, 2-4"
+PlazadelaParroquia_16,Plaza,de la Parroquia,16,CARABANCHEL,437027.97,4470191.24,VIERNES_TARDE_17:30_19:00,"Plaza de la Parroquia, 16"
+CallePabloCasals_Frentealnumero10,Calle,Pablo Casals,,LATINA,438510.46,4473539.12,VIERNES_TARDE_17:30_19:00,"Calle Pablo Casals, "
+CallePicodeArtilleros_55,Calle,Pico de Artilleros,55,MORATALAZ,445592.6,4472886.08,VIERNES_TARDE_17:30_19:00,"Calle Pico de Artilleros, 55"
+CallelaCanciondelOlvido_47,Calle,la Canción del Olvido,47,VILLAVERDE,440576.44,4467618.06,VIERNES_TARDE_19:15_20:45,"Calle la Canción del Olvido, 47"
+CalleBarquillo_4,Calle,Barquillo,4,CENTRO,440994.61,4474572.62,SABADO_MAÑANA_7:00_8:30,"Calle Barquillo, 4"
+CalleLopedeVega_Frentealnumero36,Calle,Lope de Vega,,CENTRO,440827.07,4473984.49,SABADO_MAÑANA_8:45_10:15,"Calle Lope de Vega, "
+CalleJoseOrtegayGasset_8,Calle,Jose Ortega y Gasset,8,SALAMANCA,441807.06,4475732.94,SABADO_MAÑANA_8:45_10:15,"Calle Jose Ortega y Gasset, 8"
+AvenidaPabloIglesias_55,Avenida,Pablo Iglesias,55,MONCLOA-ARAVACA,439724.21,4478011.73,SABADO_MAÑANA_10:30_12:00,"Avenida Pablo Iglesias, 55"
+CalleJuanBravo_35-37InterseccionconCalleGeneralPardinias,Calle,Juan Bravo,35-37,SALAMANCA,442486.06,4476004.1,SABADO_MAÑANA_10:30_12:00,"Calle Juan Bravo, 35-37"
+CalleNicolasaGomez_Frentealnumero80,Calle,Nicolasa Gómez,,SAN BLAS-CANILLEJAS,448113.18,4476603.52,SABADO_MAÑANA_10:30_12:00,"Calle Nicolasa Gómez, "
+PlazaTirsodeMolina_16Zonadecargaydescarga,Plaza,Tirso de Molina,16,CENTRO,440221.41,4473790.59,SABADO_MAÑANA_12:15_13:45,"Plaza Tirso de Molina, 16"
+CalleRiberadeManzanares_125InterseccionconCalleAcantilado,Calle,Ribera de Manzanares,125,MONCLOA-ARAVACA,437794.24,4475679.7,SABADO_MAÑANA_12:15_13:45,"Calle Ribera de Manzanares, 125"
+CalledelPilardeZaragoza_57IterseccionconCalleJosePicon,Calle,del Pilar de Zaragoza,57,SALAMANCA,443058.63,4476339.41,SABADO_MAÑANA_12:15_13:45,"Calle del Pilar de Zaragoza, 57"
+CalleArriaza_Frentealnumero10.InterseccionconCalleIlustracion,Calle,Arriaza,,MONCLOA-ARAVACA,439250.09,4474759.72,SABADO_TARDE_14:00_15:30,"Calle Arriaza, "
+CalleBerlin_3,Calle,Berlín,3,SALAMANCA,443741.93,4476969.2,SABADO_TARDE_14:00_15:30,"Calle Berlín, 3"
+CalleEspirituSanto_26Entrolosnumeros26y28.Zonadecargaydescarga,Calle,Espíritu Santo,26,CENTRO,440311.69,4475218.53,SABADO_TARDE_15:45_17:15,"Calle Espíritu Santo, 26"
+PlazaLavapies_8Zonadecargaydescarga,Plaza,Lavapiés,8,CENTRO,440499.65,4473354.35,SABADO_TARDE_15:45_17:15,"Plaza Lavapiés, 8"
+CalleLuisMoyaBlanco_27,Calle,Luis Moya Blanco,27,HORTALEZA,447765.99,4482999.86,SABADO_TARDE_15:45_17:15,"Calle Luis Moya Blanco, 27"
+CalleDoctorEsquerdo_47,Calle,Doctor Esquerdo,47,SALAMANCA,443283,4474940.14,SABADO_TARDE_15:45_17:15,"Calle Doctor Esquerdo, 47"
+GlorietaEmbajadores_10esquinacalleEmbajadores,Glorieta,Embajadores,10,CENTRO,440360.07,4472982.46,SABADO_TARDE_17:30_19:00,"Glorieta Embajadores, 10"
+CalleSilva_25,Calle,Silva,25,CENTRO,440134.5,4474823.78,SABADO_TARDE_17:30_19:00,"Calle Silva, 25"
+CalleGeneralDiazPorlier_41,Calle,General Díaz Porlier,41,SALAMANCA,442571.45,4475523.9,SABADO_TARDE_17:30_19:00,"Calle General Díaz Porlier, 41"
+CalleVillanueva_20InterseccionconCalleClaudioCoello,Calle,Villanueva,20,SALAMANCA,441714.67,4474870.03,SABADO_TARDE_19:15_20:45,"Calle Villanueva, 20"
+CalleEstrellaPolar_22,Calle,Estrella Polar,22,RETIRO,443476.57,4473573.2,LUNES_MAÑANA_7:00_8:30,"Calle Estrella Polar, 22"
+CalleJeronimaLlorente_65,Calle,Jerónima Llorente,65,TETUAN,439955.62,4478314.84,LUNES_MAÑANA_7:00_8:30,"Calle Jerónima Llorente, 65"
+CallePinardeSanJose_13,Calle,Pinar de San José,13,CARABANCHEL,435295.3,4468443.89,LUNES_MAÑANA_7:00_8:30,"Calle Pinar de San José, 13"
+PaseoLanceros_2,Paseo,Lanceros,2,LATINA,432694.46,4470136.92,LUNES_MAÑANA_7:00_8:30,"Paseo Lanceros, 2"
+PlazaElPardo_1InterseccionconCalleCarboneros,Plaza,El Pardo,1,FUENCARRAL,434134.78,4485795.22,LUNES_MAÑANA_7:00_8:30,"Plaza El Pardo, 1"
+AvenidaMenendezPelayo_Frentealnumero29_enlaaceradeElRetiro,Avenida,Menéndez Pelayo,,RETIRO,442393.46,4474445.91,LUNES_MAÑANA_8:45_10:15,"Avenida Menéndez Pelayo, "
+CalleCerrodeMinguete_9,Calle,Cerro de Minguete,9,FUENCARRAL,439019.02,4482030.84,LUNES_MAÑANA_8:45_10:15,"Calle Cerro de Minguete, 9"
+CalleFrancosRodriguez_57,Calle,Francos Rodríguez,57,TETUAN,439862.49,4478702,LUNES_MAÑANA_8:45_10:15,"Calle Francos Rodríguez, 57"
+AvenidaNuestraSenioradeFatima_15,Avenida,Nuestra Señora de Fátima,15,CARABANCHEL,436817.76,4470851.96,LUNES_MAÑANA_8:45_10:15,"Avenida Nuestra Señora de Fátima, 15"
+CalleVillasandino_35,Calle,Villasandino,35,LATINA,436111.45,4473060.11,LUNES_MAÑANA_8:45_10:15,"Calle Villasandino, 35"
+AvenidaCardenalHerreraOria_259,Avenida,Cardenal Herrera Oria,259,FUENCARRAL,438776.03,4481302.62,LUNES_MAÑANA_10:30_12:00,"Avenida Cardenal Herrera Oria, 259"
+AvenidaMenendezPelayo_95,Avenida,Menéndez Pelayo,95,RETIRO,442376.92,4473120.55,LUNES_MAÑANA_10:30_12:00,"Avenida Menéndez Pelayo, 95"
+CalleAntonioLeyva_77FrentealInstitutoCarderondelaBarca,Calle,Antonio Leyva,77,CARABANCHEL,439173.82,4471034.73,LUNES_MAÑANA_10:30_12:00,"Calle Antonio Leyva, 77"
+PaseodelosJesuitas_42,Paseo,de los Jesuitas,42,LATINA,437639.27,4473379.86,LUNES_MAÑANA_10:30_12:00,"Paseo de los Jesuitas, 42"
+CalleCandidoMateos_17,Calle,Cándido Mateos,17,FUENCARRAL,439092.72,4480602.99,LUNES_MAÑANA_12:15_13:45,"Calle Cándido Mateos, 17"
+CalleCarlosDaban_Frentealnumero28,Calle,Carlos Daban,,CARABANCHEL,437905,4472135.59,LUNES_MAÑANA_12:15_13:45,"Calle Carlos Daban, "
+CalleDoctorEsquerdo_152,Calle,Doctor Esquerdo,152,RETIRO,442898.22,4472780.66,LUNES_MAÑANA_12:15_13:45,"Calle Doctor Esquerdo, 152"
+CalleVirgendeAfrica_14,Calle,Virgen de África,14,CIUDAD LINEAL,444534.76,4476616.93,LUNES_MAÑANA_12:15_13:45,"Calle Virgen de África, 14"
+GlorietadelosCarmenes_EntrelassalidasdeCalleGalluryCalleAlhambra,Glorieta,de los Cármenes,,LATINA,436910.15,4471942.57,LUNES_MAÑANA_12:15_13:45,"Glorieta de los Cármenes, "
+PlazadelaRemonta_3,Plaza,de la Remonta,3,TETUAN,440857.18,4479555.85,LUNES_MAÑANA_12:15_13:45,"Plaza de la Remonta, 3"
+AvenidaAlfonsoXIII_65,Avenida,Alfonso XIII,65,CHAMARTIN,443422.2,4478377.68,LUNES_TARDE_14:00_15:30,"Avenida Alfonso XIII, 65"
+AvenidadeAsturias_44,Avenida,de Asturias,44,TETUAN,440918.17,4480247.98,LUNES_TARDE_14:00_15:30,"Avenida de Asturias, 44"
+CalleAgastia_42Frentealnumero42,Calle,Agastia,42,CIUDAD LINEAL,444793.35,4477415.59,LUNES_TARDE_14:00_15:30,"Calle Agastia, 42"
+CalleLaguna_121,Calle,Laguna,121,CARABANCHEL,437042.39,4471122.03,LUNES_TARDE_14:00_15:30,"Calle Laguna, 121"
+CalleOcania_149,Calle,Ocaña,149,LATINA,436073.76,4470917.76,LUNES_TARDE_14:00_15:30,"Calle Ocaña, 149"
+CalleSeco_2,Calle,Seco,2,RETIRO,442978.33,4472290.07,LUNES_TARDE_14:00_15:30,"Calle Seco, 2"
+CalleFerminCaballero_49-51,Calle,Fermín Caballero,49-51,FUENCARRAL,440114.52,4481748.34,LUNES_TARDE_14:00_15:30,"Calle Fermín Caballero, 49-51"
+AvenidaOporto_33,Avenida,Oporto,33,CARABANCHEL,438505.01,4470788.9,LUNES_TARDE_15:45_17:15,"Avenida Oporto, 33"
+CalleCamarena_235Frentealnumero296,Calle,Camarena,235,LATINA,435731.09,4470910.54,LUNES_TARDE_15:45_17:15,"Calle Camarena, 235"
+CalleCanias_Frentealnumero13,Calle,Cañas,,CIUDAD LINEAL,444088,4478794.51,LUNES_TARDE_15:45_17:15,"Calle Cañas, "
+CalleDoctorEsquerdo_94EsquinaAvenidadeNazaret_frentealnumero125,Calle,Doctor Esquerdo,94,RETIRO,443159.45,4473673.17,LUNES_TARDE_15:45_17:15,"Calle Doctor Esquerdo, 94"
+CalleJulioPalacios_10,Calle,Julio Palacios,10,FUENCARRAL,443159.45,4473673.17,LUNES_TARDE_15:45_17:15,"Calle Julio Palacios, 10"
+PlazadelPeru_InterseccionconAvenidaPioXII,Plaza,del Perú,,CHAMARTIN,442655.01,4479090.61,LUNES_TARDE_15:45_17:15,"Plaza del Perú, "
+AvenidaAlbertoAlcocer_28,Avenida,Alberto Alcocer,28,CHAMARTIN,442019.6,4478870.53,LUNES_TARDE_17:30_19:00,"Avenida Alberto Alcocer, 28"
+CalleArturoSoria_242,Calle,Arturo Soria,242,CIUDAD LINEAL,443589.38,4479647.5,LUNES_TARDE_17:30_19:00,"Calle Arturo Soria, 242"
+CalleClaraCampoamor_Frentealnumero75,Calle,Clara Campoamor,,CARABANCHEL,437794.87,4470145.39,LUNES_TARDE_17:30_19:00,"Calle Clara Campoamor, "
+CalleFuentedelTiro_17,Calle,Fuente del Tiro,17,LATINA,433744.17,4470628.25,LUNES_TARDE_17:30_19:00,"Calle Fuente del Tiro, 17"
+CalleNarvaez_82,Calle,Narváez,82,RETIRO,442600.3,4474216.15,LUNES_TARDE_17:30_19:00,"Calle Narváez, 82"
+CalleNuestraSenioradeValverde_17,Calle,Nuestra Señora de Valverde,17,FUENCARRAL,441802.95,4482622.73,LUNES_TARDE_17:30_19:00,"Calle Nuestra Señora de Valverde, 17"
+CallePoetaJoanMaragall_45Frentealnumero54_interseccionconCalledeRosarioPino,Calle,Poeta Joan Maragall,45,TETUAN,441349.29,4479300.46,LUNES_TARDE_17:30_19:00,"Calle Poeta Joan Maragall, 45"
+CalleAfuerasaValverde_23,Calle,Afueras a Valverde,23,FUENCARRAL,441617.57,4483190.34,LUNES_TARDE_19:15_20:45,"Calle Afueras a Valverde, 23"
+CalleEnriqueLarreta_14,Calle,Enrique Larreta,14,CHAMARTIN,441795.16,4480002.77,LUNES_TARDE_19:15_20:45,"Calle Enrique Larreta, 14"
+CalleMazarambroz_4InterseccionconCalleCazalegasyCalleCarranque,Calle,Mazarambroz,4,CARABANCHEL,438203.57,4469646.48,LUNES_TARDE_19:15_20:45,"Calle Mazarambroz, 4"
+CalleOlivadePlasencia_1,Calle,Oliva de Plasencia,1,LATINA,433836.4,4470064.42,LUNES_TARDE_19:15_20:45,"Calle Oliva de Plasencia, 1"
+CalleCondeDuque_30,Calle,Conde Duque,30,CENTRO,439762.85,4475482.28,MARTES_MAÑANA_7:00_8:30,"Calle Conde Duque, 30"
+CalleCooperativaElectrica_18,Calle,Cooperativa Eléctrica,18,PUENTE VALLECAS,443927.89,4469543.93,MARTES_MAÑANA_7:00_8:30,"Calle Cooperativa Eléctrica, 18"
+CalleGuetaria_47InterseccionconCalleVillabona,Calle,Guetaria,47,USERA,439253.3,4468975.92,MARTES_MAÑANA_7:00_8:30,"Calle Guetaria, 47"
+CallePeniarandadeBracamonte_53,Calle,Peñaranda de Bracamonte,53,VILLA DE VALLECAS,448130.3,4468637.39,MARTES_MAÑANA_7:00_8:30,"Calle Peñaranda de Bracamonte, 53"
+CallePradoluengo_243,Calle,Pradoluengo,243,BARAJAS,450648.62,4478009.91,MARTES_MAÑANA_7:00_8:30,"Calle Pradoluengo, 243"
+AvenidaVilladeVallecas_13,Avenida,Villa de Vallecas,13,VILLA DE VALLECAS,447453.54,4468963.83,MARTES_MAÑANA_8:45_10:15,"Avenida Villa de Vallecas, 13"
+CalleSimca_4InterseccionconCalleDodge,Calle,Simca,4,USERA,439712.1,4468664.29,MARTES_MAÑANA_8:45_10:15,"Calle Simca, 4"
+PlazaNavio_1,Plaza,Navío,1,BARAJAS,450116.69,4478506.26,MARTES_MAÑANA_8:45_10:15,"Plaza Navío, 1"
+GlorietaRuizJimenez_8,Glorieta,Ruíz Jiménez,8,CENTRO,440138.36,4475639.72,MARTES_MAÑANA_8:45_10:15,"Glorieta Ruíz Jiménez, 8"
+AvenidaOrcasur_44InterseccionconCalleArenasdelRey_juntoalCentrodeSalud,Avenida,Orcasur,44,USERA,440506.5,4468567.22,MARTES_MAÑANA_10:30_12:00,"Avenida Orcasur, 44"
+BulevarNaturaleza_13,Bulevar,Naturaleza,13,VILLA DE VALLECAS,446534.33,4469272.76,MARTES_MAÑANA_10:30_12:00,"Bulevar Naturaleza, 13"
+CalleRioja_27,Calle,Rioja,27,BARAJAS,450374.7,4478971.54,MARTES_MAÑANA_10:30_12:00,"Calle Rioja, 27"
+CalleAndaluces_9,Calle,Andaluces,9,PUENTE VALLECAS,445969.39,4471231.37,MARTES_MAÑANA_12:15_13:45,"Calle Andaluces, 9"
+CallePeriana_6,Calle,Periana,6,USERA,441543.92,4468873.4,MARTES_MAÑANA_12:15_13:45,"Calle Periana, 6"
+CalleSantaIsabel_47,Calle,Santa Isabel,47,CENTRO,440935.1,4473450.87,MARTES_MAÑANA_12:15_13:45,"Calle Santa Isabel, 47"
+PlazaMayordeBarajas_19,Plaza,Mayor de Barajas,19,BARAJAS,451060.24,4480473.35,MARTES_MAÑANA_12:15_13:45,"Plaza Mayor de Barajas, 19"
+CalledelSantuario_InterseccionconCalleHijasdeJesusyCalleSanAntoniodePadua,Calle,del Santuario,,USERA,440572.26,4470721.15,MARTES_TARDE_14:00_15:30,"Calle del Santuario, "
+PlazaSantaBarbara_5,Plaza,Santa Bárbara,5,CENTRO,440928.63,4475438.21,MARTES_TARDE_14:00_15:30,"Plaza Santa Bárbara, 5"
+CalleHumanes_27,Calle,Humanes,27,PUENTE VALLECAS,445210.15,4471826.88,MARTES_TARDE_15:45_17:15,"Calle Humanes, 27"
+CalleMontearagon_11,Calle,Montearagón,11,HORTALEZA,444177.72,4479401.51,MARTES_TARDE_15:45_17:15,"Calle Montearagón, 11"
+CallePrincipe_18,Calle,Príncipe,18,CENTRO,440580.55,4474086.94,MARTES_TARDE_15:45_17:15,"Calle Príncipe, 18"
+AvenidaRafaelaYbarra_20,Avenida,Rafaela Ybarra,20,USERA,439616.8,4470396.11,MARTES_TARDE_17:30_19:00,"Avenida Rafaela Ybarra, 20"
+AvenidadeBuenosAires_25,Avenida,de Buenos Aires,25,PUENTE VALLECAS,444594.75,4470982.35,MARTES_TARDE_19:15_20:45,"Avenida de Buenos Aires, 25"
+CalleEzequielSolana_73,Calle,Ezequiel Solana,73,CIUDAD LINEAL,445454.96,4475511.91,MARTES_TARDE_19:15_20:45,"Calle Ezequiel Solana, 73"
+CalleRiberadeCurtidores_37-(A_B_C),Calle,Ribera de Curtidores,"37- (A, B, C)",CENTRO,439996.74,4473123.76,MARTES_TARDE_19:15_20:45,"Calle Ribera de Curtidores, 37- (A, B, C)"
+CalleManuelNoya_15,Calle,Manuel Noya,15,USERA,439532.69,4470930.76,MARTES_TARDE_19:15_20:45,"Calle Manuel Noya, 15"
+AvenidaVictoria_77,Avenida,Victoria,77,MONCLOA-ARAVACA,429298.03,4480698.94,MIÉRCOLES_MAÑANA_7:00_8:30,"Avenida Victoria, 77"
+CalleTrompas_15,Calle,Trompas,15,LATINA,435002.22,4469264.49,MIÉRCOLES_MAÑANA_7:00_8:30,"Calle Trompas, 15"
+AvenidaInstitucionLibredeEnsenianza_1,Avenida,Institución Libre de Enseñanza,1,SAN BLAS-CANILLEJAS,445922.76,4476537.04,MIÉRCOLES_MAÑANA_7:00_8:30,"Avenida Institución Libre de Enseñanza, 1"
+CalleJoaquinTurina_62,Calle,Joaquín Turina,62,CARABANCHEL,435614.07,4469349.07,MIÉRCOLES_MAÑANA_7:00_8:30,"Calle Joaquín Turina, 62"
+PaseoAlbertoPalacios_1InterseccionconPlazaAgata,Paseo,Alberto Palacios,1,VILLAVERDE,439756.38,4466455.18,MIÉRCOLES_MAÑANA_7:00_8:30,"Paseo Alberto Palacios, 1"
+AvenidaValdemarin_71AInterseccionconCalleCisne,Avenida,Valdemarín,71 A,MONCLOA-ARAVACA,434014.29,4480227.88,MIÉRCOLES_MAÑANA_8:45_10:15,"Avenida Valdemarín, 71 A"
+CalleCastillodeUcles_InterseccionconCalleCastillodeSimancasyfrenteaCalleYuncos_1,Calle,Castillo de Uclés,,SAN BLAS-CANILLEJAS,447136.02,4475688.59,MIÉRCOLES_MAÑANA_8:45_10:15,"Calle Castillo de Uclés, "
+CalleGuarenia_AlladoAuditorioPacodeLucia,Calle,Guareña,,LATINA,435085.62,4470795.23,MIÉRCOLES_MAÑANA_8:45_10:15,"Calle Guareña, "
+PlazadelosNavarros_EntreCalleAlbaresdelaRiberayCalleAlbercadeZancara,Plaza,de los Navarros,,CARABANCHEL,436998.09,4469561.33,MIÉRCOLES_MAÑANA_8:45_10:15,"Plaza de los Navarros, "
+PaseoAlbertoPalacios_76,Paseo,Alberto Palacios,76,VILLAVERDE,439229.76,4466149.51,MIÉRCOLES_MAÑANA_8:45_10:15,"Paseo Alberto Palacios, 76"
+CalleGodella_Detrasdelnumero100_enlaplazafrenteal116,Calle,Godella,,VILLAVERDE,441525.68,4465807.01,MIÉRCOLES_MAÑANA_10:30_12:00,"Calle Godella, "
+CalleIllescas_117,Calle,Illescas,117,LATINA,435391.82,4471712.37,MIÉRCOLES_MAÑANA_10:30_12:00,"Calle Illescas, 117"
+CalleLopedeHaro_36,Calle,Lope de Haro,36,TETUAN,440251.84,4478691.42,MIÉRCOLES_MAÑANA_10:30_12:00,"Calle Lope de Haro, 36"
+CalleToboso_134,Calle,Toboso,134,CARABANCHEL,437480.77,4471691.97,MIÉRCOLES_MAÑANA_10:30_12:00,"Calle Toboso, 134"
+CalleAntonioLopez_88,Calle,Antonio López,88,CARABANCHEL,439936.82,4471709.68,MIÉRCOLES_MAÑANA_12:15_13:45,"Calle Antonio López, 88"
+CalleBerrocal_14,Calle,Berrocal,14,VILLAVERDE,442442.55,4466535.77,MIÉRCOLES_MAÑANA_12:15_13:45,"Calle Berrocal, 14"
+CalleCardanio_8EnlaPlazaPatricioMartinez,Calle,Cardaño,8,LATINA,434616.7,4472057.03,MIÉRCOLES_MAÑANA_12:15_13:45,"Calle Cardaño, 8"
+CalleMarquesdeUrquijo_2,Calle,Marqués de Urquijo,2,MONCLOA-ARAVACA,439212.03,4475798.68,MIÉRCOLES_MAÑANA_12:15_13:45,"Calle Marqués de Urquijo, 2"
+CalleCasalarreina_3InterseccionconPlazadelaVicalvarada,Calle,Casalarreina,3,VICALVARO,448194.6,4473379.15,MIÉRCOLES_TARDE_14:00_15:30,"Calle Casalarreina, 3"
+CalleCiudadania_6,Calle,Ciudadania,6,VILLAVERDE,441214.79,4467553.92,MIÉRCOLES_TARDE_14:00_15:30,"Calle Ciudadania, 6"
+CalleFrancosRodriguez_102,Calle,Francos Rodríguez,102,MONCLOA-ARAVACA,439565.13,4478826.55,MIÉRCOLES_TARDE_14:00_15:30,"Calle Francos Rodríguez, 102"
+CalleNuria_59EnfrentedelCentroComercial,Calle,Nuria,59,FUENCARRAL,440009.17,4482762.54,MIÉRCOLES_TARDE_14:00_15:30,"Calle Nuria, 59"
+CalleSanBraulio_EnlaaceradelMercadoMunicipaldeSanIsidro_frentealnumero3,Calle,San Braulio,,CARABANCHEL,438469.3,4471471.06,MIÉRCOLES_TARDE_14:00_15:30,"Calle San Braulio, "
+CalleTembleque_64,Calle,Tembleque,64,LATINA,435476.34,4471898.29,MIÉRCOLES_TARDE_14:00_15:30,"Calle Tembleque, 64"
+CalleAlhambra_Aceradeenfrentealnumero30,Calle,Alhambra,,LATINA,436815.31,4472519.63,MIÉRCOLES_TARDE_15:45_17:15,"Calle Alhambra, "
+AvenidaMonasteriodeSilos_85,Avenida,Monasterio de Silos,85,FUENCARRAL,441374.21,4484571.09,MIÉRCOLES_TARDE_15:45_17:15,"Avenida Monasterio de Silos, 85"
+CalleTertulia_InterseccionconCalleCirculo,Calle,Tertulia,,VILLAVERDE,441157.83,4468197.15,MIÉRCOLES_TARDE_15:45_17:15,"Calle Tertulia, "
+CalleVillardondiego_39-41,Calle,Villardondiego,39-41,VICALVARO,448405.2,4472827.04,MIÉRCOLES_TARDE_15:45_17:15,"Calle Villardondiego, 39-41"
+CalleAviadorZorita_42,Calle,Aviador Zorita,42,TETUAN,440810.54,4478065.39,MIÉRCOLES_TARDE_17:30_19:00,"Calle Aviador Zorita, 42"
+CalleEstella_21,Calle,Estella,21,FUENCARRAL,442850.98,4483154.23,MIÉRCOLES_TARDE_17:30_19:00,"Calle Estella, 21"
+CalleEugeniadeMontijo_76,Calle,Eugenia de Montijo,76,CARABANCHEL,436561.38,4470107.22,MIÉRCOLES_TARDE_17:30_19:00,"Calle Eugenia de Montijo, 76"
+CalleHigueras_45,Calle,Higueras,45,LATINA,436775.56,4473012.46,MIÉRCOLES_TARDE_17:30_19:00,"Calle Higueras, 45"
+CalleLadelManojodeRosas_14,Calle,La del Manojo de Rosas,14,VILLAVERDE,440769.53,4467935.53,MIÉRCOLES_TARDE_17:30_19:00,"Calle La del Manojo de Rosas, 14"
+CalleGolondrina_FrenteaAvenidadelTalgo_234,Calle,Golondrina,,MONCLOA-ARAVACA,433424.52,4477724.42,MIÉRCOLES_TARDE_17:30_19:00,"Calle Golondrina, "
+CalleMinerva_7,Calle,Minerva,7,VICALVARO,449254.82,4472752.19,MIÉRCOLES_TARDE_17:30_19:00,"Calle Minerva, 7"
+AvenidaSantoDomingodelaCalzada_27,Avenida,Santo Domingo de la Calzada,27,FUENCARRAL,443304.7,4484255.94,MIÉRCOLES_TARDE_19:15_20:45,"Avenida Santo Domingo de la Calzada, 27"
+CalleAbadJuanCatalan_52-56,Calle,Abad Juan Catalán,52-56,VICALVARO,449729.34,4473042.68,MIÉRCOLES_TARDE_19:15_20:45,"Calle Abad Juan Catalán, 52-56"
+CalleCaramuel_6Entrelosnumeros6y8,Calle,Caramuel,6,LATINA,438307.81,4473864.88,MIÉRCOLES_TARDE_19:15_20:45,"Calle Caramuel, 6"
+CalleMutual_2InterseccionconAvenidadelaPeseta,Calle,Mutual,2,CARABANCHEL,436543.24,4468367.68,MIÉRCOLES_TARDE_19:15_20:45,"Calle Mutual, 2"
+CalleLadelManojodeRosas_95,Calle,La del Manojo de Rosas,95,VILLAVERDE,440687.52,4467186.95,MIÉRCOLES_TARDE_19:15_20:45,"Calle La del Manojo de Rosas, 95"
+CalleOrense_9,Calle,Orense,9,TETUAN,441017.2,4477688.81,MIÉRCOLES_TARDE_19:15_20:45,"Calle Orense, 9"
+CalleVirgendelosRosales_Aceradeenfrentealnumero88,Calle,Virgen de los Rosales,,MONCLOA-ARAVACA,433943.46,4478393.51,MIÉRCOLES_TARDE_19:15_20:45,"Calle Virgen de los Rosales, "
+AvenidaGranViadelSuereste_55,Avenida,Gran Vía del Suereste,55,VILLA DE VALLECAS,449631.14,4467582.44,JUEVES_MAÑANA_7:00_8:30,"Avenida Gran Vía del Suereste, 55"
+CalleSantaMarta_15,Calle,Santa Marta,15,PUENTE VALLECAS,443822.93,4472671.33,JUEVES_MAÑANA_7:00_8:30,"Calle Santa Marta, 15"
+PaseoMarquesdeZafra_32,Paseo,Marqués de Zafra,32,SALAMANCA,443646.54,4475219.93,JUEVES_MAÑANA_7:00_8:30,"Paseo Marqués de Zafra, 32"
+AvenidaGranViadelSuereste_11,Avenida,Gran Vía del Suereste,11,VILLA DE VALLECAS,450106.99,4468329.42,JUEVES_MAÑANA_8:45_10:15,"Avenida Gran Vía del Suereste, 11"
+CalleGoya_107,Calle,Goya,107,SALAMANCA,442907.8,4475125.97,JUEVES_MAÑANA_8:45_10:15,"Calle Goya, 107"
+CallePergamino_Frentealnumero30,Calle,Pergamino,,VICALVARO,447068.35,4471749.02,JUEVES_MAÑANA_8:45_10:15,"Calle Pergamino, "
+CaminoValderribas_99,Camino,Valderribas,99,PUENTE VALLECAS,443298.92,4472633.08,JUEVES_MAÑANA_8:45_10:15,"Camino Valderribas, 99"
+AvenidaLasSuertes_Frentealnumero67,Avenida,Las Suertes,,VILLA DE VALLECAS,449614.83,4468373.88,JUEVES_MAÑANA_10:30_12:00,"Avenida Las Suertes, "
+CalleCordeldePavones_46,Calle,Cordel de Pavones,46,VICALVARO,447409.97,4472099.07,JUEVES_MAÑANA_10:30_12:00,"Calle Cordel de Pavones, 46"
+CalleMoscatelar_35,Calle,Moscatelar,35,HORTALEZA,445183.23,4478714.89,JUEVES_MAÑANA_10:30_12:00,"Calle Moscatelar, 35"
+CalleNarvaez_44,Calle,Narváez,44,SALAMANCA,442625.56,4474589.96,JUEVES_MAÑANA_10:30_12:00,"Calle Narváez, 44"
+CalleRamirezTome_38,Calle,Ramírez Tomé,38,PUENTE VALLECAS,445128.9,4471110.68,JUEVES_MAÑANA_10:30_12:00,"Calle Ramírez Tomé, 38"
+AvenidadeBuenosAires_99,Avenida,de Buenos Aires,99,PUENTE VALLECAS,444592,4470080.53,JUEVES_MAÑANA_12:15_13:45,"Avenida de Buenos Aires, 99"
+BulevarIndalecioPrieto_9,Bulevar,Indalecio Prieto,9,VICALVARO,447398.27,4472699.83,JUEVES_MAÑANA_12:15_13:45,"Bulevar Indalecio Prieto, 9"
+CalleEmbalsedeNavacerrada_Frentealnumero50,Calle,Embalse de Navacerrada,,VILLA DE VALLECAS,448920.51,4468158.4,JUEVES_MAÑANA_12:15_13:45,"Calle Embalse de Navacerrada, "
+CalleSilvano_97Frentealnumero97_interseccionconAvenidaMachupichu,Calle,Silvano,97,HORTALEZA,446183.56,4479298.34,JUEVES_MAÑANA_12:15_13:45,"Calle Silvano, 97"
+CalleVelazquez_48,Calle,Velázquez,48,SALAMANCA,441987.53,4475362.83,JUEVES_MAÑANA_12:15_13:45,"Calle Velázquez, 48"
+AvenidaGuadalajara_InterseccionconCalleSanRomandelValle,Avenida,Guadalajara,,SAN BLAS-CANILLEJAS,447314.62,4474482.15,JUEVES_TARDE_14:00_15:30,"Avenida Guadalajara, "
+CalleMonleon_2,Calle,Monleón,2,PUENTE VALLECAS,444390.17,4471517.84,JUEVES_TARDE_14:00_15:30,"Calle Monleón, 2"
+CalleSantaHortensia_2InterseccionconLopezdeHoyos,Calle,Santa Hortensia,2,CHAMARTIN,443127.33,4477472.14,JUEVES_TARDE_14:00_15:30,"Calle Santa Hortensia, 2"
+CalleSierraVieja_1,Calle,Sierra Vieja,1,VILLA DE VALLECAS,446556.28,4469822.16,JUEVES_TARDE_14:00_15:30,"Calle Sierra Vieja, 1"
+CalleVelazquez_89,Calle,Velázquez,89,SALAMANCA,442019.84,4476160.84,JUEVES_TARDE_14:00_15:30,"Calle Velázquez, 89"
+CalleAlbericia_InterseccionconCalleArcosdelJalon,Calle,Albericia,,SAN BLAS-CANILLEJAS,447785.8,4475053.34,JUEVES_TARDE_15:45_17:15,"Calle Albericia, "
+CalleClaradelRey_21,Calle,Clara del Rey,21,CHAMARTIN,443000.35,4476931.78,JUEVES_TARDE_15:45_17:15,"Calle Clara del Rey, 21"
+CalleFranciscoSilvela_InterseccionconCalleFlorestonAguilarjuntoalParqueEvaDuarte,Calle,Francisco Silvela,,SALAMANCA,443134.13,4475731.17,JUEVES_TARDE_15:45_17:15,"Calle Francisco Silvela, "
+CalleArroyodelOlivar_InterseccionconCalleMartinezdelaRiva_18,Calle,Arroyo del Olivar,,PUENTE VALLECAS,443463.25,4471710.98,JUEVES_TARDE_15:45_17:15,"Calle Arroyo del Olivar, "
+CallePlayadeZarauz_1,Calle,Playa de Zarauz,1,BARAJAS,449780.61,4480454.48,JUEVES_TARDE_15:45_17:15,"Calle Playa de Zarauz, 1"
+PaseoFedericoGarciaLorca_3,Paseo,Federico García Lorca,3,VILLA DE VALLECAS,447286.42,4470053.98,JUEVES_TARDE_15:45_17:15,"Paseo Federico García Lorca, 3"
+AvenidaDoctorGarciaTapia_135,Avenida,Doctor García Tapia,135,MORATALAZ,445941.63,4473366.16,JUEVES_TARDE_17:30_19:00,"Avenida Doctor García Tapia, 135"
+AvenidaGavia_14,Avenida,Gavia,14,VILLA DE VALLECAS,448175.45,4469566.88,JUEVES_TARDE_17:30_19:00,"Avenida Gavia, 14"
+AvenidaNiza_25Eneltramodeviaentrelosnumeros13y25,Avenida,Niza,25,SAN BLAS-CANILLEJAS,448518.74,4475431.44,JUEVES_TARDE_17:30_19:00,"Avenida Niza, 25"
+CalleAlcala_237JuntoaPlazadeTorosdelasVentas,Calle,Alcalá,237,SALAMANCA,443683.25,4475825.97,JUEVES_TARDE_17:30_19:00,"Calle Alcalá, 237"
+CalleBahiadeCadiz_32,Calle,Bahia de Cádiz,32,BARAJAS,449612.88,4479406.74,JUEVES_TARDE_17:30_19:00,"Calle Bahia de Cádiz, 32"
+CalleJavierdeMiguel_40,Calle,Javier de Miguel,40,PUENTE VALLECAS,443928.66,4470983.48,JUEVES_TARDE_17:30_19:00,"Calle Javier de Miguel, 40"
+CallePrincipedeVergara_142,Calle,Príncipe de Vergara,142,CHAMARTIN,442484.79,4477330.64,JUEVES_TARDE_17:30_19:00,"Calle Príncipe de Vergara, 142"
+CalleBabilonia_33,Calle,Babilonia,33,BARAJAS,450420.08,4479808.83,JUEVES_TARDE_19:15_20:45,"Calle Babilonia, 33"
+CalleBrescia_2InterseccionconCalleBiarritz,Calle,Brescia,2,SALAMANCA,443651.03,4476418,JUEVES_TARDE_19:15_20:45,"Calle Brescia, 2"
+CalleSantoDomingodeSilos_7InterseccionAvConchaEspina,Calle,Santo Domingo de Silos,7,CHAMARTIN,441753.11,4478129.02,JUEVES_TARDE_19:15_20:45,"Calle Santo Domingo de Silos, 7"
+CalleFuenteCarrantona_41,Calle,Fuente Carrantona,41,MORATALAZ,446443.54,4473270.54,JUEVES_TARDE_19:15_20:45,"Calle Fuente Carrantona, 41"
+CallePuentelarra_13,Calle,Puentelarrá,13,VILLA DE VALLECAS,448281.15,4470386.89,JUEVES_TARDE_19:15_20:45,"Calle Puentelarrá, 13"
+CalleRuidera_26,Calle,Ruidera,26,PUENTE VALLECAS,442665.31,4470184.77,JUEVES_TARDE_19:15_20:45,"Calle Ruidera, 26"
+AvenidaFerminaSevillano_26,Avenida,Fermina Sevillano,26,SAN BLAS-CANILLEJAS,451740.97,4477286.9,VIERNES_MAÑANA_7:00_8:30,"Avenida Fermina Sevillano, 26"
+CalleEugeniadeMontijo_99,Calle,Eugenia de Montijo,99,CARABANCHEL,436250.91,4469582.53,VIERNES_MAÑANA_7:00_8:30,"Calle Eugenia de Montijo, 99"
+CalleGranAvenida_31,Calle,Gran Avenida,31,USERA,440045.72,4469024.45,VIERNES_MAÑANA_7:00_8:30,"Calle Gran Avenida, 31"
+CalleHaciendadePavones_220,Calle,Hacienda de Pavones,220,MORATALAZ,445687.07,4472498.22,VIERNES_MAÑANA_7:00_8:30,"Calle Hacienda de Pavones, 220"
+CalleRafaelFinat_103,Calle,Rafael Finat,103,LATINA,434421.94,4469758.87,VIERNES_MAÑANA_7:00_8:30,"Calle Rafael Finat, 103"
+CalleValdebernardo_45,Calle,Valdebernardo,45,MORATALAZ,446384.26,4472738.44,VIERNES_MAÑANA_7:00_8:30,"Calle Valdebernardo, 45"
+AvenidaSegunda_Frentealnumero5aproximadamente,Avenida,Segunda,,SAN BLAS-CANILLEJAS,449598.47,4477580.64,VIERNES_MAÑANA_8:45_10:15,"Avenida Segunda, "
+CalleGeneralMillanAstray_20,Calle,General Millan Astray,20,LATINA,434871.22,4470041.9,VIERNES_MAÑANA_8:45_10:15,"Calle General Millan Astray, 20"
+CalleHaciendadePavones_72,Calle,Hacienda de Pavones,72,MORATALAZ,445169.27,4472738.84,VIERNES_MAÑANA_8:45_10:15,"Calle Hacienda de Pavones, 72"
+CalleParquedelaPaloma_32,Calle,Parque de la Paloma,32,USERA,439336.43,4470025.17,VIERNES_MAÑANA_8:45_10:15,"Calle Parque de la Paloma, 32"
+CalleEncomiendadePalacios_360,Calle,Encomienda de Palacios,360,MORATALAZ,446155.78,4472002.79,VIERNES_MAÑANA_8:45_10:15,"Calle Encomienda de Palacios, 360"
+AvenidaMonasteriodeSilos_Aceradelospares_frentealnumero23,Avenida,Monasterio de Silos,,FUENCARRAL,440150.58,4483879.66,VIERNES_MAÑANA_10:30_12:00,"Avenida Monasterio de Silos, "
+AvenidaPlazadeToros_3,Avenida,Plaza de Toros,3,CARABANCHEL,437399.58,4470811.58,VIERNES_MAÑANA_10:30_12:00,"Avenida Plaza de Toros, 3"
+CalleAntonioLopez_246-248,Calle,Antonio López,246-248,USERA,440926.94,4470378.91,VIERNES_MAÑANA_10:30_12:00,"Calle Antonio López, 246-248"
+CalleArturoSoria_320,Calle,Arturo Soria,320,CIUDAD LINEAL,443357.17,4481056.31,VIERNES_MAÑANA_10:30_12:00,"Calle Arturo Soria, 320"
+CalleCaminodeVinateros_108,Calle,Camino de Vinateros,108,MORATALAZ,445107.48,4473267.68,VIERNES_MAÑANA_10:30_12:00,"Calle Camino de Vinateros, 108"
+CalleAmparoUsera_47,Calle,Amparo Usera,47,USERA,440008.82,4470937.71,VIERNES_MAÑANA_12:15_13:45,"Calle Amparo Usera, 47"
+AvenidaOporto_96,Avenida,Oporto,96,CARABANCHEL,438078.26,4470987.84,VIERNES_MAÑANA_12:15_13:45,"Avenida Oporto, 96"
+CalleTorrelaguna_66,Calle,Torrelaguna,66,CIUDAD LINEAL,444284.28,4477775.95,VIERNES_MAÑANA_12:15_13:45,"Calle Torrelaguna, 66"
+CalleCaminodeVinateros_63,Calle,Camino de Vinateros,63,MORATALAZ,444685.42,4473515.98,VIERNES_MAÑANA_12:15_13:45,"Calle Camino de Vinateros, 63"
+CalleAntonioLopez_9,Calle,Antonio López,9,CARABANCHEL,439397.79,4472075.3,VIERNES_TARDE_14:00_15:30,"Calle Antonio López, 9"
+CalleBerrocal_72,Calle,Berrocal,72,VILLAVERDE,442647.27,4465842.89,VIERNES_TARDE_14:00_15:30,"Calle Berrocal, 72"
+CalleCaminodelosVinateros_10-12,Calle,Camino de los Vinateros,10-12,MORATALAZ,443962.2,4473544.21,VIERNES_TARDE_14:00_15:30,"Calle Camino de los Vinateros, 10-12"
+CalleDuquesadeParcent_96,Calle,Duquesa de Parcent,96,LATINA,436326.92,4471971.48,VIERNES_TARDE_14:00_15:30,"Calle Duquesa de Parcent, 96"
+CalleJosedelHierro_37InterseccionconCalleRosaliaTrujillo,Calle,José del Hierro,37,CIUDAD LINEAL,445310.31,4476784.75,VIERNES_TARDE_14:00_15:30,"Calle José del Hierro, 37"
+CalleLeopoldoAlasClarin_Aceradelospares_frentealnumero41,Calle,Leopoldo Alas Clarín,,FUENCARRAL,437856.75,4481403.31,VIERNES_TARDE_14:00_15:30,"Calle Leopoldo Alas Clarín, "
+AvenidaMoratalaz_39,Avenida,Moratalaz,39,MORATALAZ,444112.81,4473200.76,VIERNES_TARDE_15:45_17:15,"Avenida Moratalaz, 39"
+CalleCarmendeBurgos_4,Calle,Carmen de Burgos,4,VILLAVERDE,441841.64,4467654.27,VIERNES_TARDE_15:45_17:15,"Calle Carmen de Burgos, 4"
+CalleEstafeta_20Frentealnumero7,Calle,Estafeta,20,USERA,441213.67,4469426.02,VIERNES_TARDE_17:30_19:00,"Calle Estafeta, 20"
+CalleMariaTeresaSaenzdeHeredia_44,Calle,María Teresa Sáenz de Heredia,44,CIUDAD LINEAL,444790.08,4475198.42,VIERNES_TARDE_17:30_19:00,"Calle María Teresa Sáenz de Heredia, 44"
+CalleMonfortedeLemos_38,Calle,Monforte de Lemos,38,FUENCARRAL,439866.37,4481101.21,VIERNES_TARDE_17:30_19:00,"Calle Monforte de Lemos, 38"
+CalleSantaPetronila_InterseccionconCalleJosedelPino,Calle,Santa Petronila,,VILLAVERDE,441210.83,4466913.96,VIERNES_TARDE_17:30_19:00,"Calle Santa Petronila, "
+AvenidaElFerrol_6,Avenida,El Ferrol,6,FUENCARRAL,440330.32,4480667.53,VIERNES_TARDE_19:15_20:45,"Avenida El Ferrol, 6"
+CalleConiferas_10,Calle,Coníferas,10,USERA,441027.29,4468717.44,VIERNES_TARDE_19:15_20:45,"Calle Coníferas, 10"
+CalleLagunaRodrigo_7,Calle,Laguna Rodrigo,7,VILLAVERDE,440014.09,4467024.04,VIERNES_TARDE_19:15_20:45,"Calle Laguna Rodrigo, 7"
+CalleTacona_1InterseccionconArroyoFontarron,Calle,Tacona,1,MORATALAZ,445589.72,4471957.48,VIERNES_TARDE_19:15_20:45,"Calle Tacona, 1"
+AvenidaInstitucionLibredeEnsenianza_158,Avenida,Institución Libre de Enseñanza,158,CIUDAD LINEAL,446637.11,4475121.56,VIERNES_TARDE_19:15_20:45,"Avenida Institución Libre de Enseñanza, 158"
+PaseoErmitadelSanto_39,Paseo,Ermita del Santo,39,LATINA,438534.79,4473134.22,VIERNES_TARDE_19:15_20:45,"Paseo Ermita del Santo, 39"
+AvenidaOsaMayor_23,Avenida,Osa Mayor,23,MONCLOA-ARAVACA,433960.1,4479063.34,SABADO_MAÑANA_7:00_8:30,"Avenida Osa Mayor, 23"
+CalleTampico_79,Calle,Tampico,79,SAN BLAS-CANILLEJAS,446094.48,4477316.37,SABADO_MAÑANA_7:00_8:30,"Calle Tampico, 79"
+PlazaChamberi_4,Plaza,Chamberí,4,CHAMBERI,440871.32,4476057.92,SABADO_MAÑANA_7:00_8:30,"Plaza Chamberí, 4"
+AvenidaPrunos_44InterseccionconAvenidaArroyodelSanto,Avenida,Prunos,44,HORTALEZA,447250.82,4478174.33,SABADO_MAÑANA_8:45_10:15,"Avenida Prunos, 44"
+CalleAntonioMachado_12IDMCiudaddelosPoetas,Calle,Antonio Machado,12,MONCLOA-ARAVACA,439027.38,4479726.98,SABADO_MAÑANA_8:45_10:15,"Calle Antonio Machado, 12"
+CalleBoltania_20,Calle,Boltaña,20,SAN BLAS-CANILLEJAS,447977.19,4477307.56,SABADO_MAÑANA_8:45_10:15,"Calle Boltaña, 20"
+CalleSantaEngracia_126,Calle,Santa Engracia,126,CHAMBERI,440516.66,4477005.22,SABADO_MAÑANA_8:45_10:15,"Calle Santa Engracia, 126"
+PlazaLegazpi_5InterseccionconPaseodelMolino,Plaza,Legazpi,5,ARGANZUELA,441030.6,4471362.47,SABADO_MAÑANA_8:45_10:15,"Plaza Legazpi, 5"
+CalleBravoMurillo_41,Calle,Bravo Murillo,41,CHAMBERI,440186.51,4476585.12,SABADO_MAÑANA_10:30_12:00,"Calle Bravo Murillo, 41"
+CalleCuevasdelaAlmanzora_18,Calle,Cuevas de la Almanzora,18,HORTALEZA,444128.94,4480874.57,SABADO_MAÑANA_10:30_12:00,"Calle Cuevas de la Almanzora, 18"
+PaseoSantaMariadelaCabeza_64,Paseo,Santa María de la Cabeza,64,ARGANZUELA,440610.31,4472447.21,SABADO_MAÑANA_10:30_12:00,"Paseo Santa María de la Cabeza, 64"
+PlazaMayor_29-30SalidaCalleCiudadRodrigo,Plaza,Mayor,29-30,CENTRO,440026.35,4474142.61,SABADO_MAÑANA_10:30_12:00,"Plaza Mayor, 29-30"
+AvenidaFranciscoPiyMargall_72,Avenida,Francisco Pi y Margall,72,HORTALEZA,444145.15,4482435.53,SABADO_MAÑANA_12:15_13:45,"Avenida Francisco Pi y Margall, 72"
+AvenidaSanDiego_111,Avenida,San Diego,111,PUENTE VALLECAS,443629.46,4470440.95,SABADO_MAÑANA_12:15_13:45,"Avenida San Diego, 111"
+PaseoDelicias_24,Paseo,Delicias,24,ARGANZUELA,441144.57,4472990.16,SABADO_MAÑANA_12:15_13:45,"Paseo Delicias, 24"
+PaseoSanFranciscodeSales_36,Paseo,San Francisco de Sales,36,CHAMBERI,439515.93,4477071.54,SABADO_MAÑANA_12:15_13:45,"Paseo San Francisco de Sales, 36"
+CalleBravoMurillo_92,Calle,Bravo Murillo,92,CHAMBERI,440317.12,4477482.65,SABADO_TARDE_14:00_15:30,"Calle Bravo Murillo, 92"
+CalleLaMancha_2,Calle,La Mancha,2,PUENTE VALLECAS,443184.26,4470315.25,SABADO_TARDE_14:00_15:30,"Calle La Mancha, 2"
+AvenidaNicetoAlcalaZamora_78InterseccionconVicenteBlascoIbaniez,Avenida,Niceto Alcalá Zamora,78,HORTALEZA,444716.97,4483076.55,SABADO_TARDE_14:00_15:30,"Avenida Niceto Alcalá Zamora, 78"
+PaseoDelicias_122,Paseo,Delicias,122,ARGANZUELA,441031.38,4471817.71,SABADO_TARDE_14:00_15:30,"Paseo Delicias, 122"
+PlazaCebada_5-7,Plaza,Cebada,5-7,CENTRO,439790.02,4473664.08,SABADO_TARDE_14:00_15:30,"Plaza Cebada, 5-7"
+AvenidaPabloNeruda_89,Avenida,Pablo Neruda,89,PUENTE VALLECAS,443966.93,4470271.88,SABADO_TARDE_15:45_17:15,"Avenida Pablo Neruda, 89"
+CalleBravoMurillo_8,Calle,Bravo Murillo,8,CHAMBERI,440268.33,4476210.98,SABADO_TARDE_15:45_17:15,"Calle Bravo Murillo, 8"
+PaseoChopera_12,Paseo,Chopera,12,ARGANZUELA,440756.12,4471631.64,SABADO_TARDE_15:45_17:15,"Paseo Chopera, 12"
+CalleArapiles_21InterseccionconCalleVallehermoso,Calle,Arapiles,21,CHAMBERI,439904.28,4476035.91,SABADO_TARDE_17:30_19:00,"Calle Arapiles, 21"
+AvenidaRafaelAlberti_34,Avenida,Rafael Alberti,34,PUENTE VALLECAS,445452.36,4470656.43,SABADO_TARDE_17:30_19:00,"Avenida Rafael Alberti, 34"
+CaminoViejodeBurgos_24,Camino,Viejo de Burgos,24,HORTALEZA,446488.7,4481435.19,SABADO_TARDE_17:30_19:00,"Camino Viejo de Burgos, 24"
+PaseoJuanAntonioVallejo-NajeraBotas_InterseccionconPlazaOrtegayMunilla_detrasdelaentradaalaestaciondeCercaniasdePiramides,Paseo,Juan Antonio Vallejo-Nájera Botas,,ARGANZUELA,439635.23,4472715.18,SABADO_TARDE_17:30_19:00,"Paseo Juan Antonio Vallejo-Nájera Botas, "
+AvenidaVirgendelCarmen_Aceraimpares_frentealnumero84,Avenida,Virgen del Carmen,,HORTALEZA,445107.14,4480737.23,SABADO_TARDE_19:15_20:45,"Avenida Virgen del Carmen, "
+CalleFernandezdelosRios_62,Calle,Fernández de los Ríos,62,CHAMBERI,439625.55,4476321.63,SABADO_TARDE_19:15_20:45,"Calle Fernández de los Ríos, 62"
+PlazaFranciscoMorano_3EnlarotondaentrelassalidasdePaseoImperialyPaseodelosPontones,Plaza,Francisco Morano,3,ARGANZUELA,439221.37,4472922.62,SABADO_TARDE_19:15_20:45,"Plaza Francisco Morano, 3"
+CalleFedericoMompou_4EdificioTelecinco,Calle,Federico Mompou,4,FUENCARRAL,442484.39,4484676.35,MARTES_MAÑANA_7:00_8:30,"Calle Federico Mompou, 4"
+RondaRondadelaComunicacion_2EdificioTelefonica,Ronda,Ronda de la Comunicación,2,FUENCARRAL,443723.05,4485009.33,MARTES_MAÑANA_8:45_10:15,"Ronda Ronda de la Comunicación, 2"
+CalleAbetal_3-5EdificioBBVA,Calle,Abetal,3-5,FUENCARRAL,443856.16,4483545.97,MARTES_MAÑANA_10:30_12:00,"Calle Abetal, 3-5"
+AvenidaAvda.MonfortedeLemos_1CuatroTorres,Avenida,Avda. Monforte de Lemos,1,FUENCARRAL,441706.39,4480710.18,MARTES_MAÑANA_12:15_13:45,"Avenida Avda. Monforte de Lemos, 1"
+calleMauricioLegendre_5,calle,Mauricio Legendre,5,CHAMARTIN,441764.3,4480066.56,MARTES_TARDE_14:00_15:30,"calle Mauricio Legendre, 5"
+calleOrense_2Azca,calle,Orense,2,TETUAN,441035.06,4477589.81,MARTES_TARDE_15:45_17:15,"calle Orense, 2"
+calleAgustindeBetancourt_1Ministerio,calle,Agustín de Betancourt,1,CHAMBERI,441053.61,4477057,MARTES_TARDE_17:30_19:00,"calle Agustín de Betancourt, 1"
+calleMontalban_7-9EdificioAyuntamientodeMadrid,calle,Montalbán,7-9,RETIRO,441449.91,4474405.04,MARTES_MAÑANA_8:45_10:15,"calle Montalbán, 7-9"
+calleMendezAlvaro_1PuertadeAtocha,calle,Méndez Álvaro,1,ARGANZUELA,441255.97,4473136.22,MARTES_MAÑANA_10:30_12:00,"calle Méndez Álvaro, 1"
+calleCerrodelaPlata_3EMT,calle,Cerro de la Plata,3,RETIRO,442752.58,4472399.1,MARTES_MAÑANA_12:15_13:45,"calle Cerro de la Plata, 3"
+calleMendezAlvaro_44edficioRepsol,calle,Méndez Álvaro,44,ARGANZUELA,441966.39,4472215.35,JUEVES_MAÑANA_7:00_8:30,"calle Méndez Álvaro, 44"
+calleBustamante_16EdificioAyuntamientodeMadrid,calle,Bustamante,16,ARGANZUELA,441594.58,4472433.27,JUEVES_MAÑANA_8:45_10:15,"calle Bustamante, 16"
+calleAlcaldeSainzdeBaranda_92frente.(FachadaParqueFuentedelBerro).,calle,Alcalde Sainz de Baranda,92,SALAMANCA,443788.85,4474709.95,JUEVES_MAÑANA_10:30_12:00,"calle Alcalde Sainz de Baranda, 92"
+calleAlbarracin__35EdificioAyuntamientodeMadrid,calle,"Albarracín,",35,SAN BLAS-CANILLEJAS,446527.99,4475878.75,JUEVES_MAÑANA_12:15_13:45,"calle Albarracín,, 35"
+calleRiberadelSena_21esquinaconEstrasburgoEdificioAyuntamientodeMadrid,calle,Ribera del Sena,21,BARAJAS,447632.56,4479217.25,JUEVES_TARDE_14:00_15:30,"calle Ribera del Sena, 21"
+calleAbelias_1esquinaAvda.Arces,calle,Abelias,1,HORTALEZA,447020.91,4478148.67,JUEVES_TARDE_15:45_17:15,"calle Abelias, 1"
+PaseoAlamedadeOsuna__50,Paseo,"Alameda de Osuna,",50,BARAJAS,449316.5,4478388.17,JUEVES_TARDE_17:30_19:00,"Paseo Alameda de Osuna,, 50"
+AvenidaLogronio_160-162EntradaResidencialElCapricho,Avenida,Logroño,160-162,BARAJAS,450664.16,4480634.97,JUEVES_TARDE_19:15_20:45,"Avenida Logroño, 160-162"
+PaseoFlorida_12(farola13),Paseo,Florida,12,MONCLOA-ARAVACA,438687.94,4474941.28,SÁBADO_TARDE_19:15_20:45,"Paseo Florida, 12"
+AvenidaPrincipal_4-6AccesoPabellonCubodelaPipa-CasadeCampo,Avenida,Principal,4-6,MONCLOA-ARAVACA,437292.7,4473802.24,LUNES_TARDE_12:15_13:45,"Avenida Principal, 4-6"
+AvenidaBlasdeLezo_22,Avenida,Blas de Lezo,22,VICALVARO,453115.63,4473036.7,VIERNES_MAÑANA_12:15_13:30,"Avenida Blas de Lezo, 22"
