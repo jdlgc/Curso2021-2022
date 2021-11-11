@@ -1,8 +1,8 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX fountain: <http://fuent.example.com/fountain/>
-PREFIX district: <http://dist.example.com/district/>
+PREFIX fountain: <http://www.smartCityParks.es/resource/Font/Fountain/>
+PREFIX district: <http://www.smartCityParks.es/resource/Dist/District/>
 
 SELECT ?p ?o
 WHERE {
@@ -13,4 +13,3 @@ SELECT ?p ?o
 WHERE {
     district:LATINA ?p ?o
 }
-

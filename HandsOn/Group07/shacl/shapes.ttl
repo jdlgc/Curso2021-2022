@@ -1,0 +1,118 @@
+@prefix :      <http://www.smartCityParks.es/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://astrea.linkeddata.es/report>
+        a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#2b66fac8d1b4d3639ef9f886d77a6015> , <https://astrea.linkeddata.es/shapes#cb796389f51252a6a37d262a9cade7e2> , <https://astrea.linkeddata.es/shapes#288483a235bdc5f387cba781315650ce> , <https://astrea.linkeddata.es/shapes#79b32813c297b5efb3b39c501a55b945> , <https://astrea.linkeddata.es/shapes#e5463bc8b9a8b9b6c6a9d28e5850a203> , <https://astrea.linkeddata.es/shapes#ae321e378b3f1dc69a5cec29fbc9b722> , <https://astrea.linkeddata.es/shapes#8b9dbd5878faf8bba1b2db289c0c61c9> , <https://astrea.linkeddata.es/shapes#18f69e300ad7fe539fe32c9a5e93afec> , <https://astrea.linkeddata.es/shapes#f7a2f5afba0502c53c284af1c1ad03d1> , <https://astrea.linkeddata.es/shapes#0a038762a6932cb382933085891b1146> , <https://astrea.linkeddata.es/shapes#6fd4e1949623338b1c9afb7425c013bc> ;
+        <https://w3id.org/def/astrea#generatedShapesFrom>
+                <https://astrea.linkeddata.es/report/0620946147> .
+
+<https://astrea.linkeddata.es/shapes#2b66fac8d1b4d3639ef9f886d77a6015>
+        a            sh:PropertyShape ;
+        rdfs:label   "Location(longitude) of Fontain" ;
+        sh:datatype  xsd:double ;
+        sh:name      "Location(longitude) of Fontain" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      <http://www.smartCityParks.es/ontology/Font#hasLongitude> ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<https://astrea.linkeddata.es/shapes#e5463bc8b9a8b9b6c6a9d28e5850a203>
+        a            sh:PropertyShape ;
+        rdfs:label   "District identifier" ;
+        sh:datatype  xsd:string ;
+        sh:name      "District identifier" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      <http://www.smartCityParks.es/ontology/Dist#hasDistrictName> ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/report/0620946147>
+        a       <https://w3id.org/def/astrea#ReportEntry> ;
+        <https://w3id.org/def/astrea#message>
+                "Shapes generated with no errors" ;
+        <https://w3id.org/def/astrea#statusCode>
+                "200"^^xsd:int .
+
+<https://astrea.linkeddata.es/shapes#8b9dbd5878faf8bba1b2db289c0c61c9>
+        a            sh:PropertyShape ;
+        rdfs:label   "Location(latitude) of Fontain" ;
+        sh:datatype  xsd:double ;
+        sh:name      "Location(latitude) of Fontain" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      <http://www.smartCityParks.es/ontology/Font#hasLatitude> ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<https://astrea.linkeddata.es/shapes#0a038762a6932cb382933085891b1146>
+        a            sh:PropertyShape ;
+        rdfs:label   "District name" ;
+        sh:datatype  xsd:string ;
+        sh:name      "District name" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      <http://www.smartCityParks.es/ontology/Font#hasDistrict> ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#6fd4e1949623338b1c9afb7425c013bc>
+        a            sh:PropertyShape ;
+        rdfs:label   "Status of Fontains" ;
+        sh:datatype  xsd:string ;
+        sh:name      "Status of Fontains" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      <http://www.smartCityParks.es/ontology/Font#hasStatus> ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#f7a2f5afba0502c53c284af1c1ad03d1>
+        a            sh:PropertyShape ;
+        rdfs:label   "hasFontains" ;
+        sh:name      "hasFontains" ;
+        sh:nodeKind  sh:BlankNodeOrIRI .
+
+<https://astrea.linkeddata.es/shapes#288483a235bdc5f387cba781315650ce>
+        a               sh:NodeShape ;
+        rdfs:label      "Fontain class" ;
+        sh:name         "Fontain class" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#2b66fac8d1b4d3639ef9f886d77a6015> , <https://astrea.linkeddata.es/shapes#0a038762a6932cb382933085891b1146> , <https://astrea.linkeddata.es/shapes#ae321e378b3f1dc69a5cec29fbc9b722> , <https://astrea.linkeddata.es/shapes#8b9dbd5878faf8bba1b2db289c0c61c9> , <https://astrea.linkeddata.es/shapes#79b32813c297b5efb3b39c501a55b945> , <https://astrea.linkeddata.es/shapes#6fd4e1949623338b1c9afb7425c013bc> ;
+        sh:targetClass  <http://www.smartCityParks.es/ontology/Font#Fontain> .
+
+<https://astrea.linkeddata.es/shapes#ae321e378b3f1dc69a5cec29fbc9b722>
+        a            sh:PropertyShape ;
+        rdfs:label   "Fontain identifier" ;
+        sh:datatype  xsd:string ;
+        sh:name      "Fontain identifier" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      <http://www.smartCityParks.es/ontology/Font#hasCode> ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#18f69e300ad7fe539fe32c9a5e93afec>
+        a                sh:PropertyShape ;
+        rdfs:label       "Number of inhabitants" ;
+        sh:datatype      xsd:int ;
+        sh:maxInclusive  2147483647 ;
+        sh:minInclusive  -2147483648 ;
+        sh:name          "Number of inhabitants" ;
+        sh:nodeKind      sh:Literal ;
+        sh:path          <http://www.smartCityParks.es/ontology/Dist#hasNumInhabitants> ;
+        sh:pattern       "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#cb796389f51252a6a37d262a9cade7e2>
+        a               sh:NodeShape ;
+        rdfs:label      "District class" ;
+        sh:name         "District class" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#18f69e300ad7fe539fe32c9a5e93afec> , <https://astrea.linkeddata.es/shapes#e5463bc8b9a8b9b6c6a9d28e5850a203> ;
+        sh:targetClass  <http://www.smartCityParks.es/ontology/Dist#District> .
+
+<https://astrea.linkeddata.es/shapes#79b32813c297b5efb3b39c501a55b945>
+        a            sh:PropertyShape ;
+        rdfs:label   "Address of Fontain" ;
+        sh:datatype  xsd:string ;
+        sh:name      "Address of Fontain" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      <http://www.smartCityParks.es/ontology/Font#hasAddress> ;
+        sh:pattern   ".*" .

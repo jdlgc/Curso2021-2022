@@ -29,57 +29,57 @@
 #    Data properties
 #################################################################
 
-###  http://www.smartCityParks.es/onlology/Dist#hasDistrictName
-<http://www.smartCityParks.es/onlology/Dist#hasDistrictName> rdf:type owl:DatatypeProperty ;
+###  http://www.smartCityParks.es/ontology/Dist#hasDistrictName
+<http://www.smartCityParks.es/ontology/Dist#hasDistrictName> rdf:type owl:DatatypeProperty ;
                                                              rdfs:domain <http://www.smartCityParks.es/ontology/Dist#District> ;
                                                              rdfs:range xsd:string ;
                                                              rdfs:label "District identifier" .
 
 
-###  http://www.smartCityParks.es/onlology/Dist#hasNumInhabitants
-<http://www.smartCityParks.es/onlology/Dist#hasNumInhabitants> rdf:type owl:DatatypeProperty ;
+###  http://www.smartCityParks.es/ontology/Dist#hasNumInhabitants
+<http://www.smartCityParks.es/ontology/Dist#hasNumInhabitants> rdf:type owl:DatatypeProperty ;
                                                                rdfs:domain <http://www.smartCityParks.es/ontology/Dist#District> ;
                                                                rdfs:range xsd:int ;
                                                                rdfs:label "Number of inhabitants" .
 
 
-###  http://www.smartCityParks.es/onlology/Font#hasAddress
-<http://www.smartCityParks.es/onlology/Font#hasAddress> rdf:type owl:DatatypeProperty ;
+###  http://www.smartCityParks.es/ontology/Font#hasAddress
+<http://www.smartCityParks.es/ontology/Font#hasAddress> rdf:type owl:DatatypeProperty ;
                                                         rdfs:domain <http://www.smartCityParks.es/ontology/Font#Fontain> ;
                                                         rdfs:range xsd:string ;
                                                         rdfs:label "Address of Fontain" .
 
 
-###  http://www.smartCityParks.es/onlology/Font#hasCode
-<http://www.smartCityParks.es/onlology/Font#hasCode> rdf:type owl:DatatypeProperty ;
+###  http://www.smartCityParks.es/ontology/Font#hasCode
+<http://www.smartCityParks.es/ontology/Font#hasCode> rdf:type owl:DatatypeProperty ;
                                                      rdfs:domain <http://www.smartCityParks.es/ontology/Font#Fontain> ;
                                                      rdfs:range xsd:string ;
                                                      rdfs:label "Fontain identifier" .
 
 
-###  http://www.smartCityParks.es/onlology/Font#hasDistrict
-<http://www.smartCityParks.es/onlology/Font#hasDistrict> rdf:type owl:DatatypeProperty ;
+###  http://www.smartCityParks.es/ontology/Font#hasDistrict
+<http://www.smartCityParks.es/ontology/Font#hasDistrict> rdf:type owl:DatatypeProperty ;
                                                          rdfs:domain <http://www.smartCityParks.es/ontology/Font#Fontain> ;
                                                          rdfs:range xsd:string ;
                                                          rdfs:label "District name" .
 
 
-###  http://www.smartCityParks.es/onlology/Font#hasLatitude
-<http://www.smartCityParks.es/onlology/Font#hasLatitude> rdf:type owl:DatatypeProperty ;
+###  http://www.smartCityParks.es/ontology/Font#hasLatitude
+<http://www.smartCityParks.es/ontology/Font#hasLatitude> rdf:type owl:DatatypeProperty ;
                                                          rdfs:domain <http://www.smartCityParks.es/ontology/Font#Fontain> ;
                                                          rdfs:range xsd:double ;
                                                          rdfs:label "Location(latitude) of Fontain" .
 
 
-###  http://www.smartCityParks.es/onlology/Font#hasLongitude
-<http://www.smartCityParks.es/onlology/Font#hasLongitude> rdf:type owl:DatatypeProperty ;
+###  http://www.smartCityParks.es/ontology/Font#hasLongitude
+<http://www.smartCityParks.es/ontology/Font#hasLongitude> rdf:type owl:DatatypeProperty ;
                                                           rdfs:domain <http://www.smartCityParks.es/ontology/Font#Fontain> ;
                                                           rdfs:range xsd:double ;
                                                           rdfs:label "Location(longitude) of Fontain" .
 
 
-###  http://www.smartCityParks.es/onlology/Font#hasStatus
-<http://www.smartCityParks.es/onlology/Font#hasStatus> rdf:type owl:DatatypeProperty ;
+###  http://www.smartCityParks.es/ontology/Font#hasStatus
+<http://www.smartCityParks.es/ontology/Font#hasStatus> rdf:type owl:DatatypeProperty ;
                                                        rdfs:domain <http://www.smartCityParks.es/ontology/Font#Fontain> ;
                                                        rdfs:range xsd:string ;
                                                        rdfs:label "Status of Fontains" .
