@@ -12,145 +12,88 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#medicion
-:medicion rdf:type owl:ObjectProperty ;
-          rdfs:domain [ rdf:type owl:Restriction ;
-                        owl:onProperty :medicion ;
-                        owl:someValuesFrom :GasesPresente
-                      ] ;
-          rdfs:range [ rdf:type owl:Restriction ;
-                       owl:onProperty :medicion ;
-                       owl:someValuesFrom :GasesPresente
-                     ] .
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Calle
+:Calle rdf:type owl:ObjectProperty ;
+       rdfs:domain :Estacion ;
+       rdfs:range :Direccion ;
+       rdfs:comment "Calle dónde se ubica la estación" .
 
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#ubicacion
-:ubicacion rdf:type owl:ObjectProperty ;
-           rdfs:domain [ rdf:type owl:Restriction ;
-                         owl:onProperty :ubicacion ;
-                         owl:someValuesFrom :Estacion
-                       ] ;
-           rdfs:range [ rdf:type owl:Restriction ;
-                        owl:onProperty :ubicacion ;
-                        owl:someValuesFrom :Estacion
-                      ] .
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#medidoEn
+:medidoEn rdf:type owl:ObjectProperty ;
+          rdfs:domain :Estacion ;
+          rdfs:range :Medicion ;
+          rdfs:comment "En qué estación fue tomada la muestra" .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaAlta
-:fechaAlta rdf:type owl:DatatypeProperty ;
-           rdfs:domain [ rdf:type owl:Restriction ;
-                         owl:onProperty :ubicacion ;
-                         owl:someValuesFrom :Estacion
-                       ] ;
-           rdfs:range xsd:dateTime ;
-           rdfs:comment "Fecha en la que la estación fue creada" .
-
-
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_estacion
 :id_estacion rdf:type owl:DatatypeProperty ;
-             rdfs:domain [ rdf:type owl:Restriction ;
-                           owl:onProperty :ubicacion ;
-                           owl:someValuesFrom :Estacion
-                         ] ;
-             rdfs:range xsd:int ;
-             rdfs:comment "Identificador de cada estación" .
+             rdfs:domain :Estacion ;
+             rdfs:range xsd:integer ;
+             rdfs:comment "Identificador de la estación" .
+
+
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas
+:id_gas rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Gas ;
+        rdfs:range xsd:integer ;
+        rdfs:comment "Identificador gas" .
 
 
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud
 :latitud rdf:type owl:DatatypeProperty ;
-         rdfs:domain [ rdf:type owl:Restriction ;
-                       owl:onProperty :ubicacion ;
-                       owl:someValuesFrom :Estacion
-                     ] ;
-         rdfs:range xsd:float ;
-         rdfs:comment "Latitud de la estación" .
+         rdfs:domain :Direccion ;
+         rdfs:range xsd:integer ;
+         rdfs:comment "Latitud" .
 
 
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud
 :longitud rdf:type owl:DatatypeProperty ;
-          rdfs:domain [ rdf:type owl:Restriction ;
-                        owl:onProperty :ubicacion ;
-                        owl:someValuesFrom :Estacion
-                      ] ;
+          rdfs:domain :Direccion ;
+          rdfs:range xsd:integer ;
+          rdfs:comment "Longitud" .
+
+
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#medicion
+:medicion rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Medicion ;
           rdfs:range xsd:float ;
-          rdfs:comment "Longitud de la estación" .
+          rdfs:comment "Valor medido de gas" .
 
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#magnitud
-:magnitud rdf:type owl:DatatypeProperty ;
-          rdfs:domain [ rdf:type owl:Restriction ;
-                        owl:onProperty :medicion ;
-                        owl:someValuesFrom :GasesPresente
-                      ] ;
-          rdfs:range xsd:int ;
-          rdfs:comment "Identificador del gas" .
-
-
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#valor_de_medicion
-:valor_de_medicion rdf:type owl:DatatypeProperty ;
-                   rdfs:domain [ rdf:type owl:Restriction ;
-                                 owl:onProperty :medicion ;
-                                 owl:someValuesFrom :GasesPresente
-                               ] ;
-                   rdfs:range xsd:float ;
-                   rdfs:comment "Cantidad presente del gas en ese momento" .
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#momento_medicion
+:momento_medicion rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Medicion ;
+                  rdfs:range xsd:dateTime ;
+                  rdfs:comment "Fecha y hora de medición" .
 
 
 #################################################################
 #    Classes
 #################################################################
 
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Direccion
+:Direccion rdf:type owl:Class ;
+           rdfs:comment "Dirección dónde se encuentra la estación" .
+
+
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion
 :Estacion rdf:type owl:Class ;
-          rdfs:comment "Estación de medición calidad del aire" .
+          rdfs:comment "Nombre de la estación" .
 
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#GasesPresente
-:GasesPresente rdf:type owl:Class ;
-               rdfs:comment "Gases presentes medidos en microgramos" .
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Gas
+:Gas rdf:type owl:Class ;
+     rdfs:comment "Nombre del gas" .
 
 
-#################################################################
-#    Individuals
-#################################################################
-
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#benceno
-:benceno rdf:type owl:NamedIndividual ,
-                  :GasesPresente .
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion
+:Medicion rdf:type owl:Class ;
+          rdfs:comment "Cantida de gas medido en la estación" .
 
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#dioxido_de__nitrogeno
-:dioxido_de__nitrogeno rdf:type owl:NamedIndividual ,
-                                :GasesPresente .
-
-
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#dioxido_de_azufre
-:dioxido_de_azufre rdf:type owl:NamedIndividual ,
-                            :GasesPresente .
-
-
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#monoxido_de_carbono
-:monoxido_de_carbono rdf:type owl:NamedIndividual ,
-                              :GasesPresente .
-
-
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#ozono
-:ozono rdf:type owl:NamedIndividual ,
-                :GasesPresente .
-
-
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#pm10
-:pm10 rdf:type owl:NamedIndividual ,
-               :GasesPresente .
-
-
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#pm2_5
-:pm2_5 rdf:type owl:NamedIndividual ,
-                :GasesPresente .
-
-
-
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
