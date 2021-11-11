@@ -75,11 +75,11 @@ ns:status rdfs:label "status" ;
     rdf1:type owl:DatatypeProperty .
 
 ns:tablesSeasonal rdfs:label "tables seasonal" ;
-    rdfs:range xsd:string ;
+    rdfs:range xsd:integer ;
     rdf1:type owl:DatatypeProperty .
 
 ns:tablesUnseasonal rdfs:label "tables unseasonal" ;
-    rdfs:range xsd:string ;
+    rdfs:range xsd:integer ;
     rdf1:type owl:DatatypeProperty .
 
 ns:terraceUbication rdfs:label "terrace ubication" ;
