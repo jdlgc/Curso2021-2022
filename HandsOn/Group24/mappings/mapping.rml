@@ -185,7 +185,7 @@ map:pm_015 a rr:PredicateMap;
 map:pm_016 a rr:PredicateMap;
     rr:constant <http://smartcity.linkeddata.es/ontology/TerrazasMadrid#containedIn>.
 map:pm_017 a rr:PredicateMap;
-    rr:constant <http://schema.org/adress>.
+    rr:constant <http://schema.org/address>.
 map:pm_018 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_019 a rr:PredicateMap;
