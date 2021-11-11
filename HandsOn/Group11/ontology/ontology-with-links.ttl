@@ -26,17 +26,16 @@
 #    Object Properties
 #################################################################
 
-###  http://safemadrid.linkeddata.es/ontology/accidentalidad#hasDISTRITO
-:hasDISTRITO rdf:type owl:ObjectProperty ;
-             rdfs:domain :Accidente ,
-                         :Barrio ;
-             rdfs:range :Distrito .
+###  http://safemadrid.linkeddata.es/ontology/accidentalidad#hasBARRIO
+:hasBARRIO rdf:type owl:ObjectProperty ;
+           rdfs:domain :Distrito ;
+           rdfs:range :Barrio .
 
 
 ###  http://safemadrid.linkeddata.es/ontology/accidentalidad#ocurreEN
 :ocurreEN rdf:type owl:ObjectProperty ;
           rdfs:domain :Accidente ;
-          rdfs:range :Barrio .
+          rdfs:range :Distrito .
 
 
 #################################################################
@@ -49,16 +48,16 @@
          rdfs:range xsd:float .
 
 
-###  http://safemadrid.linkeddata.es/ontology/accidentalidad#hasBARRIO
-:hasBARRIO rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Barrio ;
-           rdfs:range xsd:string .
-
-
 ###  http://safemadrid.linkeddata.es/ontology/accidentalidad#hasCALLE
 :hasCALLE rdf:type owl:DatatypeProperty ;
           rdfs:domain :Accidente ;
           rdfs:range xsd:string .
+
+
+###  http://safemadrid.linkeddata.es/ontology/accidentalidad#hasDISTRITO
+:hasDISTRITO rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Distrito ;
+             rdfs:range xsd:string .
 
 
 ###  http://safemadrid.linkeddata.es/ontology/accidentalidad#hasFECHA
@@ -93,9 +92,14 @@
          rdfs:range xsd:string .
 
 
+###  http://safemadrid.linkeddata.es/ontology/accidentalidad#hasNAMEBARRIO
+:hasNAMEBARRIO rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Barrio ;
+               rdfs:range xsd:string .
+
+
 ###  http://safemadrid.linkeddata.es/ontology/accidentalidad#hasNUMERO
 :hasNUMERO rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :hasCALLE ;
            rdfs:domain :Accidente ;
            rdfs:range xsd:integer .
 

@@ -87,17 +87,6 @@
   rr:predicateObjectMap [
     rr:predicate vocab:ocurreEN;
     rr:objectMap [
-      rr:parentTriplesMap <#Barrios>;
-      rr:joinCondition [
-        rr:child "DISTRITO";
-        rr:parent "DISTRITO";
-      ];
-    ];
-  ];
-
-  rr:predicateObjectMap [
-    rr:predicate vocab:hasDISTRITO;
-    rr:objectMap [
       rr:parentTriplesMap <#Distritos>;
       rr:joinCondition [
         rr:child "DISTRITO";
@@ -120,7 +109,7 @@
 
   rr:predicateObjectMap [
     rr:predicateMap [
-      rr:constant vocab:hasBARRIO;
+      rr:constant vocab:hasNAMEBARRIO;
       rr:termType rr:IRI 
       ];
     rr:objectMap [ 
@@ -189,4 +178,15 @@
       rml:reference "DISTRITO_2";
       rr:termType rr:IRI
       ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate vocab:hasBARRIO;
+    rr:objectMap [
+      rr:parentTriplesMap <#Barrios>;
+      rr:joinCondition [
+        rr:child "DISTRITO";
+        rr:parent "DISTRITO";
+      ];
+    ];
   ].
