@@ -3,12 +3,13 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix vocab: <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @base <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#> .
 
 
 <#TriplesMap1> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "../csv/estaciones-updated.csv" ;
+        rml:source "../csv/estaciones-with-links.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
 
@@ -47,13 +48,21 @@
             rml:reference "LONGITUD";
 			rr:datatype xsd:string
         ]
-    ].
+    ];
+	
+	rr:predicateObjectMap [
+		rr:predicate owl:sameAs;
+		rr:objectMap [
+			rml:reference "WIKIDATA-LINKS";
+			rr:datatype xsd:string
+		]
+	].
 
 
 
 <#TriplesMap2> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "../csv/medicion-updated.csv" ;
+        rml:source "../csv/medicion-with-links.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
 
@@ -92,9 +101,12 @@
             rml:reference "CANTIDAD";
                 rr:datatype xsd:float
             ]
-    ].
-
-    
-
-
-
+    ];
+	
+	rr:predicateObjectMap [
+		rr:predicate owl:sameAs;
+		rr:objectMap [
+			rml:reference "WIKIDATA-LINKS";
+			rr:datatype xsd:string
+		]
+	].
