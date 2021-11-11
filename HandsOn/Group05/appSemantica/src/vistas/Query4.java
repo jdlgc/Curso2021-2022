@@ -144,7 +144,7 @@ public class Query4 extends JDialog {
 				        JOptionPane.showMessageDialog(jFrame, "Esta query se hace cogiendo el output.nt \n"
 				        		+ "SELECT DISTINCT ?uri\r\n"
 								+ "WHERE{\r\n"
-								+ "    <http://www.calidadAire.com/refMunicipio/+municipio+> <http://www.calidadAire.com#tieneURIMuni> ?uri.\r\n"
+								+ "    <http://www.calidadAire.com/refMunicipio/+municipio+> <http://www.calidadAire.com/urim#tieneURIMuni> ?uri.\r\n"
 								+ " }");
 					}
 				});

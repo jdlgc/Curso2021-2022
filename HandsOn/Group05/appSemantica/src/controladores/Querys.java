@@ -151,7 +151,7 @@ public class Querys {
 	
 	public static String nombreMunicipio(String municipio) {
 		if(municipio.equals("Orusco de Taju�a")) {
-			municipio="Orusco-de-Tajuña";
+			municipio="Orusco-de-Taju%C3%B1a";
 		}else if(municipio.equals("Puerto de Cotos")){
 			municipio="Puerto-de-Cotos";
 		}else if(municipio.equals("Rivas-Vaciamadrid")){
@@ -159,11 +159,11 @@ public class Querys {
 		}else if(municipio.equals("Aranjuez")){
 			municipio="Aranjuez";
 		}else if(municipio.equals("San Martin de Valdeiglesias")){
-			municipio="San-Martín-de-Valdeiglesias";
+			municipio="San-Mart%C3%ADn-de-Valdeiglesias";
 		}else if(municipio.equals("Arganda del Rey")){
 			municipio="Arganda-del-Rey";
 		}else if(municipio.equals("Torrejon de Ardoz")){
-			municipio="Torrejón-de-Ardoz";
+			municipio="Torrej%C3%B3n-de-Ardoz";
 		}else if(municipio.equals("El Atazar")){
 			municipio="El-Atazar";
 		}else if(municipio.equals("Valdemoro")){
@@ -171,7 +171,7 @@ public class Querys {
 		}else if(municipio.equals("Villa del Prado")){
 			municipio="Villa-del-Prado";
 		}else if(municipio.equals("Villarejo de Salvanes")){
-			municipio="Villarejo-de-Salvanés";
+			municipio="Villarejo-de-Salvan%C3%A9s";
 		}else if(municipio.equals("Colmenar Viejo")){
 			municipio="Colmenar-Viejo";
 		}else if(municipio.equals("Collado Villalba")){
@@ -179,7 +179,7 @@ public class Querys {
 		}else if(municipio.equals("Coslada")){
 			municipio="Coslada";
 		}else if(municipio.equals("Alcala de Henares")){
-			municipio="Alcalá-de-Henares";
+			municipio="Alcal%C3%A1-de-Henares";
 		}else if(municipio.equals("Fuenlabrada")){
 			municipio="Fuenlabrada";
 		}else if(municipio.equals("Alcobendas")){
@@ -189,15 +189,15 @@ public class Querys {
 		}else if(municipio.equals("Guadalix de la Sierra")){
 			municipio="Guadalix-de-la-Sierra";
 		}else if(municipio.equals("Alcorcon")){
-			municipio="Alcorcón";
+			municipio="Alcorc%C3%B3n";
 		}else if(municipio.equals("Leganes")){
-			municipio="Leganés";
+			municipio="Legan%C3%A9s";
 		}else if(municipio.equals("Majadahonda")){
 			municipio="Majadahonda";
 		}else if(municipio.equals("Algete")){
 			municipio="Algete";
 		}else if(municipio.equals("Mostoles")){
-			municipio="Móstoles";
+			municipio="M%C3%B3stoles";
 		}
 		
 		return municipio;

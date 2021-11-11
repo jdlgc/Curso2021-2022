@@ -144,10 +144,10 @@ public class Query2 extends JDialog {
 				verButton.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						JFrame jFrame = new JFrame();
-				        JOptionPane.showMessageDialog(jFrame, "Esta query se hace conectandose a la http://localhost:3030/sparql \n"
+				        JOptionPane.showMessageDialog(jFrame, "Esta query se hace cogiendo el output.nt \n"
 				        		+ "SELECT DISTINCT ?estacion\r\n"
 								+ "WHERE{\r\n"
-								+ "    <http://www.calidadAire.com/refMunicipio//+municipio+> <http://www.calidadAire.com#tieneEstacion> ?estacion.\r\n"
+								+ "    <http://www.calidadAire.com/refMunicipio/+municipio+> <http://www.calidadAire.com/refMunicipio/municipio#tieneEstacion> ?estacion.\r\n"
 								+ " }");
 					}
 				});

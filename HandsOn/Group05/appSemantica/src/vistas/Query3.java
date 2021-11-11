@@ -129,8 +129,8 @@ public class Query3 extends JDialog {
 				        JOptionPane.showMessageDialog(jFrame, "Esta query se hace cogiendo el output.nt \n"
 				        		+ "SELECT DISTINCT ?puntoMuestreo ?magnitud\r\n"
 								+ "WHERE{\r\n"
-								+ "    <http://www.calidadAire.com/refEstacion/+estacion+> <http://www.calidadAire.com#tienePuntoMuestreo> ?puntoMuestreo.\r\n"
-								+ "    <http://www.calidadAire.com/refEstacion/+estacion+> <http://www.calidadAire.com#mide> ?magnitud.\r\n"
+								+ "    <http://www.calidadAire.com/refEstacion/+estacion+> <http://www.calidadAire.com/refEstacion/estacion/tienePuntoMuestreo#tienePuntoMuestreo> ?puntoMuestreo.\r\n"
+								+ "    <http://www.calidadAire.com/refEstacion/+estacion+> <http://www.calidadAire.com/refEstacion/estacion/mide#mide> ?magnitud.\r\n"
 								+ " }");
 					}
 				});
