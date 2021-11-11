@@ -43,14 +43,14 @@ SELECT distinct?obj ?ndir WHERE {
 #		(rdflib.term.Literal('EL ARBOL Y LA TOSTA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
 #		(rdflib.term.Literal('VIENA CAPELLANES', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SALAMANCA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
 
-#Los nombres de los bares y sus distritos
+#Los nombres de los bares y sus calles
 SELECT distinct?obj ?ndir WHERE {
   ?loc local:rotulo ?obj .
   ?loc local:perteneceADistrito ?dist .
-  ?dist local:distrito ?ndir
+  ?dist local:nombreCalle ?ndir.
 } LIMIT 4
 
-#Resultado:	(rdflib.term.Literal('CERVECERIA LA TORRE', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('VILLA DE VALLECAS', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
-#		(rdflib.term.Literal('BAR RENATO', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('VILLAVERDE', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
-#		(rdflib.term.Literal("LA SEDE D'ANDRUBEN", datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('SAN BLAS-CANILLEJAS', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
-#		(rdflib.term.Literal('EL PILAR', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('VILLAVERDE', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')) 
+#Resultado:	(rdflib.term.Literal('CERVECERIA LA TORRE', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('PUENTELARRA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('BAR RENATO', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('ALCOCER', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal("LA SEDE D'ANDRUBEN", datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('VALDECANILLAS', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
+#		(rdflib.term.Literal('EL PILAR', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')), rdflib.term.Literal('LA DOLOROSA', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#string')))
