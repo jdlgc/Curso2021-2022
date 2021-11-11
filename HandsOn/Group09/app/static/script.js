@@ -1,10 +1,13 @@
 const {contextBridge, ipcRenderer} = require("electron")
-const ol = require("./ol.js");
-const querycaller = require("../querycaller");
-const {st} = require("rdflib");
-let desc
-window.addEventListener('DOMContentLoaded', async () => {
-
+window.addEventListener('DOMContentLoaded',  () => {
+    let windowTopBar = document.createElement('div')
+    windowTopBar.style.width = "100%"
+    windowTopBar.style.height = "32px"
+    windowTopBar.style.backgroundColor = "transparent";
+    windowTopBar.style.position = "absolute"
+    windowTopBar.style.top = windowTopBar.style.left = 0
+    windowTopBar.style.webkitAppRegion = "drag"
+    document.body.appendChild(windowTopBar)
     let querycaller = require("../querycaller")
 
     let cosa = querycaller.query(`
@@ -20,7 +23,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     }
     
     
-    `, 20)
+    `, 60)
 
 
     let coords = {}
@@ -72,9 +75,7 @@ window.addEventListener('DOMContentLoaded', async () => {
             key: i,
             geometry: new ol.geom.Point(ol.proj.fromLonLat([coords[i].lon, coords[i].lat])),
         })
-        if (i === "uwu")
-            feature.setStyle(iconstyle2)
-        else feature.setStyle(iconstyle);
+        feature.setStyle(iconstyle);
         coords[i]["feature"] = feature;
 
         features.push(feature)
@@ -112,6 +113,10 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     let coso;
     map.on('singleclick', async function (event) {
+
+
+
+
         if (coso) {
             coso = false;
             document.getElementById("recienpopup").style.clipPath = "circle(0% at 0 0)";
@@ -121,6 +126,9 @@ window.addEventListener('DOMContentLoaded', async () => {
         if (map.hasFeatureAtPixel(event.pixel) === true) {
             let coordinate = event.coordinate;
             let elem;
+
+
+
             map.forEachFeatureAtPixel(event.pixel, async (cosa) => {
                 elem = querycaller.query(`
                 SELECT ?nombre WHERE{
@@ -447,14 +455,14 @@ window.addEventListener('DOMContentLoaded', async () => {
             coords[i].feature.setStyle(iconstyle)
 
         if (!isNaN(valorinput)) {
-
+            if(coords[valorinput]!==null){
             coords[valorinput].feature.setStyle(iconstyle2)
 
-            return
+            return}
         }
 
 
-
+        let encontrado=false;
         let s = querycaller.query(`
         select ?pk where{
         
@@ -469,7 +477,6 @@ window.addEventListener('DOMContentLoaded', async () => {
         }
          s = querycaller.query(`
         select ?pk where{
-        
         ?cosa ?propiedad "${valorinput}".
         ?cosa2 ?propiedad2 ?cosa.
            ?cosa2 base:hasPK ?pk.
@@ -524,6 +531,3 @@ window.addEventListener('DOMContentLoaded', async () => {
 })
 
 
-function capitalizarPrimeraLetra(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-}

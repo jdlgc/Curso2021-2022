@@ -1,7 +1,7 @@
-const {app,ipcMain, BrowserWindow, globalShortcut, screen, shell} = require('electron')
-const fs=require("fs")
-const path = require('path')
-const $=require("jquery")
+const {app,ipcMain, BrowserWindow, globalShortcut, screen, shell} = require('electron');
+const fs=require("fs");
+const path = require('path');
+
 let width=1280;
 let height=1000;
 
@@ -11,7 +11,7 @@ function createWindow () {
     const mainWindow = new BrowserWindow({
         width: width,
         height: height,
-        frame:true,
+        frame:false,
         icon:path.join(__dirname,"works","logoconContorno.png"),
         webPreferences: {
             nodeIntegration:true,
@@ -21,7 +21,7 @@ function createWindow () {
             preload: path.join(__dirname, 'static/script.js')
         }
     })
-    mainWindow.setResizable(false);
+    mainWindow.setResizable(true);
     // and load the index.html of the app.
     mainWindow.loadFile('static/index.html')
 
@@ -29,6 +29,11 @@ function createWindow () {
     // mainWindow.webContents.openDevTools()
     return mainWindow;
 }
+
+
+
+
+
 app.whenReady().then(() => {
     mainWindow = createWindow()
     globalShortcut.register("f2",()=>{
@@ -41,5 +46,3 @@ app.whenReady().then(() => {
     });
 });
 
-// Open the DevTools.
-// mainWindow.webContents.openDevTools()
