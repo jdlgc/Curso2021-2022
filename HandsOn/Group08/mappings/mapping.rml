@@ -8,15 +8,14 @@
 @base  <http://www.semanticweb.org/> .
 
 
-<#TriplesMap1>
-    a rr:TriplesMap;
+<#TriplesMap1> a rr:TriplesMap;
     rml:logicalSource [
         rml:source "csv/estaciones-updated.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
 
     rr:subjectMap [
-        rr:template "http://estacion.example.com/estacion/{ID_ESTACION}";
+        rr:template "http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#{ID_ESTACION}";
         rr:class vocab:Estacion
     ];
 
@@ -98,6 +97,13 @@
             rml:reference "LATITUD";
         ]
     ];
+	
+	rr:predicateObjectMap [
+        rr:predicate wgs84_pos:longitud;
+        rr:objectMap [
+            rml:reference "LONGITUD";
+        ]
+    ];
 
     rr:predicateObjectMap [
         rr:predicateMap [
@@ -107,7 +113,7 @@
         rr:objectMap [
             rml:parentTriplesMap <#TriplesMap2>;
             rr:joinCondition [
-                rr:child "STATION_ID";
+                rr:child "ID_ESTACION";
                 rr:parent "ID_ESTACION";
             ];
         ]
@@ -115,15 +121,14 @@
 
 
 
-<#TriplesMap2>
-    a rr:TriplesMap;
+<#TriplesMap2> a rr:TriplesMap;
     rml:logicalSource [
         rml:source "csv/medicionAire-updated.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
 
     rr:subjectMap [
-        rr:template "http://medicionAire.example.com/medicion/{ID_ESTACION}";
+        rr:template "http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#{ID_ESTACION}";
         rr:class vocab:Medicion
     ];
 
