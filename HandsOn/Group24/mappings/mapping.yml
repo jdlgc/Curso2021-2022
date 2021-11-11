@@ -49,7 +49,7 @@ mappings:
                 - [str1, $(desc_distrito_local)]
                 - [str2, $(desc_distrito_local)]
 
-      - p: schema:adress
+      - p: schema:address
         o:
         - mapping: Address
           condition: 
