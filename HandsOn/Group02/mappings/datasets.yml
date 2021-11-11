@@ -54,7 +54,7 @@ mappings:
       - [ vocab:hasGender,$(SEXO),xsd:string ]
       - [ vocab:hasRangeAge,$(RANGOEDAD),xsd:string ]
       - [ vocab:hasRole,$(TIPOPERSONA),xsd:string ]
-      - [ vocab:gradeOfInjury,$(LESIVIDAD),xsd:int ]
+      - [ vocab:gradeOfInjury,$(LESIVIDAD),xsd:string ]
       
   triplesmap4:
     sources:

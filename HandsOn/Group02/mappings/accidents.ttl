@@ -106,7 +106,7 @@
     rr:objectMap [
       rml:reference "NUMERO";
       rr:termType rr:Literal;
-	  rr:datatype xsd:int
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -174,7 +174,7 @@
     rr:objectMap [
       rml:reference "LESIVIDAD";
 	  rr:termType rr:Literal;
-      rr:dataType xsd:int
+      rr:dataType xsd:string
     ]
   ].
 

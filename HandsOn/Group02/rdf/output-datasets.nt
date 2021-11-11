@@ -2523,14 +2523,6 @@
 <http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011286> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasPlace> <http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_CALLE_TOLEDO_>.
 <http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011286> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasVictim> <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10348>.
 <http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011286> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasDate> "2021-06-23T18:20:00Z".
-<http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Accident>.
-<http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011347> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasWeather> "Despejado".
-<http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011347> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#typeBicycle> "Bicicleta".
-<http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011347> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#causedBy> "Colisión fronto-lateral".
-<http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011347> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasIdAccident> "2021S011347".
-<http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011347> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasPlace> <http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_CALLE_O%27DONNELL_>.
-<http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011347> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasVictim> <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10349>.
-<http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011347> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasDate> "2021-06-24T17:05:00Z".
 <http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Accident>.
 <http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011380> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasWeather> "Despejado".
 <http://www.preventbicyleaccidents-app.es/group02/resources/Accident/2021S011380> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#typeBicycle> "Bicicleta".
@@ -4526,10 +4518,6 @@
 <http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_BLAS_CABRERA_> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasNumber> "125"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_BLAS_CABRERA_> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#belongsTo> <http://www.preventbicyleaccidents-app.es/group02/resources/District/LATINA>.
 <http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_TOLEDO_> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasNumber> "107"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_O%27DONNELL_> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Address>.
-<http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_O%27DONNELL_> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasAddressName> "CALLE_O'DONNELL_".
-<http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_O%27DONNELL_> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasNumber> "44"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_O%27DONNELL_> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#belongsTo> <http://www.preventbicyleaccidents-app.es/group02/resources/District/RETIRO>.
 <http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_BALTASAR_SANTOS_> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Address>.
 <http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_BALTASAR_SANTOS_> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasAddressName> "CALLE_BALTASAR_SANTOS_".
 <http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_BALTASAR_SANTOS_> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasNumber> "2"^^<http://www.w3.org/2001/XMLSchema#int>.
@@ -6990,12 +6978,6 @@
 <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10348> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasRangeAge> "De 30 a 34 años".
 <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10348> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasRole> "Conductor".
 <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10348> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#gradeOfInjury> "1".
-<http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10349> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Person>.
-<http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10349> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasIdVictim> "10349".
-<http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10349> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasGender> "Hombre".
-<http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10349> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasRangeAge> "De 30 a 34 años".
-<http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10349> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasRole> "Conductor".
-<http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10349> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#gradeOfInjury> "6".
 <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Person>.
 <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10350> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasIdVictim> "10350".
 <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima10350> <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasGender> "Mujer".

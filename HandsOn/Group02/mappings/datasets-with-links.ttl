@@ -123,7 +123,7 @@
   rr:predicateObjectMap [
 	rr:predicate owl:sameAs; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "CALLEWIKIDATA";
+      rr:reference "CALLEWIKIDATA";
       rr:termType rr:IRI ]
   ].
   
@@ -181,7 +181,7 @@
     rr:objectMap [
       rml:reference "LESIVIDAD";
 	  rr:termType rr:Literal;
-      rr:dataType xsd:int
+      rr:dataType xsd:string
     ]
   ].
 
@@ -218,7 +218,7 @@
   rr:predicateObjectMap [
 	rr:predicate owl:sameAs; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "DISTRITOWIKIDATA";
+      rr:reference "DISTRITOWIKIDATA";
       rr:termType rr:IRI ]
   ].
 
@@ -255,7 +255,7 @@
   rr:predicateObjectMap [
 	rr:predicate owl:sameAs; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "DISTRITOWIKIDATA";
+      rr:reference "DISTRITOWIKIDATA";
       rr:termType rr:IRI ]
   ]. 
 
@@ -407,6 +407,6 @@
   rr:predicateObjectMap [
 	rr:predicate owl:sameAs; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "CALLEWIKIDATA";
+      rr:reference "CALLEWIKIDATA";
       rr:termType rr:IRI ]
   ].

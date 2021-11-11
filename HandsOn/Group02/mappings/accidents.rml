@@ -92,7 +92,7 @@ map:om_016 a rr:ObjectMap;
 map:om_017 a rr:ObjectMap;
     rml:reference "LESIVIDAD";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#int>.
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_018 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#District";
     rr:termType rr:IRI.

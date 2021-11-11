@@ -448,5 +448,176 @@
       }
     ],
     "description": "Mass edit cells in column TIEMPO"
+  },{
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACCIDENTE",
+    "expression": "grel:value.replaceChars(\"ÁÉÍÓÚÑáéíóúñ\", \"AEIOUNaeioun\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPOACCIDENTE using expression grel:value.replaceChars(\"ÁÉÍÓÚÑáéíóúñ\", \"AEIOUNaeioun\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIEMPO",
+    "expression": "grel:value.replaceChars(\"ÁÉÍÓÚÑáéíóúñ\", \"AEIOUNaeioun\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIEMPO using expression grel:value.replaceChars(\"ÁÉÍÓÚÑáéíóúñ\", \"AEIOUNaeioun\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOPERSONA",
+    "expression": "grel:value.replaceChars(\"ÁÉÍÓÚÑáéíóúñ\", \"AEIOUNaeioun\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPOPERSONA using expression grel:value.replaceChars(\"ÁÉÍÓÚÑáéíóúñ\", \"AEIOUNaeioun\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "RANGOEDAD",
+    "expression": "grel:value.replaceChars(\"ÁÉÍÓÚÑáéíóúñ\", \"AEIOUNaeioun\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RANGOEDAD using expression grel:value.replaceChars(\"ÁÉÍÓÚÑáéíóúñ\", \"AEIOUNaeioun\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMERO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "+00200E"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "00200"
+      }
+    ],
+    "description": "Mass edit cells in column NUMERO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMERO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "+00300S"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "00300"
+      }
+    ],
+    "description": "Mass edit cells in column NUMERO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMERO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "+00460E"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "00460"
+      }
+    ],
+    "description": "Mass edit cells in column NUMERO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMERO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "+00500E"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "00500"
+      }
+    ],
+    "description": "Mass edit cells in column NUMERO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMERO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "+00500I"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "00500"
+      }
+    ],
+    "description": "Mass edit cells in column NUMERO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMERO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "+00650I"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "00650"
+      }
+    ],
+    "description": "Mass edit cells in column NUMERO"
   }
 ]

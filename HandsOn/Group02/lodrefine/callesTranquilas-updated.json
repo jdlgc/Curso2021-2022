@@ -82,5 +82,18 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column CALLE using expression grel:value.replaceChars(\"ÁÉÍÓÚáéíóú\", \"AEIOUaeiou\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "expression": "grel:value.replaceChars(\"ÁÉÍÓÚÑÝáéíóúñý\", \"AEIOUNYaeiouny\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CALLE using expression grel:value.replaceChars(\"ÁÉÍÓÚÑÝáéíóúñý\", \"AEIOUNYaeiouny\")"
   }
 ]

@@ -156,6 +156,6 @@
   rr:predicateObjectMap [
 	rr:predicate owl:sameAs; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "DISTRITOWIKIDATA";
+      rr:reference "DISTRITOWIKIDATA";
       rr:termType rr:IRI ]
   ].

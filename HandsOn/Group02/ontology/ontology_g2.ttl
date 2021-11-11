@@ -61,7 +61,7 @@
 ###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#gradeOfInjury
 :gradeOfInjury rdf:type owl:DatatypeProperty ;
                rdfs:domain :Person ;
-               rdfs:range xsd:int .
+               rdfs:range xsd:string .
 
 
 ###  http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasAddressName
