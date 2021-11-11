@@ -22,7 +22,7 @@
         ]
     ];
     rr:predicateObjectMap [
-        rr:predicate rc:hasType;
+        rr:predicate rc:hasContainerType;
         rr:objectMap [
             rml:reference "Bin"
         ]
@@ -79,7 +79,7 @@
         ]
     ];
     rr:predicateObjectMap [
-        rr:predicate rc:hasType;
+        rr:predicate rc:hasWasteType;
         rr:objectMap [
             rml:reference "WasteType"
         ]

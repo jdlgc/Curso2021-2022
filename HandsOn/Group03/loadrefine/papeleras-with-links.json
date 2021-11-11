@@ -197,5 +197,25 @@
         "newColumnName": "same_as_wikidata_recycling",
         "columnInsertIndex": 2,
         "description": "Create column same_as_wikidata_recycling at index 2 based on column Bin using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "alarm",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    ""
+                ],
+                "fromBlank": true,
+                "fromError": false,
+                "to": "OK"
+            }
+        ],
+        "description": "Mass edit cells in column alarm"
     }
 ]

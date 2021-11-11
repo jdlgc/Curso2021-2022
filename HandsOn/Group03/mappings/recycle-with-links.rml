@@ -18,7 +18,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:predicate rc:hasAlarm;
+            rr:template rc:hasAlarm;
             rr:termType rr:IRI
         ];
         rr:objectMap [
@@ -27,7 +27,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicateMap[
-            rr:predicate rc:hasType;
+            rr:template rc:hasContainerType;
             rr:termType rr:IRI
         ];
         rr:objectMap [
@@ -36,7 +36,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicateMap[
-            rr:predicate rc:hasDate;
+            rr:template rc:hasDate;
             rr:termType rr:IRI
         ];
         rr:objectMap [
@@ -46,7 +46,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicateMap[
-            rr:predicate rc:levelOfFullnes;
+            rr:template rc:levelOfFullnes;
             rr:termType rr:IRI
         ];
         rr:objectMap [
@@ -56,7 +56,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicateMap[
-            rr:predicate rc:hasLon;
+            rr:template rc:hasLon;
             rr:termType rr:IRI
         ] ;
         rr:objectMap [
@@ -76,7 +76,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicateMap[
-            rr:predicate rc:hasLocationName;
+            rr:template rc:hasLocationName;
             rr:termType rr:IRI
         ];
         rr:objectMap [
@@ -112,7 +112,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicateMap[
-            rr:predicate rc:hasType;
+            rr:template rc:hasWasteType;
             rr:termType rr:IRI    
         ];
         rr:objectMap [
