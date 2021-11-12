@@ -121,7 +121,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "SO2".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "1"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "4"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "CO".
@@ -157,7 +157,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "67"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -178,7 +178,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "105"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -193,7 +193,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "139"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -208,7 +208,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "CO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "6"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.5"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
@@ -238,7 +238,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "21"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -268,7 +268,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "67"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -283,7 +283,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "SO2".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "1"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "6"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "CO".
@@ -304,7 +304,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "SO2".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "1"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "3"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
@@ -322,7 +322,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "73"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -349,7 +349,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "101"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -364,7 +364,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "150"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -379,7 +379,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "49"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -397,7 +397,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "98"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -412,7 +412,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "38"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -430,7 +430,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "136"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -445,7 +445,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "106"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -469,7 +469,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "CO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "6"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.3"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
@@ -490,7 +490,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "SO2".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "1"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "5"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
@@ -508,7 +508,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "2"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -523,7 +523,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
@@ -538,7 +538,7 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "11/11/2021"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "81"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
