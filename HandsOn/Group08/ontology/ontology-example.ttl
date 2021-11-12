@@ -6,21 +6,27 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#> .
 
-<http:://datosMadrid.org/recurso/medio-ambiente/calidad-aire/estacion/4/dioxido_de_azufre>
+<http:://datosMadrid.org/recurso/medio-ambiente/calidad-aire/Plaza%20España/SO2>
 :"Plaza España" rdf:type dbo:Estacion;
-	:id_Estacion 4;
-	:fechaAlta 01/12/1998;
+	:id_estacion 4;
+	:id_gas 1;
+	:calle "Plaza España";
 	:longitud -37.122.567;
 	:latitud 404.238.823;
-	:magnitud 1;
-	:valor_de_medicion 6;
+	:fechaMedicion 11/11/2021;
+	:cantidad 4;
+	:nombre_gas SO2;
+	:nombre_estacion "Plaza España"
 
 
-<http:://datosMadrid.org/recurso/medio-ambiente/calidad-aire/estacion/8/monoxido_de_carbono>
+<http:://datosMadrid.org/recurso/medio-ambiente/calidad-aire/Escuelas%20Aguirre/CO>
 :"Escuelas Aguirre" rdf:type dbo:Estacion;
-	:id_Estacion 8;
-	:fechaAlta 01/12/1998;
+	:id_estacion 8;
+	:id_gas 6;
+	:calle "Entre C/ Alcalá y C/ O'Donell";
 	:longitud -36.823.158;
 	:latitud 404.215.533;
-	:magnitud 6;
-	:valor_de_medicion 000.9;	
+	:fechaMedicion 11/11/2021;
+	:cantidad 0.6;
+	:nombre_gas CO;
+	:nombre_estacion "Escuelas Aguirre"

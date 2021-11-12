@@ -88,7 +88,7 @@
         rr:predicate vocab:nombre_gas;
         rr:objectMap [
             rml:reference "NOMBRE";
-                rr:datatype xsd:int
+                rr:datatype xsd:string
             ]
     ];
 
