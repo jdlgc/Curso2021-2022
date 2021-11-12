@@ -1,0 +1,37 @@
+PREFIX  xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX  vocab: <http://www.reciclamadrid.es/ontology#>
+
+    SELECT ?roadType ?roadName ?num ?center ?schedule
+    WHERE{
+        ?elemento rdf:type vocab:RecyclePoint;
+            vocab:CENTER ?center;
+            vocab:SCHEDULE ?schedule;
+            vocab:hasAddress ?address;
+            vocab:DATA_TYPE ?tipo
+                FILTER (?tipo="Contenedor de Aceite").
+        ?address vocab:ROAD_TYPE ?roadType;
+            vocab:ROAD_NAME ?roadName;
+            vocab:NUM ?num;
+            vocab:DISTRICT ?district
+                FILTER (?district="Arganzuela").
+    }
+
+    SELECT ?waste (SAMPLE(?tipo) as ?type) (COUNT(?elemento) as ?count)
+    WHERE{
+        ?elemento rdf:type vocab:RecyclePoint;
+            vocab:WASTE ?waste;
+            vocab:hasAddress ?address;
+            vocab:DATA_TYPE ?tipo.
+        ?address vocab:DISTRICT ?district
+                FILTER (?district="Carabanchel").
+    } GROUP BY ?tipo
+
+    SELECT ?coordX ?coordY
+    WHERE{
+        ?elemento rdf:type vocab:RecyclePoint;
+            vocab:hasCoordinates ?coords;
+            vocab:NAME ?name
+                FILTER (?name="CR-Antonio-Arias-2").
+        ?coords vocab:UTMX ?coordX;
+            vocab:UTMY ?coordY.
+    }

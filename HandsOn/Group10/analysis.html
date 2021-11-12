@@ -216,21 +216,51 @@
 				</table>
 				
 				<h3> Licencia</h3>
-		 <p> La Licencia de estos datos se puede encontrar en 
+		 		<p> La Licencia de estos datos se puede encontrar en 
 					<a href="https://datos.madrid.es/egob/catalogo/aviso-legal"> Condiciones de Uso</a>
 					, donde se establece que "Las condiciones generales permiten la reutilización de los documentos para fines 
 					comerciales y no comerciales." por lo que constarían de una licencia abierta.
 				</p>
+				<p>Utilizaremos la misma licencia para los datasets generados.</p>
 				
 		<h3> Nombre de los recursos</h3>
-		<p> &bull; Domain: http://www.reciclamadrid.es/ </p>
-		<p> &bull; Path: http://www.reciclamadrid.es/recycle </p>
-		<p> &bull; Ontology: http://www.reciclamadrid.es/recycle/ontology/ </p>
-		<p> &bull; Class: http://www.reciclamadrid.es/recycle/[ontologyName]#[className] </p>
-		<p> &bull; Property: http://www.reciclamadrid.es/recycle/ontology/[ontologyName]#[propertyName] </p>
-		<p> &bull; Data: http://www.reciclamadrid.es/recycle/resources/ </p>
-		<p> &bull; Individual: http://www.reciclamadrid.es/recycle/resources/[className]#[identifier]</p>
-
+		<li> Dominio: <a href="http://www.reciclamadrid.es">http://www.reciclamadrid.es</a></li>
+		<li> Ruta ontología para las clases: http://www.reciclamadrid.es/ontology#[className]</li>
+		<ul>
+			<li>Punto de Reciclaje: <a href="http://www.reciclamadrid.es/ontology#RecyclePoint">http://www.reciclamadrid.es/ontology#RecyclePoint</a></li>
+			<li>Dirección: <a href="http://www.reciclamadrid.es/ontology#Address">http://www.reciclamadrid.es/ontology#Address</a></li>
+			<li>Distrito: <a href="http://www.reciclamadrid.es/ontology#District">http://www.reciclamadrid.es/ontology#District</a></li>
+			<li>Coordenadas: <a href="http://www.reciclamadrid.es/ontology#Coordinates">http://www.reciclamadrid.es/ontology#Coordinates</a></li>
+		</ul>
+		<li> Ruta ontología para las propiedades: http://www.reciclamadrid.es/ontology#[propertyName] </li>
+		<ul>
+			<p>Propiedades de Punto de Reciclaje</p>
+			<li>Identificador del punto de reciclaje: <a href="http://www.reciclamadrid.es/ontology#name">http://www.reciclamadrid.es/ontology#name</a></li>
+			<li>Centro donde se ubica: <a href="http://www.reciclamadrid.es/ontology#center">http://www.reciclamadrid.es/ontology#center</a></li>
+			<li>Horario: <a href="http://www.reciclamadrid.es/ontology#schedule">http://www.reciclamadrid.es/ontology#schedule</a></li>
+			<li>Tipo de residuo que puede reciclarse en él: <a href="http://www.reciclamadrid.es/ontology#waste">http://www.reciclamadrid.es/ontology#waste</a></li>
+			<li>Referencia la dirección: <a href="http://www.reciclamadrid.es/ontology#hasAddress">http://www.reciclamadrid.es/ontology#hasAddress</a></li>
+			<li>Referencia al distrito: <a href="http://www.reciclamadrid.es/ontology#hasDistrict">http://www.reciclamadrid.es/ontology#hasDistrict</a></li>
+			<li>Referencia a las coordenadas: <a href="http://www.reciclamadrid.es/ontology#hasCoordinates">http://www.reciclamadrid.es/ontology#hasCoordinates</a></li>
+			<p>Propiedades de Dirección</p>
+			<li>Tipo de vía: <a href="http://www.reciclamadrid.es/ontology#road_type">http://www.reciclamadrid.es/ontology#road_type</a></li>
+			<li>Nombre de la vía: <a href="http://www.reciclamadrid.es/ontology#road_name">http://www.reciclamadrid.es/ontology#road_name</a></li>
+			<li>Tipo de número: <a href="http://www.reciclamadrid.es/ontology#num_type">http://www.reciclamadrid.es/ontology#num_type</a></li>
+			<li>Número: <a href="http://www.reciclamadrid.es/ontology#num">http://www.reciclamadrid.es/ontology#num</a></li>
+			<p>Propiedades del Distrito</p>
+			<li>Identificador del distrito: <a href="http://www.reciclamadrid.es/ontology#district_code">http://www.reciclamadrid.es/ontology#district_code</a></li>
+			<li>Nombre del distrito: <a href="http://www.reciclamadrid.es/ontology#district">http://www.reciclamadrid.es/ontology#district</a></li>
+			<p>Propiedades de las Coordenadas</p>
+			<li>Coordenada en el eje X: <a href="http://www.reciclamadrid.es/ontology#utmX">http://www.reciclamadrid.es/ontology#utmX</a></li>
+			<li>Coordenada en el eje Y: <a href="http://www.reciclamadrid.es/ontology#utmY">http://www.reciclamadrid.es/ontology#utmY</a></li>
+		</ul>
+		<li> Ruta de los recursos: http://www.reciclamadrid.es/recycle/[className]/[id] </li>
+		<ul>
+			<li>Punto de Reciclaje: <a href="http://www.reciclamadrid.es/recycle/RecyclePoint/CR-Hortaleza-8">http://www.reciclamadrid.es/recycle/RecyclePoint/CR-Hortaleza-8</a></li>
+			<li>Dirección: <a href="http://www.reciclamadrid.es/recycle/Address/CR-Hortaleza-8">http://www.reciclamadrid.es/recycle/Address/CR-Hortaleza-8</a></li>
+			<li>Distrito: <a href="http://www.reciclamadrid.es/recycle/District/10">http://www.reciclamadrid.es/recycle/District/10</a></li>
+			<li>Coordenadas: <a href="http://www.reciclamadrid.es/recycle/Coordinates/CR-Hortaleza-8">http://www.reciclamadrid.es/recycle/Coordinates/CR-Hortaleza-8</a></li>
+		</ul>
 
 	</body>			
 

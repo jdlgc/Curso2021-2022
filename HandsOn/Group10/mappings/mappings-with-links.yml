@@ -1,0 +1,73 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  owl: http://www.w3.org/2002/07/owl#
+  vocab: http://www.reciclamadrid.es/ontology#
+  
+mappings:
+  AddressMap:
+    source:
+      - [./RecyclePoint-with-links.csv~csv]
+    s: http://www.reciclamadrid.es/recycle/Address/$(NAME)
+    po:
+      - [a, vocab:Address]
+      - [vocab:road_type,$(ROAD_TYPE),xsd:string]
+      - [vocab:road_name,$(ROAD_NAME),xsd:string]
+      - [vocab:num_type,$(NUM_TYPE),xsd:string]
+      - [vocab:num,$(NUM),xsd:string]
+
+  DistrictMap:
+    source:
+      - [./RecyclePoint-with-links.csv~csv]
+    s: http://www.reciclamadrid.es/recycle/District/$(DISTRICT_CODE)
+    po:
+      - [a, vocab:District]
+      - [vocab:district_code,$(DISTRICT_CODE),xsd:string]
+      - [vocab:district,$(DISTRICT),xsd:string]
+      - [owl:sameAs, $(DISTRICT_URL)~iri]
+      
+  CoordinatesMap:
+    source:
+      - [./RecyclePoint-with-links.csv~csv]
+    s: http://www.reciclamadrid.es/recycle/Coordinates/$(NAME)
+    po:
+      - [a, vocab:Coordinates]
+      - [vocab:utmX,$(UTMX),xsd:float]
+      - [vocab:utmY,$(UTMY),xsd:float]
+
+  RecyclePointMap:
+    source:
+      - [./RecyclePoint-with-links.csv~csv]
+    s: http://www.reciclamadrid.es/recycle/RecyclePoint/$(NAME)
+    po:
+      - [a, vocab:RecyclePoint]
+      - [vocab:name,$(NAME),xsd:string]
+      - [vocab:data_type,$(DATA_TYPE),xsd:string]
+      - [vocab:center,$(CENTER),xsd:string]
+      - [vocab:schedule,$(SCHEDULE),xsd:string]
+      - [vocab:waste,$(WASTE),xsd:string]
+      - p: vocab:hasAddress
+        o:
+        - mapping: AddressMap
+          condition:
+            function: equal
+            parameters:
+              - [ str1, $(NAME) ]
+              - [ str2, $(NAME) ]
+
+      - p: vocab:hasDistrict
+        o:
+        - mapping: DistrictMap
+          condition:
+            function: equal
+            parameters:
+              - [ str1, $(NAME) ]
+              - [ str2, $(NAME) ]
+
+      - p: vocab:hasCoordinates
+        o:
+        - mapping: CoordinatesMap
+          condition:
+            function: equal
+            parameters:
+              - [ str1, $(NAME) ]
+              - [ str2, $(NAME) ]

@@ -9,21 +9,28 @@ map:jc_000 rr:child "NAME";
     rr:parent "NAME".
 map:jc_001 rr:child "NAME";
     rr:parent "NAME".
+map:jc_002 rr:child "NAME";
+    rr:parent "NAME".
 map:map_AddressMap_000 rml:logicalSource map:source_000;
     a rr:TriplesMap;
     rdfs:label "AddressMap";
     rr:subjectMap map:s_000;
-    rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006.
-map:map_CoordinatesMap_000 rml:logicalSource map:source_001;
+    rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004.
+map:map_CoordinatesMap_000 rml:logicalSource map:source_002;
     a rr:TriplesMap;
     rdfs:label "CoordinatesMap";
+    rr:subjectMap map:s_002;
+    rr:predicateObjectMap map:pom_009, map:pom_010, map:pom_011.
+map:map_DistrictMap_000 rml:logicalSource map:source_001;
+    a rr:TriplesMap;
+    rdfs:label "DistrictMap";
     rr:subjectMap map:s_001;
-    rr:predicateObjectMap map:pom_007, map:pom_008, map:pom_009.
-map:map_RecyclePointMap_000 rml:logicalSource map:source_002;
+    rr:predicateObjectMap map:pom_005, map:pom_006, map:pom_007, map:pom_008.
+map:map_RecyclePointMap_000 rml:logicalSource map:source_003;
     a rr:TriplesMap;
     rdfs:label "RecyclePointMap";
-    rr:subjectMap map:s_002;
-    rr:predicateObjectMap map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017.
+    rr:subjectMap map:s_003;
+    rr:predicateObjectMap map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018, map:pom_019, map:pom_020.
 map:om_000 a rr:ObjectMap;
     rr:constant "http://www.reciclamadrid.es/ontology#Address";
     rr:termType rr:IRI.
@@ -44,88 +51,103 @@ map:om_004 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_005 a rr:ObjectMap;
+    rr:constant "http://www.reciclamadrid.es/ontology#District";
+    rr:termType rr:IRI.
+map:om_006 a rr:ObjectMap;
     rml:reference "DISTRICT_CODE";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_006 a rr:ObjectMap;
+map:om_007 a rr:ObjectMap;
     rml:reference "DISTRICT";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_007 a rr:ObjectMap;
+map:om_008 a rr:ObjectMap;
+    rml:reference "DISTRICT_URL";
+    rr:termType rr:IRI.
+map:om_009 a rr:ObjectMap;
     rr:constant "http://www.reciclamadrid.es/ontology#Coordinates";
     rr:termType rr:IRI.
-map:om_008 a rr:ObjectMap;
+map:om_010 a rr:ObjectMap;
     rml:reference "UTMX";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
-map:om_009 a rr:ObjectMap;
+map:om_011 a rr:ObjectMap;
     rml:reference "UTMY";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
-map:om_010 a rr:ObjectMap;
+map:om_012 a rr:ObjectMap;
     rr:constant "http://www.reciclamadrid.es/ontology#RecyclePoint";
     rr:termType rr:IRI.
-map:om_011 a rr:ObjectMap;
+map:om_013 a rr:ObjectMap;
     rml:reference "NAME";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_012 a rr:ObjectMap;
+map:om_014 a rr:ObjectMap;
     rml:reference "DATA_TYPE";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_013 a rr:ObjectMap;
+map:om_015 a rr:ObjectMap;
     rml:reference "CENTER";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_014 a rr:ObjectMap;
+map:om_016 a rr:ObjectMap;
     rml:reference "SCHEDULE";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_015 a rr:ObjectMap;
+map:om_017 a rr:ObjectMap;
     rml:reference "WASTE";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_016 a rr:ObjectMap;
+map:om_018 a rr:ObjectMap;
     rr:parentTriplesMap map:map_AddressMap_000;
     rr:joinCondition map:jc_000.
-map:om_017 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_CoordinatesMap_000;
+map:om_019 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_DistrictMap_000;
     rr:joinCondition map:jc_001.
+map:om_020 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_CoordinatesMap_000;
+    rr:joinCondition map:jc_002.
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_001 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#ROAD_TYPE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#road_type>.
 map:pm_002 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#ROAD_NAME>.
+    rr:constant <http://www.reciclamadrid.es/ontology#road_name>.
 map:pm_003 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#NUM_TYPE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#num_type>.
 map:pm_004 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#NUM>.
+    rr:constant <http://www.reciclamadrid.es/ontology#num>.
 map:pm_005 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#DISTRICT_CODE>.
+    rr:constant rdf:type.
 map:pm_006 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#DISTRICT>.
+    rr:constant <http://www.reciclamadrid.es/ontology#district_code>.
 map:pm_007 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://www.reciclamadrid.es/ontology#district>.
 map:pm_008 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#UTMX>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_009 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#UTMY>.
-map:pm_010 a rr:PredicateMap;
     rr:constant rdf:type.
+map:pm_010 a rr:PredicateMap;
+    rr:constant <http://www.reciclamadrid.es/ontology#utmX>.
 map:pm_011 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#NAME>.
+    rr:constant <http://www.reciclamadrid.es/ontology#utmY>.
 map:pm_012 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#DATA_TYPE>.
+    rr:constant rdf:type.
 map:pm_013 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#CENTER>.
+    rr:constant <http://www.reciclamadrid.es/ontology#name>.
 map:pm_014 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#SCHEDULE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#data_type>.
 map:pm_015 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#WASTE>.
+    rr:constant <http://www.reciclamadrid.es/ontology#center>.
 map:pm_016 a rr:PredicateMap;
-    rr:constant <http://www.reciclamadrid.es/ontology#hasAddress>.
+    rr:constant <http://www.reciclamadrid.es/ontology#schedule>.
 map:pm_017 a rr:PredicateMap;
+    rr:constant <http://www.reciclamadrid.es/ontology#waste>.
+map:pm_018 a rr:PredicateMap;
+    rr:constant <http://www.reciclamadrid.es/ontology#hasAddress>.
+map:pm_019 a rr:PredicateMap;
+    rr:constant <http://www.reciclamadrid.es/ontology#hasDistrict>.
+map:pm_020 a rr:PredicateMap;
     rr:constant <http://www.reciclamadrid.es/ontology#hasCoordinates>.
 map:pom_000 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_000;
@@ -181,20 +203,34 @@ map:pom_016 a rr:PredicateObjectMap;
 map:pom_017 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_017;
     rr:objectMap map:om_017.
+map:pom_018 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_018;
+    rr:objectMap map:om_018.
+map:pom_019 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_019;
+    rr:objectMap map:om_019.
+map:pom_020 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_020;
+    rr:objectMap map:om_020.
 map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
-    <http://rdfs.org/ns/void#exampleResource> map:map_AddressMap_000, map:map_CoordinatesMap_000, map:map_RecyclePointMap_000.
+    <http://rdfs.org/ns/void#exampleResource> map:map_AddressMap_000, map:map_DistrictMap_000, map:map_CoordinatesMap_000, map:map_RecyclePointMap_000.
 map:s_000 a rr:SubjectMap;
     rr:template "http://www.reciclamadrid.es/recycle/Address/{NAME}".
 map:s_001 a rr:SubjectMap;
-    rr:template "http://www.reciclamadrid.es/recycle/Coordinates/{NAME}".
+    rr:template "http://www.reciclamadrid.es/recycle/District/{DISTRICT_CODE}".
 map:s_002 a rr:SubjectMap;
+    rr:template "http://www.reciclamadrid.es/recycle/Coordinates/{NAME}".
+map:s_003 a rr:SubjectMap;
     rr:template "http://www.reciclamadrid.es/recycle/RecyclePoint/{NAME}".
 map:source_000 a rml:LogicalSource;
-    rml:source "./RecyclePoint.csv";
+    rml:source "./RecyclePoint-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_001 a rml:LogicalSource;
-    rml:source "./RecyclePoint.csv";
+    rml:source "./RecyclePoint-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_002 a rml:LogicalSource;
-    rml:source "./RecyclePoint.csv";
+    rml:source "./RecyclePoint-with-links.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_003 a rml:LogicalSource;
+    rml:source "./RecyclePoint-with-links.csv";
     rml:referenceFormulation ql:CSV.

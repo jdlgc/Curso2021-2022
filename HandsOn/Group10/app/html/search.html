@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>ReciclaMadrid</title>
+
+  <link rel="icon" href="../assets/img/papelera.png" type="image/png" sizes="16x16">
+
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../assets/css/theme.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+  <style>
+    #map {
+      height: 375px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Back to top button -->
+  <div class="back-to-top"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" data-offset="500">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Recicla<span class="text-primary">Madrid</span></a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="waste.html">¿Qué puedo reciclar?</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary ml-lg-2" href="search.html">Buscador</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="page-section">
+    <div class="container">
+      <div class="row wow zoomIn">
+        <div class="input-group-prepend">
+          <select id="selectDistrict" class="custom-select bg-light">
+            <option value="None">Seleccione un distrito</option>
+            <option value="2">Arganzuela</option>
+            <option value="21">Barajas</option>
+            <option value="11">Carabanchel</option>
+            <option value="1">Centro</option>
+            <option value="5">Chamartín</option>
+            <option value="7">Chamberí</option>
+            <option value="15">Ciudad Lineal</option>
+            <option value="8">Fuencarral-El Pardo</option>
+            <option value="16">Hortaleza</option>
+            <option value="10">Latina</option>
+            <option value="9">Moncloa-Aravaca</option>
+            <option value="14">Moratalaz</option>
+            <option value="13">Puente de Vallecas</option>
+            <option value="3">Retiro</option>
+            <option value="4">Salamanca</option>
+            <option value="20">San Blas</option>
+            <option value="6">Tetuán</option>
+            <option value="12">Usera</option>
+            <option value="19">Vicálvaro</option>
+            <option value="18">Villa de Vallecas</option>
+            <option value="17">Villaverde</option>
+          </select>
+        </div>
+        <div class="input-group-prepend">
+          <select id="selectRecyclePoint" class="custom-select bg-light">
+            <option value="None">Seleccione un punto de reciclaje</option>
+            <option value="Todos">Todos</option>
+            <option value="Contenedor de Aceite">Contenedor de Aceite</option>
+            <option value="Contenedor de ropa">Contenedor de Ropa</option>
+            <option value="Punto Limpio de Fijo">Punto Limpio de Fijo</option>
+            <option value="Punto Limpio de Proximidad">Punto Limpio de Proximidad</option>
+          </select>
+        </div>
+        <div class="col-sm-2 text-sm-right">
+          <button id="idBotonBuscar" class="btn btn-primary" onclick="showInfo()">Buscar</button>
+        </div>
+      </div>
+
+      <div class="row my-5">
+        <div id="idContainerDiv" class="container row wow zoomIn">
+          <div id="idImgDiv">
+            <!-- Se crea en reciclaMadrid.js>showImg()-->
+          </div>
+          <div class="col-lg-auto">
+          </div>
+          <div id="idListDiv">
+            <!-- Se crea en reciclaMadrid.js>showInfo()-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="idDetailsSection" class="page-section">
+   
+  </div>
+
+  <footer class="page-footer bg-image" style="background-image: url(../assets/img/recycle-background.png);">
+    <div class="container">
+      <div class="row mb-5">
+
+        <div class="col-lg-6 py-3">
+          <h3>ReciclaMadrid</h3>
+          <div class="social-media-button">
+            <a href="#"><span class="mai-logo-facebook-f"></span></a>
+            <a href="#"><span class="mai-logo-twitter"></span></a>
+            <a href="#"><span class="mai-logo-instagram"></span></a>
+            <a href="#"><span class="mai-logo-youtube"></span></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 py-3">
+          <h5>About Us</h5>
+          <ul class="footer-menu">
+            <li>
+              <p>Jéssica García Pérez</p>
+            </li>
+            <li>
+              <p>Laura Contreras Mármol</p>
+            </li>
+            <li>
+              <p>Susana Escudero Vispo</p>
+            </li>
+            <li>
+              <p>Sergio Fernández González</p>
+            </li>
+            <li>
+              <p>Sergio Cáceres Fernández</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="text-center">- Aplicación creada por el Grupo 10 -</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="../assets/js/reciclaMadrid.js"></script>
+
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../assets/vendor/wow/wow.min.js"></script>
+
+  <script src="../assets/js/theme.js"></script>
+
+</body>
+
+</html>

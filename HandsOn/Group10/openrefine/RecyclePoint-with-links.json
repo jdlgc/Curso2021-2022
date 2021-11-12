@@ -1,0 +1,177 @@
+[
+    {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRICT",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wdreconcile.toolforge.org/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q3032114",
+          "name": "district of Madrid"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column DISTRICT to type Q3032114"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "DISTRICT: judgment",
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "columnName": "DISTRICT",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRICT",
+      "similarValue": "Puente Vallecas",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2003054",
+        "name": "Puente de Vallecas",
+        "types": [
+          "Q3032114"
+        ],
+        "score": 91
+      },
+      "shareNewTopics": false,
+      "description": "Match item Puente de Vallecas (Q2003054) for cells containing \"Puente Vallecas\" in column DISTRICT"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "DISTRICT: judgment",
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "columnName": "DISTRICT",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRICT",
+      "similarValue": "Fuencarral",
+      "judgment": "matched",
+      "match": {
+        "id": "Q656196",
+        "name": "Fuencarral-El Pardo",
+        "types": [
+          "Q3032114"
+        ],
+        "score": 69
+      },
+      "shareNewTopics": false,
+      "description": "Match item Fuencarral-El Pardo (Q656196) for cells containing \"Fuencarral\" in column DISTRICT"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "DISTRICT: judgment",
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "columnName": "DISTRICT",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRICT",
+      "similarValue": "Villa Vallecas",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1947988",
+        "name": "Villa de Vallecas",
+        "types": [
+          "Q3032114"
+        ],
+        "score": 90
+      },
+      "shareNewTopics": false,
+      "description": "Match item Villa de Vallecas (Q1947988) for cells containing \"Villa Vallecas\" in column DISTRICT"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "DISTRICT: judgment",
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "columnName": "DISTRICT",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "matched",
+                  "l": "matched"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "baseColumnName": "DISTRICT",
+      "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+      "onError": "set-to-blank",
+      "newColumnName": "DISTRICT_URL",
+      "columnInsertIndex": 11,
+      "description": "Create column DISTRICT_URL at index 11 based on column DISTRICT using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    }
+  ]
