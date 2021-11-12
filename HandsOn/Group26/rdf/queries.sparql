@@ -13,19 +13,22 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 #Devuelve todos los distritos contenidos en el csv.
 SELECT ?district
 WHERE{
-	?district rdf:type admingeo:District
+    ?district rdf:type admingeo:District
 }
 
-#Devuelve todos los locales del distrito de salamanca.
-SELECT ?local
+#Devuelve todos los nombres y la direccion de los locales del distrito de Chamartín.
+SELECT ?nombre ?direccion
 WHERE{
-        ?local rdf:type schema:LocalBusiness.
-	?local ns:containedIn ?neighborhood.
-	?neighborhood ns:locatedIn <http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/SALAMANCA>
+    ?local rdf:type schema:LocalBusiness.
+    ?local ns:containedIn ?neighborhood.
+    ?neighborhood ns:locatedIn <http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/CHAMARTIN>.
+    ?local dc:title ?nombre.
+    ?local schema:address ?PostalAdress.
+    ?PostalAdress schema:streetAddress ?direccion
 }
 
 
-#Devuelve el codigo postal del Local cuyo nombre es BAR HOGAR.
+#Devuelve el codigo postal del Local Cafeteria Parisiena.
 SELECT ?local ?postalcode
 WHERE{
     ?local dc:title "BAR HOGAR".
@@ -36,17 +39,17 @@ WHERE{
 #Devuelve el barrio en que se encuentra un local dado su ID.
 SELECT ?neighborhood
 WHERE{
-	?local ns:hasID "170000836"^^xsd:integer.
-	?local ns:containedIn ?neighborhood
+    ?local ns:hasID "170000836"^^xsd:integer.
+    ?local ns:containedIn ?neighborhood
 }
 
 #Devuelve las coordenadas de aquellos locales que se encuentran abiertos en Madrid
 
 SELECT ?local ?Geocordinates
 WHERE{
-	?local ns:status "Abierto".
-	?local ns:hasLocation ?Geo.
-        ?Geo ns:GeoCoordinatesID ?Geocordinates
+    ?local ns:status "Abierto".
+    ?local ns:hasLocation ?Geo.
+    ?Geo ns:GeoCoordinatesID ?Geocordinates
 }
 
 
