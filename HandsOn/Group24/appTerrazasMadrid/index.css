@@ -1,0 +1,85 @@
+
+nav {
+    box-shadow: none !important;
+  }
+  
+  .brand-logo {
+    margin-left: 40px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mapa {
+    height: calc(100vh - 64px);
+    width: 70vw;
+  }
+  
+  .cards {
+    width: 30vw;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-filtros {
+    height: 35%;
+    width: 95%;
+    min-height: 300px;
+  }
+  
+  .card-datos {
+    height: 60%;
+    width: 95%;
+  }
+  
+  .clear {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+  }
+  .filter {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+  }
+  
+  .card-datos {
+    overflow-y: scroll;
+  }
+  
+  .card-datos .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .pink-primary {
+    margin-bottom: 10px;
+    background-color: #ee6e73;
+  }
+  
+  .pink-primary:hover, .pink-primary:focus {
+    background-color: #ef5350;
+  }
+  
+  @media (max-width: 756px) {
+    main {
+      flex-direction: column;
+    }
+    .mapa {
+      height: 50vh;
+      width: 100vw;
+    }
+    .cards {
+      width: 100vw;
+    }
+    .card-filtros {
+      height: calc(40vh - 56px);
+    }
+  }

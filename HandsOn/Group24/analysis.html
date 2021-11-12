@@ -1,35 +1,29 @@
-<h1>Analysis:</h1>
-<p>&nbsp;</p>
-<h2>1. Analyse Data Set</h2>
-<p>El dataset se ha obtenido de la pagina datos.org.es, dentro del cual se han establecido algunos</p>
-<p>de los siguientes terminos y sus conceptos asociados que nos han permitido construirla ontologia:</p>
-<p>- Terraza/Local determinado tanto por un rotulo(nombre) como identificador unico (string-integer)</p>
-<p>- Coordenadas determinadas por dos valores que se concatenan para formar un identificador de psicicion  (string)</p>
-<p>- Dirección localizada en tres campos y como la suma de los tres segun el esquema schema:PostalAddress(string)-</p>
-<p>- Nombre biblioteca (string)</p>
-<p>- Distrito al que pertenece el local (string)</p>
-<p>- Barrio al que pertenece el local (string)</p>
-<p>- Horas de apertura y cierre en diferentes epocas del año (string)</p>
+<!DOCTYPE html>
+<html lang="es">
 
-<h2>2. Analyse Licensing of the Data Source</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="icon" href="flagMadridMap.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <title>Analysis</title>
+</head>
+
 <body>
-<p>1.El autor es la El gobierno de España.</p>
-
-        
-                <p>
-                    2.Las condiciones generales permiten la reutilización de los documentos para fines comerciales
-		    y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del
-                    Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa
-	            pública.
-                </p>
-       
-        
-            <p>
-                   3.Sin embargo para nuestro propio proyecto, este estará enmarcado bajo una licencia de 
-		   uso Creative Commons Attribution de la cual entre otros para la utilizacion de los datos
-		   provenientes en esta fuente se deben respetar los siguientes preceptos:
-            </p>
-		<ul>
+  <nav>
+    <div class="nav-wrapper" style="background-color: blue;">
+      <a href="#" class="brand-logo center">Analysis</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="sub-container">
+      <div>
+        <h4>Analyse Licensing of the Data Source</h4>
+        <p>Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. </p>
+	<p>Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.</p>
+	<p>Sin embargo para nuestro propio proyecto, este estará enmarcado bajo una licencia de uso Creative Commons Attribution de la cual entre otros para la utilizacion de los datos provenientes en esta fuente se deben respetar los siguientes preceptos:</p>
+	<ul>
                    <li>
 			<p>Compartir — Se puede copiar y redistribuir el material en cualquier medio o formato.</p>
 		   </li>
@@ -43,19 +37,71 @@
 			</p>
 		   </li>
                </ul>
-	
+        <a target="_blank"
+          href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Link
+          a información de la licencia</a>
+      </div>
+      <h4>Analyse Data Set</h4>
+	  <p>Name of the csv file: DatasetTerrazas.csv</p>
+	  <p>Origen del dataset: datos.org.es</p>
+      <table class="responsive-table striped">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+	    <th>Tipo</th>
+          </tr>
+        </thead>
+        <tbody>
+	<tr>
+          	<td>Terraza/Local determinado tanto por un rotulo(nombre) como identificador unico</td>
+		<td>string-integer</td>
+	</tr>
+	<tr>
+          	<td>Coordenadas determinadas por dos valores que se concatenan para formar un identificador de la posición</td>
+		<td>float</td>
+	</tr>
+	<tr>
+          	<td>Dirección localizada en tres campos y como la suma de los tres segun el esquema schema:PostalAddress</td>
+		<td>string</td>
+	</tr>
+	<tr>
+          	<td>Distrito al que pertenece el local</td>
+		<td>string</td>
+	</tr>
+	<tr>
+          	<td>Barrio al que pertenece el local</td>
+		<td>string</td>
+	</tr>
+	<tr>
+        	<td>Horas de apertura y cierre en diferentes epocas del año</td>
+		<td>string</td>
+	</tr>
+        </tbody>
+      </table>
+     
+    </div>
+  </div>
+
+
 </body>
 
-<h2>3. Resource Naming Strategy</h2>
-<p>Para la identificacion de las clases de nuestra ontologia se utilizara la siguiente URI:</p>
-<p>- http://smartcity.linkeddata.es/ontology/TerrazasMadrid/*</p>
-<p>Para la identificacion de las propiedadesde nuestra ontologia se utilizara la siguiente URI:</p>
-<p>- http://smartcity.linkeddata.es/ontology/TerrazasMadrid#*</p>
-<p>Para la identificacion de los recursos de nuestra ontologia se utilizara la siguiente URI:</p>
-<p>- http://smartcity.linkeddata.es/ontology/TerrazasMadrid/[className]/*</p>
-<p>Algun ejemplo que representa este tipo de notacion:</p>
-<p>- http://smartcity.linkeddata.es/resource/TerrazasMadrid/Terraza/270071068</p>
 
-<h2>- Develop Ontology</h2>
-<p>Se adjunta en el fichero ontology y un ejemplo del mismo en el fichero ontology-example</p>
-<p>&nbsp;</p>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-container {
+    max-width: 700px;
+    width: 90%;
+  }
+
+  li {
+    list-style: disc outside none !important;
+    display: list-item;
+    margin-left: 3em;
+  }
+</style>
+
+</html>

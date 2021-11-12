@@ -4,7 +4,6 @@
 
 **The “README.md” file:**
 
-<<<<<<< HEAD
 - [X] Includes the names and GitHub users of all the members of the group
 
 **The "csv" directory:**
@@ -44,4 +43,3 @@ _(If required)_
 
 ## Comments on the self-assessment
 _(If required)_
->>>>>>> upstream/master
