@@ -6,49 +6,63 @@ PREFIX ont: <http://purl.org/net/ns/ontology-annot#>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX ontologia: <http://www.ontologies.org/ontologies/Group06/ontology/>
+PREFIX ontologia: <http://www.ontologies.org/ontologies/Group06/ontology#>
 PREFIX schema: <http://schema.org/>
 
-#CONOCER TODAS LAS DESCRIPCIONES 	QUE CONTENGAN  "SI"
-SELECT ?description
-WHERE { ?x schema:description ?description
-FILTER regex(?description, "SI")
-}
 
 #CONOCE TODAS LAS BASESBICI LAS CUALES EL NUMERO DE PLAZAS SEAN MAYOR DE 24
 SELECT ?BaseBiciMad WHERE {
   ?BaseBiciMad ontologia:numPlaces ?NumerodePlazas .
-  FILTER (?NumerodePlazas> "24" && ?NumerodePlazas < "28" ) .
-} 
-
-#CONOCE TODAS LAS TRAFFICLIGHTS QUE TENGAN SU TRAFFICLIGHTAT 2026
-SELECT DISTINCT ?TrafficLight WHERE{
-?TrafficLight ontologia:trafficLightAt ?x .
-  FILTER (?x ="2026") .
+  FILTER (?NumerodePlazas> 24 && ?NumerodePlazas < 28 ) .
 }
 
-#QUIERO LAS BICIMADS CUYA AVENIDA ESTE EN MENENDEZ PELAYO 
-SELECT ?BaseBiciMad  WHERE {
-  ?BaseBiciMad ontologia:biciMadAt ?x.
-  FILTER (?x ="AVENIDA MENENDEZ PELAYO") .
-} 
+#CONOCE TODAS LAS TRAFFICLIGHTS QUE TENGAN SU TRAFFICLIGHTAT Arganzuela, LIMITANDO A 5 RESULTADOS
+SELECT DISTINCT ?TrafficLight WHERE{
+?TrafficLight ontologia:trafficLightAt ?x.
+  FILTER (?x =<http://www.ontologies.org/ontologies/Group06/resources/District/Arganzuela>) .
+}
+LIMIT 5
 
 #CONSULTA LA DIRECCION DE LAS BASES DE BICI Y PARKING DE BICI COINCIDENTES CON SU DIRECCION
 SELECT ?BaseBiciMad ?BycicleParking ?direccion
 WHERE {
-?BaseBiciMad ontologia:biciMadAt ?direccion .
-?BycicleParking ontologia:bycicleParkingAt ?direccion .
- }
+?BaseBiciMad ontologia:biciMadAtAddress ?x .
+?BycicleParking ontologia:bycicleParkingAtAddress ?x .
+?x schema:streetAddress ?direccion .
+}
 LIMIT 10
 
+#QUIERO LAS BICIMADS CUYA AVENIDA ESTE EN MENENDEZ PELAYO
+SELECT ?BaseBiciMad  WHERE {
+  ?BaseBiciMad ontologia:biciMadAtAddress ?x.
+  ?x schema:streetAddress "Avenida de Menéndez Pelayo, Madrid"^^<http://schema.org/Text>
+}
+
+SELECT ?BaseBiciMad ?wikidata WHERE {
+ ?BaseBiciMad rdf:type ontologia:BaseBiciMad.
+ ?BaseBiciMad ontologia:biciMadAtAddress ?x.
+ ?x owl:sameAs ?wikidata.
+}
+
+SELECT ?BaseBiciMad ?bicicleParking ?wikidata WHERE {
+ ?BaseBiciMad rdf:type ontologia:BaseBiciMad.
+ ?BaseBiciMad ontologia:biciMadAtAddress ?x.
+ ?x owl:sameAs ?wikidata.
+ ?bicicleParking rdf:type ontologia:BycicleParking .
+ ?bicicleParking ontologia:bycicleParkingAtAddress ?x.
+}
+
+# las dos siguientes consultas no devuelven nada, suponemos que esta relacionado con los tipos
 #RECOGER LOS PARKINGS DE BICIS CUYA FECHA DE INSTALACION SEA POSTERIOR A UNA FECHA
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX ontologia: <http://www.ontologies.org/ontologies/Group06/ontology/>
-SELECT ?parkingBicis WHERE {
+SELECT ?parkingBicis ?fechaInstalacion WHERE {
   ?parkingBicis rdf:type ontologia:BycicleParking.
   ?parkingBicis ontologia:installDate ?fechaInstalacion.
-  FILTER (xsd:dateTime(?fechaInstalacion) >= "2017-07-30T00:00:00Z"^^xsd:dateTime) .
+ FILTER (xsd:dateTime(?fechaInstalacion) >= "2008-07-30T00:00:00Z"^^xsd:DateTime)
+}
 
-} 
 LIMIT 10
+#CONOCER TODAS LAS DESCRIPCIONES 	QUE CONTENGAN  "SI"
+SELECT ?description
+WHERE { ?x schema:description ?description
+FILTER regex(schema:text(?description),"SI"^^schema:text)
+}
