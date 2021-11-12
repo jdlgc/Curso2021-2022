@@ -1,29 +1,24 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbo: <http://www.traffic-accidents.linkeddata.es/Accidentes#>
 
 SELECT DISTINCT ?accidente
 WHERE{
-    ?accidente rdf:type dbo:Accidente.
-    ?accidente dbo:Date "6/12/21". 
-    ?accidente dbo:District "RETIRO". 
+    ?accidente rdf:type dbo:Accident.
+    ?accidente dbo:hasDate "30/1/21". 
+    ?accidente dbo:hasDistrict "Retiro". 
 }
 
 SELECT DISTINCT ?accidente
 WHERE{
-    ?accidente rdf:type dbo:Accidente.
-    ?accidente dbo:Date "6/12/21". 
-    ?accidente dbo:District "RETIRO". 
+    ?accidente rdf:type dbo:Accident.
+    ?accidente dbo:hasAddress "CALL. ALMAGRO". 
+    ?accidente dbo:hasWeather "Despejado". 
 }
 
 SELECT DISTINCT ?accidente
 WHERE{
-    ?accidente rdf:type dbo:Accidente.
-    ?accidente dbo:Address "CALL. ALMAGRO". 
-    ?accidente dbo:Weather "Despejado". 
-}
-
-SELECT DISTINCT ?accidente
-WHERE{
-    ?accidente rdf:type dbo:Accidente.
-    ?accidente dbo:AccidentType "Colisión fronto-lateral". 
-    ?accidente dbo:District "CIUDAD LINEAL". 
+    ?accidente rdf:type dbo:Accident.
+    ?accidente dbo:hasAccidentType "Colisión fronto-lateral". 
+    ?accidente dbo:hasDistrict "Ciudad Lineal". 
 }
