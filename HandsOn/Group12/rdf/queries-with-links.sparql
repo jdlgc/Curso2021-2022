@@ -7,19 +7,19 @@ PREFIX res: <http://www.banderasazulesgalicia.com#>
 SELECT ?playa 
 WHERE {
     ?playa rdf:type dbr:Tipo-de-Arena.
-    ?playa dbr:TIPO-DE-ARENA "Gruesa"
+    ?playa owl:sameAs <valor>
 }
 
 #Query2
 SELECT ?playa,?tipoPlaya
 WHERE{
     ?playa,?tipoPlaya rdf:type dbr:Provincia.
-    ?playa,?tipoPlaya dbr:CODIGO-PROVINCIA "27"
+    ?playa,?tipoPlaya owl:sameAs <valor>
 }
 
 #Query3
 SELECT ?tipoArena 
 WHERE{
     ?tipoArena  rdf:type dbr:Playa.
-    ?tipoArena  dbr:PLAYA "Sabon"
+    ?tipoArena  owl:sameAs <valor>
 }
