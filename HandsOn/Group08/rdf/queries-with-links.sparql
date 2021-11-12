@@ -13,3 +13,9 @@ SELECT ?Estacion
     ?Estacion cap:calle "Plaza de España"
      
   } LIMIT 10
+  
+SELECT ?id_gas 
+	WHERE {
+	?id_gas cap:nombre_gas "dióxido de azufre"^^xsd:string
+
+	} LIMIT 10
