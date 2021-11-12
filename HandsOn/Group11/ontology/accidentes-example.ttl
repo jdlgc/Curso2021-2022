@@ -10,7 +10,6 @@
 
 <http://safemadrid.linkeddata.es/Accidente/94> rdf:type :accidente ;
     :hasCALLE "PLAZA. INDEPENDENCIA" ;
-    :hasDISTRITO "SALAMANCA" ;
     :hasFECHA "2021-02-01T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     :hasLESIVIDAD "7"^^<http://www.w3.org/2001/XMLSchema#integer> ;
     :hasNUMERO "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
@@ -19,9 +18,4 @@
     :hasSEXO "Hombre" ;
     :hasTIPO_ACCIDENTE "Caída" ;
     :hasTIPO_PERSONA "Conductor" ;
-    :ocurreEN <http://safemadrid.linkeddata.es/Barrio/62> ;
-    :ocurreEN <http://safemadrid.linkeddata.es/Barrio/73> ;
-    :ocurreEN <http://safemadrid.linkeddata.es/Barrio/65> ;
-    :ocurreEN <http://safemadrid.linkeddata.es/Barrio/80> ;
-    :ocurreEN <http://safemadrid.linkeddata.es/Barrio/67> ;
-    :ocurreEN <http://safemadrid.linkeddata.es/Barrio/71> .
+    :ocurreEN <http://safemadrid.linkeddata.es/Distrito/4> .

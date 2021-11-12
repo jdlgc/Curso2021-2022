@@ -1,0 +1,638 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column DISTRITO to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "DISTRITO_2",
+    "columnInsertIndex": 2,
+    "description": "Create column DISTRITO_2 at index 2 based on column DISTRITO using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column BARRIO to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "FUENTELAREINA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10286156",
+      "name": "Fuentelarreina",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fuentelarreina (Q10286156) for cells containing \"FUENTELAREINA\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PILAR",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773964",
+      "name": "El Pilar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Pilar (Q3773964) for cells containing \"PILAR\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CARMENES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10319792",
+      "name": "Los Cármenes",
+      "types": [
+        "Q10267336"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item Los Cármenes (Q10319792) for cells containing \"CARMENES\" in column BARRIO"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "BARRIO",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "BARRIO_2",
+    "columnInsertIndex": 4,
+    "description": "Create column BARRIO_2 at index 4 based on column BARRIO using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DISTRITO_2",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "COD_DIS",
+    "columnInsertIndex": 3,
+    "description": "Create column COD_DIS at index 3 based on column DISTRITO_2 using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1763376"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q2000929"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q2002296"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1773521"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1766348"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "5"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1773540"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1763370"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q656196"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q2017682"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "9"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q794954"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1001991"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "11"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q953368"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q2003054"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "13"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q2076109"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "14"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1763694"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1928529"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q919536"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "17"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q1947988"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q589403"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "19"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q2001937"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "20"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "https://wikidata.org/entity/Q807230"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "21"
+      }
+    ],
+    "description": "Mass edit cells in column COD_DIS"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1763370",
+      "name": "Chamberí",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chamberí (Q1763370) for cells containing \"CHAMBERI\" in column DISTRITO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VALDEFUENTES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10388714",
+      "name": "Valdefuentes",
+      "types": [
+        "Q10267336"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Valdefuentes (Q10388714) for cells containing \"VALDEFUENTES\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VILLAVERDE ALTO. CASCO HISTORICO DE VILLAVERDE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q390435",
+      "name": "Villaverde Alto, Casco Histórico de Villaverde",
+      "types": [
+        "Q10267336"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Villaverde Alto, Casco Histórico de Villaverde (Q390435) for cells containing \"VILLAVERDE ALTO. CASCO HISTORICO DE VILLAVERDE\" in column BARRIO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DIS",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COD_DIS using expression value.trim()"
+  }
+]
