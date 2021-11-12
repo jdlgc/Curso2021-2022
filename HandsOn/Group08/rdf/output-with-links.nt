@@ -6,72 +6,84 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7122567".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q5397501".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Escuelas Aguirre".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "C/ Alcalá y C/ O'Donell".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4215533".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6823158".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q30467128".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Avenida de Ramón y Cajal, Madrid".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4514734".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6773491".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2481371".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Arturo Soria".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "C/ Arturo Soria  esq. C/  Vizconde de los Asilos".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4400457".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6392422".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q919536".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Villaverde".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "C/. Juan Peñalver".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.347147".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7133167".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Farolillo".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Calle Farolillo - C/Ervigio".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3947825".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7318356".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q16302441".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Casa de Campo".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Casa de Campo  (Terminal del Teleférico)".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4193577".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7473445".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q807230".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Barajas".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "C/. Júpiter, 21 (Barajas)".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4769179".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.5800258".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q6080406".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza del Carmen".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Plaza del Carmen esq. Tres Cruces.".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4192091".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7031662".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2076109".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Moratalaz".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Avd. Moratalaz  esq. Camino de los Vinateros".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4079517".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6453104".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2420839".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Cuatro Caminos".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Avda. Pablo Iglesias esq. C/ Marqués de Lema".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4455439".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7071303".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2463533".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Barrio del Pilar".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Avd. Betanzos esq. C/  Monforte de Lemos".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4782322".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7115364".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q10296".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Vallecas".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "C/ Arroyo del Olivar  esq. C/  Río Grande.".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3881478".
@@ -84,60 +96,70 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6868138".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q4781".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Castellana".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "C/ Jose Gutierrez Abascal".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4398904".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6903729".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1131807".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "El Retiro Park".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Paseo Venezuela- Casa de Vacas".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4144444".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6824999".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2463399".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza de Castilla".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Plaza Castilla (Canal)".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4655841".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6887449".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q3847485".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Ensanche de Vallecas".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Avda La Gavia / Avda. Las Suertes".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3730118".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6121394".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Urbanización Embajada".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "C/ Riaño (Barajas)".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4623628".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.5805649".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q16619985".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza Elíptica".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Plaza Elíptica - Avda. Oporto".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3850336".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7187679".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q3076623".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Sanchinarro".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "C/ Princesa de Eboli esq C/ Maria Tudor".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4942012".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6605173".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q3314337".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "El Pardo".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Avda. La Guardia".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.5180701".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7746101".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1583169".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Juan Carlos I Park".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Parque Juan Carlos I (frente oficinas mantenimiento)".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4607255".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6163407".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q608766".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Tres Olivos".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion> "Plaza Tres Olivos".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.5005477".
