@@ -6,17 +6,17 @@
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 
 @base <http://www.smartCityParks.es/group07/>.
-@prefix font: <http://ww.smartCityParks.es/group07/ontology/Font#> .
-@prefix dist: <http://ww.smartCityParks.es/group07/ontology/Dist#> .
+@prefix font: <http://www.smartCityParks.es/group07/ontology/Font#> .
+@prefix dist: <http://www.smartCityParks.es/group07/ontology/Dist#> .
 
 <#FuentesMap> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/fuentes-with-links.csv" ;
+    rml:source "./data/fuentes-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
 
   rr:subjectMap [
-    rr:template "http://www.smartCityParks.es/group07/resource/Fountain/{CODIGO}";
+    rr:template "http://www.smartCityParks.es/group07/resource/Fountain/{CODE}";
       rr:class font:Fountain;
       rdfs:label "Fountain"
   ];
@@ -24,7 +24,7 @@
 rr:predicateObjectMap [
     rr:predicate font:hasAddress;
     rr:objectMap [
-      rml:reference "DIRECCION";
+      rml:reference "Address";
         rr:datatype xsd:string;
     ]
   ];
@@ -32,7 +32,7 @@ rr:predicateObjectMap [
 rr:predicateObjectMap [
     rr:predicate font:hasStatus;
     rr:objectMap [
-      rml:reference "ESTADO";
+      rml:reference "Status";
         rr:datatype xsd:string;
     ]
   ];
@@ -40,7 +40,7 @@ rr:predicateObjectMap [
 rr:predicateObjectMap [
     rr:predicate font:hasLongitude;
     rr:objectMap [
-      rml:reference "LONGITUD";
+      rml:reference "Longitude";
         rr:datatype xsd:float
     ]
   ];
@@ -48,7 +48,7 @@ rr:predicateObjectMap [
 rr:predicateObjectMap [
     rr:predicate font:hasLatitude;
     rr:objectMap [
-      rml:reference "LATITUD";
+      rml:reference "Latitude";
         rr:datatype xsd:float
     ]
   ];
@@ -65,8 +65,8 @@ rr:predicateObjectMap [
     rr:objectMap [
       rr:parentTriplesMap <#DistrictMap> ;
       rr:joinCondition [
-        rr:child "DISTRITO";
-        rr:parent "distrito_ind"
+        rr:child "District";
+        rr:parent "DISTRICT_IND"
       ]
     ]
   ].
@@ -79,15 +79,15 @@ rr:predicateObjectMap [
   ];
 
   rr:subjectMap [ 
-    rr:template "http://www.smartCityParks.es/group07/resource/District/{distrito_ind}";
+    rr:template "http://www.smartCityParks.es/group07/resource/District/{DISTRICT_IND}";
       rr:class dist:District;
       rdfs:label "District";
   ];
 
   rr:predicateObjectMap [
-    rr:predicate dist:hasNumHabitantes;
+    rr:predicate dist:hasNumInhabitants;
     rr:objectMap [
-      rml:reference "numHabitantes" ;
+      rml:reference "InhabitantsNumber" ;
         rr:datatype xsd:int
     ]
   ];
