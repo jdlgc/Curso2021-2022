@@ -1,0 +1,73 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT * WHERE {
+  ?sub ?pred "CHAMARTIN" .
+} 
+LIMIT 10
+
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/CallePrÃ­ncipedeVergara_110" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/CallePradillo_22" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/CallePadreClaret_17" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/AvenidaDoctorArce_1IntersecciÃ³nconPlazadelaRepÃºblicaArgentina" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/CalleSantaMarÃ­aMagdalena_18" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/AvenidaPÃ­oXII_46" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/CalleGeneralLÃ³pezPozas_16" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/CallePrÃ­ncipedeVergara_248" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/AvenidaAlfonsoXIII_65" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+#"http://www.reciclajemadrid.com#PuntoLimpioMovil/PlazadelPerÃº_IntersecciÃ³nconAvenidaPÃ­oXII" , "http://www.reciclajemadrid.com/resources/distrito" ,  ,  ,
+
+
+SELECT * WHERE {
+  ?sub owl:sameAs ?obj .
+} 
+LIMIT 10
+
+
+
+#"http://www.reciclajemadrid.com#Barrio/AmbroÅ¾" , "https://wikidata.org/entity/Q96476191" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/TimÃ³n" , "https://wikidata.org/entity/Q10382570" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/Buenavista" , "https://wikidata.org/entity/Q953929" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/HispanoamÃ©rica" , "https://wikidata.org/entity/Q3814573" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/Ventas" , "https://wikidata.org/entity/Q71762" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/Valdefuentes" , "https://wikidata.org/entity/Q10388714" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/Marroquina" , "https://wikidata.org/entity/Q11935636" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/Numancia" , "https://wikidata.org/entity/Q10338144" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/Simancas" , "https://wikidata.org/entity/Q10371626" ,  ,  ,
+#"http://www.reciclajemadrid.com#Barrio/Pradolongo" , "https://wikidata.org/entity/Q10352360" ,  ,  ,
+
+
+SELECT * WHERE {
+  ?sub 	rdf:type ?obj .
+} 
+LIMIT 10
+
+
+#":PuntoLimpioFijo/19960" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/138166" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/135224" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/13893" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/43200" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/13890" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/169981" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/67093" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/5568093" , ":PuntoLimpioFijo" ,  ,  ,
+#":PuntoLimpioFijo/4910478" , ":PuntoLimpioFijo" ,  ,  ,
+
+
+SELECT * WHERE {
+  ?sub 	vocab:nombreVia ?obj .
+} 
+LIMIT 10
+
+#":PuntoLimpioFijo/19960" , "ESTRELLA DENEBOLA" ,  ,  ,
+#":PuntoLimpioFijo/138166" , "ALHAURIN" ,  ,  ,
+#":PuntoLimpioFijo/135224" , "CIDRO" ,  ,  ,
+#":PuntoLimpioFijo/13893" , "ALFONSO XIII" ,  ,  ,
+#":PuntoLimpioFijo/43200" , "DAROCA" ,  ,  ,
+#":PuntoLimpioFijo/13890" , "UBEDA" ,  ,  ,
+#":PuntoLimpioFijo/169981" , "TOMAS REDONDO" ,  ,  ,
+#":PuntoLimpioFijo/67093" , "ANGEL SANZ BRIZ" ,  ,  ,
+#":PuntoLimpioFijo/5568093" , "SENDA DEL REY" ,  ,  ,
+#":PuntoLimpioFijo/4910478" , "ARROYO DE LA MEDIA LEGUA" ,  ,  ,
