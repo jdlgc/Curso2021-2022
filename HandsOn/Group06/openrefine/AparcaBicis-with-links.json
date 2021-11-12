@@ -38,26 +38,6 @@
     "description": "Text transform on cells in column description using expression value.toString()"
   },
   {
-    "op": "core/column-removal",
-    "columnName": "MINTDISTRI,C,20",
-    "description": "Remove column MINTDISTRI,C,20"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "NOMBRE_DIS,C,20",
-    "description": "Remove column NOMBRE_DIS,C,20"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "MINTBARRIO,C,10",
-    "description": "Remove column MINTBARRIO,C,10"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "NOMBRE_BAR,C,50",
-    "description": "Remove column NOMBRE_BAR,C,50"
-  },
-  {
     "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
@@ -96,21 +76,6 @@
     "description": "Text transform on cells in column installDate using expression value.toDate()"
   },
   {
-    "op": "core/column-removal",
-    "columnName": "MINTNUMERO,C,25",
-    "description": "Remove column MINTNUMERO,C,25"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "MINTNDP,C,20",
-    "description": "Remove column MINTNDP,C,20"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "MODELO,C,254",
-    "description": "Remove column MODELO,C,254"
-  },
-  {
     "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
@@ -122,17 +87,6 @@
     "newColumnName": "PostalAddress",
     "columnInsertIndex": 5,
     "description": "Create column PostalAddress at index 5 based on column MINTTIPOVI,C,15 using expression join ([coalesce(cells['MINTTIPOVI,C,15'].value,''),coalesce(cells['MINTNOMBRE,C,254'].value,'')],' ')"
-  },
-  {
-    "op": "core/column-reorder",
-    "columnNames": [
-      "hasIdBycicleParking",
-      "description",
-      "state",
-      "installDate",
-      "PostalAddress"
-    ],
-    "description": "Reorder columns"
   },
   {
     "op": "core/text-transform",
@@ -2402,5 +2356,519 @@
     },
     "shareNewTopics": false,
     "description": "Match item Calle del Olivar, Madrid (Q20021057) for cells containing \"CALLE OLIVAR\" in column PostalAddress"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PostalAddress",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_PostalAddress",
+    "columnInsertIndex": 5,
+    "description": "Create column same_as_wikidata_PostalAddress at index 5 based on column PostalAddress using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTDISTRI,C,20",
+    "description": "Remove column MINTDISTRI,C,20"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE_DIS,C,20",
+    "newColumnName": "District",
+    "description": "Rename column NOMBRE_DIS,C,20 to District"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column description using expression value.toString()"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "same_as_wikidata_PostalAddress",
+    "index": 4,
+    "description": "Move column same_as_wikidata_PostalAddress to position 4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTTIPOVI,C,15",
+    "description": "Remove column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNOMBRE,C,254",
+    "description": "Remove column MINTNOMBRE,C,254"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNDP,C,20",
+    "description": "Remove column MINTNDP,C,20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MODELO,C,254",
+    "description": "Remove column MODELO,C,254"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column District to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_District",
+    "columnInsertIndex": 3,
+    "description": "Create column same_as_wikidata_District at index 3 based on column District using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE_BAR,C,50",
+    "newColumnName": "Neighborhood",
+    "description": "Rename column NOMBRE_BAR,C,50 to Neighborhood"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Neighborhood",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Neighborhood to type Q10267336"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 75,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Neighborhood",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CASCO H.VALLECAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VALLECAS"
+      }
+    ],
+    "description": "Mass edit cells in column Neighborhood"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 75,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Neighborhood",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CASCO H.BARAJAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BARAJAS"
+      }
+    ],
+    "description": "Mass edit cells in column Neighborhood"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 75,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Neighborhood",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VILLAVERDE ALTO C.H."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VILLAVERDE"
+      }
+    ],
+    "description": "Mass edit cells in column Neighborhood"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 75,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Neighborhood",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CASCO H.VICALVARO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VICALVARO"
+      }
+    ],
+    "description": "Mass edit cells in column Neighborhood"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Neighborhood",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Neighborhood to type Q10267336"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Neighborhood",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_Neighborhood",
+    "columnInsertIndex": 7,
+    "description": "Create column same_as_wikidata_Neighborhood at index 7 based on column Neighborhood using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "state",
+    "expression": "grel:value.replace('OPERATIVO','1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column state using expression grel:value.replace('OPERATIVO','1')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "idDistrict",
+    "columnInsertIndex": 3,
+    "description": "Create column idDistrict at index 3 based on column District using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "idDistrict",
+    "expression": "grel:if(value=='Centro','1',if(value=='Arganzuela','2',if(value=='Retiro','3',if(value=='Salamanca','4',if(value=='Chamartín','5',if(value=='Tetuán','6',if(value=='Chamberí','7',if(value=='Fuencarral-El Pardo','8',if(value=='Moncloa-Aravaca','9',if(value=='Latina','10',if(value=='Carabanchel','11',if(value=='Usera','12',if(value=='Puente de Vallecas','13',if(value=='Moratalaz','14',if(value=='Ciudad Lineal','15',if(value=='Hortaleza','16',if(value=='Villaverde','17',if(value=='Villa de Vallecas','18',if(value=='Vicálvaro','19',if(value=='Barajas','21','20'))))))))))))))))))))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column idDistrict using expression grel:if(value=='Centro','1',if(value=='Arganzuela','2',if(value=='Retiro','3',if(value=='Salamanca','4',if(value=='Chamartín','5',if(value=='Tetuán','6',if(value=='Chamberí','7',if(value=='Fuencarral-El Pardo','8',if(value=='Moncloa-Aravaca','9',if(value=='Latina','10',if(value=='Carabanchel','11',if(value=='Usera','12',if(value=='Puente de Vallecas','13',if(value=='Moratalaz','14',if(value=='Ciudad Lineal','15',if(value=='Hortaleza','16',if(value=='Villaverde','17',if(value=='Villa de Vallecas','18',if(value=='Vicálvaro','19',if(value=='Barajas','21','20'))))))))))))))))))))"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "hasIdBycicleParking",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column hasIdBycicleParking using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "idDistrict",
+    "description": "Remove column idDistrict"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "grel:if(value=='CENTRO','1',if(value=='ARGANZUELA','2',if(value=='RETIRO','3',if(value=='SALAMANCA','4',if(value=='CHAMARTIN','5',if(value=='TETUAN','6',if(value=='CHAMBERI','7',if(value=='FUENCARRAL-EL PARDO','8',if(value=='MONCLOA-ARAVACA','9',if(value=='LATINA','10',if(value=='CARABANCHEL','11',if(value=='USERA','12',if(value=='PUENTE DE VALLECAS','13',if(value=='MORATALAZ','14',if(value=='CIUDAD LINEAL','15',if(value=='HORTALEZA','16',if(value=='VILLAVERDE','17',if(value=='VILLA DE VALLECAS','18',if(value=='VICALVARO','19',if(value=='BARAJAS','21','20'))))))))))))))))))))",
+    "onError": "set-to-blank",
+    "newColumnName": "idDistrict",
+    "columnInsertIndex": 3,
+    "description": "Create column idDistrict at index 3 based on column District using expression grel:if(value=='CENTRO','1',if(value=='ARGANZUELA','2',if(value=='RETIRO','3',if(value=='SALAMANCA','4',if(value=='CHAMARTIN','5',if(value=='TETUAN','6',if(value=='CHAMBERI','7',if(value=='FUENCARRAL-EL PARDO','8',if(value=='MONCLOA-ARAVACA','9',if(value=='LATINA','10',if(value=='CARABANCHEL','11',if(value=='USERA','12',if(value=='PUENTE DE VALLECAS','13',if(value=='MORATALAZ','14',if(value=='CIUDAD LINEAL','15',if(value=='HORTALEZA','16',if(value=='VILLAVERDE','17',if(value=='VILLA DE VALLECAS','18',if(value=='VICALVARO','19',if(value=='BARAJAS','21','20'))))))))))))))))))))"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "PostalAddress",
+    "index": 6,
+    "description": "Move column PostalAddress to position 6"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "MINTBARRIO,C,10",
+    "index": 6,
+    "description": "Move column MINTBARRIO,C,10 to position 6"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "MINTBARRIO,C,10",
+    "index": 7,
+    "description": "Move column MINTBARRIO,C,10 to position 7"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Neighborhood",
+    "index": 8,
+    "description": "Move column Neighborhood to position 8"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "MINTBARRIO,C,10",
+    "index": 8,
+    "description": "Move column MINTBARRIO,C,10 to position 8"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "MINTBARRIO,C,10",
+    "index": 9,
+    "description": "Move column MINTBARRIO,C,10 to position 9"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MINTBARRIO,C,10",
+    "newColumnName": "idNeighborhood",
+    "description": "Rename column MINTBARRIO,C,10 to idNeighborhood"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "idNeighborhood",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column idNeighborhood using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "idDistrict",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column idDistrict using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Neighborhood: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Neighborhood",
+          "from": 50,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PostalAddress",
+    "expression": "join ([coalesce(cells['PostalAddress'].value,''),coalesce(cells['MINTNUMERO,C,25'].value,'')],', ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PostalAddress using expression join ([coalesce(cells['PostalAddress'].value,''),coalesce(cells['MINTNUMERO,C,25'].value,'')],', ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNUMERO,C,25",
+    "description": "Remove column MINTNUMERO,C,25"
   }
 ]
