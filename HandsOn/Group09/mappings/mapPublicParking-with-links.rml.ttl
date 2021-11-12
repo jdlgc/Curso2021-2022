@@ -33,7 +33,7 @@ rr:predicateObjectMap [
     rr:predicate vocab:hasPK  ;
     rr:objectMap [
       rml:reference "PK";
-        rr:datatype xsd:integer;
+        rr:datatype xsd:int;
       ]
   ];
 rr:predicateObjectMap [
@@ -111,7 +111,7 @@ rr:predicateObjectMap [
     rr:predicate vocab:hasUrl;
     rr:objectMap [
       rml:reference "Url";
-        rr:datatype xsd:string  ;
+        rr:datatype xsd:anyURI  ;
         rr:termType rr:IRI
 ]
 ].
@@ -123,7 +123,7 @@ rr:predicateObjectMap [
   ];
   rr:subjectMap [
                     rr:template "https://publicparkingmad.com/resource/{PK}/location";
-    rr:class vocab:location
+    rr:class vocab:Location
   ];
 
 
@@ -163,7 +163,7 @@ rr:predicateObjectMap [
         rml:referenceFormulation ql:CSV
     ];
     rr:subjectMap [
-        rr:class vocab:coordinates;
+        rr:class vocab:Coordinates;
             rr:template "https://publicparkingmad.com/resource/{PK}/location/coordinates/"
     ];
     rr:predicateObjectMap [
@@ -188,7 +188,7 @@ rr:predicateObjectMap [
                  ];
                rr:subjectMap [
                  rr:template "https://publicparkingmad.com/resource/{PK}/location/geographiccoordinates/";
-                     rr:class vocab:geographiccoord
+                     rr:class vocab:Geographiccoord
                  ];
                rr:predicateObjectMap [
                      rr:predicate vocab:hasLatitude ;
@@ -212,7 +212,7 @@ rr:predicateObjectMap [
                  rr:subjectMap [
                                    rr:template "https://publicparkingmad.com/resource/{PK}/location/PostalAddress";
 
-        rr:class vocab:postalAddress
+        rr:class vocab:PostalAddress
     ];
     rr:predicateObjectMap [
         rr:predicate vocab:hasStreetName;
@@ -224,7 +224,7 @@ rr:predicateObjectMap [
     rr:predicateObjectMap [
         rr:predicate vocab:hasStreetNumber;
         rr:objectMap [
-            rr:datatype xsd:integer;
+            rr:datatype xsd:string;
             rml:reference "StreetNumber"
         ]
     ];
@@ -238,7 +238,7 @@ rr:predicateObjectMap [
     rr:predicateObjectMap [
         rr:predicate vocab:hasPostalCode;
         rr:objectMap [
-            rr:datatype xsd:integer;
+            rr:datatype xsd:string;
             rml:reference "PostalCode"
         ]
     ];
@@ -271,7 +271,7 @@ rr:predicateObjectMap [
                 rr:subjectMap [
                                       rr:template "https://publicparkingmad.com/resource/{PK}/location/PostalAddress/District";
 
-                                      rr:class vocab:postalAddress
+                                      rr:class vocab:District
                                   ];
 
                 rr:predicateObjectMap [
@@ -297,7 +297,7 @@ rr:predicateObjectMap [
             rr:subjectMap [
                   rr:template "https://publicparkingmad.com/resource/{PK}/location/PostalAddress/Neighborhood";
 
-                  rr:class vocab:postalAddress
+                  rr:class vocab:Neighborhood
               ];
 
             rr:predicateObjectMap [

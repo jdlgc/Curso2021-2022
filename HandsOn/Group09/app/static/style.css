@@ -1,0 +1,126 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', sans-serif ;
+}
+body{
+    overflow: hidden;
+    background: brown;
+}
+h1{
+    text-align: center;
+    padding: 6vh;
+    color: white;
+}
+
+.map {
+    height: 90vh;
+    width: 100vw;
+}
+.popup{
+
+    background: brown;
+    color: white;
+    padding: 1vw;
+    border-radius: 1rem;
+    transition: all 0.4s ease-in-out;
+    clip-path: circle(0 at 5% 5%);
+}
+.popup b{
+    font-weight: 700;
+
+}
+
+.description{
+    line-height: 1.2rem;
+    overflow: auto;
+    position: absolute;
+    left: 5vw;
+    top: 20vh;
+    width: 40vw;
+    height: 75vh;
+    background: brown ;
+    color: white;
+    border-radius: 1rem;
+    transition: all 0.4s;
+    transform: translateX(-150%);
+
+}
+.description h1{
+    text-align: left;
+    padding: 2vw;
+    line-height: 0.8;
+}
+.description h2{
+    margin-left: 2%;
+    font-size: 1.5rem;
+    text-decoration: underline;
+
+}
+
+.description h3{
+    margin-left: 2%;
+    font-size: 1.5rem;
+
+}
+.description p{
+    background: #ae4545;
+    font-size: 1.1rem;
+    margin: 5%;
+    margin-top: 2%;
+
+}
+
+.description h5{
+    background: #ae4545;
+    font-size: 1.2rem;
+    margin: 2%;
+    margin-top: 2%;
+
+}
+.fondoclaro{
+    background: #ae4545;
+    margin: 5%;
+    margin-top: 2%;
+}
+.botonver{
+    margin: 5px;
+
+}
+.description a{
+
+    color: white;
+}
+
+
+.description::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+.description::-webkit-scrollbar-track {
+    background: transparent; /* color of the tracking area */
+    opacity: 0;
+}
+
+.description::-webkit-scrollbar-thumb {
+    background-color: #930101;    /* color of the scroll thumb */
+    height: 80%;
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 20px transparent ;  /* creates padding around scroll thumb */
+}
+
+.description i{
+
+    font-size: 0.8rem;
+}
+.input{
+
+    right: 2vw;
+    top: 13vh;
+    position: absolute;
+}

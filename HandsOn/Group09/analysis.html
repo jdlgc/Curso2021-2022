@@ -15,7 +15,7 @@
     <li> <h4>"EQUIPAMIENTO"</h4> All the fields are empty</li>
     <li> <h4>"TRANSPORTE"</h4> All the different near public transport media</li>
     <li> <h4>"DESCRIPCION"</h4> Number and type of parking places</li>
-    <li> <h4>"ACCESIBILIDAD"</h4> Tt can be 0 or 1 depending on if it allows people with reduced mobility to use it</li>
+    <li> <h4>"ACCESIBILIDAD"</h4> It can be 0 or 1 depending on if it allows people with reduced mobility to use it</li>
     <li> <h4>"CONTENT-URL"</h4> The URL in madrid.es domain</li>
     -<li> <h4>"NOMBRE-VIA"</h4>The name of the via where the parking is in</li>
     -<li> <h4>"CLASE-VIAL"</h4> Determinates if the "NOMBRE-VIA" field is a street, an avenue or a square</li>
@@ -44,18 +44,23 @@ This is because the open data of Madrid requires the attribution of the source t
 <h2>Naming strategy</h2>
 Since there are some fields always empty we will ignore them. Also since thedata only comes from Madrid, we will ignore Localidad and Provincia fields.
 <p>The main domain would be https://publicparkingmad.com/</p>
-
+<h3>The next uris are the ones used for resources</h3>
 <ul>
-    <li><h5>https://publicparkingmad.com/[PK]</h5>PK is the resource that a parking represents</li>
-    <li><h5>https://publicparkingmad.com/[Location]</h5> Location represents where the parking is located</li>
-    <li><h5>https://publicparkingmad.com/[Location]/[coordinates]</h5>Represents the coords in the map</li>
-    <li><h5>https://publicparkingmad.com/[Location]/[geographiccoord]</h5>Represents the coords in terms of Latitude and Longitude</li>
-    <li><h5>https://publicparkingmad.com/[Location]/[postalAdress]</h5>Represents postal adress of a location.</li>
-
-    <li><h5>https://publicparkingmad.com/[Transport]</h5> Transport represents the distinct public transports near the parking</li>
-
-    <!-- TODO : more naming spaces and fix if needed the ones before -->
+    <li><h5>https://publicparkingmad.com/resource/{PK}</h5>PK is the resource that a parking represents</li>
+    <li><h5>https://publicparkingmad.com/resource/{PK}/location</h5> Location represents where the parking is located</li>
+    <li><h5>https://publicparkingmad.com/resource/{PK}/location/coordinates/</h5>Represents the coords in the map</li>
+    <li><h5>https://publicparkingmad.com/resource/{PK}/location/geographiccoordinates/</h5>Represents the coords in terms of Latitude and Longitude</li>
+    <li><h5>https://publicparkingmad.com/resource/{PK}/location/PostalAddress/</h5>Represents postal address of a public parking.</li>
+    <li><h5>https://publicparkingmad.com/resource/{PK}/location/PostalAddress/District</h5>Represents the district where it is located, it is linked to wikidata's district.</li>
+  <li><h5>https://publicparkingmad.com/resource/{PK}/location/PostalAddress/Neighborhood</h5>Represents the neighborhood where it is located, it is linked to wikidata's neighborhood.</li>
+    
 </ul>
-
+<h3>For properties we will use the basic uri https://publicparkingmad.com/ plus the name of the property.</h3>
+<h4>Examples:</h4>
+<ul>
+    <li><h5>https://publicparkingmad.com/hasPK</h5></li>
+    <li><h5>https://publicparkingmad.com/hasName</h5></li>
+    <li><h5>https://publicparkingmad.com/hasDescription</h5></li>
+</ul>
 </body>
 </html>
