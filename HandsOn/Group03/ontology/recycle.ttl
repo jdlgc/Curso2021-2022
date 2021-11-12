@@ -26,12 +26,12 @@
   rdfs:range xsd:string .
 
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasType
-:hasType rdf:type owl:DatatypeProperty;
+:hasContainerType rdf:type owl:DatatypeProperty;
   rdfs:domain :Bin;
   rdfs:range xsd:string.
 
 ###  http://smartcity.smartbins.es/lcc/ontology/recycle#hasType
-:hasType rdf:type owl:DatatypeProperty;
+:hasWasteType rdf:type owl:DatatypeProperty;
   rdfs:domain :Product;
   rdfs:range xsd:string.
 

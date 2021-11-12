@@ -4,59 +4,62 @@
 @prefix transit: <http://vocab.org/transit/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
-@prefix vocab: <http://example.org#> .
-@base <http://example.com/ns#>.
+
+@base <http://www.smartCityParks.es/group07/>.
+@prefix font: <http://www.smartCityParks.es/group07/ontology/Font#> .
+@prefix dist: <http://www.smartCityParks.es/group07/ontology/Dist#> .
 
 <#FuentesMap> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/fuentes.csv" ;
+    rml:source "./data/fuentes-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
 
   rr:subjectMap [
-    rr:template "http://fuent.example.com/fountain/{CODIGO}";
-      rr:class vocab:Fountain
+    rr:template "http://www.smartCityParks.es/group07/resource/Fountain/{CODE}";
+      rr:class font:Fountain;
+      rdfs:label "Fountain"
   ];
 
 rr:predicateObjectMap [
-    rr:predicate vocab:hasAddress;
+    rr:predicate font:hasAddress;
     rr:objectMap [
-      rml:reference "DIRECCION";
-        rr:datatype rr:Literal
+      rml:reference "Address";
+        rr:datatype xsd:string;
     ]
   ];
 
 rr:predicateObjectMap [
-    rr:predicate vocab:hasStatus;
+    rr:predicate font:hasStatus;
     rr:objectMap [
-      rml:reference "ESTADO";
-        rr:datatype rr:Literal
+      rml:reference "Status";
+        rr:datatype xsd:string;
     ]
   ];
 
 rr:predicateObjectMap [
-    rr:predicate vocab:hasLongitude;
+    rr:predicate font:hasLongitude;
     rr:objectMap [
-      rml:reference "LONGITUD";
+      rml:reference "Longitude";
         rr:datatype xsd:float
     ]
   ];
 
 rr:predicateObjectMap [
-    rr:predicate vocab:hasLatitude;
+    rr:predicate font:hasLatitude;
     rr:objectMap [
-      rml:reference "LATITUD";
+      rml:reference "Latitude";
         rr:datatype xsd:float
     ]
   ];
 
 rr:predicateObjectMap [
-    rr:predicate vocab:isInDistrict ;
+    rr:predicate font:isInDistrict ;
     rr:objectMap [
       rr:parentTriplesMap <#DistrictMap> ;
       rr:joinCondition [
-        rr:child "DISTRITO";
-        rr:parent "distrito_ind"
+        rr:child "District";
+        rr:parent "DISTRICT_IND"
       ]
     ]
   ].
@@ -64,19 +67,20 @@ rr:predicateObjectMap [
 
 <#DistrictMap> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "data/indicadores.csv" ;
+    rml:source "data/indicadores-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
 
   rr:subjectMap [ 
-    rr:template "http://dist.example.com/district/{distrito_ind}";
-      rr:class vocab:District
+    rr:template "http://www.smartCityParks.es/group07/resource/District/{DISTRICT_IND}";
+      rr:class dist:District;
+      rdfs:label "District";
   ];
 
   rr:predicateObjectMap [
-    rr:predicate vocab:numHabitantes;
+    rr:predicate dist:hasNumInhabitants;
     rr:objectMap [
-      rml:reference "numHabitantes" ;
-        rr:datatype xsd:float
+      rml:reference "InhabitantsNumber" ;
+        rr:datatype xsd:int
     ]
   ].

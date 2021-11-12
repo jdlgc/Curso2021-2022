@@ -21,8 +21,8 @@ mappings:
       - [dc:title, $(rotulo), xsd:string]
       - [ns:status, $(desc_situacion_local), xsd:string]
       - [ns:terraceUbication, $(desc_ubicacion_terraza), xsd:string]
-      - [ns:tablesSeasonal, $(mesas_es), xsd:string]
-      - [ns:tablesUnseasonal, $(mesas_ra), xsd:string]
+      - [ns:tablesSeasonal, $(mesas_es), xsd:integer]
+      - [ns:tablesUnseasonal, $(mesas_ra), xsd:integer]
       - [ns:WeekdaySeasonalOpen , $(hora_ini_LJ_es), xsd:string]
       - [ns:WeekdaySeasonalClose, $(hora_fin_LJ_es), xsd:string]
       - [ns:WeekendSeasonalOpen, $(hora_ini_VS_es), xsd:string]
@@ -31,7 +31,6 @@ mappings:
       - [ns:WeekdayUnseasonalClose, $(hora_fin_LJ_ra), xsd:string]
       - [ns:WeekendUnseasonalOpen, $(hora_ini_VS_ra), xsd:string]
       - [ns:WeekdayUnseasonalClose, $(hora_fin_VS_ra), xsd:string]
-      - [ns:LocalBusiness, http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Terraza#$(id_local)~iri]
       - p: ns:hasLocation
         o:
         - mapping: GeoCoordinates
@@ -50,7 +49,7 @@ mappings:
                 - [str1, $(desc_distrito_local)]
                 - [str2, $(desc_distrito_local)]
 
-      - p: schema:adress
+      - p: schema:address
         o:
         - mapping: Address
           condition: 
@@ -67,7 +66,7 @@ mappings:
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/District/$(desc_distrito_local)
     po:
       - [a, admingeo:District]
-      - [rdf:label, $(desc_distrito_local), xsd:string]
+      - [rdfs:label, $(desc_distrito_local), xsd:string]
       - [admingeo:District, http://smartcity.linkeddata.es/ontology/TerrazasMadrid#$(desc_distrito_local)~iri]
 
   GeoCoordinates:
@@ -77,8 +76,8 @@ mappings:
     po:
       - [a, schema:GeoCoordinates]
       - [ns:GeoCoordinatesID, $(id_coordenadas), xsd:string]
-      - [schema:longitude, $(coordenada_x_local), xsd:string]
-      - [schema:latitude, $(coordenada_y_local), xsd:string]
+      - [schema:longitude, $(coordenada_x_local), xsd:float]
+      - [schema:latitude, $(coordenada_y_local), xsd:float]
 
   Address:
     sources:
@@ -95,7 +94,7 @@ mappings:
     s: http://smartcity.linkeddata.es/ontology/TerrazasMadrid/Barrio/$(desc_barrio_local)
     po:
       - [a, ns:Neighborhood]
-      - [rdf:label, $(desc_barrio_local), xsd:string]
+      - [rdfs:label, $(desc_barrio_local), xsd:string]
       - [ns:Neighborhood, http://smartcity.linkeddata.es/ontology/TerrazasMadrid#$(desc_barrio_local)~iri]
 
       - p: ns:locatedIn

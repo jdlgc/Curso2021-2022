@@ -15,7 +15,7 @@ mappings:
     po:
       - [a, rc:Bin]
       - [rc:hasAlarm, $(alarm)]
-      - [rc:hasType, $(Bin)]
+      - [rc:hasContainerType, $(Bin)]
       - [rc:hasDate, $(date)]
       - [rc:levelOfFullnes, $(levelOfFullnes)]
       - [rc:hasLon, $(lon)]
@@ -28,7 +28,7 @@ mappings:
     s: http://smartcity.smartbins.es/lcc/resource/Product/$(id)
     po:
       - [a, rc:Product]
-      - [rc:hasType, $(Product)]
+      - [rc:hasWasteType, $(Product)]
       - [rc:hasName, $(WasteType)]
       - p: rc:recycledIn
         o:

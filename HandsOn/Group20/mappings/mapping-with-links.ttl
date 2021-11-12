@@ -1,0 +1,145 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix clase: <http://localizalocales.es/lcc/ontology/locales#>.
+@prefix clase2: <http://localizalocales.es/lcc/resource/>.
+@base <http://example.com/ns#>.
+
+
+  <#Local>
+  rml:logicalSource [
+    rml:source "./data/Terrazas-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://localizalocales.es/lcc/resource/Local/{id_local}";
+    rr:class clase:Local
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate clase:rotulo;
+    rr:objectMap [
+      rml:reference "Rotulo";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:tieneTerraza;
+    rr:objectMap [
+       rr:template "http://localizalocales.es/lcc/resource/Terraza/{id_terraza}";
+    ]
+  ];
+ rr:predicateObjectMap [
+    rr:predicate clase:perteneceADistrito;
+    rr:objectMap [
+       rr:template "http://localizalocales.es/lcc/resource/Distrito/{id_distrito},{id_local}";
+    ]
+  ].
+
+  <#Terraza>
+  rml:logicalSource [
+    rml:source "./data/Terrazas-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://localizalocales.es/lcc/resource/Terraza/{id_terraza}";
+    rr:class clase:Terraza
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate clase:mesas;
+    rr:objectMap [
+      rml:reference "Mesas";
+      rr:datatype xsd:int
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate clase:sillas;
+    rr:objectMap [
+      rml:reference "Sillas";
+      rr:datatype xsd:int
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:sameAsSillas;
+    rr:objectMap [
+      rml:reference "sameAsWikidataSillas";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:perteneceALocal;
+    rr:objectMap [
+       rr:template "http://localizalocales.es/lcc/resource/Local/{id_local}";
+    ]
+  ].
+
+  <#Distrito>
+  rml:logicalSource [
+    rml:source "./data/Terrazas-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://localizalocales.es/lcc/resource/Distrito/{id_distrito},{id_local}";
+    rr:class clase:Distrito
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate clase:distrito;
+    rr:objectMap [
+      rml:reference "Distrito";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:sameAsDistrito;
+    rr:objectMap [
+      rml:reference "sameAsWikidataDistrito";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:barrio;
+    rr:objectMap [
+      rml:reference "Barrio";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:sameAsBarrio;
+    rr:objectMap [
+      rml:reference "sameAsWikidataBarrio";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:tipoVia;
+    rr:objectMap [
+      rml:reference "TipoVia";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:sameAsTipoVia;
+    rr:objectMap [
+      rml:reference "sameAsWikidataTipoVia";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:nombreCalle;
+    rr:objectMap [
+      rml:reference "NombreCalle";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:portal;
+    rr:objectMap [
+      rml:reference "Portal";
+      rr:datatype xsd:int
+    ]
+  ].

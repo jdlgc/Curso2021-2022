@@ -1,0 +1,21 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX  cap: <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#>
+
+SELECT ?Estacion 
+  WHERE {
+    ?Estacion cap:latitud "40.4193577"
+     
+  } LIMIT 10
+  
+SELECT ?Estacion
+  WHERE {
+    ?Estacion cap:calle "Plaza de España"
+     
+  } LIMIT 10
+  
+SELECT ?id_gas 
+	WHERE {
+	?id_gas cap:nombre_gas "dióxido de azufre"^^xsd:string
+
+	} LIMIT 10

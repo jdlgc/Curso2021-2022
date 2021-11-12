@@ -54,7 +54,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/1> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523356> .
 <http://smartcity.smartbins.es/lcc/resource/Product/1> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523481> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523159> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523159> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523159> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:34:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523159> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4271815515398"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523159> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Guardia De Cors FTE. Conde Duque" .
@@ -62,7 +62,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523159> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523159> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523493> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523493> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523493> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:45:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523493> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4173581097387"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523493> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Frente Entrada Museo Naval 1" .
@@ -178,7 +178,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/122> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523116> .
 <http://smartcity.smartbins.es/lcc/resource/Product/122> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522987> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523138> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523138> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523138> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:23:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523138> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4192214210498"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523138> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Preciados Fnac FTE. NÂº21" .
@@ -186,7 +186,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523138> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523138> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523472> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523472> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523472> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523472> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:35:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523472> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4246991876721"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523472> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Goya 70" .
@@ -249,7 +249,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/101> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522996> .
 <http://smartcity.smartbins.es/lcc/resource/Product/101> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523479> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523117> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523117> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523117> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:45:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523117> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4063349738407"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523117> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Reina Cristina" .
@@ -365,7 +365,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/285> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523141> .
 <http://smartcity.smartbins.es/lcc/resource/Product/285> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523280> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523280> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523280> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:08:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523280> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4402141574468"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523280> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Cardenal Cisneros CV Av. Complutense" .
@@ -373,7 +373,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523280> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523280> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523259> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523259> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523259> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:41:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523259> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.400161"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523259> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Bulevar Indalecio Prieto Centro De Salud Valdebernardo" .
@@ -436,7 +436,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/98> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522996> .
 <http://smartcity.smartbins.es/lcc/resource/Product/98> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523144> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523359> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523359> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523359> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:28:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523359> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4261219074163"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523359> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "MarquÃ©s De Zafra FTE. 28" .
@@ -552,7 +552,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/77> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523143> .
 <http://smartcity.smartbins.es/lcc/resource/Product/77> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522997> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522416> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522416> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522416> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:09:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522416> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.398386107057"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522416> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PeÃ±a Gorbea NÂ°2" .
@@ -560,7 +560,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522416> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522416> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523004> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523004> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523004> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T15:09:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523004> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4296165687567"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523004> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Ascao NÂ°4-6 (Biblioteca Pablo Neruda)" .
@@ -676,7 +676,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/56> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523276> .
 <http://smartcity.smartbins.es/lcc/resource/Product/56> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523222> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523188> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523188> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523188> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:03:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523188> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3631245010636"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523188> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. De La Peseta CV Salvador Allende (Metro La Peseta)" .
@@ -900,7 +900,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/35> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523516> .
 <http://smartcity.smartbins.es/lcc/resource/Product/35> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523507> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523167> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523167> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523167> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:32:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523167> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4182275462846"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523167> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Mendez Pelayo Entrada Retiro Frente Ibiza" .
@@ -1071,7 +1071,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/130> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523292> .
 <http://smartcity.smartbins.es/lcc/resource/Product/130> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523317> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523317> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523317> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:52:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523317> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4134547898166"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523317> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Bailen Entre Flas. 305-307" .
@@ -1079,7 +1079,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523317> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523317> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523125> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523125> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523125> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:33:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523125> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.388240538785"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523125> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gta. Valle Del Oro FTE. NÂ°4" .
@@ -1195,7 +1195,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/109> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> .
 <http://smartcity.smartbins.es/lcc/resource/Product/109> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523009> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1521210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1521210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1521210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1521210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:29:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1521210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4113557824348"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1521210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Manuel Machado CV Alcalde Luis Marichalar" .
@@ -1203,7 +1203,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1521210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1521210> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523267> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523267> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523267> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:57:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523267> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3818411775911"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523267> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Sierra Guadalupe FTE. NÂ°21 (Metrro/Cercanias)" .
@@ -1219,7 +1219,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523225> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523225> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522992> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522992> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522992> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522992> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:05:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522992> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4262409799852"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522992> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. MarquÃ©s De Corbera NÂ°54-56 (Metro La Elipa)" .
@@ -1722,7 +1722,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/117> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523199> .
 <http://smartcity.smartbins.es/lcc/resource/Product/117> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523112> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523112> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523112> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:28:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523112> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.423193223939"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523112> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a 78" .
@@ -1730,7 +1730,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523112> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523112> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523296> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523296> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523296> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:03:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523296> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4139191584492"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523296> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PÂ°Extremadura Cv PÂ° Ermita Del Santo" .
@@ -1738,7 +1738,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523296> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523296> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523254> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523254> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523254> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523254> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:27:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523254> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4395586625089"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523254> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Cristo Rey CV Doctor Jimenez Diaz" .
@@ -1746,7 +1746,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523254> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523254> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523233> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523233> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523233> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523233> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:01:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523233> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4310139916193"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523233> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Alcala 237 (Pz Toros) Metro" .
@@ -1917,7 +1917,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/72> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523139> .
 <http://smartcity.smartbins.es/lcc/resource/Product/72> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523187> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523183> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523183> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523183> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:35:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523183> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4083046204678"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523183> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. De Mendez Pelayo (Entrada/Salida Retiro Mariano De Cavia)" .
@@ -2033,7 +2033,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/51> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522982> .
 <http://smartcity.smartbins.es/lcc/resource/Product/51> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523210> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1517391> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1517391> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1517391> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1517391> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:35:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1517391> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4745326748698"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1517391> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pza. Mercurio FTE. Junta Municpal De Barajas" .
@@ -2204,7 +2204,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/30> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523508> .
 <http://smartcity.smartbins.es/lcc/resource/Product/30> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523207> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523162> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523162> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523162> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:28:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523162> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4252930284755"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523162> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Goya 2" .
@@ -2212,7 +2212,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523162> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523162> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523504> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523504> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523504> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523504> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T12:42:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523504> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4246145366083"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523504> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pz Colon FTE. Fla.37" .
@@ -2220,7 +2220,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523504> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523504> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523141> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523141> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523141> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:59:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523141> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.448583985036"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523141> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PrÃ­ncipe De Vergara 154" .
@@ -2336,7 +2336,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/125> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523210> .
 <http://smartcity.smartbins.es/lcc/resource/Product/125> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523163> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523496> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523496> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523496> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:11:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523496> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4112896060483"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523496> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av Mendez Pelayo Frente Av. De Nazaret" .
@@ -2344,7 +2344,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523496> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523496> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523120> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523120> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523120> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:17:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523120> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.416790472918"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523120> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "C/Ceraceros 1" .
@@ -2576,7 +2576,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/80> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523138> .
 <http://smartcity.smartbins.es/lcc/resource/Product/80> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523221> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522987> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522987> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522987> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:49:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522987> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4335349903157"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522987> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Virgen De La AlegrÃ­a NÂ°8-10" .
@@ -2692,7 +2692,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/59> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523255> .
 <http://smartcity.smartbins.es/lcc/resource/Product/59> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523211> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523007> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523007> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523007> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:39:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523007> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4651602440617"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523007> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "BahÃ­a De Gando SN (Centro Comercial)" .
@@ -2755,7 +2755,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/38> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523243> .
 <http://smartcity.smartbins.es/lcc/resource/Product/38> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523118> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523512> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523512> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523512> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T08:32:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523512> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.424887"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523512> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza De ColÃ³n Entrada Parking" .
@@ -3095,7 +3095,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/112> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523218> .
 <http://smartcity.smartbins.es/lcc/resource/Product/112> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523127> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523128> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523128> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523128> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:09:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523128> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4204691432253"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523128> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "AlcalÃ¡ 75" .
@@ -3103,7 +3103,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523128> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523128> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523483> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523483> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523483> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523483> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:57:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523483> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4313640948712"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523483> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "AlcalÃ¡ 237 (Pz Toros) Ventas Izquierda Entrada Principal" .
@@ -3111,7 +3111,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523483> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523483> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523228> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523228> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523228> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:29:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523228> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4252362529295"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523228> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Goya 39" .
@@ -3227,7 +3227,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/88> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523143> .
 <http://smartcity.smartbins.es/lcc/resource/Product/88> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523360> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523207> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523207> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523207> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:57:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523207> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4008569208089"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523207> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Hacienda De Pavones NÂ°356" .
@@ -3290,7 +3290,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/67> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523129> .
 <http://smartcity.smartbins.es/lcc/resource/Product/67> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523140> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523199> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523199> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523199> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:26:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523199> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4170713881426"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523199> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Arenal 10 (FTE. Museo Del JamÃ³n)" .
@@ -3353,7 +3353,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/46> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> .
 <http://smartcity.smartbins.es/lcc/resource/Product/46> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523115> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523178> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523178> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523178> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:53:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523178> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4187824254974"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523178> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Cibeles" .
@@ -3361,7 +3361,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523178> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523178> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523520> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523520> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523520> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:41:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523520> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4054951669183"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523520> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Glorieta embajadores 1" .
@@ -3424,7 +3424,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/25> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523213> .
 <http://smartcity.smartbins.es/lcc/resource/Product/25> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523296> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523328> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523328> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523328> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:50:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523328> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.420185574929"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523328> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran Via 30" .
@@ -3540,7 +3540,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/120> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523317> .
 <http://smartcity.smartbins.es/lcc/resource/Product/120> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523115> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523115> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523115> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:45:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523115> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4200919286318"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523115> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a 31" .
@@ -3656,7 +3656,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/283> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523486> .
 <http://smartcity.smartbins.es/lcc/resource/Product/283> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523125> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522882> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522882> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522882> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522882> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:56:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522882> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4262552029435"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522882> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. MarquÃ©s De Corbera NÂ°54-56 (Metro La Elipa)" .
@@ -3772,7 +3772,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/96> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523247> .
 <http://smartcity.smartbins.es/lcc/resource/Product/96> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523328> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522982> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522982> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522982> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:48:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522982> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4228480228234"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522982> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. MarquÃ©s De Corbera NÂ°1-3" .
@@ -3996,7 +3996,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/54> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> .
 <http://smartcity.smartbins.es/lcc/resource/Product/54> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523143> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523186> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523186> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523186> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:53:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523186> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4280848985274"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523186> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pz Manuel Becerra 14" .
@@ -4114,7 +4114,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/7> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523188> .
 <http://smartcity.smartbins.es/lcc/resource/Product/7> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523296> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523507> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523507> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523507> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:06:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523507> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4146700481396"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523507> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza De Santa Ana FTE.10" .
@@ -4230,7 +4230,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/12> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523125> .
 <http://smartcity.smartbins.es/lcc/resource/Product/12> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523120> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523144> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523144> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523144> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:46:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523144> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4224240050095"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523144> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran Via 61" .
@@ -4346,7 +4346,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/128> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> .
 <http://smartcity.smartbins.es/lcc/resource/Product/128> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523233> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523123> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523123> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523123> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T18:03:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523123> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4167527374316"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523123> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Sevilla 2 CV Plaza de Canalejas" .
@@ -4409,7 +4409,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/107> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523512> .
 <http://smartcity.smartbins.es/lcc/resource/Product/107> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523248> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523244> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523244> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523244> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523244> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:42:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523244> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3818957183274"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523244> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Estacion Cercanias Asamblea De Madrid" .
@@ -4525,7 +4525,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/83> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523195> .
 <http://smartcity.smartbins.es/lcc/resource/Product/83> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523211> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523202> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523202> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523202> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:41:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523202> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4197214636817"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523202> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran Via 16" .
@@ -4533,7 +4533,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523202> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523202> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523010> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523010> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523010> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:19:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523010> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4335217835916"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523010> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Virgen De La AlegrÃ­a NÂ°8-10" .
@@ -4759,7 +4759,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/20> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523175> .
 <http://smartcity.smartbins.es/lcc/resource/Product/20> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523359> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523152> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523152> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523152> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:24:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523152> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4203276891666"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523152> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran Via 38 CV ConcepciÃ³n Arenal" .
@@ -4875,7 +4875,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/115> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523285> .
 <http://smartcity.smartbins.es/lcc/resource/Product/115> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523466> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523486> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523486> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523486> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:43:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523486> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4052776241302"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523486> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Hacienda De Pavones" .
@@ -4883,7 +4883,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523486> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523486> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523252> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523252> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523252> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:46:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523252> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4434542520456"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523252> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Complutense FTE. Salida Parking Peatones" .
@@ -4999,7 +4999,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/91> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1517391> .
 <http://smartcity.smartbins.es/lcc/resource/Product/91> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522968> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522998> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522998> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522998> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:14:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522998> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.408918104979"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522998> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PÂ° Polideportivo (Centro Deportivo)" .
@@ -5007,7 +5007,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522998> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522998> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:00:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4217611837549"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523210> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a 57" .
@@ -5125,7 +5125,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/49> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523114> .
 <http://smartcity.smartbins.es/lcc/resource/Product/49> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523186> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523352> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523352> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523352> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:43:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523352> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.424889"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523352> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza De ColÃ³n Entrada Parking" .
@@ -5349,7 +5349,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/28> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522991> .
 <http://smartcity.smartbins.es/lcc/resource/Product/28> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522981> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523502> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523502> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523502> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:58:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523502> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4061497280022"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523502> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "MÃ©ndez Alvaro 1" .
@@ -5465,7 +5465,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/123> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523167> .
 <http://smartcity.smartbins.es/lcc/resource/Product/123> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522986> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523139> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523139> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523139> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:41:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523139> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4196872814412"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523139> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Puerta De Alcala (Tramo Entrada Del Retiro)" .
@@ -5528,7 +5528,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/102> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522996> .
 <http://smartcity.smartbins.es/lcc/resource/Product/102> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523319> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523118> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523118> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523118> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:45:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523118> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4243310693949"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523118> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pz ColÃ³n Fla.58" .
@@ -5536,7 +5536,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523118> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523118> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523473> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523473> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523473> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523473> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:42:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523473> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4247115508988"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523473> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Goya 70" .
@@ -5544,7 +5544,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523473> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523473> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523260> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523260> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523260> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:02:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523260> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4521570535645"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523260> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Humeral CV Arroyo De Pozuelo" .
@@ -5552,7 +5552,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523260> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523260> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523239> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523239> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523239> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:04:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523239> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.450758138745"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523239> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Complutense FTE. Instalaciones Deportivas" .
@@ -5615,7 +5615,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/99> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523485> .
 <http://smartcity.smartbins.es/lcc/resource/Product/99> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523123> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523218> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523218> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523218> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:42:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523218> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.416443968471"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523218> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Mayor CV Esparteros" .
@@ -5839,7 +5839,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/57> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523247> .
 <http://smartcity.smartbins.es/lcc/resource/Product/57> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523225> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523360> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523360> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523360> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:42:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523360> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4329108210757"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523360> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Roberto Domingo. Entrada a Parking" .
@@ -5955,7 +5955,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/36> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523505> .
 <http://smartcity.smartbins.es/lcc/resource/Product/36> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523195> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523168> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523168> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523168> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:48:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523168> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4215373300049"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523168> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Doctor Esquerdo 40" .
@@ -6179,7 +6179,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/15> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523127> .
 <http://smartcity.smartbins.es/lcc/resource/Product/15> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523117> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523147> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523147> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523147> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:02:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523147> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3954061637155"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523147> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PeÃ±a Gorbea Esq. Puerto Alto" .
@@ -6295,7 +6295,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/110> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523178> .
 <http://smartcity.smartbins.es/lcc/resource/Product/110> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523481> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523481> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523481> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523481> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:50:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523481> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4238301312766"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523481> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pendiente Reubicar. Serrano 24" .
@@ -6303,7 +6303,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523481> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523481> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523247> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523247> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523247> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:21:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523247> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4392511355841"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523247> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Cristo Rey" .
@@ -6311,7 +6311,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523247> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523247> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522993> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522993> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522993> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:37:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522993> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4401445899459"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522993> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "JosÃ© Del Hierro NÂ°52" .
@@ -6645,7 +6645,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/23> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523505> .
 <http://smartcity.smartbins.es/lcc/resource/Product/23> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523183> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523155> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523155> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523155> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:58:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523155> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4394178076921"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523155> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Bruselas 56" .
@@ -6761,7 +6761,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/118> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523521> .
 <http://smartcity.smartbins.es/lcc/resource/Product/118> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523113> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523113> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523113> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:54:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523113> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.419087659414"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523113> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Alcala Farola 151 (Metro Banco De EspaÃ±a)" .
@@ -6769,7 +6769,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523113> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523113> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523276> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523276> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523276> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:57:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523276> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3693138800587"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523276> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Ensanche De Vallecas CV Alto De La Sartenilla (Metro La Gavia)" .
@@ -6777,7 +6777,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523276> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523276> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523255> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523255> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523255> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:36:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523255> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4397111371196"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523255> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Cristo Rey CV Isaac Peral" .
@@ -6785,7 +6785,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523255> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523255> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523234> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523234> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523234> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T08:19:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523234> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3794684184114"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523234> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PÂ° Federico Garcia Lorca NÂ°3" .
@@ -6901,7 +6901,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/94> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523483> .
 <http://smartcity.smartbins.es/lcc/resource/Product/94> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523155> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523213> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523213> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523213> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T12:11:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523213> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4381255618405"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523213> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. AmÃ©rica 9" .
@@ -7072,7 +7072,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/52> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> .
 <http://smartcity.smartbins.es/lcc/resource/Product/52> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523009> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523000> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523000> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523000> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:40:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523000> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4067942923838"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523000> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Moratalaz NÂ°134" .
@@ -7080,7 +7080,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523000> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523000> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523184> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523184> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523184> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:29:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523184> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3987962538023"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523184> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PeÃ±a Prieta Esq. Monte Oliveti" .
@@ -7198,7 +7198,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/5> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523267> .
 <http://smartcity.smartbins.es/lcc/resource/Product/5> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523213> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523163> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523163> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523163> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:41:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523163> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4163244846537"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523163> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Mayor CV Coloreros" .
@@ -7206,7 +7206,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523163> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523163> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523505> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523505> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523505> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:16:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523505> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4205617824719"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523505> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a 41" .
@@ -7322,7 +7322,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/10> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523298> .
 <http://smartcity.smartbins.es/lcc/resource/Product/10> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523117> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523142> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523142> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523142> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:43:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523142> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.420048743269"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523142> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a 29 CV Chinchilla" .
@@ -7438,7 +7438,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/126> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> .
 <http://smartcity.smartbins.es/lcc/resource/Product/126> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523519> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523121> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523121> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523121> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:19:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523121> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4418771591363"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523121> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Josep Pla CV Lopez De Hoyos" .
@@ -7554,7 +7554,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/105> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522982> .
 <http://smartcity.smartbins.es/lcc/resource/Product/105> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523520> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522846> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522846> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:10:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4377268200259"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "AlcalÃ¡ CV Av. InstituciÃ³n Libre EnseÃ±anza" .
@@ -7562,7 +7562,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523221> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523221> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523221> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:38:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523221> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4244830688431"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523221> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "NarvÃ¡ez 1" .
@@ -7678,7 +7678,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/81> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523135> .
 <http://smartcity.smartbins.es/lcc/resource/Product/81> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523138> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522988> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522988> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522988> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:57:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522988> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4062243409903"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522988> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "CÂ° De Vinateros (Centro De Salud Torito)" .
@@ -7794,7 +7794,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/60> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523234> .
 <http://smartcity.smartbins.es/lcc/resource/Product/60> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523239> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523008> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523008> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523008> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:01:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523008> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4401987344104"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523008> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "JosÃ© Del Hierro NÂ°39" .
@@ -7857,7 +7857,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/39> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523010> .
 <http://smartcity.smartbins.es/lcc/resource/Product/39> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523140> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523513> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523513> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523513> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:45:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523513> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4249273605609"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523513> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Goya 87" .
@@ -8136,7 +8136,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/113> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522993> .
 <http://smartcity.smartbins.es/lcc/resource/Product/113> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523234> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523129> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523129> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523129> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:23:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523129> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.396002854883"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523129> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PeÃ±a Gorbea Esq. Monte Igueldo" .
@@ -8144,7 +8144,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523129> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523129> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523292> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523292> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523292> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:27:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523292> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4199323198958"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523292> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran Via 20" .
@@ -8268,7 +8268,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/89> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> .
 <http://smartcity.smartbins.es/lcc/resource/Product/89> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523472> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523208> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523208> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523208> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:50:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523208> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4183807492332"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523208> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Montera 24" .
@@ -8439,7 +8439,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/47> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523144> .
 <http://smartcity.smartbins.es/lcc/resource/Product/47> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523139> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523521> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523521> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523521> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T18:00:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523521> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.418752727651"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523521> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza De Oriente (Frente Palacio Fla. 155)" .
@@ -8555,7 +8555,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/26> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523244> .
 <http://smartcity.smartbins.es/lcc/resource/Product/26> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523466> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523158> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523158> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523158> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:44:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523158> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4314995116468"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523158> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "AlcalÃ¡ 237 (Pz Toros) Ventas Derecha Entrada Principal" .
@@ -8563,7 +8563,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523158> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523158> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523329> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523329> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523329> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:31:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523329> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3887242074666"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523329> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gral. Ricardos NÂ°160 CV Oca" .
@@ -8571,7 +8571,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523329> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523329> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523492> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523492> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523492> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523492> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:46:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523492> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4276343052057"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523492> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pz Manuel Becerra 20" .
@@ -8687,7 +8687,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/121> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> .
 <http://smartcity.smartbins.es/lcc/resource/Product/121> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522982> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523308> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523308> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523308> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:38:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523308> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4461017516396"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523308> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PrÃ­ncipe De Vergara 144" .
@@ -8750,7 +8750,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/100> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523213> .
 <http://smartcity.smartbins.es/lcc/resource/Product/100> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523496> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523116> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523116> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523116> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:03:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523116> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4162015462277"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523116> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza De Armeria Entre Palacio Y Catedral Junto Fla.16" .
@@ -8866,7 +8866,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/284> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523508> .
 <http://smartcity.smartbins.es/lcc/resource/Product/284> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523501> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523279> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523279> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523279> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:30:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523279> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3724862589078"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523279> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Congosto FTE. NÂ°46" .
@@ -8929,7 +8929,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/97> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523259> .
 <http://smartcity.smartbins.es/lcc/resource/Product/97> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523479> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523216> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523216> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523216> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:16:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523216> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4361997631303"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523216> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Alonso Cano 10 (Mercado)" .
@@ -9045,7 +9045,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/76> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522886> .
 <http://smartcity.smartbins.es/lcc/resource/Product/76> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523516> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523003> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523003> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523003> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:46:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523003> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4176401119883"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523003> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Glorieta Alsacia (Metro Alsacia)" .
@@ -9161,7 +9161,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/55> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523276> .
 <http://smartcity.smartbins.es/lcc/resource/Product/55> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523222> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523187> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523187> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523187> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:30:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523187> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4313436567362"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523187> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "AlcalÃ¡ 237 (Pz Toros) Ventas Izquierda Entrada Principal" .
@@ -9279,7 +9279,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/8> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> .
 <http://smartcity.smartbins.es/lcc/resource/Product/8> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523159> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523508> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523508> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523508> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:54:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523508> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4241883238505"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523508> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Felipe II .Puerta Corte Ingles. General" .
@@ -9505,7 +9505,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/108> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523473> .
 <http://smartcity.smartbins.es/lcc/resource/Product/108> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523186> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523479> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523479> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523479> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523479> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:50:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523479> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4020002650054"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523479> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Daoiz Y Velarde (Zona PrÃ³xima A La Junta De Distrito)" .
@@ -9513,7 +9513,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523479> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523479> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523224> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523224> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523224> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:51:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523224> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4374696174176"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523224> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. De AmÃ©rica 2" .
@@ -9521,7 +9521,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523224> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523224> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522991> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522991> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522991> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:22:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522991> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4055204736461"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522991> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Villardondiego Biblioteca Municipal" .
@@ -9692,7 +9692,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/63> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523116> .
 <http://smartcity.smartbins.es/lcc/resource/Product/63> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523195> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523195> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523195> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:29:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523195> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4196710443525"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523195> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pz Cibeles 4" .
@@ -9979,7 +9979,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/116> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523328> .
 <http://smartcity.smartbins.es/lcc/resource/Product/116> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523260> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523466> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523466> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523466> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:46:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523466> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4261196672247"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523466> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "MarquÃ©s De Zafra FTE. 28" .
@@ -9987,7 +9987,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523466> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523466> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523253> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523253> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T18:01:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4143721062996"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Bailen Entre Flas. 272-270" .
@@ -10050,7 +10050,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/92> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523259> .
 <http://smartcity.smartbins.es/lcc/resource/Product/92> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523211> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523211> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523211> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:47:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523211> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4020170219357"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523211> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Daoiz Y Velarde (Zona PrÃ³xima A La Junta De Distrito)" .
@@ -10221,7 +10221,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/50> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523360> .
 <http://smartcity.smartbins.es/lcc/resource/Product/50> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523511> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523182> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523182> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523182> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:49:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523182> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3880556393621"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523182> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Martinez De La Riva Esq. Carlos Martin Ã�lvarez" .
@@ -10392,7 +10392,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/3> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523262> .
 <http://smartcity.smartbins.es/lcc/resource/Product/3> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523483> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523140> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523140> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523140> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:23:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523140> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4182168482129"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523140> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Mendez Pelayo Entrada Retiro Frente A Ibiza" .
@@ -10616,7 +10616,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/103> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523125> .
 <http://smartcity.smartbins.es/lcc/resource/Product/103> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523253> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523119> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523119> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523119> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:34:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523119> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4069290766972"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523119> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Doctor Esquerdo (Salida Metro Conde De Casal)" .
@@ -10624,7 +10624,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523119> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523119> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522886> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522886> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522886> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:31:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522886> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4408021765445"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522886> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "JosÃ© Del Hierro NÂ°55" .
@@ -10632,7 +10632,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522886> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522886> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523282> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523282> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:51:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4022193122672"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Don Antonio De San AndrÃ©s NÂ°17 (Junta Municipal Vivalcaro)" .
@@ -10640,7 +10640,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523282> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523261> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523261> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523261> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:57:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523261> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4205688857356"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523261> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a 41" .
@@ -10648,7 +10648,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523261> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523261> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523240> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523240> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523240> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:57:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523240> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4183452744772"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523240> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Isabel II ( Frente Calle CaÃ±os Del Peral)" .
@@ -10656,7 +10656,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523240> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523240> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522986> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522986> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522986> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:40:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522986> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4040364387842"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522986> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "San Cipriano CV Jardin De La Duquesa" .
@@ -10827,7 +10827,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/58> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523183> .
 <http://smartcity.smartbins.es/lcc/resource/Product/58> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523003> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523006> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523006> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523006> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:44:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523006> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4039338683295"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523006> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "San Cipriano NÂ°44 (Metro San Cipriano)" .
@@ -10890,7 +10890,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/37> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522998> .
 <http://smartcity.smartbins.es/lcc/resource/Product/37> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523139> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523511> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523511> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523511> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:34:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523511> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4007592059565"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523511> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Daoiz Y Velarde (Zona Ã�rea Recreativa Junto A Las Vias Del Tren)" .
@@ -11114,7 +11114,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/132> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522882> .
 <http://smartcity.smartbins.es/lcc/resource/Product/132> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523211> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523319> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523319> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523319> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:37:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523319> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4077857321349"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523319> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Del Emperador Carlos V(Salida Arriba E.A.)" .
@@ -11230,7 +11230,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/111> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523142> .
 <http://smartcity.smartbins.es/lcc/resource/Product/111> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523152> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523127> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523127> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523127> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:12:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523127> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4044209341619"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523127> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Mendez Pelayo" .
@@ -11238,7 +11238,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523127> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523127> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523248> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523248> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523248> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:12:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523248> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4190521140737"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523248> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Del Carmen CV Tres Cruces" .
@@ -11246,7 +11246,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523248> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523248> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522994> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522994> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522994> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:39:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522994> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4044832901686"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522994> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Paseo Artilleros CV San Cipriano (Metro Vicalvaro)" .
@@ -11417,7 +11417,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/66> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523147> .
 <http://smartcity.smartbins.es/lcc/resource/Product/66> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523010> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523198> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523198> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523198> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:49:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523198> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4190793616639"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523198> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a CV Caballero De Gracia" .
@@ -11480,7 +11480,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/45> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523118> .
 <http://smartcity.smartbins.es/lcc/resource/Product/45> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523113> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523519> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523519> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523519> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:56:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523519> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.421287649186"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523519> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a 51" .
@@ -11543,7 +11543,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/24> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522889> .
 <http://smartcity.smartbins.es/lcc/resource/Product/24> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523007> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523135> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523135> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523135> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T18:02:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523135> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4427679632278"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523135> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gabriel Lobo 12" .
@@ -11659,7 +11659,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/119> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523182> .
 <http://smartcity.smartbins.es/lcc/resource/Product/119> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523183> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523114> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523114> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523114> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:57:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523114> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4201063289955"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523114> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran Via 28" .
@@ -11667,7 +11667,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523114> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523114> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523298> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523298> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523298> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:39:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523298> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4243415998891"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523298> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pz ColÃ³n Fla.58" .
@@ -11675,7 +11675,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523298> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523298> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523256> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523256> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:09:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4676195309623"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Antonio Machado Fla.68" .
@@ -11683,7 +11683,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523256> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523235> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523235> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523235> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:55:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523235> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3866829952168"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523235> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Santa Eugenia FTE. EstaciÃ³n CercanÃ­as" .
@@ -11799,7 +11799,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/95> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523492> .
 <http://smartcity.smartbins.es/lcc/resource/Product/95> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522981> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522981> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522981> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522981> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T18:01:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522981> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4055559899069"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522981> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Villablanca (Centro  De Salud)" .
@@ -11915,7 +11915,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/74> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523116> .
 <http://smartcity.smartbins.es/lcc/resource/Product/74> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523360> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523356> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523356> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523356> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:36:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523356> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4217694691489"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523356> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Gran VÃ­a 57" .
@@ -12031,7 +12031,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/53> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523328> .
 <http://smartcity.smartbins.es/lcc/resource/Product/53> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523178> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523185> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523185> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523185> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:49:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523185> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3815586375529"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523185> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "La Mancha Esq. Av. EntrevÃ­as (Pares)" .
@@ -12039,7 +12039,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523185> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523185> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523164> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523164> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523164> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:56:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523164> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4198444071696"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523164> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Plaza Cibeles CV Paseo Recoletos" .
@@ -12157,7 +12157,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/6> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523186> .
 <http://smartcity.smartbins.es/lcc/resource/Product/6> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523113> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523506> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523506> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523506> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T12:43:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523506> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4238569496845"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523506> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pendiente Reubicar. Serrano 24" .
@@ -12273,7 +12273,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/11> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523507> .
 <http://smartcity.smartbins.es/lcc/resource/Product/11> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523329> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523143> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523143> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523143> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:02:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523143> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4150603556815"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523143> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Paseo Del Prado CV Felipe IV" .
@@ -12389,7 +12389,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/127> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523152> .
 <http://smartcity.smartbins.es/lcc/resource/Product/127> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523280> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523122> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523122> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523122> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:11:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523122> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.432634050993"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523122> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Juan Bravo FTE.NÂ° 32" .
@@ -12505,7 +12505,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/106> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523218> .
 <http://smartcity.smartbins.es/lcc/resource/Product/106> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523516> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522889> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522889> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522889> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:04:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522889> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.401426"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522889> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "San Cipriano (CercanÃ­as Vicalvaro/Metro Puerta De Arganda)" .
@@ -12513,7 +12513,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522889> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522889> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523285> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523285> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523285> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:28:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523285> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3454032690076"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523285> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PÂ° Alberto  NÂ°31 CV Oasis" .
@@ -12521,7 +12521,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523285> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523285> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523243> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523243> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523243> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:42:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523243> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3693323400467"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523243> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Ensanche De Vallecas CV Alto De La Sartenilla (Metro La Gavia)" .
@@ -12529,7 +12529,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523243> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523243> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523222> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523222> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523222> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:20:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523222> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4170872076339"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523222> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Puerta Del Sol CV Preciados" .
@@ -12537,7 +12537,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523222> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523222> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523201> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523201> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523201> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:52:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523201> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4280802123146"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523201> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pz Manuel Becerra 14" .
@@ -12545,7 +12545,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523201> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523201> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522989> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522989> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522989> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T16:35:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522989> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4551650822182"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522989> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pza. Cristina Arce Y RocÃ­o OÃ±a" .
@@ -12608,7 +12608,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/82> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523144> .
 <http://smartcity.smartbins.es/lcc/resource/Product/82> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523188> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523193> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523193> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523193> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T15:40:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523193> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3790523"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523193> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pedroches Esq. Menbezar" .
@@ -12724,7 +12724,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/61> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523122> .
 <http://smartcity.smartbins.es/lcc/resource/Product/61> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522846> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522968> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522968> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522968> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T08:53:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522968> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.34642989"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522968> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PÂ° Alberto Palacios NÂ°1" .
@@ -12732,7 +12732,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522968> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522968> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523009> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523009> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523009> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:33:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523009> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4626301208749"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523009> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "VÃ­a DublÃ­n (Edificio Correos)" .
@@ -12958,7 +12958,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/135> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523221> .
 <http://smartcity.smartbins.es/lcc/resource/Product/135> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1522986> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523130> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523130> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523130> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:02:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523130> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4204375793623"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523130> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Pz Independencia 5" .
@@ -13074,7 +13074,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/114> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523492> .
 <http://smartcity.smartbins.es/lcc/resource/Product/114> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523493> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523485> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523485> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523485> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:27:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523485> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4310150760707"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523485> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Alcala 237 (Pz Toros) Metro" .
@@ -13082,7 +13082,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523485> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523485> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523293> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523293> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523293> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:46:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523293> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4234514871445"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523293> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Paseo De Recoletos FTE. 22" .
@@ -13090,7 +13090,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523293> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "General" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523293> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523464> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523464> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:07:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4213972575303"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Av. Mendez Pelayo Entrada Retiro Con O'Donnel" .
@@ -13098,7 +13098,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasType> "Plastic" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523464> <http://smartcity.smartbins.es/lcc/ontology/recycle#levelOfFullnes> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523230> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523230> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523230> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:16:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523230> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.3987877793797"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523230> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "PeÃ±a Prieta Esq. Monte Oliveti" .
@@ -13214,7 +13214,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/90> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523507> .
 <http://smartcity.smartbins.es/lcc/resource/Product/90> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523009> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1522997> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1522997> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522997> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:34:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522997> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4296202135061"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1522997> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Ascao NÂ°4-6 (Biblioteca Pablo Neruda)" .
@@ -13277,7 +13277,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/69> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523496> .
 <http://smartcity.smartbins.es/lcc/resource/Product/69> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523184> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523522> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523522> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523522> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:07:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523522> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4323603175744"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523522> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Juan Bravo FTE. NÂ°62" .
@@ -13340,7 +13340,7 @@
 <http://smartcity.smartbins.es/lcc/resource/Product/48> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523308> .
 <http://smartcity.smartbins.es/lcc/resource/Product/48> <http://smartcity.smartbins.es/lcc/ontology/recycle#recycledIn> <http://smartcity.smartbins.es/lcc/resource/Bin/1523261> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smartcity.smartbins.es/lcc/ontology/recycle#Bin> .
-<http://smartcity.smartbins.es/lcc/resource/Bin/1523501> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "{}" .
+<http://smartcity.smartbins.es/lcc/resource/Bin/1523501> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasAlarm> "OK" .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523501> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasDate> "2021-10-06T17:40:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523501> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLat> "40.4302992913521"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://smartcity.smartbins.es/lcc/resource/Bin/1523501> <http://smartcity.smartbins.es/lcc/ontology/recycle#hasLocationName> "Princesa  Cv Alberto Aguilera" .

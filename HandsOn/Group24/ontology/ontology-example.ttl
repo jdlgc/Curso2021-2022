@@ -5,15 +5,15 @@
 @prefix nsp: <http://smartcity.linkeddata.es/ontology/TerrazasMadrid##>.
 @prefix rdf: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix schema: <https://schema.org#>.
-@prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#
+@prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#>.
 
 schema:LocalBusiness01
 	  dc:title "HONTANARES"^^xsd:string;
           nsp:hasID "270403150"^^xsd:integer;
           schema:status "Abierta"^^xsd:string;
           nsp:terraceUbication "Acera"^^xsd:string;
-          nsp:tablesSeasonal  "9"^^xsd:string;
-          nsp:tablesUnseasonal  "9"^^xsd:string;
+          nsp:tablesSeasonal  "9"^^xsd:integer;
+          nsp:tablesUnseasonal  "9"^^xsd:integer;
           nsp:WeekdaySeasonalOpen  "10:00:00"^^xsd:string;
           nsp:WeekdaySeasonalClose  "1:00:00"^^xsd:string;
           nsp:WeekendSeasonalOpen  "10:00:00"^^xsd:string;
@@ -29,11 +29,11 @@ schema:PostalAddress01
           schema:streetAdress "2 AVENIDA AMERICA "^^xsd:string;
           schema:postalCode "28028"^^xsd:string.
 schema:GeoCoordinates01
-          schema:latitude "4476524,51"^^xsd:string;
-          schema:longitude "442586,58"^^xsd:string.
+          schema:latitude "4476524,51"^^xsd:float;
+          schema:longitude "442586,58"^^xsd:float.
 admingeo:District01
-	  rdf:label "Salamanca"^^xsd:string.
+	  rdfs:label "Salamanca"^^xsd:string.
 ns:Neighborhood01
-	  rdf:label "La Guindalera"^^xsd:string;
+	  rdfs:label "La Guindalera"^^xsd:string;
           nsp:locatedIn admingeo:District01.
 		

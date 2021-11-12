@@ -1,0 +1,96 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+PREFIX acc: <http://safemadrid.linkeddata.es/ontology/accidentalidad#> .
+PREFIX owl: <http://www.w3.org/2002/07/owl#> .
+
+# Consultamos las uris de todos los distritos de todos los accidentes con mujeres
+
+  SELECT ?Subject ?Name ?Uri WHERE { 
+    ?Subject rdf:type acc:accidente.
+    ?Subject acc:hasSEXO "Mujer".
+    ?Subject acc:ocurreEN ?Object.
+    ?Object owl:sameAs ?Uri.
+    ?Object acc:hasNAME ?Name.
+  }
+  
+# http://safemadrid.linkeddata.es/Accidente/147 Usera https://wikidata.org/entity/Q953368
+# http://safemadrid.linkeddata.es/Accidente/126 San Blas https://wikidata.org/entity/Q2001937
+# http://safemadrid.linkeddata.es/Accidente/52 Carabanchel https://wikidata.org/entity/Q1001991
+# http://safemadrid.linkeddata.es/Accidente/18 Villaverde https://wikidata.org/entity/Q919536
+# http://safemadrid.linkeddata.es/Accidente/89 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/68 Usera https://wikidata.org/entity/Q953368
+# http://safemadrid.linkeddata.es/Accidente/26 Tetuán https://wikidata.org/entity/Q1773540
+# http://safemadrid.linkeddata.es/Accidente/4 Hortaleza https://wikidata.org/entity/Q1928529
+# http://safemadrid.linkeddata.es/Accidente/129 Villa de Vallecas https://wikidata.org/entity/Q1947988
+# http://safemadrid.linkeddata.es/Accidente/34 Barajas https://wikidata.org/entity/Q807230
+# http://safemadrid.linkeddata.es/Accidente/108 Fuencarral-El Pardo https://wikidata.org/entity/Q656196
+# http://safemadrid.linkeddata.es/Accidente/13 Arganzuela https://wikidata.org/entity/Q2000929
+# http://safemadrid.linkeddata.es/Accidente/21 Tetuán https://wikidata.org/entity/Q1773540
+# http://safemadrid.linkeddata.es/Accidente/92 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/124 San Blas https://wikidata.org/entity/Q2001937
+# http://safemadrid.linkeddata.es/Accidente/58 Moratalaz https://wikidata.org/entity/Q2076109
+# http://safemadrid.linkeddata.es/Accidente/111 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/37 Puente de Vallecas https://wikidata.org/entity/Q2003054
+# http://safemadrid.linkeddata.es/Accidente/45 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/24 Tetuán https://wikidata.org/entity/Q1773540
+# http://safemadrid.linkeddata.es/Accidente/127 Villa de Vallecas https://wikidata.org/entity/Q1947988
+# http://safemadrid.linkeddata.es/Accidente/19 Moncloa-Aravaca https://wikidata.org/entity/Q2017682
+# http://safemadrid.linkeddata.es/Accidente/90 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/101 Chamberí https://wikidata.org/entity/Q1763370
+# http://safemadrid.linkeddata.es/Accidente/14 Tetuán https://wikidata.org/entity/Q1773540
+# http://safemadrid.linkeddata.es/Accidente/93 Ciudad Lineal https://wikidata.org/entity/Q1763694
+# http://safemadrid.linkeddata.es/Accidente/133 Chamartín https://wikidata.org/entity/Q1766348
+# http://safemadrid.linkeddata.es/Accidente/54 Usera https://wikidata.org/entity/Q953368
+# http://safemadrid.linkeddata.es/Accidente/115 Arganzuela https://wikidata.org/entity/Q2000929
+# http://safemadrid.linkeddata.es/Accidente/123 Carabanchel https://wikidata.org/entity/Q1001991
+# http://safemadrid.linkeddata.es/Accidente/49 Puente de Vallecas https://wikidata.org/entity/Q2003054
+# http://safemadrid.linkeddata.es/Accidente/102 Fuencarral-El Pardo https://wikidata.org/entity/Q656196
+# http://safemadrid.linkeddata.es/Accidente/110 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/36 Puente de Vallecas https://wikidata.org/entity/Q2003054
+# http://safemadrid.linkeddata.es/Accidente/65 Centro https://wikidata.org/entity/Q1763376
+# http://safemadrid.linkeddata.es/Accidente/44 Latina https://wikidata.org/entity/Q794954
+# http://safemadrid.linkeddata.es/Accidente/118 Hortaleza https://wikidata.org/entity/Q1928529
+
+
+
+# Consultamos todos los accidentes de un distrito a partir del barrio Orcasitas
+
+  SELECT ?Accidente WHERE {
+    ?Barrio acc:hasNAMEBARRIO "Orcasitas".
+    ?Barrio acc:hasDISTRITO ?Distrito.
+    ?Accidente acc:ocurreEN ?Distrito.
+  }
+
+# http://safemadrid.linkeddata.es/Accidente/147
+# http://safemadrid.linkeddata.es/Accidente/113
+# http://safemadrid.linkeddata.es/Accidente/142
+# http://safemadrid.linkeddata.es/Accidente/68
+# http://safemadrid.linkeddata.es/Accidente/55
+# http://safemadrid.linkeddata.es/Accidente/145
+# http://safemadrid.linkeddata.es/Accidente/2
+# http://safemadrid.linkeddata.es/Accidente/148
+# http://safemadrid.linkeddata.es/Accidente/53
+# http://safemadrid.linkeddata.es/Accidente/114
+# http://safemadrid.linkeddata.es/Accidente/69
+# http://safemadrid.linkeddata.es/Accidente/56
+# http://safemadrid.linkeddata.es/Accidente/146
+# http://safemadrid.linkeddata.es/Accidente/141
+# http://safemadrid.linkeddata.es/Accidente/67
+# http://safemadrid.linkeddata.es/Accidente/54
+# http://safemadrid.linkeddata.es/Accidente/57
+# http://safemadrid.linkeddata.es/Accidente/1
+
+
+
+# Consultamos las uris de todos los barrios del distrito Tetuán
+
+  SELECT ?Barrio WHERE {
+    ?Distrito acc:hasNAME "Tetuán".
+    ?Distrito acc:hasBARRIO ?Barrio.
+  }
+
+# http://safemadrid.linkeddata.es/Barrio/100
+# http://safemadrid.linkeddata.es/Barrio/110
+# http://safemadrid.linkeddata.es/Barrio/102
+# http://safemadrid.linkeddata.es/Barrio/94
+# http://safemadrid.linkeddata.es/Barrio/109
+# http://safemadrid.linkeddata.es/Barrio/96

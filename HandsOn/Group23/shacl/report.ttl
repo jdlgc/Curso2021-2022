@@ -1,0 +1,24 @@
+@prefix bici:  <http://www.biciwhere-madrid.es/bwm/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns0:   <http://www.biciwhere-madrid.es/bwm/ontology#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix base:  <http://www.biciwhere-madrid.es/> .
+
+<https://astrea.linkeddata.es/shapes#84f9e86ea91e1ab9c5d708505ed8961a>
+        <http://shacl-play.sparna.fr/ontology#targetMatched>
+                false .
+
+[ a            sh:ValidationReport ;
+  <http://shacl-play.sparna.fr/ontology#hasMatched>
+          true ;
+  sh:conforms  true
+] .
+
+<https://astrea.linkeddata.es/shapes#389cee47291a73284d7d5a69b6f4a1e9>
+        <http://shacl-play.sparna.fr/ontology#targetMatched>
+                false .

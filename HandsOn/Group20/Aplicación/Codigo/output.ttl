@@ -1,0 +1,3069 @@
+@base          <http://helio.linkeddata.es/> .
+<http://localizalocales.es/lcc/resource/Distrito/21,210000683>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "TIMON"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "BARAJAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/115>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270488062> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "96"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270183220>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ESCORIAZA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270184841>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,270184841> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CERVECERIA LA TORRE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/95> .
+
+<http://localizalocales.es/lcc/resource/Local/170000308>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000308> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR RENATO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/107> .
+
+<http://localizalocales.es/lcc/resource/Local/200001508>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/20,200001508> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LA SEDE D'ANDRUBEN"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/128> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270471784>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LA CANCION DEL OLVIDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270156329>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "MOSCARDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "DOLORES SOPEÃ‘A"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000832>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ARECHAVALETA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,280060978>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ENSANCHE DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ENSANCHE DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "44"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "AVENIDA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270191062>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270191062> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL PILAR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/163> .
+
+<http://localizalocales.es/lcc/resource/Terraza/50>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "27"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/180000457> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "92"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/165>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000796> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "54"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/285031450>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,285031450> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "DON GERMAN"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/145> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270020492>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN CRISTOBAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "BENIMAMET"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "95"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,270184841>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SANTA EUGENIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PUENTELARRA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/102>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270456985> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "84"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/1,10003543>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "PALACIO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "CENTRO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PUERTA DE MOROS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PLAZA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270418033>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "CHOZAS DE CANALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PLAZA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,270380946>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "RECOLETOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALCALA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "89"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/20,280067055>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "REJAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SAN BLAS-CANILLEJAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "OCCIDENTE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "COLONIA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270075832>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,270075832> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFETERIA PARISIENA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/58> .
+
+<http://localizalocales.es/lcc/resource/Local/280067055>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/20,280067055> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "RESTAURANTE BAR TORRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/67> .
+
+<http://localizalocales.es/lcc/resource/Terraza/79>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270228707> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "40"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/173>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270183106> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "34"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,180000457>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "CASCO H.VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "JUAN DE MALASAÃ‘A"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PLAZA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/58>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270075832> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/152>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270417284> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "60"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270417284>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270417284> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFETERIA 204"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/152> .
+
+<http://localizalocales.es/lcc/resource/Terraza/131>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270228855> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "40"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270519524>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/9,270519524> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "8 1/2 LIBROS DE CINE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/149> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,270309378>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ACACIAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ACACIAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/110>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270183511> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "64"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000009>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LA DEL MANOJO DE ROSAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "78"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270314735>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270314735> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "RESTAURANTE SALINAS PROSPERIDAD III"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/113> .
+
+<http://localizalocales.es/lcc/resource/Local/270456985>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270456985> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LAS BEGONIAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/102> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270540061>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ALMENDRALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ANTONIO LOPEZ"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "201"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270280806>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270280806> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "VENTA CARMONA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/159> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270250040>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "SAHARA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/170002005>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170002005> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL KUBO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/83> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270182385>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "SAHARA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "48"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/87>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270286727> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "56"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/40001459>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,40001459> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "HOTEL ABBA MADRID"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/44> .
+
+<http://localizalocales.es/lcc/resource/Terraza/181>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270299459> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/66>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/200000837> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270438751>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270438751> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LA ALEGRIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/135> .
+
+<http://localizalocales.es/lcc/resource/Local/180000598>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,180000598> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL RINCON DEL TIO PEPE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/60> .
+
+<http://localizalocales.es/lcc/resource/Terraza/160>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270183220> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "48"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270539656>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270539656> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "100 MONTADITOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/109> .
+
+<http://localizalocales.es/lcc/resource/Local/270181857>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270181857> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR ASTURIAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/84> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,40002808>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "RECOLETOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "AYALA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270495851>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,270495851> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "THE JAMES JOYCE IRISH PUB"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/41> .
+
+<http://localizalocales.es/lcc/resource/Local/270228707>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270228707> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BURGUER CAROVI"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/79> .
+
+<http://localizalocales.es/lcc/resource/Terraza/95>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270184841> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "40"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/74>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270202022> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "112"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/168>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270033525> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "80"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000259>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "TALLERES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270456160>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "TALLERES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "48"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/147>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000809> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "70"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170000006>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000006> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR VIETNAM"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/172> .
+
+<http://localizalocales.es/lcc/resource/Terraza/126>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/20001080> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "47"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170000724>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000724> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR LAS NIÃ‘AS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/105> .
+
+<http://localizalocales.es/lcc/resource/Local/170001120>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170001120> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CERVECERIA MINERVA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/76> .
+
+<http://localizalocales.es/lcc/resource/Terraza/105>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000724> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,270071068>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "GOYA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALCALA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "127"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270488062>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ANTIMONIO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/82>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270456160> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270286727>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PAN Y TOROS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "37"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/40002021>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,40002021> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "SAGAR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/36> .
+
+<http://localizalocales.es/lcc/resource/Terraza/40>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/40002808> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/155>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270156329> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "60"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/113>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270314735> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "56"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270183220>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270183220> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFETERIA LUMAR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/160> .
+
+<http://localizalocales.es/lcc/resource/Local/270057250>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,270057250> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFETERIA FERROCARRIL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/175> .
+
+<http://localizalocales.es/lcc/resource/Local/270471784>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270471784> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR CASA MONICA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/161> .
+
+<http://localizalocales.es/lcc/resource/Local/170000832>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000832> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR CASA CONEL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/103> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270458555>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "MOSCARDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "EUGENIO CAXES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270363433>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ORCASUR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PADRE JOSE MARIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270534735>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN FERMIN"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "AVENIDA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000809>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "BUTARQUE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "CANCHAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/69>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270380946> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,280062208>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN CRISTOBAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MONCADA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "119"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/163>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270191062> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "80"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270020492>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270020492> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "PEREZ CAFETERIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/108> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270033353>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN CRISTOBAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ROCAFORT"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,270075832>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "FUENTE DEL BERRO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALCALA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "172"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270201818>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "TORDEGRILLOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "45"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/121>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/20000100> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270418033>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270418033> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "PLAZA II"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/119> .
+
+<http://localizalocales.es/lcc/resource/Local/270078567>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,270078567> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR MARISQUERIA LUIS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/34> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270477281>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN FERMIN"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "SAN FORTUNATO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "27"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270157776>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270157776> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR PISCIS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/132> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270217569>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "MOSCARDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MARCELO USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "164"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270055919>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,270055919> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFETERIA LOA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/127> .
+
+<http://localizalocales.es/lcc/resource/Terraza/98>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270185092> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "68"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000283>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "VILLAJOYOSA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "63"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/77>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000836> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "80"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/171>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000283> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "32"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/56>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000773> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/20000100>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,20000100> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CERVECERIA LA LASTRA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/121> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270280806>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "BOHEMIOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/129>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270458555> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "44"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170000009>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000009> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "JOSE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/114> .
+
+<http://localizalocales.es/lcc/resource/Terraza/108>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270020492> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,20000100>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "CHOPERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "DELICIAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "132"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270181482>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "GRAFITO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270182385>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270182385> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL PORTON"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/117> .
+
+<http://localizalocales.es/lcc/resource/Local/20001101>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,20001101> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CERVECERIA CANTALEJO RESTAURANTE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/124> .
+
+<http://localizalocales.es/lcc/resource/Terraza/85>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270379680> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,270299459>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "IMPERIAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LINNEO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/179>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "28"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/280018318> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "107"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270403150>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,270403150> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "HONTANARES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/33> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000796>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PAN Y TOROS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "37"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270432683>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270432683> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR SANCHEZ"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/157> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000967>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LA DEL MANOJO DE ROSAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "44"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/137>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270477281> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "20"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270076142>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,270076142> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL NUEVO RINCÃ“N DE JAÃ‰N"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/51> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,20001101>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "IMPERIAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "IMPERIAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "53"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/116>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000013> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,270495851>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "RECOLETOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALCALA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "59"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270490968>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270490968> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR CLEMENTE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/136> .
+
+<http://localizalocales.es/lcc/resource/Local/285021312>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,285021312> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL BAR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/148> .
+
+<http://localizalocales.es/lcc/resource/Local/170000259>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000259> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "PEÃ‘A DE FRANCIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/81> .
+
+<http://localizalocales.es/lcc/resource/Terraza/72>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/210000683> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "36"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/20001080>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,20001080> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR EL CONQUISTADOR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/126> .
+
+<http://localizalocales.es/lcc/resource/Local/270456160>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270456160> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LUCKY"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/82> .
+
+<http://localizalocales.es/lcc/resource/Terraza/51>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270076142> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "25"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000257>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PAN Y TOROS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/280018318>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,280018318> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LA MARGHERITA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/179> .
+
+<http://localizalocales.es/lcc/resource/Terraza/145>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/285031450> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "48"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270267597>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,270267597> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR ORENSE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/125> .
+
+<http://localizalocales.es/lcc/resource/Terraza/124>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/20001101> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "61"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/103>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000832> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,20001080>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "CHOPERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "JAIME EL CONQUISTADOR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/40002808>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,40002808> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "WAGABOO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/40> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270417284>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ALMENDRALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ANTONIO LOPEZ"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "204"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270488062>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270488062> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFE SAXO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/115> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000123>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LA CANCION DEL OLVIDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270286727>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270286727> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CASA MONICA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/87> .
+
+<http://localizalocales.es/lcc/resource/Terraza/80>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000967> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "56"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/20,200001508>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SIMANCAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SAN BLAS-CANILLEJAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "VALDECANILLAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "49"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270228855>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270228855> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR ALFIL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/131> .
+
+<http://localizalocales.es/lcc/resource/Local/270023348>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270023348> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LA ATALAYA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/111> .
+
+<http://localizalocales.es/lcc/resource/Terraza/153>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270534735> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "25"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/200000837>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/20,200000837> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR JOSUE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/66> .
+
+<http://localizalocales.es/lcc/resource/Terraza/132>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270157776> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "22"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/111>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270023348> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,180000366>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SANTA EUGENIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "CASTRILLO DE AZA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270438751>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "MOSCARDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ANTONIO LOPEZ"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "131"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/182>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/10003543> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "43"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170000809>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000809> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "RESTAURANTE PARQUE ROSALES CERVECERIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/147> .
+
+<http://localizalocales.es/lcc/resource/Local/180000457>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,180000457> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LA CHOZITA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/50> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,270078567>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "GUINDALERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALONSO HEREDIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/88>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/180000366> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "96"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/280062208>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,280062208> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR LAS TORRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/54> .
+
+<http://localizalocales.es/lcc/resource/Terraza/161>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "29"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270471784> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "116"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/67>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/280067055> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "47"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270033353>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270033353> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR PIRATA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/120> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170001203>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "BUTARQUE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "CANCHAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270201818>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270201818> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BONGO CAFE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/68> .
+
+<http://localizalocales.es/lcc/resource/Local/270202022>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,270202022> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR-RESTAURANTE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/74> .
+
+<http://localizalocales.es/lcc/resource/Terraza/119>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270418033> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "63"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170000283>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000283> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LA BODEGUILLA IBERICA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/171> .
+
+<http://localizalocales.es/lcc/resource/Local/270524837>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270524837> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR RESTAURANTE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/130> .
+
+<http://localizalocales.es/lcc/resource/Terraza/7>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/280067128> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,270202022>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "CASCO H.VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "SIERRA GORDA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000836>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "CHOZAS DE CANALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PLAZA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/54>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/280062208> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,280018318>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ACACIAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LAUREL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "33"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/148>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/285021312> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/33>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270403150> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "27"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,270267597>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "CHOPERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "JAIME EL CONQUISTADOR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/127>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270055919> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "26"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/106>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270181482> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270181482>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270181482> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR MEZQUITA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/106> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,270403150>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "GUINDALERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "AMERICA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "AVENIDA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/280017278>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,280017278> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "RESTARAURANTE  O'PORTIÃ‘O"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/177> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,270076142>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "GUINDALERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALCALA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "225"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000673>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALBERTO PALACIOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270181096>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "DOMINGO PARRAGA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/83>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170002005> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "64"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170000796>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000796> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR EL RINCON DEL QUIJOTE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/165> .
+
+<http://localizalocales.es/lcc/resource/Local/170000967>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000967> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "A GAIVOTIÃ‘A II"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/80> .
+
+<http://localizalocales.es/lcc/resource/Terraza/177>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "26"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/280017278> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "104"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/41>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270495851> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/156>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270363433> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000773>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "VILLAJOYOSA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "73"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/135>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270438751> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "20"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/114>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000009> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "28"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000013>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN CRISTOBAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ROCAFORT"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170001098>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MARIA BARRIENTOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/91>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270032503> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "96"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270183511>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "HERMANDAD DE DONANTES DE SANGRE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/170000257>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000257> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR PEMA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/86> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270157776>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "PRADOLONGO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "DOLORES BARRANCO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/164>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270181096> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "27"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270183106>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "VIRGEN DE LOS DESAMPARADOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "38"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270156329>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270156329> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR LUZON"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/155> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270033525>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "SAHARA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/122>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/20000172> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "36"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/101>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000673> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "32"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270379680>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "OROVILLA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "63"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "AVENIDA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270299459>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,270299459> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "RESTAURANTE LA POTA DOURO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/181> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270023348>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "EL HUESPED DEL SEVILLANO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/170000123>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000123> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "ALQUEZAR LA BODEGA DE COTE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/112> .
+
+<http://localizalocales.es/lcc/resource/Terraza/78>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170001098> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "44"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/172>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000006> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "44"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/151>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270540061> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "36"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/36>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/40002021> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/130>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270524837> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "22"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,180000598>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "CASCO H.VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PEÃ‘A DE VARGAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/109>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270539656> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "84"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/9,270519524>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ARGUELLES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "MONCLOA-ARAVACA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MARTIN DE LOS HEROS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,280017278>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "CHOPERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "GENERAL MAROTO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PLAZA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270432683>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ORCASITAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MIL DELEGADOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PLAZA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/20000172>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,20000172> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR SORIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/122> .
+
+<http://localizalocales.es/lcc/resource/Local/270540061>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270540061> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "MONTEFERRO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/151> .
+
+<http://localizalocales.es/lcc/resource/Terraza/86>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000257> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "42"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170001203>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170001203> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "PASTELERIA PANADERIA CAFETERIA CHICO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/104> .
+
+<http://localizalocales.es/lcc/resource/Local/210000683>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/21,210000683> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BURGER KING"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/72> .
+
+<http://localizalocales.es/lcc/resource/Terraza/44>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/40001459> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/159>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270280806> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "64"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/138>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270309378> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "25"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270490968>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ALMENDRALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "CRISTO DE LA VICTORIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,20000172>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "PALOS DE MOGUER"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ANCORA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "28"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/117>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270182385> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "84"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,285021312>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "MOSCARDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MANZANARES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "212"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "AVENIDA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/170000836>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000836> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR DONDE SIEMPRE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/77> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000308>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALCOCER"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "45"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/73>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/280060978> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270191062>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LA DOLOROSA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/52>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270071068> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/167>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "38"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270250040> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "152"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/20,280067128>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "ROSAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SAN BLAS-CANILLEJAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "SOFIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "177"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,285031450>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "BERZOSA DE LOZOYA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/125>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270267597> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/104>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170001203> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/280067128>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/20,280067128> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "SR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/7> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270228855>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "MOSCARDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MIRASIERRA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/170000673>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000673> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "D`YISA NAILS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/101> .
+
+<http://localizalocales.es/lcc/resource/Local/270181096>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270181096> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL PORTON"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/164> .
+
+<http://localizalocales.es/lcc/resource/Terraza/175>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270057250> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "38"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/81>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000259> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "60"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270324826>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,270324826> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CERVECERIA LA TOMASA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/89> .
+
+<http://localizalocales.es/lcc/resource/Local/270380946>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,270380946> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL ARBOL Y LA TOSTA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/69> .
+
+<http://localizalocales.es/lcc/resource/Terraza/60>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/180000598> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "32"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170000773>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000773> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "KEBAB ARMENIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/56> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,40001459>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "GUINDALERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "AMERICA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "32"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "AVENIDA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/154>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270217569> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "68"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/170000013>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170000013> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CERVECERIA SAN CRISTOBAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/116> .
+
+<http://localizalocales.es/lcc/resource/Terraza/112>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000123> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "80"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270314735>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "BUTARQUE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LOS ROSALES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "94"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "AVENIDA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270032503>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,270032503> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR  LA HACIENDA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/91> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270456985>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALBERTO PALACIOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "83"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/170001098>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,170001098> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LA PARADA ESQUINA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/78> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,270324826>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SANTA EUGENIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PUENTELARRA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270183511>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270183511> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "RESTAURANTE GALLARDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/110> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170002005>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "LOS ANGELES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "LA DEL MANOJO DE ROSAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "102"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/89>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270324826> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "57"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/68>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270201818> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "13"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270183106>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270183106> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR JOSE LUIS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/173> .
+
+<http://localizalocales.es/lcc/resource/Local/270033525>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270033525> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL ZAGUAN"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/168> .
+
+<http://localizalocales.es/lcc/resource/Local/270250040>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270250040> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "DI MADRID"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/167> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,270032503>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SANTA EUGENIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "PUENTELARRA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270363433>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270363433> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFETERIA HALLEY"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/156> .
+
+<http://localizalocales.es/lcc/resource/Distrito/12,270524837>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "MOSCARDO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "USERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ANTONIO LOPEZ"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "137"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270458555>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270458555> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL RINCON DE SIXTO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/129> .
+
+<http://localizalocales.es/lcc/resource/Terraza/120>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270033353> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "84"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270379680>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/17,270379680> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "LA ABUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/85> .
+
+<http://localizalocales.es/lcc/resource/Local/180000366>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,180000366> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL JARDIN DEL BACO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/88> .
+
+<http://localizalocales.es/lcc/resource/Local/270534735>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270534735> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "PARRILLA BONALMA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/153> .
+
+<http://localizalocales.es/lcc/resource/Distrito/20,200000837>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SIMANCAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SAN BLAS-CANILLEJAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MIERES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270181857>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "MAYOR DE VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PLAZA"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270539656>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "BUTARQUE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "BERROCAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270185092>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,270185092> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "EL JARDIN DE BACO II"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/98> .
+
+<http://localizalocales.es/lcc/resource/Local/270477281>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270477281> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFE BAR MARTIN"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/137> .
+
+<http://localizalocales.es/lcc/resource/Local/270217569>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/12,270217569> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "BAR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/154> .
+
+<http://localizalocales.es/lcc/resource/Local/10003543>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/1,10003543> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAÃ‘AS Y TAPAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/182> .
+
+<http://localizalocales.es/lcc/resource/Terraza/76>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170001120> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "32"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,270228707>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALBERTO PALACIOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/149>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270519524> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "31"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/4,40002021>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "GUINDALERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "SALAMANCA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "AGUSTIN DURAN"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/34>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270078567> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/18,270185092>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SANTA EUGENIA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLA DE VALLECAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "FUENTESPINA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,270057250>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "DELICIAS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "FERROCARRIL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/128>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/200001508> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "56"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000006>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN CRISTOBAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "GODELLA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "251"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/107>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/170000308> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "88"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/270309378>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/2,270309378> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "CAFETERIA HINOJAR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/138> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170000724>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "SAN ANDRES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "ALBERTO PALACIOS"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "PASEO"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Distrito/17,170001120>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "BUTARQUE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "VILLAVERDE"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "BERROCAL"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Terraza/84>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270181857> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "88"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Distrito/2,270055919>
+        a       <http://localizalocales.es/lcc/ontology/locales#Distrito> ;
+        <http://localizalocales.es/lcc/ontology/locales#barrio>
+                "CHOPERA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#distrito>
+                "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#nombreCalle>
+                "JAIME EL CONQUISTADOR"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#portal>
+                "29"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#tipoVia>
+                "CALLE"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://localizalocales.es/lcc/resource/Local/270071068>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/4,270071068> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "VIENA CAPELLANES"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/52> .
+
+<http://localizalocales.es/lcc/resource/Terraza/157>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270432683> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "32"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Terraza/136>
+        a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
+        <http://localizalocales.es/lcc/ontology/locales#mesas>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceALocal>
+                <http://localizalocales.es/lcc/resource/Local/270490968> ;
+        <http://localizalocales.es/lcc/ontology/locales#sillas>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localizalocales.es/lcc/resource/Local/280060978>
+        a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
+        <http://localizalocales.es/lcc/ontology/locales#perteneceADistrito>
+                <http://localizalocales.es/lcc/resource/Distrito/18,280060978> ;
+        <http://localizalocales.es/lcc/ontology/locales#rotulo>
+                "RESTAURANTE 40 & CUATRO"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
+                <http://localizalocales.es/lcc/resource/Terraza/73> .

@@ -1,0 +1,100 @@
+rdfs:label [http]	"Balogun Yakub Abiodun"@en
+rdfs:label [http]	"Balozi Harvey"@en
+rdfs:label [http]	"Balraj Madhok"@en
+rdfs:label [http]	"Balraj Pasi"@en
+rdfs:label [http]	"Balram Das"@en
+rdfs:label [http]	"Balram Das Tandon"@en
+rdfs:label [http]	"Balram Jakhar"@ca
+rdfs:label [http]	"Balram Jakhar"@en
+rdfs:label [http]	"Balram Jakhar"@es
+rdfs:label [http]	"Balram Jakhar"@it
+rdfs:label [http]	"Balram Jakhar"@pl
+rdfs:label [http]	"Джакхар, Балрам"@ru
+rdfs:label [http]	"Balram Jakhar"@sv
+rdfs:label [http]	"Balram Naik"@en
+rdfs:label [http]	"Balram Singh Rai"@en
+rdfs:label [http]	"محمد باشا البلطجي"@ar
+rdfs:label [http]	"Baltadji Mehmed Paixà"@ca
+rdfs:label [http]	"Baltaji Mehmed Pascha"@de
+rdfs:label [http]	"Baltacı Mehmet Pasha"@en
+rdfs:label [http]	"Baltacı Mehmed Pacha"@fr
+rdfs:label [http]	"Baltacı Mehmed Pascià"@it
+rdfs:label [http]	"Baltacı Mehmed Pasza"@pl
+rdfs:label [http]	"Балтаджи Мехмед-паша"@ru
+rdfs:label [http]	"Muhammed Baltadji pascha"@sv
+rdfs:label [http]	"بالتازار بروم"@ar
+rdfs:label [http]	"Baltasar Brum Rodríguez"@ca
+rdfs:label [http]	"Baltasar Brum"@de
+rdfs:label [http]	"Baltasar Brum"@en
+rdfs:label [http]	"Baltasar Brum"@es
+rdfs:label [http]	"Baltasar Brum Rodríguez"@eu
+rdfs:label [http]	"Baltasar Brum"@fr
+rdfs:label [http]	"Baltasar Brum"@it
+rdfs:label [http]	"Baltasar Brum"@pl
+rdfs:label [http]	"Брум, Бальтасар"@ru
+rdfs:label [http]	"Baltasar Brum"@pt
+rdfs:label [http]	"Бальтазар Брум"@uk
+rdfs:label [http]	"巴尔塔萨尔·布鲁姆"@zh
+rdfs:label [http]	"Baltasar Corrada del Río"@en
+rdfs:label [http]	"Baltasar Corrada del Río"@ca
+rdfs:label [http]	"Baltasar Corrada del Río"@de
+rdfs:label [http]	"Baltasar Corrada del Río"@es
+rdfs:label [http]	"Baltasar Garzón Real"@ca
+rdfs:label [http]	"Baltasar Garzón"@cs
+rdfs:label [http]	"Baltasar Garzón"@de
+rdfs:label [http]	"Baltasar Garzón"@en
+rdfs:label [http]	"Baltasar Garzón Real"@eo
+rdfs:label [http]	"Baltasar Garzón"@es
+rdfs:label [http]	"Baltasar Garzón"@eu
+rdfs:label [http]	"Baltasar Garzón"@fr
+rdfs:label [http]	"Baltasar Garzón"@in
+rdfs:label [http]	"バルタサール・ガルソン"@ja
+rdfs:label [http]	"Baltasar Garzón"@it
+rdfs:label [http]	"발타사르 가르손"@ko
+rdfs:label [http]	"Baltasar Garzón"@nl
+rdfs:label [http]	"Baltasar Garzón"@pl
+rdfs:label [http]	"Baltasar Garzón"@pt
+rdfs:label [http]	"Гарсон, Бальтасар"@ru
+rdfs:label [http]	"Baltasar Garzón"@sv
+rdfs:label [http]	"巴爾塔薩·加爾松"@zh
+rdfs:label [http]	"Baltasar Hidalgo de Cisneros"@ca
+rdfs:label [http]	"Baltasar de Cisneros"@de
+rdfs:label [http]	"Baltasar Hidalgo de Cisneros"@en
+rdfs:label [http]	"Baltasar Hidalgo de Cisneros"@eo
+rdfs:label [http]	"Baltasar Hidalgo de Cisneros"@es
+rdfs:label [http]	"Baltasar Hidalgo de Cisneros"@fr
+rdfs:label [http]	"バルタサール・イダルゴ・デ・シスネロス"@ja
+rdfs:label [http]	"Baltasar Hidalgo de Cisneros"@it
+rdfs:label [http]	"Baltasar Hidalgo de Cisneros"@pt
+rdfs:label [http]	"Идальго де Сиснерос, Бальтасар"@ru
+rdfs:label [http]	"Бальтасар Ідальго де Сіснерос"@uk
+rdfs:label [http]	"Baltasar Rebelo de Sousa"@de
+rdfs:label [http]	"Baltasar Rebelo de Sousa"@en
+rdfs:label [http]	"Baltasar Rebelo de Sousa"@pt
+rdfs:label [http]	"Baltasar de Barrionuevo"@en
+rdfs:label [http]	"Baltazar Hinojosa Ochoa"@en
+rdfs:label [http]	"Baltazar Hinojosa Ochoa"@es
+rdfs:label [http]	"Balthasar Glättli"@de
+rdfs:label [http]	"Balthasar Glättli"@en
+rdfs:label [http]	"Balthasar Glättli"@fr
+rdfs:label [http]	"Balthazar Bigirimana"@en
+rdfs:label [http]	"Baltis Rose"@en
+rdfs:label [http]	"Baltzar von Platen (Staatsmann)"@de
+rdfs:label [http]	"Baltzar von Platen (statesman)"@en
+rdfs:label [http]	"Baltzar von Platen (1766-1829)"@fr
+rdfs:label [http]	"Baltzar von Platen"@it
+rdfs:label [http]	"Baltzar von Platen"@sv
+rdfs:label [http]	"Balvantbhai Manvar"@en
+rdfs:label [http]	"Balvantray Mehta"@en
+rdfs:label [http]	"Balvantsinh Rajput"@en
+rdfs:label [http]	"Balvir Singh"@en
+rdfs:label [http]	"Balwant Singh Ramoowalia"@en
+rdfs:label [http]	"Balwantrai Mehta"@de
+rdfs:label [http]	"Balwantrai Mehta"@en
+rdfs:label [http]	"Balwinder Singh Bains"@en
+rdfs:comment [http]	"Balogun Yakub Abiodun (born 5 May 1951) is a Nigerian economist, public administrator, legislator in the House of Representatives of Nigeria, representing Lagos Island Federal Constituency II, Lagos State, South-West Nigeria and former Lagos State Head of Service."@en
+rdfs:comment [http]	""Balozi" Robert Zayd Muhammad Harvey (January 26, 1940 – December 28, 2016) was an American Diplomat, Community Organizer, Activist and Executive Director, based in New Jersey and New York. Balozi worked both domestically and internationally toward the growth and betterment of African-American communities in the U.S. while fostering relationships with Caribbean and African Nations. Harvey was given the title "Balozi" in Tanzania by President Julius K. “Mwalimu” Nyerere in 1964. "Balozi" means "ambassador" or "statesman" in Swahili."@en
+rdfs:comment [http]	"Balraj Pasi is an Indian politician. He was elected to the Lok Sabha, the lower house of the Parliament of India from the Nainital constituency of Uttar Pradesh (now Uttarakhand) as a member of the Bharatiya Janata Party."@en
+rdfs:comment [http]	"Balram Das is an Indian politician. He was a Member of Parliament, representing Madhya Pradesh in the Rajya Sabha the upper house of India's Parliament as a member of the Indian National Congress."@en
+rdfs:comment [http]	"Balram Das Tandon (1 November 1927 – 14 August 2018) was an Indian politician and the Former Governor of Chhattisgarh. In his adult hood for some years he was a pracharak of the Rashtriya Swayamsevak Sangh (RSS), and a leader of Bharatiya Janata Party from Punjab."@en
+rdfs:comment [http]	"Balram Jakhar (Panjab, Índia, 23 d'agost de 1923-Delhi, Índia, 3 de febrer de 2016) va ser un polític indi. Va ser un parlamentari i va servir com a Governador de Madhya Pradesh des de juny de 2004 fins a juny de 2009. Abans de ser governador, Jakhar va ser el 8è ponent de Lok Sabha, servint des de gener de 1980 fins a novembre de 1989. Jakhar va morir a causa de complicacions de pneumònia el 3 de febrer de 2016 a Delhi, Índia, a l'edat de 92 anys."@ca

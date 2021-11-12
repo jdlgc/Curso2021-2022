@@ -17,7 +17,7 @@ mappings:
   Provincia:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s: http://calidadAire.com/$(provincia)
+    s: http://calidadAire.com/refProvincia/$(provincia)
     po:
       - [a, vocab:Provincia]
       - [vocab:refProvincia,$(provincia),xsd:string]
@@ -28,7 +28,7 @@ mappings:
   Municipio:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(municipio)
+    s:  http://calidadAire.com/refMunicipio/$(municipio)
     po:
       - [a, vocab:Municipio]
       - [vocab:refMunicipio,$(municipio),xsd:string]
@@ -39,7 +39,7 @@ mappings:
   Estacion:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(estacion)
+    s:  http://calidadAire.com/refEstacion/$(estacion)
     po:
       - [a, vocab:Estacion]
       - [vocab:refEstacion,$(estacion),xsd:string]
@@ -54,7 +54,7 @@ mappings:
   Magnitud:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(magnitud)
+    s:  http://calidadAire.com/refMagnitud/$(magnitud)
     po:
       - [a, vocab:Magnitud]
       - [vocab:refMagnitud,$(magnitud),xsd:string]
@@ -62,7 +62,7 @@ mappings:
   PuntoMuestreo:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(punto_muestreo)
+    s:  http://calidadAire.com/tienePuntoMuestreo/$(punto_muestreo)
     po:
       - [a, vocab:PuntoMuestreo]
       - [vocab:refPunto,$(punto_muestreo),xsd:string]
@@ -76,57 +76,57 @@ mappings:
   Medicion:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(ano)-$(mes)-$(dia)
+    s:  http://calidadAire.com/fechaMedicion/$(ano)-$(mes)-$(dia)
     po:
       - [a, vocab:Medicion]
       - [vocab:fecha,$(ano)-$(mes)-$(dia), xsd:date]
       - [vocab:h01, $(h01), xsd:double]
-      - [vocab:valido1, $(v01), xsd:boolean]
+      - [vocab:valido1, $(v01), xsd:string]
       - [vocab:h02, $(h02), xsd:double]
-      - [vocab:valido2, $(v02), xsd:boolean]
+      - [vocab:valido2, $(v02), xsd:string]
       - [vocab:h03, $(h03), xsd:double]
-      - [vocab:valido3, $(v03), xsd:boolean]
+      - [vocab:valido3, $(v03), xsd:string]
       - [vocab:h04, $(h04), xsd:double]
-      - [vocab:valido4, $(v04), xsd:boolean]
+      - [vocab:valido4, $(v04), xsd:string]
       - [vocab:h05, $(h05), xsd:double]
-      - [vocab:valido5, $(v05), xsd:boolean]
+      - [vocab:valido5, $(v05), xsd:string]
       - [vocab:h06, $(h06), xsd:double]
-      - [vocab:valido6, $(v06), xsd:boolean]
+      - [vocab:valido6, $(v06), xsd:string]
       - [vocab:h07, $(h07), xsd:double]
-      - [vocab:valido7, $(v07), xsd:boolean]
+      - [vocab:valido7, $(v07), xsd:string]
       - [vocab:h08, $(h08), xsd:double]
-      - [vocab:valido8, $(v08), xsd:boolean]
+      - [vocab:valido8, $(v08), xsd:string]
       - [vocab:h09, $(h09), xsd:double]
-      - [vocab:valido9, $(v09), xsd:boolean]
+      - [vocab:valido9, $(v09), xsd:string]
       - [vocab:h010, $(h10), xsd:double]
-      - [vocab:valido10, $(v10), xsd:boolean]
+      - [vocab:valido10, $(v10), xsd:string]
       - [vocab:h011, $(h11), xsd:double]
-      - [vocab:valido11, $(v11), xsd:boolean]
+      - [vocab:valido11, $(v11), xsd:string]
       - [vocab:h012, $(h12), xsd:double]
-      - [vocab:valido12, $(v12), xsd:boolean]
+      - [vocab:valido12, $(v12), xsd:string]
       - [vocab:h013, $(h13), xsd:double]
-      - [vocab:valido13, $(v13), xsd:boolean]
+      - [vocab:valido13, $(v13), xsd:string]
       - [vocab:h014, $(h14), xsd:double]
-      - [vocab:valido14, $(v14), xsd:boolean]
+      - [vocab:valido14, $(v14), xsd:string]
       - [vocab:h015, $(h15), xsd:double]
-      - [vocab:valido15, $(v15), xsd:boolean]
+      - [vocab:valido15, $(v15), xsd:string]
       - [vocab:h016, $(h16), xsd:double]
-      - [vocab:valido16, $(v16), xsd:boolean]
+      - [vocab:valido16, $(v16), xsd:string]
       - [vocab:h017, $(h17), xsd:double]
-      - [vocab:valido17, $(v17), xsd:boolean]
+      - [vocab:valido17, $(v17), xsd:string]
       - [vocab:h018, $(h18), xsd:double]
-      - [vocab:valido18, $(v18), xsd:boolean]
+      - [vocab:valido18, $(v18), xsd:string]
       - [vocab:h019, $(h19), xsd:double]
-      - [vocab:valido19, $(v19), xsd:boolean]
+      - [vocab:valido19, $(v19), xsd:string]
       - [vocab:h020, $(h20), xsd:double]
-      - [vocab:valido20, $(v20), xsd:boolean]
+      - [vocab:valido20, $(v20), xsd:string]
       - [vocab:h021, $(h21), xsd:double]
-      - [vocab:valido21, $(v21), xsd:boolean]
+      - [vocab:valido21, $(v21), xsd:string]
       - [vocab:h022, $(h22), xsd:double]
-      - [vocab:valido22, $(v22), xsd:boolean]
+      - [vocab:valido22, $(v22), xsd:string]
       - [vocab:h023, $(h23), xsd:double]
-      - [vocab:valido23, $(v23), xsd:boolean]
+      - [vocab:valido23, $(v23), xsd:string]
       - [vocab:h024, $(h24), xsd:double]
-      - [vocab:valido24, $(v24), xsd:boolean]
+      - [vocab:valido24, $(v24), xsd:string]
    
    

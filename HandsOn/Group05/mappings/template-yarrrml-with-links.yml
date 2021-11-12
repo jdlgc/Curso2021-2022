@@ -17,7 +17,7 @@ mappings:
   Provincia:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s: http://calidadAire.com/$(provincia)
+    s: http://calidadAire.com/refProvincia/$(provincia)
     po:
       - [a, vocab:Provincia]
       - [vocab:refProvincia,$(provincia),xsd:string]
@@ -29,7 +29,7 @@ mappings:
   Municipio:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(municipio)
+    s:  http://calidadAire.com/refMunicipio/$(municipio)
     po:
       - [a, vocab:Municipio]
       - [vocab:refMunicipio,$(municipio),xsd:string]
@@ -41,7 +41,7 @@ mappings:
   Estacion:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(estacion)
+    s:  http://calidadAire.com/refEstacion/$(estacion)
     po:
       - [a, vocab:Estacion]
       - [vocab:refEstacion,$(estacion),xsd:string]
@@ -56,7 +56,7 @@ mappings:
   Magnitud:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(magnitud)
+    s:  http://calidadAire.com/refMagnitud/$(magnitud)
     po:
       - [a, vocab:Magnitud]
       - [vocab:refMagnitud,$(magnitud),xsd:string]
@@ -64,7 +64,7 @@ mappings:
   PuntoMuestreo:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(punto_muestreo)
+    s:  http://calidadAire.com/refPuntoMuestreo/$(punto_muestreo)
     po:
       - [a, vocab:PuntoMuestreo]
       - [vocab:refPunto,$(punto_muestreo),xsd:string]
@@ -78,7 +78,7 @@ mappings:
   Medicion:
     sources:
       - [calidad_aire_datos_mes-updated.csv~csv]
-    s:  http://calidadAire.com/$(ano)-$(mes)-$(dia)
+    s:  http://calidadAire.com/fechaMedicion/$(ano)-$(mes)-$(dia)
     po:
       - [a, vocab:Medicion]
       - [vocab:fecha,$(ano)-$(mes)-$(dia), xsd:date]

@@ -1,0 +1,1386 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGO",
+    "description": "Remove column CODIGO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD_ETRS89",
+    "description": "Remove column LONGITUD_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD_ETRS89",
+    "description": "Remove column LATITUD_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ALTITUD",
+    "description": "Remove column ALTITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_TIPO",
+    "description": "Remove column COD_TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NOM_TIPO",
+    "description": "Remove column NOM_TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NO2",
+    "description": "Remove column NO2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SO2",
+    "description": "Remove column SO2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CO",
+    "description": "Remove column CO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PM10",
+    "description": "Remove column PM10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PM2_5",
+    "description": "Remove column PM2_5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "O3",
+    "description": "Remove column O3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "BTX",
+    "description": "Remove column BTX"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COD_VIA",
+    "description": "Remove column COD_VIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_CLASE",
+    "description": "Remove column VIA_CLASE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_PAR",
+    "description": "Remove column VIA_PAR"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_NOMBRE",
+    "description": "Remove column VIA_NOMBRE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha alta",
+    "description": "Remove column Fecha alta"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA_X_ETRS89",
+    "description": "Remove column COORDENADA_X_ETRS89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA_Y_ETRS89",
+    "description": "Remove column COORDENADA_Y_ETRS89"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESTACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pza. de Espa馻"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plaza de España"
+      }
+    ],
+    "description": "Mass edit cells in column ESTACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " Pza. El韕tica - Avda. Oporto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plaza Elíptica - Avda. Oporto"
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "C/ Ria駉 (Barajas) "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "C/ Riaño (Barajas) "
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Plaza de Espa馻"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plaza de España"
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entre C/ Alcal� y C/ O� Donell "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "C/ Alcalá y C/ O'Donell "
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Avda. Ram髇 y Cajal  esq. C/ Pr韓cipe de Vergara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara"
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "C/. Juan Pe馻lver"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "C/. Juan Peñalver"
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "C/. J鷓iter, 21 (Barajas) "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "C/. Júpiter, 21 (Barajas) "
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Casa de Campo  (Terminal del Telef閞ico)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Casa de Campo  (Terminal del Teleférico)"
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Avda. Pablo Iglesias esq. C/ Marqu閟 de Lema"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Avda. Pablo Iglesias esq. C/ Marqués de Lema"
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "C/ Arroyo del Olivar  esq. C/  R韔 Grande. "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "C/ Arroyo del Olivar  esq. C/  Río Grande. "
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO_CORTO",
+    "newColumnName": "ID_ESTACION",
+    "description": "Rename column CODIGO_CORTO to ID_ESTACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ESTACION",
+    "newColumnName": "NOMBRE",
+    "description": "Rename column ESTACION to NOMBRE"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_ESTACION",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_ESTACION using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LATITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LATITUD using expression value.toString()"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q174782",
+        "name": "square"
+      },
+      "autoMatch": true,
+      "columnDetails": [
+        {
+          "column": "DIRECCION",
+          "propertyName": "street address",
+          "propertyID": "P6375"
+        }
+      ],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column NOMBRE to type Q174782"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Plaza de España",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1326261",
+      "name": "plaza de España",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de España (Q1326261) for cells containing \"Plaza de España\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Escuelas Aguirre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5397501",
+      "name": "Escuelas Aguirre",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Escuelas Aguirre (Q5397501) for cells containing \"Escuelas Aguirre\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Avda. Ramón y Cajal",
+    "judgment": "matched",
+    "match": {
+      "id": "Q30467128",
+      "name": "Avenida de Ramón y Cajal, Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Avenida de Ramón y Cajal, Madrid (Q30467128) for cells containing \"Avda. Ramón y Cajal\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Arturo Soria",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2481371",
+      "name": "Arturo Soria",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arturo Soria (Q2481371) for cells containing \"Arturo Soria\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "Q919536",
+      "name": "Villaverde",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Villaverde (Q919536) for cells containing \"Villaverde\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Farolillo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8960929",
+      "name": "Farolillo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Farolillo (Q8960929) for cells containing \"Farolillo\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Farolillo",
+    "description": "Clear recon data for cells containing \"Farolillo\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Casa de Campo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16302441",
+      "name": "Casa de Campo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casa de Campo (Q16302441) for cells containing \"Casa de Campo\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Barajas Pueblo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q807230",
+      "name": "Barajas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Barajas (Q807230) for cells containing \"Barajas Pueblo\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Plaza del Carmen",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080406",
+      "name": "Plaza del Carmen",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plaza del Carmen (Q6080406) for cells containing \"Plaza del Carmen\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Moratalaz",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2076109",
+      "name": "Moratalaz",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Moratalaz (Q2076109) for cells containing \"Moratalaz\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Barrio del Pilar",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2463533",
+      "name": "Barrio del Pilar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Barrio del Pilar (Q2463533) for cells containing \"Barrio del Pilar\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Cuatro Caminos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2420839",
+      "name": "Cuatro Caminos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cuatro Caminos (Q2420839) for cells containing \"Cuatro Caminos\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Vallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10296",
+      "name": "Vallecas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vallecas (Q10296) for cells containing \"Vallecas\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Mendez Alvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2479775",
+      "name": "Méndez Álvaro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Méndez Álvaro (Q2479775) for cells containing \"Mendez Alvaro\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Castellana",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4781",
+      "name": "Castellana",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Castellana (Q4781) for cells containing \"Castellana\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Parque del Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1131807",
+      "name": "El Retiro Park",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Retiro Park (Q1131807) for cells containing \"Parque del Retiro\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Plaza Castilla",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2463399",
+      "name": "Plaza de Castilla",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plaza de Castilla (Q2463399) for cells containing \"Plaza Castilla\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Ensanche de Vallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3847485",
+      "name": "Ensanche de Vallecas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ensanche de Vallecas (Q3847485) for cells containing \"Ensanche de Vallecas\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Urbanización Embajada",
+    "description": "Clear recon data for cells containing \"Urbanización Embajada\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Plaza Elíptica",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16619985",
+      "name": "Plaza Elíptica",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plaza Elíptica (Q16619985) for cells containing \"Plaza Elíptica\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Sanchinarro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3076623",
+      "name": "Sanchinarro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sanchinarro (Q3076623) for cells containing \"Sanchinarro\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "El Pardo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3314337",
+      "name": "El Pardo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Pardo (Q3314337) for cells containing \"El Pardo\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Juan Carlos I",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1583169",
+      "name": "Juan Carlos I Park",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Juan Carlos I Park (Q1583169) for cells containing \"Juan Carlos I\" in column NOMBRE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Tres Olivos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q608766",
+      "name": "Tres Olivos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tres Olivos (Q608766) for cells containing \"Tres Olivos\" in column NOMBRE"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NOMBRE",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "WIKIDATA-LINKS",
+    "columnInsertIndex": 2,
+    "description": "Create column WIKIDATA-LINKS at index 2 based on column NOMBRE using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q1326261"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q1326261"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q5397501"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q5397501"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q30467128"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q30467128"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q2481371"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q2481371"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q919536"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q919536"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q16302441"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q16302441"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q807230"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q807230"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q6080406"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q6080406"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q2076109"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q2076109"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q2420839"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q2420839"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q2463533"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q2463533"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q10296"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q10296"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q2479775"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q2479775"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q4781"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q4781"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q1131807"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q1131807"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q2463399"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q2463399"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q3847485"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q3847485"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q16619985"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q16619985"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q3076623"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q3076623"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q3314337"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q3314337"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q1583169"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q1583169"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIKIDATA-LINKS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q608766"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q608766"
+      }
+    ],
+    "description": "Mass edit cells in column WIKIDATA-LINKS"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LATITUD using expression value.toNumber()"
+  }
+]

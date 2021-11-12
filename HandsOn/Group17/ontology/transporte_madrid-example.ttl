@@ -1,22 +1,46 @@
-:"Bicimad Spot Atocha" rdf:type dbo:TransportSpot ;
-    :hasNumberOfSeats 30 ;
-    :hasDischargeDate 40055 ;
-    :hasType "BiciMad" ;
-    :hasId 78945 ;
-    :hasAddress "Calle Aristóteles" ;
-    :hasGis "(456, 243)" ;
-    :hasCoordinates "(45.6º, -2.43º)"  .
+@prefix : <http://transporteMad.example.org/Ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <http://transporteMad.example.org#> .
+@prefix bici: <http://transporteMad.example.org/Ontology/EstacionBiciMad/> .
+@prefix taxi: <http://transporteMad.example.org/Ontology/ParadaTaxi/> .
+@prefix tren: <http://transporteMad.example.org/Ontology/EstacionCercanias/> .
+@base <http://transporteMad.example.org/Ontology/> .
 
-:"Calle Aristóteles" rdf:type dbo:Address ;
-    :hasStreetName "Calle Aristóteles" ;
-    :hasStreetNumber 23 ;
-    :hasAdditionalInformation "" .
+bici:1 :barrio "SOL";
+    :nFinca "2";
+    :tipoReserva "BiciMAD";
+    :numeroPlazas "30";
+    :longitud "-3.701.998";
+    :latitud "404.171.107";
+    :direccion "ALCALA, CALLE, DE, 2";
+    :gis_x "440443,61";
+    :gis_y "4474290,65";
+    :fechaAlta "43803";
+    :distrito "CENTRO".
 
-:"(456, 243)" rdf:type dbo:Gis ;
-    :hasGisX 456 ;
-    :hasGisY 243 .
+taxi:1  :Gis_X "441044,0800000000";
+	:Gis_Y "4475402,9200000000";
+	:FechaAlta "1";
+	:Distrito "Centro";
+	:Barrio "Justicia";
+	:nFinca "6";
+	:TipoReserva "Taxi";
+	:LineaBateria "LÃ­nea";
+	:NumeroPlazas "2";
+	:LongitudP "13,20";
+	:Longitud "-3.6950238";
+	:Latitud "-3.6950238";
+	:Direccion "GENOVA, CALLE, DE, 6".
 
-:"(45.6º, -2.43º)" rdf:type dbo:Coordinates ;
-    :hasLatitude 45.6º ;
-    :hasLongitude -2.43º .
-
+tren:70200 :Poblacion "Guadalajara";
+    :Provincia "Guadalajara Province";
+    :Fichas "https://data.renfe.com/files/estaciones/FichaEstacion70200.pdf";
+    :Descripcion "Guadalajara railway station";
+    :Latitud "40,534668";
+    :Longitud "-3,2985719";
+    :Direccion "CALLE FRANCISCO ARITIO, S/N";
+    :CodigoPostal "19004".

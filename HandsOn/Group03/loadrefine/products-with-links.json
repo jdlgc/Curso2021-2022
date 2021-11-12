@@ -1,0 +1,1077 @@
+[
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q45701",
+                "name": "waste"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column Product to type Q45701"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 24,
+                    "to": 56,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q45701",
+                "name": "waste"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 1
+        },
+        "description": "Reconcile cells in column Product to type Q45701"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Glass bottle",
+        "judgment": "matched",
+        "match": {
+            "id": "Q5567094",
+            "name": "glass bottle",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item glass bottle (Q5567094) for cells containing \"Glass bottle\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Other carton",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1413974",
+            "name": "carton",
+            "types": [
+                ""
+            ],
+            "score": 33.5
+        },
+        "shareNewTopics": false,
+        "description": "Match item carton (Q1413974) for cells containing \"Other carton\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Food Can",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1072971",
+            "name": "chilled",
+            "types": [
+                ""
+            ],
+            "score": 30
+        },
+        "shareNewTopics": false,
+        "description": "Match item chilled (Q1072971) for cells containing \"Food Can\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Other plastic bottle",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1334994",
+            "name": "hot water bottle",
+            "types": [
+                ""
+            ],
+            "score": 33.5
+        },
+        "shareNewTopics": false,
+        "description": "Match item hot water bottle (Q1334994) for cells containing \"Other plastic bottle\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Aerosol",
+        "judgment": "matched",
+        "match": {
+            "id": "Q104541",
+            "name": "aerosol",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item aerosol (Q104541) for cells containing \"Aerosol\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Plastic film",
+        "judgment": "matched",
+        "match": {
+            "id": "Q4370258",
+            "name": "plastic film",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic film (Q4370258) for cells containing \"Plastic film\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Drink carton",
+        "judgment": "matched",
+        "match": {
+            "id": "Q11301688",
+            "name": "gable top carton",
+            "types": [
+                ""
+            ],
+            "score": 25
+        },
+        "shareNewTopics": false,
+        "description": "Match item gable top carton (Q11301688) for cells containing \"Drink carton\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Metal bottle cap",
+        "judgment": "matched",
+        "match": {
+            "id": "Q12360",
+            "name": "bottle opener",
+            "types": [
+                ""
+            ],
+            "score": 31
+        },
+        "shareNewTopics": false,
+        "description": "Match item bottle opener (Q12360) for cells containing \"Metal bottle cap\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Disposable food container",
+        "judgment": "matched",
+        "match": {
+            "id": "Q2909236",
+            "name": "disposable food packaging",
+            "types": [
+                ""
+            ],
+            "score": 30
+        },
+        "shareNewTopics": false,
+        "description": "Match item disposable food packaging (Q2909236) for cells containing \"Disposable food container\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Normal paper",
+        "judgment": "matched",
+        "match": {
+            "id": "Q6432723",
+            "name": "card stock",
+            "types": [
+                ""
+            ],
+            "score": 29
+        },
+        "shareNewTopics": false,
+        "description": "Match item card stock (Q6432723) for cells containing \"Normal paper\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Paper cup",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1131992",
+            "name": "paper cup",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item paper cup (Q1131992) for cells containing \"Paper cup\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Cigarette",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1578",
+            "name": "cigarette",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item cigarette (Q1578) for cells containing \"Cigarette\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "Product: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "Product",
+                    "from": 25,
+                    "to": 51,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Egg carton",
+        "judgment": "matched",
+        "match": {
+            "id": "Q959287",
+            "name": "egg carton",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item egg carton (Q959287) for cells containing \"Egg carton\" in column Product"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "Product",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_wikidata_waste",
+        "columnInsertIndex": 2,
+        "description": "Create column same_as_wikidata_waste at index 2 based on column Product using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "WasteType",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q132580",
+                "name": "recycling"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column WasteType to type Q132580"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "WasteType",
+        "similarValue": "Plastic",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1194111",
+            "name": "plastic recycling",
+            "types": [
+                ""
+            ],
+            "score": 33.5
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic recycling (Q1194111) for cells containing \"Plastic\" in column WasteType"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "WasteType",
+        "similarValue": "General",
+        "judgment": "matched",
+        "match": {
+            "id": "Q132580",
+            "name": "recycling",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item recycling (Q132580) for cells containing \"General\" in column WasteType"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Meal carton",
+        "judgment": "new",
+        "shareNewTopics": true,
+        "description": "Mark to create one single new item for all cells containing \"Meal carton\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Meal carton",
+        "judgment": "matched",
+        "match": {
+            "id": "Q45701",
+            "name": "waste",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item waste (Q45701) for cells containing \"Meal carton\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Meal carton",
+        "judgment": "new",
+        "shareNewTopics": true,
+        "description": "Mark to create one single new item for all cells containing \"Meal carton\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Clear plastic bottle",
+        "judgment": "new",
+        "shareNewTopics": true,
+        "description": "Mark to create one single new item for all cells containing \"Clear plastic bottle\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Plastic bottle cap",
+        "judgment": "new",
+        "shareNewTopics": true,
+        "description": "Mark to create one single new item for all cells containing \"Plastic bottle cap\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Drink can",
+        "judgment": "new",
+        "shareNewTopics": true,
+        "description": "Mark to create one single new item for all cells containing \"Drink can\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Clear plastic bottle",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1757946",
+            "name": "plastic bottle",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic bottle (Q1757946) for cells containing \"Clear plastic bottle\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Meal carton",
+        "judgment": "matched",
+        "match": {
+            "id": "Q3444710",
+            "name": "carton",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item carton (Q3444710) for cells containing \"Meal carton\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Glass bottle",
+        "judgment": "matched",
+        "match": {
+            "id": "Q5567094",
+            "name": "glass bottle",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item glass bottle (Q5567094) for cells containing \"Glass bottle\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Clear plastic bottle",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1757946",
+            "name": "plastic bottle",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic bottle (Q1757946) for cells containing \"Clear plastic bottle\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Plastic bottle cap",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1440281",
+            "name": "bottle cap",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item bottle cap (Q1440281) for cells containing \"Plastic bottle cap\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Drink can",
+        "judgment": "matched",
+        "match": {
+            "id": "Q3261783",
+            "name": "aluminum can",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item aluminum can (Q3261783) for cells containing \"Drink can\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Glass cup",
+        "judgment": "matched",
+        "match": {
+            "id": "Q81727",
+            "name": "cup",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item cup (Q81727) for cells containing \"Glass cup\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Other plastic wrapper",
+        "judgment": "matched",
+        "match": {
+            "id": "Q94564812",
+            "name": "Plastic wrappers",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Plastic wrappers (Q94564812) for cells containing \"Other plastic wrapper\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Styrofoam piece",
+        "judgment": "matched",
+        "match": {
+            "id": "Q3501372",
+            "name": "extruded polystyrene foam",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item extruded polystyrene foam (Q3501372) for cells containing \"Styrofoam piece\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Single-use carrier bag",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1196111",
+            "name": "plastic shopping bag",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic shopping bag (Q1196111) for cells containing \"Single-use carrier bag\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Tissues",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1471060",
+            "name": "tissue paper",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item tissue paper (Q1471060) for cells containing \"Tissues\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Toilet tube",
+        "judgment": "matched",
+        "match": {
+            "id": "Q5840",
+            "name": "toilet paper",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item toilet paper (Q5840) for cells containing \"Toilet tube\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Plastic lid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q2488579",
+            "name": "lid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item lid (Q2488579) for cells containing \"Plastic lid\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Metal lid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q2488579",
+            "name": "lid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item lid (Q2488579) for cells containing \"Metal lid\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Plastic straw",
+        "judgment": "matched",
+        "match": {
+            "id": "Q189211",
+            "name": "drinking straw",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item drinking straw (Q189211) for cells containing \"Plastic straw\" in column Product"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "same_as_wikidata_waste",
+        "description": "Remove column same_as_wikidata_waste"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "Product",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_wikidata_product",
+        "columnInsertIndex": 2,
+        "description": "Create column same_as_wikidata_product at index 2 based on column Product using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "WasteType",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_wikidata_wastetype",
+        "columnInsertIndex": 4,
+        "description": "Create column same_as_wikidata_wastetype at index 4 based on column WasteType using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "same_as_wikidata_wastetype",
+        "description": "Remove column same_as_wikidata_wastetype"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Pop tab",
+        "judgment": "matched",
+        "match": {
+            "id": "Q2488579",
+            "name": "lid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item lid (Q2488579) for cells containing \"Pop tab\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Other plastic wrapper",
+        "judgment": "matched",
+        "match": {
+            "id": "Q3360230",
+            "name": "packaging",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item packaging (Q3360230) for cells containing \"Other plastic wrapper\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Other plastic",
+        "judgment": "matched",
+        "match": {
+            "id": "Q11474",
+            "name": "plastic",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic (Q11474) for cells containing \"Other plastic\" in column Product"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Product",
+        "similarValue": "Crisp packet",
+        "judgment": "matched",
+        "match": {
+            "id": "Q498439",
+            "name": "plastic bag",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic bag (Q498439) for cells containing \"Crisp packet\" in column Product"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "same_as_wikidata_product",
+        "description": "Remove column same_as_wikidata_product"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "Product",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_wikidata_product",
+        "columnInsertIndex": 2,
+        "description": "Create column same_as_wikidata_product at index 2 based on column Product using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    }
+]

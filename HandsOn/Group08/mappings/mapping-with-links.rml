@@ -1,0 +1,125 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix vocab: <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@base <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#> .
+
+
+<#TriplesMap1> a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "../csv/estaciones-with-links.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ];
+
+    rr:subjectMap [
+        rr:template "http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#{ID_ESTACION}";
+		rr:termType rr:IRI;
+        rr:class vocab:Estacion
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:nombre_estacion;
+        rr:objectMap [
+            rml:reference "NOMBRE";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:calle;
+        rr:objectMap [
+            rml:reference "DIRECCION";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:latitud;
+        rr:objectMap [
+            rml:reference "LATITUD";
+			rr:datatype xsd:string
+        ]
+    ];
+	
+	rr:predicateObjectMap [
+        rr:predicate vocab:longitud;
+        rr:objectMap [
+            rml:reference "LONGITUD";
+			rr:datatype xsd:string
+        ]
+    ];
+	
+	rr:predicateObjectMap [
+		rr:predicate owl:sameAs;
+		rr:objectMap [
+			rml:reference "WIKIDATA-LINKS";
+			rr:datatype xsd:string
+		]
+	];
+	
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			rr:constant vocab:Medicion; rr:termType rr:IRI
+		];
+		rr:objectMap [
+			rr:parentTriplesMap <#TriplesMap2>;
+			rr:joinCondition [
+				rr:child "ID_ESTACION"; rr:parent "ID_ESTACION"; ];
+		]
+	].
+
+
+
+<#TriplesMap2> a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "../csv/medicion-with-links.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ];
+
+    rr:subjectMap [
+        rr:template "http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#{ID_ESTACION}";
+		rr:termType rr:IRI;
+        rr:class vocab:Medicion
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:nombre_gas;
+        rr:objectMap [
+            rml:reference "NOMBRE";
+                rr:datatype xsd:string
+            ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:id_gas;
+        rr:objectMap [
+            rml:reference "ID_GAS";
+                rr:datatype xsd:int
+            ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:fechaMedicion;
+        rr:objectMap [
+            rml:reference "FECHA";
+                rr:datatype xsd:date
+            ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:cantidad;
+        rr:objectMap [
+            rml:reference "CANTIDAD";
+                rr:datatype xsd:float
+            ]
+    ];
+	
+	rr:predicateObjectMap [
+		rr:predicate owl:sameAs;
+		rr:objectMap [
+			rml:reference "WIKIDATA-LINKS";
+			rr:datatype xsd:string
+		]
+	].

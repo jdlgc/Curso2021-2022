@@ -1,25 +1,20 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dbo: <http://www.smartcity.madrid.es/mobility/ontology/>
+PREFIX mty: <http://www.smartcity.madrid.es/mobility/>
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 SELECT DISTINCT ?b
 WHERE{
     ?b rdf:type dbo:Bus.
-    ?b dbo:BARRIO "Embajadores". 
-    ?b dbo:DISTRITO "Centro". 
-    ?b dbo:LINEAS "T32".
+    ?b dbo:Ward_Name "Embajadores". 
+    ?b dbo:District_Name "Centro". 
+    ?b dbo:Bus_Lines "T32".
 }
 
 SELECT DISTINCT ?metrostation
 WHERE{
     ?metrostation rdf:type dbo:Metro.
-    ?metrostation dbo:BARRIO "Embajadores". 
-}
-
-SELECT DISTINCT ?Tlight_id 
-WHERE{
-    ?Tlight_id rdf:type dbo:TrafficLight.
-    ?Tlight_id dbo:DISTRITO "1". 
+    ?metrostation dbo:Ward_Name "Embajadores". 
 }
 
 SELECT DISTINCT ?dis
@@ -34,8 +29,8 @@ WHERE{
     ?d owl:sameAs <https://wikidata.org/entity/Q1763376>.
 }
 
-SELECT DISTINCT ?MetroLigero
+SELECT DISTINCT ?MetroLigero ?MetroLigeroW
 WHERE{
-    ?MetroLigero rdf:type dbo:LightRail.
-    
+    ?MetroLigero rdf:type dbo:LightMetro.
+    ?MetroLigero owl:sameAs ?MetroLigeroW    
 } LIMIT 10;

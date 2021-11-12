@@ -1,0 +1,225 @@
+prefixes:
+  ont: http://spainaq.linkeddata.com/aq/ontologies/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  dbo: http://dbpedia.org/ontology#
+
+mappings:
+
+  Provincia2018:
+    sources:
+      - [./CSV/data2018-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/provincia/$(PROVINCIA)
+    po:
+      - [a, dbo:Provincia]
+      - [ont:provinciaID, $(PROVINCIA), xsd:string]
+      - p: ont:hasMunicipio
+        o: 
+          mapping: Municipio2018
+
+  Municipio2018:
+    sources:
+      - [./CSV/data2018-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/municipio/$(MUNICIPIO)
+    po:
+      - [a, dbo:Municipio]
+      - [ont:municipioID, $(MUNICIPIO), xsd:string]
+      - p: ont:hasEstacion
+        o: 
+          mapping: Estacion2018
+
+  Estacion2018:
+    sources:
+      - [./CSV/data2018-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/estacion/$(ESTACION)
+    po:
+      - [a, dbo:Estacion]
+      - [ont:estacionID, $(ESTACION), xsd:string]
+      - p: ont:hasMagnitud
+        o: 
+          mapping: Magnitud2018
+
+      - p: ont:hasEmisiones
+        o: 
+          mapping: Emisiones2018
+ 
+  Emisiones2018:
+    sources:
+      - [./CSV/data2018-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/emisiones/$(D01)_$(DATE)_$(V01)
+    po:
+      - [a, dbo:Emisiones]
+      - [ont:hasDate, $(DATE), xsd:date]
+      - [ont:hasValor, $(D01), xsd:string]
+      - [ont:hasValidez, $(V01), xsd:string]
+  Magnitud2018:
+    sources:
+      - [./CSV/data2018-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/magnitud/$(MAGNITUD)
+    po:
+      - [a, dbo:Magnitud]
+      - [ont:magnitudID, $(MAGNITUD), xsd:string]
+
+
+  Provincia2019:
+    sources:
+      - [./CSV/data2019-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/provincia/$(PROVINCIA)
+    po:
+      - [a, dbo:Provincia]
+      - [ont:provinciaID, $(PROVINCIA), xsd:string]
+      - p: ont:hasMunicipio
+        o: 
+          mapping: Municipio2019
+
+  Municipio2019:
+    sources:
+      - [./CSV/data2019-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/municipio/$(MUNICIPIO)
+    po:
+      - [a, dbo:Municipio]
+      - [ont:municipioID, $(MUNICIPIO), xsd:string]
+      - p: ont:hasEstacion
+        o: 
+          mapping: Estacion2019
+
+  Estacion2019:
+    sources:
+      - [./CSV/data2019-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/estacion/$(ESTACION)
+    po:
+      - [a, dbo:Estacion]
+      - [ont:estacionID, $(ESTACION), xsd:string]
+      - p: ont:hasMagnitud
+        o: 
+          mapping: Magnitud2019
+
+      - p: ont:hasEmisiones
+        o: 
+          mapping: Emisiones2019
+ 
+  Emisiones2019:
+    sources:
+      - [./CSV/data2019-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/emisiones/$(D01)_$(DATE)_$(V01)
+    po:
+      - [a, dbo:Emisiones]
+      - [ont:hasDate, $(DATE), xsd:date]
+      - [ont:hasValor, $(D01), xsd:string]
+      - [ont:hasValidez, $(V01), xsd:string]
+  Magnitud2019:
+    sources:
+      - [./CSV/data2019-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/magnitud/$(MAGNITUD)
+    po:
+      - [a, dbo:Magnitud]
+      - [ont:magnitudID, $(MAGNITUD), xsd:string]
+
+  
+  Provincia2020:
+    sources:
+      - [./CSV/data2020-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/provincia/$(PROVINCIA)
+    po:
+      - [a, dbo:Provincia]
+      - [ont:provinciaID, $(PROVINCIA), xsd:string]
+      - p: ont:hasMunicipio
+        o: 
+          mapping: Municipio2020
+
+  Municipio2020:
+    sources:
+      - [./CSV/data2020-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/municipio/$(MUNICIPIO)
+    po:
+      - [a, dbo:Municipio]
+      - [ont:municipioID, $(MUNICIPIO), xsd:string]
+      - p: ont:hasEstacion
+        o: 
+          mapping: Estacion2020
+
+  Estacion2020:
+    sources:
+      - [./CSV/data2020-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/estacion/$(ESTACION)
+    po:
+      - [a, dbo:Estacion]
+      - [ont:estacionID, $(ESTACION), xsd:string]
+      - p: ont:hasMagnitud
+        o: 
+          mapping: Magnitud2020
+
+      - p: ont:hasEmisiones
+        o: 
+          mapping: Emisiones2020
+ 
+  Emisiones2020:
+    sources:
+      - [./CSV/data2020-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/emisiones/$(D01)_$(DATE)_$(V01)
+    po:
+      - [a, dbo:Emisiones]
+      - [ont:hasDate, $(DATE), xsd:date]
+      - [ont:hasValor, $(D01), xsd:string]
+      - [ont:hasValidez, $(V01), xsd:string]
+  Magnitud2020:
+    sources:
+      - [./CSV/data2018-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/magnitud/$(MAGNITUD)
+    po:
+      - [a, dbo:Magnitud]
+      - [ont:magnitudID, $(MAGNITUD), xsd:string]
+
+
+    Provincia202108:
+    sources:
+      - [./CSV/datos202108-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/provincia/$(PROVINCIA)
+    po:
+      - [a, dbo:Provincia]
+      - [ont:provinciaID, $(PROVINCIA), xsd:string]
+      - p: ont:hasMunicipio
+        o: 
+          mapping: Municipio202108
+
+  Municipio202108:
+    sources:
+      - [./CSV/datos202108-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/municipio/$(MUNICIPIO)
+    po:
+      - [a, dbo:Municipio]
+      - [ont:municipioID, $(MUNICIPIO), xsd:string]
+      - p: ont:hasEstacion
+        o: 
+          mapping: Estacion202108
+
+  Estacion202108:
+    sources:
+      - [./CSV/datos202108-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/estacion/$(ESTACION)
+    po:
+      - [a, dbo:Estacion]
+      - [ont:estacionID, $(ESTACION), xsd:string]
+      - p: ont:hasMagnitud
+        o: 
+          mapping: Magnitud202108
+
+      - p: ont:hasEmisiones
+        o: 
+          mapping: Emisiones202108
+ 
+  Emisiones202108:
+    sources:
+      - [./CSV/datos202108-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/emisiones/$(D01)_$(DATE)_$(V01)
+    po:
+      - [a, dbo:Emisiones]
+      - [ont:hasDate, $(DATE), xsd:date]
+      - [ont:hasValor, $(D01), xsd:string]
+      - [ont:hasValidez, $(V01), xsd:string]
+  Magnitud202108:
+    sources:
+      - [./CSV/datos201108-updated.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/magnitud/$(MAGNITUD)
+    po:
+      - [a, dbo:Magnitud]
+      - [ont:magnitudID, $(MAGNITUD), xsd:string]
