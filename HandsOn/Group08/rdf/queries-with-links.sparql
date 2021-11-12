@@ -8,8 +8,6 @@ SELECT ?Estacion
      
   } LIMIT 10
   
-SELECT ?
-
 SELECT ?Estacion
   WHERE {
     ?Estacion cap:calle "Plaza de España"
