@@ -34,7 +34,7 @@ print("------- Properties 2:")
 q = prepareQuery('''
     SELECT DISTINCT ?estacion
     WHERE {
-  		 ?municipio ns:tieneEstacion ?estacion.
+  		?municipio ns:tieneEstacion ?estacion.
     }
     ''',
     initNs = {"ns": ns}
