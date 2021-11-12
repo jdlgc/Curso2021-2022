@@ -22,8 +22,8 @@ g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 
-g.parse(github_storage+"/resources/example6.rdf", format="xml")
-#g.parse("../course_materials/rdf/example6.rdf", format="xml")
+#g.parse(github_storage+"/resources/example6.rdf", format="xml")
+g.parse("../course_materials/rdf/example6.rdf", format="xml")
 
 ns = Namespace("http://somewhere#")
 
@@ -70,21 +70,24 @@ for i in g.query(q2):
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**"""
 print("TASK 7.3")
 print("RDFLib")
-for pers, prop, z in g.triples((None, RDF.type, ns.Person)):
-    for s, p, o in g.triples((None, RDF.type, pers)):
-        for s2, p2, o2 in g.triples((x, None,None)):
-            print(x, p2)
+for s, p, o in g.triples((None, RDF.type, ns.Person)):
+    for s2, p2, o2 in g.triples((s, None, None)):
+        print(s2, p2)
+for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
+    for s2, p2, o2 in g.triples((None, RDF.type, s)):
+        for s3, p3, o3 in g.triples((s2, None, None)):
+            print(s3, p3)
 print("SPARQL")
 q3 = prepareQuery('''
-    SELECT ?pers ?prop WHERE{
-        {?pers ?prop ns:Person.
-        ?pers rdf:type ns:Person.}
+    SELECT DISTINCT ?person ?properties WHERE{
+        {?person rdf:type ns:Person.
+         ?person ?properties ?a.}
         UNION{
         ?aux rdfs:subClassOf ns:Person.
-        ?pers rdf:type ?aux.
-        ?pers ?prop ?aux1.}
+        ?person rdf:type ?aux.
+        ?person ?properties ?aux1.}
     }''',
     initNs={"ns": ns}
     )
 for i in g.query(q3):
-    print(i.Subject,i.Predicate,i.Object)
+    print(i.person,i.properties)
