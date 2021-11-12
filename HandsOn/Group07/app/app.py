@@ -42,7 +42,7 @@ print ('''
 19.VICALVARO
 20.VILLA-DE-VALLECAS
 21.VILLAVERDE''')
-ans=input('''Which district do you want to check fontains from? ''')
+ans=input('''Which district do you want to check fountains from? ''')
 if ans=="1": 
   selectDistrict = districtsList.index("ARGANZUELA")
 elif ans=="2":
@@ -99,7 +99,8 @@ WHERE {
  ?f <http://www.smartCityParks.es/group07/ontology/Font#isInDistrict> 
  <http://www.smartCityParks.es/group07/resource/District/''' + districtsList[selectDistrict] + '''>.
  ?f ?a ?b.
-<http://www.smartCityParks.es/group07/resource/District/''' +districtsList[selectDistrict] + '''> <http://ww.smartCityParks.es/group07/ontology/Dist#hasNumInhabitants> ?c
+ <http://www.smartCityParks.es/group07/resource/District/''' +districtsList[selectDistrict] + '''> <http://www.smartCityParks.es/group07/ontology/Dist#hasNumInhabitants> ?c
+
 }'''
 
 print("---------------------------------------------------------------------")
@@ -108,13 +109,13 @@ control=0
 for s in g.query(q1):
   #print("...",s.a, s.b)
   if(i==1):
-    print("FONTAIN", i)
+    print("FOUNTAIN", i)
     i=i+1
   if(s.a[:63] == "http://www.smartCityParks.es/group07/ontology/Font#isInDistrict"):
     if(s.b[:55]=="http://www.smartCityParks.es/group07/resource/District/"):
       print("DISTRICT:", s.b[55:])
       print("Number of inhabitants:", s.c)
-      print("\nFONTAIN", i)
+      print("\nFOUNTAIN", i)
       i=i+1
       control=0
 
