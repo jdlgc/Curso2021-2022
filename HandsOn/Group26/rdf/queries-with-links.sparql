@@ -1,14 +1,23 @@
+PREFIX admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/>
+PREFIX dc: <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#>
+PREFIX ns:  <http://smartcity.linkeddata.es/ontology/TerrazasMadrid/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX sosa: <https://www.w3.org/TR/vocab-ssn/#SOSA>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX ns:  <http://smartcity.linkeddata.es/ontology/TerrazasMadrid/>
-PREFIX admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/>
+
+
+#Devuelve todos los distritos y sus correspondientes reconciaciones en Wikidata.
 
 SELECT DISTINCT ?distrito ?wikidata
 	WHERE {
 		?distrito rdf:type admingeo:District.
 		?distrito owl:sameAs ?wikidata.
 	}
+
+#Devuelve todos los barrios y sus correspondientes reconciaciones en Wikidata.
 
 SELECT DISTINCT ?barrio ?wikidata
 	WHERE {

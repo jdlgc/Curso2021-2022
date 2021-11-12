@@ -1,129 +1,155 @@
- @prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#> .
+@prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/#> .
 @prefix base: <http://www.example.org/TerrazasMadrid#> .
 @prefix dc: <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#> .
 @prefix ns: <http://smartcity.linkeddata.es/ontology/TerrazasMadrid/#> .
-@prefix nsp: <http://smartcity.linkeddata.es/ontology/TerrazasMadrid##> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf1: <http://www.owl-ontologies.com/rdf#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org#> .
-@prefix ssn: <http://www.owl-ontologies.com/ssn#> .
+@prefix sosa: <https://www.w3.org/TR/vocab-ssn/#SOSA> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-admingeo:District rdfs:label "District" ;
-    rdf1:type owl:Class .
-
-nsp:GeoCoordinatesID rdfs:label "geo coordinates i d" ;
+ns:GeoCoordinatesID rdfs:label "geo coordinates i d" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:GeoCoordinates ;
     rdfs:range xsd:string .
 
-nsp:WeekdaySeasonalClose rdfs:label "weekday seasonal close" ;
+ns:WeekdaySeasonalClose rdfs:label "weekday seasonal close" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
 
-nsp:WeekdaySeasonalOpen rdfs:label "weekday seasonal open" ;
+ns:WeekdaySeasonalOpen rdfs:label "weekday seasonal open" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
 
-nsp:WeekdayUnseasonalClose rdfs:label "weekday unseasonal close" ;
+ns:WeekdayUnseasonalClose rdfs:label "weekday unseasonal close" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
 
-nsp:WeekdayUnseasonalOpen rdfs:label "weekday unseasonal open" ;
+ns:WeekdayUnseasonalOpen rdfs:label "weekday unseasonal open" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
 
-nsp:WeekendSeasonalClose rdfs:label "weekend seasonal close" ;
+ns:WeekendSeasonalClose rdfs:label "weekend seasonal close" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
 
-nsp:WeekendSeasonalOpen rdfs:label "weekend seasonal open" ;
+ns:WeekendSeasonalOpen rdfs:label "weekend seasonal open" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
 
-nsp:WeekendUnseasonalOpen rdfs:label "weekend unseasonal open" ;
+ns:WeekendUnseasonalOpen rdfs:label "weekend unseasonal open" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
 
-nsp:containedIn rdfs:label "contained in" ;
-    rdf1:type owl:ObjectProperty .
+ns:containedIn rdfs:label "contained in" ;
+    rdf1:type owl:ObjectProperty ;
+    rdfs:domain schema:LocalBusiness ;
+    rdfs:range ns:Neighborhood .
 
-nsp:hasID rdfs:label "has i d" ;
+ns:hasID rdfs:label "has i d" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:integer .
 
-nsp:hasLocation rdfs:label "has location" ;
-    rdf1:type owl:ObjectProperty .
+ns:hasLocation rdfs:label "has location" ;
+    rdf1:type owl:ObjectProperty ;
+    rdfs:domain schema:LocalBusiness ;
+    rdfs:range schema:GeoCoordinates .
 
-nsp:locatedIn rdfs:label "located in" ;
-    rdf1:type owl:ObjectProperty .
+ns:locatedIn rdfs:label "located in" ;
+    rdf1:type owl:ObjectProperty ;
+    rdfs:domain ns:Neighborhood ;
+    rdfs:range admingeo:District .
 
-nsp:status rdfs:label "status" ;
+ns:status rdfs:label "status" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
 
-nsp:tablesSeasonal rdfs:label "tables seasonal" ;
+ns:tablesSeasonal rdfs:label "tables seasonal" ;
     rdf1:type owl:DatatypeProperty ;
-    rdfs:range xsd:string .
+    rdfs:domain schema:LocalBusiness ;
+    rdfs:range xsd:integer .
 
-nsp:tablesUnseasonal rdfs:label "tables unseasonal" ;
+ns:tablesUnseasonal rdfs:label "tables unseasonal" ;
     rdf1:type owl:DatatypeProperty ;
-    rdfs:range xsd:string .
+    rdfs:domain schema:LocalBusiness ;
+    rdfs:range xsd:integer .
 
-nsp:terraceUbication rdfs:label "terrace ubication" ;
+ns:terraceUbication rdfs:label "terrace ubication" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
     rdfs:range xsd:string .
-
-ns:Neighborhood rdfs:label "Neighborhood" ;
-    rdf1:type owl:Class .
 
 base: rdf1:type owl:Ontology ;
-    owl:versionInfo "0.0.1" ;
+    owl:versionInfo "6.0.0" ;
     dc:creator "Carlos Ferrero Manauta" ;
     dc:description "Ontology code created by Chowlk" ;
     dc:title "Template Ontology" .
 
 rdf1:label rdfs:label "label" ;
     rdf1:type owl:DatatypeProperty ;
+    rdfs:domain ns:Neighborhood ;
     rdfs:range xsd:string .
+
+schema:address rdfs:label "address" ;
+    rdf1:type owl:ObjectProperty ;
+    rdfs:domain schema:LocalBusiness ;
+    rdfs:range schema:PostalAddress .
+
+schema:latitude rdfs:label "latitude" ;
+    rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:GeoCoordinates ;
+    rdfs:range xsd:float .
+
+schema:longitude rdfs:label "longitude" ;
+    rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:GeoCoordinates ;
+    rdfs:range xsd:float .
+
+schema:postalCode rdfs:label "postal code" ;
+    rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:PostalAddress ;
+    rdfs:range xsd:integer .
+
+schema:streetAddress rdfs:label "street address" ;
+    rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:PostalAddress ;
+    rdfs:range xsd:string .
+
+dc:title rdfs:label "title" ;
+    rdf1:type owl:DatatypeProperty ;
+    rdfs:domain schema:LocalBusiness ;
+    rdfs:range xsd:string .
+
+admingeo:District rdfs:label "District" ;
+    rdf1:type owl:Class .
+
+schema:Organization rdfs:label "Organization" ;
+    rdf1:type owl:Class .
+
+sosa:FeatureOfInterest rdfs:label "Feature Of Interest" ;
+    rdf1:type owl:Class .
+
+ns:Neighborhood rdfs:label "Neighborhood" ;
+    rdf1:type owl:Class .
+
+schema:PostalAddress rdfs:label "Postal Address" ;
+    rdf1:type owl:Class .
 
 schema:GeoCoordinates rdfs:label "Geo Coordinates" ;
     rdf1:type owl:Class .
 
 schema:LocalBusiness rdfs:label "Local Business" ;
     rdf1:type owl:Class ;
-    rdfs:subClassOf ssn:FeatureOfInterest,
-        schema:Organization .
-
-schema:PostalAddress rdfs:label "Postal Address" ;
-    rdf1:type owl:Class .
-
-schema:address rdfs:label "address" ;
-    rdf1:type owl:ObjectProperty .
-
-schema:latitude rdfs:label "latitude" ;
-    rdf1:type owl:DatatypeProperty ;
-    rdfs:range xsd:string .
-
-schema:longitude rdfs:label "longitude" ;
-    rdf1:type owl:DatatypeProperty ;
-    rdfs:range xsd:string .
-
-schema:postalCode rdfs:label "postal code" ;
-    rdf1:type owl:DatatypeProperty ;
-    rdfs:range xsd:string .
-
-schema:streetAddress rdfs:label "street address" ;
-    rdf1:type owl:DatatypeProperty ;
-    rdfs:range xsd:string .
-
-dc:title rdfs:label "title" ;
-    rdf1:type owl:DatatypeProperty ;
-    rdfs:range xsd:string .
-
-ssn:FeatureOfInterest rdfs:label "Feature Of Interest" ;
-    rdf1:type owl:Class .
-
-schema:Organization rdfs:label "Organization" ;
-    rdf1:type owl:Class .
+    rdfs:subClassOf schema:Organization,
+        sosa:FeatureOfInterest .
 
