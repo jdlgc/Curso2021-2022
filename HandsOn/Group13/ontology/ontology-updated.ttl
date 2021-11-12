@@ -1,0 +1,222 @@
+@prefix : <http://www.smartcity.madrid.es/mobility/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.smartcity.madrid.es/mobility/ontology/> .
+
+<http://www.smartcity.madrid.es/mobility/ontology/> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#domain
+rdfs:domain rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#range
+rdfs:range rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.smartcity.madrid.es/mobility/ontology/hasBus
+:hasBus rdf:type owl:ObjectProperty ;
+        rdfs:domain :Wards ;
+        rdfs:range :Bus .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/hasLightMetro
+:hasLightMetro rdf:type owl:ObjectProperty ;
+               rdfs:domain :Wards ;
+               rdfs:range :LightMetro .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/hasMetro
+:hasMetro rdf:type owl:ObjectProperty ;
+          rdfs:domain :Wards ;
+          rdfs:range :Metro .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.smartcity.madrid.es/mobility/ontology/BusStation_Name
+:BusStation_Name rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Bus ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Bus_ID
+:Bus_ID rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Bus ;
+        rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Bus_Lines
+:Bus_Lines rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Bus ;
+           rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/District_ID
+:District_ID rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Bus ,
+                         :LightMetro ,
+                         :Metro ,
+                         :Wards ;
+             rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/District_Name
+:District_Name rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Bus ,
+                           :LightMetro ,
+                           :Metro ,
+                           :Wards ;
+               rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/LightRail_ID
+:LightRail_ID rdf:type owl:DatatypeProperty ;
+              rdfs:domain :LightMetro ;
+              rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/LightRail_Line
+:LightRail_Line rdf:type owl:DatatypeProperty ;
+                rdfs:domain :LightMetro ;
+                rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/LightRail_Name
+:LightRail_Name rdf:type owl:DatatypeProperty ;
+                rdfs:domain :LightMetro ;
+                rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Number_Type
+:Number_Type rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Bus ,
+                         :LightMetro ,
+                         :Metro ;
+             rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Portal_Code
+:Portal_Code rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Bus ,
+                         :LightMetro ,
+                         :Metro ;
+             rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Portal_Number
+:Portal_Number rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Bus ,
+                           :LightMetro ,
+                           :Metro ;
+               rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Preposition
+:Preposition rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Bus ,
+                         :LightMetro ,
+                         :Metro ;
+             rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Shape_Area
+:Shape_Area rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Wards ;
+            rdfs:range xsd:float .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Shape_Leng
+:Shape_Leng rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Wards ;
+            rdfs:range xsd:float .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Street_Name
+:Street_Name rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Bus ,
+                         :LightMetro ,
+                         :Metro ;
+             rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Street_Type
+:Street_Type rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Bus ,
+                         :LightMetro ,
+                         :Metro ;
+             rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Underground_ID
+:Underground_ID rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Metro ;
+                rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Underground_Name
+:Underground_Name rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Metro ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Ward_ID
+:Ward_ID rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Wards ;
+         rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Ward_Name
+:Ward_Name rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Wards ;
+           rdfs:range xsd:string .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/X
+:X rdf:type owl:DatatypeProperty ;
+   rdfs:domain :Bus ,
+               :LightMetro ;
+   rdfs:range xsd:float .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Y
+:Y rdf:type owl:DatatypeProperty ;
+   rdfs:domain :Bus ,
+               :LightMetro ;
+   rdfs:range xsd:float ,
+              xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Bus
+:Bus rdf:type owl:Class .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/LightMetro
+:LightMetro rdf:type owl:Class .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Metro
+:Metro rdf:type owl:Class .
+
+
+###  http://www.smartcity.madrid.es/mobility/ontology/Wards
+:Wards rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

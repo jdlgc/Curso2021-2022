@@ -4,21 +4,15 @@ PREFIX dbo: <http://www.smartcity.madrid.es/mobility/ontology/>
 SELECT DISTINCT ?b
 WHERE{
     ?b rdf:type dbo:Bus.
-    ?b dbo:BARRIO "Embajadores". 
-    ?b dbo:DISTRITO "Centro". 
-    ?b dbo:LINEAS "T32".
+    ?b dbo:Ward_Name "Embajadores". 
+    ?b dbo:District_Name "Centro". 
+    ?b dbo:Bus_Lines "T32".
 }
 
 SELECT DISTINCT ?metrostation
 WHERE{
     ?metrostation rdf:type dbo:Metro.
-    ?metrostation dbo:BARRIO "Embajadores". 
-}
-
-SELECT DISTINCT ?Tlight_id 
-WHERE{
-    ?Tlight_id rdf:type dbo:Trafficlight.
-    ?Tlight_id dbo:DISTRITO "1". 
+    ?metrostation dbo:Ward_Name "Embajadores". 
 }
 
 SELECT DISTINCT ?dis
