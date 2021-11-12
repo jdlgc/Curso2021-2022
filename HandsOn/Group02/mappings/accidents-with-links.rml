@@ -16,17 +16,17 @@ map:map_triplesmap2_000 rml:logicalSource map:source_001;
     a rr:TriplesMap;
     rdfs:label "triplesmap2";
     rr:subjectMap map:s_001;
-    rr:predicateObjectMap map:pom_008, map:pom_009, map:pom_010, map:pom_011.
+    rr:predicateObjectMap map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012.
 map:map_triplesmap3_000 rml:logicalSource map:source_002;
     a rr:TriplesMap;
     rdfs:label "triplesmap3";
     rr:subjectMap map:s_002;
-    rr:predicateObjectMap map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017.
+    rr:predicateObjectMap map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018.
 map:map_triplesmap4_000 rml:logicalSource map:source_003;
     a rr:TriplesMap;
     rdfs:label "triplesmap4";
     rr:subjectMap map:s_003;
-    rr:predicateObjectMap map:pom_018, map:pom_019, map:pom_020.
+    rr:predicateObjectMap map:pom_019, map:pom_020, map:pom_021, map:pom_022.
 map:om_000 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Accident";
     rr:termType rr:IRI.
@@ -68,42 +68,48 @@ map:om_010 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#int>.
 map:om_011 a rr:ObjectMap;
+    rml:reference "CALLEWIKIDATA";
+    rr:termType rr:IRI.
+map:om_012 a rr:ObjectMap;
     rr:parentTriplesMap map:map_triplesmap4_000;
     rr:joinCondition map:jc_000.
-map:om_012 a rr:ObjectMap;
+map:om_013 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Person";
     rr:termType rr:IRI.
-map:om_013 a rr:ObjectMap;
+map:om_014 a rr:ObjectMap;
     rml:reference "VICTIMA";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_014 a rr:ObjectMap;
+map:om_015 a rr:ObjectMap;
     rml:reference "SEXO";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_015 a rr:ObjectMap;
+map:om_016 a rr:ObjectMap;
     rml:reference "RANGOEDAD";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_016 a rr:ObjectMap;
+map:om_017 a rr:ObjectMap;
     rml:reference "TIPOPERSONA";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_017 a rr:ObjectMap;
+map:om_018 a rr:ObjectMap;
     rml:reference "LESIVIDAD";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_018 a rr:ObjectMap;
+map:om_019 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#District";
     rr:termType rr:IRI.
-map:om_019 a rr:ObjectMap;
+map:om_020 a rr:ObjectMap;
     rml:reference "ID_DISTRICT";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#int>.
-map:om_020 a rr:ObjectMap;
+map:om_021 a rr:ObjectMap;
     rml:reference "NOMBRE";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_022 a rr:ObjectMap;
+    rml:reference "DISTRITOWIKIDATA";
+    rr:termType rr:IRI.
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_001 a rr:PredicateMap;
@@ -127,25 +133,29 @@ map:pm_009 a rr:PredicateMap;
 map:pm_010 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasNumber>.
 map:pm_011 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#belongsTo>.
+    rr:constant <<http://www.w3.org/2002/07/owl#>.sameAs>.
 map:pm_012 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#belongsTo>.
 map:pm_013 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasIdVictim>.
-map:pm_014 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasGender>.
-map:pm_015 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasRangeAge>.
-map:pm_016 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasRole>.
-map:pm_017 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#gradeOfInjury>.
-map:pm_018 a rr:PredicateMap;
     rr:constant rdf:type.
+map:pm_014 a rr:PredicateMap;
+    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasIdVictim>.
+map:pm_015 a rr:PredicateMap;
+    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasGender>.
+map:pm_016 a rr:PredicateMap;
+    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasRangeAge>.
+map:pm_017 a rr:PredicateMap;
+    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasRole>.
+map:pm_018 a rr:PredicateMap;
+    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#gradeOfInjury>.
 map:pm_019 a rr:PredicateMap;
-    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasCode>.
+    rr:constant rdf:type.
 map:pm_020 a rr:PredicateMap;
+    rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasCode>.
+map:pm_021 a rr:PredicateMap;
     rr:constant <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#hasDistrictName>.
+map:pm_022 a rr:PredicateMap;
+    rr:constant <<http://www.w3.org/2002/07/owl#>.sameAs>.
 map:pom_000 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_000;
     rr:objectMap map:om_000.
@@ -209,6 +219,12 @@ map:pom_019 a rr:PredicateObjectMap;
 map:pom_020 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_020;
     rr:objectMap map:om_020.
+map:pom_021 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_021;
+    rr:objectMap map:om_021.
+map:pom_022 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_022;
+    rr:objectMap map:om_022.
 map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
     <http://rdfs.org/ns/void#exampleResource> map:map_triplesmap1_000, map:map_triplesmap2_000, map:map_triplesmap3_000, map:map_triplesmap4_000.
 map:s_000 a rr:SubjectMap;
@@ -220,14 +236,14 @@ map:s_002 a rr:SubjectMap;
 map:s_003 a rr:SubjectMap;
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/District/{NOMBRE}".
 map:source_000 a rml:LogicalSource;
-    rml:source "AccidentesBicicletas_2021-updated.csv";
+    rml:source "AccidentesBicicletas_2021-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_001 a rml:LogicalSource;
-    rml:source "AccidentesBicicletas_2021-updated.csv";
+    rml:source "AccidentesBicicletas_2021-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_002 a rml:LogicalSource;
-    rml:source "AccidentesBicicletas_2021-updated.csv";
+    rml:source "AccidentesBicicletas_2021-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_003 a rml:LogicalSource;
-    rml:source "distritos-updated.csv";
+    rml:source "distritos-with-links.csv";
     rml:referenceFormulation ql:CSV.

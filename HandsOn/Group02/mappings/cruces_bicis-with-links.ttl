@@ -3,6 +3,7 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix transit: <http://vocab.org/transit/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#> .
 @base <http://example.com/ns#>.
 
@@ -125,7 +126,7 @@
   
 <#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/distritos-updated.csv" ;
+    rml:source "./data/distritos-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -149,5 +150,13 @@
       rml:reference "NOMBRE"; 
 	  rr:termtype rr:Literal;
 	  rr:datatype xsd:string
+    ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+	rr:objectMap [
+      rml:reference "DISTRITOWIKIDATA";
+	  rr:termType rr:IRI
     ]
   ].

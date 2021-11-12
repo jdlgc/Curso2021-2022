@@ -1,0 +1,106 @@
+Query 1: Enlaces de wikidata de calles tranquilas que pertenecen al distrito con código 11 de Madrid
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>
+PREFIX district: <http://www.preventbicyleaccidents-app.es/group02/resources/District/>
+SELECT ?o WHERE { 
+	?s rdf:type vocab:Address. 
+	?s vocab:belongsTo ?o1.
+	?o1 vocab:hasCode "11"^^<http://www.w3.org/2001/XMLSchema#int>.
+	?s owl:sameAs ?o.
+}
+LIMIT 100
+	
+
+
+https://wikidata.org/entity/Q8255505
+https://wikidata.org/entity/Q1324163
+https://wikidata.org/entity/Q5740864
+https://wikidata.org/entity/Q2079615
+
+https://wikidata.org/entity/Q5740864
+https://wikidata.org/entity/Q1324163
+https://wikidata.org/entity/Q5740911
+https://wikidata.org/entity/Q28051075
+https://wikidata.org/entity/Q24560004
+https://wikidata.org/entity/Q5740826
+https://wikidata.org/entity/Q1324163
+https://wikidata.org/entity/Q5740826
+https://wikidata.org/entity/Q2424746
+https://wikidata.org/entity/Q5740938
+
+https://wikidata.org/entity/Q21004010
+https://wikidata.org/entity/Q16659214
+https://wikidata.org/entity/Q2550870
+https://wikidata.org/entity/Q20908843
+https://wikidata.org/entity/Q1149052
+https://wikidata.org/entity/Q7203711
+https://wikidata.org/entity/Q6080017
+https://wikidata.org/entity/Q5686332
+https://wikidata.org/entity/Q5492657
+https://wikidata.org/entity/Q24294474
+https://wikidata.org/entity/Q28937422
+https://wikidata.org/entity/Q5740883
+https://wikidata.org/entity/Q16620193
+https://wikidata.org/entity/Q28051025
+
+
+Query 1.1: Visualización en mapa de dichas calles tranquilas pertenecientes a ese distrito
+#defaultView:Map
+SELECT * WHERE {
+	wd:Q8255505 wdt:P625 ?geo2.
+	wd:Q1324163 wdt:P625 ?geo3.
+	wd:Q5740864 wdt:P625 ?geo4.
+	wd:Q2079615 wdt:P625 ?geo5.
+	wd:Q5740864 wdt:P625 ?geo7.
+	wd:Q1324163 wdt:P625 ?geo8.
+	wd:Q5740911 wdt:P625 ?geo9.
+	wd:Q28051075 wdt:P625 ?geo10.
+	wd:Q24560004 wdt:P625 ?geo11.
+	wd:Q5740826 wdt:P625 ?geo12.
+	wd:Q1324163 wdt:P625 ?geo13.
+	wd:Q5740826 wdt:P625 ?geo14.
+	wd:Q2424746 wdt:P625 ?geo15.
+	wd:Q5740938 wdt:P625 ?geo16.
+	wd:Q21004010 wdt:P625 ?geo18.
+	wd:Q16659214 wdt:P625 ?geo19.
+	wd:Q2550870 wdt:P625 ?geo20.
+	wd:Q20908843 wdt:P625 ?geo21.
+	wd:Q1149052 wdt:P625 ?geo22.
+	wd:Q7203711 wdt:P625 ?geo23.
+	wd:Q6080017 wdt:P625 ?geo24.
+	wd:Q5686332 wdt:P625 ?geo25.
+	wd:Q5492657 wdt:P625 ?geo26.
+	wd:Q24294474 wdt:P625 ?geo27.
+	wd:Q28937422 wdt:P625 ?geo28.
+	wd:Q5740883 wdt:P625 ?geo29.
+	wd:Q16620193 wdt:P625 ?geo30.
+	wd:Q28051025 wdt:P625 ?geo31.
+}
+
+
+
+Query 2: Obtener enlace a Wikidata de un distrito con código 11 de Madrid
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>
+PREFIX district: <http://www.preventbicyleaccidents-app.es/group02/resources/District/>
+SELECT DISTINCT ?o WHERE { 
+	?s rdf:type vocab:District. 
+	?s vocab:hasCode "11"^^<http://www.w3.org/2001/XMLSchema#int>.
+	?s owl:sameAs ?o.
+}
+	
+https://www.wikidata.org/wiki/Q1763376
+
+
+Query 2.1: Obtener imagen de ese distrito
+
+QUERY IMAGEN DISTRIO (WIKIDATA):
+SELECT distinct ?image WHERE {
+	wd:Q1763376 wdt:P18 ?image
+}
+

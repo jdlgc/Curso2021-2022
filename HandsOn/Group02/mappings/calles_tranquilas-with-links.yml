@@ -9,16 +9,18 @@ prefixes:
   rml: http://semweb.mmlab.be/ns/rml#
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  owl: <http://www.w3.org/2002/07/owl#>.
   vocab: http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#
   
 mappings:
 
   triplesmap1:
     sources:
-      - [ calles_tranquilas-updated.csv~csv ]
-    s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)~iri ]
+      - [calles_tranquilas-with-links.csv~csv]
+    s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)~iri]
     po:
-      - [ a, vocab:Address ]
-      - [ vocab:hasAddressName,$(CALLE),xsd:string ]
-      - [ vocab:typeAddress,$(TIPOCALLE),xsd:string ]
+      - [a, vocab:Address]
+      - [vocab:hasAddressName,$(CALLE),xsd:string]
+      - [vocab:typeAddress,$(TIPOCALLE),xsd:string]
+      - [owl:sameAs, $(CALLEWIKIDATA)~iri]
       

@@ -3,13 +3,14 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix transit: <http://vocab.org/transit/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#> .
 @base <http://example.com/ns#>.
 
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -30,7 +31,7 @@
   rr:predicateObjectMap [
 	rr:predicate vocab:hasPlace; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
+      rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
       rr:termType rr:IRI 
 	]
   ];
@@ -82,7 +83,7 @@
 
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -117,13 +118,21 @@
         rr:child "DISTRITO"; rr:parent "NOMBRE";
       ]
     ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+	rr:objectMap [
+      rml:reference "CALLEWIKIDATA";
+	  rr:termType rr:IRI
+    ]
   ].
   
   
   
 <#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/AccidentesBicicletas_2021-updated.csv" ;
+    rml:source "./data/AccidentesBicicletas_2021-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -180,7 +189,7 @@
 
 <#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/distritos-updated.csv" ;
+    rml:source "./data/distritos-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -204,6 +213,14 @@
       rml:reference "NOMBRE"; 
 	  rr:termtype rr:Literal;
 	  rr:datatype xsd:string
+    ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+	rr:objectMap [
+      rml:reference "DISTRITOWIKIDATA";
+	  rr:termType rr:IRI
     ]
   ].
 
