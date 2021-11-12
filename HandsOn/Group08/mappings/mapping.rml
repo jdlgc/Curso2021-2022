@@ -27,7 +27,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate vocab:direccion;
+        rr:predicate vocab:calle;
         rr:objectMap [
             rml:reference "DIRECCION";
             rr:datatype xsd:string
