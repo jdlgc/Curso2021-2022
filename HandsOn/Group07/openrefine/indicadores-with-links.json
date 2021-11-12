@@ -1,0 +1,109 @@
+{
+  "rows" : [
+    {
+      "DISTRICT_IND" : "Arganzuela",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q2000929",
+      "InhabitantsNumber" : "34786"
+    },
+    {
+      "DISTRICT_IND" : "Barajas",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q807230",
+      "InhabitantsNumber" : "45608"
+    },
+    {
+      "DISTRICT_IND" : "Carabanchel",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1001991",
+      "InhabitantsNumber" : "27919"
+    },
+    {
+      "DISTRICT_IND" : "Centro",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1763376",
+      "InhabitantsNumber" : "32213"
+    },
+    {
+      "DISTRICT_IND" : "Chamartin",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1766348",
+      "InhabitantsNumber" : "26713"
+    },
+    {
+      "DISTRICT_IND" : "Chamberi",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1763370",
+      "InhabitantsNumber" : "22138"
+    },
+    {
+      "DISTRICT_IND" : "Ciudad-Lineal",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1763694",
+      "InhabitantsNumber" : "52529"
+    },
+    {
+      "DISTRICT_IND" : "Fuencarral-El-Pardo",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q656196",
+      "InhabitantsNumber" : "50969"
+    },
+    {
+      "DISTRICT_IND" : "Hortaleza",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1928529",
+      "InhabitantsNumber" : "28712"
+    },
+    {
+      "DISTRICT_IND" : "Latina",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q794954",
+      "InhabitantsNumber" : "27409"
+    },
+    {
+      "DISTRICT_IND" : "Moncloa-Aravaca",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q2017682",
+      "InhabitantsNumber" : "39390"
+    },
+    {
+      "DISTRICT_IND" : "Moratalaz",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q2076109",
+      "InhabitantsNumber" : "32212"
+    },
+    {
+      "DISTRICT_IND" : "Puente-de-Vallecas",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q2003054",
+      "InhabitantsNumber" : "29417"
+    },
+    {
+      "DISTRICT_IND" : "Retiro",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q2002296",
+      "InhabitantsNumber" : "33730"
+    },
+    {
+      "DISTRICT_IND" : "Salamanca",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1773521",
+      "InhabitantsNumber" : "20209"
+    },
+    {
+      "DISTRICT_IND" : "San-Blas",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q2001937",
+      "InhabitantsNumber" : "22646"
+    },
+    {
+      "DISTRICT_IND" : "Tetuan",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1773540",
+      "InhabitantsNumber" : "19126"
+    },
+    {
+      "DISTRICT_IND" : "Usera",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q953368",
+      "InhabitantsNumber" : "38453"
+    },
+    {
+      "DISTRICT_IND" : "Vicalvaro",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q589403",
+      "InhabitantsNumber" : "27780"
+    },
+    {
+      "DISTRICT_IND" : "Villa-de-Vallecas",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q1947988",
+      "InhabitantsNumber" : "12704"
+    },
+    {
+      "DISTRICT_IND" : "Villaverde",
+      "same_as_wikidata_distrito" : "https://wikidata.org/entity/Q919536",
+      "InhabitantsNumber" : "18638"
+    }
+  ]
+}
