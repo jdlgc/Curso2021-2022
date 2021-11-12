@@ -1,0 +1,23 @@
+{
+    "datasources": [
+        {
+            "id": "RDF file",
+            "handler": {
+                "type": "RDFHandler",
+                "format": "N3"
+            },
+            "provider": {
+                "type": "FileProvider",
+                "file": "./output-with-links.n3"
+            }
+        }
+    ],
+    "resource_rules": [
+        {
+            "id": "RDF file rules",
+            "datasource_ids": [
+                "RDF file"
+            ]
+        }
+    ]
+} 

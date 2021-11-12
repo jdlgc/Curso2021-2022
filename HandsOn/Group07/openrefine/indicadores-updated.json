@@ -1,0 +1,88 @@
+{
+  "rows" : [
+    {
+      "DISTRICT_IND" : "ARGANZUELA",
+      "InhabitantsNumber" : "34786"
+    },
+    {
+      "DISTRICT_IND" : "BARAJAS",
+      "InhabitantsNumber" : "45608"
+    },
+    {
+      "DISTRICT_IND" : "CARABANCHEL",
+      "InhabitantsNumber" : "27919"
+    },
+    {
+      "DISTRICT_IND" : "CENTRO",
+      "InhabitantsNumber" : "32213"
+    },
+    {
+      "DISTRICT_IND" : "CHAMARTIN",
+      "InhabitantsNumber" : "26713"
+    },
+    {
+      "DISTRICT_IND" : "CHAMBERI",
+      "InhabitantsNumber" : "22138"
+    },
+    {
+      "DISTRICT_IND" : "CIUDAD-LINEAL",
+      "InhabitantsNumber" : "52529"
+    },
+    {
+      "DISTRICT_IND" : "FUENCARRAL-EL-PARDO",
+      "InhabitantsNumber" : "50969"
+    },
+    {
+      "DISTRICT_IND" : "HORTALEZA",
+      "InhabitantsNumber" : "28712"
+    },
+    {
+      "DISTRICT_IND" : "LATINA",
+      "InhabitantsNumber" : "27409"
+    },
+    {
+      "DISTRICT_IND" : "MONCLOA-ARAVACA",
+      "InhabitantsNumber" : "39390"
+    },
+    {
+      "DISTRICT_IND" : "MORATALAZ",
+      "InhabitantsNumber" : "32212"
+    },
+    {
+      "DISTRICT_IND" : "PUENTE-DE-VALLECAS",
+      "InhabitantsNumber" : "29417"
+    },
+    {
+      "DISTRICT_IND" : "RETIRO",
+      "InhabitantsNumber" : "33730"
+    },
+    {
+      "DISTRICT_IND" : "SALAMANCA",
+      "InhabitantsNumber" : "20209"
+    },
+    {
+      "DISTRICT_IND" : "SAN-BLAS",
+      "InhabitantsNumber" : "22646"
+    },
+    {
+      "DISTRICT_IND" : "TETUAN",
+      "InhabitantsNumber" : "19126"
+    },
+    {
+      "DISTRICT_IND" : "USERA",
+      "InhabitantsNumber" : "38453"
+    },
+    {
+      "DISTRICT_IND" : "VICALVARO",
+      "InhabitantsNumber" : "27780"
+    },
+    {
+      "DISTRICT_IND" : "VILLA-DE-VALLECAS",
+      "InhabitantsNumber" : "12704"
+    },
+    {
+      "DISTRICT_IND" : "VILLAVERDE",
+      "InhabitantsNumber" : "18638"
+    }
+  ]
+}

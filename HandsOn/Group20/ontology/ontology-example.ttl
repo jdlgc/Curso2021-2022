@@ -1,0 +1,25 @@
+@prefix clase: <http://localizalocales.es/lcc/ontology/locales#> .
+@prefix rec: <http://localizalocales.es/lcc/resources/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<rec:Terraza/7>
+	rdf:type owl:Terraza;
+	:numeroMesasAutorizadas 5;
+	:numeroSillasAutorizadas 10;
+	:perteneceALocal 280067128.
+<rec:Local/270403150>
+	rdf:type owl:Local;
+	:rotulo "HONTANARES";
+	:tieneTerraza 33;
+	:perteneceADistrito <rec:idDistrito/20,270403150>.
+<rec:Distrito/12,270432683>
+	rdf:type owl:Distrito;
+	:distrito "USERA";
+	:barrio "ORCASITAS";
+	:tipoVia "PLAZA",
+	:nombreCalle "MIL DELEGADOS";
+	:portal 1.

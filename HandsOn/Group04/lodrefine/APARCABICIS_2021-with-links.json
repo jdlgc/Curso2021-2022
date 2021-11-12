@@ -949,6 +949,19 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column NOMBRE_DIS using expression value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "value.replace(\",-\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression value.replace(\",-\",\"-\")"
   }
-
+  
 ]

@@ -1,74 +1,77 @@
-@base <http://parquimetrosdemadrid.com/>.
+@base <http://parquimetrosdemadrid.com/ontology/parquimetros#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix prop: <http://parquimetrosdemadrid.com/Properties#>.
-@prefix class: <http://parquimetrosdemadrid.com/Classes/>.
-#@prefix indiv: <http://parquimetrosdemadrid.com/IndTerms#>.
-
-<http://parquimetrosdemadrid.com/> rdf:type owl:Ontology.
+@prefix : <http://parquimetrosdemadrid.com/ontology/parquimetros#>.
 
 
 ## Object 
-
-prop:locatedDistrict rdf:type owl:ObjectProperty;
-                     rdfs:domain class:ParkingMeter;
-                     rdfs:range class:District.
-
-prop:locatedNeighborhood rdf:type owl:ObjectProperty;
-                         rdfs:domain class:ParkingMeter;
-                         rdfs:range class:Neighborhood.
-
-prop:locatedVia rdf:type owl:ObjectProperty;
-                rdfs:domain class:ParkingMeter;
-                rdfs:range class:Via.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#hasLocatedDistrict
+:hasLocatedDistrict rdf:type owl:Objecterty;
+                    rdfs:domain :ParkingMeter;
+                    rdfs:range :District.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#hasLocatedNeighborhood
+:hasLocatedNeighborhood rdf:type owl:Objecterty;
+                        rdfs:domain :ParkingMeter;
+                        rdfs:range :Neighborhood.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#hasLocatedVia
+:hasLocatedVia rdf:type owl:Objecterty;
+               rdfs:domain :ParkingMeter;
+               rdfs:range :Via.
 
 ## Data
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#licensePlate
+:licensePlate rdf:type owl:Datatypeerty;
+                 rdfs:domain :ParkingMeter;
+                 rdfs:range xsd:string.
 
-prop:licensePlate rdf:type owl:DatatypeProperty;
-                  rdfs:domain class:ParkingMeter;
-                  rdfs:range xsd:string.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#gis_X
+:gis_X  rdf:type owl:Datatypeerty;
+           rdfs:domain :ParkingMeter;
+           rdfs:range xsd:float.
 
-prop:gis_X  rdf:type owl:DatatypeProperty;
-            rdfs:domain class:ParkingMeter;
-            rdfs:range xsd:float.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#gis_Y
+:gis_Y  rdf:type owl:Datatypeerty;
+           rdfs:domain :ParkingMeter;
+           rdfs:range xsd:float.
 
-prop:gis_Y  rdf:type owl:DatatypeProperty;
-            rdfs:domain class:ParkingMeter;
-            rdfs:range xsd:float.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#releaseDate
+:releaseDate rdf:type owl:Datatypeerty;
+                rdfs:domain :ParkingMeter;
+                rdfs:range xsd:date.
 
-prop:releaseDate rdf:type owl:DatatypeProperty;
-                 rdfs:domain class:ParkingMeter;
-                 rdfs:range xsd:date.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#districtName
+:districtName rdf:type owl:Datatypeerty;
+                 rdfs:domain :District;
+                 rdfs:range xsd:string.
 
-prop:districtName rdf:type owl:DatatypeProperty;
-                  rdfs:domain class:District;
-                  rdfs:range xsd:string.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#neighborhoodName
+:neighborhoodName rdf:type owl:Datatypeerty;
+                     rdfs:domain :Neighborhood;
+                     rdfs:range xsd:string.
 
-prop:neighborhoodName rdf:type owl:DatatypeProperty;
-                      rdfs:domain class:Neighborhood;
-                      rdfs:range xsd:string.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#viaName
+:ViaName rdf:type owl:Datatypeerty;
+            rdfs:domain :Via;
+            rdfs:range xsd:string.
 
-prop:viaName rdf:type owl:DatatypeProperty;
-             rdfs:domain class:Via;
-             rdfs:range xsd:string.
-
-prop:viaNumber rdf:type owl:DatatypeProperty;
-               rdfs:domain class:Via;
-               rdfs:range xsd:string.
+#https://http://parquimetrosdemadrid.com/ontology/parquimetros#viaNumber
+:ViaNumber rdf:type owl:Datatypeerty;
+              rdfs:domain :Via;
+              rdfs:range xsd:string.
 
 
 ## Classes 
 
-# http://parquimetrosdemadrid.com/ParkingMeter
-class:ParkingMeter rdf:type owl:Class.
+# http://parquimetrosdemadrid.com/ontology/parquimetros#ParkingMeter
+:ParkingMeter rdf:type owl:Class .
 
-# http://parquimetrosdemadrid.com/District
-class:District rdf:type owl:Class.
+# http://parquimetrosdemadrid.com/parquimetros#District
+:District rdf:type owl:Class.
 
-# http://parquimetrosdemadrid.com/Neighborhood
-class:Neighborhood rdf:type owl:Class.
+# http://parquimetrosdemadrid.com/parquimetros#Neighborhood
+:Neighborhood rdf:type owl:Class .
 
-# http://parquimetrosdemadrid.com/Via
-class:Via rdf:type owl:Class.
+# http://parquimetrosdemadrid.com/parquimetros#Via
+:Via rdf:type owl:Class .

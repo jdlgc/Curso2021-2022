@@ -1,4 +1,4 @@
- @prefix base: <http://www.biciwhere-madrid.es/> .
+@prefix base: <http://www.biciwhere-madrid.es/> .
 @prefix bici: <http://www.biciwhere-madrid.es/bwm/ontology#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -71,6 +71,11 @@ bici:hasLatitude a owl:DatatypeProperty ;
     rdfs:domain bici:Coordinates ;
     rdfs:range xsd:double .
 
+bici:hasLocation a owl:ObjectProperty ;
+    rdfs:label "has location" ;
+    rdfs:domain bici:Address ;
+    rdfs:range bici:Location .
+
 bici:hasLongitude a owl:DatatypeProperty ;
     rdfs:label "has longitude" ;
     rdfs:domain bici:Coordinates ;
@@ -124,6 +129,5 @@ bici:Location a owl:Class ;
     rdfs:label "Location" .
 
 bici:Address a owl:Class ;
-    rdfs:label "Address" ;
-    rdfs:subClassOf bici:Location .
+    rdfs:label "Address" .
 

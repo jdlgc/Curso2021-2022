@@ -1,0 +1,270 @@
+StationNumber,GisID,Gis_X,Gis_Y,AddressID,DistrictCode,DistrictName,NeighborhoodCode,NeighborhoodName,same_as_wikidata_barrio,Address,Capacity,CoordinatesID,Longitude,Latitude
+001a,001 a,"440443,61","4474290,65",001 a,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"Alcalá Street,2",30,001 a,-3.701.998,404.171.107
+001b,001 b,"440480,56","4474301,74",001 b,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"Alcalá Street,6",30,001 b,-37.015.636,404.172.132
+2,2,"440134,83","4474678,23",2,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"CALLE DE MIGUEL MOYA,1,1",24,2,-37.056.739,4.042.058
+3,3,"440012,98","4475760,68",3,7,Chamberí,72,Arapiles,https://wikidata.org/entityQ10856744,"Plaza del Conde del Valle de Súchil, Madrid,2",18,3,-37.072.122,404.303.224
+4,4,"440396,4","4475565,36",4,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"Calle de Manuela Malasaña, Madrid,3",24,4,-37.026.739,404.285.905
+5,5,"440447,06","4475539,6",5,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"calle de Fuencarral,106",27,5,-37.020.743,40.428.362
+6,6,"440754,26","4475071,08",6,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"calle de Hortaleza,63",24,6,-36.984.093,404.241.633
+7,7,"440811,97","4475187,49",7,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"calle de Hortaleza,75",21,7,-36.977.399,404.252.161
+8,8,"441020,56","4475463,16",8,7,Chamberí,74,Almagro,https://wikidata.org/entityQ10954432,"plaza de Alonso Martínez,6",24,8,-36.953.067,404.277.143
+9,9,"439813,51","4474129,47",9,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"Plaza de San Miguel, Madrid,9",24,9,-37.094.093,404.156.134
+10,10,"441292,12","4475204,43",10,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"Calle del Marqués de la Ensenada, Madrid,16",24,10,-36.920.816,404.254.027
+11,11,"440314,86","4475395,19",11,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"calle de San Andrés,20",24,11,-37.036.192,404.270.517
+12,12,"440095,53","4475560,73",12,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"San Bernardo street,87",24,12,-37.062.202,404.285.271
+13,13,"439733,78","4475434,65",13,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"calle del Conde Duque,22",24,13,-37.104.727,404.273.652
+14,14,"439486,2","4475284,13",14,9,Moncloa-Aravaca,92,Argüelles,https://wikidata.org/entityQ64874,"calle de Ventura Rodríguez,1",24,14,-37.133.768,404.259.913
+15,15,"439996,77","4475313,59",15,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"Calle del Norte, Madrid,10",21,15,-37.073.611,404.262.937
+16,16,"439982,39","4474941,66",16,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"San Bernardo street,22",21,16,-37.074.955,404.229.421
+17,17,"440263,35","4474964,43",17,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"PLAZA DE CARLOS CAMBRONERO,2,2",24,17,-37.041.859,404.231.675
+18,18,"440653,13","4474711,92",18,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"plaza de Pedro Zerolo,1",24,18,-36.995.679,404.209.206
+19,19,"441007,98","4474817,8",19,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"Calle de Prim, Madrid,4",24,19,-36.953.951,404.218.997
+20,20,"441021,37","4474517,89",20,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"Alcalá Street,49",24,20,-36.952.095,404.191.989
+020ampliacion,020 ampliacion,"441014,52","4474516,49",020 ampliacion,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"Alcalá Street,49",6,020 ampliacion,-36.952.901,404.191.858
+22,22,"440064,4","4474630,53",22,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"calle de Jacometrezo,1",24,22,-37.064.995,404.201.452
+23,23,"439912,56","4474639,35",23,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"Plaza de Santo Domingo,",24,23,-37.082.901,404.202.137
+24,24,"439715,67","4474384,75",24,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"Calle de Carlos III, Madrid,1",24,24,-37.105.866,40.417.906
+025a,025 a,"440104,48","4474318,99",025 a,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"PLAZA DEL CELENQUE,1,1",24,025 a,-37.059.978,404.173.416
+025b,025 b,"440102,16","4474309,87",025 b,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"PLAZA DEL CELENQUE,1,1",24,025 b,-37.060.243,404.172.593
+26,26,"441082,03","4475031,58",26,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"Plaza de las Salesas, Madrid,8",24,26,-36.945.421,404.238.308
+27,27,"440984,74","4473861,49",27,1,Centro,13,Cortes,https://wikidata.org/entityQ2535637,"Calle de Jesús, Madrid,6",27,27,-36.955.803,404.132.831
+28,28,"440752,57","4474394,64",28,1,Centro,13,Cortes,https://wikidata.org/entityQ2535637,"Alcalá Street,26",24,28,-36.983.662,404.180.695
+29,29,"440968,62","4474190,29",29,1,Centro,13,Cortes,https://wikidata.org/entityQ2535637,"calle del Marqués de Cubas,25",24,29,-36.958.008,40.416.244
+30,30,"439635,83","4474544,08",30,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"Calle de Pavía, Madrid,6",27,30,-37.115.428,404.193.355
+31,31,"440050,38","4474208,74",31,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"Calle Mayor,18",27,31,-3.706.625,404.163.446
+32,32,"440090,59","4474042,64",32,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"Plaza de la Provincia, Madrid,1",18,32,-37.061.355,404.148.511
+33,33,"440340,26","4474220,99",33,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"calle de Carretas,3",21,33,-37.032.096,404.164.757
+34,34,"440313,43","4473992,08",34,1,Centro,13,Cortes,https://wikidata.org/entityQ2535637,"Plaza de Jacinto Benavente,",24,34,-37.035.044,404.144.117
+35,35,"439730,93","4473970,93",35,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"Plaza del Cordón,1",24,35,-37.103.676,404.141.792
+36,36,"439614,82","4474265,33",36,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"Plaza de Ramales, Madrid,5",24,36,-3.711.764,404.168.229
+37,37,"439409,3","4473605,14",37,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"Plaza de San Francisco,5",24,37,-37.141.234,404.108.606
+38,38,439637,"4473651,64",38,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"carrera de San Francisco,1",24,38,-37.114.443,404.112.961
+39,39,439844,"4473646,66",39,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"plaza de la Cebada,16",27,39,-37.090.043,404.112.662
+40,40,"440207,51","4473923,52",40,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"Calle del Conde de Romanones, Madrid,2",24,40,-37.047.463,404.137.865
+41,41,"440694,54","4473746,65",41,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"Calle de Atocha,56",18,41,-36.989.898,40.412.228
+42,42,"440757,78","4473584,46",42,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"calle de Santa Isabel,32",24,42,-36.982.294,404.107.714
+43,43,"440391,04","4473511,6",43,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"Calle de Lavapiés,36",24,43,-37.025.446,404.100.889
+44,44,"440274,63","4473482,26",44,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"calle de Mesón de Paredes,35",21,44,-37.039.138,404.098.162
+45,45,"439659,1","4473168,86",45,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"GLORIETA DE LA PUERTA DE TOLEDO,1,1",21,45,-37.111.381,404.069.486
+46,46,"439998,9","4472999,74",46,2,Arganzuela,22,Las Acacias,https://wikidata.org/entityQ3319190,"Calle de la Ribera de Curtidores,28",24,46,-37.071.178,404.054.496
+47,47,"440368,37","4472905,07",47,2,Arganzuela,22,Las Acacias,https://wikidata.org/entityQ3319190,"Glorieta de Embajadores, Madrid,7 B",24,47,-3.702.755,404.046.233
+48,48,"440424,7","4472996,09",48,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"Glorieta de Embajadores, Madrid,2",24,48,-37.020.997,404.054.473
+49,49,"440667,66","4473061,04",49,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"Ronda de Atocha,36",24,49,-36.992.427,404.060.497
+50,50,"441180,67","4473307,92",50,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"calle de Santa Isabel,57",24,50,-369.322,404.083.102
+51,51,"441148,47","4473243,04",51,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"Plaza del Emperador Carlos V,7",27,51,-36.935.934,404.077.234
+52,52,"440544,34","4474002,06",52,1,Centro,13,Cortes,https://wikidata.org/entityQ2535637,"Plaza de Santa Ana,9",24,52,-37.007.838,404.145.181
+53,53,"440543,46","4473309,62",53,1,Centro,12,Embajadores,https://wikidata.org/entityQ2449844,"calle de Valencia,2",24,53,-37.007.295,404.082.802
+54,54,"440592,35","4475345,44",54,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"calle de Barceló,7",21,54,-37.003.435,404.266.233
+55,55,"440455,56","4475063,26",55,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"plaza de San Ildefonso,8",24,55,-37.019.295,404.240.716
+56,56,"440335,43","4474443,96",56,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"Plaza del Carmen,1",24,56,-37.032.875,40.418.484
+57,57,"439536,86","4475688,34",57,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"calle de Santa Cruz de Marcenado,24",24,57,-37.128.181,404.296.363
+58,58,"440791,91","4474859,51",58,1,Centro,14,Justicia,https://wikidata.org/entityQ1992319,"Calle de Augusto Figueroa, Madrid,33",24,58,-36.979.458,404.222.601
+59,59,"440271,27","4475221,1",59,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"Calle del Espíritu Santo, Madrid,30",21,59,-37.041.167,404.254.802
+60,60,"441616,3","4474541,2",60,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"Plaza de la Independencia,7",24,60,-36.881.994,404.194.508
+61,61,"442720,29","4474753,26",61,3,Retiro,34,Ibiza,https://wikidata.org/entityQ15249910,"Calle de O'Donnell, Madrid,30",24,61,-3.675.206,404.214.379
+62,62,"442956,32","4474735,99",62,3,Retiro,34,Ibiza,https://wikidata.org/entityQ15249910,"Calle de O'Donnell, Madrid,48",24,62,-36.724.223,404.212.986
+63,63,"443103,74","4474356,79",63,3,Retiro,34,Ibiza,https://wikidata.org/entityQ15249910,"Calle de Ibiza, Madrid,64",24,63,-36.706.508,404.178.926
+65,65,"441513,53","4474235,07",65,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"Calle de Antonio Maura, Madrid,15",24,65,-36.893.825,404.166.859
+67,67,"441190,08","4473587,45",67,1,Centro,13,Cortes,https://wikidata.org/entityQ2535637,"CALLE DE ALMADEN,28,28",24,67,-36.931.349,40.410.829
+68,68,"441358,92","4473802,81",68,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"CALLE DE ESPALTER,1,1",21,68,-36.911.649,40.412.781
+69,69,"441551,54","4473499,36",69,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"Calle de Alfonso XII,54",27,69,-36.888.669,404.100.609
+70,70,"442494,99","4474064,79",70,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"Avenida de Menéndez Pelayo, Madrid,63",24,70,-36.777.994,404.152.203
+71,71,"442816,22","4474149,49",71,3,Retiro,36,Niño Jesús,https://wikidata.org/entityQ3773746,"CALLE DEL DOCE DE OCTUBRE,28,28",24,71,-3.674.021,404.160.054
+72,72,"443189,11","4474115,08",72,3,Retiro,36,Niño Jesús,https://wikidata.org/entityQ3773746,"Calle del Doctor Esquerdo, Madrid,62",24,72,-3.669.623,40.415.721
+73,73,"443229,99","4473642,11",73,3,Retiro,33,Estrella,https://wikidata.org/entityQ3773738,"PLAZA DE LOS ASTROS,,",24,73,-3.669.099,40.411.463
+74,74,"442595,78","4473679,92",74,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"Avenida de Menéndez Pelayo, Madrid,",24,74,-36.765.768,404.117.601
+75,75,"442436,91","4473301,34",75,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"Avenida de Menéndez Pelayo, Madrid,",24,75,-36.784.149,404.083.387
+76,76,"442712,67","4473182,27",76,3,Retiro,36,Niño Jesús,https://wikidata.org/entityQ3773746,"avenida del Mediterráneo,19",24,76,-36.751.544,404.072.851
+77,77,"443083,53","4473073,95",77,3,Retiro,31,Pacífico,https://wikidata.org/entityQ3773753,"Plaza del Conde de Casal, Madrid,8",22,77,-36.707.742,404.063.347
+78,78,"442755,86","4472436,57",78,3,Retiro,32,Adelfas,https://wikidata.org/entityQ3774001,"CALLE DEL CERRO DE LA PLATA,2,2",24,78,-36.745.783,404.005.704
+79,79,"442252,73","4472937,49",79,3,Retiro,31,Pacífico,https://wikidata.org/entityQ3773753,"Avenida de Menéndez Pelayo, Madrid,38",24,79,-36.805.524,404.050.482
+080a,080 a,"441412,24","4473206,43",080 a,2,Arganzuela,27,Atocha,https://wikidata.org/entityQ3814594,"Avenida de la Ciudad de Barcelona, Madrid,",24,080 a,-36.904.816,404.074.122
+080b,080 b,"441391,88","4473230,32",080 b,2,Arganzuela,27,Atocha,https://wikidata.org/entityQ3814594,"Avenida de la Ciudad de Barcelona, Madrid,",27,080 b,-36.907.238,40.407.626
+81,81,"441288,14","4473447,57",81,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"Cuesta de Moyano, Madrid,",24,81,-36.919.663,404.095.758
+82,82,"443177,93","4473311,29",82,3,Retiro,33,Estrella,https://wikidata.org/entityQ3773738,"Calle de Lira, Madrid,2",24,82,-3.669.683,404.084.793
+83,83,"442770,38","4473844,96",83,3,Retiro,36,Niño Jesús,https://wikidata.org/entityQ3773746,"CALLE DE PIO BAROJA,8 B,8 B",24,83,-36.745.339,404.132.589
+84,84,"442918,27","4472746,05",84,3,Retiro,32,Adelfas,https://wikidata.org/entityQ3774001,"Calle del Doctor Esquerdo, Madrid,191",24,84,-36.726.923,404.033.695
+85,85,"442319,29","4474723,43",85,3,Retiro,35,Jerónimos,https://wikidata.org/entityQ10306766,"Avenida de Menéndez Pelayo, Madrid,9",27,85,-36.799.299,404.211.415
+86,86,"441180,29","4474447,71",86,1,Centro,13,Cortes,https://wikidata.org/entityQ2535637,"Paseo del Prado,",21,86,-36.933.298,404.185.779
+87,87,"442016,68","4475450,66",87,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Calle de Ayala, Madrid,44",24,87,-36.835.631,404.276.717
+88,88,"442004,11","4475843,28",88,4,Salamanca,46,Castellana,https://wikidata.org/entityQ4781,"calle de Velázquez,73",24,88,-36.837.471,404.312.077
+89,89,"442728,15","4475399,8",89,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"Calle de Ayala, Madrid,102",24,89,-36.751.716,404.272.628
+90,90,"442000,33","4475163,96",90,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Calle de Goya,18",24,90,-36.837.297,404.250.878
+090ampliacion,090 ampliacion,"442014,61","4475162,88",090 ampliacion,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Calle de Goya,20",6,090 ampliacion,-36.835.613,404.250.791
+91,91,"442417,66","4475274,35",91,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"Calle de Hermosilla,73",24,91,-36.788.203,404.261.113
+92,92,"441767,83","4475291,85",92,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Claudio Coello Street,45",24,92,-36.864.821,404.262.237
+93,93,"441518,8","4475235,48",93,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Calle de Goya,3",24,93,-36.894.124,404.256.984
+94,94,"441407,18","4474977,73",94,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Paseo de Recoletos,22",21,94,-36.907.044,404.233.686
+95,95,"441721,55",4474897,95,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Claudio Coello Street,19",24,95,-36.869.914,404.226.634
+96,96,"442140,46","4474825,84",96,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Alcalá Street,111",27,96,-36.820.471,404.220.516
+97,97,"442301,64","4474872,66",97,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"Avenida de Menéndez Pelayo, Madrid,1",27,97,-36.801.515,404.224.846
+98,98,"442705,5","4475058,99",98,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"AVENIDA DE FELIPE II,5,5",24,98,-36.754.079,404.241.911
+99,99,"442829,62","4475270,48",99,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"Calle de Alcántara, Madrid,2",24,99,-36.739.638,404.261.048
+100,100,"442835,81","4475123,85",100,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"Calle de Goya,99",24,100,-36.738.777,404.247.843
+101,101,"443212,16","4474936,49",101,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"Calle de Jorge Juan,131",24,101,-36.694.246,404.231.223
+102,102,"441967,18","4474727,67",102,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Alcalá Street,95",24,102,-36.840.806,404.211.552
+103,103,"441766,91","4475752,49",103,4,Salamanca,46,Castellana,https://wikidata.org/entityQ4781,"Calle de José Ortega y Gasset, Madrid,4",24,103,-36.865.351,404.303.733
+104,104,"441505,58","4475354,07",104,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Paseo de la Castellana,4",21,104,-36.895.792,404.267.658
+105,105,"441684,37","4475386,27",105,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Serrano Street,46",24,105,-36.874.745,404.270.684
+106a,106 a,"441647,49","4475141,87",106 a,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Serrano Street,32",18,106 a,-36.878.868,404.248.642
+106b,106 b,"441649,86","4475157,87",106 b,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Serrano Street,34",18,106 b,-36.878.604,404.250.085
+107,107,"441599,07","4474779,37",107,4,Salamanca,41,Recoletos,https://wikidata.org/entityQ3814551,"Serrano Street,8",24,107,-36.884.243,404.215.952
+108,108,"443111,6","4475416,83",108,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"CALLE DE LAS MARTIRES CONCEPCIONISTAS,2,2",27,108,-3.670.653,404.274.425
+109,109,"442191,64","4475721,98",109,4,Salamanca,46,Castellana,https://wikidata.org/entityQ4781,"Calle de José Ortega y Gasset, Madrid,32",24,109,-36.815.253,404.301.281
+110,110,"438921,15","4476262,7",110,9,Moncloa-Aravaca,91,Casa de Campo,https://wikidata.org/entityQ16302441,"paseo de Moret,",24,110,-37.201.316,404.347.654
+111a,111 a,"439144,16","4476128,65",111 a,7,Chamberí,71,Gaztambide,https://wikidata.org/entityQ10288587,"calle del Arcipreste de Hita,8",24,111 a,-37.174.896,404.335.742
+111b,111 b,"439120,04","4476174,12",111 b,7,Chamberí,71,Gaztambide,https://wikidata.org/entityQ10288587,"calle del Arcipreste de Hita,12",24,111 b,-37.177.783,40.433.982
+112,112,"438517,07","4476028,6",112,9,Moncloa-Aravaca,92,Argüelles,https://wikidata.org/entityQ64874,"paseo de Moret,11",24,112,-37.248.727,404.326.267
+113,113,"438865,35","4475484,09",113,9,Moncloa-Aravaca,91,Casa de Campo,https://wikidata.org/entityQ16302441,"Paseo del Pintor Rosales,38",24,113,-37.207.145,404.277.472
+114,114,"439145,29","4475490,01",114,9,Moncloa-Aravaca,92,Argüelles,https://wikidata.org/entityQ64874,"calle de Quintana,13",24,114,-37.174.151,404.278.211
+115,115,"439181,48","4475218,76",115,9,Moncloa-Aravaca,92,Argüelles,https://wikidata.org/entityQ64874,"PLAZA DEL MARQUES DE CERRALBO,,",24,115,-37.169.626,404.253.802
+116a,116 a,"439621,73",4475069,116 a,9,Moncloa-Aravaca,92,Argüelles,https://wikidata.org/entityQ64874,"Plaza de España,",24,116 a,-37.117.588,404.240.632
+116b,116 b,"439614,47","4475083,02",116 b,9,Moncloa-Aravaca,92,Argüelles,https://wikidata.org/entityQ64874,"Plaza de España,",24,116 b,-37.118.457,404.241.889
+117,117,"439020,83","4475833,31",117,9,Moncloa-Aravaca,92,Argüelles,https://wikidata.org/entityQ64874,"Calle de Altamirano, Madrid,24",24,117,-37.189.152,404.309.046
+118,118,"441605,64","4472470,47",118,2,Arganzuela,26,Palos de Moguer,https://wikidata.org/entityQ521009,"CALLE DE JUAN MARTIN EL EMPECINADO,16,16",24,118,-3.688.135,404.007.959
+119,119,"441738,36","4472542,79",119,2,Arganzuela,27,Atocha,https://wikidata.org/entityQ3814594,"Calle de Méndez Álvaro, Madrid,7",24,119,-36.865.777,404.014.567
+120,120,"441043,78","4472723,55",120,2,Arganzuela,26,Palos de Moguer,https://wikidata.org/entityQ521009,"CALLE DE PALOS DE LA FRONTERA,27,27",24,120,-36.947.791,404.030.362
+121,121,"440718,1","4472592,85",121,2,Arganzuela,26,Palos de Moguer,https://wikidata.org/entityQ521009,"Paseo de Santa María de la Cabeza,58",24,121,-36.986.046,404.018.356
+122,122,"440941,06","4475664,68",122,7,Chamberí,74,Almagro,https://wikidata.org/entityQ10954432,"Calle de Santa Engracia, Madrid,16",24,122,-36.962.626,40.429.524
+123,123,"439482,59","4475800,04",123,7,Chamberí,71,Gaztambide,https://wikidata.org/entityQ10288587,"Calle de Guzmán el Bueno, Madrid,2",24,123,-37.134.685,404.306.386
+124,124,"440683,01","4475810,28",124,7,Chamberí,73,Trafalgar,https://wikidata.org/entityQ10384027,"Calle de Manuel Silvela, Madrid,18",24,124,-36.993.182,404.308.173
+125,125,"441067,49","4476306,28",125,7,Chamberí,74,Almagro,https://wikidata.org/entityQ10954432,"Fernández de la Hoz street,29",24,125,-36.948.316,404.353.128
+126,126,"440480,69","4476228,15",126,7,Chamberí,73,Trafalgar,https://wikidata.org/entityQ10384027,"Calle del General Álvarez de Castro, Madrid,4",24,126,-37.017.424,404.345.672
+127,127,"439915,53","4476159,21",127,7,Chamberí,72,Arapiles,https://wikidata.org/entityQ10856744,"Calle de Fernando el Católico, Madrid,19",24,127,-37.083.987,404.339.055
+128,128,"439313,53","4476733,24",128,7,Chamberí,71,Gaztambide,https://wikidata.org/entityQ10288587,"calle de Cea Bermúdez,59",24,128,-37.155.506,404.390.329
+128ampliacion,128 ampliacion,"439301,59","4476734,02",128 ampliacion,7,Chamberí,71,Gaztambide,https://wikidata.org/entityQ10288587,"calle de Cea Bermúdez,59",3,128 ampliacion,-37.156.915,404.390.391
+129,129,"440777,63","4476658,85",129,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"Calle de José Abascal, Madrid,33",24,129,-36.982.818,404.384.684
+130,130,"440489,99","4477022,03",130,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"Calle de Santa Engracia, Madrid,129",20,130,-37.017.071,404.417.195
+131,131,"440293,7","4477027,45",131,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"Calle de Bravo Murillo,44",24,131,-3.704.022,404.417.543
+132,132,"440334,34","4477541,61",132,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"Calle de Santa Engracia, Madrid,168",24,132,-37.035.911,404.463.889
+133,133,"440637,08","4477625,61",133,6,Tetuán,62,Cuatro Caminos,https://wikidata.org/entityQ5824684,"CALLE DE DULCINEA,3,3",24,133,-37.000.292,404.471.673
+134,134,"441017,45","4477274,01",134,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"Calle de María de Guzmán, Madrid,58",24,134,-36.955.114,40.444.027
+135,135,"441237,54","4476990,04",135,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"Square of San Juan de la Cruz,",24,135,-36.928.901,404.414.845
+136,136,"441417,02","4477410,33",136,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"Paseo de la Castellana,106",24,136,-36.908.127,404.452.833
+137,137,"441885,33","4477430,27",137,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"Plaza de la República Argentina, Madrid,6",24,137,-36.852.925,404.454.958
+138,138,"441352,15","4477455,81",138,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"Paseo de la Castellana,108",24,138,-36.915.818,404.456.884
+139,139,"441442,67","4476752,13",139,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"CALLE DE JOSE GUTIERREZ ABASCAL,,",24,139,-36.904.495,404.393.558
+140,140,"442081,95","4476666,37",140,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"calle de Velázquez,134",24,140,-36.829.045,40.438.628
+140ampliación,140 ampliación,"442081,16","4476654,37",140 ampliación,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"calle de Velázquez,134",3,140 ampliación,-36.829.127,404.385.198
+141,141,"441537,59","4476315,08",141,7,Chamberí,74,Almagro,https://wikidata.org/entityQ10954432,"Paseo de la Castellana,43",12,141,-36.892.902,404.354.253
+142,142,"441641,97","4476103,45",142,4,Salamanca,46,Castellana,https://wikidata.org/entityQ4781,"Paseo de la Castellana,",24,142,-36.880.402,404.335.262
+143,143,"442474,52","4476217,99",143,4,Salamanca,45,Lista,https://wikidata.org/entityQ4779,"Calle de Diego de León, Madrid,54",24,143,-36.782.355,40.434.616
+144,144,"442707,74","4475961,24",144,4,Salamanca,45,Lista,https://wikidata.org/entityQ4779,"Calle de Juan Bravo, Madrid,50",24,144,-36.754.628,404.323.192
+145,145,"443050,11","4475675,85",145,4,Salamanca,45,Lista,https://wikidata.org/entityQ4779,"Calle de José Ortega y Gasset, Madrid,87",24,145,-3.671.401,404.297.717
+146,146,"442435,7","4477286,68",146,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"CALLE DE MARIA FRANCISCA,1,1",18,146,-367.879,404.442.406
+147,147,"442372,1","4477741,71",147,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"Avenida del Doctor Arce, Madrid,45",24,147,-36.795.811,404.483.353
+148,148,"442194,78","4478041,13",148,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"Serrano Street,210",24,148,-36.816.993,404.510.203
+149,149,"441672,11","4477914,69",149,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"Paseo de La Habana, Madrid,42",24,149,-36.878.512,404.498.448
+150,150,"441443,38","4477835,19",150,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"Paseo de la Castellana,",24,150,-3.690.541,404.491.125
+151,151,"441047,89","4477810,45",151,6,Tetuán,62,Cuatro Caminos,https://wikidata.org/entityQ5824684,"Calle de Orense, Madrid,10",24,151,-36.952.023,404.488.617
+152,152,"440733,5","4478240,82",152,6,Tetuán,62,Cuatro Caminos,https://wikidata.org/entityQ5824684,"Avenida del General Perón,4",24,152,-36.989.497,404.527.163
+153,153,"441230,1","4478196,25",153,6,Tetuán,62,Cuatro Caminos,https://wikidata.org/entityQ5824684,"Avenida del General Perón,36",24,153,-36.930.894,4.045.235
+154,154,"441097,89","4478466,69",154,6,Tetuán,62,Cuatro Caminos,https://wikidata.org/entityQ5824684,"Calle de Orense, Madrid,36",24,154,-36.946.736,404.547.769
+155,155,"440575,2","4478749,38",155,6,Tetuán,62,Cuatro Caminos,https://wikidata.org/entityQ5824684,"Calle de San Germán, Madrid,55",24,155,-3.700.864,404.572.863
+156,156,"441385,88","4478959,93",156,6,Tetuán,63,Castillejos,https://wikidata.org/entityQ11913212,"Calle de Sor Ángela de la Cruz, Madrid,2",24,156,-36.913.229,404.592.406
+157,157,"441554,84","4478963,2",157,5,Chamartín,55,Nueva España,https://wikidata.org/entityQ10338128,"Paseo de la Castellana,",24,157,-36.893.305,40.459.282
+158,158,"441946,46","4478886,67",158,5,Chamartín,54,Hispanoamérica,https://wikidata.org/entityQ3814573,"avenida de Alberto Alcocer,22 A",24,158,-36.847.049,4.045.862
+159,159,"442024,96","4478401,51",159,5,Chamartín,54,Hispanoamérica,https://wikidata.org/entityQ3814573,"Paseo de La Habana, Madrid,63",24,159,-36.837.348,404.542.549
+160,160,"442630,95","4478723,71",160,5,Chamartín,54,Hispanoamérica,https://wikidata.org/entityQ3814573,"CALLE DE COLOMBIA,7,7",24,160,-36.766.176,404.571.995
+161,161,"438745,93","4474862,31",161,9,Moncloa-Aravaca,91,Casa de Campo,https://wikidata.org/entityQ16302441,"Paseo de la Florida, Madrid,8",24,161,-37.220.624,404.221.372
+161ampliacion,161 ampliacion,"438754,04","4474853,3",161 ampliacion,9,Moncloa-Aravaca,91,Casa de Campo,https://wikidata.org/entityQ16302441,"Paseo de la Florida, Madrid,6",3,161 ampliacion,-37.219.659,404.220.566
+162,162,"439688,47","4472787,76",162,2,Arganzuela,22,Las Acacias,https://wikidata.org/entityQ3319190,"PASEO DE LOS OLMOS,28,28",24,162,-37.107.559,404.035.176
+163,163,"440055,04","4472797,85",163,2,Arganzuela,22,Las Acacias,https://wikidata.org/entityQ3319190,"Paseo de la Esperanza, Madrid,",21,163,-37.064.372,404.036.349
+164,164,"441063,58","4472068,5",164,2,Arganzuela,25,Las Delicias,https://wikidata.org/entityQ3773736,"Paseo de las Delicias, Madrid,94",24,164,-36.944.851,403.971.366
+165,165,"440794,37","4471598,57",165,2,Arganzuela,23,La Chopera,https://wikidata.org/entityQ3773750,"Paseo de la Chopera, Madrid,49",27,165,-36.976.134,403.928.841
+166,166,"439478,68","4473946,37",166,1,Centro,11,Palacio,https://wikidata.org/entityQ2136510,"calle de Segovia,21",24,166,-37.133.382,404.139.396
+167,167,"439113,04","4473926,4",167,2,Arganzuela,21,Imperial,https://wikidata.org/entityQ3773740,"calle de Segovia,47 A",24,167,-37.176.456,404.137.331
+168,168,"440948,66","4472895,98",168,2,Arganzuela,26,Palos de Moguer,https://wikidata.org/entityQ521009,"Paseo de Santa María de la Cabeza,32",24,168,-36.959.159,404.045.828
+169,169,"439424,51","4472574,58",169,2,Arganzuela,22,Las Acacias,https://wikidata.org/entityQ3319190,"Calle de Toledo,181",24,169,-3.713.846,40.401.578
+170,170,"440225,41","4472515,53",170,2,Arganzuela,22,Las Acacias,https://wikidata.org/entityQ3319190,"Paseo de la Esperanza, Madrid,21",24,170,-3.704.403,404.011.039
+171,171,"440729,75","4472362,64",171,2,Arganzuela,25,Las Delicias,https://wikidata.org/entityQ3773736,"Calle de Embajadores, Madrid,97",24,171,-36.984.459,403.997.626
+172,172,"441146,63","4472482,09",172,2,Arganzuela,26,Palos de Moguer,https://wikidata.org/entityQ521009,"Calle de Bustamante, Madrid,1",24,172,-36.935.448,404.008.683
+173,173,"440396,07","4472189,13",173,2,Arganzuela,22,Las Acacias,https://wikidata.org/entityQ3319190,"Paseo de la Esperanza, Madrid,59",24,173,-37.023.615,403.981.757
+174,174,"440054,62","4472107,63",174,2,Arganzuela,22,Las Acacias,https://wikidata.org/entityQ3319190,"Paseo de las Yeserías, Madrid,8",27,174,-37.063.771,40.397.417
+175,175,"440738,79","4471974,72",175,2,Arganzuela,23,La Chopera,https://wikidata.org/entityQ3773750,"CALLE DE JAIME EL CONQUISTADOR,30,30",21,175,-36.983.033,403.962.687
+176,176,"441133,61","4471746,54",176,2,Arganzuela,25,Las Delicias,https://wikidata.org/entityQ3773736,"CALLE DE ALICANTE,3,3",24,176,-36.936.302,403.942.411
+177,177,"441092,45","4471442,79",177,2,Arganzuela,25,Las Delicias,https://wikidata.org/entityQ3773736,"Calle de Bolívar, Madrid,3",24,177,-3.694.087,403.915.019
+178,178,"442391,73","4472711,75",178,3,Retiro,31,Pacífico,https://wikidata.org/entityQ3773753,"CALLE DE LEON GIL DE PALACIO,1,1",24,178,-36.788.939,404.030.242
+179,179,"443221,91","4472140,39",179,13,Puente de Vallecas,132,San Diego,https://wikidata.org/entityQ11946851,"Madrid Ring Road,",24,179,-36.690.602,403.979.341
+180,180,"442636,16","4471722,03",180,2,Arganzuela,27,Atocha,https://wikidata.org/entityQ3814594,"Retama Street,5",24,180,-36.759.244,403.941.252
+181,181,"442595,87","4474391,99",181,3,Retiro,34,Ibiza,https://wikidata.org/entityQ15249910,"Calle de Ibiza, Madrid,18",27,181,-367.664,404.181.748
+182,182,"443541,21","4474444,72",182,3,Retiro,33,Estrella,https://wikidata.org/entityQ3773738,"Calle del Alcalde Sáinz de Baranda, Madrid,90",24,182,-36.655.023,404.187.145
+183,183,"443212,07","4475215,51",183,4,Salamanca,42,Goya,https://wikidata.org/entityQ3814578,"Calle de Hermosilla,135",24,183,-36.694.506,404.256.358
+184,184,"443563,66","4475253,54",184,4,Salamanca,43,Fuente del Berro,https://wikidata.org/entityQ3814564,"PASEO DEL MARQUES DE ZAFRA,24,24",24,184,-36.653.095,404.260.023
+185,185,"443883,24","4475147,45",185,4,Salamanca,43,Fuente del Berro,https://wikidata.org/entityQ3814564,"GLORIETA DEL MARQUES DE ZAFRA,4,4",24,185,-3.661.533,404.250.682
+186,186,"442466,16","4475602,3",186,4,Salamanca,45,Lista,https://wikidata.org/entityQ4779,"General Pardiñas Street,56",24,186,-36.782.783,40.429.069
+187,187,"443691,7","4475711,36",187,4,Salamanca,43,Fuente del Berro,https://wikidata.org/entityQ3814564,"CALLE DE ALEJANDRO GONZALEZ,1,1",24,187,-36.638.407,404.301.353
+188,188,"444111,11","4475822,61",188,15,Ciudad Lineal,151,Ventas,https://wikidata.org/entityQ71762,"Avenida de Daroca, Madrid,2",27,188,-36.589.062,404.311.658
+189,189,"444399,55","4476248,37",189,15,Ciudad Lineal,154,Concepción,https://wikidata.org/entityQ11915156,"CALLE DE LA VIRGEN DE LA ALEGRIA,18,18",24,189,-36.555.431,404.350.206
+190,190,"442030,24","4476194,79",190,4,Salamanca,46,Castellana,https://wikidata.org/entityQ4781,"calle de Velázquez,91",24,190,-36.834.711,404.343.761
+191,191,"442830,66","4476215,36",191,4,Salamanca,44,La Guindalera,https://wikidata.org/entityQ3814559,"CALLE DE ALONSO HEREDIA,1,1",18,191,-36.740.365,404.346.168
+192,192,"443049,28","4475907,11",192,4,Salamanca,44,La Guindalera,https://wikidata.org/entityQ3814559,"Avenida de los Toreros, Madrid,3",27,192,-36.714.315,40.431.855
+193,193,"443540,74","4475977,26",193,4,Salamanca,44,La Guindalera,https://wikidata.org/entityQ3814559,"Avenida de los Toreros, Madrid,47",24,193,-3.665.644,404.325.204
+194,194,"442564,99","4476503,98",194,4,Salamanca,44,La Guindalera,https://wikidata.org/entityQ3814559,"Francisco Silvela Street,86",24,194,-36.771.947,404.371.986
+195,195,"442711,2","4476730,39",195,5,Chamartín,52,Prosperidad,https://wikidata.org/entityQ4776,"CALLE DEL PADRE INDALECIO HERNANDEZ,1,1",24,195,-36.754.913,404.392.483
+196,196,"442749,2","4477268,2",196,5,Chamartín,53,Ciudad Jardín,https://wikidata.org/entityQ3773744,"Calle de Suero de Quiñones, Madrid,2",24,196,-36.750.918,404.440.957
+197,197,"442506,78","4478097,54",197,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"avenida de Concha Espina,",24,197,-36.780.252,404.515.501
+198,198,"441342,11","4476060,39",198,7,Chamberí,74,Almagro,https://wikidata.org/entityQ10954432,"Glorieta de Rubén Darío, Madrid,2",24,198,-36.915.713,404.331.172
+199,199,"439369,52","4476210,1",199,7,Chamberí,71,Gaztambide,https://wikidata.org/entityQ10288587,"Calle de Fernando el Católico, Madrid,61",27,199,-37.148.406,404.343.244
+200,200,"440231,49","4476129,61",200,7,Chamberí,72,Arapiles,https://wikidata.org/entityQ10856744,"Glorieta de Quevedo,4",24,200,-3.704.671,404.336.617
+201,201,"440308,49","4476691,87",201,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"Calle de José Abascal, Madrid,2",24,201,-37.038.161,404.387.323
+202,202,"439947,59","4476965,21",202,7,Chamberí,76,Vallehermoso,https://wikidata.org/entityQ6122685,"Calle de Santander, Madrid,",24,202,-37.080.969,404.411.686
+203,203,"439411,53","4477034,58",203,7,Chamberí,76,Vallehermoso,https://wikidata.org/entityQ6122685,"CALLE DEL GENERAL AMPUDIA,2,2",24,203,-37.144.239,404.417.547
+204,204,"440286,36","4477683,16",204,6,Tetuán,61,Bellas Vistas,https://wikidata.org/entityQ11908929,"CALLE DEL DOCTOR SANTERO,1,1",24,204,-37.041.702,404.476.606
+205,205,"440361,85","4478331,04",205,6,Tetuán,61,Bellas Vistas,https://wikidata.org/entityQ11908929,"CALLE DE NAVARRA,1,1",24,205,-37.033.408,404.535.024
+206,206,"440732,11","4479138,12",206,6,Tetuán,66,Berruguete,https://wikidata.org/entityQ11909208,"Calle del Marqués de Viana, Madrid,5",24,206,-36.990.499,404.607.994
+207,207,"440874,02","4479384,51",207,6,Tetuán,65,Valdeacederas,https://wikidata.org/entityQ10388711,"calle de las Azucenas,1",18,207,-36.973.991,404.630.291
+208,208,"441615,82","4479765,37",208,5,Chamartín,56,Castilla,https://wikidata.org/entityQ3813735,"Paseo de la Castellana,",24,208,-36.886.852,404.665.125
+209,209,"441606,43","4479673,82",209,5,Chamartín,55,Nueva España,https://wikidata.org/entityQ10338128,"plaza de Castilla,9",24,209,-36.887.875,404.656.872
+210,210,"440392,24","4474584,46",210,1,Centro,16,Sol,https://wikidata.org/entityQ2465181,"calle de las Tres Cruces,9",27,210,-3.702.631,404.197.538
+211,211,"440400,99","4474680,19",211,1,Centro,15,Universidad,https://wikidata.org/entityQ10387767,"Calle del Desengaño, Madrid,3",24,211,-37.025.369,404.206.168
+212,212,"439193,57","4472197,09",212,11,Carabanchel,113,San Isidro,https://wikidata.org/entityQ3813733,"Glorieta del Marqués de Vadillo, Madrid,9",24,212,-37.165.313,403.981.605
+213,213,"440574,99","4471162,08",213,12,Usera,125,Moscardó,https://wikidata.org/entityQ11937679,"calle de Antonio López,129",24,213,-37.001.575,403.889.363
+214,214,"444286,32","4477179,51",214,15,Ciudad Lineal,155,San Pascual,https://wikidata.org/entityQ165612,"CALLE DE LA CONDESA DE VENADITO,2,2",24,214,-36.569.597,404.434.012
+215,215,"445631,32","4475647,64",215,15,Ciudad Lineal,152,Pueblo Nuevo,https://wikidata.org/entityQ71753,"CALLE DE GUTIERRE DE CETINA,77,77",24,215,-36.409.697,404.296.903
+216,216,"438158,91","4473969,7",216,10,Latina,12,Barrio de Puerta del Ángel,https://wikidata.org/entityQ31142,"PLAZA DE LA PUERTA DEL ANGEL,3,3",24,216,-37.288.948,404.140.528
+217,217,"441592,41","4481374,08",217,8,Fuencarral-El Pardo,85,La Paz,https://wikidata.org/entityQ5869740,"Calle de Pedro Rico, Madrid,4",24,217,-36.891.094,404.810.028
+218,218,"444221,86","4473533,53",218,14,Moratalaz,144,Media Legua,https://wikidata.org/entityQ9031035,"Calle Camino de los Vinateros,28",24,218,-36.573.999,404.105.519
+219,219,"445121,32","4473287,59",219,14,Moratalaz,143,Marroquina,https://wikidata.org/entityQ11935636,"Calle Camino de los Vinateros,108",24,219,-36.467.783,404.083.961
+220,220,"444725,09","4473041,7",220,14,Moratalaz,144,Media Legua,https://wikidata.org/entityQ9031035,"CALLE DEL ARROYO DE LAS PILILLAS,4,4",24,220,-36.514.264,404.061.548
+221,221,"446141,03","4472399,01",221,14,Moratalaz,141,Pavones,https://wikidata.org/entityQ71760,"Calle de la Hacienda de Pavones, Madrid,346",24,221,-36.346.859,404.004.579
+222,222,"440362,66","4471479,61",222,12,Usera,125,Moscardó,https://wikidata.org/entityQ11937679,"CALLE DE EUGENIO CAXES,5,5",24,222,-37.026.887,403.917.816
+223,223,"438522,93","4473120,98",223,10,Latina,11,Los Cármenes,https://wikidata.org/entityQ10319792,"Paseo de la Ermita del Santo,48",24,223,-37.245.226,404.064.341
+224,224,438160,"4473395,7",224,10,Latina,12,Barrio de Puerta del Ángel,https://wikidata.org/entityQ31142,"CALLE DE CARAMUEL,52,52",24,224,-37.288.262,40.408.882
+225,225,"443978,28","4472656,95",225,13,Puente de Vallecas,136,Numancia,https://wikidata.org/entityQ10338144,"CALLE DE LA SIERRA TOLEDANA,33,33",24,225,-36.601.933,404.026.388
+226,226,"443934,22","4472275,39",226,13,Puente de Vallecas,136,Numancia,https://wikidata.org/entityQ10338144,"CAMINO DE VALDERRIBAS,94,94",24,226,-36.606.789,403.991.986
+227,227,"443466,29","4471705,78",227,13,Puente de Vallecas,132,San Diego,https://wikidata.org/entityQ11946851,"Calle del Arroyo del Olivar, Madrid,4",24,227,-36.661.421,403.940.355
+228,228,"439910,49","4471772,12",228,11,Carabanchel,111,Comillas,https://wikidata.org/entityQ955844,"CALLE DE SAN DELFIN,9,9",24,228,-37.080.437,403.943.842
+229,229,"444985,82","4476472,45",229,15,Ciudad Lineal,154,Concepción,https://wikidata.org/entityQ11915156,"Calle de José del Hierro, Madrid,5",24,229,-36.486.507,404.370.782
+230,230,"444952,82","4477207,59",230,15,Ciudad Lineal,155,San Pascual,https://wikidata.org/entityQ165612,"CALLE DE CARLOTA O'NEILL,32,32",24,230,-36.491.034,404.436.986
+231,231,"444380,2","4476773,28",231,15,Ciudad Lineal,155,San Pascual,https://wikidata.org/entityQ165612,"CALLE DE LOS DERECHOS HUMANOS,14,14",24,231,-36.558.172,40.439.748
+232,232,"444989,2","4476001,54",232,15,Ciudad Lineal,151,Ventas,https://wikidata.org/entityQ71762,"CALLE DE JOSE MARIA PEREDA,1,1",24,232,-36.485.701,404.328.362
+233,233,"444381,95","4474904,65",233,15,Ciudad Lineal,151,Ventas,https://wikidata.org/entityQ71762,"Avenida del Marqués de Corbera, Madrid,12",24,233,-3.655.633,404.229.144
+234,234,"444767,03","4475262,41",234,15,Ciudad Lineal,151,Ventas,https://wikidata.org/entityQ71762,"Avenida del Marqués de Corbera, Madrid,52",24,234,-3.651.125,40.426.163
+235,235,"441336,7","4471161,52",235,2,Arganzuela,24,Legazpi,https://wikidata.org/entityQ3773990,"CALLE DEL SODIO,1 B,1 B",24,235,-36.911.834,403.889.853
+236,236,"439149,84","4473225,71",236,2,Arganzuela,21,Imperial,https://wikidata.org/entityQ3773740,"PASEO IMPERIAL,20,20",24,236,-37.171.449,404.074.236
+237,237,"439751,68","4478101,98",237,6,Tetuán,61,Bellas Vistas,https://wikidata.org/entityQ11908929,"CALLE DE FRANCISCO BALSEIRO,,",24,237,-37.105.146,40.451.395
+238,238,"441220,07","4478625,73",238,6,Tetuán,62,Cuatro Caminos,https://wikidata.org/entityQ5824684,"Calle de San Germán, Madrid,5",24,238,-36.932.474,404.562.183
+239,239,"439975,8","4478692,91",239,6,Tetuán,66,Berruguete,https://wikidata.org/entityQ11909208,"Calle de Francos Rodríguez, Madrid,62",24,239,-37.079.276,404.567.345
+240,240,"443939,09","4476439,76",240,4,Salamanca,44,La Guindalera,https://wikidata.org/entityQ3814559,"AVENIDA DE BRASILIA,9,9",24,240,-36.609.886,404.367.138
+241,241,"443363,99","4476559,86",241,4,Salamanca,44,La Guindalera,https://wikidata.org/entityQ3814559,"AVENIDA DE CAMILO JOSE CELA,23,23",24,241,-36.677.796,404.377.568
+242,242,"443778,78","4476746,49",242,4,Salamanca,44,La Guindalera,https://wikidata.org/entityQ3814559,"avenida de Bruselas,56",24,242,-36.629.058,404.394.662
+243,243,"443165,91","4476273,63",243,4,Salamanca,44,La Guindalera,https://wikidata.org/entityQ3814559,"Calle de Cartagena, Madrid,38",24,243,-36.700.894,404.351.648
+244,244,"439144,97","4476825,45",244,7,Chamberí,76,Vallehermoso,https://wikidata.org/entityQ6122685,"calle de Isaac Peral,44",24,244,-37.175.468,404.398.513
+245,245,"439767,36","4476444,58",245,7,Chamberí,72,Arapiles,https://wikidata.org/entityQ10856744,"calle de Galileo,63",24,245,-37.101.726,404.364.656
+246,246,"440693,2","4476388,4",246,7,Chamberí,73,Trafalgar,https://wikidata.org/entityQ10384027,"Calle de Santa Engracia, Madrid,87",24,246,-3.699.252,40.436.026
+247,247,"441238,82","4476643,99",247,7,Chamberí,75,Ríos Rosas,https://wikidata.org/entityQ10366270,"calle de Zurbano,90",24,247,-3.692.843,404.383.672
+248,248,"441694,11","4480631,92",248,8,Fuencarral-El Pardo,85,La Paz,https://wikidata.org/entityQ5869740,"Sinesio Delgado Street,2",24,248,-36.878.414,404.743.243
+249,249,"441914,27","4481195,42",249,5,Chamartín,56,Castilla,https://wikidata.org/entityQ3813735,"Paseo de la Castellana,298",24,249,-36.852.959,404.794.159
+250,250,"441812,82","4476911,24",250,5,Chamartín,51,Valdepeñas Ciudad Real,https://wikidata.org/entityQ4778,"Serrano Street,113B",24,250,-36.861,404.408.151
+251,251,"443447,95","4477272,58",251,5,Chamartín,52,Prosperidad,https://wikidata.org/entityQ4776,"Calle de Santa Hortensia, Madrid,31",24,251,-36.668.532,40.444.183
+252,252,"442025,04","4480322,99",252,5,Chamartín,56,Castilla,https://wikidata.org/entityQ3813735,"CALLE DE RODRIGUEZ JAEN,,",24,252,-36.839.094,404.715.645
+253,253,"441626,91","4478554,58",253,5,Chamartín,54,Hispanoamérica,https://wikidata.org/entityQ3814573,"Calle del Doctor Fleming, Madrid,7",24,253,-3.688.443,40.455.606
+254,254,"442639,53","4479150,36",254,5,Chamartín,55,Nueva España,https://wikidata.org/entityQ10338128,"Avenida de Pío XII,3",24,254,-36.765.549,404.610.436
+255,255,"441910,45","4479454,04",255,5,Chamartín,55,Nueva España,https://wikidata.org/entityQ10338128,"Calle del General López Pozas, Madrid,2",24,255,-36.851.815,404.637.286
+256,256,"439465,58","4477545,36",256,9,Moncloa-Aravaca,93,Ciudad Universitaria,https://wikidata.org/entityQ3319235,"Calle de Beatriz de Bobadilla, Madrid,2",24,256,-37.138.353,404.463.599
+257,257,"438063,25","4476718,06",257,9,Moncloa-Aravaca,93,Ciudad Universitaria,https://wikidata.org/entityQ3319235,"AVENIDA DE JUAN DE HERRERA,1,1",24,257,-373.029,40.438.804
+258,258,"438326,14","4477849,84",258,9,Moncloa-Aravaca,93,Ciudad Universitaria,https://wikidata.org/entityQ3319235,"Avenida Complutense, Madrid,14",24,258,-37.273.004,40.449.019
+259,259,"438344,78","4477338,89",259,9,Moncloa-Aravaca,93,Ciudad Universitaria,https://wikidata.org/entityQ3319235,"PLAZA DE RAMON Y CAJAL,,",24,259,-3.727.031,404.444.176
+260,260,"438328,53","4477762,41",260,9,Moncloa-Aravaca,93,Ciudad Universitaria,https://wikidata.org/entityQ3319235,"CALLE DE JOSE ANTONIO NOVAIS,,",24,260,-37.272.637,404.482.316
+261,261,"438161,53","4478015,95",261,9,Moncloa-Aravaca,93,Ciudad Universitaria,https://wikidata.org/entityQ3319235,"Avenida Complutense, Madrid,7",24,261,-37.292.576,404.505.032
