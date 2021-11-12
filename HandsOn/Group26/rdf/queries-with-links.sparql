@@ -5,7 +5,7 @@ PREFIX ns:  <http://smartcity.linkeddata.es/ontology/TerrazasMadrid/>
 PREFIX admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/>
 
 
-#Devuelve todos los distritos y sus correspondientes reconciaciones en Wikidata+
+#Devuelve todos los distritos y sus correspondientes reconciaciones en Wikidata.
 
 SELECT DISTINCT ?distrito ?wikidata
 	WHERE {
@@ -13,7 +13,7 @@ SELECT DISTINCT ?distrito ?wikidata
 		?distrito owl:sameAs ?wikidata.
 	}
 
-#Devuelve todos los barrios y sus correspondientes reconciaciones en Wikidata
+#Devuelve todos los barrios y sus correspondientes reconciaciones en Wikidata.
 
 SELECT DISTINCT ?barrio ?wikidata
 	WHERE {
