@@ -8,7 +8,7 @@
 
 <http://smartcity.smartbins.es/lcc/resource/Bin/2545> rdf:type :Bin;
     :hasAlarm "Full"^^xsd:string;
-    :hasType "General"^^xsd:string;
+    :hasContainerType "General"^^xsd:string;
     :levelOfFullnes "8"^^xsd:integer;
     :hasDate "2021-08-21T12:00:12"^^xsd:dateTime
     :hasLon "-3.4"^^xsd:integer;

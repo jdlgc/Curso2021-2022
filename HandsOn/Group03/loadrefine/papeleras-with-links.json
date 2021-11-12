@@ -1,0 +1,221 @@
+[
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q132580",
+                "name": "recycling"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column Bin to type Q132580"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "Plastic",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1194111",
+            "name": "plastic recycling",
+            "types": [
+                ""
+            ],
+            "score": 33.5
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic recycling (Q1194111) for cells containing \"Plastic\" in column Bin"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "General",
+        "judgment": "matched",
+        "match": {
+            "id": "Q45701",
+            "name": "waste",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item waste (Q45701) for cells containing \"General\" in column Bin"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "General",
+        "judgment": "new",
+        "shareNewTopics": true,
+        "description": "Mark to create one single new item for all cells containing \"General\" in column Bin"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "General",
+        "judgment": "new",
+        "shareNewTopics": true,
+        "description": "Mark to create one single new item for all cells containing \"General\" in column Bin"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "General",
+        "judgment": "matched",
+        "match": {
+            "id": "Q216530",
+            "name": "waste container",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item waste container (Q216530) for cells containing \"General\" in column Bin"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "Plastic",
+        "judgment": "matched",
+        "match": {
+            "id": "Q41804911",
+            "name": "plastic container",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic container (Q41804911) for cells containing \"Plastic\" in column Bin"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "Plastic",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1194111",
+            "name": "plastic recycling",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic recycling (Q1194111) for cells containing \"Plastic\" in column Bin"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "Plastic",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1194111",
+            "name": "plastic recycling",
+            "types": [
+                ""
+            ],
+            "score": 33.5
+        },
+        "shareNewTopics": false,
+        "description": "Match item plastic recycling (Q1194111) for cells containing \"Plastic\" in column Bin"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Bin",
+        "similarValue": "General",
+        "judgment": "matched",
+        "match": {
+            "id": "Q132580",
+            "name": "recycling",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item recycling (Q132580) for cells containing \"General\" in column Bin"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "Bin",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_wikidata_recycling",
+        "columnInsertIndex": 2,
+        "description": "Create column same_as_wikidata_recycling at index 2 based on column Bin using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "alarm",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    ""
+                ],
+                "fromBlank": true,
+                "fromError": false,
+                "to": "OK"
+            }
+        ],
+        "description": "Mass edit cells in column alarm"
+    }
+]

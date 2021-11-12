@@ -476,5 +476,25 @@
         "repeat": false,
         "repeatCount": 10,
         "description": "Text transform on cells in column Place using expression value.trim()"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "alarm",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    ""
+                ],
+                "fromBlank": true,
+                "fromError": false,
+                "to": "OK"
+            }
+        ],
+        "description": "Mass edit cells in column alarm"
     }
 ]

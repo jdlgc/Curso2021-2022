@@ -8,4 +8,4 @@
 | Angel Collados Ontaneda         | [**angelux101**](https://github.com/angelux101)   |
 | Miguel Arroyo Marquez           | [**Arr0y0**](https://github.com/Arr0y0)           |
 | Iker Fernandez Ubierna          | [**IkerFU**](https://github.com/IkerFU)           |
-| Marino Jose Gonzales Garcia     | [**leviheichou**](https://github.com/leviheichou) |
+| Marino Jose Gonzalez Garcia     | [**leviheichou**](https://github.com/leviheichou) |
