@@ -15,8 +15,7 @@
     :Shape_Leng "1.03"^^xsd:float;
     :Shape_Area "43345.63"^^xsd:float;
     :hasBus "EMBAJADORES-PQUE.LINEAL MANZANARES";
-    :hasMetro "EMBAJADORES";
-    :hasTrafficLight "19731".
+    :hasMetro "EMBAJADORES".
 
 :"EMBAJADORES-PQUE.LINEAL MANZANARES" rdf:type class:Bus;
     :BusStation_Name ;
@@ -44,14 +43,5 @@
     :District_ID "1";
     :X "440485"^^xsd:integer;
     :Y "4473168"^^xsd:integer.
-
-:"19731" rdf:type class:Trafficlight;
-    :TafficLight_ID ;
-    :Elem_Type "SEMAFORO 3/200";
-    :District_ID "1";
-    :X "440113.117094007"^^xsd:float;
-    :Y "4475636.25296785"^^xsd:float;
-    :Lenght "-3.70602003815598"^^xsd:float;
-    :Latitude "40.4292087583627"^^xsd:float.
 
 
