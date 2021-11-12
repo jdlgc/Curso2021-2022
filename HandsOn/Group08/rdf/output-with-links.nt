@@ -1,555 +1,690 @@
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza de Espa�a".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza de Espa�a".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.238.823".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.122.567".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1326261".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza de España".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza de España".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4238823".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#4> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7122567".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q5397501".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Escuelas Aguirre".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Entre C/ Alcal� y C/ O'Donell ".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.215.533".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.823.158".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Alcalá y C/ O'Donell".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4215533".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6823158".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Avda. Ram�n y Cajal".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avda. Ram�n y Cajal  esq. C/ Pr�ncipe de Vergara".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.514.734".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.773.491".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q30467128".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Avenida de Ramón y Cajal, Madrid".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4514734".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6773491".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2481371".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Arturo Soria".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Arturo Soria  esq. C/  Vizconde de los Asilos ".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.400.457".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.392.422".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Arturo Soria  esq. C/  Vizconde de los Asilos".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4400457".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6392422".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q919536".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Villaverde".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Juan Pe�alver".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.347.147".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.133.167".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/. Juan Peñalver".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.347147".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7133167".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Farolillo".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Calle Farolillo - C/Ervigio".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "403.947.825".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.318.356".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3947825".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7318356".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q16302441".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Casa de Campo".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Casa de Campo  (Terminal del Telef�rico)".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.193.577".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.473.445".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Casa de Campo  (Terminal del Teleférico)".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4193577".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7473445".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Barajas Pueblo".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ J�piter".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.769.179".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-35.800.258".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q807230".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Barajas".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/. Júpiter, 21 (Barajas)".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4769179".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.5800258".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Pza. del Carmen".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza del Carmen esq. Tres Cruces. ".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.192.091".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.031.662".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q6080406".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza del Carmen".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza del Carmen esq. Tres Cruces.".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4192091".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7031662".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2076109".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Moratalaz".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avd. Moratalaz  esq. Camino de los Vinateros".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.079.517".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.453.104".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4079517".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6453104".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2420839".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Cuatro Caminos".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avda. Pablo Iglesias esq. C/ Marqu�s de Lema".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.455.439".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.071.303".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avda. Pablo Iglesias esq. C/ Marqués de Lema".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4455439".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7071303".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2463533".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Barrio del Pilar".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avd. Betanzos esq. C/  Monforte de Lemos ".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.782.322".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.115.364".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avd. Betanzos esq. C/  Monforte de Lemos".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4782322".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7115364".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q10296".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Vallecas".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Arroyo del Olivar  esq. C/  R�o Grande. ".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "403.881.478".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.515.286".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Arroyo del Olivar  esq. C/  Río Grande.".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3881478".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6515286".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Mendez Alvaro".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2479775".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Méndez Á�lvaro".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Juan de Mariana / Pza. Amanecer Mendez Alvaro".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "403.980.991".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.868.138".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3980991".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#47> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6868138".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q4781".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Castellana".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Jose Gutierrez Abascal".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.398.904".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.903.729".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4398904".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6903729".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Parque del Retiro".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1131807".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "El Retiro Park".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Paseo Venezuela- Casa de Vacas".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.144.444".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.824.999".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4144444".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6824999".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza Castilla".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2463399".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza de Castilla".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza Castilla (Canal)".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.655.841".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.887.449".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4655841".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6887449".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q3847485".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Ensanche de Vallecas".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avda La Gavia / Avda. Las Suertes".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "403.730.118".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.121.394".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3730118".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6121394".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Urb. Embajada".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Ria�o (Barajas) ".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.623.628".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-35.805.649".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Urbanización Embajada".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Riaño (Barajas)".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4623628".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.5805649".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza El�ptica".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza El�ptica - Avda. Oporto".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "403.850.336".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.187.679".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q16619985".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Plaza Elíptica".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza Elíptica - Avda. Oporto".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.3850336".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7187679".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q3076623".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Sanchinarro".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "C/ Princesa de Eboli esq C/ Maria Tudor".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.942.012".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.605.173".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4942012".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6605173".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q3314337".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "El Pardo".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Avda. La Guardia".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "405.180.701".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-37.746.101".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.5180701".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.7746101".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Juan Carlos I".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1583169".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Juan Carlos I Park".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Parque Juan Carlos I (frente oficinas mantenimiento)".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "404.607.255".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.163.407".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.4607255".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6163407".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q608766".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion> "Tres Olivos".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza Tres Olivos ".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "405.005.477".
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-36.897.308".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle> "Plaza Tres Olivos".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud> "40.5005477".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud> "-3.6897308".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "SO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de azufre".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "1"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "4"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "CO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q5282".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "monóxido de carbono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "6"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.6"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2025".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "136"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "99"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM2.5".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "9"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "18"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "30"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "307"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "5.11"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "TOL".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "tolueno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "20"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "8.0"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "BEN".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "8"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q15779".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "benceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "30"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.6"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "EBE".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2270".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "etilbenceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "35"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.5"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#8> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q409184".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "67"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "104"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "206"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "TOL".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "tolueno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "20"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "4.5"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "BEN".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q15779".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "benceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "30"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.0"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "EBE".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2270".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "etilbenceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "35"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.9"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#11> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q409184".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "105"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "96"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "256"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "5.87"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#16> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "139"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "92"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "305"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "4.7"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#17> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "CO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "monóxido de carbono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "6"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.5"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2025".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "30"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "62"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "18"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "107"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.1"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "TOL".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "tolueno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "20"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.6"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "BEN".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q15779".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "benceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "30"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.2"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "EBE".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2270".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "etilbenceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "35"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.3"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#18> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q409184".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "21"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "58"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM2.5".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "9"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "11"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "20"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "90"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.0"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "TOL".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "tolueno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "20"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "2.5"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "BEN".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q15779".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "benceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "30"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.7"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "EBE".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2270".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "etilbenceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "35"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.3"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#24> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q409184".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "67"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "75"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "178"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "6.28"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#27> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "SO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de azufre".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "1"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "6"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "CO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q5282".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "monóxido de carbono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "6"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.5"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2025".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "56"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "65"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "151"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "6.19"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#35> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "SO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de azufre".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "1"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "3"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q5282".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "183"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "112"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "41"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "392"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#36> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "73"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "83"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM2.5".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "9"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "14"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "24"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "195"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "TOL".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "tolueno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "20"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "6.3"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "BEN".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q15779".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "benceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "30"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.7"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "EBE".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2270".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "etilbenceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "35"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.1"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#38> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q409184".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "101"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "80"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "235"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "3.11"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#39> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "150"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "114"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "44"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "344"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#40> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "49"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "91"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM2.5".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "9"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "13"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "19"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "166"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#48> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "98"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "82"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "233"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "5.07"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#49> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "38"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "85"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM2.5".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "9"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "21"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "41"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "144"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#50> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "136"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "107"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "316"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "2.15"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#54> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "106"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "87"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "41"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "249"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "TOL".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "tolueno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "20"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "6.2"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "BEN".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q15779".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "benceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "30"^^<http://www.w3.org/2001/XMLSchema#int>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.0"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "EBE".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2270".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "etilbenceno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "35"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.1"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#55> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q409184".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "CO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "monóxido de carbono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "6"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "0.3"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2025".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "31"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "66"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM2.5".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "9"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "11"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "16"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "114"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#56> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "SO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de azufre".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "1"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "5"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q5282".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "46"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "89"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "28"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "160"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#57> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "2"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "22"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "25"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "13.51"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#58> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "67"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "69"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "1.79"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#59> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido nítrico".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "7"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion> "2021-11-11"^^<http://www.w3.org/2001/XMLSchema#date>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "81"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NO2".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207843".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "dióxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "8"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "101"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "PM10".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q207895".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "partículas en suspensión".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "10"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "34"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "NOx".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q498957".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "óxido de nitrógeno".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "12"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "224"^^<http://www.w3.org/2001/XMLSchema#float>.
-<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "O3".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q424418".
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas> "ozono".
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas> "14"^^<http://www.w3.org/2001/XMLSchema#int>.
 <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad> "8.11"^^<http://www.w3.org/2001/XMLSchema#float>.
+<http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#60> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q36933".
