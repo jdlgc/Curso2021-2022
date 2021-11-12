@@ -1,110 +1,15 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
-@prefix  vocab: <http://smartcity.linkeddata.es/transport/Ontology/>.
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix  vocab: <http://smartcity.linkeddata.es/transport/Ontology/>.
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://smartcity.linkeddata.es/>.
+
+
 <#TriplesMap1> a rr:TriplesMap;
-	rml:logicalSource [
-		rml:source "data/APARCABICIS_2021-update-with-links.csv";
-		rml:referenceFormulation ql:CSV ];
-	rr:subjectMap [
-		rr:template "http://smartcity.linkeddata.es/transport/Ontology/Aparcamiento/{ID}";
-		rr:class vocab:Aparcamiento	
-		];
-	rr:predicateObjectMap [
-		rr:predicate vocab:mxassetnum;
-		rr:objectMap [ rml:reference "ID";
-		rr:termType rr:Literal ] 
-	];
-	
-	rr:predicateObjectMap [
-		rr:predicate vocab:mintdistri;
-		rr:objectMap [ rml:reference "MINTDISTRI";
-		rr:termType rr:Literal ] 
-	];
-	rr:predicateObjectMap [
-		rr:predicate vocab:nombre_dis;
-		rr:objectMap [ rml:reference "NOMBRE_DIS";
-		rr:termType rr:Literal ] 
-	];
-	rr:predicateObjectMap [
-		rr:predicate vocab:mintbarrio;
-		rr:objectMap [ rml:reference "MINTBARRIO";
-		rr:termType rr:Literal ] 
-	];
-	rr:predicateObjectMap [
-		rr:predicate vocab:nombre_bar;
-		rr:objectMap [ rml:reference "NOMBRE_BAR";
-		rr:termType rr:Literal ] 
-	];
-	rr:predicateObjectMap [
-		rr:predicate vocab:estado;
-		rr:objectMap [ rml:reference "ESTADO";
-		rr:termType rr:Literal ] 
-	];
-	
-	
-	rr:predicateObjectMap [
-		rr:predicate vocab:mintnombre;
-		rr:objectMap [ rml:reference "Direccion";
-		rr:termType rr:Literal ] 
-	];
-	rr:predicateObjectMap [
-		rr:predicate vocab:mintnumero;
-		rr:objectMap [ rml:reference "MINTNUMERO";
-		rr:termType rr:Literal ] 
-	];
-	rr:predicateObjectMap [
-		rr:predicate vocab:mintndp;
-		rr:objectMap [ rml:reference "MINTNDP"; rr:termType rr:Literal ] 
-	].
-<#TriplesMap11> 
-  rml:logicalSource [
-    rml:source "./data/APARCABICIS_2021-update-with-links.csv" ;
-    rml:referenceFormulation ql:CSV 
-  ];
-  rr:subjectMap [
-    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Aparcamiento/{ID}/distrito/{NOMBRE_DIS}";
-    rr:class vocab:Aparcamiento
-  ];
-  rr:predicateObjectMap [
-	rr:predicate owl:sameAs;
-	rr:objectMap [
-		rml:reference "wikidata_Dis"
-		]
-	].
-<#TriplesMap12> 
-  rml:logicalSource [
-    rml:source "./data/APARCABICIS_2021-update-with-links.csv" ;
-    rml:referenceFormulation ql:CSV 
-  ];
-  rr:subjectMap [
-    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Aparcamiento/{ID}/barrio/{NOMBRE_BAR}";
-    rr:class vocab:Aparcamiento
-  ];
-  rr:predicateObjectMap [
-	rr:predicate owl:sameAs;
-	rr:objectMap [
-		rml:reference "wikidata_Bar"
-		]
-	].
-<#TriplesMap13> 
-  rml:logicalSource [
-    rml:source "./data/APARCABICIS_2021-update-with-links.csv" ;
-    rml:referenceFormulation ql:CSV 
-  ];
-  rr:subjectMap [
-    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Aparcamiento/{ID}/direccion";
-    rr:class vocab:Aparcamiento
-  ];
-  rr:predicateObjectMap [
-	rr:predicate owl:sameAs;
-	rr:objectMap [
-		rml:reference "wikidata_Dir"
-		]
-	].
-	<#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
     rml:source "./data/bases_bicimad-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
@@ -180,9 +85,9 @@
     ]
   ].
   
-<#TriplesMap21> 
+<#TriplesMap11> 
   rml:logicalSource [
-    rml:source "./data/bases_bicimad-updated-with-links.csv" ;
+    rml:source "./bases_bicimad-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -192,25 +97,25 @@
    rr:predicateObjectMap [
     rr:predicate owl:sameAs;
     rr:objectMap [
-      rml:reference "same_as_wikidata_distrito"
+      rr:template "{same_as_wikidata_distrito}"
     ]
   ].
-<#TriplesMap22> 
+<#TriplesMap12> 
   rml:logicalSource [
     rml:source "./data/bases_bicimad-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
     rr:template "http://smartcity.linkeddata.es/transport/Ontology/Bici/{id}/barrio/{Barrio}";
-    rr:class vocab:Bici
+    rr:class vocab:Bici 
   ];
    rr:predicateObjectMap [
     rr:predicate owl:sameAs;
     rr:objectMap [
-      rml:reference "same_as_wikidata_barrio"
+      rr:template "{same_as_wikidata_barrio}"
     ]
   ].
-<#TriplesMap23> 
+<#TriplesMap13> 
   rml:logicalSource [
     rml:source "./data/bases_bicimad-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
@@ -222,98 +127,11 @@
    rr:predicateObjectMap [
     rr:predicate owl:sameAs;
     rr:objectMap [
-      rml:reference "same_as_wikidata_direccion"
+	  rr:template "{same_as_wikidata_direccion}"
     ]
   ].
-<#TriplesMap3> a rr:TriplesMap;
-  rml:logicalSource [
-    rml:source "./data/Papeleras-solares-inteligentes-updated-with-links.csv" ;
-    rml:referenceFormulation ql:CSV 
-  ];
-  rr:subjectMap [
-    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Papelera/{id}";
-    rr:class vocab:Papelera
-  ];
-
-  rr:predicateObjectMap [
-    rr:predicate vocab:residuo;
-    rr:objectMap [
-      rml:reference "tipoResiduo"
-    ]
-  ];
-  rr:predicateObjectMap [
-    rr:predicate vocab:direccion1;
-    rr:objectMap [
-      rml:reference "Direccion"
-    ]
-  ];
-  rr:predicateObjectMap [
-    rr:predicate vocab:direccion2;
-    rr:objectMap [
-      rml:reference "Direccion_2"
-    ]
-  ];
-  rr:predicateObjectMap [
-    rr:predicate vocab:longitud;
-    rr:objectMap [
-      rml:reference "longitud"
-    ]
-  ];
-  rr:predicateObjectMap [
-    rr:predicate vocab:latitud;
-    rr:objectMap [
-      rml:reference "latitud"
-    ]
-  ];
-  rr:predicateObjectMap [
-    rr:predicate vocab:nivel;
-    rr:objectMap [
-      rml:reference "nivelLlenado"
-    ]
-  ];
-  rr:predicateObjectMap [
-    rr:predicate vocab:alerta;
-    rr:objectMap [
-      rml:reference "alerta"
-    ]
-  ];
-  rr:predicateObjectMap [
-    rr:predicate vocab:fecha;
-    rr:objectMap [
-      rml:reference "fecha"
-    ]
-  ].
-<#TriplesMap31> 
-  rml:logicalSource [
-    rml:source "./data/Papeleras-solares-inteligentes-updated-with-links.csv" ;
-    rml:referenceFormulation ql:CSV 
-  ];
-  rr:subjectMap [
-    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Papelera/{id}/{Direccion}";
-    rr:class vocab:Papelera
-  ];
-  rr:predicateObjectMap [
-	rr:predicate owl:sameAs;
-	rr:objectMap [
-		rml:reference "same_as_wikidata_Direccion"
-		]
-	].
-<#TriplesMap32> 
-  rml:logicalSource [
-    rml:source "./data/Papeleras-solares-inteligentes-updated-with-links.csv" ;
-    rml:referenceFormulation ql:CSV 
-  ];
-  rr:subjectMap [
-    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Papelera/{id}/{Direccion_2}";
-    rr:class vocab:Papelera
-  ];
-  rr:predicateObjectMap [
-	rr:predicate owl:sameAs;
-	rr:objectMap [
-		rml:reference "same_as_wikidata_Direccion_2"
-		]
-	].
-<#TriplesMap4> a rr:TriplesMap;
+  
+<#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
     rml:source "./data/Red-recarga-flota-municipal_publicable_20200227-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
@@ -404,7 +222,7 @@
       ]
   ]
   .
- <#TriplesMap41>
+ <#TriplesMap21>
  
    rml:logicalSource [
     rml:source "./data/Red-recarga-flota-municipal_publicable_20200227-updated-with-links.csv" ;
@@ -418,11 +236,11 @@
 	rr:predicateObjectMap [
 		rr:predicate owl:sameAs;
 		rr:objectMap [
-		  rml:reference "same_as_wikidata_distrito"
+		  rr:template "{same_as_wikidata_distrito}"
 		]
 	].
 
- <#TriplesMap42>
+ <#TriplesMap22>
 	rr:logicalSource [ 
 		rml:source "./data/Red-recarga-flota-municipal_publicable_20200227-updated-with-links.csv";
 	    rml:referenceFormulation ql:CSV 
@@ -435,11 +253,11 @@
 	rr:predicateObjectMap [
 		rr:predicate owl:sameAs;
 		rr:objectMap [
-		  rml:reference "same_as_wikidata_Direccion"
+		  rr:template "{same_as_wikidata_Direccion}"
 		]
 	].
 
- <#TriplesMap43>
+ <#TriplesMap23>
 	rr:logicalSource [ 
 		rml:source "./data/Red-recarga-flota-municipal_publicable_20200227-updated-with-links.csv";
 	    rml:referenceFormulation ql:CSV 
@@ -452,6 +270,199 @@
 	rr:predicateObjectMap [
 		rr:predicate owl:sameAs;
 		rr:objectMap [
-		  rml:reference "same_as_wikidata_conectores"
+		  rr:template "{same_as_wikidata_conectores}"
+		]
+	].
+
+
+<#TriplesMap3> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/Papeleras-solares-inteligentes-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Papelera/{id}";
+    rr:class vocab:Papelera
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:residuo;
+    rr:objectMap [
+      rml:reference "tipoResiduo"
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:direccion1;
+    rr:objectMap [
+      rml:reference "Direccion"
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:direccion2;
+    rr:objectMap [
+      rml:reference "Direccion_2"
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:longitud;
+    rr:objectMap [
+      rml:reference "longitud"
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:latitud;
+    rr:objectMap [
+      rml:reference "latitud"
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:nivel;
+    rr:objectMap [
+      rml:reference "nivelLlenado"
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:alerta;
+    rr:objectMap [
+      rml:reference "alerta"
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:fecha;
+    rr:objectMap [
+      rml:reference "fecha"
+    ]
+  ].
+<#TriplesMap31> 
+  rml:logicalSource [
+    rml:source "./data/Papeleras-solares-inteligentes-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Papelera/{id}/{Direccion}";
+    rr:class vocab:Papelera
+  ];
+  
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs;
+	rr:objectMap [
+		rr:template "{same_as_wikidata_Direccion}"
+		]
+	].
+	
+<#TriplesMap32> 
+  rml:logicalSource [
+    rml:source "./data/Papeleras-solares-inteligentes-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Papelera/{id}/{Direccion_2}";
+    rr:class vocab:Papelera
+  ];
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs;
+	rr:objectMap [
+		rr:template "{same_as_wikidata_Direccion_2}"
+		]
+	].
+
+<#TriplesMap4> a rr:TriplesMap;
+	rml:logicalSource [
+		rml:source "data/APARCABICIS_2021-update-with-links.csv";
+		rml:referenceFormulation ql:CSV ];
+	rr:subjectMap [
+		rr:template "http://smartcity.linkeddata.es/transport/Ontology/Aparcamiento/{ID}";
+		rr:class vocab:Aparcamiento	
+		];
+	rr:predicateObjectMap [
+		rr:predicate vocab:mxassetnum;
+		rr:objectMap [ rml:reference "ID";
+		rr:termType rr:Literal ] 
+	];
+	
+	rr:predicateObjectMap [
+		rr:predicate vocab:mintdistri;
+		rr:objectMap [ rml:reference "MINTDISTRI";
+		rr:termType rr:Literal ] 
+	];
+	rr:predicateObjectMap [
+		rr:predicate vocab:nombre_dis;
+		rr:objectMap [ rml:reference "NOMBRE_DIS";
+		rr:termType rr:Literal ] 
+	];
+	rr:predicateObjectMap [
+		rr:predicate vocab:mintbarrio;
+		rr:objectMap [ rml:reference "MINTBARRIO";
+		rr:termType rr:Literal ] 
+	];
+	rr:predicateObjectMap [
+		rr:predicate vocab:nombre_bar;
+		rr:objectMap [ rml:reference "NOMBRE_BAR";
+		rr:termType rr:Literal ] 
+	];
+	rr:predicateObjectMap [
+		rr:predicate vocab:estado;
+		rr:objectMap [ rml:reference "ESTADO";
+		rr:termType rr:Literal ] 
+	];
+	
+	
+	rr:predicateObjectMap [
+		rr:predicate vocab:mintnombre;
+		rr:objectMap [ rml:reference "Direccion";
+		rr:termType rr:Literal ] 
+	];
+	rr:predicateObjectMap [
+		rr:predicate vocab:mintnumero;
+		rr:objectMap [ rml:reference "MINTNUMERO";
+		rr:termType rr:Literal ] 
+	];
+	rr:predicateObjectMap [
+		rr:predicate vocab:mintndp;
+		rr:objectMap [ rml:reference "MINTNDP"; rr:termType rr:Literal ] 
+	].
+<#TriplesMap41> 
+  rml:logicalSource [
+    rml:source "data/APARCABICIS_2021-update-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Aparcamiento/{ID}/distrito/{NOMBRE_DIS}";
+    rr:class vocab:Aparcamiento
+  ];
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs;
+	rr:objectMap [
+		rr:template "{wikidata_Dis}"
+		]
+	].
+<#TriplesMap42> 
+  rml:logicalSource [
+    rml:source "data/APARCABICIS_2021-update-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Aparcamiento/{ID}/barrio/{NOMBRE_BAR}";
+    rr:class vocab:Aparcamiento
+  ];
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs;
+	rr:objectMap [
+		rr:template "{wikidata_Bar}"
+		]
+	].
+<#TriplesMap43> 
+  rml:logicalSource [
+    rml:source "data/APARCABICIS_2021-update-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/transport/Ontology/Aparcamiento/{ID}/direccion";
+    rr:class vocab:Aparcamiento
+  ];
+  rr:predicateObjectMap [
+	rr:predicate owl:sameAs;
+	rr:objectMap [
+		rr:template "{wikidata_Dir}"
 		]
 	].
