@@ -29,7 +29,7 @@
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema3:installDate; rr:termType rr:IRI ];
-    rr:objectMap [ rml:reference "installDate"; rr:termType rr:Literal; rr:datatype xsd:date]
+    rr:objectMap [ rml:reference "installDate"; rr:termType rr:Literal; rr:datatype xsd:DateTime]
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema3:bycicleParkingAtAddress; rr:termType rr:IRI ];
@@ -63,7 +63,7 @@
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema3:installDate; rr:termType rr:IRI ];
-    rr:objectMap [ rml:reference "installDate"; rr:termType rr:Literal; rr:datatype xsd:date]
+    rr:objectMap [ rml:reference "installDate"; rr:termType rr:Literal; rr:datatype xsd:DateTime]
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema3:atCross; rr:termType rr:IRI ];
@@ -119,7 +119,7 @@
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema3:hasIdDistrict; rr:termType rr:IRI ];
-    rr:objectMap [ rml:reference "idDistrict"; rr:termType rr:Literal]
+    rr:objectMap [ rml:reference "idDistrict"; rr:termType rr:Literal; rr:datatype schema2:Integer]
   ];  
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
@@ -137,7 +137,7 @@
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema3:hasIdNeighborhood; rr:termType rr:IRI ];
-    rr:objectMap [ rml:reference "idNeighborhood"; rr:termType rr:Literal]
+    rr:objectMap [ rml:reference "idNeighborhood"; rr:termType rr:Literal; rr:datatype xsd:integer]
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
@@ -154,7 +154,7 @@
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant schema2:streetAddress; rr:termType rr:IRI ];
-    rr:objectMap [ rml:reference "PostalAddress"; rr:termType rr:Literal]
+    rr:objectMap [ rml:reference "PostalAddress"; rr:termType rr:Literal; rr:datatype schema2:Text]
   ];
   rr:predicateObjectMap [
     rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
