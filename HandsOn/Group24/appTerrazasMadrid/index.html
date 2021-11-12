@@ -55,8 +55,7 @@
               </datalist>
             </div>
             <div class="input-field">
-              <input id="neighborhood" class="validate" type="text" list="list-neighborhood" value="" autocomplete="off"
-                required />
+              <input id="neighborhood" class="validate" type="text" list="list-neighborhood" value="" autocomplete="off" required />
               <label for="neighborhood">Barrio</label>
               <datalist id="list-neighborhood"></datalist>
             </div>
@@ -68,6 +67,7 @@
       Locales encontrados:
       <div class="card card-datos">
         <div class="card-content">
+          <p id="locales"></p>
         </div>
       </div>
     </div>
@@ -77,6 +77,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="index.js"></script>
 </body>
+
+<script type="text/javaScript">
+
+function onInput() {
+    var val = document.getElementById("district").value;
+    var opts = document.getElementById('list-district').childNodes;
+    for (var i = 0; i < opts.length; i++) {
+      if (opts[i].value === val) {
+        alert('item selected: ' + val);
+        break;
+      }
+    }
+  }
+
+</script>
 
 
 </html>
