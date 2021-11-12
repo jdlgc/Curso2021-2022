@@ -12,23 +12,39 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Calle
-:Calle rdf:type owl:ObjectProperty ;
-       rdfs:domain :Estacion ;
-       rdfs:range :Direccion ;
-       rdfs:comment "Calle dónde se ubica la estación" .
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#direccion
+:direccion rdf:type owl:ObjectProperty ;
+           rdfs:domain :Estacion ;
+           rdfs:range :Estacion .
 
 
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#medidoEn
 :medidoEn rdf:type owl:ObjectProperty ;
           rdfs:domain :Estacion ;
-          rdfs:range :Medicion ;
-          rdfs:comment "En qué estación fue tomada la muestra" .
+          rdfs:range :Medicion .
 
 
 #################################################################
 #    Data properties
 #################################################################
+
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#calle
+:calle rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Estacion ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#cantidad
+:cantidad rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Medicion ;
+          rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#fechaMedicion
+:fechaMedicion rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Medicion ;
+               rdfs:range xsd:dateTime .
+
 
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_estacion
 :id_estacion rdf:type owl:DatatypeProperty ;
@@ -39,56 +55,44 @@
 
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#id_gas
 :id_gas rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Gas ;
+        rdfs:domain :Medicion ;
         rdfs:range xsd:integer ;
         rdfs:comment "Identificador gas" .
 
 
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#latitud
 :latitud rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Direccion ;
+         rdfs:domain :Estacion ;
          rdfs:range xsd:integer ;
          rdfs:comment "Latitud" .
 
 
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#longitud
 :longitud rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Direccion ;
+          rdfs:domain :Estacion ;
           rdfs:range xsd:integer ;
           rdfs:comment "Longitud" .
 
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#medicion
-:medicion rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Medicion ;
-          rdfs:range xsd:float ;
-          rdfs:comment "Valor medido de gas" .
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_estacion
+:nombre_estacion rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Estacion ;
+                 rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#momento_medicion
-:momento_medicion rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :Medicion ;
-                  rdfs:range xsd:dateTime ;
-                  rdfs:comment "Fecha y hora de medición" .
+###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#nombre_gas
+:nombre_gas rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Medicion ;
+            rdfs:range xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Direccion
-:Direccion rdf:type owl:Class ;
-           rdfs:comment "Dirección dónde se encuentra la estación" .
-
-
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Estacion
 :Estacion rdf:type owl:Class ;
           rdfs:comment "Nombre de la estación" .
-
-
-###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Gas
-:Gas rdf:type owl:Class ;
-     rdfs:comment "Nombre del gas" .
 
 
 ###  http://www.semanticweb.org/grupo8/medio-ambiente/calidad-aire#Medicion

@@ -1,0 +1,124 @@
+ID_ESTACION,ID_GAS,NOMBRE,WIKIDATA-LINKS,NOTACION,FECHA,CANTIDAD
+8,1,dióxido de azufre,https://www.wikidata.org/wiki/Q5282,SO2,11/11/2021,4
+8,6,monóxido de carbono,https://www.wikidata.org/wiki/Q2025,CO,11/11/2021,0.6
+8,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,136
+8,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,99
+8,9,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM2.5,11/11/2021,18
+8,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,30
+8,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,307
+8,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,5.11
+8,20,tolueno,https://www.wikidata.org/wiki/Q15779,TOL,11/11/2021,8
+8,30,benceno,https://www.wikidata.org/wiki/Q2270,BEN,11/11/2021,1.6
+8,35,etilbenceno,https://www.wikidata.org/wiki/Q409184,EBE,11/11/2021,1.5
+11,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,67
+11,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,104
+11,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,206
+11,20,tolueno,https://www.wikidata.org/wiki/Q15779,TOL,11/11/2021,4.5
+11,30,benceno,https://www.wikidata.org/wiki/Q2270,BEN,11/11/2021,1
+11,35,etilbenceno,https://www.wikidata.org/wiki/Q409184,EBE,11/11/2021,0.9
+16,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,105
+16,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,96
+16,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,256
+16,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,5.87
+17,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,139
+17,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,92
+17,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,305
+17,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,4.7
+18,6,monóxido de carbono,https://www.wikidata.org/wiki/Q2025,CO,11/11/2021,0.5
+18,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,30
+18,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,62
+18,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,18
+18,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,107
+18,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,1.1
+18,20,tolueno,https://www.wikidata.org/wiki/Q15779,TOL,11/11/2021,1.6
+18,30,benceno,https://www.wikidata.org/wiki/Q2270,BEN,11/11/2021,0.2
+18,35,etilbenceno,https://www.wikidata.org/wiki/Q409184,EBE,11/11/2021,0.3
+24,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,21
+24,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,58
+24,9,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM2.5,11/11/2021,11
+24,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,20
+24,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,90
+24,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,1
+24,20,tolueno,https://www.wikidata.org/wiki/Q15779,TOL,11/11/2021,2.5
+24,30,benceno,https://www.wikidata.org/wiki/Q2270,BEN,11/11/2021,0.7
+24,35,etilbenceno,https://www.wikidata.org/wiki/Q409184,EBE,11/11/2021,0.3
+27,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,67
+27,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,75
+27,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,178
+27,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,6.28
+35,1,dióxido de azufre,https://www.wikidata.org/wiki/Q5282,SO2,11/11/2021,6
+35,6,monóxido de carbono,https://www.wikidata.org/wiki/Q2025,CO,11/11/2021,0.5
+35,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,56
+35,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,65
+35,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,151
+35,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,6.19
+36,1,dióxido de azufre,https://www.wikidata.org/wiki/Q5282,SO2,11/11/2021,3
+36,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,183
+36,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,112
+36,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,41
+36,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,392
+38,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,73
+38,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,83
+38,9,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM2.5,11/11/2021,14
+38,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,24
+38,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,195
+38,20,tolueno,https://www.wikidata.org/wiki/Q15779,TOL,11/11/2021,6.3
+38,30,benceno,https://www.wikidata.org/wiki/Q2270,BEN,11/11/2021,0.7
+38,35,etilbenceno,https://www.wikidata.org/wiki/Q409184,EBE,11/11/2021,1.1
+39,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,101
+39,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,80
+39,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,235
+39,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,3.11
+40,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,150
+40,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,114
+40,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,44
+40,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,344
+48,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,49
+48,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,91
+48,9,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM2.5,11/11/2021,13
+48,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,19
+48,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,166
+49,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,98
+49,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,82
+49,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,233
+49,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,5.07
+50,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,38
+50,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,85
+50,9,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM2.5,11/11/2021,21
+50,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,41
+50,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,144
+54,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,136
+54,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,107
+54,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,316
+54,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,2.15
+55,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,106
+55,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,87
+55,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,41
+55,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,249
+55,20,tolueno,https://www.wikidata.org/wiki/Q15779,TOL,11/11/2021,6.2
+55,30,benceno,https://www.wikidata.org/wiki/Q2270,BEN,11/11/2021,1
+55,35,etilbenceno,https://www.wikidata.org/wiki/Q409184,EBE,11/11/2021,1.1
+56,6,monóxido de carbono,https://www.wikidata.org/wiki/Q2025,CO,11/11/2021,0.3
+56,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,31
+56,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,66
+56,9,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM2.5,11/11/2021,11
+56,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,16
+56,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,114
+57,1,dióxido de azufre,https://www.wikidata.org/wiki/Q5282,SO2,11/11/2021,5
+57,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,46
+57,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,89
+57,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,28
+57,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,160
+58,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,2
+58,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,22
+58,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,25
+58,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,13.51
+59,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,1
+59,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,67
+59,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,69
+59,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,1.79
+60,7,óxido nítrico,https://www.wikidata.org/wiki/Q207843,NO,11/11/2021,81
+60,8,dióxido de nitrógeno,https://www.wikidata.org/wiki/Q207895,NO2,11/11/2021,101
+60,10,partículas en suspensión,https://www.wikidata.org/wiki/Q498957,PM10,11/11/2021,34
+60,12,óxido de nitrógeno,https://www.wikidata.org/wiki/Q424418,NOx,11/11/2021,224
+60,14,ozono,https://www.wikidata.org/wiki/Q36933,O3,11/11/2021,8.11
