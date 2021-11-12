@@ -1,0 +1,329 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.RDFNode;
+
+
+public class Queries {
+
+	Model model = ModelFactory.createDefaultModel();
+	
+	final static String endPointURI = "http://localhost:9000/sparql";
+	final static String wikiDataURI = "https://query.wikidata.org/sparql";
+
+	public Queries() {
+		//model.read("resources/output-datasets-with-links.nt");
+		//queryAccidentsFields();
+	}
+
+	public ArrayList<RDFNode> queryAccidentsFields () {
+		ArrayList<RDFNode> accidentsFields = new ArrayList<>();
+		String query = 
+				"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+				"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+				"SELECT DISTINCT ?p WHERE {\r\n" + 
+				"	?s rdf:type vocab:Accident .\r\n" +
+				"	?s ?p ?o.\r\n" +
+				"	FILTER (?p != rdf:type) .\r\n" +
+				"}";
+
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				accidentsFields.add(results.nextSolution().get("p"));    
+			}
+		}
+		finally {
+			qexec.close();
+
+		}
+		return accidentsFields;
+	}
+	
+	public ArrayList<RDFNode> queryAccidentsFieldsOptions (String vocab) {
+		ArrayList<RDFNode> accidentsFieldsOptions = new ArrayList<>();
+		String query = "";
+		if (vocab.equals("hasIdAccident")) {
+			query = 
+					"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+					"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+					"SELECT DISTINCT ?o WHERE {\r\n" + 
+					"	?s rdf:type vocab:Accident .\r\n" +
+					"	?s vocab:" + vocab + " ?o.\r\n" +
+					"}";
+		} else {
+			query = 
+					"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+					"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+					"SELECT ?o WHERE {\r\n" + 
+					"	?s rdf:type vocab:Accident .\r\n" +
+					"	?s vocab:" + vocab + " ?o.\r\n" +
+					"}";
+		}
+
+
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				accidentsFieldsOptions.add(results.nextSolution().get("o"));    
+			}
+		}
+		finally {
+			qexec.close();
+
+		}
+		return accidentsFieldsOptions;
+	}
+	
+	public String queryAccidentsId (String id) {
+		String res = "";
+		String query = 
+				"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+				"PREFIX accident: <http://www.preventbicyleaccidents-app.es/group02/resources/Accident/>\r\n" +
+				"SELECT DISTINCT ?p ?o WHERE {\r\n" + 
+				"	accident:" + id + " ?p ?o.\r\n" +
+				"	FILTER (?p != rdf:type) .\r\n" +
+				"}";
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				QuerySolution aux = results.nextSolution();
+				res += aux.get("p").toString().substring(81) + "		" + aux.get("o") + "\r\n";   
+			}
+		}
+		finally {
+			qexec.close();
+		}
+		return res;
+	}
+	
+	public ArrayList<RDFNode> queryVictimasFields () {
+		ArrayList<RDFNode> accidentsFields = new ArrayList<>();
+		String query = 
+				"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+				"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+				"PREFIX victim: <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/>" +
+				"SELECT DISTINCT ?p WHERE {\r\n" + 
+				"	?s rdf:type vocab:Person. \r\n" +
+				"	?s ?p ?o.\r\n" +
+				"	FILTER (?p != rdf:type) .\r\n" +
+				"}";
+
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				accidentsFields.add(results.nextSolution().get("p"));    
+			}
+		}
+		finally {
+			qexec.close();
+
+		}
+		return accidentsFields;
+	}
+	
+	public ArrayList<RDFNode> queryVictimsFieldsOptions (String vocab) {
+		ArrayList<RDFNode> victimsFieldsOptions = new ArrayList<>();
+		String query = "";
+		if (vocab.equals("hasIdVictim")) {
+			query = 
+					"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+					"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+					"SELECT DISTINCT ?o WHERE {\r\n" + 
+					"	?s rdf:type vocab:Person .\r\n" +
+					"	?s vocab:" + vocab + " ?o.\r\n" +
+					"}";
+		} else {
+			query = 
+					"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+					"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+					"SELECT ?o WHERE {\r\n" + 
+					"	?s rdf:type vocab:Person .\r\n" +
+					"	?s vocab:" + vocab + " ?o.\r\n" +
+					"}";
+		}
+
+
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				victimsFieldsOptions.add(results.nextSolution().get("o"));    
+			}
+		}
+		finally {
+			qexec.close();
+
+		}
+		return victimsFieldsOptions;
+	}
+	
+	
+	public String queryVictimsId (String id) {
+		String res = "";
+		String query = 
+				"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+				"PREFIX victim: <http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/>\r\n" +
+				"SELECT DISTINCT ?p ?o WHERE {\r\n" + 
+				"	victim:victima" + id + " ?p ?o.\r\n" +
+				"	FILTER (?p != rdf:type) .\r\n" +
+				"}";
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				QuerySolution aux = results.nextSolution();
+				res += aux.get("p").toString().substring(81) + "		" + aux.get("o") + "\r\n";   
+			}
+			System.out.println("MUESTRAME: " + res);
+		}
+		finally {
+			qexec.close();
+		}
+		return res;
+	}
+	
+	
+	
+	public HashMap<String, String> queryDistrictsOptions () {
+		HashMap<String, String> accidentsFields = new HashMap<>();
+		String query = 
+				"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+				"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+				"SELECT DISTINCT ?o1 ?o2 WHERE {\r\n" + 
+				"	?s ?p vocab:District .\r\n" +
+				"	?s vocab:hasDistrictName ?o1.\r\n" +
+				"	?s vocab:hasCode ?o2.\r\n" +
+				"}";
+
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				QuerySolution aux = results.nextSolution(); 
+				accidentsFields.put(aux.get("o1").toString(), "\"" + aux.get("o2").toString().replace("^^", "\"^^<").replace("int", "int>"));    
+			}
+		}
+		finally {
+			qexec.close();
+
+		}
+		return accidentsFields;
+	}
+	
+	
+	public String queryCrossingDistrict (String code) {
+		String res = "";
+		String query = 
+				"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+				"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+				"SELECT * WHERE {\r\n" + 
+				"	?s rdf:type vocab:Crossing. \r\n" +
+				"	?s vocab:crossIn ?o.\r\n" +
+				"	?o vocab:hasCode "+ code + ".\r\n" +
+				"}";
+		System.out.println(query);
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				res += results.nextSolution().get("s").toString() + "\r\n";  
+			}
+		}
+		finally {
+			qexec.close();
+
+		}
+		return res;
+	}
+	
+	
+	public String queryDistrictImage (String distrito) {
+		String res = "";
+		String query = 
+				"PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" +
+				"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+				"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+				"PREFIX district: <http://www.preventbicyleaccidents-app.es/group02/resources/District/>\r\n" + 
+				"SELECT DISTINCT ?o WHERE {\r\n" + 
+				"	?s rdf:type vocab:Crossing. \r\n" +
+				"	district:" + distrito + " owl:sameAs ?o.\r\n" +
+				"}";
+		System.out.println(query);
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				res += results.nextSolution().get("o").toString();  
+			}
+		}
+		finally {
+			qexec.close();
+
+		}
+		return res;
+	}
+	
+	public ArrayList<String> queryDistrictMapCrossing (String distrito) {
+		ArrayList<String> cruces = new ArrayList<>();
+		String query = 
+				"PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" +
+				"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n" +
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n" +
+				"PREFIX vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#>\r\n" +
+				"PREFIX district: <http://www.preventbicyleaccidents-app.es/group02/resources/District/>" + 
+				"SELECT DISTINCT ?o WHERE \r\n" + 
+				"	?s rdf:type vocab:Crossing. \r\n" +
+				"	district:" + distrito + " owl:sameAs ?o.\r\n" +
+				"}";
+		System.out.println(query);
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(endPointURI, query);
+		try {
+			ResultSet results = qexec.execSelect();
+			while (results.hasNext()) {
+				cruces.add(results.nextSolution().get("s").toString());  
+			}
+		}
+		finally {
+			qexec.close();
+
+		}
+		
+		return cruces;
+		
+		
+	}
+	
+
+	
+	
+
+	
+	
+
+
+
+
+
+}

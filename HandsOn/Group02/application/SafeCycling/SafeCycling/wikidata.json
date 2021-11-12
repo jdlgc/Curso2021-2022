@@ -1,0 +1,17 @@
+{
+  "head" : {
+    "vars" : [
+      "image"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "image" : {
+          "type" : "uri",
+          "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/De%20Madrid%20al%20cielo%2072.jpg"
+        }
+      }
+    ]
+  }
+}
