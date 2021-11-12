@@ -1,0 +1,64 @@
+prefixes:
+  ont: http://spainaq.linkeddata.com/aq/ontologies/Estacion#
+  rsc: http://spainaq.linkeddata.com/aq/resources/Estacion#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  dbo: http://dbpedia.org/ontology#
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+
+  Provincia:
+    sources:
+      - [./CSV/data-with-links.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/provincia/$(PROVINCIA)
+    po:
+      - [a, dbo:Provincia]
+      - [ont:provinciaID, $(PROVINCIA), xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_provincia)~iri]
+      - p: ont:hasMunicipio
+        o: 
+          mapping: Municipio
+
+  Municipio:
+    sources:
+      - [./CSV/data-with-links.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/municipio/$(MUNICIPIO)
+    po:
+      - [a, dbo:Municipio]
+      - [ont:municipioID, $(MUNICIPIO), xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_municipio)~iri]
+      - p: ont:hasEstacion
+        o: 
+          mapping: Estacion
+
+  Estacion:
+    sources:
+      - [./CSV/data-with-links.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/estacion/$(ESTACION)
+    po:
+      - [a, dbo:Estacion]
+      - [ont:estacionID, $(ESTACION), xsd:string]
+      - p: ont:hasMagnitud
+        o: 
+          mapping: Magnitud
+
+      - p: ont:hasEmisiones
+        o: 
+          mapping: Emisiones
+ 
+  Emisiones:
+    sources:
+      - [./CSV/data-with-links.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/emisiones/$(D01)_$(DATE)_$(V01)
+    po:
+      - [a, dbo:Emisiones]
+      - [ont:hasDate, $(DATE), xsd:date]
+      - [ont:hasValor, $(D01), xsd:string]
+      - [ont:hasValidez, $(V01), xsd:string]
+  Magnitud:
+    sources:
+      - [./CSV/data-with-links.csv~csv]
+    s: http://spainaq.linkeddata.com/aq/ontologies/magnitud/$(MAGNITUD)
+    po:
+      - [a, dbo:Magnitud]
+      - [ont:magnitudID, $(MAGNITUD), xsd:string]
