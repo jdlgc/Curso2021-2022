@@ -1,0 +1,468 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "distrito",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "distrito_extra",
+    "columnInsertIndex": 4,
+    "description": "Create column distrito_extra at index 4 based on column distrito using expression grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column distrito_extra to type Q3032114"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "01-CENTRO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1763376",
+      "name": "Centro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro (Q1763376) for cells containing \"01-CENTRO\" in column distrito_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "02-ARGANZUELA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2000929",
+      "name": "Arganzuela",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arganzuela (Q2000929) for cells containing \"02-ARGANZUELA\" in column distrito_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "03-RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2002296",
+      "name": "Retiro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Retiro (Q2002296) for cells containing \"03-RETIRO\" in column distrito_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "04-SALAMANCA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1773521",
+      "name": "Salamanca",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Salamanca (Q1773521) for cells containing \"04-SALAMANCA\" in column distrito_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "05-CHAMARTIN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1766348",
+      "name": "Chamartín",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chamartín (Q1766348) for cells containing \"05-CHAMARTIN\" in column distrito_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "06-TETUAN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1773540",
+      "name": "Tetuán",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tetuán (Q1773540) for cells containing \"06-TETUAN\" in column distrito_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "07-CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1763370",
+      "name": "Chamberí",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chamberí (Q1763370) for cells containing \"07-CHAMBERI\" in column distrito_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "08-FUENCARRAL-EL-PARDO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q656196",
+      "name": "Fuencarral-El Pardo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fuencarral-El Pardo (Q656196) for cells containing \"08-FUENCARRAL-EL-PARDO\" in column distrito_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_extra",
+    "similarValue": "09-MONCLOA-ARAVACA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2017682",
+      "name": "Moncloa-Aravaca",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Moncloa-Aravaca (Q2017682) for cells containing \"09-MONCLOA-ARAVACA\" in column distrito_extra"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "distrito_extra",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_distrito",
+    "columnInsertIndex": 5,
+    "description": "Create column same_as_wikidata_distrito at index 5 based on column distrito_extra using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "distrito_extra",
+    "description": "Remove column distrito_extra"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "barrio",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "barrio_extra",
+    "columnInsertIndex": 6,
+    "description": "Create column barrio_extra at index 6 based on column barrio using expression grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column barrio_extra to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "01-01-PALACIO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2136510",
+      "name": "Palacio",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Palacio (Q2136510) for cells containing \"01-01-PALACIO\" in column barrio_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "02-01-IMPERIAL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773740",
+      "name": "Imperial",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Imperial (Q3773740) for cells containing \"02-01-IMPERIAL\" in column barrio_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "03-01-PACIFICO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773753",
+      "name": "Pacífico",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pacífico (Q3773753) for cells containing \"03-01-PACIFICO\" in column barrio_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "04-01-RECOLETOS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3814551",
+      "name": "Recoletos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Recoletos (Q3814551) for cells containing \"04-01-RECOLETOS\" in column barrio_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "05-01-EL-VISO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4778",
+      "name": "El Viso",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Viso (Q4778) for cells containing \"05-01-EL-VISO\" in column barrio_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "06-01-BELLAS-VISTAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11908929",
+      "name": "Bellas Vistas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bellas Vistas (Q11908929) for cells containing \"06-01-BELLAS-VISTAS\" in column barrio_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "07-01-GAZTAMBIDE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10288587",
+      "name": "Gaztambide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gaztambide (Q10288587) for cells containing \"07-01-GAZTAMBIDE\" in column barrio_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "08-04-EL-PILAR",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773964",
+      "name": "El Pilar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Pilar (Q3773964) for cells containing \"08-04-EL-PILAR\" in column barrio_extra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio_extra",
+    "similarValue": "09-01-CASA-DE-CAMPO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16302441",
+      "name": "Casa de Campo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casa de Campo (Q16302441) for cells containing \"09-01-CASA-DE-CAMPO\" in column barrio_extra"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "barrio_extra",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_barrio",
+    "columnInsertIndex": 7,
+    "description": "Create column same_as_wikidata_barrio at index 7 based on column barrio_extra using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "barrio_extra",
+    "description": "Remove column barrio_extra"
+  }
+]

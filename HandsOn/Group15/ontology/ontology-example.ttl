@@ -1,21 +1,30 @@
- "0301110056" rdf:type class:ParkingMeter ;
- 	:locatedDistrict "District_01-CENTRO" ;
- 	:locatedNeighborhood "Neighborhood_01-01-PALACIO" ;
- 	:locatedVia "Via_CALLE-DE-LAS-AGUAS" ;
- 	:licensePlate "0301110056"^^xsd:integer ;
+@base <http://parquimetrosdemadrid.com/ontology/parquimetros#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix : <http://parquimetrosdemadrid.com/ontology/parquimetros#>.
+ 
+ <http://parquimetrosdemadrid.com/ontology/parquimetros#> rdf:type owl:Ontology .
+
+ <http://parquimetrosdemadrid.com/ParkingMeter/0301110056> rdf:type :ParkingMeter ;
+
+ 	:hasLocatedDistrict <http://parquimetrosdemadrid.com/District/01-CENTRO> ;
+ 	:hasLocatedNeighborhood <http://parquimetrosdemadrid.com/Neighborhood/01-01-PALACIO> ;
+ 	:hasLocatedVia <http://parquimetrosdemadrid.com/Via/01-01-PALACIO> ;
+ 	:licensePlate "0301110056"^^xsd:string ;
  	:gis_X "439608,1907882330"^^xsd:float ;
  	:gis_Y "4473550,0278627100"^^xsd:float ;
  	:releaseDate "2014-05-28"^^xsd:string .
 
-"District_01-CENTRO" rdf:type class:District ;
+
+ <http://parquimetrosdemadrid.com/District/01-CENTRO> rdf:type :District ;
 	:districtName "01-CENTRO"^^xsd:string .
 
 
-"Neighborhood_01-01-PALACIO" rdf:type class:Neighborhood ; 
+ <http://parquimetrosdemadrid.com/Neighborhood/01-01-PALACIO> rdf:type :Neighborhood ; 
 	:neighborhoodName "01-01-PALACIO"^^xsd:string .
 
-"Via_CALLE-DE-LAS-AGUAS" rdf:type class:Via ; 
+ <http://parquimetrosdemadrid.com/Via/01-01-PALACIO> rdf:type :Via ; 
 	:viaName "CALLE-DE-LAS-AGUAS"^^xsd:string ;
-	:viaNumber "1" ^^xsd:integer .
-
-
+	:viaNumber "1"^^xsd:string .
