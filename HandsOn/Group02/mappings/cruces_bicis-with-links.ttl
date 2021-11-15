@@ -23,7 +23,7 @@
 	rr:predicate vocab:hasIdCrossing; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "id_cruce"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:int
     ]
   ];
@@ -62,7 +62,7 @@
 	rr:predicate vocab:hasIdTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "id"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:int
     ]
   ];
@@ -71,7 +71,7 @@
 	rr:predicate vocab:wasInstalled; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "fecha_inst"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:dateTime
     ]
   ];
@@ -80,7 +80,7 @@
 	rr:predicate vocab:typeTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "tipo_elem"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:string
     ]
   ];
@@ -109,7 +109,7 @@
 	rr:predicate vocab:hasLat; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "latitud"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:float
     ]
   ];
@@ -118,7 +118,7 @@
 	rr:predicate vocab:hasLong; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "longitud"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:float
     ]
   ].
@@ -139,7 +139,7 @@
     rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "ID_DISTRICT"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:int
     ]
   ];
@@ -148,7 +148,7 @@
     rr:predicate vocab:hasDistrictName; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "NOMBRE"; 
-	  rr:termtype rr:Literal;
+	  rr:termType rr:Literal;
 	  rr:datatype xsd:string
     ]
   ];
