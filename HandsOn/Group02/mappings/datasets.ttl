@@ -3,7 +3,6 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix transit: <http://vocab.org/transit/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#> .
 @base <http://example.com/ns#>.
 
@@ -18,19 +17,20 @@
     rr:termType rr:IRI;
   rr:class vocab:Accident
   ];
-
+  
   rr:predicateObjectMap [
     rr:predicate vocab:hasIdAccident; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "EXPEDIENTE";
       rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
 
   rr:predicateObjectMap [
 	rr:predicate vocab:hasPlace; rr:termType rr:IRI;
     rr:objectMap [
-      rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}";
+      rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
       rr:termType rr:IRI 
 	]
   ];
@@ -56,7 +56,8 @@
     rr:predicate vocab:hasWeather; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIEMPO";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -64,7 +65,8 @@
     rr:predicate vocab:typeBicycle; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIPOVEHICULO";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -72,7 +74,8 @@
     rr:predicate vocab:causedBy; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIPOACCIDENTE";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ].
 
@@ -92,7 +95,8 @@
     rr:predicate vocab:hasAddressName; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "CALLE";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -100,7 +104,8 @@
     rr:predicate vocab:hasNumber; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "NUMERO";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
   
@@ -132,6 +137,7 @@
     rr:objectMap [
       rml:reference "VICTIMA";
       rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -139,7 +145,8 @@
     rr:predicate vocab:hasGender; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "SEXO";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -147,7 +154,8 @@
     rr:predicate vocab:hasRangeAge; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "RANGOEDAD";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -155,7 +163,8 @@
     rr:predicate vocab:hasRole; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "TIPOPERSONA";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -163,7 +172,8 @@
     rr:predicate vocab:gradeOfInjury; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "LESIVIDAD";
-      rr:dataType xsd:int
+	  rr:termType rr:Literal;
+      rr:dataType xsd:string
     ]
   ].
 
@@ -182,14 +192,18 @@
   rr:predicateObjectMap [
     rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
-      rml:reference "ID_DISTRICT"; rr:termtype rr:Literal
+      rml:reference "ID_DISTRICT"; 
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
 
   rr:predicateObjectMap [
     rr:predicate vocab:hasDistrictName; rr:termType rr:IRI;
     rr:objectMap [
-      rml:reference "NOMBRE"; rr:termtype rr:Literal
+      rml:reference "NOMBRE"; 
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:string
     ]
   ].
 
@@ -208,16 +222,20 @@
   rr:predicateObjectMap [
     rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
-      rml:reference "ID_DISTRICT"; rr:termtype rr:Literal
+      rml:reference "ID_DISTRICT"; 
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
 
   rr:predicateObjectMap [
     rr:predicate vocab:hasDistrictName; rr:termType rr:IRI;
     rr:objectMap [
-      rml:reference "NOMBRE"; rr:termtype rr:Literal
+      rml:reference "NOMBRE"; 
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:string
     ]
-  ].  
+  ]. 
 
 
 <#TriplesMap6> a rr:TriplesMap;
@@ -235,7 +253,8 @@
 	rr:predicate vocab:hasIdCrossing; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "id_cruce"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
   
@@ -273,7 +292,8 @@
 	rr:predicate vocab:hasIdTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "id"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
   
@@ -282,7 +302,7 @@
     rr:objectMap [
       rml:reference "fecha_inst"; 
 	  rr:termtype rr:Literal;
-	  rr:dataType xsd:dateTime
+	  rr:datatype xsd:dateTime
     ]
   ];
   
@@ -290,7 +310,8 @@
 	rr:predicate vocab:typeTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "tipo_elem"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -311,14 +332,15 @@
   rr:subjectMap [
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight{id}";
     rr:termType rr:IRI;
-	rr:class vocab:Geocoder
+	rr:class vocab:Geometry
   ];
   
   rr:predicateObjectMap [
 	rr:predicate vocab:hasLat; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "latitud"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:float
     ]
   ];
   
@@ -326,7 +348,8 @@
 	rr:predicate vocab:hasLong; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "longitud"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:float
     ]
   ].
   
@@ -345,7 +368,8 @@
     rr:predicate vocab:hasAddressName;
   rr:objectMap [
       rml:reference "CALLE";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -353,6 +377,7 @@
     rr:predicate vocab:typeAddress;
     rr:objectMap [
       rml:reference "TIPOCALLE";
-      rr:termType rr:Literal
+      rr:termType rr:Literal;
+	  rr:datatype xsd:string
     ]
   ].

@@ -15,10 +15,12 @@ map:om_000 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_001 a rr:ObjectMap;
     rml:reference "CALLE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_002 a rr:ObjectMap;
     rml:reference "TIPOCALLE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_001 a rr:PredicateMap;
@@ -37,7 +39,7 @@ map:pom_002 a rr:PredicateObjectMap;
 map:rules_000 a <http://rdfs.org/ns/void#Dataset>;
     <http://rdfs.org/ns/void#exampleResource> map:map_triplesmap1_000.
 map:s_000 a rr:SubjectMap;
-    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}~iri]".
+    rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_{CALLE}~iri ]".
 map:source_000 a rml:LogicalSource;
     rml:source "calles_tranquilas-updated.csv";
     rml:referenceFormulation ql:CSV.

@@ -32,7 +32,8 @@ map:om_000 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_001 a rr:ObjectMap;
     rml:reference "EXPEDIENTE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_002 a rr:ObjectMap;
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Address/{CALLE}";
     rr:termType rr:IRI.
@@ -45,22 +46,27 @@ map:om_004 a rr:ObjectMap;
     rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime>.
 map:om_005 a rr:ObjectMap;
     rml:reference "TIEMPO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_006 a rr:ObjectMap;
     rml:reference "TIPOVEHICULO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_007 a rr:ObjectMap;
     rml:reference "TIPOACCIDENTE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_008 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#Address";
     rr:termType rr:IRI.
 map:om_009 a rr:ObjectMap;
     rml:reference "CALLE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_010 a rr:ObjectMap;
     rml:reference "NUMERO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#int>.
 map:om_011 a rr:ObjectMap;
     rr:parentTriplesMap map:map_triplesmap4_000;
     rr:joinCondition map:jc_000.
@@ -69,28 +75,35 @@ map:om_012 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_013 a rr:ObjectMap;
     rml:reference "VICTIMA";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_014 a rr:ObjectMap;
     rml:reference "SEXO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_015 a rr:ObjectMap;
     rml:reference "RANGOEDAD";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_016 a rr:ObjectMap;
     rml:reference "TIPOPERSONA";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_017 a rr:ObjectMap;
     rml:reference "LESIVIDAD";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_018 a rr:ObjectMap;
     rr:constant "http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#District";
     rr:termType rr:IRI.
 map:om_019 a rr:ObjectMap;
     rml:reference "ID_DISTRICT";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#int>.
 map:om_020 a rr:ObjectMap;
     rml:reference "NOMBRE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:pm_000 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_001 a rr:PredicateMap;

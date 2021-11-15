@@ -10,97 +10,97 @@ prefixes:
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   vocab: http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#
-
+  
 mappings:
 
   triplesmap1:
     sources:
-      - [AccidentesBicicletas_2021-updated.csv~csv]
+      - [ AccidentesBicicletas_2021-updated.csv~csv ]
     s: http://www.preventbicyleaccidents-app.es/group02/resources/Accident/$(EXPEDIENTE)
     po:
-      - [a, vocab:Accident]
-      - [vocab:hasIdAccident,$(EXPEDIENTE)]
-      - [vocab:hasPlace, http://www.preventbicyleaccidents-app.es/group02/resources/Address/$(CALLE)~iri]
-      - [vocab:hasVictim, http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)~iri]
-      - [vocab:hasDate,$(DATETIME),xsd:dateTime]
-      - [vocab:hasWeather,$(TIEMPO)]
-      - [vocab:typeBicycle,$(TIPOVEHICULO)]
-      - [vocab:causedBy,$(TIPOACCIDENTE)]
+      - [ a, vocab:Accident ]
+      - [ vocab:hasIdAccident,$(EXPEDIENTE),xsd:string ]
+      - [ vocab:hasPlace, http://www.preventbicyleaccidents-app.es/group02/resources/Address/$(CALLE)~iri ]
+      - [ vocab:hasVictim, http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)~iri ]
+      - [ vocab:hasDate,$(DATETIME),xsd:dateTime ]
+      - [ vocab:hasWeather,$(TIEMPO),xsd:string ]
+      - [ vocab:typeBicycle,$(TIPOVEHICULO),xsd:string ]
+      - [ vocab:causedBy,$(TIPOACCIDENTE),xsd:string ]
 
   triplesmap2:
     sources:
-      - [AccidentesBicicletas_2021-updated.csv~csv]
+      - [ AccidentesBicicletas_2021-updated.csv~csv ]
     s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)
     po:
-      - [a, vocab:Address]
-      - [vocab:hasAddressName,$(CALLE)]
-      - [vocab:hasNumber,$(NUMERO)]
+      - [ a, vocab:Address ]
+      - [ vocab:hasAddressName,$(CALLE),xsd:string ]
+      - [ vocab:hasNumber,$(NUMERO),xsd:int ]
       - p: vocab:belongsTo
         o:
           mapping: triplesmap4
           condition:
             function: equal
             parameters:
-            - [str1, $(DISTRITO)]
-            - [str2, $(NOMBRE)]
+            - [ str1, $(DISTRITO) ]
+            - [ str2, $(NOMBRE) ]
 
   triplesmap3:
     sources:
-      - [AccidentesBicicletas_2021-updated.csv~csv]
+      - [ AccidentesBicicletas_2021-updated.csv~csv ]
     s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Person/victima$(VICTIMA)
     po:
-      - [a, vocab:Person]
-      - [vocab:hasIdVictim,$(VICTIMA)]
-      - [vocab:hasGender,$(SEXO)]
-      - [vocab:hasRangeAge,$(RANGOEDAD)]
-      - [vocab:hasRole,$(TIPOPERSONA)]
-      - [vocab:gradeOfInjury,$(LESIVIDAD)]
-
+      - [ a, vocab:Person ]
+      - [ vocab:hasIdVictim,$(VICTIMA),xsd:string ]
+      - [ vocab:hasGender,$(SEXO),xsd:string ]
+      - [ vocab:hasRangeAge,$(RANGOEDAD),xsd:string ]
+      - [ vocab:hasRole,$(TIPOPERSONA),xsd:string ]
+      - [ vocab:gradeOfInjury,$(LESIVIDAD),xsd:string ]
+      
   triplesmap4:
     sources:
-      - [distritos-updated.csv~csv]
+      - [ distritos-updated.csv~csv ]
     s: http://www.preventbicyleaccidents-app.es/group02/resources/District/$(NOMBRE)
     po:
-      - [a, vocab:District]
-      - [vocab:hasCode,$(ID_DISTRICT)]
-      - [vocab:hasDistrictName,$(NOMBRE)]
+      - [ a, vocab:District ]
+      - [ vocab:hasCode,$(ID_DISTRICT),xsd:int ]
+      - [ vocab:hasDistrictName,$(NOMBRE),xsd:string ]  
 
   triplesmap5:
     sources:
       - [ cabezas_semaforo_bici-updated.csv~csv ]
-    s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/$(id_cruce)~iri]
+    s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/$(id_cruce)~iri ]
     po:
       - [ a, vocab:Crossing ]
-      - [ vocab:hasIdCrossing,$(id_cruce) ]
+      - [ vocab:hasIdCrossing,$(id_cruce),xsd:int ]
       - [ vocab:hasTrafficLigh,http://www.preventbicyleaccidents-app.es/group02/resources/TrafficLight/$(id)~iri ]
       - p: vocab:crossIn
         o:
-          mapping: triplesmap4
+          mapping: triplesmap8
           condition:
             function: equal
             parameters:
-              - [ str1, $(distrito) ]
-              - [ str2, $(ID_DISTRICT) ]
+            - [ str1, $(distrito) ]
+            - [ str2, $(ID_DISTRICT) ]
 
   triplesmap6:
     sources:
       - [ cabezas_semaforo_bici-updated.csv~csv ]
-    s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/$(id_cruce)~iri]
+    s: http://www.preventbicyleaccidents-app.es/group02/resoruces/Crossing/$(id_cruce)~iri ]
     po:
       - [ a, vocab:TrafficLight ]
-      - [ vocab:hasIdTrafficLight,$(id) ]
-      - [ vocab:wasInstalled,$(fecha_inst) ]
-      - [ vocab:typeTrafficLigh,$(tipo_elem) ]
+      - [ vocab:hasIdTrafficLight,$(id),xsd:int ]
+      - [ vocab:wasInstalled,$(fecha_inst),xsd:dateTime ]
+      - [ vocab:typeTrafficLigh,$(tipo_elem),xsd:string ]
       - [ vocab:ubicatedin,http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight$(id)~iri ]
 
   triplesmap7:
     sources:
       - [ cabezas_semaforo_bici-updated.csv~csv ]
-    s: http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight$(id)~iri]
+    s: http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight$(id)~iri ]
     po:
       - [ a, vocab:Geometry ]
-      - [ vocab:hasLat,$(latitud) ]
-      - [ vocab:hasLong,$(longitud) ]
+      - [ vocab:hasLat,$(latitud),xsd:float ]
+      - [ vocab:hasLong,$(longitud),xsd:float ]
 
   triplesmap8:
     sources:
@@ -108,14 +108,14 @@ mappings:
     s: http://www.preventbicyleaccidents-app.es/group02/resources/District/$(ID_DISTRICT)
     po:
       - [ a, vocab:District ]
-      - [ vocab:hasCode,$(ID_DISTRICT) ]
-      - [ vocab:hasDistrictName,$(NOMBRE) ]
+      - [ vocab:hasCode,$(ID_DISTRICT),xsd:int ]
+      - [ vocab:hasDistrictName,$(NOMBRE),xsd:string ]
 
   triplesmap9:
     sources:
       - [ calles_tranquilas-updated.csv~csv ]
-    s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)~iri]
+    s: http://www.preventbicyleaccidents-app.es/group02/resources/Address/CALLE_$(CALLE)~iri ]
     po:
       - [ a, vocab:Address ]
-      - [ vocab:hasAddressName,$(CALLE) ]
-      - [ vocab:typeAddress,$(TIPOCALLE) ]
+      - [ vocab:hasAddressName,$(CALLE),xsd:string ]
+      - [ vocab:typeAddress,$(TIPOCALLE),xsd:string ]

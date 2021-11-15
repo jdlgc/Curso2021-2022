@@ -3,7 +3,6 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix transit: <http://vocab.org/transit/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix vocab: <http://www.preventbicyleaccidents-app.es/group02/ontology/bicycletrafficaccident#> .
 @base <http://example.com/ns#>.
 
@@ -23,7 +22,8 @@
 	rr:predicate vocab:hasIdCrossing; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "id_cruce"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
   
@@ -61,7 +61,8 @@
 	rr:predicate vocab:hasIdTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "id"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
   
@@ -70,7 +71,7 @@
     rr:objectMap [
       rml:reference "fecha_inst"; 
 	  rr:termtype rr:Literal;
-	  rr:dataType <http://www.w3.org/2001/XMLSchema#dateTime>
+	  rr:datatype xsd:dateTime
     ]
   ];
   
@@ -78,7 +79,8 @@
 	rr:predicate vocab:typeTrafficLight; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "tipo_elem"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:string
     ]
   ];
   
@@ -99,14 +101,15 @@
   rr:subjectMap [
     rr:template "http://www.preventbicyleaccidents-app.es/group02/resources/Geometry/trafficLight{id}";
     rr:termType rr:IRI;
-	rr:class vocab:Geocoder
+	rr:class vocab:Geometry
   ];
   
   rr:predicateObjectMap [
 	rr:predicate vocab:hasLat; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "latitud"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:float
     ]
   ];
   
@@ -114,7 +117,8 @@
 	rr:predicate vocab:hasLong; rr:termType rr:IRI;
     rr:objectMap [
       rml:reference "longitud"; 
-	  rr:termtype rr:Literal
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:float
     ]
   ].
   
@@ -133,13 +137,17 @@
   rr:predicateObjectMap [
     rr:predicate vocab:hasCode; rr:termType rr:IRI;
     rr:objectMap [
-      rml:reference "ID_DISTRICT"; rr:termtype rr:Literal
+      rml:reference "ID_DISTRICT"; 
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:int
     ]
   ];
 
   rr:predicateObjectMap [
     rr:predicate vocab:hasDistrictName; rr:termType rr:IRI;
     rr:objectMap [
-      rml:reference "NOMBRE"; rr:termtype rr:Literal
+      rml:reference "NOMBRE"; 
+	  rr:termtype rr:Literal;
+	  rr:datatype xsd:string
     ]
   ].
