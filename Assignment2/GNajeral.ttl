@@ -1,0 +1,17 @@
+
+@base <http://www.tarea2/> .
+@prefix c: <http://www.tarea2/class01#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+c:class01 
+	c:includes c:sensor029;
+	c:includes c:computer101.
+c:sensor029
+	c:hasMeasurement c:measurement8401.
+c:computer101
+	c:hasOwner c:user10A.
+c:measurement8401
+	c:hasTemperature "29"^^xsd:integer;
+	c:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+c:user10A
+	c:hasName "Pedro".
