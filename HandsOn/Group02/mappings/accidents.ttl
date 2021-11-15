@@ -48,7 +48,7 @@
     rr:objectMap [
       rml:reference "DATETIME";
       rr:termType rr:Literal;
-      rr:dataType xsd:dateTime
+      rr:datatype xsd:dateTime
     ]
   ];
   
@@ -173,7 +173,7 @@
     rr:objectMap [
       rml:reference "LESIVIDAD";
 	  rr:termType rr:Literal;
-      rr:dataType xsd:string
+      rr:datatype xsd:string
     ]
   ].
 
